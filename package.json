@@ -1,0 +1,75 @@
+{
+  "name": "@courthive/i18n",
+  "packageManager": "pnpm@11.1.2",
+  "version": "0.1.0",
+  "description": "Translation locales for the CourtHive ecosystem. Source-of-truth bundle served at runtime by competition-factory-server to TMX clients.",
+  "author": "Charles Allen <charles@CourtHive.com> (CourtHive.com)",
+  "license": "MIT",
+  "type": "module",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/CourtHive/courthive-i18n/issues",
+    "email": "support@CourtHive.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CourtHive/courthive-i18n.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./manifest": {
+      "types": "./dist/manifest.d.ts",
+      "default": "./dist/manifest.js"
+    },
+    "./locale-labels": {
+      "types": "./dist/locale-labels.d.ts",
+      "default": "./dist/locale-labels.js"
+    },
+    "./locales/*.json": "./dist/locales/*.json",
+    "./manifest.json": "./dist/manifest.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json && node scripts/copy-locales.cjs && node dist/manifest.gen.js",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint . --fix --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,json}\"",
+    "test": "node scripts/compare-keys.cjs && echo 'OK'",
+    "commitlint": "commitlint --edit",
+    "prepare": "husky && node scripts/install-husky-hooks.cjs",
+    "prepublishOnly": "pnpm build"
+  },
+  "lint-staged": {
+    "*.{js,ts,cjs,mjs}": "eslint --cache --fix",
+    "*": "prettier --ignore-unknown --write"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.3",
+    "@commitlint/config-conventional": "^20.5.3",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.59.0",
+    "@typescript-eslint/parser": "^8.59.0",
+    "eslint": "^10.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.2",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "@scarf/scarf",
+      "esbuild",
+      "unrs-resolver"
+    ]
+  }
+}

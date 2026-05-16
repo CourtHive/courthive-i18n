@@ -1,0 +1,39 @@
+name: ci
+
+# Mirrors the structure of provider-config / courthive-components CI:
+# install with pnpm, run the four gates, then build. The compare-keys
+# step is the hard parity gate — any key drift across locales fails
+# the build.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    name: lint + types + key parity + build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v6
+        with:
+          version: 11
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm check-types
+      - name: Compare keys across locales (parity gate)
+        run: node scripts/compare-keys.cjs
+      - run: pnpm build
+      - name: Sanity check generated manifest
+        run: |
+          test -f dist/manifest.json
+          test -f dist/locale-labels.js
+          node -e "const m = JSON.parse(require('fs').readFileSync('dist/manifest.json','utf8')); if (!m.locales.length) { console.error('empty manifest'); process.exit(1); }"
