@@ -7,7 +7,7 @@ for the full delivery architecture.
 
 ## Layout
 
-```
+```text
 src/
   locale-labels.ts     # Per-locale label + RTL flag
   manifest.gen.ts      # Build-time CLI: SHA256, keyCount, completeness
@@ -63,10 +63,10 @@ CI runs it on every PR and push. Pre-commit (husky) runs it too.
 
 ## Consumed by
 
-| Repo | How |
-|---|---|
+| Repo                         | How                                                                                                                                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `competition-factory-server` | `pnpm` dep (`link:../courthive-i18n` in dev); on bootstrap copies `dist/locales/*` + `dist/manifest.json` to a writable `i18n/` directory and serves them via `GET /i18n/*` endpoints. |
-| `TMX` (eventually) | Reads from CFS at runtime — never depends on `@courthive/i18n` directly. |
+| `TMX` (eventually)           | Reads from CFS at runtime — never depends on `@courthive/i18n` directly.                                                                                                               |
 
 ## License
 
