@@ -756,7 +756,11 @@
     "noTimeSet": "Heure non définie",
     "showAll": "__TODO__",
     "hideEmpty": "__TODO__",
-    "empty": "__TODO__"
+    "empty": "__TODO__",
+    "court": "__TODO__",
+    "event": "__TODO__",
+    "round": "__TODO__",
+    "matchUp": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Défaut de désinscription",
@@ -1970,5 +1974,55 @@
       "errorEvents": "__TODO__",
       "errorEmpty": "__TODO__"
     }
+  },
+  "tabs": {
+    "info": "__TODO__",
+    "events": "__TODO__",
+    "schedule": "__TODO__",
+    "matches": "__TODO__",
+    "players": "__TODO__",
+    "stats": "__TODO__"
+  },
+  "players": {
+    "name": "__TODO__",
+    "country": "__TODO__",
+    "cityState": "__TODO__",
+    "events": "__TODO__",
+    "rank": "__TODO__",
+    "noParticipants": "__TODO__"
+  },
+  "display": {
+    "label": "__TODO__",
+    "columns": "__TODO__",
+    "draw": "__TODO__",
+    "tableView": "__TODO__",
+    "statistics": "__TODO__"
+  },
+  "theme": {
+    "toggleDark": "__TODO__"
+  },
+  "language": {
+    "select": "__TODO__"
+  },
+  "registrationProfile": {
+    "entry": "__TODO__",
+    "entriesOpen": "__TODO__",
+    "entriesClose": "__TODO__",
+    "withdrawalDeadline": "__TODO__",
+    "entryMethod": "__TODO__",
+    "entryUrl": "__TODO__",
+    "entryFee": "__TODO__",
+    "accommodation": "__TODO__",
+    "transportation": "__TODO__",
+    "hospitality": "__TODO__",
+    "medical": "__TODO__",
+    "ceremonies": "__TODO__",
+    "drawCeremony": "__TODO__",
+    "awardsCeremony": "__TODO__",
+    "regulations": "__TODO__",
+    "sponsors": "__TODO__",
+    "additional": "__TODO__",
+    "dressCode": "__TODO__",
+    "contingencyPlan": "__TODO__"
   }
 }

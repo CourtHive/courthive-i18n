@@ -794,7 +794,11 @@
     "noTimeSet": "No time set",
     "showAll": "Show all",
     "hideEmpty": "Hide empty",
-    "empty": "empty"
+    "empty": "empty",
+    "court": "Court",
+    "event": "Event",
+    "round": "Round",
+    "matchUp": "Match"
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -1970,5 +1974,55 @@
       "errorEvents": "Could not create events from the plan",
       "errorEmpty": "Nothing to apply — every flight was unsupported or empty"
     }
+  },
+  "tabs": {
+    "info": "Info",
+    "events": "Events",
+    "schedule": "Schedule",
+    "matches": "Matches",
+    "players": "Participants",
+    "stats": "Stats"
+  },
+  "players": {
+    "name": "Name",
+    "country": "Country",
+    "cityState": "City / State",
+    "events": "Events",
+    "rank": "Rank",
+    "noParticipants": "No participants"
+  },
+  "display": {
+    "label": "Display",
+    "columns": "Columns",
+    "draw": "Draw",
+    "tableView": "Table view",
+    "statistics": "Statistics"
+  },
+  "theme": {
+    "toggleDark": "Toggle dark mode"
+  },
+  "language": {
+    "select": "Select language"
+  },
+  "registrationProfile": {
+    "entry": "Entry & Eligibility",
+    "entriesOpen": "Entries open",
+    "entriesClose": "Entries close",
+    "withdrawalDeadline": "Withdrawal deadline",
+    "entryMethod": "Entry method",
+    "entryUrl": "Entry URL",
+    "entryFee": "Fee",
+    "accommodation": "Accommodation",
+    "transportation": "Transportation",
+    "hospitality": "Hospitality",
+    "medical": "Medical Information",
+    "ceremonies": "Ceremonies & Social Events",
+    "drawCeremony": "Draw ceremony",
+    "awardsCeremony": "Awards ceremony",
+    "regulations": "Regulations",
+    "sponsors": "Sponsors",
+    "additional": "Additional Information",
+    "dressCode": "Dress code",
+    "contingencyPlan": "Weather contingency"
   }
 }
