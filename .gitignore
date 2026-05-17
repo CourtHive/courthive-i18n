@@ -5,3 +5,8 @@ coverage
 *.tsbuildinfo
 .eslintcache
 .DS_Store
+
+# Husky hook directory — regenerated on `pnpm install` by the
+# `prepare` script (husky CLI + scripts/install-husky-hooks.cjs).
+# Canonical hook bodies live in scripts/husky/ under version control.
+.husky/
