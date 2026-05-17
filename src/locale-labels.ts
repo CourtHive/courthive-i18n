@@ -27,5 +27,7 @@ export const localeLabels: Record<string, LocaleLabel> = {
   'pt-BR': { label: 'Portuguese (Brazil)', nativeLabel: 'Português (Brasil)', rtl: false },
   de: { label: 'German', nativeLabel: 'Deutsch', rtl: false },
   ar: { label: 'Arabic', nativeLabel: 'العربية', rtl: true },
+  cs: { label: 'Czech', nativeLabel: 'Čeština', rtl: false },
+  hr: { label: 'Croatian', nativeLabel: 'Hrvatski', rtl: false },
   'zh-CN': { label: 'Chinese (Simplified)', nativeLabel: '简体中文', rtl: false },
 };
