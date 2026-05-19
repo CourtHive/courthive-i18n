@@ -1688,7 +1688,12 @@
         "closingTime": "__TODO__",
         "timeOrderError": "__TODO__",
         "websiteLabel": "__TODO__",
-        "imageLabel": "__TODO__"
+        "imageLabel": "__TODO__",
+        "addressLine1Label": "__TODO__",
+        "cityLabel": "__TODO__",
+        "stateLabel": "__TODO__",
+        "postalCodeLabel": "__TODO__",
+        "countryCodeLabel": "__TODO__"
       }
     },
     "events": {
