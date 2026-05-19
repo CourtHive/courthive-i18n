@@ -1722,7 +1722,12 @@
         "closingTime": "关闭时间",
         "timeOrderError": "开放时间必须早于关闭时间",
         "websiteLabel": "__TODO__",
-        "imageLabel": "__TODO__"
+        "imageLabel": "__TODO__",
+        "addressLine1Label": "__TODO__",
+        "cityLabel": "__TODO__",
+        "stateLabel": "__TODO__",
+        "postalCodeLabel": "__TODO__",
+        "countryCodeLabel": "__TODO__"
       }
     },
     "events": {
