@@ -1720,7 +1720,9 @@
         "updateCourtNames": "更新球场名称",
         "openingTime": "开放时间",
         "closingTime": "关闭时间",
-        "timeOrderError": "开放时间必须早于关闭时间"
+        "timeOrderError": "开放时间必须早于关闭时间",
+        "websiteLabel": "__TODO__",
+        "imageLabel": "__TODO__"
       }
     },
     "events": {

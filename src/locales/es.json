@@ -1686,7 +1686,9 @@
         "updateCourtNames": "Actualizar nombres de canchas",
         "openingTime": "__TODO__",
         "closingTime": "__TODO__",
-        "timeOrderError": "__TODO__"
+        "timeOrderError": "__TODO__",
+        "websiteLabel": "__TODO__",
+        "imageLabel": "__TODO__"
       }
     },
     "events": {

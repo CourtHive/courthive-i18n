@@ -1724,7 +1724,9 @@
         "updateCourtNames": "Aktualizovat názvy kurtů",
         "openingTime": "Čas otevření",
         "closingTime": "Čas uzavření",
-        "timeOrderError": "Čas otevření musí být před časem uzavření"
+        "timeOrderError": "Čas otevření musí být před časem uzavření",
+        "websiteLabel": "__TODO__",
+        "imageLabel": "__TODO__"
       }
     },
     "events": {

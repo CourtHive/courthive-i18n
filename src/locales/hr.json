@@ -1724,7 +1724,9 @@
         "updateCourtNames": "Ažuriraj nazive terena",
         "openingTime": "Vrijeme otvaranja",
         "closingTime": "Vrijeme zatvaranja",
-        "timeOrderError": "Vrijeme otvaranja mora biti prije vremena zatvaranja"
+        "timeOrderError": "Vrijeme otvaranja mora biti prije vremena zatvaranja",
+        "websiteLabel": "__TODO__",
+        "imageLabel": "__TODO__"
       }
     },
     "events": {
