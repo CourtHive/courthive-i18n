@@ -1731,7 +1731,8 @@
         "cityLabel": "__TODO__",
         "stateLabel": "__TODO__",
         "postalCodeLabel": "__TODO__",
-        "countryCodeLabel": "__TODO__"
+        "countryCodeLabel": "__TODO__",
+        "countryCodePlaceholder": "__TODO__"
       }
     },
     "events": {
