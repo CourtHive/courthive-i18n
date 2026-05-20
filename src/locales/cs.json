@@ -1304,6 +1304,19 @@
       "cancel": "Zrušit",
       "apply": "Použít",
       "venueWarning": "Hodiny místa konání jsou ${startTime}–${endTime}. Místo bude rozšířeno, aby vyhovovalo této změně."
+    },
+    "editCategories": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "add": "__TODO__",
+      "empty": "__TODO__",
+      "duplicate": "__TODO__",
+      "confirmDelete": "__TODO__",
+      "deleteBlocked": "__TODO__",
+      "deleteDisabledHint": "__TODO__",
+      "unused": "__TODO__",
+      "usageCount": "__TODO__",
+      "usageList": "__TODO__"
     }
   },
   "dashboard": {
@@ -1323,7 +1336,9 @@
     "noEliminationStructures": "Žádné vyřazovací struktury",
     "viewCompetitiveness": "Zobrazit konkurenceschopnost",
     "viewBracket": "Zobrazit pavouka",
-    "allStructures": "Všechny struktury"
+    "allStructures": "Všechny struktury",
+    "categories": "__TODO__",
+    "noneSet": "__TODO__"
   },
   "drawers": {
     "editTournament": {

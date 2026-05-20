@@ -1304,6 +1304,19 @@
       "cancel": "Odustani",
       "apply": "Primijeni",
       "venueWarning": "Radno vrijeme lokacije je ${startTime}–${endTime}. Lokacija će biti proširena kako bi se prilagodila ovoj promjeni."
+    },
+    "editCategories": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "add": "__TODO__",
+      "empty": "__TODO__",
+      "duplicate": "__TODO__",
+      "confirmDelete": "__TODO__",
+      "deleteBlocked": "__TODO__",
+      "deleteDisabledHint": "__TODO__",
+      "unused": "__TODO__",
+      "usageCount": "__TODO__",
+      "usageList": "__TODO__"
     }
   },
   "dashboard": {
@@ -1323,7 +1336,9 @@
     "noEliminationStructures": "Nema eliminacijskih struktura",
     "viewCompetitiveness": "Pregled konkurentnosti",
     "viewBracket": "Pregled grupe",
-    "allStructures": "Sve strukture"
+    "allStructures": "Sve strukture",
+    "categories": "__TODO__",
+    "noneSet": "__TODO__"
   },
   "drawers": {
     "editTournament": {

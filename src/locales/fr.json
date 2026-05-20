@@ -1266,6 +1266,19 @@
       "loadError": "__TODO__",
       "grantError": "__TODO__",
       "revokeError": "__TODO__"
+    },
+    "editCategories": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "add": "__TODO__",
+      "empty": "__TODO__",
+      "duplicate": "__TODO__",
+      "confirmDelete": "__TODO__",
+      "deleteBlocked": "__TODO__",
+      "deleteDisabledHint": "__TODO__",
+      "unused": "__TODO__",
+      "usageCount": "__TODO__",
+      "usageList": "__TODO__"
     }
   },
   "dashboard": {
@@ -1285,7 +1298,9 @@
     "noEliminationStructures": "Pas de structures d'élimination",
     "viewCompetitiveness": "Afficher la compétitivité",
     "viewBracket": "Afficher le tableau",
-    "allStructures": "__TODO__"
+    "allStructures": "__TODO__",
+    "categories": "__TODO__",
+    "noneSet": "__TODO__"
   },
   "drawers": {
     "editTournament": {
