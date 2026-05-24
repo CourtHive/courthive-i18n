@@ -1317,6 +1317,17 @@
       "unused": "__TODO__",
       "usageCount": "__TODO__",
       "usageList": "__TODO__"
+    },
+    "firstLogin": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "newPasswordLabel": "__TODO__",
+      "newPasswordPlaceholder": "__TODO__",
+      "confirmPasswordLabel": "__TODO__",
+      "confirmPasswordPlaceholder": "__TODO__",
+      "setPassword": "__TODO__",
+      "failed": "__TODO__",
+      "tokenExpired": "__TODO__"
     }
   },
   "dashboard": {
