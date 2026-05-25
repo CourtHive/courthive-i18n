@@ -823,7 +823,8 @@
       "emailPlaceholder": "valid@email.com",
       "passwordLabel": "Passwort",
       "passwordPlaceholder": "mindestens 8 Zeichen",
-      "loginButton": "Anmelden"
+      "loginButton": "Anmelden",
+      "magicLinkButton": "__TODO__"
     },
     "settings": {
       "title": "Einstellungen",
@@ -1441,7 +1442,9 @@
     "devVariableError": "Beim Hinzufügen von Entwicklungsvariablen ist ein Fehler aufgetreten",
     "cannotDeleteParticipant": "Teilnehmer ist einer Auslosung zugeordnet und kann nicht gelöscht werden",
     "updatedParticipants": "__TODO__",
-    "addedEventEntries": "__TODO__"
+    "addedEventEntries": "__TODO__",
+    "magicLinkSent": "__TODO__",
+    "magicLinkInvalid": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisierung",

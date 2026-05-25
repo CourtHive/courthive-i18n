@@ -857,7 +857,8 @@
       "emailPlaceholder": "valid@email.com",
       "passwordLabel": "密码",
       "passwordPlaceholder": "最少8个字符",
-      "loginButton": "登录"
+      "loginButton": "登录",
+      "magicLinkButton": "__TODO__"
     },
     "settings": {
       "title": "设置",
@@ -1475,7 +1476,9 @@
     "devVariableError": "添加开发变量时发生错误",
     "cannotDeleteParticipant": "参赛者已分配到签表中，无法删除",
     "updatedParticipants": "__TODO__",
-    "addedEventEntries": "__TODO__"
+    "addedEventEntries": "__TODO__",
+    "magicLinkSent": "__TODO__",
+    "magicLinkInvalid": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",

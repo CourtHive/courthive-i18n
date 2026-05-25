@@ -861,7 +861,8 @@
       "emailPlaceholder": "valid@email.com",
       "passwordLabel": "Lozinka",
       "passwordPlaceholder": "minimalno 8 znakova",
-      "loginButton": "Prijava"
+      "loginButton": "Prijava",
+      "magicLinkButton": "__TODO__"
     },
     "settings": {
       "title": "Postavke",
@@ -1479,7 +1480,9 @@
     "missingMethodsArray": "Nedostaje polje metoda",
     "missingTournament": "Nedostaje turnir",
     "devVariableError": "Došlo je do greške pri dodavanju razvojnih varijabli",
-    "cannotDeleteParticipant": "Sudionik je dodijeljen ždrijebu i ne može se obrisati"
+    "cannotDeleteParticipant": "Sudionik je dodijeljen ždrijebu i ne može se obrisati",
+    "magicLinkSent": "__TODO__",
+    "magicLinkInvalid": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
