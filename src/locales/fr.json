@@ -823,7 +823,8 @@
       "emailPlaceholder": "valide@email.com",
       "passwordLabel": "Mot de passe",
       "passwordPlaceholder": "8 caractères minimum",
-      "loginButton": "Se connecter"
+      "loginButton": "Se connecter",
+      "magicLinkButton": "__TODO__"
     },
     "settings": {
       "title": "Paramètres",
@@ -1441,7 +1442,9 @@
     "devVariableError": "Une erreur est survenue lors de l'ajout des variables de développement",
     "cannotDeleteParticipant": "Le participant est assigné à un tableau et ne peut pas être supprimé",
     "updatedParticipants": "__TODO__",
-    "addedEventEntries": "__TODO__"
+    "addedEventEntries": "__TODO__",
+    "magicLinkSent": "__TODO__",
+    "magicLinkInvalid": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisation",

@@ -823,7 +823,8 @@
       "emailPlaceholder": "valid@email.com",
       "passwordLabel": "Contraseña",
       "passwordPlaceholder": "mínimo 8 caracteres",
-      "loginButton": "Iniciar sesión"
+      "loginButton": "Iniciar sesión",
+      "magicLinkButton": "__TODO__"
     },
     "settings": {
       "title": "Configuración",
@@ -1441,7 +1442,9 @@
     "devVariableError": "Ocurrió un error al agregar variables de desarrollo",
     "cannotDeleteParticipant": "El participante está asignado a un cuadro y no puede ser eliminado",
     "updatedParticipants": "__TODO__",
-    "addedEventEntries": "__TODO__"
+    "addedEventEntries": "__TODO__",
+    "magicLinkSent": "__TODO__",
+    "magicLinkInvalid": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorización",
