@@ -827,7 +827,9 @@
     "success": "成功",
     "required": "必填",
     "send": "发送",
-    "back": "__TODO__"
+    "back": "__TODO__",
+    "details": "__TODO__",
+    "validationDetails": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
