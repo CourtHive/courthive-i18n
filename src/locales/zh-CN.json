@@ -828,8 +828,8 @@
     "required": "必填",
     "send": "发送",
     "back": "__TODO__",
-    "details": "__TODO__",
-    "validationDetails": "__TODO__"
+    "details": "详情",
+    "validationDetails": "验证详情"
   },
   "modals": {
     "deleteEvents": {
