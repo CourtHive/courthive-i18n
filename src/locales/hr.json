@@ -832,8 +832,8 @@
     "success": "Uspjeh",
     "required": "Obavezno",
     "send": "Pošalji",
-    "details": "__TODO__",
-    "validationDetails": "__TODO__"
+    "details": "Detalji",
+    "validationDetails": "Detalji provjere"
   },
   "modals": {
     "deleteEvents": {

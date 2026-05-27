@@ -794,8 +794,8 @@
     "required": "Requerido",
     "back": "__TODO__",
     "send": "__TODO__",
-    "details": "__TODO__",
-    "validationDetails": "__TODO__"
+    "details": "Detalles",
+    "validationDetails": "Detalles de validación"
   },
   "modals": {
     "deleteEvents": {
