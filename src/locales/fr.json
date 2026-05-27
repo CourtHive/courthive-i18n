@@ -793,7 +793,9 @@
     "success": "Succès",
     "required": "Obligatoire",
     "back": "__TODO__",
-    "send": "__TODO__"
+    "send": "__TODO__",
+    "details": "__TODO__",
+    "validationDetails": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
