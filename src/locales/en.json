@@ -79,8 +79,8 @@
   "ovw": "Overview",
   "prt": "Participants",
   "evt": "Events",
-  "sch": "Schedule",
-  "sch2": "Schedule 2",
+  "sch": "Schedule (legacy)",
+  "sch2": "Schedule",
   "ven": "Venues",
   "rpt": "Reports",
   "pub": "Publishing",
@@ -893,7 +893,25 @@
     "court": "Court",
     "event": "Event",
     "round": "Round",
-    "matchUp": "Match"
+    "matchUp": "Match",
+    "noScheduledMatchUpsMatch": "No scheduled matchUps match the search",
+    "searchScheduledMatchUps": "Search scheduled matchUps...",
+    "scheduledTitle": "Scheduled MatchUps",
+    "scheduledCount_one": "{{count}} scheduled",
+    "scheduledCount_other": "{{count}} scheduled",
+    "filterMatchUps": "Filter matchUps",
+    "filterClearAll": "Clear All",
+    "filterAllEventTypes": "All Event Types",
+    "filterAllEvents": "All Events",
+    "filterAllFlights": "All Flights",
+    "filterAllGenders": "All Genders",
+    "filterAllRounds": "All Rounds",
+    "groupBy": {
+      "event": "By Event",
+      "draw": "By Draw",
+      "round": "By Round",
+      "structure": "By Structure"
+    }
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -1059,7 +1077,10 @@
         "representing": "Representing",
         "notes": "Notes",
         "split": "Split…",
-        "ignore": "Ignore"
+        "ignore": "Ignore",
+        "participantRole": "Role (player, coach, physio, …)",
+        "teamKey": "Team (group into team participants)",
+        "jerseyNumber": "Jersey number"
       },
       "ratingAuto": "Auto-detect",
       "eventPickerPlaceholder": "(select event…)",
@@ -1305,7 +1326,8 @@
     "createTeam": {
       "title": "Create Team",
       "selectAttribute": "Select attribute",
-      "create": "Create"
+      "create": "Create",
+      "teamAffiliation": "Team affiliation"
     },
     "getLatLong": {
       "title": "Location",
@@ -1424,15 +1446,15 @@
       "usageList": "{{name}} is used by: {{events}}"
     },
     "firstLogin": {
-      "title": "Set Your Password",
-      "intro": "Your administrator assigned you a temporary password. Please choose a new password to continue.",
-      "newPasswordLabel": "New Password",
-      "newPasswordPlaceholder": "At least 8 characters",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Re-enter new password",
-      "setPassword": "Set Password",
-      "failed": "Failed to set new password.",
-      "tokenExpired": "Your sign-in expired. Please log in again."
+      "title": "Set your password",
+      "intro": "Your account was created with a temporary password. Choose a new password to finish signing in.",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "minimum 8 characters",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "re-enter new password",
+      "setPassword": "Set password",
+      "failed": "Could not set your password. Please try again.",
+      "tokenExpired": "This sign-in session expired. Please log in again."
     },
     "forgotPassword": {
       "title": "Reset your password",
@@ -1490,16 +1512,16 @@
       "failed": "Delete failed."
     },
     "contactEmail": {
-      "title": "Contact email",
-      "label": "Email address",
+      "title": "Recovery email",
+      "label": "Recovery email",
       "save": "Save",
       "resend": "Resend verification",
-      "savedPending": "Verification email sent to {{email}}. Check your inbox.",
-      "resent": "Verification email re-sent.",
-      "alreadyVerified": "Your contact email is already verified.",
-      "failed": "Could not save contact email.",
-      "statusNotSet": "No contact email is set yet. Set one so you can recover your password by email.",
-      "statusPending": "Pending verification: {{email}}. Click the link in your inbox.",
+      "savedPending": "Verification email sent to {{email}}.",
+      "resent": "Verification email sent.",
+      "alreadyVerified": "Recovery email is already verified.",
+      "failed": "Could not update recovery email. Please try again.",
+      "statusNotSet": "No recovery email set. Add one so you can recover access if you lose your password.",
+      "statusPending": "Pending verification — check {{email}} and click the link.",
       "statusVerified": "Verified: {{email}}"
     },
     "editUser": {
@@ -1513,6 +1535,27 @@
       "providerRoleUpdated": "Role updated to {{role}}",
       "removeProviderTitle": "Remove provider association",
       "removeProviderConfirm": "Remove this user's association with {{provider}}? This action cannot be undone."
+    },
+    "teamProfile": {
+      "title": "Team profile",
+      "roster": "Roster",
+      "coaches": "Coaches",
+      "staff": "Staff",
+      "empty": "No members on this team yet.",
+      "columns": {
+        "name": "Name",
+        "sex": "Sex",
+        "role": "Role",
+        "contact": "Contact"
+      },
+      "counts": {
+        "players_one": "{{count}} player",
+        "players_other": "{{count}} players",
+        "coaches_one": "{{count}} coach",
+        "coaches_other": "{{count}} coaches",
+        "staff_one": "{{count}} staff",
+        "staff_other": "{{count}} staff"
+      }
     }
   },
   "dashboard": {
@@ -1666,7 +1709,8 @@
     "devVariableError": "An error occurred while adding dev variables",
     "cannotDeleteParticipant": "Participant is assigned to a draw and cannot be deleted",
     "magicLinkSent": "If an account exists for that email, a login link is on its way.",
-    "magicLinkInvalid": "That login link is invalid or has expired. Please request a new one."
+    "magicLinkInvalid": "That login link is invalid or has expired. Please request a new one.",
+    "addedTeamParticipants": "Generated {{count}} team participant(s) from the team column"
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -1766,7 +1810,9 @@
       "events": "Events",
       "teams": "Teams",
       "cityState": "City/State",
-      "nickname": "Nickname"
+      "nickname": "Nickname",
+      "role": "Role",
+      "teamAffiliation": "Team affiliation"
     },
     "bracket": {
       "participant": "Participant",
@@ -2062,7 +2108,8 @@
         "male": "Male",
         "female": "Female",
         "unknown": "Unknown"
-      }
+      },
+      "staff": "Staff"
     }
   },
   "overlays": {

@@ -893,7 +893,25 @@
     "court": "__TODO__",
     "event": "__TODO__",
     "round": "__TODO__",
-    "matchUp": "__TODO__"
+    "matchUp": "__TODO__",
+    "noScheduledMatchUpsMatch": "__TODO__",
+    "searchScheduledMatchUps": "__TODO__",
+    "scheduledTitle": "__TODO__",
+    "scheduledCount_one": "__TODO__",
+    "scheduledCount_other": "__TODO__",
+    "filterMatchUps": "__TODO__",
+    "filterClearAll": "__TODO__",
+    "filterAllEventTypes": "__TODO__",
+    "filterAllEvents": "__TODO__",
+    "filterAllFlights": "__TODO__",
+    "filterAllGenders": "__TODO__",
+    "filterAllRounds": "__TODO__",
+    "groupBy": {
+      "event": "__TODO__",
+      "draw": "__TODO__",
+      "round": "__TODO__",
+      "structure": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Propust odjave",
@@ -1059,7 +1077,10 @@
         "representing": "Predstavlja",
         "notes": "Bilješke",
         "split": "Podijeli…",
-        "ignore": "Ignoriraj"
+        "ignore": "Ignoriraj",
+        "participantRole": "__TODO__",
+        "teamKey": "__TODO__",
+        "jerseyNumber": "__TODO__"
       },
       "ratingAuto": "Automatsko otkrivanje",
       "eventPickerPlaceholder": "(odaberi natjecanje…)",
@@ -1305,7 +1326,8 @@
     "createTeam": {
       "title": "Stvori ekipu",
       "selectAttribute": "Odaberi atribut",
-      "create": "Stvori"
+      "create": "Stvori",
+      "teamAffiliation": "__TODO__"
     },
     "getLatLong": {
       "title": "Lokacija",
@@ -1513,6 +1535,27 @@
       "providerRoleUpdated": "__TODO__",
       "removeProviderTitle": "__TODO__",
       "removeProviderConfirm": "__TODO__"
+    },
+    "teamProfile": {
+      "title": "__TODO__",
+      "roster": "__TODO__",
+      "coaches": "__TODO__",
+      "staff": "__TODO__",
+      "empty": "__TODO__",
+      "columns": {
+        "name": "__TODO__",
+        "sex": "__TODO__",
+        "role": "__TODO__",
+        "contact": "__TODO__"
+      },
+      "counts": {
+        "players_one": "__TODO__",
+        "players_other": "__TODO__",
+        "coaches_one": "__TODO__",
+        "coaches_other": "__TODO__",
+        "staff_one": "__TODO__",
+        "staff_other": "__TODO__"
+      }
     }
   },
   "dashboard": {
@@ -1666,7 +1709,8 @@
     "devVariableError": "Došlo je do greške pri dodavanju razvojnih varijabli",
     "cannotDeleteParticipant": "Sudionik je dodijeljen ždrijebu i ne može se obrisati",
     "magicLinkSent": "__TODO__",
-    "magicLinkInvalid": "__TODO__"
+    "magicLinkInvalid": "__TODO__",
+    "addedTeamParticipants": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -1766,7 +1810,9 @@
       "events": "Natjecanja",
       "teams": "Ekipe",
       "cityState": "Grad/Županija",
-      "nickname": "Nadimak"
+      "nickname": "Nadimak",
+      "role": "__TODO__",
+      "teamAffiliation": "__TODO__"
     },
     "bracket": {
       "participant": "Sudionik",
@@ -2062,7 +2108,8 @@
         "male": "Muški",
         "female": "Ženski",
         "unknown": "Nepoznato"
-      }
+      },
+      "staff": "__TODO__"
     }
   },
   "overlays": {
