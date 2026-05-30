@@ -2210,7 +2210,16 @@
     "cityState": "__TODO__",
     "events": "__TODO__",
     "rank": "__TODO__",
-    "noParticipants": "__TODO__"
+    "noParticipants": "__TODO__",
+    "teamsHeading": "__TODO__",
+    "teamCounts": {
+      "players_one": "__TODO__",
+      "players_other": "__TODO__",
+      "coaches_one": "__TODO__",
+      "coaches_other": "__TODO__",
+      "staff_one": "__TODO__",
+      "staff_other": "__TODO__"
+    }
   },
   "display": {
     "label": "__TODO__",
