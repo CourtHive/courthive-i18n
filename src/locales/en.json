@@ -393,7 +393,39 @@
     "representativeAssigned": "User assigned as representative",
     "representativeRemoved": "Representative removed",
     "removeRepresentative": "Remove Representative",
-    "removeRepresentativeConfirm": "Remove {{email}} as a representative? They will no longer be able to act as this provisioner."
+    "removeRepresentativeConfirm": "Remove {{email}} as a representative? They will no longer be able to act as this provisioner.",
+    "contactEmailCoverage": {
+      "label": "Recovery email coverage",
+      "loading": "Loading…",
+      "verified": "verified",
+      "unverified": "pending",
+      "missing": "missing",
+      "equalsLogin": "= login id",
+      "total": "of {{count}} users"
+    },
+    "audit": {
+      "tabLabel": "Audit",
+      "title": "Deleted-draw audit trail",
+      "tournamentsLabel": "Tournaments",
+      "tournamentFilterPlaceholder": "Filter by tournament name or id",
+      "deletedDrawsLabel": "Deleted draws",
+      "selectTournament": "Select a tournament to view its deleted draws",
+      "noTournaments": "No tournaments for this provider",
+      "tournamentName": "Tournament",
+      "tournamentId": "Tournament ID",
+      "startDate": "Start date",
+      "drawName": "Draw",
+      "eventId": "Event",
+      "deletedAt": "Deleted at",
+      "deletedBy": "Deleted by",
+      "restore": "Restore",
+      "restoreTitle": "Restore deleted draw",
+      "restorePrompt": "Restoring will re-insert the draw with all of its matchUps, scores, and assignments.",
+      "restoreSuccess": "Draw restored",
+      "restoreFailure": "Restore failed",
+      "calendarLoadError": "Failed to load calendar",
+      "deletedDrawsLoadError": "Failed to load deleted draws"
+    }
   },
   "round_names": {
     "F": "Final",
@@ -2426,5 +2458,13 @@
     "title": "CourtHive Console",
     "amsSection": "Associate Management",
     "platformSection": "Platform Admin"
-  }
+  },
+  "recoveryEmail": "Recovery email",
+  "recoveryEmailHelp": "Real mailbox for password recovery. Separate from the login email above.",
+  "verified": "Verified",
+  "unverified": "Unverified",
+  "sendVerification": "Send verification",
+  "verificationSent": "Verification email sent",
+  "alreadyVerified": "Recovery email already verified",
+  "noRecoveryEmail": "No recovery email set"
 }
