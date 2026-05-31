@@ -1424,6 +1424,33 @@
         "staff_one": "__TODO__",
         "staff_other": "__TODO__"
       }
+    },
+    "practiceCapacity": {
+      "title": "__TODO__",
+      "help": "__TODO__",
+      "unlimited": "__TODO__",
+      "capped": "__TODO__",
+      "saved": "__TODO__",
+      "invalidNumber": "__TODO__",
+      "mustBeNonNegative": "__TODO__"
+    },
+    "practiceRegistrations": {
+      "title": "__TODO__",
+      "bookingNotFound": "__TODO__",
+      "currentRegistrations": "__TODO__",
+      "noneYet": "__TODO__",
+      "addRegistrant": "__TODO__",
+      "participantLabel": "__TODO__",
+      "participantPlaceholder": "__TODO__",
+      "startTime": "__TODO__",
+      "endTime": "__TODO__",
+      "add": "__TODO__",
+      "added": "__TODO__",
+      "removed": "__TODO__",
+      "pickParticipant": "__TODO__",
+      "pickTimes": "__TODO__",
+      "invalidWindow": "__TODO__",
+      "conflictWarning": "__TODO__"
     }
   },
   "dashboard": {
@@ -1445,7 +1472,10 @@
     "viewBracket": "Afficher le tableau",
     "allStructures": "__TODO__",
     "categories": "__TODO__",
-    "noneSet": "__TODO__"
+    "noneSet": "__TODO__",
+    "practiceCapacity": "__TODO__",
+    "practiceUnlimited": "__TODO__",
+    "practiceClosed": "__TODO__"
   },
   "drawers": {
     "editTournament": {
