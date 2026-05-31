@@ -2382,7 +2382,8 @@
       "policies": "__TODO__",
       "defaults": "__TODO__",
       "integrations": "__TODO__",
-      "privacy": "__TODO__"
+      "privacy": "__TODO__",
+      "themeTokens": "__TODO__"
     },
     "privacy": {
       "settingsHint": "__TODO__",
@@ -2403,7 +2404,8 @@
       "navbarLogoAlt": "__TODO__",
       "navbarLogoHeight": "__TODO__",
       "splashLogoUrl": "__TODO__",
-      "accentColor": "__TODO__"
+      "accentColor": "__TODO__",
+      "stylesheetUrl": "__TODO__"
     },
     "defaults": {
       "defaultEventType": "__TODO__",
@@ -2422,7 +2424,16 @@
     "settingsSaved": "__TODO__",
     "invalid": "__TODO__",
     "saveFailed": "__TODO__",
-    "loadCapsForGating": "__TODO__"
+    "loadCapsForGating": "__TODO__",
+    "themeTokens": {
+      "label": "__TODO__",
+      "hint": "__TODO__",
+      "preset": "__TODO__",
+      "chooseAPreset": "__TODO__",
+      "add": "__TODO__",
+      "remove": "__TODO__",
+      "invalidPrefix": "__TODO__"
+    }
   },
   "banners": {
     "contactEmail": {
