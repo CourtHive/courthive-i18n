@@ -393,7 +393,39 @@
     "representativeAssigned": "User assigned as representative",
     "representativeRemoved": "Representative removed",
     "removeRepresentative": "Remove Representative",
-    "removeRepresentativeConfirm": "Remove {{email}} as a representative? They will no longer be able to act as this provisioner."
+    "removeRepresentativeConfirm": "Remove {{email}} as a representative? They will no longer be able to act as this provisioner.",
+    "contactEmailCoverage": {
+      "label": "Recovery email coverage",
+      "loading": "Loading…",
+      "verified": "verified",
+      "unverified": "pending",
+      "missing": "missing",
+      "equalsLogin": "= login id",
+      "total": "of {{count}} users"
+    },
+    "audit": {
+      "tabLabel": "Audit",
+      "title": "Deleted-draw audit trail",
+      "tournamentsLabel": "Tournaments",
+      "tournamentFilterPlaceholder": "Filter by tournament name or id",
+      "deletedDrawsLabel": "Deleted draws",
+      "selectTournament": "Select a tournament to view its deleted draws",
+      "noTournaments": "No tournaments for this provider",
+      "tournamentName": "Tournament",
+      "tournamentId": "Tournament ID",
+      "startDate": "Start date",
+      "drawName": "Draw",
+      "eventId": "Event",
+      "deletedAt": "Deleted at",
+      "deletedBy": "Deleted by",
+      "restore": "Restore",
+      "restoreTitle": "Restore deleted draw",
+      "restorePrompt": "Restoring will re-insert the draw with all of its matchUps, scores, and assignments.",
+      "restoreSuccess": "Draw restored",
+      "restoreFailure": "Restore failed",
+      "calendarLoadError": "Failed to load calendar",
+      "deletedDrawsLoadError": "Failed to load deleted draws"
+    }
   },
   "round_names": {
     "F": "Final",
@@ -2294,7 +2326,8 @@
       "policies": "Policies",
       "defaults": "Defaults",
       "integrations": "Integrations",
-      "privacy": "Participant Privacy"
+      "privacy": "Participant Privacy",
+      "themeTokens": "Theme tokens (CSS variables)"
     },
     "privacy": {
       "settingsHint": "Each toggle below relaxes the default privacy policy for one participant attribute. Leave off (the default) to keep that attribute private.",
@@ -2315,7 +2348,8 @@
       "navbarLogoAlt": "Navbar logo alt text",
       "navbarLogoHeight": "Navbar logo height (px)",
       "splashLogoUrl": "Splash logo URL",
-      "accentColor": "Accent color (CSS)"
+      "accentColor": "Accent color (CSS)",
+      "stylesheetUrl": "Provider stylesheet URL (escape hatch)"
     },
     "defaults": {
       "defaultEventType": "Default event type",
@@ -2334,7 +2368,16 @@
     "settingsSaved": "Settings saved",
     "invalid": "Validation failed — see field errors below",
     "saveFailed": "Save failed",
-    "loadCapsForGating": "Loading caps to determine which fields are locked..."
+    "loadCapsForGating": "Loading caps to determine which fields are locked...",
+    "themeTokens": {
+      "label": "Custom CSS variable overrides",
+      "hint": "Token names must start with --tmx- or --chc-. Values are CSS color / length / font strings. Applied at boot and on provider switch.",
+      "preset": "Preset",
+      "chooseAPreset": "Choose a preset…",
+      "add": "+ Add token",
+      "remove": "Remove",
+      "invalidPrefix": "Token name must start with --tmx- or --chc-"
+    }
   },
   "banners": {
     "contactEmail": {
@@ -2426,5 +2469,13 @@
     "title": "CourtHive Console",
     "amsSection": "Associate Management",
     "platformSection": "Platform Admin"
-  }
+  },
+  "recoveryEmail": "Recovery email",
+  "recoveryEmailHelp": "Real mailbox for password recovery. Separate from the login email above.",
+  "verified": "Verified",
+  "unverified": "Unverified",
+  "sendVerification": "Send verification",
+  "verificationSent": "Verification email sent",
+  "alreadyVerified": "Recovery email already verified",
+  "noRecoveryEmail": "No recovery email set"
 }

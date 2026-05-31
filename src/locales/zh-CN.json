@@ -389,7 +389,39 @@
     "representativeAssigned": "__TODO__",
     "representativeRemoved": "__TODO__",
     "removeRepresentative": "__TODO__",
-    "removeRepresentativeConfirm": "__TODO__"
+    "removeRepresentativeConfirm": "__TODO__",
+    "contactEmailCoverage": {
+      "label": "__TODO__",
+      "loading": "__TODO__",
+      "verified": "__TODO__",
+      "unverified": "__TODO__",
+      "missing": "__TODO__",
+      "equalsLogin": "__TODO__",
+      "total": "__TODO__"
+    },
+    "audit": {
+      "tabLabel": "__TODO__",
+      "title": "__TODO__",
+      "tournamentsLabel": "__TODO__",
+      "tournamentFilterPlaceholder": "__TODO__",
+      "deletedDrawsLabel": "__TODO__",
+      "selectTournament": "__TODO__",
+      "noTournaments": "__TODO__",
+      "tournamentName": "__TODO__",
+      "tournamentId": "__TODO__",
+      "startDate": "__TODO__",
+      "drawName": "__TODO__",
+      "eventId": "__TODO__",
+      "deletedAt": "__TODO__",
+      "deletedBy": "__TODO__",
+      "restore": "__TODO__",
+      "restoreTitle": "__TODO__",
+      "restorePrompt": "__TODO__",
+      "restoreSuccess": "__TODO__",
+      "restoreFailure": "__TODO__",
+      "calendarLoadError": "__TODO__",
+      "deletedDrawsLoadError": "__TODO__"
+    }
   },
   "round_names": {
     "F": "决赛",
@@ -2294,7 +2326,8 @@
       "policies": "__TODO__",
       "defaults": "__TODO__",
       "integrations": "__TODO__",
-      "privacy": "__TODO__"
+      "privacy": "__TODO__",
+      "themeTokens": "__TODO__"
     },
     "privacy": {
       "settingsHint": "__TODO__",
@@ -2315,7 +2348,8 @@
       "navbarLogoAlt": "__TODO__",
       "navbarLogoHeight": "__TODO__",
       "splashLogoUrl": "__TODO__",
-      "accentColor": "__TODO__"
+      "accentColor": "__TODO__",
+      "stylesheetUrl": "__TODO__"
     },
     "defaults": {
       "defaultEventType": "__TODO__",
@@ -2334,7 +2368,16 @@
     "settingsSaved": "__TODO__",
     "invalid": "__TODO__",
     "saveFailed": "__TODO__",
-    "loadCapsForGating": "__TODO__"
+    "loadCapsForGating": "__TODO__",
+    "themeTokens": {
+      "label": "__TODO__",
+      "hint": "__TODO__",
+      "preset": "__TODO__",
+      "chooseAPreset": "__TODO__",
+      "add": "__TODO__",
+      "remove": "__TODO__",
+      "invalidPrefix": "__TODO__"
+    }
   },
   "banners": {
     "contactEmail": {
@@ -2426,5 +2469,13 @@
     "title": "__TODO__",
     "amsSection": "__TODO__",
     "platformSection": "__TODO__"
-  }
+  },
+  "recoveryEmail": "__TODO__",
+  "recoveryEmailHelp": "__TODO__",
+  "verified": "__TODO__",
+  "unverified": "__TODO__",
+  "sendVerification": "__TODO__",
+  "verificationSent": "__TODO__",
+  "alreadyVerified": "__TODO__",
+  "noRecoveryEmail": "__TODO__"
 }
