@@ -760,7 +760,25 @@
     "court": "__TODO__",
     "event": "__TODO__",
     "round": "__TODO__",
-    "matchUp": "__TODO__"
+    "matchUp": "__TODO__",
+    "noScheduledMatchUpsMatch": "__TODO__",
+    "searchScheduledMatchUps": "__TODO__",
+    "scheduledTitle": "__TODO__",
+    "scheduledCount_one": "__TODO__",
+    "scheduledCount_other": "__TODO__",
+    "filterMatchUps": "__TODO__",
+    "filterClearAll": "__TODO__",
+    "filterAllEventTypes": "__TODO__",
+    "filterAllEvents": "__TODO__",
+    "filterAllFlights": "__TODO__",
+    "filterAllGenders": "__TODO__",
+    "filterAllRounds": "__TODO__",
+    "groupBy": {
+      "event": "__TODO__",
+      "draw": "__TODO__",
+      "round": "__TODO__",
+      "structure": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Não fez Check-Out",
@@ -1087,7 +1105,8 @@
     "createTeam": {
       "title": "Criar Equipe",
       "selectAttribute": "Selecionar atributo",
-      "create": "Criar"
+      "create": "Criar",
+      "teamAffiliation": "__TODO__"
     },
     "getLatLong": {
       "title": "Localização",
@@ -1231,7 +1250,10 @@
         "representing": "__TODO__",
         "notes": "__TODO__",
         "split": "__TODO__",
-        "ignore": "__TODO__"
+        "ignore": "__TODO__",
+        "participantRole": "__TODO__",
+        "teamKey": "__TODO__",
+        "jerseyNumber": "__TODO__"
       },
       "ratingAuto": "__TODO__",
       "eventPickerPlaceholder": "__TODO__",
@@ -1380,6 +1402,27 @@
       "providerRoleUpdated": "__TODO__",
       "removeProviderTitle": "__TODO__",
       "removeProviderConfirm": "__TODO__"
+    },
+    "teamProfile": {
+      "title": "__TODO__",
+      "roster": "__TODO__",
+      "coaches": "__TODO__",
+      "staff": "__TODO__",
+      "empty": "__TODO__",
+      "columns": {
+        "name": "__TODO__",
+        "sex": "__TODO__",
+        "role": "__TODO__",
+        "contact": "__TODO__"
+      },
+      "counts": {
+        "players_one": "__TODO__",
+        "players_other": "__TODO__",
+        "coaches_one": "__TODO__",
+        "coaches_other": "__TODO__",
+        "staff_one": "__TODO__",
+        "staff_other": "__TODO__"
+      }
     }
   },
   "dashboard": {
@@ -1533,7 +1576,8 @@
     "updatedParticipants": "__TODO__",
     "addedEventEntries": "__TODO__",
     "magicLinkSent": "__TODO__",
-    "magicLinkInvalid": "__TODO__"
+    "magicLinkInvalid": "__TODO__",
+    "addedTeamParticipants": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorização",
@@ -1633,7 +1677,9 @@
       "events": "Eventos",
       "teams": "Equipes",
       "cityState": "Cidade/Estado",
-      "nickname": "__TODO__"
+      "nickname": "__TODO__",
+      "role": "__TODO__",
+      "teamAffiliation": "__TODO__"
     },
     "bracket": {
       "participant": "Participante",
@@ -1929,7 +1975,8 @@
         "unknown": "Desconhecido"
       },
       "importFromCsv": "__TODO__",
-      "newGroup": "__TODO__"
+      "newGroup": "__TODO__",
+      "staff": "__TODO__"
     }
   },
   "overlays": {
