@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/CourtHive/courthive-i18n/compare/v0.2.0...v0.3.0) (2026-06-01)
+
+
+### Features
+
+* **i18n:** add 'regs' key for the Registrations tab label ([4b3c038](https://github.com/CourtHive/courthive-i18n/commit/4b3c0385b718b30d792d1c34af5ab2f85b747aab))
+
 ## [0.2.0](https://github.com/CourtHive/courthive-i18n/compare/v0.1.1...v0.2.0) (2026-05-31)
 
 
