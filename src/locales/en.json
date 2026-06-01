@@ -1589,6 +1589,33 @@
         "staff_one": "{{count}} staff",
         "staff_other": "{{count}} staff"
       }
+    },
+    "practiceCapacity": {
+      "title": "Practice court capacity",
+      "help": "Default capacity for PRACTICE bookings that don't set their own. Individual bookings can override this.",
+      "unlimited": "Unlimited",
+      "capped": "Cap simultaneous registrations:",
+      "saved": "Practice capacity updated.",
+      "invalidNumber": "Enter a whole number.",
+      "mustBeNonNegative": "Capacity cannot be negative."
+    },
+    "practiceRegistrations": {
+      "title": "Manage practice registrations",
+      "bookingNotFound": "This practice booking is no longer available.",
+      "currentRegistrations": "Current registrations",
+      "noneYet": "No registrations yet.",
+      "addRegistrant": "Add registrant",
+      "participantLabel": "Participant",
+      "participantPlaceholder": "Type participant name",
+      "startTime": "Start",
+      "endTime": "End",
+      "add": "Add",
+      "added": "Registration added.",
+      "removed": "Registration removed.",
+      "pickParticipant": "Pick a participant from the list.",
+      "pickTimes": "Set both start and end times.",
+      "invalidWindow": "Start time must be before end time.",
+      "conflictWarning": "Registration added — participant has another commitment during this window."
     }
   },
   "dashboard": {
@@ -1610,7 +1637,10 @@
     "viewBracket": "View bracket",
     "allStructures": "All structures",
     "categories": "Categories ({{count}})",
-    "noneSet": "None"
+    "noneSet": "None",
+    "practiceCapacity": "Practice capacity",
+    "practiceUnlimited": "Unlimited",
+    "practiceClosed": "Closed"
   },
   "drawers": {
     "editTournament": {
@@ -1965,7 +1995,7 @@
       "viewAvailability": "View Availability",
       "viewTable": "View Table",
       "setDefaultAvailability": "Set Default Availability",
-      "saveToTournament": "Save to Tournament",
+      "saveToTournament": "Save",
       "grid": {
         "view": "View",
         "day1": "1 Day",
