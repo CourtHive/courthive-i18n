@@ -425,7 +425,8 @@
       "restoreSuccess": "__TODO__",
       "restoreFailure": "__TODO__",
       "calendarLoadError": "__TODO__",
-      "deletedDrawsLoadError": "__TODO__"
+      "deletedDrawsLoadError": "__TODO__",
+      "providerLockedToActive": "__TODO__"
     }
   },
   "round_names": {
@@ -2436,7 +2437,8 @@
       "navbarLogoHeight": "__TODO__",
       "splashLogoUrl": "__TODO__",
       "accentColor": "__TODO__",
-      "stylesheetUrl": "__TODO__"
+      "stylesheetUrl": "__TODO__",
+      "preview": "__TODO__"
     },
     "defaults": {
       "defaultEventType": "__TODO__",

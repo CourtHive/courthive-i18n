@@ -79,8 +79,8 @@
   "ovw": "Overview",
   "prt": "Participants",
   "evt": "Events",
-  "sch": "Schedule (legacy)",
-  "sch2": "Schedule",
+  "sch": "Schedule",
+  "sch2": "Schedule 2",
   "ven": "Venues",
   "rpt": "Reports",
   "pub": "Publishing",
@@ -425,7 +425,8 @@
       "restoreSuccess": "Draw restored",
       "restoreFailure": "Restore failed",
       "calendarLoadError": "Failed to load calendar",
-      "deletedDrawsLoadError": "Failed to load deleted draws"
+      "deletedDrawsLoadError": "Failed to load deleted draws",
+      "providerLockedToActive": "Locked to the active provider in your session. Stop impersonation (or switch providers) to inspect another tenant's deleted draws."
     }
   },
   "round_names": {
@@ -1479,15 +1480,15 @@
       "usageList": "{{name}} is used by: {{events}}"
     },
     "firstLogin": {
-      "title": "Set your password",
-      "intro": "Your account was created with a temporary password. Choose a new password to finish signing in.",
-      "newPasswordLabel": "New password",
-      "newPasswordPlaceholder": "minimum 8 characters",
-      "confirmPasswordLabel": "Confirm password",
-      "confirmPasswordPlaceholder": "re-enter new password",
-      "setPassword": "Set password",
-      "failed": "Could not set your password. Please try again.",
-      "tokenExpired": "This sign-in session expired. Please log in again."
+      "title": "Set Your Password",
+      "intro": "Your administrator assigned you a temporary password. Please choose a new password to continue.",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "At least 8 characters",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "setPassword": "Set Password",
+      "failed": "Failed to set new password.",
+      "tokenExpired": "Your sign-in expired. Please log in again."
     },
     "forgotPassword": {
       "title": "Reset your password",
@@ -1545,16 +1546,16 @@
       "failed": "Delete failed."
     },
     "contactEmail": {
-      "title": "Recovery email",
-      "label": "Recovery email",
+      "title": "Contact email",
+      "label": "Email address",
       "save": "Save",
       "resend": "Resend verification",
-      "savedPending": "Verification email sent to {{email}}.",
-      "resent": "Verification email sent.",
-      "alreadyVerified": "Recovery email is already verified.",
-      "failed": "Could not update recovery email. Please try again.",
-      "statusNotSet": "No recovery email set. Add one so you can recover access if you lose your password.",
-      "statusPending": "Pending verification — check {{email}} and click the link.",
+      "savedPending": "Verification email sent to {{email}}. Check your inbox.",
+      "resent": "Verification email re-sent.",
+      "alreadyVerified": "Your contact email is already verified.",
+      "failed": "Could not save contact email.",
+      "statusNotSet": "No contact email is set yet. Set one so you can recover your password by email.",
+      "statusPending": "Pending verification: {{email}}. Click the link in your inbox.",
       "statusVerified": "Verified: {{email}}"
     },
     "editUser": {
@@ -1995,7 +1996,7 @@
       "viewAvailability": "View Availability",
       "viewTable": "View Table",
       "setDefaultAvailability": "Set Default Availability",
-      "saveToTournament": "Save",
+      "saveToTournament": "Save to Tournament",
       "grid": {
         "view": "View",
         "day1": "1 Day",
@@ -2436,7 +2437,8 @@
       "navbarLogoHeight": "Navbar logo height (px)",
       "splashLogoUrl": "Splash logo URL",
       "accentColor": "Accent color (CSS)",
-      "stylesheetUrl": "Provider stylesheet URL (escape hatch)"
+      "stylesheetUrl": "Provider stylesheet URL (escape hatch)",
+      "preview": "Live preview (mock navbar)"
     },
     "defaults": {
       "defaultEventType": "Default event type",
