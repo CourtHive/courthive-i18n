@@ -1656,7 +1656,17 @@
       "activeDates": "Aktivní termíny",
       "timeZoneLabel": "Časové pásmo",
       "timeZonePlaceholder": "např. Europe/Prague",
-      "timeZoneInvalid": "Neplatné IANA časové pásmo"
+      "timeZoneInvalid": "Neplatné IANA časové pásmo",
+      "tierSystemLabel": "__TODO__",
+      "tierSystemPlaceholder": "__TODO__",
+      "tierSystemNone": "__TODO__",
+      "tierSystemUnknown": "__TODO__",
+      "tierValueLabel": "__TODO__",
+      "tierValuePlaceholder": "__TODO__",
+      "tierNumericRankLabel": "__TODO__",
+      "tierNumericRankPlaceholder": "__TODO__",
+      "tierSystemMissing": "__TODO__",
+      "tierValueMissing": "__TODO__"
     },
     "addDraw": {
       "missingName": "Chybí název pavouka",
@@ -2080,7 +2090,11 @@
         "eventNameRequired": "Název soutěže musí mít alespoň 5 znaků",
         "any": "Jakékoli",
         "custom": "Vlastní",
-        "categorySaveWarning": "Kategorie uložena k soutěži, ale nebyla přidána do kategorií turnaje"
+        "categorySaveWarning": "Kategorie uložena k soutěži, ale nebyla přidána do kategorií turnaje",
+        "competitionFormatLabel": "__TODO__",
+        "competitionFormatNone": "__TODO__",
+        "competitionFormatTennis": "__TODO__",
+        "competitionFormatIntennse": "__TODO__"
       },
       "editFormat": {
         "noChanges": "Žádné změny",
@@ -2103,7 +2117,8 @@
         "autoPlaceParticipants": "Automaticky umístit účastníky",
         "configureDraft": "Konfigurovat draft",
         "resolveDraft": "Vyřešit draft",
-        "draftStatus": "Draft"
+        "draftStatus": "Draft",
+        "recalculateStats": "__TODO__"
       }
     },
     "participants": {
@@ -2566,5 +2581,14 @@
   "sendVerification": "__TODO__",
   "verificationSent": "__TODO__",
   "alreadyVerified": "__TODO__",
-  "noRecoveryEmail": "__TODO__"
+  "noRecoveryEmail": "__TODO__",
+  "timepicker": {
+    "am": "__TODO__",
+    "pm": "__TODO__",
+    "selectTime": "__TODO__",
+    "enterTime": "__TODO__",
+    "hour": "__TODO__",
+    "minute": "__TODO__",
+    "clear": "__TODO__"
+  }
 }

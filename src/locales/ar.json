@@ -1490,7 +1490,17 @@
       "activeDates": "التواريخ النشطة",
       "timeZoneLabel": "__TODO__",
       "timeZonePlaceholder": "__TODO__",
-      "timeZoneInvalid": "__TODO__"
+      "timeZoneInvalid": "__TODO__",
+      "tierSystemLabel": "__TODO__",
+      "tierSystemPlaceholder": "__TODO__",
+      "tierSystemNone": "__TODO__",
+      "tierSystemUnknown": "__TODO__",
+      "tierValueLabel": "__TODO__",
+      "tierValuePlaceholder": "__TODO__",
+      "tierNumericRankLabel": "__TODO__",
+      "tierNumericRankPlaceholder": "__TODO__",
+      "tierSystemMissing": "__TODO__",
+      "tierValueMissing": "__TODO__"
     },
     "addDraw": {
       "missingName": "اسم القرعة مفقود",
@@ -1914,7 +1924,11 @@
         "eventNameRequired": "يجب أن يكون اسم الحدث 5 أحرف على الأقل",
         "any": "أي",
         "custom": "مخصص",
-        "categorySaveWarning": "تم حفظ الفئة في الحدث لكنها لم تُضف إلى فئات البطولة"
+        "categorySaveWarning": "تم حفظ الفئة في الحدث لكنها لم تُضف إلى فئات البطولة",
+        "competitionFormatLabel": "__TODO__",
+        "competitionFormatNone": "__TODO__",
+        "competitionFormatTennis": "__TODO__",
+        "competitionFormatIntennse": "__TODO__"
       },
       "editFormat": {
         "noChanges": "لا توجد تغييرات",
@@ -1937,7 +1951,8 @@
         "autoPlaceParticipants": "توزيع المشاركين تلقائيًا",
         "configureDraft": "__TODO__",
         "resolveDraft": "__TODO__",
-        "draftStatus": "__TODO__"
+        "draftStatus": "__TODO__",
+        "recalculateStats": "__TODO__"
       }
     },
     "participants": {
@@ -2566,5 +2581,14 @@
   "sendVerification": "__TODO__",
   "verificationSent": "__TODO__",
   "alreadyVerified": "__TODO__",
-  "noRecoveryEmail": "__TODO__"
+  "noRecoveryEmail": "__TODO__",
+  "timepicker": {
+    "am": "__TODO__",
+    "pm": "__TODO__",
+    "selectTime": "__TODO__",
+    "enterTime": "__TODO__",
+    "hour": "__TODO__",
+    "minute": "__TODO__",
+    "clear": "__TODO__"
+  }
 }

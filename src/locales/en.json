@@ -1309,7 +1309,7 @@
     },
     "editGroupNames": {
       "title": "Edit group names",
-      "minChars": "minimum 4 characters",
+      "minChars": "minimum 3 characters",
       "groupsRenamed": "Groups renamed"
     },
     "addFlights": {
@@ -1656,7 +1656,17 @@
       "activeDates": "Active Dates",
       "timeZoneLabel": "Time zone",
       "timeZonePlaceholder": "e.g. America/New_York",
-      "timeZoneInvalid": "Not a recognised IANA time zone"
+      "timeZoneInvalid": "Not a recognised IANA time zone",
+      "tierSystemLabel": "Tier system",
+      "tierSystemPlaceholder": "e.g. ITF_JUNIOR, ATP, PPA",
+      "tierSystemNone": "—",
+      "tierSystemUnknown": "(unknown: {{system}})",
+      "tierValueLabel": "Tier value",
+      "tierValuePlaceholder": "e.g. J500, Masters 1000, Gold",
+      "tierNumericRankLabel": "Tier rank (optional)",
+      "tierNumericRankPlaceholder": "Lower = higher tier",
+      "tierSystemMissing": "Tier value entered without a system",
+      "tierValueMissing": "Tier system entered without a value"
     },
     "addDraw": {
       "missingName": "Missing Draw name",
@@ -2080,7 +2090,11 @@
         "eventNameRequired": "Event name must be at least 5 characters",
         "any": "Any",
         "custom": "Custom",
-        "categorySaveWarning": "Category saved to event but not added to tournament categories"
+        "categorySaveWarning": "Category saved to event but not added to tournament categories",
+        "competitionFormatLabel": "Sport rules",
+        "competitionFormatNone": "None",
+        "competitionFormatTennis": "Tennis (standard)",
+        "competitionFormatIntennse": "INTENNSE (standard)"
       },
       "editFormat": {
         "noChanges": "No changes",
@@ -2103,7 +2117,8 @@
         "autoPlaceParticipants": "Auto place participants",
         "configureDraft": "Configure draft",
         "resolveDraft": "Resolve draft",
-        "draftStatus": "Draft"
+        "draftStatus": "Draft",
+        "recalculateStats": "Recalculate stats"
       }
     },
     "participants": {
@@ -2566,5 +2581,14 @@
   "sendVerification": "Send verification",
   "verificationSent": "Verification email sent",
   "alreadyVerified": "Recovery email already verified",
-  "noRecoveryEmail": "No recovery email set"
+  "noRecoveryEmail": "No recovery email set",
+  "timepicker": {
+    "am": "AM",
+    "pm": "PM",
+    "selectTime": "Select time",
+    "enterTime": "Enter time",
+    "hour": "Hour",
+    "minute": "Minute",
+    "clear": "Clear"
+  }
 }

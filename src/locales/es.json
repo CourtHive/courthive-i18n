@@ -1490,7 +1490,17 @@
       "activeDates": "Fechas Activas",
       "timeZoneLabel": "__TODO__",
       "timeZonePlaceholder": "__TODO__",
-      "timeZoneInvalid": "__TODO__"
+      "timeZoneInvalid": "__TODO__",
+      "tierSystemLabel": "__TODO__",
+      "tierSystemPlaceholder": "__TODO__",
+      "tierSystemNone": "__TODO__",
+      "tierSystemUnknown": "__TODO__",
+      "tierValueLabel": "__TODO__",
+      "tierValuePlaceholder": "__TODO__",
+      "tierNumericRankLabel": "__TODO__",
+      "tierNumericRankPlaceholder": "__TODO__",
+      "tierSystemMissing": "__TODO__",
+      "tierValueMissing": "__TODO__"
     },
     "addDraw": {
       "missingName": "Falta nombre del Cuadro",
@@ -1914,7 +1924,11 @@
         "eventNameRequired": "El nombre del evento debe tener al menos 5 caracteres",
         "any": "Cualquiera",
         "custom": "Personalizado",
-        "categorySaveWarning": "Categoría guardada en el evento pero no agregada a las categorías del torneo"
+        "categorySaveWarning": "Categoría guardada en el evento pero no agregada a las categorías del torneo",
+        "competitionFormatLabel": "__TODO__",
+        "competitionFormatNone": "__TODO__",
+        "competitionFormatTennis": "__TODO__",
+        "competitionFormatIntennse": "__TODO__"
       },
       "editFormat": {
         "noChanges": "Sin cambios",
@@ -1937,7 +1951,8 @@
         "autoPlaceParticipants": "Ubicar participantes automáticamente",
         "configureDraft": "__TODO__",
         "resolveDraft": "__TODO__",
-        "draftStatus": "__TODO__"
+        "draftStatus": "__TODO__",
+        "recalculateStats": "__TODO__"
       }
     },
     "participants": {
@@ -2566,5 +2581,14 @@
   "sendVerification": "__TODO__",
   "verificationSent": "__TODO__",
   "alreadyVerified": "__TODO__",
-  "noRecoveryEmail": "__TODO__"
+  "noRecoveryEmail": "__TODO__",
+  "timepicker": {
+    "am": "__TODO__",
+    "pm": "__TODO__",
+    "selectTime": "__TODO__",
+    "enterTime": "__TODO__",
+    "hour": "__TODO__",
+    "minute": "__TODO__",
+    "clear": "__TODO__"
+  }
 }
