@@ -79,8 +79,8 @@
   "ovw": "Overview",
   "prt": "Participants",
   "evt": "Events",
-  "sch": "Schedule",
-  "sch2": "Schedule 2",
+  "sch": "Schedule (legacy)",
+  "sch2": "Schedule",
   "ven": "Venues",
   "rpt": "Reports",
   "pub": "Publishing",
@@ -944,7 +944,8 @@
       "event": "By Event",
       "draw": "By Draw",
       "round": "By Round",
-      "structure": "By Structure"
+      "structure": "By Structure",
+      "time": "By Time"
     }
   },
   "penalties": {
@@ -1480,15 +1481,15 @@
       "usageList": "{{name}} is used by: {{events}}"
     },
     "firstLogin": {
-      "title": "Set Your Password",
-      "intro": "Your administrator assigned you a temporary password. Please choose a new password to continue.",
-      "newPasswordLabel": "New Password",
-      "newPasswordPlaceholder": "At least 8 characters",
-      "confirmPasswordLabel": "Confirm Password",
-      "confirmPasswordPlaceholder": "Re-enter new password",
-      "setPassword": "Set Password",
-      "failed": "Failed to set new password.",
-      "tokenExpired": "Your sign-in expired. Please log in again."
+      "title": "Set your password",
+      "intro": "Your account was created with a temporary password. Choose a new password to finish signing in.",
+      "newPasswordLabel": "New password",
+      "newPasswordPlaceholder": "minimum 8 characters",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "re-enter new password",
+      "setPassword": "Set password",
+      "failed": "Could not set your password. Please try again.",
+      "tokenExpired": "This sign-in session expired. Please log in again."
     },
     "forgotPassword": {
       "title": "Reset your password",
@@ -1546,16 +1547,16 @@
       "failed": "Delete failed."
     },
     "contactEmail": {
-      "title": "Contact email",
-      "label": "Email address",
+      "title": "Recovery email",
+      "label": "Recovery email",
       "save": "Save",
       "resend": "Resend verification",
-      "savedPending": "Verification email sent to {{email}}. Check your inbox.",
-      "resent": "Verification email re-sent.",
-      "alreadyVerified": "Your contact email is already verified.",
-      "failed": "Could not save contact email.",
-      "statusNotSet": "No contact email is set yet. Set one so you can recover your password by email.",
-      "statusPending": "Pending verification: {{email}}. Click the link in your inbox.",
+      "savedPending": "Verification email sent to {{email}}.",
+      "resent": "Verification email sent.",
+      "alreadyVerified": "Recovery email is already verified.",
+      "failed": "Could not update recovery email. Please try again.",
+      "statusNotSet": "No recovery email set. Add one so you can recover access if you lose your password.",
+      "statusPending": "Pending verification — check {{email}} and click the link.",
       "statusVerified": "Verified: {{email}}"
     },
     "editUser": {
@@ -1784,7 +1785,12 @@
     "cannotDeleteParticipant": "Participant is assigned to a draw and cannot be deleted",
     "magicLinkSent": "If an account exists for that email, a login link is on its way.",
     "magicLinkInvalid": "That login link is invalid or has expired. Please request a new one.",
-    "addedTeamParticipants": "Generated {{count}} team participant(s) from the team column"
+    "addedTeamParticipants": "Generated {{count}} team participant(s) from the team column",
+    "activeDatesPrompt": "Set active dates so the public schedule shows only the days you play.",
+    "activeDatesPromptAction": "Set active dates",
+    "cannotDeleteTournament": "Cannot delete tournament",
+    "tournamentNotEnded": "Cannot delete a tournament before its end date. Set the end date to a past date first, then delete.",
+    "deleteForbidden": "You are not authorized to delete this tournament."
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -2006,7 +2012,7 @@
       "viewAvailability": "View Availability",
       "viewTable": "View Table",
       "setDefaultAvailability": "Set Default Availability",
-      "saveToTournament": "Save to Tournament",
+      "saveToTournament": "Save",
       "grid": {
         "view": "View",
         "day1": "1 Day",

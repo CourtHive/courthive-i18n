@@ -944,7 +944,8 @@
       "event": "__TODO__",
       "draw": "__TODO__",
       "round": "__TODO__",
-      "structure": "__TODO__"
+      "structure": "__TODO__",
+      "time": "__TODO__"
     }
   },
   "penalties": {
@@ -1784,7 +1785,12 @@
     "cannotDeleteParticipant": "Sudionik je dodijeljen ždrijebu i ne može se obrisati",
     "magicLinkSent": "__TODO__",
     "magicLinkInvalid": "__TODO__",
-    "addedTeamParticipants": "__TODO__"
+    "addedTeamParticipants": "__TODO__",
+    "activeDatesPrompt": "__TODO__",
+    "activeDatesPromptAction": "__TODO__",
+    "cannotDeleteTournament": "__TODO__",
+    "tournamentNotEnded": "__TODO__",
+    "deleteForbidden": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
