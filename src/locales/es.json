@@ -778,8 +778,10 @@
       "event": "__TODO__",
       "draw": "__TODO__",
       "round": "__TODO__",
-      "structure": "__TODO__"
-    }
+      "structure": "__TODO__",
+      "time": "__TODO__"
+    },
+    "showCompleted": "__TODO__"
   },
   "penalties": {
     "fail2signout": "No se Presentó a la Salida",
@@ -817,7 +819,8 @@
     "validationDetails": "Detalles de validación",
     "dismiss": "__TODO__",
     "iSavedIt": "__TODO__",
-    "remove": "__TODO__"
+    "remove": "__TODO__",
+    "continueAndUnschedule": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -887,7 +890,8 @@
     "editDates": {
       "title": "Editar Fechas",
       "startDateLabel": "Fecha de Inicio",
-      "endDateLabel": "Fecha de Fin"
+      "endDateLabel": "Fecha de Fin",
+      "timeZoneDetectedHint": "__TODO__"
     },
     "invalidParticipants": {
       "title": "Participantes Inválidos"
@@ -1475,7 +1479,9 @@
     "noneSet": "__TODO__",
     "practiceCapacity": "__TODO__",
     "practiceUnlimited": "__TODO__",
-    "practiceClosed": "__TODO__"
+    "practiceClosed": "__TODO__",
+    "setTimeZone": "__TODO__",
+    "setTimeZoneDetected": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -1618,7 +1624,12 @@
     "addedEventEntries": "__TODO__",
     "magicLinkSent": "__TODO__",
     "magicLinkInvalid": "__TODO__",
-    "addedTeamParticipants": "__TODO__"
+    "addedTeamParticipants": "__TODO__",
+    "activeDatesPrompt": "__TODO__",
+    "activeDatesPromptAction": "__TODO__",
+    "cannotDeleteTournament": "__TODO__",
+    "tournamentNotEnded": "__TODO__",
+    "deleteForbidden": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorización",
