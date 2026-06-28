@@ -944,8 +944,10 @@
       "event": "__TODO__",
       "draw": "__TODO__",
       "round": "__TODO__",
-      "structure": "__TODO__"
-    }
+      "structure": "__TODO__",
+      "time": "__TODO__"
+    },
+    "showCompleted": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Propust odjave",
@@ -983,7 +985,8 @@
     "validationDetails": "Detalji provjere",
     "dismiss": "__TODO__",
     "iSavedIt": "__TODO__",
-    "remove": "__TODO__"
+    "remove": "__TODO__",
+    "continueAndUnschedule": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -1053,7 +1056,8 @@
     "editDates": {
       "title": "Uredi datume",
       "startDateLabel": "Datum početka",
-      "endDateLabel": "Datum kraja"
+      "endDateLabel": "Datum kraja",
+      "timeZoneDetectedHint": "__TODO__"
     },
     "invalidParticipants": {
       "title": "Neispravni sudionici"
@@ -1641,7 +1645,9 @@
     "noneSet": "__TODO__",
     "practiceCapacity": "__TODO__",
     "practiceUnlimited": "__TODO__",
-    "practiceClosed": "__TODO__"
+    "practiceClosed": "__TODO__",
+    "setTimeZone": "__TODO__",
+    "setTimeZoneDetected": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -1784,7 +1790,12 @@
     "cannotDeleteParticipant": "Sudionik je dodijeljen ždrijebu i ne može se obrisati",
     "magicLinkSent": "__TODO__",
     "magicLinkInvalid": "__TODO__",
-    "addedTeamParticipants": "__TODO__"
+    "addedTeamParticipants": "__TODO__",
+    "activeDatesPrompt": "__TODO__",
+    "activeDatesPromptAction": "__TODO__",
+    "cannotDeleteTournament": "__TODO__",
+    "tournamentNotEnded": "__TODO__",
+    "deleteForbidden": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",

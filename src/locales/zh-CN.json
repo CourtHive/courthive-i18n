@@ -940,8 +940,10 @@
       "event": "__TODO__",
       "draw": "__TODO__",
       "round": "__TODO__",
-      "structure": "__TODO__"
-    }
+      "structure": "__TODO__",
+      "time": "__TODO__"
+    },
+    "showCompleted": "__TODO__"
   },
   "penalties": {
     "fail2signout": "未签退",
@@ -979,7 +981,8 @@
     "validationDetails": "验证详情",
     "dismiss": "__TODO__",
     "iSavedIt": "__TODO__",
-    "remove": "__TODO__"
+    "remove": "__TODO__",
+    "continueAndUnschedule": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -1049,7 +1052,8 @@
     "editDates": {
       "title": "编辑日期",
       "startDateLabel": "开始日期",
-      "endDateLabel": "结束日期"
+      "endDateLabel": "结束日期",
+      "timeZoneDetectedHint": "__TODO__"
     },
     "invalidParticipants": {
       "title": "无效参赛者"
@@ -1637,7 +1641,9 @@
     "noneSet": "__TODO__",
     "practiceCapacity": "__TODO__",
     "practiceUnlimited": "__TODO__",
-    "practiceClosed": "__TODO__"
+    "practiceClosed": "__TODO__",
+    "setTimeZone": "__TODO__",
+    "setTimeZoneDetected": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -1780,7 +1786,12 @@
     "addedEventEntries": "__TODO__",
     "magicLinkSent": "__TODO__",
     "magicLinkInvalid": "__TODO__",
-    "addedTeamParticipants": "__TODO__"
+    "addedTeamParticipants": "__TODO__",
+    "activeDatesPrompt": "__TODO__",
+    "activeDatesPromptAction": "__TODO__",
+    "cannotDeleteTournament": "__TODO__",
+    "tournamentNotEnded": "__TODO__",
+    "deleteForbidden": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
