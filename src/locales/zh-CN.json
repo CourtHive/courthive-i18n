@@ -2464,7 +2464,13 @@
       "splashLogoUrl": "__TODO__",
       "accentColor": "__TODO__",
       "stylesheetUrl": "__TODO__",
-      "preview": "__TODO__"
+      "preview": "__TODO__",
+      "uploadThemeAssets": "__TODO__",
+      "uploadNoFiles": "__TODO__",
+      "uploading": "__TODO__",
+      "uploadLinked": "__TODO__",
+      "uploadedNoCss": "__TODO__",
+      "uploadFailed": "__TODO__"
     },
     "defaults": {
       "defaultEventType": "__TODO__",
@@ -2569,7 +2575,48 @@
     "type": "__TODO__",
     "entries": "__TODO__",
     "draws": "__TODO__",
-    "noEvents": "__TODO__"
+    "noEvents": "__TODO__",
+    "providerDashboard": {
+      "loading": "__TODO__",
+      "loadError": "__TODO__",
+      "brand": {
+        "title": "__TODO__",
+        "editTheme": "__TODO__",
+        "logoAlt": "__TODO__",
+        "unnamed": "__TODO__",
+        "noBrand": "__TODO__",
+        "themeTokens": "__TODO__"
+      },
+      "checklist": {
+        "title": "__TODO__",
+        "progress": "__TODO__",
+        "appName": "__TODO__",
+        "brand": "__TODO__",
+        "logo": "__TODO__",
+        "privacy": "__TODO__"
+      },
+      "config": {
+        "title": "__TODO__",
+        "editSettings": "__TODO__",
+        "permissions": "__TODO__",
+        "policies": "__TODO__",
+        "privacy": "__TODO__",
+        "scoringApp": "__TODO__",
+        "none": "__TODO__"
+      },
+      "tournaments": {
+        "title": "__TODO__",
+        "total": "__TODO__",
+        "upcoming": "__TODO__",
+        "live": "__TODO__",
+        "completed": "__TODO__",
+        "none": "__TODO__",
+        "loadError": "__TODO__"
+      },
+      "activity": {
+        "title": "__TODO__"
+      }
+    }
   },
   "ams": {
     "officials": "__TODO__",
@@ -2601,5 +2648,15 @@
     "hour": "__TODO__",
     "minute": "__TODO__",
     "clear": "__TODO__"
+  },
+  "onboarding": {
+    "title": "__TODO__",
+    "yourProvider": "__TODO__",
+    "intro": "__TODO__",
+    "allDone": "__TODO__",
+    "setUp": "__TODO__",
+    "getStarted": "__TODO__",
+    "skipForNow": "__TODO__",
+    "finish": "__TODO__"
   }
 }
