@@ -474,7 +474,9 @@
     "normal": "Normal",
     "winloss_abbreviation": "W/L",
     "cancelled": "Cancelled",
-    "abandoned": "Abandoned"
+    "abandoned": "Abandoned",
+    "scoreThisMatch": "Score this match",
+    "openScorecard": "Open scorecard"
   },
   "draws": {
     "seedlimit": "Seed Limit",
@@ -2506,14 +2508,17 @@
     "title": "Verify your email",
     "intro": "Click the button below to confirm that this email is yours.",
     "verifyButton": "Verify email",
-    "verifying": "Verifying…",
+    "verifying": "Verifying your email…",
     "success": "Verified ✓ — you can now receive password-recovery email at {{email}}. You may close this tab.",
     "successPlain": "Verified ✓. You may close this tab.",
-    "missingToken": "This verification link is missing its token. Try clicking the link in your email again, or request a fresh one from the contact-email settings.",
+    "missingToken": "Missing verification token.",
     "tokenExpired": "This verification link has expired. Request a fresh one from your contact-email settings.",
     "tokenMismatch": "This link no longer matches your current contact email — it was probably superseded by a more recent change.",
     "tryAgain": "Try again",
-    "failed": "Verification failed. Try requesting a fresh link."
+    "failed": "Verification failed. Try requesting a fresh link.",
+    "verifiedRedirect": "Your email is verified. Taking you to My CourtHive…",
+    "verifiedSignIn": "Your email is verified. You can now sign in.",
+    "invalidOrExpired": "This verification link is invalid or has expired. Sign in to My CourtHive to request a new one."
   },
   "resetPassword": {
     "title": "Set a new password",
@@ -2601,5 +2606,18 @@
     "hour": "Hour",
     "minute": "Minute",
     "clear": "Clear"
+  },
+  "me": {
+    "verification": {
+      "title": "Email verification",
+      "checking": "Checking…",
+      "signInToManage": "Sign in to manage email verification.",
+      "yourEmail": "your email",
+      "verified": "✓ {{email}} is verified.",
+      "notVerified": "{{email}} is not verified yet. Verify it to become eligible as an official scorer.",
+      "resend": "Resend verification email",
+      "sent": "Verification email sent — check your inbox.",
+      "sendFailed": "Could not send the email. Please try again later."
+    }
   }
 }

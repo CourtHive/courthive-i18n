@@ -470,7 +470,9 @@
     "normal": "正常",
     "winloss_abbreviation": "胜/负",
     "cancelled": "已取消",
-    "abandoned": "已中止"
+    "abandoned": "已中止",
+    "scoreThisMatch": "__TODO__",
+    "openScorecard": "__TODO__"
   },
   "draws": {
     "seedlimit": "种子上限",
@@ -2513,7 +2515,10 @@
     "tokenExpired": "__TODO__",
     "tokenMismatch": "__TODO__",
     "tryAgain": "__TODO__",
-    "failed": "__TODO__"
+    "failed": "__TODO__",
+    "verifiedRedirect": "__TODO__",
+    "verifiedSignIn": "__TODO__",
+    "invalidOrExpired": "__TODO__"
   },
   "resetPassword": {
     "title": "__TODO__",
@@ -2601,5 +2606,18 @@
     "hour": "__TODO__",
     "minute": "__TODO__",
     "clear": "__TODO__"
+  },
+  "me": {
+    "verification": {
+      "title": "__TODO__",
+      "checking": "__TODO__",
+      "signInToManage": "__TODO__",
+      "yourEmail": "__TODO__",
+      "verified": "__TODO__",
+      "notVerified": "__TODO__",
+      "resend": "__TODO__",
+      "sent": "__TODO__",
+      "sendFailed": "__TODO__"
+    }
   }
 }
