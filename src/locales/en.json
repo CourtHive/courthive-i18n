@@ -79,8 +79,8 @@
   "ovw": "Overview",
   "prt": "Participants",
   "evt": "Events",
-  "sch": "Schedule (legacy)",
-  "sch2": "Schedule",
+  "sch": "Schedule",
+  "sch2": "Schedule 2",
   "ven": "Venues",
   "rpt": "Reports",
   "pub": "Publishing",
@@ -1313,7 +1313,7 @@
     },
     "editGroupNames": {
       "title": "Edit group names",
-      "minChars": "minimum 3 characters",
+      "minChars": "minimum 4 characters",
       "groupsRenamed": "Groups renamed"
     },
     "addFlights": {
@@ -1484,15 +1484,15 @@
       "usageList": "{{name}} is used by: {{events}}"
     },
     "firstLogin": {
-      "title": "Set your password",
-      "intro": "Your account was created with a temporary password. Choose a new password to finish signing in.",
-      "newPasswordLabel": "New password",
-      "newPasswordPlaceholder": "minimum 8 characters",
-      "confirmPasswordLabel": "Confirm password",
-      "confirmPasswordPlaceholder": "re-enter new password",
-      "setPassword": "Set password",
-      "failed": "Could not set your password. Please try again.",
-      "tokenExpired": "This sign-in session expired. Please log in again."
+      "title": "Set Your Password",
+      "intro": "Your administrator assigned you a temporary password. Please choose a new password to continue.",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "At least 8 characters",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "setPassword": "Set Password",
+      "failed": "Failed to set new password.",
+      "tokenExpired": "Your sign-in expired. Please log in again."
     },
     "forgotPassword": {
       "title": "Reset your password",
@@ -1550,16 +1550,16 @@
       "failed": "Delete failed."
     },
     "contactEmail": {
-      "title": "Recovery email",
-      "label": "Recovery email",
+      "title": "Contact email",
+      "label": "Email address",
       "save": "Save",
       "resend": "Resend verification",
-      "savedPending": "Verification email sent to {{email}}.",
-      "resent": "Verification email sent.",
-      "alreadyVerified": "Recovery email is already verified.",
-      "failed": "Could not update recovery email. Please try again.",
-      "statusNotSet": "No recovery email set. Add one so you can recover access if you lose your password.",
-      "statusPending": "Pending verification — check {{email}} and click the link.",
+      "savedPending": "Verification email sent to {{email}}. Check your inbox.",
+      "resent": "Verification email re-sent.",
+      "alreadyVerified": "Your contact email is already verified.",
+      "failed": "Could not save contact email.",
+      "statusNotSet": "No contact email is set yet. Set one so you can recover your password by email.",
+      "statusPending": "Pending verification: {{email}}. Click the link in your inbox.",
       "statusVerified": "Verified: {{email}}"
     },
     "editUser": {
@@ -2017,7 +2017,7 @@
       "viewAvailability": "View Availability",
       "viewTable": "View Table",
       "setDefaultAvailability": "Set Default Availability",
-      "saveToTournament": "Save",
+      "saveToTournament": "Save to Tournament",
       "grid": {
         "view": "View",
         "day1": "1 Day",
@@ -2464,7 +2464,13 @@
       "splashLogoUrl": "Splash logo URL",
       "accentColor": "Accent color (CSS)",
       "stylesheetUrl": "Provider stylesheet URL (escape hatch)",
-      "preview": "Live preview (mock navbar)"
+      "preview": "Live preview (mock navbar)",
+      "uploadThemeAssets": "Upload & link theme assets",
+      "uploadNoFiles": "Choose a .css file (and any fonts) first.",
+      "uploading": "Uploading…",
+      "uploadLinked": "Uploaded {{count}} file(s); stylesheet URL linked.",
+      "uploadedNoCss": "Uploaded {{count}} file(s) — add a .css file to link the stylesheet URL.",
+      "uploadFailed": "Upload failed: {{reason}}"
     },
     "defaults": {
       "defaultEventType": "Default event type",
@@ -2569,7 +2575,48 @@
     "type": "Type",
     "entries": "Entries",
     "draws": "Draws",
-    "noEvents": "No events"
+    "noEvents": "No events",
+    "providerDashboard": {
+      "loading": "Loading dashboard…",
+      "loadError": "Could not load provider configuration.",
+      "brand": {
+        "title": "Brand & Identity",
+        "editTheme": "Edit theme",
+        "logoAlt": "Provider logo",
+        "unnamed": "Unnamed provider",
+        "noBrand": "No brand colors set yet",
+        "themeTokens": "{{count}} theme token override(s)"
+      },
+      "checklist": {
+        "title": "Getting started",
+        "progress": "{{done}} of {{total}} complete",
+        "appName": "Set your display name",
+        "brand": "Set your brand colors",
+        "logo": "Upload a logo",
+        "privacy": "Configure participant privacy"
+      },
+      "config": {
+        "title": "Configuration at a glance",
+        "editSettings": "Edit settings",
+        "permissions": "{{count}} permission(s) enabled",
+        "policies": "{{count}} policy set(s) configured",
+        "privacy": "{{count}} privacy field(s) published",
+        "scoringApp": "Scoring app: {{app}}",
+        "none": "Using platform defaults"
+      },
+      "tournaments": {
+        "title": "Tournaments",
+        "total": "Total",
+        "upcoming": "Upcoming",
+        "live": "In progress",
+        "completed": "Completed",
+        "none": "No tournaments yet",
+        "loadError": "Could not load tournaments"
+      },
+      "activity": {
+        "title": "Activity by year"
+      }
+    }
   },
   "ams": {
     "officials": "Officials",
@@ -2601,5 +2648,15 @@
     "hour": "Hour",
     "minute": "Minute",
     "clear": "Clear"
+  },
+  "onboarding": {
+    "title": "Welcome — let's set up {{name}}",
+    "yourProvider": "your provider",
+    "intro": "{{count}} step(s) left to finish setting up. You can skip any of these and come back later.",
+    "allDone": "You're all set up. 🎉",
+    "setUp": "Set up",
+    "getStarted": "Get started",
+    "skipForNow": "Skip for now",
+    "finish": "Finish"
   }
 }
