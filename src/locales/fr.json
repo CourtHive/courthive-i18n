@@ -2676,5 +2676,41 @@
       "sent": "__TODO__",
       "sendFailed": "__TODO__"
     }
+  },
+  "crowd": {
+    "trackers": "__TODO__",
+    "trackersFor": "__TODO__",
+    "loading": "__TODO__",
+    "close": "__TODO__",
+    "cancel": "__TODO__",
+    "promote": "__TODO__",
+    "demote": "__TODO__",
+    "noActiveTrackers": "__TODO__",
+    "activeTrackers_one": "__TODO__",
+    "activeTrackers_other": "__TODO__",
+    "viewTrackers": "__TODO__",
+    "setDelegatedOutcome": "__TODO__",
+    "confirmDelegatedOutcome": "__TODO__",
+    "badge": {
+      "official": "__TODO__",
+      "participant": "__TODO__",
+      "crowd": "__TODO__",
+      "anon": "__TODO__",
+      "verified": "__TODO__",
+      "nominated": "__TODO__"
+    },
+    "reason": {
+      "signInRequired": "__TODO__",
+      "emailNotVerified": "__TODO__"
+    },
+    "toast": {
+      "nominateFirst": "__TODO__",
+      "noOutcomeToConfirm": "__TODO__"
+    },
+    "tooltip": {
+      "liveTracker": "__TODO__",
+      "unconfirmed": "__TODO__",
+      "unconfirmedAria": "__TODO__"
+    }
   }
 }
