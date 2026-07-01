@@ -474,7 +474,9 @@
     "normal": "Normalno",
     "winloss_abbreviation": "P/I",
     "cancelled": "Otkazano",
-    "abandoned": "Prekinuto"
+    "abandoned": "Prekinuto",
+    "scoreThisMatch": "__TODO__",
+    "openScorecard": "__TODO__"
   },
   "draws": {
     "seedlimit": "Ograničenje nositelja",
@@ -2519,7 +2521,10 @@
     "tokenExpired": "__TODO__",
     "tokenMismatch": "__TODO__",
     "tryAgain": "__TODO__",
-    "failed": "__TODO__"
+    "failed": "__TODO__",
+    "verifiedRedirect": "__TODO__",
+    "verifiedSignIn": "__TODO__",
+    "invalidOrExpired": "__TODO__"
   },
   "resetPassword": {
     "title": "__TODO__",
@@ -2658,5 +2663,18 @@
     "getStarted": "__TODO__",
     "skipForNow": "__TODO__",
     "finish": "__TODO__"
+  },
+  "me": {
+    "verification": {
+      "title": "__TODO__",
+      "checking": "__TODO__",
+      "signInToManage": "__TODO__",
+      "yourEmail": "__TODO__",
+      "verified": "__TODO__",
+      "notVerified": "__TODO__",
+      "resend": "__TODO__",
+      "sent": "__TODO__",
+      "sendFailed": "__TODO__"
+    }
   }
 }
