@@ -1,7 +1,7 @@
 {
   "name": "@courthive/i18n",
   "packageManager": "pnpm@11.9.0",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Translation locales for the CourtHive ecosystem. Source-of-truth bundle served at runtime by competition-factory-server to TMX clients.",
   "author": "Charles Allen <charles@CourtHive.com> (CourtHive.com)",
   "license": "MIT",
