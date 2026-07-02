@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/CourtHive/courthive-i18n/compare/v0.3.0...v0.3.1) (2026-07-02)
+
+
+### Bug Fixes
+
+* **i18n:** publish accumulated translation syncs ([545d12d](https://github.com/CourtHive/courthive-i18n/commit/545d12db136dcf060e53c3a0c8cc3577bbb63f94))
+
 ## [0.3.0](https://github.com/CourtHive/courthive-i18n/compare/v0.2.0...v0.3.0) (2026-06-01)
 
 
