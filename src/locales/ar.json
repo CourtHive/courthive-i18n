@@ -2623,6 +2623,18 @@
       },
       "activity": {
         "title": "__TODO__"
+      },
+      "rankings": {
+        "title": "__TODO__",
+        "launch": "__TODO__",
+        "configure": "__TODO__",
+        "recompute": "__TODO__",
+        "recomputing": "__TODO__",
+        "policySet": "__TODO__",
+        "policyUnsetHint": "__TODO__",
+        "pipelineOff": "__TODO__",
+        "failed": "__TODO__",
+        "result": "__TODO__"
       }
     },
     "notLoggedInTitle": "__TODO__",
