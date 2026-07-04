@@ -1338,8 +1338,7 @@
       "groupSize": "Group size",
       "positionsToBePlayedOff": "Positions to be played off:",
       "selectPositions": "Select group finishing positions. Selections must be sequential",
-      "structureAdded": "Structure added",
-      "selectEligible": "__TODO__"
+      "structureAdded": "Structure added"
     },
     "addToEvent": {
       "title": "Add to event",

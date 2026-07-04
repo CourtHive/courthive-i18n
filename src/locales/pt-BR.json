@@ -1084,8 +1084,7 @@
       "groupSize": "Tamanho do grupo",
       "positionsToBePlayedOff": "Posições a serem disputadas:",
       "selectPositions": "Selecione posições finais do grupo. As seleções devem ser sequenciais",
-      "structureAdded": "Estrutura adicionada",
-      "selectEligible": "__TODO__"
+      "structureAdded": "Estrutura adicionada"
     },
     "addToEvent": {
       "title": "Adicionar ao evento",

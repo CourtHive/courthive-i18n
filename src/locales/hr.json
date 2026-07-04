@@ -1338,8 +1338,7 @@
       "groupSize": "Veličina grupe",
       "positionsToBePlayedOff": "Pozicije za odigrati:",
       "selectPositions": "Odaberite završne pozicije grupe. Odabir mora biti sekvencijalan",
-      "structureAdded": "Struktura dodana",
-      "selectEligible": "__TODO__"
+      "structureAdded": "Struktura dodana"
     },
     "addToEvent": {
       "title": "Dodaj u natjecanje",

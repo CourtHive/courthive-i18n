@@ -1084,8 +1084,7 @@
       "groupSize": "Gruppengröße",
       "positionsToBePlayedOff": "Auszuspielende Positionen:",
       "selectPositions": "Endplatzierungen in der Gruppe auswählen. Auswahlen müssen fortlaufend sein",
-      "structureAdded": "Struktur hinzugefügt",
-      "selectEligible": "__TODO__"
+      "structureAdded": "Struktur hinzugefügt"
     },
     "addToEvent": {
       "title": "Zum Bewerb hinzufügen",
