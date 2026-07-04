@@ -1,0 +1,45 @@
+name: i18n-todo-reminder
+
+# Periodic nudge: the sync workflow (merge-source-en) keeps KEY parity by
+# injecting `__TODO__` placeholders, but turning those into real translations
+# is a manual, AI-assisted pass. This workflow surfaces the standing backlog
+# on a schedule so it doesn't silently pile up — it maintains one tracking
+# issue labelled `i18n-backlog`, refreshes the per-locale counts, pings while
+# work remains, and closes the issue when everything is translated.
+#
+# No translation is performed here and no external/LLM service is called; it
+# only reports counts derived from `src/locales/*.json`.
+
+on:
+  schedule:
+    # Mondays 13:00 UTC — a fresh reminder at the start of the week.
+    - cron: '0 13 * * 1'
+  workflow_dispatch: # manual run from the Actions tab
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  remind:
+    name: surface translation backlog
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Generate backlog report
+        id: report
+        run: |
+          node scripts/todo-report.cjs > report.md
+          {
+            echo "total=$(node scripts/todo-report.cjs --total)"
+          } >> "$GITHUB_OUTPUT"
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Surface / refresh the tracking issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          TOTAL: ${{ steps.report.outputs.total }}
+        run: bash scripts/todo-reminder-issue.sh
