@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.4.0](https://github.com/CourtHive/courthive-i18n/compare/v0.3.1...v0.4.0) (2026-07-04)
+
+
+### Features
+
+* **i18n:** translate pending placeholders across all 8 non-english locales ([#55](https://github.com/CourtHive/courthive-i18n/issues/55)) ([99c6704](https://github.com/CourtHive/courthive-i18n/commit/99c6704ed727089500ef4723d96bc86062de34ed))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from courthive-console ([5bd89cf](https://github.com/CourtHive/courthive-i18n/commit/5bd89cf3076cc0526ff157ff8b64ae5f420edebd))
+* **i18n:** sync en.json from courthive-console ([86a76c7](https://github.com/CourtHive/courthive-i18n/commit/86a76c7fe2b717012eff92dd13df4882ff1e083a))
+* **i18n:** sync en.json from TMX ([ab0ecce](https://github.com/CourtHive/courthive-i18n/commit/ab0ecce81d20a1dbc5c6fececb9550eb425db518))
+* **i18n:** sync en.json from TMX ([#52](https://github.com/CourtHive/courthive-i18n/issues/52)) ([5c5411f](https://github.com/CourtHive/courthive-i18n/commit/5c5411fb35832793a2009eef5966c0ee27eaac0c))
+
 ## [0.3.1](https://github.com/CourtHive/courthive-i18n/compare/v0.3.0...v0.3.1) (2026-07-02)
 
 
