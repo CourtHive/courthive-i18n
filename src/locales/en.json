@@ -1649,7 +1649,8 @@
     "practiceUnlimited": "Unlimited",
     "practiceClosed": "Closed",
     "setTimeZone": "Set time zone",
-    "setTimeZoneDetected": "(detected: {{zone}})"
+    "setTimeZoneDetected": "(detected: {{zone}})",
+    "practiceNoneAllocated": "None allocated"
   },
   "drawers": {
     "editTournament": {
@@ -1956,7 +1957,8 @@
       "profile": "Profile",
       "official": "Official",
       "status": "Status",
-      "updatedAt": "Updated"
+      "updatedAt": "Updated",
+      "calledAt": "Called"
     },
     "tournaments": {
       "open": "Open"
@@ -2776,5 +2778,6 @@
     "privacyNoPolicy": "Select and save a participant privacy policy first.",
     "privacyApplyFailed": "Could not apply the privacy policy to existing tournaments.",
     "privacyApplyResult": "Privacy policy applied to {{attached}} tournament(s); {{already}} already had it; {{failed}} failed."
-  }
+  },
+  "cns": "Console"
 }

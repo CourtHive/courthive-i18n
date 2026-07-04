@@ -1483,7 +1483,8 @@
     "practiceUnlimited": "__TODO__",
     "practiceClosed": "__TODO__",
     "setTimeZone": "__TODO__",
-    "setTimeZoneDetected": "__TODO__"
+    "setTimeZoneDetected": "__TODO__",
+    "practiceNoneAllocated": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -1790,7 +1791,8 @@
       "profile": "Profil",
       "official": "Officiel",
       "status": "Statut",
-      "updatedAt": "__TODO__"
+      "updatedAt": "__TODO__",
+      "calledAt": "__TODO__"
     },
     "tournaments": {
       "open": "Ouvrir"
@@ -2776,5 +2778,6 @@
     "privacyNoPolicy": "__TODO__",
     "privacyApplyFailed": "__TODO__",
     "privacyApplyResult": "__TODO__"
-  }
+  },
+  "cns": "__TODO__"
 }
