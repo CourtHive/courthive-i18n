@@ -2623,6 +2623,18 @@
       },
       "activity": {
         "title": "Activity by year"
+      },
+      "rankings": {
+        "title": "Rankings",
+        "launch": "Launch rankings page",
+        "configure": "Configure ranking policy",
+        "recompute": "Recompute rankings",
+        "recomputing": "Recomputing rankings…",
+        "policySet": "A ranking-points policy is configured. Recompute to refresh points across all tournaments and regenerate ranking snapshots.",
+        "policyUnsetHint": "Select a ranking-points policy first to enable recompute.",
+        "pipelineOff": "The rankings pipeline is not configured on the server (RANKINGS_PIPELINE_URL). Nothing was recomputed.",
+        "failed": "Could not recompute rankings.",
+        "result": "Recomputed {{republished}}/{{tournaments}} tournaments; generated {{snapshots}} snapshot(s)."
       }
     },
     "notLoggedInTitle": "You're not signed in",
