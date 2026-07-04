@@ -1246,8 +1246,7 @@
       "groupSize": "小组大小",
       "positionsToBePlayedOff": "需要进行附加赛的位置：",
       "selectPositions": "选择小组最终位置。选择必须连续",
-      "structureAdded": "已添加结构",
-      "selectEligible": "__TODO__"
+      "structureAdded": "已添加结构"
     },
     "addToEvent": {
       "title": "添加到赛事",

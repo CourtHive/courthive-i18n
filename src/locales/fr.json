@@ -1084,8 +1084,7 @@
       "groupSize": "Taille du groupe",
       "positionsToBePlayedOff": "Positions à départager :",
       "selectPositions": "Sélectionnez les positions d'arrivée dans les groupes. Les sélections doivent être consécutives",
-      "structureAdded": "Structure ajoutée",
-      "selectEligible": "__TODO__"
+      "structureAdded": "Structure ajoutée"
     },
     "addToEvent": {
       "title": "Ajouter à l'épreuve",

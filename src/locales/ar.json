@@ -1084,8 +1084,7 @@
       "groupSize": "حجم المجموعة",
       "positionsToBePlayedOff": "المراكز التي ستُلعب عليها المباريات الفاصلة:",
       "selectPositions": "اختر مراكز الانتهاء في المجموعة. يجب أن تكون الاختيارات متتالية",
-      "structureAdded": "تمت إضافة الهيكل",
-      "selectEligible": "__TODO__"
+      "structureAdded": "تمت إضافة الهيكل"
     },
     "addToEvent": {
       "title": "إضافة إلى حدث",

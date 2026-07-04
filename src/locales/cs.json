@@ -1338,8 +1338,7 @@
       "groupSize": "Velikost skupiny",
       "positionsToBePlayedOff": "Pozice k odehrání:",
       "selectPositions": "Vyberte konečné pozice skupiny. Výběr musí být sekvenční",
-      "structureAdded": "Struktura přidána",
-      "selectEligible": "__TODO__"
+      "structureAdded": "Struktura přidána"
     },
     "addToEvent": {
       "title": "Přidat do soutěže",
