@@ -2456,7 +2456,9 @@
     },
     "allowed": {
       "universeHint": "Comma-separated list. Empty means unrestricted (everything allowed).",
-      "selectionHint": "Comma-separated list. Empty means use the full provisioner-allowed universe."
+      "selectionHint": "Select which options this provider may use. None selected = all allowed.",
+      "restrictedHint": "Choose within your provisioner-allowed set. None selected = all of these.",
+      "unrestrictedHint": "None selected = all allowed. Select to restrict."
     },
     "branding": {
       "appName": "App name",
@@ -2514,10 +2516,10 @@
     "title": "Verify your email",
     "intro": "Click the button below to confirm that this email is yours.",
     "verifyButton": "Verify email",
-    "verifying": "Verifying your email…",
+    "verifying": "Verifying…",
     "success": "Verified ✓ — you can now receive password-recovery email at {{email}}. You may close this tab.",
     "successPlain": "Verified ✓. You may close this tab.",
-    "missingToken": "Missing verification token.",
+    "missingToken": "This verification link is missing its token. Try clicking the link in your email again, or request a fresh one from the contact-email settings.",
     "tokenExpired": "This verification link has expired. Request a fresh one from your contact-email settings.",
     "tokenMismatch": "This link no longer matches your current contact email — it was probably superseded by a more recent change.",
     "tryAgain": "Try again",
@@ -2616,12 +2618,16 @@
         "live": "In progress",
         "completed": "Completed",
         "none": "No tournaments yet",
-        "loadError": "Could not load tournaments"
+        "loadError": "Could not load tournaments",
+        "openInTmx": "Open in TMX"
       },
       "activity": {
         "title": "Activity by year"
       }
-    }
+    },
+    "notLoggedInTitle": "You're not signed in",
+    "notLoggedInHint": "Sign in to view your provider dashboard.",
+    "logIn": "Sign in"
   },
   "ams": {
     "officials": "Officials",
@@ -2712,5 +2718,51 @@
       "unconfirmed": "Unconfirmed delegated score — confirm to make it official",
       "unconfirmedAria": "Unconfirmed delegated score awaiting confirmation"
     }
+  },
+  "providerSetup": {
+    "wizardTitle": "Set up your provider",
+    "progress": "Step {{current}} of {{total}}",
+    "back": "Back",
+    "skip": "Skip",
+    "next": "Next",
+    "finish": "Finish",
+    "identity": {
+      "title": "Brand & identity",
+      "intro": "Let's set up how your organization appears across the platform. We'll walk through a few quick steps — you can skip any and change them later."
+    },
+    "displayName": {
+      "title": "Set your display name",
+      "intro": "The name shown in the navbar and page titles in place of \"TMX\"."
+    },
+    "brandColors": {
+      "title": "Set your brand colors",
+      "intro": "Choose your brand colors below — each one updates the matching parts of the app. For full control, use Advanced.",
+      "advanced": "Advanced — raw token overrides & theme file",
+      "downloadTemplate": "Download theme template (.css)"
+    },
+    "logo": {
+      "title": "Upload a logo",
+      "intro": "Paste an image URL or upload a PNG/JPG/WebP/GIF for your navbar and splash logos."
+    },
+    "privacy": {
+      "title": "Configure participant privacy",
+      "intro": "Choose what participant details are published. Everything defaults to private."
+    }
+  },
+  "providerPolicies": {
+    "title": "Policies",
+    "intro": "Select a policy for each type from your policy catalog. Create or edit policies on the Policies page.",
+    "rankingPoints": "Ranking points policy",
+    "privacy": "Participant privacy policy",
+    "keepCurrent": "— keep current —",
+    "none": "— none —",
+    "clear": "— clear —",
+    "manage": "Manage policies",
+    "privacyApplyExisting": "Apply to existing tournaments",
+    "privacyIncludeInProgress": "Also apply to in-progress tournaments",
+    "privacySaveFirst": "Save your privacy policy change first, then apply it to existing tournaments.",
+    "privacyNoPolicy": "Select and save a participant privacy policy first.",
+    "privacyApplyFailed": "Could not apply the privacy policy to existing tournaments.",
+    "privacyApplyResult": "Privacy policy applied to {{attached}} tournament(s); {{already}} already had it; {{failed}} failed."
   }
 }
