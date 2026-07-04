@@ -42,6 +42,7 @@
     "lint": "eslint . --fix --max-warnings 0",
     "format": "prettier --write \"src/**/*.{ts,json}\"",
     "test": "node scripts/compare-keys.cjs && echo 'OK'",
+    "todo-report": "node scripts/todo-report.cjs",
     "commitlint": "commitlint --edit",
     "prepare": "husky && node scripts/install-husky-hooks.cjs",
     "prepublishOnly": "pnpm build"
