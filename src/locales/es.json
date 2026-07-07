@@ -2635,7 +2635,14 @@
         "policyUnsetHint": "Selecciona primero una política de puntos de ranking para habilitar el recálculo.",
         "pipelineOff": "El pipeline de rankings no está configurado en el servidor (RANKINGS_PIPELINE_URL). No se recalculó nada.",
         "failed": "No se pudieron recalcular los rankings.",
-        "result": "Recalculados {{republished}}/{{tournaments}} torneos; generada(s) {{snapshots}} instantánea(s)."
+        "result": "Recalculados {{republished}}/{{tournaments}} torneos; generada(s) {{snapshots}} instantánea(s).",
+        "unprocessed": "__TODO__",
+        "unprocessedRunning": "__TODO__",
+        "fromDateLabel": "__TODO__",
+        "fromDateRequired": "__TODO__",
+        "rerunFromDate": "__TODO__",
+        "rerunRunning": "__TODO__",
+        "bulkNone": "__TODO__"
       }
     },
     "notLoggedInTitle": "No has iniciado sesión",

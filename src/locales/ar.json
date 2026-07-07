@@ -2635,7 +2635,14 @@
         "policyUnsetHint": "اختر سياسة نقاط تصنيف أولاً لتفعيل إعادة الحساب.",
         "pipelineOff": "خط أنابيب التصنيفات غير مُهيّأ على الخادم (RANKINGS_PIPELINE_URL). لم تتم إعادة حساب أي شيء.",
         "failed": "تعذّرت إعادة حساب التصنيفات.",
-        "result": "تمت إعادة حساب {{republished}}/{{tournaments}} بطولة؛ وتم إنشاء {{snapshots}} لقطة."
+        "result": "تمت إعادة حساب {{republished}}/{{tournaments}} بطولة؛ وتم إنشاء {{snapshots}} لقطة.",
+        "unprocessed": "__TODO__",
+        "unprocessedRunning": "__TODO__",
+        "fromDateLabel": "__TODO__",
+        "fromDateRequired": "__TODO__",
+        "rerunFromDate": "__TODO__",
+        "rerunRunning": "__TODO__",
+        "bulkNone": "__TODO__"
       }
     },
     "notLoggedInTitle": "لم تسجّل الدخول",

@@ -2635,7 +2635,14 @@
         "policyUnsetHint": "Wählen Sie zuerst eine Ranglistenpunkte-Richtlinie aus, um die Neuberechnung zu aktivieren.",
         "pipelineOff": "Die Ranglisten-Pipeline ist auf dem Server nicht konfiguriert (RANKINGS_PIPELINE_URL). Es wurde nichts neu berechnet.",
         "failed": "Ranglisten konnten nicht neu berechnet werden.",
-        "result": "{{republished}}/{{tournaments}} Turniere neu berechnet; {{snapshots}} Snapshot(s) erzeugt."
+        "result": "{{republished}}/{{tournaments}} Turniere neu berechnet; {{snapshots}} Snapshot(s) erzeugt.",
+        "unprocessed": "__TODO__",
+        "unprocessedRunning": "__TODO__",
+        "fromDateLabel": "__TODO__",
+        "fromDateRequired": "__TODO__",
+        "rerunFromDate": "__TODO__",
+        "rerunRunning": "__TODO__",
+        "bulkNone": "__TODO__"
       }
     },
     "notLoggedInTitle": "Sie sind nicht angemeldet",
