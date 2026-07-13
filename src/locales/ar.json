@@ -783,7 +783,30 @@
       "structure": "حسب البنية",
       "time": "حسب الوقت"
     },
-    "showCompleted": "عرض المكتملة"
+    "showCompleted": "عرض المكتملة",
+    "callToCourt": "__TODO__",
+    "now": "__TODO__",
+    "nowRowActions": "__TODO__",
+    "status": "__TODO__",
+    "suspendAll": "__TODO__",
+    "resumeAll": "__TODO__",
+    "startAll": "__TODO__",
+    "rescheduleAll": "__TODO__",
+    "unscheduleAll": "__TODO__",
+    "rescheduleNowTitle": "__TODO__",
+    "chooseDate": "__TODO__",
+    "chooseTime": "__TODO__",
+    "selectAll": "__TODO__",
+    "selectNone": "__TODO__",
+    "reschedule": "__TODO__",
+    "shift": "__TODO__",
+    "shiftCourtsTitle": "__TODO__",
+    "shiftRows": "__TODO__",
+    "noActiveMatches": "__TODO__",
+    "startOnDropTitle": "__TODO__",
+    "startOnDropPrompt": "__TODO__",
+    "unscheduleAllTitle": "__TODO__",
+    "unscheduleAllConfirm": "__TODO__"
   },
   "penalties": {
     "fail2signout": "عدم تسجيل الانصراف",
@@ -1828,7 +1851,19 @@
       "opponents": "الخصوم",
       "allDates": "جميع التواريخ",
       "today": "اليوم",
-      "noDate": "بلا تاريخ"
+      "noDate": "بلا تاريخ",
+      "suspended": "__TODO__",
+      "notReady": "__TODO__",
+      "live": "__TODO__",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "allProfiles": "__TODO__",
+      "competitive": "__TODO__",
+      "routine": "__TODO__",
+      "decisive": "__TODO__",
+      "walkover": "__TODO__",
+      "showTodayView": "__TODO__",
+      "showCompetitivenessView": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "البحث عن مشاركين",
@@ -2090,7 +2125,10 @@
     "country": "البلد",
     "cityState": "المدينة / المنطقة",
     "unpublishTournament": "إلغاء نشر البطولة",
-    "confirmUnpublish": "إلغاء نشر جميع المسابقات والمشاركين والجدول"
+    "confirmUnpublish": "إلغاء نشر جميع المسابقات والمشاركين والجدول",
+    "timeZoneNotSetTitle": "__TODO__",
+    "timeZoneNotSetBody": "__TODO__",
+    "setTimeZone": "__TODO__"
   },
   "cal": "التقويم",
   "tpl": "القوالب",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "تعذّر تطبيق سياسة الخصوصية على البطولات الحالية.",
     "privacyApplyResult": "تم تطبيق سياسة الخصوصية على {{attached}} بطولة؛ {{already}} كانت لديها بالفعل؛ {{failed}} فشلت."
   },
-  "cns": "لوحة التحكم"
+  "cns": "لوحة التحكم",
+  "session": {
+    "expiredMessage": "__TODO__",
+    "logInAgain": "__TODO__"
+  }
 }

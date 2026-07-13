@@ -949,7 +949,30 @@
       "structure": "Podle struktury",
       "time": "Podle času"
     },
-    "showCompleted": "Zobrazit dokončené"
+    "showCompleted": "Zobrazit dokončené",
+    "callToCourt": "__TODO__",
+    "now": "__TODO__",
+    "nowRowActions": "__TODO__",
+    "status": "__TODO__",
+    "suspendAll": "__TODO__",
+    "resumeAll": "__TODO__",
+    "startAll": "__TODO__",
+    "rescheduleAll": "__TODO__",
+    "unscheduleAll": "__TODO__",
+    "rescheduleNowTitle": "__TODO__",
+    "chooseDate": "__TODO__",
+    "chooseTime": "__TODO__",
+    "selectAll": "__TODO__",
+    "selectNone": "__TODO__",
+    "reschedule": "__TODO__",
+    "shift": "__TODO__",
+    "shiftCourtsTitle": "__TODO__",
+    "shiftRows": "__TODO__",
+    "noActiveMatches": "__TODO__",
+    "startOnDropTitle": "__TODO__",
+    "startOnDropPrompt": "__TODO__",
+    "unscheduleAllTitle": "__TODO__",
+    "unscheduleAllConfirm": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",
@@ -1994,7 +2017,19 @@
       "singles": "Dvouhra",
       "doubles": "Čtyřhra",
       "team": "Tým",
-      "opponents": "Soupeři"
+      "opponents": "Soupeři",
+      "suspended": "__TODO__",
+      "notReady": "__TODO__",
+      "live": "__TODO__",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "allProfiles": "__TODO__",
+      "competitive": "__TODO__",
+      "routine": "__TODO__",
+      "decisive": "__TODO__",
+      "walkover": "__TODO__",
+      "showTodayView": "__TODO__",
+      "showCompetitivenessView": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Hledat účastníky",
@@ -2256,7 +2291,10 @@
     "defaultLanguage": "Výchozí jazyk",
     "publishParticipants": "Publikovat účastníky",
     "country": "Země",
-    "cityState": "Město / Stát"
+    "cityState": "Město / Stát",
+    "timeZoneNotSetTitle": "__TODO__",
+    "timeZoneNotSetBody": "__TODO__",
+    "setTimeZone": "__TODO__"
   },
   "formatWizard": {
     "title": "Průvodce formátem",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "Pravidla soukromí nelze použít na stávající turnaje.",
     "privacyApplyResult": "Pravidla soukromí použita na {{attached}} turnajů; {{already}} je již mělo; {{failed}} selhalo."
   },
-  "cns": "Konzole"
+  "cns": "Konzole",
+  "session": {
+    "expiredMessage": "__TODO__",
+    "logInAgain": "__TODO__"
+  }
 }
