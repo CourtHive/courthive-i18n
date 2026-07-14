@@ -1011,7 +1011,8 @@
     "dismiss": "Zavřít",
     "iSavedIt": "Uložil jsem to",
     "remove": "Odebrat",
-    "continueAndUnschedule": "Pokračovat a zrušit naplánování"
+    "continueAndUnschedule": "Pokračovat a zrušit naplánování",
+    "noScore": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -1645,6 +1646,11 @@
       "pickTimes": "Nastavte čas začátku i konce.",
       "invalidWindow": "Čas začátku musí být před časem konce.",
       "conflictWarning": "Registrace přidána — účastník má během tohoto okna jiný závazek."
+    },
+    "editDrawNames": {
+      "title": "__TODO__",
+      "minChars": "__TODO__",
+      "drawRenamed": "__TODO__"
     }
   },
   "dashboard": {
@@ -1820,7 +1826,9 @@
     "activeDatesPromptAction": "Nastavit aktivní data",
     "cannotDeleteTournament": "Turnaj nelze smazat",
     "tournamentNotEnded": "Turnaj nelze smazat před datem jeho ukončení. Nejprve nastavte datum konce do minulosti, poté jej smažte.",
-    "deleteForbidden": "Nemáte oprávnění smazat tento turnaj."
+    "deleteForbidden": "Nemáte oprávnění smazat tento turnaj.",
+    "matchUpScoredElsewhere": "__TODO__",
+    "overwriteRemoteScore": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -2827,5 +2835,6 @@
   "session": {
     "expiredMessage": "__TODO__",
     "logInAgain": "__TODO__"
-  }
+  },
+  "overwrite": "__TODO__"
 }

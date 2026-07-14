@@ -845,7 +845,8 @@
     "dismiss": "Dispensar",
     "iSavedIt": "Eu salvei",
     "remove": "Remover",
-    "continueAndUnschedule": "Continuar e desagendar"
+    "continueAndUnschedule": "Continuar e desagendar",
+    "noScore": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -1479,6 +1480,11 @@
       "pickTimes": "Defina os horários de início e término.",
       "invalidWindow": "O horário de início deve ser anterior ao de término.",
       "conflictWarning": "Registro adicionado — o participante tem outro compromisso durante esta janela."
+    },
+    "editDrawNames": {
+      "title": "__TODO__",
+      "minChars": "__TODO__",
+      "drawRenamed": "__TODO__"
     }
   },
   "dashboard": {
@@ -1654,7 +1660,9 @@
     "activeDatesPromptAction": "Definir datas ativas",
     "cannotDeleteTournament": "Não é possível excluir o torneio",
     "tournamentNotEnded": "Não é possível excluir um torneio antes da data de término. Defina a data de término para uma data passada primeiro e depois exclua.",
-    "deleteForbidden": "Você não está autorizado a excluir este torneio."
+    "deleteForbidden": "Você não está autorizado a excluir este torneio.",
+    "matchUpScoredElsewhere": "__TODO__",
+    "overwriteRemoteScore": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorização",
@@ -2827,5 +2835,6 @@
   "session": {
     "expiredMessage": "__TODO__",
     "logInAgain": "__TODO__"
-  }
+  },
+  "overwrite": "__TODO__"
 }

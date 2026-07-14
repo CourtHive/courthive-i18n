@@ -1007,7 +1007,8 @@
     "dismiss": "关闭",
     "iSavedIt": "我已保存",
     "remove": "移除",
-    "continueAndUnschedule": "继续并取消排期"
+    "continueAndUnschedule": "继续并取消排期",
+    "noScore": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -1641,6 +1642,11 @@
       "pickTimes": "设置开始和结束时间。",
       "invalidWindow": "开始时间必须早于结束时间。",
       "conflictWarning": "注册已添加 — 参赛者在此时段内另有安排。"
+    },
+    "editDrawNames": {
+      "title": "__TODO__",
+      "minChars": "__TODO__",
+      "drawRenamed": "__TODO__"
     }
   },
   "dashboard": {
@@ -1816,7 +1822,9 @@
     "activeDatesPromptAction": "设置活动日期",
     "cannotDeleteTournament": "无法删除赛事",
     "tournamentNotEnded": "无法在赛事结束日期之前删除赛事。请先将结束日期设置为过去的日期，然后再删除。",
-    "deleteForbidden": "您无权删除此赛事。"
+    "deleteForbidden": "您无权删除此赛事。",
+    "matchUpScoredElsewhere": "__TODO__",
+    "overwriteRemoteScore": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -2827,5 +2835,6 @@
   "session": {
     "expiredMessage": "__TODO__",
     "logInAgain": "__TODO__"
-  }
+  },
+  "overwrite": "__TODO__"
 }

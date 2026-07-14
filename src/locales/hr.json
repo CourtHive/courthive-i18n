@@ -1011,7 +1011,8 @@
     "dismiss": "Odbaci",
     "iSavedIt": "Spremio sam",
     "remove": "Ukloni",
-    "continueAndUnschedule": "Nastavi i ukloni iz rasporeda"
+    "continueAndUnschedule": "Nastavi i ukloni iz rasporeda",
+    "noScore": "__TODO__"
   },
   "modals": {
     "deleteEvents": {
@@ -1645,6 +1646,11 @@
       "pickTimes": "Postavite i vrijeme početka i završetka.",
       "invalidWindow": "Vrijeme početka mora biti prije vremena završetka.",
       "conflictWarning": "Prijava dodana — sudionik ima drugu obvezu tijekom ovog termina."
+    },
+    "editDrawNames": {
+      "title": "__TODO__",
+      "minChars": "__TODO__",
+      "drawRenamed": "__TODO__"
     }
   },
   "dashboard": {
@@ -1820,7 +1826,9 @@
     "activeDatesPromptAction": "Postavi aktivne datume",
     "cannotDeleteTournament": "Nije moguće izbrisati turnir",
     "tournamentNotEnded": "Nije moguće izbrisati turnir prije njegovog datuma završetka. Prvo postavite datum završetka na prošli datum, a zatim izbrišite.",
-    "deleteForbidden": "Niste ovlašteni za brisanje ovog turnira."
+    "deleteForbidden": "Niste ovlašteni za brisanje ovog turnira.",
+    "matchUpScoredElsewhere": "__TODO__",
+    "overwriteRemoteScore": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -2827,5 +2835,6 @@
   "session": {
     "expiredMessage": "__TODO__",
     "logInAgain": "__TODO__"
-  }
+  },
+  "overwrite": "__TODO__"
 }
