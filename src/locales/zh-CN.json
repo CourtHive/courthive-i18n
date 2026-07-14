@@ -945,7 +945,30 @@
       "structure": "按结构",
       "time": "按时间"
     },
-    "showCompleted": "显示已完成"
+    "showCompleted": "显示已完成",
+    "callToCourt": "__TODO__",
+    "now": "__TODO__",
+    "nowRowActions": "__TODO__",
+    "status": "__TODO__",
+    "suspendAll": "__TODO__",
+    "resumeAll": "__TODO__",
+    "startAll": "__TODO__",
+    "rescheduleAll": "__TODO__",
+    "unscheduleAll": "__TODO__",
+    "rescheduleNowTitle": "__TODO__",
+    "chooseDate": "__TODO__",
+    "chooseTime": "__TODO__",
+    "selectAll": "__TODO__",
+    "selectNone": "__TODO__",
+    "reschedule": "__TODO__",
+    "shift": "__TODO__",
+    "shiftCourtsTitle": "__TODO__",
+    "shiftRows": "__TODO__",
+    "noActiveMatches": "__TODO__",
+    "startOnDropTitle": "__TODO__",
+    "startOnDropPrompt": "__TODO__",
+    "unscheduleAllTitle": "__TODO__",
+    "unscheduleAllConfirm": "__TODO__"
   },
   "penalties": {
     "fail2signout": "未签退",
@@ -1990,7 +2013,19 @@
       "opponents": "对手",
       "allDates": "所有日期",
       "today": "今天",
-      "noDate": "无日期"
+      "noDate": "无日期",
+      "suspended": "__TODO__",
+      "notReady": "__TODO__",
+      "live": "__TODO__",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "allProfiles": "__TODO__",
+      "competitive": "__TODO__",
+      "routine": "__TODO__",
+      "decisive": "__TODO__",
+      "walkover": "__TODO__",
+      "showTodayView": "__TODO__",
+      "showCompetitivenessView": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "搜索参赛者",
@@ -2252,7 +2287,10 @@
     "defaultLanguage": "默认语言",
     "publishParticipants": "发布参赛者",
     "country": "国家",
-    "cityState": "城市 / 省份"
+    "cityState": "城市 / 省份",
+    "timeZoneNotSetTitle": "__TODO__",
+    "timeZoneNotSetBody": "__TODO__",
+    "setTimeZone": "__TODO__"
   },
   "cal": "日历",
   "tpl": "模板",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "无法将隐私策略应用到现有赛事。",
     "privacyApplyResult": "隐私策略已应用到 {{attached}} 项赛事；{{already}} 项已有；{{failed}} 项失败。"
   },
-  "cns": "控制台"
+  "cns": "控制台",
+  "session": {
+    "expiredMessage": "__TODO__",
+    "logInAgain": "__TODO__"
+  }
 }

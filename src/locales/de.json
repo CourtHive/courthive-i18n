@@ -783,7 +783,30 @@
       "structure": "Nach Struktur",
       "time": "Nach Zeit"
     },
-    "showCompleted": "Abgeschlossene anzeigen"
+    "showCompleted": "Abgeschlossene anzeigen",
+    "callToCourt": "__TODO__",
+    "now": "__TODO__",
+    "nowRowActions": "__TODO__",
+    "status": "__TODO__",
+    "suspendAll": "__TODO__",
+    "resumeAll": "__TODO__",
+    "startAll": "__TODO__",
+    "rescheduleAll": "__TODO__",
+    "unscheduleAll": "__TODO__",
+    "rescheduleNowTitle": "__TODO__",
+    "chooseDate": "__TODO__",
+    "chooseTime": "__TODO__",
+    "selectAll": "__TODO__",
+    "selectNone": "__TODO__",
+    "reschedule": "__TODO__",
+    "shift": "__TODO__",
+    "shiftCourtsTitle": "__TODO__",
+    "shiftRows": "__TODO__",
+    "noActiveMatches": "__TODO__",
+    "startOnDropTitle": "__TODO__",
+    "startOnDropPrompt": "__TODO__",
+    "unscheduleAllTitle": "__TODO__",
+    "unscheduleAllConfirm": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nicht abgemeldet",
@@ -1828,7 +1851,19 @@
       "opponents": "Gegner",
       "allDates": "Alle Daten",
       "today": "Heute",
-      "noDate": "Kein Datum"
+      "noDate": "Kein Datum",
+      "suspended": "__TODO__",
+      "notReady": "__TODO__",
+      "live": "__TODO__",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "allProfiles": "__TODO__",
+      "competitive": "__TODO__",
+      "routine": "__TODO__",
+      "decisive": "__TODO__",
+      "walkover": "__TODO__",
+      "showTodayView": "__TODO__",
+      "showCompetitivenessView": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Teilnehmer suchen",
@@ -2090,7 +2125,10 @@
     "country": "Land",
     "cityState": "Stadt / Bundesland",
     "unpublishTournament": "Turnier-Veröffentlichung zurückziehen",
-    "confirmUnpublish": "Alle Konkurrenzen, Teilnehmer & den Zeitplan zurückziehen"
+    "confirmUnpublish": "Alle Konkurrenzen, Teilnehmer & den Zeitplan zurückziehen",
+    "timeZoneNotSetTitle": "__TODO__",
+    "timeZoneNotSetBody": "__TODO__",
+    "setTimeZone": "__TODO__"
   },
   "cal": "Kalender",
   "tpl": "Vorlagen",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "Die Datenschutzrichtlinie konnte nicht auf bestehende Turniere angewendet werden.",
     "privacyApplyResult": "Datenschutzrichtlinie auf {{attached}} Turnier(e) angewendet; {{already}} hatten sie bereits; {{failed}} fehlgeschlagen."
   },
-  "cns": "Konsole"
+  "cns": "Konsole",
+  "session": {
+    "expiredMessage": "__TODO__",
+    "logInAgain": "__TODO__"
+  }
 }

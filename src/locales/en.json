@@ -949,7 +949,30 @@
       "structure": "By Structure",
       "time": "By Time"
     },
-    "showCompleted": "Show completed"
+    "showCompleted": "Show completed",
+    "callToCourt": "Call to court",
+    "now": "Now",
+    "nowRowActions": "Now — bulk actions",
+    "status": "Status",
+    "suspendAll": "Suspend all",
+    "resumeAll": "Resume all",
+    "startAll": "Start all matches",
+    "rescheduleAll": "Reschedule all",
+    "unscheduleAll": "Unschedule all",
+    "rescheduleNowTitle": "Reschedule matches in progress",
+    "chooseDate": "Choose date",
+    "chooseTime": "Choose time",
+    "selectAll": "Select all",
+    "selectNone": "Select none",
+    "reschedule": "Reschedule",
+    "shift": "Shift down",
+    "shiftCourtsTitle": "Shift courts down",
+    "shiftRows": "Rows to shift down",
+    "noActiveMatches": "No matches in progress",
+    "startOnDropTitle": "Start match on drop?",
+    "startOnDropPrompt": "You dropped a match onto the Now strip. Start matches automatically whenever they are dropped onto Now from now on? You can change this any time with the start-on-drop toggle in the schedule header.",
+    "unscheduleAllTitle": "Unschedule all?",
+    "unscheduleAllConfirm": "Remove the date, time and court for {{count}} match(es)? They return to the unscheduled catalog; their results are untouched."
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -1994,7 +2017,19 @@
       "singles": "Singles",
       "doubles": "Doubles",
       "team": "Team",
-      "opponents": "Opponents"
+      "opponents": "Opponents",
+      "suspended": "Suspended",
+      "notReady": "Not ready",
+      "live": "Live",
+      "abandoned": "Abandoned",
+      "cancelled": "Cancelled",
+      "allProfiles": "All profiles",
+      "competitive": "Competitive",
+      "routine": "Routine",
+      "decisive": "Decisive",
+      "walkover": "Walkover / Defaulted",
+      "showTodayView": "Show today view",
+      "showCompetitivenessView": "Show competitiveness"
     },
     "schedule": {
       "searchParticipants": "Search participants",
@@ -2256,7 +2291,10 @@
     "defaultLanguage": "Default Language",
     "publishParticipants": "Publish Participants",
     "country": "Country",
-    "cityState": "City / State"
+    "cityState": "City / State",
+    "timeZoneNotSetTitle": "Time zone not set",
+    "timeZoneNotSetBody": "This tournament has no time zone set. Published match times may be ambiguous for viewers in other time zones. Set a time zone before publishing.",
+    "setTimeZone": "Set time zone"
   },
   "formatWizard": {
     "title": "Format Wizard",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "Could not apply the privacy policy to existing tournaments.",
     "privacyApplyResult": "Privacy policy applied to {{attached}} tournament(s); {{already}} already had it; {{failed}} failed."
   },
-  "cns": "Console"
+  "cns": "Console",
+  "session": {
+    "expiredMessage": "Your session has expired. Changes will not be saved until you log in again.",
+    "logInAgain": "Log in again"
+  }
 }

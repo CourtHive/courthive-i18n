@@ -783,7 +783,30 @@
       "structure": "Por Estrutura",
       "time": "Por Horário"
     },
-    "showCompleted": "Mostrar concluídas"
+    "showCompleted": "Mostrar concluídas",
+    "callToCourt": "__TODO__",
+    "now": "__TODO__",
+    "nowRowActions": "__TODO__",
+    "status": "__TODO__",
+    "suspendAll": "__TODO__",
+    "resumeAll": "__TODO__",
+    "startAll": "__TODO__",
+    "rescheduleAll": "__TODO__",
+    "unscheduleAll": "__TODO__",
+    "rescheduleNowTitle": "__TODO__",
+    "chooseDate": "__TODO__",
+    "chooseTime": "__TODO__",
+    "selectAll": "__TODO__",
+    "selectNone": "__TODO__",
+    "reschedule": "__TODO__",
+    "shift": "__TODO__",
+    "shiftCourtsTitle": "__TODO__",
+    "shiftRows": "__TODO__",
+    "noActiveMatches": "__TODO__",
+    "startOnDropTitle": "__TODO__",
+    "startOnDropPrompt": "__TODO__",
+    "unscheduleAllTitle": "__TODO__",
+    "unscheduleAllConfirm": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Não fez Check-Out",
@@ -1828,7 +1851,19 @@
       "opponents": "Adversários",
       "allDates": "Todas as datas",
       "today": "Hoje",
-      "noDate": "Sem data"
+      "noDate": "Sem data",
+      "suspended": "__TODO__",
+      "notReady": "__TODO__",
+      "live": "__TODO__",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "allProfiles": "__TODO__",
+      "competitive": "__TODO__",
+      "routine": "__TODO__",
+      "decisive": "__TODO__",
+      "walkover": "__TODO__",
+      "showTodayView": "__TODO__",
+      "showCompetitivenessView": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Buscar participantes",
@@ -2090,7 +2125,10 @@
     "country": "País",
     "cityState": "Cidade / Estado",
     "unpublishTournament": "Despublicar Torneio",
-    "confirmUnpublish": "Despublicar todos os eventos, participantes e programação"
+    "confirmUnpublish": "Despublicar todos os eventos, participantes e programação",
+    "timeZoneNotSetTitle": "__TODO__",
+    "timeZoneNotSetBody": "__TODO__",
+    "setTimeZone": "__TODO__"
   },
   "cal": "Calendário",
   "tpl": "Modelos",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "Não foi possível aplicar a política de privacidade aos torneios existentes.",
     "privacyApplyResult": "Política de privacidade aplicada a {{attached}} torneio(s); {{already}} já a tinham; {{failed}} falharam."
   },
-  "cns": "Console"
+  "cns": "Console",
+  "session": {
+    "expiredMessage": "__TODO__",
+    "logInAgain": "__TODO__"
+  }
 }

@@ -949,7 +949,30 @@
       "structure": "Po strukturi",
       "time": "Po vremenu"
     },
-    "showCompleted": "Prikaži dovršene"
+    "showCompleted": "Prikaži dovršene",
+    "callToCourt": "__TODO__",
+    "now": "__TODO__",
+    "nowRowActions": "__TODO__",
+    "status": "__TODO__",
+    "suspendAll": "__TODO__",
+    "resumeAll": "__TODO__",
+    "startAll": "__TODO__",
+    "rescheduleAll": "__TODO__",
+    "unscheduleAll": "__TODO__",
+    "rescheduleNowTitle": "__TODO__",
+    "chooseDate": "__TODO__",
+    "chooseTime": "__TODO__",
+    "selectAll": "__TODO__",
+    "selectNone": "__TODO__",
+    "reschedule": "__TODO__",
+    "shift": "__TODO__",
+    "shiftCourtsTitle": "__TODO__",
+    "shiftRows": "__TODO__",
+    "noActiveMatches": "__TODO__",
+    "startOnDropTitle": "__TODO__",
+    "startOnDropPrompt": "__TODO__",
+    "unscheduleAllTitle": "__TODO__",
+    "unscheduleAllConfirm": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Propust odjave",
@@ -1994,7 +2017,19 @@
       "singles": "Pojedinačno",
       "doubles": "Parovi",
       "team": "Ekipa",
-      "opponents": "Protivnici"
+      "opponents": "Protivnici",
+      "suspended": "__TODO__",
+      "notReady": "__TODO__",
+      "live": "__TODO__",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "allProfiles": "__TODO__",
+      "competitive": "__TODO__",
+      "routine": "__TODO__",
+      "decisive": "__TODO__",
+      "walkover": "__TODO__",
+      "showTodayView": "__TODO__",
+      "showCompetitivenessView": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Pretraži sudionike",
@@ -2256,7 +2291,10 @@
     "defaultLanguage": "Zadani jezik",
     "publishParticipants": "Objavi sudionike",
     "country": "Država",
-    "cityState": "Grad / Županija"
+    "cityState": "Grad / Županija",
+    "timeZoneNotSetTitle": "__TODO__",
+    "timeZoneNotSetBody": "__TODO__",
+    "setTimeZone": "__TODO__"
   },
   "formatWizard": {
     "title": "Čarobnjak formata",
@@ -2778,5 +2816,9 @@
     "privacyApplyFailed": "Nije moguće primijeniti pravila privatnosti na postojeće turnire.",
     "privacyApplyResult": "Pravila privatnosti primijenjena na {{attached}} turnira; {{already}} ih je već imalo; {{failed}} nije uspjelo."
   },
-  "cns": "Konzola"
+  "cns": "Konzola",
+  "session": {
+    "expiredMessage": "__TODO__",
+    "logInAgain": "__TODO__"
+  }
 }
