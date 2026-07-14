@@ -2673,7 +2673,14 @@
         "policyUnsetHint": "请先选择排名积分策略以启用重新计算。",
         "pipelineOff": "服务器上未配置排名流水线（RANKINGS_PIPELINE_URL）。未进行任何重新计算。",
         "failed": "无法重新计算排名。",
-        "result": "已重新计算 {{republished}}/{{tournaments}} 项赛事；生成了 {{snapshots}} 个快照。"
+        "result": "已重新计算 {{republished}}/{{tournaments}} 项赛事；生成了 {{snapshots}} 个快照。",
+        "unprocessed": "__TODO__",
+        "unprocessedRunning": "__TODO__",
+        "fromDateLabel": "__TODO__",
+        "fromDateRequired": "__TODO__",
+        "rerunFromDate": "__TODO__",
+        "rerunRunning": "__TODO__",
+        "bulkNone": "__TODO__"
       }
     },
     "notLoggedInTitle": "您尚未登录",

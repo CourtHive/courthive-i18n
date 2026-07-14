@@ -2673,7 +2673,14 @@
         "policyUnsetHint": "Nejprve vyberte pravidla bodování žebříčku, abyste umožnili přepočet.",
         "pipelineOff": "Pipeline žebříčků není na serveru nakonfigurována (RANKINGS_PIPELINE_URL). Nic nebylo přepočítáno.",
         "failed": "Žebříčky nelze přepočítat.",
-        "result": "Přepočítáno {{republished}}/{{tournaments}} turnajů; vygenerováno {{snapshots}} snímků."
+        "result": "Přepočítáno {{republished}}/{{tournaments}} turnajů; vygenerováno {{snapshots}} snímků.",
+        "unprocessed": "__TODO__",
+        "unprocessedRunning": "__TODO__",
+        "fromDateLabel": "__TODO__",
+        "fromDateRequired": "__TODO__",
+        "rerunFromDate": "__TODO__",
+        "rerunRunning": "__TODO__",
+        "bulkNone": "__TODO__"
       }
     },
     "notLoggedInTitle": "Nejste přihlášeni",

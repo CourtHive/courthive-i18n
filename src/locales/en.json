@@ -79,8 +79,8 @@
   "ovw": "Overview",
   "prt": "Participants",
   "evt": "Events",
-  "sch": "Schedule (legacy)",
-  "sch2": "Schedule",
+  "sch": "Schedule",
+  "sch2": "Schedule 2",
   "ven": "Venues",
   "rpt": "Reports",
   "pub": "Publishing",
@@ -1338,7 +1338,7 @@
     },
     "editGroupNames": {
       "title": "Edit group names",
-      "minChars": "minimum 3 characters",
+      "minChars": "minimum 4 characters",
       "groupsRenamed": "Groups renamed"
     },
     "addFlights": {
@@ -1508,15 +1508,15 @@
       "usageList": "{{name}} is used by: {{events}}"
     },
     "firstLogin": {
-      "title": "Set your password",
-      "intro": "Your account was created with a temporary password. Choose a new password to finish signing in.",
-      "newPasswordLabel": "New password",
-      "newPasswordPlaceholder": "minimum 8 characters",
-      "confirmPasswordLabel": "Confirm password",
-      "confirmPasswordPlaceholder": "re-enter new password",
-      "setPassword": "Set password",
-      "failed": "Could not set your password. Please try again.",
-      "tokenExpired": "This sign-in session expired. Please log in again."
+      "title": "Set Your Password",
+      "intro": "Your administrator assigned you a temporary password. Please choose a new password to continue.",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "At least 8 characters",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "setPassword": "Set Password",
+      "failed": "Failed to set new password.",
+      "tokenExpired": "Your sign-in expired. Please log in again."
     },
     "forgotPassword": {
       "title": "Reset your password",
@@ -1574,16 +1574,16 @@
       "failed": "Delete failed."
     },
     "contactEmail": {
-      "title": "Recovery email",
-      "label": "Recovery email",
+      "title": "Contact email",
+      "label": "Email address",
       "save": "Save",
       "resend": "Resend verification",
-      "savedPending": "Verification email sent to {{email}}.",
-      "resent": "Verification email sent.",
-      "alreadyVerified": "Recovery email is already verified.",
-      "failed": "Could not update recovery email. Please try again.",
-      "statusNotSet": "No recovery email set. Add one so you can recover access if you lose your password.",
-      "statusPending": "Pending verification — check {{email}} and click the link.",
+      "savedPending": "Verification email sent to {{email}}. Check your inbox.",
+      "resent": "Verification email re-sent.",
+      "alreadyVerified": "Your contact email is already verified.",
+      "failed": "Could not save contact email.",
+      "statusNotSet": "No contact email is set yet. Set one so you can recover your password by email.",
+      "statusPending": "Pending verification: {{email}}. Click the link in your inbox.",
       "statusVerified": "Verified: {{email}}"
     },
     "editUser": {
@@ -2055,7 +2055,7 @@
       "viewAvailability": "View Availability",
       "viewTable": "View Table",
       "setDefaultAvailability": "Set Default Availability",
-      "saveToTournament": "Save",
+      "saveToTournament": "Save to Tournament",
       "grid": {
         "view": "View",
         "day1": "1 Day",
@@ -2673,7 +2673,14 @@
         "policyUnsetHint": "Select a ranking-points policy first to enable recompute.",
         "pipelineOff": "The rankings pipeline is not configured on the server (RANKINGS_PIPELINE_URL). Nothing was recomputed.",
         "failed": "Could not recompute rankings.",
-        "result": "Recomputed {{republished}}/{{tournaments}} tournaments; generated {{snapshots}} snapshot(s)."
+        "result": "Recomputed {{republished}}/{{tournaments}} tournaments; generated {{snapshots}} snapshot(s).",
+        "unprocessed": "Run unprocessed tournaments",
+        "unprocessedRunning": "Republishing unprocessed tournaments…",
+        "fromDateLabel": "From date",
+        "fromDateRequired": "Choose a from date first.",
+        "rerunFromDate": "Re-run rankings from date",
+        "rerunRunning": "Re-running rankings from {{date}}…",
+        "bulkNone": "No matching tournaments to republish."
       }
     },
     "notLoggedInTitle": "You're not signed in",

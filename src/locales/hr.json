@@ -2673,7 +2673,14 @@
         "policyUnsetHint": "Prvo odaberite pravila bodova rangiranja za omogućavanje ponovnog izračuna.",
         "pipelineOff": "Cjevovod rangiranja nije konfiguriran na poslužitelju (RANKINGS_PIPELINE_URL). Ništa nije ponovno izračunato.",
         "failed": "Nije moguće ponovno izračunati rangiranja.",
-        "result": "Ponovno izračunato {{republished}}/{{tournaments}} turnira; generirano {{snapshots}} snimaka."
+        "result": "Ponovno izračunato {{republished}}/{{tournaments}} turnira; generirano {{snapshots}} snimaka.",
+        "unprocessed": "__TODO__",
+        "unprocessedRunning": "__TODO__",
+        "fromDateLabel": "__TODO__",
+        "fromDateRequired": "__TODO__",
+        "rerunFromDate": "__TODO__",
+        "rerunRunning": "__TODO__",
+        "bulkNone": "__TODO__"
       }
     },
     "notLoggedInTitle": "Niste prijavljeni",
