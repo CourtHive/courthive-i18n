@@ -2769,7 +2769,8 @@
       "crowd": "PUBLIKA",
       "anon": "ANONIMNO",
       "verified": "POTVRĐENO",
-      "nominated": "NOMINIRAN"
+      "nominated": "NOMINIRAN",
+      "scorekeeper": "__TODO__"
     },
     "reason": {
       "signInRequired": "Za nominaciju je potrebna prijava",
@@ -2777,13 +2778,20 @@
     },
     "toast": {
       "nominateFirst": "Nominirajte potvrđenog zapisničara prije postavljanja delegiranog ishoda.",
-      "noOutcomeToConfirm": "Nema delegiranog ishoda za potvrdu na ovom meču."
+      "noOutcomeToConfirm": "Nema delegiranog ishoda za potvrdu na ovom meču.",
+      "noScorekeeperCandidates": "__TODO__",
+      "acceptedLive": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "Rezultat prijavljen putem pratitelja uživo",
       "unconfirmed": "Nepotvrđeni delegirani rezultat — potvrdite da postane službeni",
       "unconfirmedAria": "Nepotvrđeni delegirani rezultat čeka potvrdu"
-    }
+    },
+    "accept": "__TODO__",
+    "nominateScorekeeper": "__TODO__",
+    "removeScorekeeper": "__TODO__",
+    "approveScorekeeper": "__TODO__",
+    "removeScorekeeperApproval": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Postavite svog pružatelja",
