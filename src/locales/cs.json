@@ -2769,7 +2769,8 @@
       "crowd": "DAV",
       "anon": "ANON",
       "verified": "OVĚŘENO",
-      "nominated": "NOMINOVÁN"
+      "nominated": "NOMINOVÁN",
+      "scorekeeper": "__TODO__"
     },
     "reason": {
       "signInRequired": "Pro nominaci je nutné přihlášení",
@@ -2777,13 +2778,20 @@
     },
     "toast": {
       "nominateFirst": "Před nastavením delegovaného výsledku nominujte ověřeného skórujícího.",
-      "noOutcomeToConfirm": "V tomto zápase není žádný delegovaný výsledek k potvrzení."
+      "noOutcomeToConfirm": "V tomto zápase není žádný delegovaný výsledek k potvrzení.",
+      "noScorekeeperCandidates": "__TODO__",
+      "acceptedLive": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "Skóre nahlášeno přes živý sledovač",
       "unconfirmed": "Nepotvrzené delegované skóre — potvrďte pro zoficiálnění",
       "unconfirmedAria": "Nepotvrzené delegované skóre čeká na potvrzení"
-    }
+    },
+    "accept": "__TODO__",
+    "nominateScorekeeper": "__TODO__",
+    "removeScorekeeper": "__TODO__",
+    "approveScorekeeper": "__TODO__",
+    "removeScorekeeperApproval": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Nastavte svého poskytovatele",

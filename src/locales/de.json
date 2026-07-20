@@ -2769,7 +2769,8 @@
       "crowd": "CROWD",
       "anon": "ANONYM",
       "verified": "VERIFIZIERT",
-      "nominated": "NOMINIERT"
+      "nominated": "NOMINIERT",
+      "scorekeeper": "__TODO__"
     },
     "reason": {
       "signInRequired": "Anmeldung erforderlich, um nominiert zu werden",
@@ -2777,13 +2778,20 @@
     },
     "toast": {
       "nominateFirst": "Nominieren Sie einen verifizierten Scorer, bevor Sie ein delegiertes Ergebnis festlegen.",
-      "noOutcomeToConfirm": "Kein delegiertes Ergebnis zum Bestätigen in diesem Match."
+      "noOutcomeToConfirm": "Kein delegiertes Ergebnis zum Bestätigen in diesem Match.",
+      "noScorekeeperCandidates": "__TODO__",
+      "acceptedLive": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "Ergebnis über Live-Tracker gemeldet",
       "unconfirmed": "Unbestätigtes delegiertes Ergebnis — bestätigen, um es offiziell zu machen",
       "unconfirmedAria": "Unbestätigtes delegiertes Ergebnis, wartet auf Bestätigung"
-    }
+    },
+    "accept": "__TODO__",
+    "nominateScorekeeper": "__TODO__",
+    "removeScorekeeper": "__TODO__",
+    "approveScorekeeper": "__TODO__",
+    "removeScorekeeperApproval": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Ihren Anbieter einrichten",

@@ -2769,7 +2769,8 @@
       "crowd": "众包",
       "anon": "匿名",
       "verified": "已验证",
-      "nominated": "已提名"
+      "nominated": "已提名",
+      "scorekeeper": "__TODO__"
     },
     "reason": {
       "signInRequired": "需要登录才能被提名",
@@ -2777,13 +2778,20 @@
     },
     "toast": {
       "nominateFirst": "在设置委托结果前，请先提名一位已验证的计分员。",
-      "noOutcomeToConfirm": "此比赛没有可确认的委托结果。"
+      "noOutcomeToConfirm": "此比赛没有可确认的委托结果。",
+      "noScorekeeperCandidates": "__TODO__",
+      "acceptedLive": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "通过实时跟踪器上报比分",
       "unconfirmed": "未确认的委托比分 — 确认后即为官方比分",
       "unconfirmedAria": "未确认的委托比分，等待确认"
-    }
+    },
+    "accept": "__TODO__",
+    "nominateScorekeeper": "__TODO__",
+    "removeScorekeeper": "__TODO__",
+    "approveScorekeeper": "__TODO__",
+    "removeScorekeeperApproval": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "设置您的服务商",

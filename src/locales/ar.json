@@ -2769,7 +2769,8 @@
       "crowd": "الجمهور",
       "anon": "مجهول",
       "verified": "مُوثَّق",
-      "nominated": "مُرشَّح"
+      "nominated": "مُرشَّح",
+      "scorekeeper": "__TODO__"
     },
     "reason": {
       "signInRequired": "تسجيل الدخول مطلوب للترشيح",
@@ -2777,13 +2778,20 @@
     },
     "toast": {
       "nominateFirst": "رشّح مسجّلاً موثَّقاً قبل تعيين نتيجة مفوَّضة.",
-      "noOutcomeToConfirm": "لا توجد نتيجة مفوَّضة لتأكيدها في هذه المباراة."
+      "noOutcomeToConfirm": "لا توجد نتيجة مفوَّضة لتأكيدها في هذه المباراة.",
+      "noScorekeeperCandidates": "__TODO__",
+      "acceptedLive": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "تم الإبلاغ عن النتيجة عبر متتبِّع مباشر",
       "unconfirmed": "نتيجة مفوَّضة غير مؤكدة — أكّدها لجعلها رسمية",
       "unconfirmedAria": "نتيجة مفوَّضة غير مؤكدة بانتظار التأكيد"
-    }
+    },
+    "accept": "__TODO__",
+    "nominateScorekeeper": "__TODO__",
+    "removeScorekeeper": "__TODO__",
+    "approveScorekeeper": "__TODO__",
+    "removeScorekeeperApproval": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "أعدّ مزوّدك",

@@ -2769,7 +2769,8 @@
       "crowd": "PUBLIC",
       "anon": "ANON",
       "verified": "VÉRIFIÉ",
-      "nominated": "NOMMÉ"
+      "nominated": "NOMMÉ",
+      "scorekeeper": "__TODO__"
     },
     "reason": {
       "signInRequired": "Connexion requise pour être nommé",
@@ -2777,13 +2778,20 @@
     },
     "toast": {
       "nominateFirst": "Nommez un marqueur vérifié avant de définir un résultat délégué.",
-      "noOutcomeToConfirm": "Aucun résultat délégué à confirmer pour ce match."
+      "noOutcomeToConfirm": "Aucun résultat délégué à confirmer pour ce match.",
+      "noScorekeeperCandidates": "__TODO__",
+      "acceptedLive": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "Score reporté via un suiveur en direct",
       "unconfirmed": "Score délégué non confirmé — confirmez pour le rendre officiel",
       "unconfirmedAria": "Score délégué non confirmé en attente de confirmation"
-    }
+    },
+    "accept": "__TODO__",
+    "nominateScorekeeper": "__TODO__",
+    "removeScorekeeper": "__TODO__",
+    "approveScorekeeper": "__TODO__",
+    "removeScorekeeperApproval": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Configurer votre fournisseur",
