@@ -39,7 +39,8 @@
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json && node scripts/copy-locales.cjs && node dist/manifest.gen.js",
     "check-types": "tsc --noEmit",
-    "lint": "eslint . --fix --max-warnings 0",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{ts,json}\"",
     "test": "node scripts/compare-keys.cjs && echo 'OK'",
     "todo-report": "node scripts/todo-report.cjs",

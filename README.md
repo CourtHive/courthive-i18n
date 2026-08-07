@@ -46,7 +46,8 @@ in and merge a follow-up PR that brings completeness back to 1.0.
 ```bash
 pnpm build          # tsc → dist/, then node dist/manifest.gen.js
 pnpm check-types    # tsc --noEmit
-pnpm lint           # eslint . --fix --max-warnings 0
+pnpm lint           # ESLint — non-mutating, fails on any warning
+pnpm lint:fix       # ESLint with auto-fix (rewrites source)
 pnpm format         # prettier --write
 pnpm test           # node scripts/compare-keys.cjs  (key parity gate)
 ```
