@@ -2129,7 +2129,19 @@
       "importFromCsv": "Importer depuis CSV/TSV",
       "newGroup": "Nouveau groupe",
       "staff": "Staff",
-      "groupRole": "__TODO__"
+      "groupRole": "__TODO__",
+      "rowActions": {
+        "participantProfile": "__TODO__",
+        "renameTeam": "__TODO__",
+        "editGroup": "__TODO__",
+        "deleteParticipant": "__TODO__"
+      },
+      "grouping": {
+        "namePlaceholder": "__TODO__",
+        "nicknamePlaceholder": "__TODO__",
+        "preferNickname": "__TODO__",
+        "nameTooShort": "__TODO__"
+      }
     }
   },
   "overlays": {
@@ -2918,7 +2930,9 @@
     }
   },
   "officiating": {
-    "conflictWarning": "__TODO__"
+    "conflictWarning": "__TODO__",
+    "selectOfficial": "__TODO__",
+    "noOfficialsFound": "__TODO__"
   },
   "participantRoles": {
     "OTHER": "__TODO__",
