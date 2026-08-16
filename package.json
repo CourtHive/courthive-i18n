@@ -37,7 +37,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc -p tsconfig.build.json && node scripts/copy-locales.cjs && node dist/manifest.gen.js",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json && node scripts/copy-locales.cjs && node dist/manifest.gen.js && node scripts/check-dist-no-todo.cjs",
     "check-types": "tsc --noEmit",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --fix",
