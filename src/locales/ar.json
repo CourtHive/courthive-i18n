@@ -1861,7 +1861,8 @@
       "official": "الحكم",
       "status": "الحالة",
       "updatedAt": "حُدّثت",
-      "calledAt": "نودي عليها"
+      "calledAt": "نودي عليها",
+      "scheduleLocked": "__TODO__"
     },
     "tournaments": {
       "open": "فتح"
@@ -1911,7 +1912,8 @@
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
       "showCompetitivenessView": "__TODO__",
-      "called": "__TODO__"
+      "called": "__TODO__",
+      "scheduleLocked": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "البحث عن مشاركين",

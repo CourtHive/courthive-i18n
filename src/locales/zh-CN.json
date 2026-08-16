@@ -2024,7 +2024,8 @@
       "official": "裁判",
       "status": "状态",
       "updatedAt": "更新时间",
-      "calledAt": "呼叫时间"
+      "calledAt": "呼叫时间",
+      "scheduleLocked": "__TODO__"
     },
     "tournaments": {
       "open": "打开"
@@ -2074,7 +2075,8 @@
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
       "showCompetitivenessView": "__TODO__",
-      "called": "__TODO__"
+      "called": "__TODO__",
+      "scheduleLocked": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "搜索参赛者",
