@@ -1001,7 +1001,8 @@
       "applyFailed": "Could not apply plan",
       "updateFailed": "Plan update failed",
       "defaultName": "Plan {{n}}"
-    }
+    },
+    "drying": "Drying"
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -1857,7 +1858,8 @@
     "tournamentNotEnded": "Cannot delete a tournament before its end date. Set the end date to a past date first, then delete.",
     "deleteForbidden": "You are not authorized to delete this tournament.",
     "matchUpScoredElsewhere": "Another user just scored this match ({{score}}). Review before saving.",
-    "overwriteRemoteScore": "Another user scored this match ({{score}}). Overwrite with your result?"
+    "overwriteRemoteScore": "Another user scored this match ({{score}}). Overwrite with your result?",
+    "cannotModifyParticipant": "Participant could not be saved"
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -2152,6 +2154,24 @@
         "postalCodeLabel": "Postal code",
         "countryCodeLabel": "Country",
         "countryCodePlaceholder": "Start typing a country name"
+      },
+      "registry": {
+        "title": "Add venue from registry",
+        "searchPlaceholder": "Search facilities by name",
+        "keepTyping": "Type at least 2 characters to search",
+        "candidateCount": "{{count}} matching facility",
+        "candidateCount_other": "{{count}} matching facilities",
+        "noMatches": "No matching facilities",
+        "searchFailed": "Facility search is unavailable",
+        "venueFailed": "Could not load that facility",
+        "venueMissing": "That facility has no venue record",
+        "courtCount": "{{count}} court",
+        "courtCount_other": "{{count}} courts",
+        "matchedOn": "matched {{field}}",
+        "selectFirst": "Choose a facility first",
+        "addVenue": "Add to tournament",
+        "added": "Venue added from the registry",
+        "searching": "Searching…"
       }
     },
     "events": {
@@ -2274,7 +2294,8 @@
         "female": "Female",
         "unknown": "Unknown"
       },
-      "staff": "Staff"
+      "staff": "Staff",
+      "groupRole": "Group role"
     }
   },
   "overlays": {
@@ -2873,5 +2894,30 @@
     "expiredMessage": "Your session has expired. Changes will not be saved until you log in again.",
     "logInAgain": "Log in again"
   },
-  "overwrite": "Overwrite"
+  "overwrite": "Overwrite",
+  "fingerprint": {
+    "title": "Competitive fingerprint",
+    "competitiveRatio": "Competitive ratio {{pct}}% of {{count}} completed",
+    "coverage": "{{rated}} rated on {{scale}}",
+    "coveragePartial": "{{rated}} rated on {{scale}} · {{unrated}} unrated",
+    "noRatedOpponents": "No opponent rated on {{scale}}",
+    "noRating": "No rating available for exposure",
+    "bands": {
+      "STRETCH": "Stretch",
+      "UP": "Up",
+      "EVEN": "Even",
+      "DOWN": "Down",
+      "ANCHOR": "Anchor"
+    }
+  },
+  "officiating": {
+    "conflictWarning": "This official has a potential conflict of interest with a participant in this match. Assign anyway?"
+  },
+  "participantRoles": {
+    "OTHER": "Other",
+    "COACH": "Coach",
+    "MEDICAL": "Medical",
+    "PHYSIO": "Physio",
+    "TRAINER": "Trainer"
+  }
 }

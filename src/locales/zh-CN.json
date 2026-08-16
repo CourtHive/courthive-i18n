@@ -997,7 +997,8 @@
       "applyFailed": "__TODO__",
       "updateFailed": "__TODO__",
       "defaultName": "__TODO__"
-    }
+    },
+    "drying": "__TODO__"
   },
   "penalties": {
     "fail2signout": "未签退",
@@ -1853,7 +1854,8 @@
     "tournamentNotEnded": "无法在赛事结束日期之前删除赛事。请先将结束日期设置为过去的日期，然后再删除。",
     "deleteForbidden": "您无权删除此赛事。",
     "matchUpScoredElsewhere": "__TODO__",
-    "overwriteRemoteScore": "__TODO__"
+    "overwriteRemoteScore": "__TODO__",
+    "cannotModifyParticipant": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -2148,6 +2150,24 @@
         "postalCodeLabel": "邮政编码",
         "countryCodeLabel": "国家",
         "countryCodePlaceholder": "开始输入国家名称"
+      },
+      "registry": {
+        "title": "__TODO__",
+        "searchPlaceholder": "__TODO__",
+        "keepTyping": "__TODO__",
+        "candidateCount": "__TODO__",
+        "candidateCount_other": "__TODO__",
+        "noMatches": "__TODO__",
+        "searchFailed": "__TODO__",
+        "venueFailed": "__TODO__",
+        "venueMissing": "__TODO__",
+        "courtCount": "__TODO__",
+        "courtCount_other": "__TODO__",
+        "matchedOn": "__TODO__",
+        "selectFirst": "__TODO__",
+        "addVenue": "__TODO__",
+        "added": "__TODO__",
+        "searching": "__TODO__"
       }
     },
     "events": {
@@ -2270,7 +2290,8 @@
       },
       "importFromCsv": "从 CSV/TSV 导入",
       "newGroup": "新建分组",
-      "staff": "工作人员"
+      "staff": "工作人员",
+      "groupRole": "__TODO__"
     }
   },
   "overlays": {
@@ -2873,5 +2894,30 @@
     "expiredMessage": "__TODO__",
     "logInAgain": "__TODO__"
   },
-  "overwrite": "__TODO__"
+  "overwrite": "__TODO__",
+  "fingerprint": {
+    "title": "__TODO__",
+    "competitiveRatio": "__TODO__",
+    "coverage": "__TODO__",
+    "coveragePartial": "__TODO__",
+    "noRatedOpponents": "__TODO__",
+    "noRating": "__TODO__",
+    "bands": {
+      "STRETCH": "__TODO__",
+      "UP": "__TODO__",
+      "EVEN": "__TODO__",
+      "DOWN": "__TODO__",
+      "ANCHOR": "__TODO__"
+    }
+  },
+  "officiating": {
+    "conflictWarning": "__TODO__"
+  },
+  "participantRoles": {
+    "OTHER": "__TODO__",
+    "COACH": "__TODO__",
+    "MEDICAL": "__TODO__",
+    "PHYSIO": "__TODO__",
+    "TRAINER": "__TODO__"
+  }
 }

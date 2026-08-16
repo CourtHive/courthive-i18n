@@ -1001,7 +1001,8 @@
       "applyFailed": "__TODO__",
       "updateFailed": "__TODO__",
       "defaultName": "__TODO__"
-    }
+    },
+    "drying": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",
@@ -1857,7 +1858,8 @@
     "tournamentNotEnded": "Turnaj nelze smazat před datem jeho ukončení. Nejprve nastavte datum konce do minulosti, poté jej smažte.",
     "deleteForbidden": "Nemáte oprávnění smazat tento turnaj.",
     "matchUpScoredElsewhere": "__TODO__",
-    "overwriteRemoteScore": "__TODO__"
+    "overwriteRemoteScore": "__TODO__",
+    "cannotModifyParticipant": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -2152,6 +2154,24 @@
         "postalCodeLabel": "PSČ",
         "countryCodeLabel": "Země",
         "countryCodePlaceholder": "Začněte psát název země"
+      },
+      "registry": {
+        "title": "__TODO__",
+        "searchPlaceholder": "__TODO__",
+        "keepTyping": "__TODO__",
+        "candidateCount": "__TODO__",
+        "candidateCount_other": "__TODO__",
+        "noMatches": "__TODO__",
+        "searchFailed": "__TODO__",
+        "venueFailed": "__TODO__",
+        "venueMissing": "__TODO__",
+        "courtCount": "__TODO__",
+        "courtCount_other": "__TODO__",
+        "matchedOn": "__TODO__",
+        "selectFirst": "__TODO__",
+        "addVenue": "__TODO__",
+        "added": "__TODO__",
+        "searching": "__TODO__"
       }
     },
     "events": {
@@ -2274,7 +2294,8 @@
         "female": "Žena",
         "unknown": "Neznámé"
       },
-      "staff": "Realizační tým"
+      "staff": "Realizační tým",
+      "groupRole": "__TODO__"
     }
   },
   "overlays": {
@@ -2873,5 +2894,30 @@
     "expiredMessage": "__TODO__",
     "logInAgain": "__TODO__"
   },
-  "overwrite": "__TODO__"
+  "overwrite": "__TODO__",
+  "fingerprint": {
+    "title": "__TODO__",
+    "competitiveRatio": "__TODO__",
+    "coverage": "__TODO__",
+    "coveragePartial": "__TODO__",
+    "noRatedOpponents": "__TODO__",
+    "noRating": "__TODO__",
+    "bands": {
+      "STRETCH": "__TODO__",
+      "UP": "__TODO__",
+      "EVEN": "__TODO__",
+      "DOWN": "__TODO__",
+      "ANCHOR": "__TODO__"
+    }
+  },
+  "officiating": {
+    "conflictWarning": "__TODO__"
+  },
+  "participantRoles": {
+    "OTHER": "__TODO__",
+    "COACH": "__TODO__",
+    "MEDICAL": "__TODO__",
+    "PHYSIO": "__TODO__",
+    "TRAINER": "__TODO__"
+  }
 }
