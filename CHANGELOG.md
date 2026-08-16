@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.7](https://github.com/CourtHive/courthive-i18n/compare/v0.4.6...v0.4.7) (2026-08-16)
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from TMX ([#94](https://github.com/CourtHive/courthive-i18n/issues/94)) ([af20d82](https://github.com/CourtHive/courthive-i18n/commit/af20d8204108dcd7f990c7480d8eea4ab7f54982))
+
 ## [0.4.6](https://github.com/CourtHive/courthive-i18n/compare/v0.4.5...v0.4.6) (2026-08-16)
 
 
