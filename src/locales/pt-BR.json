@@ -1902,7 +1902,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Buscar participantes",
@@ -2364,7 +2365,8 @@
       "calendarLoadError": "Falha ao carregar o calendário",
       "deletedDrawsLoadError": "Falha ao carregar chaves excluídas",
       "providerLockedToActive": "Bloqueado ao provedor ativo na sua sessão. Encerre a personificação (ou troque de provedor) para inspecionar as chaves excluídas de outro tenant."
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistente de Formato",

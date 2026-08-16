@@ -1902,7 +1902,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Teilnehmer suchen",
@@ -2364,7 +2365,8 @@
       "calendarLoadError": "Kalender konnte nicht geladen werden",
       "deletedDrawsLoadError": "Gelöschte Auslosungen konnten nicht geladen werden",
       "providerLockedToActive": "An den aktiven Anbieter in Ihrer Sitzung gebunden. Beenden Sie die Imitation (oder wechseln Sie den Anbieter), um die gelöschten Auslosungen eines anderen Mandanten zu prüfen."
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "formatWizard": {
     "title": "Format-Assistent",

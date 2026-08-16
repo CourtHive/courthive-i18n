@@ -427,7 +427,8 @@
       "calendarLoadError": "Failed to load calendar",
       "deletedDrawsLoadError": "Failed to load deleted draws",
       "providerLockedToActive": "Locked to the active provider in your session. Stop impersonation (or switch providers) to inspect another tenant's deleted draws."
-    }
+    },
+    "inviteFailed": "Could not send the invitation. Please try again."
   },
   "round_names": {
     "F": "Final",
@@ -2068,7 +2069,8 @@
       "decisive": "Decisive",
       "walkover": "Walkover / Defaulted",
       "showTodayView": "Show today view",
-      "showCompetitivenessView": "Show competitiveness"
+      "showCompetitivenessView": "Show competitiveness",
+      "called": "Called"
     },
     "schedule": {
       "searchParticipants": "Search participants",
