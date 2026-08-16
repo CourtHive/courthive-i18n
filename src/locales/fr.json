@@ -1902,7 +1902,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Rechercher des participants",
@@ -2364,7 +2365,8 @@
       "calendarLoadError": "Échec du chargement du calendrier",
       "deletedDrawsLoadError": "Échec du chargement des tableaux supprimés",
       "providerLockedToActive": "Verrouillé sur le fournisseur actif de votre session. Arrêtez l'usurpation (ou changez de fournisseur) pour inspecter les tableaux supprimés d'un autre locataire."
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistant de format",

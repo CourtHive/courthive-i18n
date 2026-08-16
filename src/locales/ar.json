@@ -1902,7 +1902,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "البحث عن مشاركين",
@@ -2364,7 +2365,8 @@
       "calendarLoadError": "فشل تحميل التقويم",
       "deletedDrawsLoadError": "فشل تحميل القرعات المحذوفة",
       "providerLockedToActive": "مقفل على المزوّد النشط في جلستك. أوقف انتحال الصفة (أو بدّل المزوّدين) لفحص القرعات المحذوفة لمستأجر آخر."
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "formatWizard": {
     "title": "معالج التنسيق",

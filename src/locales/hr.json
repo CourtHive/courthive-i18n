@@ -427,7 +427,8 @@
       "calendarLoadError": "Učitavanje kalendara nije uspjelo",
       "deletedDrawsLoadError": "Učitavanje izbrisanih ždrijebova nije uspjelo",
       "providerLockedToActive": "Zaključano na aktivnog pružatelja u vašoj sesiji. Zaustavite predstavljanje (ili promijenite pružatelja) za pregled izbrisanih ždrijebova drugog zakupca."
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "round_names": {
     "F": "Finale",
@@ -2068,7 +2069,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Pretraži sudionike",

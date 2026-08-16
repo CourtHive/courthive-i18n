@@ -423,7 +423,8 @@
       "calendarLoadError": "加载日历失败",
       "deletedDrawsLoadError": "加载已删除签表失败",
       "providerLockedToActive": "锁定到您会话中的活跃服务商。停止模拟（或切换服务商）以检查另一租户的已删除签表。"
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "round_names": {
     "F": "决赛",
@@ -2064,7 +2065,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "搜索参赛者",

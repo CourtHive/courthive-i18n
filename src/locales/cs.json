@@ -427,7 +427,8 @@
       "calendarLoadError": "Načtení kalendáře selhalo",
       "deletedDrawsLoadError": "Načtení smazaných pavouků selhalo",
       "providerLockedToActive": "Uzamčeno na aktivního poskytovatele ve vaší relaci. Ukončete vystupování za jiného (nebo přepněte poskytovatele) pro kontrolu smazaných pavouků jiného nájemce."
-    }
+    },
+    "inviteFailed": "__TODO__"
   },
   "round_names": {
     "F": "Finále",
@@ -2068,7 +2069,8 @@
       "decisive": "__TODO__",
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
-      "showCompetitivenessView": "__TODO__"
+      "showCompetitivenessView": "__TODO__",
+      "called": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Hledat účastníky",
