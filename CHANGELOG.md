@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.5](https://github.com/CourtHive/courthive-i18n/compare/v0.4.4...v0.4.5) (2026-08-16)
+
+
+### Bug Fixes
+
+* **build:** strip the __TODO__ sentinel from published locales ([#89](https://github.com/CourtHive/courthive-i18n/issues/89)) ([be57e32](https://github.com/CourtHive/courthive-i18n/commit/be57e3225efa1137b224eb90d9e9f78e9e76075f))
+* **i18n:** sync en.json from courthive-console ([#85](https://github.com/CourtHive/courthive-i18n/issues/85)) ([4adbea6](https://github.com/CourtHive/courthive-i18n/commit/4adbea6ad6054b124ab36211e629832b28baee41))
+* **i18n:** sync en.json from courthive-public ([#87](https://github.com/CourtHive/courthive-i18n/issues/87)) ([85c52b6](https://github.com/CourtHive/courthive-i18n/commit/85c52b6365a279010a95b3a63adff28f46258a14))
+* **i18n:** sync en.json from TMX ([#83](https://github.com/CourtHive/courthive-i18n/issues/83)) ([4ae1913](https://github.com/CourtHive/courthive-i18n/commit/4ae1913567a34aad5aa612be3c40fa77bb062fff))
+
 ## [0.4.4](https://github.com/CourtHive/courthive-i18n/compare/v0.4.3...v0.4.4) (2026-07-27)
 
 
