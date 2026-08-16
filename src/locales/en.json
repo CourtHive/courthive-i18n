@@ -2455,7 +2455,14 @@
       "coaches_other": "{{count}} coaches",
       "staff_one": "{{count}} staff",
       "staff_other": "{{count}} staff"
-    }
+    },
+    "gender": {
+      "female": "Women",
+      "male": "Men",
+      "unspecified": "Unspecified"
+    },
+    "viewProgram": "View {{team}} season",
+    "viewProgramGeneric": "View program season"
   },
   "display": {
     "label": "Display",
@@ -2613,10 +2620,10 @@
     "title": "Verify your email",
     "intro": "Click the button below to confirm that this email is yours.",
     "verifyButton": "Verify email",
-    "verifying": "Verifying…",
+    "verifying": "Verifying your email…",
     "success": "Verified ✓ — you can now receive password-recovery email at {{email}}. You may close this tab.",
     "successPlain": "Verified ✓. You may close this tab.",
-    "missingToken": "This verification link is missing its token. Try clicking the link in your email again, or request a fresh one from the contact-email settings.",
+    "missingToken": "Missing verification token.",
     "tokenExpired": "This verification link has expired. Request a fresh one from your contact-email settings.",
     "tokenMismatch": "This link no longer matches your current contact email — it was probably superseded by a more recent change.",
     "tryAgain": "Try again",
@@ -2919,5 +2926,16 @@
     "MEDICAL": "Medical",
     "PHYSIO": "Physio",
     "TRAINER": "Trainer"
+  },
+  "nav": {
+    "programs": "Programs"
+  },
+  "hero": {
+    "events_one": "{{count}} event",
+    "events_other": "{{count}} events",
+    "entries_one": "{{count}} entry",
+    "entries_other": "{{count}} entries",
+    "venues_one": "{{count}} venue",
+    "venues_other": "{{count}} venues"
   }
 }
