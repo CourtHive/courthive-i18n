@@ -2937,5 +2937,31 @@
     "entries_other": "__TODO__",
     "venues_one": "__TODO__",
     "venues_other": "__TODO__"
+  },
+  "venuePanel": {
+    "title": "__TODO__",
+    "loading": "__TODO__",
+    "noFacility": "__TODO__",
+    "registryUnconfigured": "__TODO__",
+    "noVenueForFacility": "__TODO__",
+    "loadFailed": "__TODO__",
+    "nothingToShow": "__TODO__"
+  },
+  "facilityPicker": {
+    "placeholder": "__TODO__",
+    "keepTyping": "__TODO__",
+    "searching": "__TODO__",
+    "noMatches": "__TODO__",
+    "searchFailed": "__TODO__",
+    "attaching": "__TODO__",
+    "attachFailed": "__TODO__",
+    "clear": "__TODO__",
+    "courtCount": "__TODO__",
+    "courtCount_one": "__TODO__",
+    "matchedOn": {
+      "name": "__TODO__",
+      "alias": "__TODO__",
+      "city": "__TODO__"
+    }
   }
 }
