@@ -38,3 +38,8 @@ jobs:
           test -f dist/manifest.json
           test -f dist/locale-labels.js
           node -e "const m = JSON.parse(require('fs').readFileSync('dist/manifest.json','utf8')); if (!m.locales.length) { console.error('empty manifest'); process.exit(1); }"
+      # Also chained into `pnpm build`; named here so a failure reads as its own
+      # step rather than a build error. A shipped `__TODO__` renders literally
+      # instead of falling back to English — see scripts/check-dist-no-todo.cjs.
+      - name: No __TODO__ sentinel in published locales
+        run: node scripts/check-dist-no-todo.cjs

@@ -9,10 +9,28 @@
  *
  * Invocation: `node dist/manifest.gen.js` (chained after `tsc` in
  * `pnpm build`).
+ *
+ * ## Two trees, deliberately
+ *
+ * `copy-locales` strips `__TODO__` on the way to `dist`, because a key valued
+ * `__TODO__` renders literally rather than falling back to English (see that
+ * script's header). So the two halves of an entry read from different trees:
+ *
+ * - `version` (SHA256) and `size` describe **dist** — they must match the bytes
+ *   CFS actually serves, or the client's cache key is a lie.
+ * - `keyCount` and `completeness` describe **src** — they are the translation
+ *   metric, and counting the stripped tree would report every locale as 100%
+ *   complete the moment the sentinel stopped shipping. The number that says
+ *   "89 strings still need a translator" has to come from where the sentinel
+ *   still lives.
+ *
+ * `keyCount` is therefore the *translatable* key count, which is ≥ the number of
+ * keys present in the served file. That is the useful reading of it, but it does
+ * mean keyCount cannot be used to validate a downloaded locale's key count.
  */
 
 import { createHash } from 'node:crypto';
-import { readFileSync, readdirSync, writeFileSync, statSync } from 'node:fs';
+import { readFileSync, readdirSync, writeFileSync, statSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -88,11 +106,20 @@ function build(): Manifest {
       continue;
     }
 
+    // Hash + size describe the SERVED bytes …
     const fullPath = join(localesDir, file);
     const raw = readFileSync(fullPath, 'utf8');
-    const parsed = JSON.parse(raw) as unknown;
     const sha = createHash('sha256').update(raw).digest('hex');
     const size = statSync(fullPath).size;
+
+    // … while the translation metric is read from src, where `__TODO__` still
+    // lives. Fall back to the dist copy if src is unavailable (e.g. a consumer
+    // running the generator against an extracted package) rather than silently
+    // reporting 100% complete.
+    const srcPath = join(__dirname, '..', 'src', 'locales', file);
+    const metricSource = existsSync(srcPath) ? srcPath : fullPath;
+    const parsed = JSON.parse(readFileSync(metricSource, 'utf8')) as unknown;
+
     const keyCount = countLeafKeys(parsed);
     const todos = countTodos(parsed);
     const completeness = keyCount > 0 ? 1 - todos / keyCount : 1;
