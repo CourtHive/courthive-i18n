@@ -2455,7 +2455,14 @@
       "coaches_other": "{{count}} trenera",
       "staff_one": "{{count}} član osoblja",
       "staff_other": "{{count}} članova osoblja"
-    }
+    },
+    "gender": {
+      "female": "__TODO__",
+      "male": "__TODO__",
+      "unspecified": "__TODO__"
+    },
+    "viewProgram": "__TODO__",
+    "viewProgramGeneric": "__TODO__"
   },
   "display": {
     "label": "Prikaz",
@@ -2919,5 +2926,16 @@
     "MEDICAL": "__TODO__",
     "PHYSIO": "__TODO__",
     "TRAINER": "__TODO__"
+  },
+  "nav": {
+    "programs": "__TODO__"
+  },
+  "hero": {
+    "events_one": "__TODO__",
+    "events_other": "__TODO__",
+    "entries_one": "__TODO__",
+    "entries_other": "__TODO__",
+    "venues_one": "__TODO__",
+    "venues_other": "__TODO__"
   }
 }
