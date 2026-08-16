@@ -2028,7 +2028,8 @@
       "official": "Sudac",
       "status": "Status",
       "updatedAt": "Ažurirano",
-      "calledAt": "Pozvano"
+      "calledAt": "Pozvano",
+      "scheduleLocked": "__TODO__"
     },
     "tournaments": {
       "open": "Otvori"
@@ -2078,7 +2079,8 @@
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
       "showCompetitivenessView": "__TODO__",
-      "called": "__TODO__"
+      "called": "__TODO__",
+      "scheduleLocked": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Pretraži sudionike",

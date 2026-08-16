@@ -1861,7 +1861,8 @@
       "official": "Officiel",
       "status": "Statut",
       "updatedAt": "Mis à jour",
-      "calledAt": "Appelé"
+      "calledAt": "Appelé",
+      "scheduleLocked": "__TODO__"
     },
     "tournaments": {
       "open": "Ouvrir"
@@ -1911,7 +1912,8 @@
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
       "showCompetitivenessView": "__TODO__",
-      "called": "__TODO__"
+      "called": "__TODO__",
+      "scheduleLocked": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Rechercher des participants",

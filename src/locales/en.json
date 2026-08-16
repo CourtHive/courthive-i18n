@@ -2028,7 +2028,8 @@
       "official": "Official",
       "status": "Status",
       "updatedAt": "Updated",
-      "calledAt": "Called"
+      "calledAt": "Called",
+      "scheduleLocked": "Locked"
     },
     "tournaments": {
       "open": "Open"
@@ -2078,7 +2079,8 @@
       "walkover": "Walkover / Defaulted",
       "showTodayView": "Show today view",
       "showCompetitivenessView": "Show competitiveness",
-      "called": "Called"
+      "called": "Called",
+      "scheduleLocked": "Schedule locked"
     },
     "schedule": {
       "searchParticipants": "Search participants",

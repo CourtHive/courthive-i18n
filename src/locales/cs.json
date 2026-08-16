@@ -2028,7 +2028,8 @@
       "official": "Rozhodčí",
       "status": "Stav",
       "updatedAt": "Aktualizováno",
-      "calledAt": "Vyvoláno"
+      "calledAt": "Vyvoláno",
+      "scheduleLocked": "__TODO__"
     },
     "tournaments": {
       "open": "Otevřít"
@@ -2078,7 +2079,8 @@
       "walkover": "__TODO__",
       "showTodayView": "__TODO__",
       "showCompetitivenessView": "__TODO__",
-      "called": "__TODO__"
+      "called": "__TODO__",
+      "scheduleLocked": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Hledat účastníky",
