@@ -1027,7 +1027,29 @@
     "lockedCount_other": "__TODO__",
     "unlockedCount_one": "__TODO__",
     "unlockedCount_other": "__TODO__",
-    "nothingToLock": "__TODO__"
+    "nothingToLock": "__TODO__",
+    "inspector": {
+      "show": "__TODO__",
+      "hide": "__TODO__",
+      "readiness": {
+        "heading": "__TODO__",
+        "ready": "__TODO__",
+        "overlap": "__TODO__",
+        "recovery": "__TODO__",
+        "recoveryNotBefore": "__TODO__",
+        "dependencyNotBefore": "__TODO__",
+        "dependencyUnscheduled": "__TODO__",
+        "undetermined": "__TODO__",
+        "skip": {
+          "generic": "__TODO__",
+          "bye": "__TODO__",
+          "completed": "__TODO__",
+          "notScheduled": "__TODO__",
+          "noTime": "__TODO__",
+          "unknownMatchUp": "__TODO__"
+        }
+      }
+    }
   },
   "penalties": {
     "fail2signout": "Propust odjave",
