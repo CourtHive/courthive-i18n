@@ -1724,6 +1724,25 @@
       "title": "__TODO__",
       "minChars": "__TODO__",
       "drawRenamed": "__TODO__"
+    },
+    "groupProfile": {
+      "title": "__TODO__",
+      "empty": "__TODO__",
+      "addMembers": "__TODO__",
+      "removeSelected": "__TODO__",
+      "selectToAdd": "__TODO__",
+      "blockingRole": "__TODO__",
+      "columns": {
+        "role": "__TODO__",
+        "name": "__TODO__",
+        "contact": "__TODO__"
+      },
+      "counts": {
+        "members_one": "__TODO__",
+        "members_other": "__TODO__"
+      },
+      "contactPerson": "__TODO__",
+      "contactPersonNone": "__TODO__"
     }
   },
   "dashboard": {
@@ -2004,7 +2023,10 @@
       "cityState": "城市/省份",
       "nickname": "昵称",
       "role": "角色",
-      "teamAffiliation": "团队归属"
+      "teamAffiliation": "团队归属",
+      "contactPublic": "__TODO__",
+      "contactPublicYes": "__TODO__",
+      "contactPublicNo": "__TODO__"
     },
     "bracket": {
       "participant": "参赛者",
@@ -2319,7 +2341,12 @@
         "country": "国家",
         "countryPlaceholder": "国籍",
         "nickname": "昵称",
-        "nicknamePlaceholder": "显示名称"
+        "nicknamePlaceholder": "显示名称",
+        "mobile": "__TODO__",
+        "mobilePlaceholder": "__TODO__",
+        "email": "__TODO__",
+        "emailPlaceholder": "__TODO__",
+        "contactIsPublic": "__TODO__"
       },
       "newTeam": "新队伍",
       "generateTeams": "生成队伍",
@@ -2346,14 +2373,16 @@
         "participantProfile": "__TODO__",
         "renameTeam": "__TODO__",
         "editGroup": "__TODO__",
-        "deleteParticipant": "__TODO__"
+        "deleteParticipant": "__TODO__",
+        "manageMembers": "__TODO__"
       },
       "grouping": {
         "namePlaceholder": "__TODO__",
         "nicknamePlaceholder": "__TODO__",
         "preferNickname": "__TODO__",
         "nameTooShort": "__TODO__"
-      }
+      },
+      "staffRole": "__TODO__"
     }
   },
   "overlays": {
@@ -2989,7 +3018,19 @@
     "COACH": "__TODO__",
     "MEDICAL": "__TODO__",
     "PHYSIO": "__TODO__",
-    "TRAINER": "__TODO__"
+    "TRAINER": "__TODO__",
+    "ADMINISTRATION": "__TODO__",
+    "CAPTAIN": "__TODO__",
+    "DIRECTOR": "__TODO__",
+    "HOSPITALITY": "__TODO__",
+    "MEDIA": "__TODO__",
+    "SCOREKEEPER": "__TODO__",
+    "SECURITY": "__TODO__",
+    "STRINGER": "__TODO__",
+    "SUPERVISOR": "__TODO__",
+    "TIMEKEEPER": "__TODO__",
+    "TRANSPORT": "__TODO__",
+    "VOLUNTEER": "__TODO__"
   },
   "nav": {
     "programs": "__TODO__"
