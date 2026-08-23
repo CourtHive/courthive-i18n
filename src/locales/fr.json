@@ -882,7 +882,11 @@
           "unknownMatchUp": "__TODO__"
         }
       }
-    }
+    },
+    "byeScheduledTitle": "__TODO__",
+    "byeScheduledBody": "__TODO__",
+    "byeKeepScheduling": "__TODO__",
+    "byeRemoveScheduling": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Défaut de désinscription",
@@ -1561,6 +1565,25 @@
       "title": "__TODO__",
       "minChars": "__TODO__",
       "drawRenamed": "__TODO__"
+    },
+    "groupProfile": {
+      "title": "__TODO__",
+      "empty": "__TODO__",
+      "addMembers": "__TODO__",
+      "removeSelected": "__TODO__",
+      "selectToAdd": "__TODO__",
+      "blockingRole": "__TODO__",
+      "columns": {
+        "role": "__TODO__",
+        "name": "__TODO__",
+        "contact": "__TODO__"
+      },
+      "counts": {
+        "members_one": "__TODO__",
+        "members_other": "__TODO__"
+      },
+      "contactPerson": "__TODO__",
+      "contactPersonNone": "__TODO__"
     }
   },
   "dashboard": {
@@ -1841,7 +1864,10 @@
       "cityState": "Ville/Région",
       "nickname": "Surnom",
       "role": "Rôle",
-      "teamAffiliation": "Affiliation d'équipe"
+      "teamAffiliation": "Affiliation d'équipe",
+      "contactPublic": "__TODO__",
+      "contactPublicYes": "__TODO__",
+      "contactPublicNo": "__TODO__"
     },
     "bracket": {
       "participant": "Participant",
@@ -2156,7 +2182,15 @@
         "country": "Pays",
         "countryPlaceholder": "Pays d'origine",
         "nickname": "Surnom",
-        "nicknamePlaceholder": "Nom d'affichage"
+        "nicknamePlaceholder": "Nom d'affichage",
+        "mobile": "__TODO__",
+        "mobilePlaceholder": "__TODO__",
+        "email": "__TODO__",
+        "emailPlaceholder": "__TODO__",
+        "contactIsPublic": "__TODO__",
+        "contactRelationship": "__TODO__",
+        "contactName": "__TODO__",
+        "contactNamePlaceholder": "__TODO__"
       },
       "newTeam": "Nouvelle équipe",
       "generateTeams": "Générer des équipes",
@@ -2183,13 +2217,24 @@
         "participantProfile": "__TODO__",
         "renameTeam": "__TODO__",
         "editGroup": "__TODO__",
-        "deleteParticipant": "__TODO__"
+        "deleteParticipant": "__TODO__",
+        "manageMembers": "__TODO__"
       },
       "grouping": {
         "namePlaceholder": "__TODO__",
         "nicknamePlaceholder": "__TODO__",
         "preferNickname": "__TODO__",
         "nameTooShort": "__TODO__"
+      },
+      "staffRole": "__TODO__",
+      "contactRelationship": {
+        "unspecified": "__TODO__",
+        "self": "__TODO__",
+        "parent": "__TODO__",
+        "guardian": "__TODO__",
+        "chaperone": "__TODO__",
+        "emergency": "__TODO__",
+        "other": "__TODO__"
       }
     }
   },
@@ -2989,7 +3034,19 @@
     "COACH": "__TODO__",
     "MEDICAL": "__TODO__",
     "PHYSIO": "__TODO__",
-    "TRAINER": "__TODO__"
+    "TRAINER": "__TODO__",
+    "ADMINISTRATION": "__TODO__",
+    "CAPTAIN": "__TODO__",
+    "DIRECTOR": "__TODO__",
+    "HOSPITALITY": "__TODO__",
+    "MEDIA": "__TODO__",
+    "SCOREKEEPER": "__TODO__",
+    "SECURITY": "__TODO__",
+    "STRINGER": "__TODO__",
+    "SUPERVISOR": "__TODO__",
+    "TIMEKEEPER": "__TODO__",
+    "TRANSPORT": "__TODO__",
+    "VOLUNTEER": "__TODO__"
   },
   "nav": {
     "programs": "__TODO__"
