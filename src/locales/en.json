@@ -1048,12 +1048,79 @@
           "noTime": "No scheduled time, so readiness cannot be projected.",
           "unknownMatchUp": "This matchUp is no longer in the tournament."
         }
+      },
+      "actions": {
+        "trigger": "MatchUp actions",
+        "viewDraw": "View draw",
+        "participants": "Participants"
+      },
+      "rest": {
+        "heading": "Rest",
+        "hoursMinutes": "{{hours}}h {{minutes}}m",
+        "minutesOnly": "{{minutes}}m",
+        "rested": "{{rested}} rested — {{required}} required",
+        "resting": "{{rested}} of {{required}} — ready {{time}}",
+        "onCourt": "On court now",
+        "onCourtUntil": "On court now — ready {{time}}",
+        "onCourtOverrun": "On court now — past the expected finish",
+        "anchorUnreliable": "Prior match has no recorded finish — rest cannot be measured",
+        "noPriorMatch": "No prior match today",
+        "typeChange": "type change",
+        "ordinal": "match #{{ordinal}} today",
+        "ordinalLimit": "match #{{ordinal}} today, limit {{limit}}",
+        "atLimit": "At the daily match limit",
+        "source": {
+          "endTime": "from recorded end time",
+          "scoredTime": "from score entry (est.)",
+          "startTime": "projected from start time (est.)",
+          "calledAt": "projected from call to court (est.)",
+          "scheduledTime": "projected from scheduled time (est.)"
+        },
+        "discarded": "Could not read: {{rungs}}",
+        "discardedName": {
+          "endTime": "recorded end time",
+          "scoredTime": "score entry",
+          "startTime": "start time",
+          "calledAt": "call to court",
+          "scheduledTime": "scheduled time"
+        },
+        "skip": {
+          "generic": "Rest cannot be evaluated for this matchUp.",
+          "bye": "A BYE needs no rest.",
+          "completed": "Already complete — rest no longer applies.",
+          "noParticipants": "Participants not yet determined, so there is no one to rest.",
+          "unknownMatchUp": "This matchUp is no longer in the tournament."
+        }
       }
     },
     "byeScheduledTitle": "Match is scheduled",
     "byeScheduledBody": "This match already has scheduling information. Assigning a BYE will leave the court slot occupied unless you remove it.",
     "byeKeepScheduling": "Keep scheduling",
-    "byeRemoveScheduling": "Remove scheduling"
+    "byeRemoveScheduling": "Remove scheduling",
+    "startAllRest": {
+      "title": "Start matches with players still resting?",
+      "pill": "{{count}} needs rest",
+      "intro": "{{count}} of these matches has a player who has not had their recovery time:",
+      "resting": "{{name}}{{where}} — {{rested}} rested of {{required}} required",
+      "onCourt": "{{name}}{{where}} — still on court in an earlier match"
+    },
+    "card": {
+      "rest": {
+        "onCourt": "on court",
+        "none": "no prior match",
+        "unknown": "rest unknown",
+        "limit": "#{{ordinal}}",
+        "tooltipRest": "{{name}} — {{rested}} rested of {{required}} required",
+        "tooltipOnCourt": "{{name}} — still on court",
+        "tooltipOnCourtOverrun": "{{name}} — still on court, past the expected finish",
+        "tooltipNone": "{{name}} — no prior match today",
+        "tooltipUnknown": "{{name}} — prior match has no recorded finish"
+      }
+    },
+    "venueFrame": {
+      "notice": "Times in {{timeZone}} — venue zone not set",
+      "noticeTitle": "This tournament has no time zone set, so times are shown in this device’s zone ({{timeZone}}). Set the venue’s time zone so every operator reads the same clock."
+    }
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -1152,7 +1219,10 @@
       "themeSystem": "System",
       "font": "Font",
       "dangerZone": "Danger Zone",
-      "schedule2": "Schedule Page 2"
+      "schedule2": "Schedule Page 2",
+      "options": "Options",
+      "officialsBoard": "Officials board",
+      "linkedTournaments": "Linked Tournaments"
     },
     "editTournamentName": {
       "title": "Edit Tournament Name",
@@ -1372,7 +1442,8 @@
       "notClaimed": "Not claimed",
       "offline": "Offline",
       "online": "Online",
-      "uploadWarning": "Warning: This action will replace the tournament record on the server"
+      "uploadWarning": "Warning: This action will replace the tournament record on the server",
+      "scopedAccess": "Scoped access"
     },
     "manageAccess": {
       "title": "Manage access",
@@ -1751,6 +1822,38 @@
       },
       "contactPerson": "Contact person",
       "contactPersonNone": "None"
+    },
+    "callSheet": {
+      "title": "Call sheet",
+      "contactSelected": "Contact selected",
+      "reachable_one": "{{count}} reachable",
+      "reachable_other": "{{count}} reachable",
+      "withoutContact_one": "{{count}} without contact details",
+      "withoutContact_other": "{{count}} without contact details",
+      "noContact": "No contact details recorded",
+      "textAll_one": "Text {{count}}",
+      "textAll_other": "Text {{count}}",
+      "emailAll_one": "Email {{count}}",
+      "emailAll_other": "Email {{count}}",
+      "copyNumbers": "Copy numbers",
+      "print": "Print",
+      "notReached_one": "{{count}} person will not receive this",
+      "notReached_other": "{{count}} people will not receive this",
+      "noMobiles": "Nobody on this sheet has a mobile number",
+      "noEmails": "Nobody on this sheet has an email address",
+      "noNumbers": "No numbers to copy",
+      "numbersCopied_one": "{{count}} number copied",
+      "numbersCopied_other": "{{count}} numbers copied",
+      "copyFailed": "Could not copy to the clipboard",
+      "columns": {
+        "name": "Name",
+        "role": "Role",
+        "contact": "Contact",
+        "mobile": "Mobile",
+        "telephone": "Telephone",
+        "email": "Email",
+        "public": "Public"
+      }
     }
   },
   "dashboard": {
@@ -1929,7 +2032,18 @@
     "deleteForbidden": "You are not authorized to delete this tournament.",
     "matchUpScoredElsewhere": "Another user just scored this match ({{score}}). Review before saving.",
     "overwriteRemoteScore": "Another user scored this match ({{score}}). Overwrite with your result?",
-    "cannotModifyParticipant": "Participant could not be saved"
+    "cannotModifyParticipant": "Participant could not be saved",
+    "schedule": {
+      "endBeforeStart": "End time {{endTime}} is before the start time {{startTime}} — check the AM/PM setting.",
+      "startAfterEnd": "Start time {{startTime}} is after the end time {{endTime}} — check the AM/PM setting.",
+      "beforeCourtOpens": "{{time}} is before the court opens at {{earliest}}.",
+      "afterCourtCloses": "{{time}} is after the court closes at {{latest}}.",
+      "invalidEndTime": "End time not saved: it must be after the start time, or within 12 hours of it if the match finished after midnight.",
+      "invalidStartTime": "Start time not saved: it must come before the end time already recorded.",
+      "invalidTime": "That time could not be recorded.",
+      "courtNotFound": "That court no longer exists. Refresh the tournament and try again.",
+      "notSaved": "Schedule change was not saved: {{reason}}"
+    }
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -2034,7 +2148,13 @@
       "teamAffiliation": "Team affiliation",
       "contactPublic": "Public contact",
       "contactPublicYes": "Contact may be shared publicly",
-      "contactPublicNo": "Contact is not shared publicly"
+      "contactPublicNo": "Contact is not shared publicly",
+      "contactActions": "Contact",
+      "contactCall": "Call",
+      "contactText": "Send a text message",
+      "contactEmail": "Send an email",
+      "contactPrivateMark": "Not shared publicly",
+      "contactMore": "More contacts on the call sheet"
     },
     "bracket": {
       "participant": "Participant",
@@ -2248,7 +2368,8 @@
         "addVenue": "Add to tournament",
         "added": "Venue added from the registry",
         "searching": "Searching…"
-      }
+      },
+      "addCourtsPreview": "Will add: {{names}}"
     },
     "events": {
       "title": "Events",
@@ -2358,7 +2479,12 @@
         "contactIsPublic": "Contact may be shared publicly",
         "contactRelationship": "Contact is",
         "contactName": "Contact name",
-        "contactNamePlaceholder": "Name of the contact, if not the participant"
+        "contactNamePlaceholder": "Name of the contact, if not the participant",
+        "primaryContact": "Primary contact",
+        "additionalContact": "Contact",
+        "telephone": "Telephone",
+        "telephonePlaceholder": "Landline or desk number",
+        "whichPrimary": "Which contact is primary?"
       },
       "newTeam": "New team",
       "newGroup": "New group",
@@ -2402,7 +2528,12 @@
         "chaperone": "Chaperone",
         "emergency": "Emergency contact",
         "other": "Other"
-      }
+      },
+      "selected": "selected",
+      "closeTheDay": "Close the day",
+      "closeTheDayNobody": "Nobody is currently signed in",
+      "closeTheDayConfirm_one": "Sign out {{count}} person who is still signed in today?",
+      "closeTheDayConfirm_other": "Sign out {{count}} people who are still signed in today?"
     }
   },
   "overlays": {
@@ -3027,7 +3158,8 @@
   "officiating": {
     "conflictWarning": "This official has a potential conflict of interest with a participant in this match. Assign anyway?",
     "selectOfficial": "Select official",
-    "noOfficialsFound": "No officials found"
+    "noOfficialsFound": "No officials found",
+    "notChecked": "Conflicts could not be checked for this official"
   },
   "participantRoles": {
     "OTHER": "Other",
@@ -3084,5 +3216,116 @@
       "alias": "id",
       "city": "city"
     }
+  },
+  "capability": {
+    "denied": {
+      "provider": "Not available under this provider’s configuration.",
+      "createCompetitor": "This provider does not allow competitors to be added here.",
+      "createOfficial": "This provider does not allow officials to be added here.",
+      "importParticipants": "This provider does not allow importing participants.",
+      "deleteParticipants": "This provider does not allow deleting participants.",
+      "editParticipantDetails": "This provider does not allow editing participant details.",
+      "modifyEntries": "This provider does not allow changing event entries.",
+      "createEvent": "This provider does not allow events to be created in TMX.",
+      "deleteEvent": "This provider does not allow deleting events.",
+      "createDraw": "This provider does not allow draws to be created here.",
+      "deleteDraw": "This provider does not allow deleting draws.",
+      "assignPositions": "This provider does not allow draw positions to be assigned here.",
+      "modifyStructures": "This provider does not allow draw structures to be changed.",
+      "createVenue": "This provider does not allow venues to be created here.",
+      "deleteVenue": "This provider does not allow deleting venues.",
+      "modifySchedule": "This provider does not allow the schedule to be changed here.",
+      "useBulkScheduling": "This provider does not allow bulk scheduling.",
+      "enterScores": "This provider does not allow scores to be entered here.",
+      "publish": "This provider does not allow publishing.",
+      "unpublish": "This provider does not allow unpublishing.",
+      "useChat": "Chat is disabled for this provider."
+    },
+    "outOfScope": "Outside the courts, days or events you have been assigned."
+  },
+  "demoMode": {
+    "title": "Demo mode",
+    "menuItem": "Demo mode…",
+    "clientOnly": "Client-side simulation only. The server still enforces the real provider configuration.",
+    "posture": "POSTURE",
+    "capabilities": "CAPABILITIES",
+    "exit": "Exit demo mode",
+    "badgeLabel": "DEMO",
+    "bannerText": "Demo mode — {{preset}} · {{count}} capabilities disabled · client-side only",
+    "legend": "UI+MUT = control hidden and mutation refused · UI = control hidden only · MUT = mutation refused only · — = no gate implemented, toggling changes nothing",
+    "presets": {
+      "providerDefaults": "Provider defaults (no simulation)",
+      "recorder": "Scoring only (Recorder)",
+      "scheduler": "Schedule + score",
+      "registrar": "Registration desk",
+      "director": "Tournament director",
+      "readOnly": "Read only",
+      "custom": "Custom"
+    },
+    "groups": {
+      "participants": "Participants",
+      "events": "Events",
+      "draws": "Draws",
+      "scheduling": "Scheduling",
+      "venues": "Venues",
+      "scoring": "Scoring",
+      "publishing": "Publishing",
+      "settings": "Settings",
+      "communication": "Communication"
+    },
+    "badge": {
+      "both": "Enforced by a hidden control and by the mutation gate.",
+      "ui": "Hides the control, but the mutation itself is ungated.",
+      "mutation": "The mutation is refused, but the control is still offered.",
+      "none": "No gate implemented — toggling this changes nothing."
+    }
+  },
+  "checkIn": {
+    "action": "Check in",
+    "title": "Checked in",
+    "clickToCheckIn": "Click to check in",
+    "clickToCheckOut": "Click to check out",
+    "toggleFailed": "Could not change the check-in state",
+    "callBeforeCheckIn_one": "{{count}} participant has not checked in. Call to court anyway?",
+    "callBeforeCheckIn_other": "{{count}} participants have not checked in. Call to court anyway?",
+    "columnHeader": "Checked in",
+    "columnTooltip": "Participants who have presented at the desk for this match",
+    "badgeComplete_one": "The participant has checked in",
+    "badgeComplete_other": "All {{count}} participants have checked in",
+    "badgePartial_one": "{{count}} participant has not checked in yet",
+    "badgePartial_other": "{{count}} participants have not checked in yet",
+    "callOnDropBeforeCheckIn_one": "{{count}} participant has not checked in. Call this match to court anyway?",
+    "callOnDropBeforeCheckIn_other": "{{count}} participants have not checked in. Call this match to court anyway?",
+    "promptMode": {
+      "label": "Check-in prompts",
+      "off": "Off",
+      "on": "On",
+      "auto": "Auto",
+      "offHint": "Never ask before calling a match to court.",
+      "onHint": "Always ask when someone has not checked in.",
+      "autoHint": "Ask only when this tournament is using check-in today."
+    }
+  },
+  "ofc": "Officials",
+  "officials": {
+    "empty": "No officials on this tournament yet",
+    "state": {
+      "onCourt": "On court",
+      "assigned": "Assigned",
+      "waiting": "Waiting",
+      "available": "Available",
+      "availableHint": "Not signed in today — engaged, but not known to be here"
+    },
+    "columns": {
+      "name": "Official",
+      "state": "State",
+      "court": "Court",
+      "next": "Next",
+      "matches": "Matches",
+      "onCourt": "On court",
+      "contact": "Contact"
+    },
+    "callSheet": "Call sheet",
+    "callSheetSubtitle": "Officials"
   }
 }
