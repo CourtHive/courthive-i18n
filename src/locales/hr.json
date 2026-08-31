@@ -1453,41 +1453,41 @@
       "includeTimestamp": "Uključi vremensku oznaku",
       "includeOrganizers": "Uključi organizatore",
       "generateError": "Generiranje PDF-a nije uspjelo.",
-      "preset": "__TODO__",
-      "headerLayout": "__TODO__",
-      "footerLayout": "__TODO__",
-      "pdfComposition": "__TODO__",
-      "composition": "__TODO__",
-      "multiPage": "__TODO__",
+      "preset": "Predložak",
+      "headerLayout": "Raspored zaglavlja",
+      "footerLayout": "Raspored podnožja",
+      "pdfComposition": "Kompozicija PDF-a",
+      "composition": "Kompozicija",
+      "multiPage": "Više stranica (podijeljeno u odjeljke)",
       "presets": {
-        "clubBasic": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "itfJunior": "__TODO__",
-        "itfProCircuit": "__TODO__",
-        "ncaaCollegiate": "__TODO__",
-        "atp250": "__TODO__",
-        "atpFinals": "__TODO__",
-        "wta500": "__TODO__",
-        "wta1000": "__TODO__",
-        "grandSlam": "__TODO__",
-        "wimbledon": "__TODO__",
-        "australianOpen": "__TODO__"
+        "clubBasic": "Klub — osnovni",
+        "nationalFederation": "Nacionalni savez",
+        "itfJunior": "ITF Junior",
+        "itfProCircuit": "ITF Pro Circuit",
+        "ncaaCollegiate": "NCAA sveučilišni",
+        "atp250": "ATP 250",
+        "atpFinals": "ATP Finals",
+        "wta500": "WTA 500",
+        "wta1000": "WTA 1000",
+        "grandSlam": "Grand Slam",
+        "wimbledon": "Wimbledon",
+        "australianOpen": "Australian Open"
       },
       "headerLayouts": {
-        "grandSlam": "__TODO__",
-        "itfProfessional": "__TODO__",
-        "wtaAtpTour": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "minimal": "__TODO__",
-        "none": "__TODO__"
+        "grandSlam": "Grand Slam",
+        "itfProfessional": "ITF / Profesionalni",
+        "wtaAtpTour": "WTA / ATP tura",
+        "nationalFederation": "Nacionalni savez",
+        "minimal": "Minimalni",
+        "none": "Nijedan"
       },
       "footerLayouts": {
-        "standard": "__TODO__",
-        "seedingsTable": "__TODO__",
-        "prizeMoney": "__TODO__",
-        "officialsSignoff": "__TODO__",
-        "combinedTour": "__TODO__",
-        "none": "__TODO__"
+        "standard": "Standardni",
+        "seedingsTable": "Tablica nositelja",
+        "prizeMoney": "Nagradni fond",
+        "officialsSignoff": "Potpis sudaca",
+        "combinedTour": "Kombinirana tura",
+        "none": "Nijedan"
       }
     },
     "listPicker": {
@@ -1926,19 +1926,19 @@
       }
     },
     "participantProfile": {
-      "wins": "__TODO__",
-      "perWin": "__TODO__",
-      "bonus": "__TODO__",
-      "quality": "__TODO__",
-      "rankingPoints": "__TODO__",
-      "previous": "__TODO__",
-      "next": "__TODO__"
+      "wins": "Pobjede",
+      "perWin": "Po pobjedi",
+      "bonus": "Bonus",
+      "quality": "Kvaliteta",
+      "rankingPoints": "Bodovi za poredak",
+      "previous": "← Prethodno",
+      "next": "Sljedeće →"
     },
     "displaySettings": {
-      "google": "__TODO__",
-      "showSchedule": "__TODO__",
-      "detail": "__TODO__",
-      "title": "__TODO__"
+      "google": "Google",
+      "showSchedule": "Prikaži raspored",
+      "detail": "Detalj",
+      "title": "Uredi postavke prikaza"
     }
   },
   "dashboard": {
@@ -2796,13 +2796,13 @@
   },
   "theme": {
     "toggleDark": "Prebaci tamni način rada",
-    "systemDefault": "__TODO__",
+    "systemDefault": "Sustav (zadano)",
     "sizes": {
-      "xs": "__TODO__",
-      "sm": "__TODO__",
-      "md": "__TODO__",
-      "lg": "__TODO__",
-      "xl": "__TODO__"
+      "xs": "Vrlo malo (13 px)",
+      "sm": "Malo (14 px)",
+      "md": "Srednje (16 px)",
+      "lg": "Veliko (18 px)",
+      "xl": "Vrlo veliko (20 px)"
     }
   },
   "language": {
@@ -2828,13 +2828,13 @@
     "additional": "Dodatne informacije",
     "dressCode": "Pravila odijevanja",
     "contingencyPlan": "Vremenski plan za nepredviđene situacije",
-    "title": "__TODO__",
-    "select": "__TODO__",
-    "priceRange": "__TODO__",
-    "eventName": "__TODO__",
-    "description": "__TODO__",
-    "sponsorName": "__TODO__",
-    "tier": "__TODO__"
+    "title": "Profil prijave",
+    "select": "-- Odaberi --",
+    "priceRange": "Raspon cijena",
+    "eventName": "Naziv natjecanja",
+    "description": "Opis",
+    "sponsorName": "Naziv sponzora",
+    "tier": "Razina"
   },
   "provisioner": {
     "myProviders": "Moji pružatelji",
@@ -3891,17 +3891,17 @@
     "builtin": "Ugrađeno",
     "delete": "Obriši",
     "builtinReadOnly": "Ugrađeno (samo za čitanje — duplicirajte za prilagodbu)",
-    "topologyTemplates": "__TODO__",
-    "selectTopology": "__TODO__",
-    "tieFormatTemplates": "__TODO__",
-    "selectTieFormat": "__TODO__",
-    "compositionTemplates": "__TODO__",
-    "selectComposition": "__TODO__",
-    "empty": "__TODO__",
-    "noCollectionDefinitions": "__TODO__",
-    "templateName": "__TODO__",
-    "nameRequired": "__TODO__",
-    "saveTemplate": "__TODO__"
+    "topologyTemplates": "Predlošci topologije",
+    "selectTopology": "Odaberite predložak za prikaz ili kliknite Novo",
+    "tieFormatTemplates": "Predlošci formata susreta",
+    "selectTieFormat": "Odaberite format susreta za prikaz ili kliknite Novo",
+    "compositionTemplates": "Predlošci kompozicija",
+    "selectComposition": "Odaberite kompoziciju za prikaz ili kliknite Novo",
+    "empty": "Prazno",
+    "noCollectionDefinitions": "Nema definicija kolekcija",
+    "templateName": "Naziv predloška",
+    "nameRequired": "Unesite naziv",
+    "saveTemplate": "Spremi predložak"
   },
   "policiesPage": {
     "loadFailed": "Pravila nije bilo moguće učitati",
@@ -3909,7 +3909,7 @@
     "saveFailed": "Pravilo nije bilo moguće spremiti",
     "deleted": "Pravilo obrisano",
     "deleteFailed": "Pravilo nije bilo moguće obrisati",
-    "browseCatalog": "__TODO__"
+    "browseCatalog": "Pregledaj javni katalog →"
   },
   "federationIngest": {
     "heading": "Uvoz saveza",
@@ -3936,403 +3936,403 @@
     "itfWorldTennisTour": "ITF World Tennis Tour"
   },
   "voluntaryConsolation": {
-    "singleElimination": "__TODO__",
-    "luckyDraw": "__TODO__",
-    "adHoc": "__TODO__",
-    "accepted": "__TODO__",
-    "generate": "__TODO__",
-    "eliminated": "__TODO__"
+    "singleElimination": "Jednostruka eliminacija",
+    "luckyDraw": "Lucky Draw",
+    "adHoc": "Ad hoc",
+    "accepted": "Prihvaćen",
+    "generate": "Generiraj utješni ždrijeb",
+    "eliminated": "Ispao"
   },
   "tournamentsControls": {
-    "sortDateNewest": "__TODO__",
-    "sortDateOldest": "__TODO__",
-    "sortNameAsc": "__TODO__",
-    "sortNameDesc": "__TODO__",
-    "sortPlayers": "__TODO__",
-    "search": "__TODO__",
-    "all": "__TODO__",
-    "exampleTournaments": "__TODO__",
-    "importTournament": "__TODO__",
-    "chatMonitor": "__TODO__",
-    "welcome": "__TODO__",
-    "examples": "__TODO__",
-    "upcoming": "__TODO__"
+    "sortDateNewest": "Datum (najnoviji prvo)",
+    "sortDateOldest": "Datum (najstariji prvo)",
+    "sortNameAsc": "Naziv (A → Z)",
+    "sortNameDesc": "Naziv (Z → A)",
+    "sortPlayers": "Igrači (najviše prvo)",
+    "search": "Pretraži turnire",
+    "all": "Svi",
+    "exampleTournaments": "Ogledni turniri",
+    "importTournament": "Uvezi turnir",
+    "chatMonitor": "Nadzor chata",
+    "welcome": "Dobrodošli",
+    "examples": "Primjeri",
+    "upcoming": "Nadolazeći"
   },
   "segmentOverlay": {
-    "moveParticipants": "__TODO__",
-    "removeFromDraw": "__TODO__",
-    "createPair": "__TODO__",
-    "removeFromEvent": "__TODO__",
-    "manualSeeding": "__TODO__",
-    "clearSeeding": "__TODO__",
-    "addToAccepted": "__TODO__",
-    "addToQualifying": "__TODO__",
-    "addToAlternates": "__TODO__",
-    "addEntries": "__TODO__",
-    "pairingOff": "__TODO__"
+    "moveParticipants": "Premjesti sudionike",
+    "removeFromDraw": "Ukloni iz ždrijeba",
+    "createPair": "Stvori par",
+    "removeFromEvent": "Ukloni iz natjecanja",
+    "manualSeeding": "Ručno određivanje nositelja",
+    "clearSeeding": "Očisti nositelje",
+    "addToAccepted": "Dodaj među prihvaćene",
+    "addToQualifying": "Dodaj u kvalifikacije",
+    "addToAlternates": "Dodaj među pričuve",
+    "addEntries": "Dodaj prijave",
+    "pairingOff": "Uparivanje: ISKLJUČENO"
   },
   "swissStandings": {
-    "losses": "__TODO__",
-    "ties": "__TODO__",
-    "pts": "__TODO__",
-    "buchholz": "__TODO__",
-    "sonnebornBerger": "__TODO__",
-    "empty": "__TODO__"
+    "losses": "Porazi",
+    "ties": "Neriješeno",
+    "pts": "Bod.",
+    "buchholz": "Buchholz razlika",
+    "sonnebornBerger": "Sonneborn-Berger razlika",
+    "empty": "Nema dostupnog poretka — najprije generirajte i dovršite kola"
   },
   "policyCatalog": {
-    "empty": "__TODO__",
-    "back": "__TODO__",
-    "title": "__TODO__",
-    "intro": "__TODO__",
-    "features": "__TODO__",
-    "saveToMine": "__TODO__",
-    "saved": "__TODO__",
-    "openMine": "__TODO__"
+    "empty": "Katalog je prazan.",
+    "back": "← Natrag na Moja pravila",
+    "title": "Javni katalog pravila",
+    "intro": "Savezna pravila za bodove poretka koja svatko može pregledati. Otvorite pravilo i kliknite „Spremi u moja pravila“ da biste ga kopirali u svoj lokalni katalog, gdje ga možete uređivati, pridružiti i primijeniti.",
+    "features": "Značajke",
+    "saveToMine": "Spremi u moja pravila",
+    "saved": "Spremljeno — otvorite Moja pravila za uređivanje ili primjenu.",
+    "openMine": "Otvori Moja pravila"
   },
   "avoidances": {
-    "selectRules": "__TODO__",
-    "doublesPairs": "__TODO__",
-    "postalCodeDigits": "__TODO__"
+    "selectRules": "Odaberi pravila",
+    "doublesPairs": "Parovi u parovima",
+    "postalCodeDigits": "Znamenke poštanskog broja"
   },
   "schedulingProfile": {
-    "dragHint": "__TODO__",
-    "clearedTitle": "__TODO__",
-    "cleared": "__TODO__",
-    "savedTitle": "__TODO__",
-    "saved": "__TODO__",
-    "noRounds": "__TODO__",
-    "failed": "__TODO__",
-    "gridFailed": "__TODO__"
+    "dragHint": "Povucite kola iz kataloga u trake lokacija. Kliknite „Primijeni raspored“ za dodjelu vremena.",
+    "clearedTitle": "Profil rasporeda obrisan",
+    "cleared": "Profil obrisan.",
+    "savedTitle": "Profil rasporeda spremljen",
+    "saved": "Profil spremljen.",
+    "noRounds": "U dnevnom planu nema kola. Najprije povucite kola iz kataloga u trake lokacija.",
+    "failed": "Raspoređivanje nije uspjelo. Pojedinosti potražite u konzoli.",
+    "gridFailed": "Raspoređivanje mreže nije uspjelo."
   },
   "topology": {
-    "clearCanvas": "__TODO__",
-    "drawFailed": "__TODO__",
-    "drawGenerated": "__TODO__",
-    "templateName": "__TODO__",
-    "templateSaved": "__TODO__"
+    "clearCanvas": "Očisti platno",
+    "drawFailed": "Generiranje ždrijeba nije uspjelo",
+    "drawGenerated": "Ždrijeb uspješno generiran",
+    "templateName": "Naziv predloška",
+    "templateSaved": "Predložak spremljen"
   },
   "participantFields": {
-    "identifiers": "__TODO__",
-    "person": "__TODO__"
+    "identifiers": "Identifikatori",
+    "person": "Osoba"
   },
   "draft": {
-    "notFound": "__TODO__",
-    "configure": "__TODO__",
-    "transparencyReport": "__TODO__",
-    "alreadyResolved": "__TODO__",
-    "resolved": "__TODO__",
-    "resolve": "__TODO__",
-    "preview": "__TODO__",
-    "resolveAndPlace": "__TODO__"
+    "notFound": "Za ovaj ždrijeb nije pronađen draft",
+    "configure": "Postavi draft",
+    "transparencyReport": "Izvješće o transparentnosti drafta",
+    "alreadyResolved": "Draft je već razriješen",
+    "resolved": "Draft razriješen — sudionici raspoređeni",
+    "resolve": "Razriješi draft",
+    "preview": "Pregled",
+    "resolveAndPlace": "Razriješi i rasporedi"
   },
   "eventRow": {
-    "noDraws": "__TODO__",
-    "renameSelected": "__TODO__",
-    "viewEntries": "__TODO__",
-    "avoidances": "__TODO__"
+    "noDraws": "Nema ždrijebova",
+    "renameSelected": "Preimenuj odabrano",
+    "viewEntries": "Prikaži prijave",
+    "avoidances": "Izbjegavanja"
   },
   "gridView": {
-    "publishFailed": "__TODO__",
-    "localFailed": "__TODO__",
-    "serverFailed": "__TODO__",
-    "discarded": "__TODO__",
-    "noScheduled": "__TODO__",
-    "noConflicts": "__TODO__",
-    "resolveConflicts": "__TODO__",
-    "nowOccupied": "__TODO__"
+    "publishFailed": "Objava promjene nije uspjela",
+    "localFailed": "Promjena rasporeda nije uspjela lokalno",
+    "serverFailed": "Promjene rasporeda nije bilo moguće spremiti na poslužitelj",
+    "discarded": "Promjene rasporeda odbačene",
+    "noScheduled": "Na ovaj dan nema zakazanih mečeva za rješavanje",
+    "noConflicts": "Na ovaj dan nema sukoba igrača za rješavanje",
+    "resolveConflicts": "Riješiti sukobe igrača?",
+    "nowOccupied": "Termin Sada na tom terenu je zauzet"
   },
   "welcome": {
-    "events": "__TODO__",
-    "scheduling": "__TODO__",
-    "participants": "__TODO__",
-    "scoring": "__TODO__",
-    "getStarted": "__TODO__",
-    "generateDemo": "__TODO__",
-    "createNew": "__TODO__",
-    "back": "__TODO__"
+    "events": "Stvarajte natjecanja, upravljajte ždrijebovima i vodite turnire od početka do kraja.",
+    "scheduling": "Dodijelite terene, upravljajte terminima i rješavajte sukobe u rasporedu.",
+    "participants": "Registrirajte igrače, upravljajte ocjenama i automatski odredite nositelje.",
+    "scoring": "Bodujte mečeve u stvarnom vremenu uz automatsko napredovanje u ždrijebu.",
+    "getStarted": "Započnite generiranjem oglednih turnira kako biste istražili mogućnosti TMX-a, ili stvorite vlastiti.",
+    "generateDemo": "Generiraj demo turnire",
+    "createNew": "Stvori turnir",
+    "back": "← Natrag na turnire"
   },
   "courtCards": {
-    "noScheduledOnCourt": "__TODO__",
-    "matchUpNotFound": "__TODO__",
-    "noDataForMatchUp": "__TODO__",
-    "noUpcoming": "__TODO__",
-    "noData": "__TODO__",
-    "noneOnCourts": "__TODO__",
-    "noneInRound": "__TODO__"
+    "noScheduledOnCourt": "Na ovom terenu nema zakazanih mečeva",
+    "matchUpNotFound": "Meč nije pronađen",
+    "noDataForMatchUp": "Nema podataka za karticu terena za ovaj meč",
+    "noUpcoming": "Nema nadolazećih mečeva s oba dodijeljena sudionika na ovom terenu",
+    "noData": "Nema podataka za karticu terena",
+    "noneOnCourts": "Na terenima nema zakazanih mečeva",
+    "noneInRound": "Nijedan meč ovog kola nije dodijeljen terenu"
   },
   "ui": {
-    "explanation": "__TODO__",
-    "noParticipants": "__TODO__",
-    "noMatches": "__TODO__",
-    "ok": "__TODO__",
-    "deleteFlights": "__TODO__",
-    "totalMatchUps": "__TODO__",
-    "grid": "__TODO__",
-    "policyLabel": "__TODO__",
-    "newValue": "__TODO__",
-    "newName": "__TODO__",
-    "template": "__TODO__",
-    "reset": "__TODO__",
-    "change": "__TODO__",
-    "display": "__TODO__",
-    "website": "__TODO__",
-    "fee": "__TODO__",
-    "lights": "__TODO__",
-    "grouping": "__TODO__",
-    "winLoss": "__TODO__",
-    "scorelines": "__TODO__",
-    "chart": "__TODO__",
-    "table": "__TODO__",
-    "stats": "__TODO__",
-    "standings": "__TODO__",
-    "tableView": "__TODO__",
-    "noCourts": "__TODO__",
-    "noVenues": "__TODO__",
-    "noTournaments": "__TODO__",
-    "noCollections": "__TODO__",
-    "noEntries": "__TODO__",
-    "noDrawsYet": "__TODO__",
-    "notGenerated": "__TODO__",
-    "clearFilters": "__TODO__"
+    "explanation": "Obrazloženje",
+    "noParticipants": "Nema sudionika",
+    "noMatches": "Nema mečeva",
+    "ok": "U redu",
+    "deleteFlights": "Obriši skupine",
+    "totalMatchUps": "Ukupno mečeva",
+    "grid": "Mreža",
+    "policyLabel": "Pravilo:",
+    "newValue": "Nova vrijednost",
+    "newName": "Novi naziv",
+    "template": "Predložak",
+    "reset": "Poništi",
+    "change": "Promijeni",
+    "display": "Prikaz",
+    "website": "Web stranica",
+    "fee": "Naknada",
+    "lights": "Rasvjeta",
+    "grouping": "Grupiranje",
+    "winLoss": "P/I",
+    "scorelines": "Rezultati po setovima",
+    "chart": "Grafikon",
+    "table": "Tablica",
+    "stats": "Statistika",
+    "standings": "Poredak",
+    "tableView": "Tablični prikaz",
+    "noCourts": "Nema terena",
+    "noVenues": "Nema lokacija",
+    "noTournaments": "Nema turnira",
+    "noCollections": "Nema kolekcija",
+    "noEntries": "Nema prijava",
+    "noDrawsYet": "Još nema ždrijebova.",
+    "notGenerated": "Nije generirano",
+    "clearFilters": "Očisti filtre"
   },
   "addDrawForm": {
-    "sizeMin": "__TODO__",
-    "qualifyingNoPositions": "__TODO__",
-    "qualifierRequired": "__TODO__",
-    "regenerate": "__TODO__",
-    "roundOf16": "__TODO__",
-    "consolationFeedDepth": "__TODO__",
-    "roundProfile": "__TODO__",
-    "matchUpsPerRound": "__TODO__",
-    "evenDrawSize": "__TODO__"
+    "sizeMin": "Veličina ždrijeba mora biti najmanje 2",
+    "qualifyingNoPositions": "Kvalifikacije nije moguće dodati — ciljna struktura nema pozicija",
+    "qualifierRequired": "Pri dodavanju kvalifikacijske strukture potrebno je barem jedno mjesto kvalifikanta",
+    "regenerate": "Ponovno generirati ždrijeb?",
+    "roundOf16": "Osmina finala",
+    "consolationFeedDepth": "Dubina dovođenja u utješni ždrijeb",
+    "roundProfile": "Profil kola",
+    "matchUpsPerRound": "mečeva po kolu",
+    "evenDrawSize": "Izričiti profil kola zahtijeva parnu veličinu ždrijeba od 2 ili više."
   },
   "keyActions": {
-    "enterNewKey": "__TODO__",
-    "storedKeys": "__TODO__"
+    "enterNewKey": "Unesi novi ključ",
+    "storedKeys": "Spremljeni ključevi"
   },
   "chat": {
-    "tournamentChat": "__TODO__",
-    "noRecentActivity": "__TODO__",
-    "monitorTitle": "__TODO__",
-    "selectGroup": "__TODO__"
+    "tournamentChat": "Chat turnira",
+    "noRecentActivity": "Nema aktivnosti u chatu u nedavnom razdoblju.",
+    "monitorTitle": "Nadzor chata — svi turniri",
+    "selectGroup": "Odaberite oznaku grupe da biste odgovorili u tom turniru"
   },
   "drawActions": {
-    "pagePlayoff": "__TODO__",
-    "selectDate": "__TODO__",
-    "deleteReason": "__TODO__",
-    "noEntriesInDraw": "__TODO__",
-    "resetReason": "__TODO__",
-    "removeAssignments": "__TODO__",
-    "noInvalidParticipants": "__TODO__",
-    "addQualifying": "__TODO__",
-    "addPlayoffs": "__TODO__",
-    "allDraws": "__TODO__",
-    "noDrawsForEvent": "__TODO__",
-    "generateQualifying": "__TODO__",
-    "completeRoundFirst": "__TODO__",
-    "exitAssignmentMode": "__TODO__",
-    "autoPosition": "__TODO__"
+    "pagePlayoff": "Page doigravanje",
+    "selectDate": "Odaberi datum",
+    "deleteReason": "Navedite razlog za brisanje ždrijeba.",
+    "noEntriesInDraw": "U ovom ždrijebu nema prijava",
+    "resetReason": "Navedite razlog za poništavanje ždrijeba.",
+    "removeAssignments": "Ukloni sve dodjele pozicija",
+    "noInvalidParticipants": "Nema nevažećih sudionika",
+    "addQualifying": "Dodaj kvalifikacije",
+    "addPlayoffs": "Dodaj doigravanje",
+    "allDraws": "Svi ždrijebovi",
+    "noDrawsForEvent": "Za ovo natjecanje nije stvoren nijedan ždrijeb.",
+    "generateQualifying": "Generiraj kvalifikacije",
+    "completeRoundFirst": "Dovršite sve mečeve trenutnog kola prije generiranja sljedećeg",
+    "exitAssignmentMode": "Izađi iz načina dodjeljivanja",
+    "autoPosition": "Automatsko pozicioniranje"
   },
   "sports": {
-    "tennis": "__TODO__",
-    "pickleball": "__TODO__",
-    "badminton": "__TODO__",
-    "basketball": "__TODO__",
-    "baseball": "__TODO__",
-    "hockey": "__TODO__",
-    "padel": "__TODO__"
+    "tennis": "Tenis",
+    "pickleball": "Pickleball",
+    "badminton": "Badminton",
+    "basketball": "Košarka",
+    "baseball": "Bejzbol",
+    "hockey": "Hokej",
+    "padel": "Padel"
   },
   "tieFormatEditor": {
-    "scorecardName": "__TODO__",
-    "addCollection": "__TODO__",
-    "noCollections": "__TODO__"
+    "scorecardName": "Naziv zapisnika",
+    "addCollection": "Dodaj kolekciju",
+    "noCollections": "Nema kolekcija — kliknite Dodaj kolekciju za početak"
   },
   "assistant": {
-    "title": "__TODO__",
-    "ask": "__TODO__"
+    "title": "TMX asistent",
+    "ask": "Pitaj TMX"
   },
   "matchUpActions": {
-    "scheduleDate": "__TODO__",
-    "scheduleTime": "__TODO__",
-    "printMatchCard": "__TODO__",
-    "assignParticipant": "__TODO__",
-    "removeParticipant": "__TODO__",
-    "replaceParticipant": "__TODO__",
-    "substitution": "__TODO__",
-    "assignSeedNumber": "__TODO__",
-    "seedNumber": "__TODO__",
-    "nickname": "__TODO__"
+    "scheduleDate": "Datum rasporeda",
+    "scheduleTime": "Vrijeme rasporeda",
+    "printMatchCard": "Ispiši karticu meča",
+    "assignParticipant": "Dodijeli sudionika",
+    "removeParticipant": "Ukloni sudionika",
+    "replaceParticipant": "Zamijeni sudionika",
+    "substitution": "Zamjena",
+    "assignSeedNumber": "Dodijeli broj nositelja ",
+    "seedNumber": "Broj nositelja",
+    "nickname": "Nadimak "
   },
   "entries": {
-    "alreadyInDraw": "__TODO__",
-    "addToDraw": "__TODO__",
-    "changeStatus": "__TODO__",
-    "addFlight": "__TODO__",
-    "destroyPairs": "__TODO__",
-    "noDestroyablePairs": "__TODO__",
-    "saveSeeding": "__TODO__",
-    "numberOfDraws": "__TODO__",
-    "acceptedEntries": "__TODO__",
-    "completedMatchUps": "__TODO__",
-    "noTeamParticipants": "__TODO__",
-    "noIndividualParticipants": "__TODO__",
-    "addPlayers": "__TODO__",
-    "noRatingData": "__TODO__",
-    "scheduledMatches": "__TODO__"
+    "alreadyInDraw": "Svi odabrani sudionici već su u ovom ždrijebu",
+    "addToDraw": "Dodaj u ždrijeb",
+    "changeStatus": "Promijeni status",
+    "addFlight": "Dodaj skupinu",
+    "destroyPairs": "Razdvoji parove",
+    "noDestroyablePairs": "Nije odabran nijedan par koji se može razdvojiti",
+    "saveSeeding": "Spremi nositelje",
+    "numberOfDraws": "Broj ždrijebova",
+    "acceptedEntries": "Prihvaćene prijave",
+    "completedMatchUps": "Dovršeni mečevi",
+    "noTeamParticipants": "Nema ekipnih sudionika",
+    "noIndividualParticipants": "Nema pojedinačnih sudionika",
+    "addPlayers": "Dodaj igrače",
+    "noRatingData": "Nema dostupnih podataka o ocjenama",
+    "scheduledMatches": "Zakazani mečevi"
   },
   "ageCategories": {
-    "u10": "__TODO__",
-    "u12": "__TODO__",
-    "u14": "__TODO__",
-    "u16": "__TODO__",
-    "u18": "__TODO__"
+    "u10": "10 godina i mlađi",
+    "u12": "12 godina i mlađi",
+    "u14": "14 godina i mlađi",
+    "u16": "16 godina i mlađi",
+    "u18": "18 godina i mlađi"
   },
   "roundOptions": {
-    "roundActions": "__TODO__",
-    "scheduleRoundEllipsis": "__TODO__",
-    "printRoundMatchCards": "__TODO__",
-    "printCourtCards": "__TODO__",
-    "timeOptional": "__TODO__",
-    "scheduleRound": "__TODO__",
-    "generateSwissRound": "__TODO__",
-    "cardDisplay": "__TODO__",
-    "ratingsHistogram": "__TODO__",
-    "competitiveness": "__TODO__",
-    "burstProgression": "__TODO__",
-    "burstCompetitive": "__TODO__"
+    "roundActions": "Radnje kola",
+    "scheduleRoundEllipsis": "Zakaži kolo...",
+    "printRoundMatchCards": "Ispiši kartice mečeva kola",
+    "printCourtCards": "Ispiši kartice terena",
+    "timeOptional": "Vrijeme (neobavezno)",
+    "scheduleRound": "Zakaži kolo",
+    "generateSwissRound": "Generiraj švicarsko kolo",
+    "cardDisplay": "Prikaz kartica",
+    "ratingsHistogram": "Histogram ocjena",
+    "competitiveness": "Izjednačenost",
+    "burstProgression": "Burst (napredovanje)",
+    "burstCompetitive": "Burst (izjednačenost)"
   },
   "maps": {
-    "google": "__TODO__",
-    "bing": "__TODO__"
+    "google": "Otvori u Google Maps",
+    "bing": "Otvori u Bing Maps"
   },
   "matchUpsActions": {
-    "abandonExplain": "__TODO__",
-    "abandonPartial": "__TODO__",
-    "abandonRemaining": "__TODO__",
-    "republishExplain": "__TODO__",
-    "rankingsNotConfigured": "__TODO__",
-    "republishRankings": "__TODO__"
+    "abandonExplain": "Označi svaki preostali meč spreman za bodovanje kao napušten. Dovršeni mečevi i BYE ostaju nepromijenjeni. Namijenjeno turnirima koji neće biti dovršeni.",
+    "abandonPartial": "Napusti i mečeve s djelomičnim rezultatom",
+    "abandonRemaining": "Napusti preostale mečeve",
+    "republishExplain": "Ponovno objavi ovaj turnir na javnom popisu poredaka. Bodovi se preračunavaju iz njegovih odlučenih mečeva.",
+    "rankingsNotConfigured": "Postupak poredaka nije konfiguriran",
+    "republishRankings": "Ponovno objavi poretke"
   },
   "groupings": {
-    "generateMockTeams": "__TODO__",
-    "noMatchesFilters": "__TODO__",
-    "createNewEvent": "__TODO__"
+    "generateMockTeams": "Generiraj ogledne ekipe",
+    "noMatchesFilters": "Nema rezultata — prilagodite ili očistite filtre",
+    "createNewEvent": "Stvori natjecanje"
   },
   "printModals": {
-    "factSheet": "__TODO__",
-    "playerList": "__TODO__",
-    "competitor": "__TODO__"
+    "factSheet": "Ispiši informativni list",
+    "playerList": "Ispiši popis igrača",
+    "competitor": "Natjecatelj"
   },
   "eventActions": {
-    "rankingPoints": "__TODO__"
+    "rankingPoints": "Bodovi za poredak"
   },
   "registrations": {
-    "applicant": "__TODO__",
-    "rankSingles": "__TODO__",
-    "applied": "__TODO__",
-    "partner": "__TODO__",
-    "noProvider": "__TODO__",
-    "accepted": "__TODO__",
-    "waitlisted": "__TODO__",
-    "rejected": "__TODO__"
+    "applicant": "Podnositelj",
+    "rankSingles": "Poredak (POJEDINAČNO)",
+    "applied": "Prijavljen",
+    "partner": "Partner",
+    "noProvider": "Ovaj turnir nema pružatelja — prijave nije moguće učitati.",
+    "accepted": "Podnositelj prihvaćen na turnir.",
+    "waitlisted": "Podnositelj premješten na listu čekanja.",
+    "rejected": "Podnositelj odbijen."
   },
   "reports": {
-    "noData": "__TODO__",
-    "audit": "__TODO__",
-    "noDraws": "__TODO__",
-    "structureAudit": "__TODO__"
+    "noData": "Nema podataka",
+    "audit": "Revizija",
+    "noDraws": "Ovaj turnir nema generiranih ždrijebova za reviziju.",
+    "structureAudit": "Revizija cjelovitosti struktura"
   },
   "applyScheduling": {
-    "noPolicy": "__TODO__",
-    "applyGridTitle": "__TODO__",
-    "selectPolicy": "__TODO__",
-    "noPolicies": "__TODO__",
-    "applyTimesTitle": "__TODO__"
+    "noPolicy": "Bez pravila (ne primjenjuj dnevna ograničenja)",
+    "applyGridTitle": "Primijeni mrežu — pravilo rasporeda",
+    "selectPolicy": "Odaberite pravilo rasporeda za Primijeni vremena:",
+    "noPolicies": "Nema dostupnih pravila rasporeda",
+    "applyTimesTitle": "Primijeni vremena — pravilo rasporeda"
   },
   "capacity": {
-    "noCourts": "__TODO__",
-    "noCourtsAddVenues": "__TODO__",
-    "openPainter": "__TODO__",
-    "noChanges": "__TODO__"
+    "noCourts": "Za ovaj turnir nisu konfigurirani tereni",
+    "noCourtsAddVenues": "Nisu konfigurirani tereni. Dodajte ih putem Lokacija.",
+    "openPainter": "Otvori uređivač dostupnosti →",
+    "noChanges": "Nema promjena za primjenu"
   },
   "clearSchedule": {
-    "dayKeepCompleted": "__TODO__",
-    "dayIncludingCompleted": "__TODO__",
-    "allData": "__TODO__",
-    "nothingInScope": "__TODO__",
-    "nothingVisible": "__TODO__"
+    "dayKeepCompleted": "Obriši ovaj dan (zadrži dovršene)",
+    "dayIncludingCompleted": "Obriši ovaj dan (uključujući dovršene)",
+    "allData": "Obriši sve podatke rasporeda",
+    "nothingInScope": "U ovom opsegu nema mečeva za brisanje.",
+    "nothingVisible": "Na vidljivim terenima nije ništa zakazano."
   },
   "gridActions": {
-    "minWidth": "__TODO__",
-    "minWidthHint": "__TODO__",
-    "conflictsWith": "__TODO__",
-    "minRowsHint": "__TODO__"
+    "minWidth": "Min. širina",
+    "minWidthHint": "Najmanja širina stupca terena — ćelije se šire kad ima mjesta",
+    "conflictsWith": " je u sukobu s ",
+    "minRowsHint": "Najmanji broj vremenskih redaka u mreži rasporeda"
   },
   "scheduleResults": {
-    "title": "__TODO__",
-    "noActivity": "__TODO__",
-    "noPerDate": "__TODO__"
+    "title": "Rezultati rasporeda",
+    "noActivity": "Na ovaj datum nema aktivnosti planera.",
+    "noPerDate": "Planer je završio, ali nije prijavio aktivnost po datumu."
   },
   "schedulingTab": {
-    "availability": "__TODO__",
-    "plan": "__TODO__",
-    "discardChanges": "__TODO__",
-    "discard": "__TODO__"
+    "availability": "Dostupnost",
+    "plan": "Plan",
+    "discardChanges": "Odbaciti nespremljene promjene?",
+    "discard": "Odbaci"
   },
   "linkedTournaments": {
-    "intro": "__TODO__",
-    "empty": "__TODO__",
-    "link": "__TODO__",
-    "linkAction": "__TODO__"
+    "intro": "Turniri koji dijele ovaj objekt. Povezivanje omogućuje da njihovi rasporedi uzimaju u obzir jedan drugoga na zajedničkim terenima.",
+    "empty": "Još nema povezanih turnira.",
+    "link": "Poveži turnire",
+    "linkAction": "Poveži"
   },
   "settingsGrid": {
-    "askAssistant": "__TODO__",
-    "schedulePlan": "__TODO__",
-    "desktopNotifications": "__TODO__",
-    "serverUrl": "__TODO__",
-    "workOffline": "__TODO__"
+    "askAssistant": "Pitaj TMX asistenta",
+    "schedulePlan": "Plan rasporeda",
+    "desktopNotifications": " Obavijesti na radnoj površini",
+    "serverUrl": "URL poslužitelja",
+    "workOffline": " Rad izvan mreže"
   },
   "venueDetail": {
-    "noCourts": "__TODO__",
-    "notFound": "__TODO__"
+    "noCourts": "Na ovoj lokaciji još nema terena.",
+    "notFound": "Lokacija nije pronađena."
   },
   "tournamentDisplay": {
-    "refreshed": "__TODO__"
+    "refreshed": "Podaci turnira osvježeni s poslužitelja"
   },
   "platform": {
-    "about": "__TODO__"
+    "about": "O TMX-u"
   },
   "activeScale": {
-    "switchTitle": "__TODO__"
+    "switchTitle": "Promijeniti aktivnu ocjenu?"
   },
   "scoreRelay": {
-    "networkError": "__TODO__"
+    "networkError": "score-relay: mrežna pogreška"
   },
   "exportFile": {
-    "saveJson": "__TODO__",
-    "saveFile": "__TODO__"
+    "saveJson": "Spremi kao JSON",
+    "saveFile": "Spremi datoteku"
   },
   "remoteMutations": {
-    "updateFailed": "__TODO__"
+    "updateFailed": "Udaljeno ažuriranje nije uspjelo — ponovno učitajte stranicu"
   },
   "mutationPrompts": {
-    "modify": "__TODO__",
-    "impersonate": "__TODO__",
-    "rejected": "__TODO__",
-    "sessionExpired": "__TODO__"
+    "modify": "Izmijeniti?",
+    "impersonate": "Predstaviti se kao drugi korisnik?",
+    "rejected": "Poslužitelj je odbio izmjenu",
+    "sessionExpired": "Sesija je istekla"
   },
   "queueService": {
-    "saved": "__TODO__"
+    "saved": "Spremljeno"
   },
   "storage": {
-    "importTournament": "__TODO__",
-    "resetFailed": "__TODO__",
-    "writeFailed": "__TODO__"
+    "importTournament": "Uvezi turnir",
+    "resetFailed": "Bazu podataka nije bilo moguće poništiti",
+    "writeFailed": "Zapisivanje u bazu podataka nije uspjelo"
   },
   "participantActions": {
-    "editParticipant": "__TODO__"
+    "editParticipant": "Uredi sudionika"
   },
   "tournamentActions": {
-    "send": "__TODO__"
+    "send": "Poslati??"
   }
 }

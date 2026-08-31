@@ -1210,41 +1210,41 @@
       "includeTimestamp": "تضمين الطابع الزمني",
       "includeOrganizers": "تضمين المنظمين",
       "generateError": "فشل في إنشاء ملف PDF.",
-      "preset": "__TODO__",
-      "headerLayout": "__TODO__",
-      "footerLayout": "__TODO__",
-      "pdfComposition": "__TODO__",
-      "composition": "__TODO__",
-      "multiPage": "__TODO__",
+      "preset": "إعداد مسبق",
+      "headerLayout": "تخطيط الترويسة",
+      "footerLayout": "تخطيط التذييل",
+      "pdfComposition": "تركيب ملف PDF",
+      "composition": "التركيب",
+      "multiPage": "متعدد الصفحات (مقسّم إلى أقسام)",
       "presets": {
-        "clubBasic": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "itfJunior": "__TODO__",
-        "itfProCircuit": "__TODO__",
-        "ncaaCollegiate": "__TODO__",
-        "atp250": "__TODO__",
-        "atpFinals": "__TODO__",
-        "wta500": "__TODO__",
-        "wta1000": "__TODO__",
-        "grandSlam": "__TODO__",
-        "wimbledon": "__TODO__",
-        "australianOpen": "__TODO__"
+        "clubBasic": "نادٍ — أساسي",
+        "nationalFederation": "الاتحاد الوطني",
+        "itfJunior": "ITF للناشئين",
+        "itfProCircuit": "دوري ITF للمحترفين",
+        "ncaaCollegiate": "NCAA الجامعي",
+        "atp250": "ATP 250",
+        "atpFinals": "نهائيات ATP",
+        "wta500": "WTA 500",
+        "wta1000": "WTA 1000",
+        "grandSlam": "البطولات الكبرى",
+        "wimbledon": "ويمبلدون",
+        "australianOpen": "بطولة أستراليا المفتوحة"
       },
       "headerLayouts": {
-        "grandSlam": "__TODO__",
-        "itfProfessional": "__TODO__",
-        "wtaAtpTour": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "minimal": "__TODO__",
-        "none": "__TODO__"
+        "grandSlam": "البطولات الكبرى",
+        "itfProfessional": "ITF / احترافي",
+        "wtaAtpTour": "جولة WTA / ATP",
+        "nationalFederation": "الاتحاد الوطني",
+        "minimal": "مبسّط",
+        "none": "بدون"
       },
       "footerLayouts": {
-        "standard": "__TODO__",
-        "seedingsTable": "__TODO__",
-        "prizeMoney": "__TODO__",
-        "officialsSignoff": "__TODO__",
-        "combinedTour": "__TODO__",
-        "none": "__TODO__"
+        "standard": "قياسي",
+        "seedingsTable": "جدول المصنّفين",
+        "prizeMoney": "الجوائز المالية",
+        "officialsSignoff": "توقيع المسؤولين",
+        "combinedTour": "جولة مشتركة",
+        "none": "بدون"
       }
     },
     "listPicker": {
@@ -1759,19 +1759,19 @@
       }
     },
     "participantProfile": {
-      "wins": "__TODO__",
-      "perWin": "__TODO__",
-      "bonus": "__TODO__",
-      "quality": "__TODO__",
-      "rankingPoints": "__TODO__",
-      "previous": "__TODO__",
-      "next": "__TODO__"
+      "wins": "الانتصارات",
+      "perWin": "لكل فوز",
+      "bonus": "نقاط إضافية",
+      "quality": "الجودة",
+      "rankingPoints": "نقاط التصنيف",
+      "previous": "→ السابق",
+      "next": "التالي ←"
     },
     "displaySettings": {
-      "google": "__TODO__",
-      "showSchedule": "__TODO__",
-      "detail": "__TODO__",
-      "title": "__TODO__"
+      "google": "Google",
+      "showSchedule": "إظهار الجدول",
+      "detail": "التفاصيل",
+      "title": "تعديل إعدادات العرض"
     }
   },
   "dashboard": {
@@ -2796,13 +2796,13 @@
   },
   "theme": {
     "toggleDark": "تبديل الوضع الداكن",
-    "systemDefault": "__TODO__",
+    "systemDefault": "النظام (افتراضي)",
     "sizes": {
-      "xs": "__TODO__",
-      "sm": "__TODO__",
-      "md": "__TODO__",
-      "lg": "__TODO__",
-      "xl": "__TODO__"
+      "xs": "صغير جداً (13 بكسل)",
+      "sm": "صغير (14 بكسل)",
+      "md": "متوسط (16 بكسل)",
+      "lg": "كبير (18 بكسل)",
+      "xl": "كبير جداً (20 بكسل)"
     }
   },
   "language": {
@@ -2828,13 +2828,13 @@
     "additional": "معلومات إضافية",
     "dressCode": "قواعد اللباس",
     "contingencyPlan": "خطة الطوارئ للطقس",
-    "title": "__TODO__",
-    "select": "__TODO__",
-    "priceRange": "__TODO__",
-    "eventName": "__TODO__",
-    "description": "__TODO__",
-    "sponsorName": "__TODO__",
-    "tier": "__TODO__"
+    "title": "ملف التسجيل",
+    "select": "-- اختر --",
+    "priceRange": "نطاق السعر",
+    "eventName": "اسم الحدث",
+    "description": "الوصف",
+    "sponsorName": "اسم الراعي",
+    "tier": "المستوى"
   },
   "provisioner": {
     "myProviders": "مزوّدوني",
@@ -3891,17 +3891,17 @@
     "builtin": "مدمج",
     "delete": "حذف",
     "builtinReadOnly": "مدمج (للقراءة فقط — انسخه للتخصيص)",
-    "topologyTemplates": "__TODO__",
-    "selectTopology": "__TODO__",
-    "tieFormatTemplates": "__TODO__",
-    "selectTieFormat": "__TODO__",
-    "compositionTemplates": "__TODO__",
-    "selectComposition": "__TODO__",
-    "empty": "__TODO__",
-    "noCollectionDefinitions": "__TODO__",
-    "templateName": "__TODO__",
-    "nameRequired": "__TODO__",
-    "saveTemplate": "__TODO__"
+    "topologyTemplates": "قوالب البنى",
+    "selectTopology": "اختر قالباً لعرضه أو انقر على «جديد»",
+    "tieFormatTemplates": "قوالب صيغ المواجهات",
+    "selectTieFormat": "اختر صيغة مواجهة لعرضها أو انقر على «جديد»",
+    "compositionTemplates": "قوالب التركيب",
+    "selectComposition": "اختر تركيباً لعرضه أو انقر على «جديد»",
+    "empty": "فارغ",
+    "noCollectionDefinitions": "لا توجد تعريفات مجموعات",
+    "templateName": "اسم القالب",
+    "nameRequired": "يرجى إدخال اسم",
+    "saveTemplate": "حفظ القالب"
   },
   "policiesPage": {
     "loadFailed": "تعذّر تحميل السياسات",
@@ -3909,7 +3909,7 @@
     "saveFailed": "تعذّر حفظ السياسة",
     "deleted": "تم حذف السياسة",
     "deleteFailed": "تعذّر حذف السياسة",
-    "browseCatalog": "__TODO__"
+    "browseCatalog": "تصفّح الفهرس العام ←"
   },
   "federationIngest": {
     "heading": "استيراد الاتحاد",
@@ -3936,403 +3936,403 @@
     "itfWorldTennisTour": "ITF World Tennis Tour"
   },
   "voluntaryConsolation": {
-    "singleElimination": "__TODO__",
-    "luckyDraw": "__TODO__",
-    "adHoc": "__TODO__",
-    "accepted": "__TODO__",
-    "generate": "__TODO__",
-    "eliminated": "__TODO__"
+    "singleElimination": "خروج المغلوب",
+    "luckyDraw": "قرعة الحظ",
+    "adHoc": "مخصص",
+    "accepted": "مقبول",
+    "generate": "توليد قرعة الترضية",
+    "eliminated": "مُقصى"
   },
   "tournamentsControls": {
-    "sortDateNewest": "__TODO__",
-    "sortDateOldest": "__TODO__",
-    "sortNameAsc": "__TODO__",
-    "sortNameDesc": "__TODO__",
-    "sortPlayers": "__TODO__",
-    "search": "__TODO__",
-    "all": "__TODO__",
-    "exampleTournaments": "__TODO__",
-    "importTournament": "__TODO__",
-    "chatMonitor": "__TODO__",
-    "welcome": "__TODO__",
-    "examples": "__TODO__",
-    "upcoming": "__TODO__"
+    "sortDateNewest": "التاريخ (الأحدث أولاً)",
+    "sortDateOldest": "التاريخ (الأقدم أولاً)",
+    "sortNameAsc": "الاسم (أ → ي)",
+    "sortNameDesc": "الاسم (ي → أ)",
+    "sortPlayers": "اللاعبون (الأكثر أولاً)",
+    "search": "البحث في البطولات",
+    "all": "الكل",
+    "exampleTournaments": "بطولات نموذجية",
+    "importTournament": "استيراد بطولة",
+    "chatMonitor": "مراقبة الدردشة",
+    "welcome": "مرحباً",
+    "examples": "أمثلة",
+    "upcoming": "القادمة"
   },
   "segmentOverlay": {
-    "moveParticipants": "__TODO__",
-    "removeFromDraw": "__TODO__",
-    "createPair": "__TODO__",
-    "removeFromEvent": "__TODO__",
-    "manualSeeding": "__TODO__",
-    "clearSeeding": "__TODO__",
-    "addToAccepted": "__TODO__",
-    "addToQualifying": "__TODO__",
-    "addToAlternates": "__TODO__",
-    "addEntries": "__TODO__",
-    "pairingOff": "__TODO__"
+    "moveParticipants": "نقل المشاركين",
+    "removeFromDraw": "إزالة من القرعة",
+    "createPair": "إنشاء زوج",
+    "removeFromEvent": "إزالة من الحدث",
+    "manualSeeding": "تصنيف يدوي",
+    "clearSeeding": "مسح التصنيف",
+    "addToAccepted": "إضافة إلى المقبولين",
+    "addToQualifying": "إضافة إلى التصفيات",
+    "addToAlternates": "إضافة إلى البدلاء",
+    "addEntries": "إضافة تسجيلات",
+    "pairingOff": "الإقران: متوقف"
   },
   "swissStandings": {
-    "losses": "__TODO__",
-    "ties": "__TODO__",
-    "pts": "__TODO__",
-    "buchholz": "__TODO__",
-    "sonnebornBerger": "__TODO__",
-    "empty": "__TODO__"
+    "losses": "الهزائم",
+    "ties": "التعادلات",
+    "pts": "نقاط",
+    "buchholz": "معيار بوخهولتز للترجيح",
+    "sonnebornBerger": "معيار سونيبورن-بيرغر للترجيح",
+    "empty": "لا يتوفر ترتيب — ولّد الأدوار وأكملها أولاً"
   },
   "policyCatalog": {
-    "empty": "__TODO__",
-    "back": "__TODO__",
-    "title": "__TODO__",
-    "intro": "__TODO__",
-    "features": "__TODO__",
-    "saveToMine": "__TODO__",
-    "saved": "__TODO__",
-    "openMine": "__TODO__"
+    "empty": "الفهرس فارغ.",
+    "back": "→ العودة إلى سياساتي",
+    "title": "الفهرس العام للسياسات",
+    "intro": "سياسات نقاط التصنيف الخاصة بالاتحادات، متاحة للجميع للاطلاع. افتح سياسة وانقر على «حفظ في سياساتي» لنسخها إلى فهرسك المحلي حيث يمكنك تعديلها وربطها وتطبيقها.",
+    "features": "الخصائص",
+    "saveToMine": "حفظ في سياساتي",
+    "saved": "تم الحفظ — افتح «سياساتي» للتعديل أو التطبيق.",
+    "openMine": "فتح سياساتي"
   },
   "avoidances": {
-    "selectRules": "__TODO__",
-    "doublesPairs": "__TODO__",
-    "postalCodeDigits": "__TODO__"
+    "selectRules": "اختيار القواعد",
+    "doublesPairs": "أزواج الزوجي",
+    "postalCodeDigits": "أرقام الرمز البريدي"
   },
   "schedulingProfile": {
-    "dragHint": "__TODO__",
-    "clearedTitle": "__TODO__",
-    "cleared": "__TODO__",
-    "savedTitle": "__TODO__",
-    "saved": "__TODO__",
-    "noRounds": "__TODO__",
-    "failed": "__TODO__",
-    "gridFailed": "__TODO__"
+    "dragHint": "اسحب الأدوار من الفهرس إلى مسارات الأماكن. انقر على «تطبيق الجدول» لتعيين الأوقات.",
+    "clearedTitle": "تم مسح ملف الجدولة",
+    "cleared": "تم مسح الملف.",
+    "savedTitle": "تم حفظ ملف الجدولة",
+    "saved": "تم حفظ الملف.",
+    "noRounds": "لا توجد أدوار في خطة اليوم. اسحب أولاً أدواراً من الفهرس إلى مسارات الأماكن.",
+    "failed": "فشلت الجدولة. راجع وحدة التحكم للتفاصيل.",
+    "gridFailed": "فشلت جدولة الشبكة."
   },
   "topology": {
-    "clearCanvas": "__TODO__",
-    "drawFailed": "__TODO__",
-    "drawGenerated": "__TODO__",
-    "templateName": "__TODO__",
-    "templateSaved": "__TODO__"
+    "clearCanvas": "مسح لوحة الرسم",
+    "drawFailed": "فشل توليد القرعة",
+    "drawGenerated": "تم توليد القرعة بنجاح",
+    "templateName": "اسم القالب",
+    "templateSaved": "تم حفظ القالب"
   },
   "participantFields": {
-    "identifiers": "__TODO__",
-    "person": "__TODO__"
+    "identifiers": "المعرّفات",
+    "person": "الشخص"
   },
   "draft": {
-    "notFound": "__TODO__",
-    "configure": "__TODO__",
-    "transparencyReport": "__TODO__",
-    "alreadyResolved": "__TODO__",
-    "resolved": "__TODO__",
-    "resolve": "__TODO__",
-    "preview": "__TODO__",
-    "resolveAndPlace": "__TODO__"
+    "notFound": "لم يُعثر على سحب لهذه القرعة",
+    "configure": "إعداد السحب",
+    "transparencyReport": "تقرير شفافية السحب",
+    "alreadyResolved": "تمت تسوية السحب بالفعل",
+    "resolved": "تمت تسوية السحب — وُزّع المشاركون",
+    "resolve": "تسوية السحب",
+    "preview": "معاينة",
+    "resolveAndPlace": "التسوية والتوزيع"
   },
   "eventRow": {
-    "noDraws": "__TODO__",
-    "renameSelected": "__TODO__",
-    "viewEntries": "__TODO__",
-    "avoidances": "__TODO__"
+    "noDraws": "لا توجد قرعات",
+    "renameSelected": "إعادة تسمية المحدد",
+    "viewEntries": "عرض التسجيلات",
+    "avoidances": "قيود التجنّب"
   },
   "gridView": {
-    "publishFailed": "__TODO__",
-    "localFailed": "__TODO__",
-    "serverFailed": "__TODO__",
-    "discarded": "__TODO__",
-    "noScheduled": "__TODO__",
-    "noConflicts": "__TODO__",
-    "resolveConflicts": "__TODO__",
-    "nowOccupied": "__TODO__"
+    "publishFailed": "فشل نشر التغيير",
+    "localFailed": "فشل تغيير الجدول محلياً",
+    "serverFailed": "تعذّر حفظ تغييرات الجدول على الخادم",
+    "discarded": "تم تجاهل تغييرات الجدول",
+    "noScheduled": "لا توجد مباريات مجدولة لمعالجتها في هذا اليوم",
+    "noConflicts": "لا توجد تعارضات لاعبين لحلّها في هذا اليوم",
+    "resolveConflicts": "حل تعارضات اللاعبين؟",
+    "nowOccupied": "فترة «الآن» على هذا الملعب مشغولة"
   },
   "welcome": {
-    "events": "__TODO__",
-    "scheduling": "__TODO__",
-    "participants": "__TODO__",
-    "scoring": "__TODO__",
-    "getStarted": "__TODO__",
-    "generateDemo": "__TODO__",
-    "createNew": "__TODO__",
-    "back": "__TODO__"
+    "events": "أنشئ الأحداث، وأدر القرعات، ونظّم البطولات من البداية إلى النهاية.",
+    "scheduling": "عيّن الملاعب، وأدر الفترات الزمنية، وعالج تعارضات الجدول.",
+    "participants": "سجّل اللاعبين، وأدر التقييمات، وصنّف القرعات تلقائياً.",
+    "scoring": "سجّل نتائج المباريات فورياً مع تقدّم تلقائي في القرعة.",
+    "getStarted": "ابدأ بتوليد بطولات نموذجية لاستكشاف ميزات TMX، أو أنشئ بطولتك الخاصة.",
+    "generateDemo": "توليد بطولات تجريبية",
+    "createNew": "إنشاء بطولة جديدة",
+    "back": "→ العودة إلى البطولات"
   },
   "courtCards": {
-    "noScheduledOnCourt": "__TODO__",
-    "matchUpNotFound": "__TODO__",
-    "noDataForMatchUp": "__TODO__",
-    "noUpcoming": "__TODO__",
-    "noData": "__TODO__",
-    "noneOnCourts": "__TODO__",
-    "noneInRound": "__TODO__"
+    "noScheduledOnCourt": "لا توجد مباريات مجدولة على هذا الملعب",
+    "matchUpNotFound": "لم يُعثر على المباراة",
+    "noDataForMatchUp": "لا توجد بيانات بطاقة ملعب لهذه المباراة",
+    "noUpcoming": "لا توجد مباريات قادمة على هذا الملعب بمشاركين معيّنين كليهما",
+    "noData": "لا توجد بيانات لبطاقة الملعب",
+    "noneOnCourts": "لا توجد مباريات مجدولة على الملاعب",
+    "noneInRound": "لم تُعيَّن أي مباراة من هذا الدور إلى ملعب"
   },
   "ui": {
-    "explanation": "__TODO__",
-    "noParticipants": "__TODO__",
-    "noMatches": "__TODO__",
-    "ok": "__TODO__",
-    "deleteFlights": "__TODO__",
-    "totalMatchUps": "__TODO__",
-    "grid": "__TODO__",
-    "policyLabel": "__TODO__",
-    "newValue": "__TODO__",
-    "newName": "__TODO__",
-    "template": "__TODO__",
-    "reset": "__TODO__",
-    "change": "__TODO__",
-    "display": "__TODO__",
-    "website": "__TODO__",
-    "fee": "__TODO__",
-    "lights": "__TODO__",
-    "grouping": "__TODO__",
-    "winLoss": "__TODO__",
-    "scorelines": "__TODO__",
-    "chart": "__TODO__",
-    "table": "__TODO__",
-    "stats": "__TODO__",
-    "standings": "__TODO__",
-    "tableView": "__TODO__",
-    "noCourts": "__TODO__",
-    "noVenues": "__TODO__",
-    "noTournaments": "__TODO__",
-    "noCollections": "__TODO__",
-    "noEntries": "__TODO__",
-    "noDrawsYet": "__TODO__",
-    "notGenerated": "__TODO__",
-    "clearFilters": "__TODO__"
+    "explanation": "التوضيح",
+    "noParticipants": "لا يوجد مشاركون",
+    "noMatches": "لا توجد مباريات",
+    "ok": "موافق",
+    "deleteFlights": "حذف المجموعات",
+    "totalMatchUps": "إجمالي المباريات",
+    "grid": "الشبكة",
+    "policyLabel": "السياسة:",
+    "newValue": "قيمة جديدة",
+    "newName": "اسم جديد",
+    "template": "قالب",
+    "reset": "إعادة تعيين",
+    "change": "التغيّر",
+    "display": "العرض",
+    "website": "الموقع الإلكتروني",
+    "fee": "الرسوم",
+    "lights": "الإضاءة",
+    "grouping": "التجميع",
+    "winLoss": "فوز/خسارة",
+    "scorelines": "نتائج الأشواط",
+    "chart": "رسم بياني",
+    "table": "جدول",
+    "stats": "إحصاءات",
+    "standings": "الترتيب",
+    "tableView": "عرض جدولي",
+    "noCourts": "لا توجد ملاعب",
+    "noVenues": "لا توجد أماكن",
+    "noTournaments": "لا توجد بطولات",
+    "noCollections": "لا توجد مجموعات",
+    "noEntries": "لا توجد تسجيلات",
+    "noDrawsYet": "لا توجد قرعات بعد.",
+    "notGenerated": "غير مولَّد",
+    "clearFilters": "مسح عوامل التصفية"
   },
   "addDrawForm": {
-    "sizeMin": "__TODO__",
-    "qualifyingNoPositions": "__TODO__",
-    "qualifierRequired": "__TODO__",
-    "regenerate": "__TODO__",
-    "roundOf16": "__TODO__",
-    "consolationFeedDepth": "__TODO__",
-    "roundProfile": "__TODO__",
-    "matchUpsPerRound": "__TODO__",
-    "evenDrawSize": "__TODO__"
+    "sizeMin": "يجب ألا يقل حجم القرعة عن 2",
+    "qualifyingNoPositions": "تعذّر إرفاق التصفيات — الهيكل المستهدف لا يحتوي على مراكز",
+    "qualifierRequired": "يلزم مركز مؤهَّل واحد على الأقل عند إرفاق هيكل التصفيات",
+    "regenerate": "إعادة توليد القرعة؟",
+    "roundOf16": "دور الـ16",
+    "consolationFeedDepth": "عمق التغذية إلى قرعة الترضية",
+    "roundProfile": "ملف الأدوار",
+    "matchUpsPerRound": "مباريات في كل دور",
+    "evenDrawSize": "يتطلب تحديد ملف الأدوار حجم قرعة زوجياً لا يقل عن 2."
   },
   "keyActions": {
-    "enterNewKey": "__TODO__",
-    "storedKeys": "__TODO__"
+    "enterNewKey": "إدخال مفتاح جديد",
+    "storedKeys": "المفاتيح المحفوظة"
   },
   "chat": {
-    "tournamentChat": "__TODO__",
-    "noRecentActivity": "__TODO__",
-    "monitorTitle": "__TODO__",
-    "selectGroup": "__TODO__"
+    "tournamentChat": "دردشة البطولة",
+    "noRecentActivity": "لا يوجد نشاط دردشة في الفترة الأخيرة.",
+    "monitorTitle": "مراقبة الدردشة — جميع البطولات",
+    "selectGroup": "اختر شارة مجموعة للرد ضمن تلك البطولة"
   },
   "drawActions": {
-    "pagePlayoff": "__TODO__",
-    "selectDate": "__TODO__",
-    "deleteReason": "__TODO__",
-    "noEntriesInDraw": "__TODO__",
-    "resetReason": "__TODO__",
-    "removeAssignments": "__TODO__",
-    "noInvalidParticipants": "__TODO__",
-    "addQualifying": "__TODO__",
-    "addPlayoffs": "__TODO__",
-    "allDraws": "__TODO__",
-    "noDrawsForEvent": "__TODO__",
-    "generateQualifying": "__TODO__",
-    "completeRoundFirst": "__TODO__",
-    "exitAssignmentMode": "__TODO__",
-    "autoPosition": "__TODO__"
+    "pagePlayoff": "ملحق Page",
+    "selectDate": "اختر التاريخ",
+    "deleteReason": "يرجى ذكر سبب حذف القرعة.",
+    "noEntriesInDraw": "لا توجد تسجيلات في هذه القرعة",
+    "resetReason": "يرجى ذكر سبب إعادة تعيين القرعة.",
+    "removeAssignments": "إزالة جميع تعيينات المراكز",
+    "noInvalidParticipants": "لا يوجد مشاركون غير صالحين",
+    "addQualifying": "إضافة تصفيات",
+    "addPlayoffs": "إضافة ملحق",
+    "allDraws": "جميع القرعات",
+    "noDrawsForEvent": "لم تُنشأ أي قرعة لهذا الحدث.",
+    "generateQualifying": "توليد التصفيات",
+    "completeRoundFirst": "أكمل جميع مباريات الدور الحالي قبل توليد الدور التالي",
+    "exitAssignmentMode": "إنهاء وضع التعيين",
+    "autoPosition": "توزيع تلقائي"
   },
   "sports": {
-    "tennis": "__TODO__",
-    "pickleball": "__TODO__",
-    "badminton": "__TODO__",
-    "basketball": "__TODO__",
-    "baseball": "__TODO__",
-    "hockey": "__TODO__",
-    "padel": "__TODO__"
+    "tennis": "التنس",
+    "pickleball": "البيكل بول",
+    "badminton": "الريشة الطائرة",
+    "basketball": "كرة السلة",
+    "baseball": "البيسبول",
+    "hockey": "الهوكي",
+    "padel": "البادل"
   },
   "tieFormatEditor": {
-    "scorecardName": "__TODO__",
-    "addCollection": "__TODO__",
-    "noCollections": "__TODO__"
+    "scorecardName": "اسم بطاقة النتائج",
+    "addCollection": "إضافة مجموعة",
+    "noCollections": "لا توجد مجموعات — انقر على «إضافة مجموعة» للبدء"
   },
   "assistant": {
-    "title": "__TODO__",
-    "ask": "__TODO__"
+    "title": "مساعد TMX",
+    "ask": "اسأل TMX"
   },
   "matchUpActions": {
-    "scheduleDate": "__TODO__",
-    "scheduleTime": "__TODO__",
-    "printMatchCard": "__TODO__",
-    "assignParticipant": "__TODO__",
-    "removeParticipant": "__TODO__",
-    "replaceParticipant": "__TODO__",
-    "substitution": "__TODO__",
-    "assignSeedNumber": "__TODO__",
-    "seedNumber": "__TODO__",
-    "nickname": "__TODO__"
+    "scheduleDate": "تاريخ الجدولة",
+    "scheduleTime": "وقت الجدولة",
+    "printMatchCard": "طباعة بطاقة المباراة",
+    "assignParticipant": "تعيين مشارك",
+    "removeParticipant": "إزالة المشارك",
+    "replaceParticipant": "استبدال المشارك",
+    "substitution": "استبدال",
+    "assignSeedNumber": "تعيين رقم التصنيف ",
+    "seedNumber": "رقم التصنيف",
+    "nickname": "اللقب "
   },
   "entries": {
-    "alreadyInDraw": "__TODO__",
-    "addToDraw": "__TODO__",
-    "changeStatus": "__TODO__",
-    "addFlight": "__TODO__",
-    "destroyPairs": "__TODO__",
-    "noDestroyablePairs": "__TODO__",
-    "saveSeeding": "__TODO__",
-    "numberOfDraws": "__TODO__",
-    "acceptedEntries": "__TODO__",
-    "completedMatchUps": "__TODO__",
-    "noTeamParticipants": "__TODO__",
-    "noIndividualParticipants": "__TODO__",
-    "addPlayers": "__TODO__",
-    "noRatingData": "__TODO__",
-    "scheduledMatches": "__TODO__"
+    "alreadyInDraw": "جميع المشاركين المحددين موجودون بالفعل في هذه القرعة",
+    "addToDraw": "إضافة إلى القرعة",
+    "changeStatus": "تغيير الحالة",
+    "addFlight": "إضافة مجموعة",
+    "destroyPairs": "فك الأزواج",
+    "noDestroyablePairs": "لم يُحدَّد أي زوج قابل للفك",
+    "saveSeeding": "حفظ التصنيف",
+    "numberOfDraws": "عدد القرعات",
+    "acceptedEntries": "التسجيلات المقبولة",
+    "completedMatchUps": "المباريات المكتملة",
+    "noTeamParticipants": "لا توجد فرق مشاركة",
+    "noIndividualParticipants": "لا يوجد مشاركون أفراد",
+    "addPlayers": "إضافة لاعبين",
+    "noRatingData": "لا تتوفر بيانات تقييم",
+    "scheduledMatches": "المباريات المجدولة"
   },
   "ageCategories": {
-    "u10": "__TODO__",
-    "u12": "__TODO__",
-    "u14": "__TODO__",
-    "u16": "__TODO__",
-    "u18": "__TODO__"
+    "u10": "10 سنوات فما دون",
+    "u12": "12 سنة فما دون",
+    "u14": "14 سنة فما دون",
+    "u16": "16 سنة فما دون",
+    "u18": "18 سنة فما دون"
   },
   "roundOptions": {
-    "roundActions": "__TODO__",
-    "scheduleRoundEllipsis": "__TODO__",
-    "printRoundMatchCards": "__TODO__",
-    "printCourtCards": "__TODO__",
-    "timeOptional": "__TODO__",
-    "scheduleRound": "__TODO__",
-    "generateSwissRound": "__TODO__",
-    "cardDisplay": "__TODO__",
-    "ratingsHistogram": "__TODO__",
-    "competitiveness": "__TODO__",
-    "burstProgression": "__TODO__",
-    "burstCompetitive": "__TODO__"
+    "roundActions": "إجراءات الدور",
+    "scheduleRoundEllipsis": "جدولة الدور...",
+    "printRoundMatchCards": "طباعة بطاقات مباريات الدور",
+    "printCourtCards": "طباعة بطاقات الملاعب",
+    "timeOptional": "الوقت (اختياري)",
+    "scheduleRound": "جدولة الدور",
+    "generateSwissRound": "توليد دور سويسري",
+    "cardDisplay": "عرض البطاقات",
+    "ratingsHistogram": "المدرج التكراري للتقييمات",
+    "competitiveness": "التنافسية",
+    "burstProgression": "Burst (التقدّم)",
+    "burstCompetitive": "Burst (التنافسية)"
   },
   "maps": {
-    "google": "__TODO__",
-    "bing": "__TODO__"
+    "google": "فتح في خرائط Google",
+    "bing": "فتح في خرائط Bing"
   },
   "matchUpsActions": {
-    "abandonExplain": "__TODO__",
-    "abandonPartial": "__TODO__",
-    "abandonRemaining": "__TODO__",
-    "republishExplain": "__TODO__",
-    "rankingsNotConfigured": "__TODO__",
-    "republishRankings": "__TODO__"
+    "abandonExplain": "وضع علامة «متروكة» على كل مباراة متبقية جاهزة للتسجيل. لا تتأثر المباريات المكتملة ولا BYE. مخصص للبطولات التي لن تُستكمل.",
+    "abandonPartial": "ترك المباريات ذات النتيجة الجزئية أيضاً",
+    "abandonRemaining": "ترك المباريات المتبقية",
+    "republishExplain": "إعادة نشر هذه البطولة في قائمة التصنيفات العامة. تُحتسب النقاط من جديد استناداً إلى مبارياتها المحسومة.",
+    "rankingsNotConfigured": "لم تُهيَّأ سلسلة معالجة التصنيفات",
+    "republishRankings": "إعادة نشر التصنيفات"
   },
   "groupings": {
-    "generateMockTeams": "__TODO__",
-    "noMatchesFilters": "__TODO__",
-    "createNewEvent": "__TODO__"
+    "generateMockTeams": "توليد فرق تجريبية",
+    "noMatchesFilters": "لا نتائج — عدّل عوامل التصفية أو امسحها",
+    "createNewEvent": "إنشاء حدث"
   },
   "printModals": {
-    "factSheet": "__TODO__",
-    "playerList": "__TODO__",
-    "competitor": "__TODO__"
+    "factSheet": "طباعة صحيفة المعلومات",
+    "playerList": "طباعة قائمة اللاعبين",
+    "competitor": "متنافس"
   },
   "eventActions": {
-    "rankingPoints": "__TODO__"
+    "rankingPoints": "نقاط التصنيف"
   },
   "registrations": {
-    "applicant": "__TODO__",
-    "rankSingles": "__TODO__",
-    "applied": "__TODO__",
-    "partner": "__TODO__",
-    "noProvider": "__TODO__",
-    "accepted": "__TODO__",
-    "waitlisted": "__TODO__",
-    "rejected": "__TODO__"
+    "applicant": "مقدّم الطلب",
+    "rankSingles": "التصنيف (فردي)",
+    "applied": "تم التقديم",
+    "partner": "الشريك",
+    "noProvider": "هذه البطولة بلا مزوّد — يتعذّر تحميل التسجيلات.",
+    "accepted": "تم قبول مقدّم الطلب في البطولة.",
+    "waitlisted": "نُقل مقدّم الطلب إلى قائمة الانتظار.",
+    "rejected": "تم رفض مقدّم الطلب."
   },
   "reports": {
-    "noData": "__TODO__",
-    "audit": "__TODO__",
-    "noDraws": "__TODO__",
-    "structureAudit": "__TODO__"
+    "noData": "لا توجد بيانات",
+    "audit": "تدقيق",
+    "noDraws": "لا توجد في هذه البطولة قرعات مولَّدة لتدقيقها.",
+    "structureAudit": "تدقيق سلامة الهياكل"
   },
   "applyScheduling": {
-    "noPolicy": "__TODO__",
-    "applyGridTitle": "__TODO__",
-    "selectPolicy": "__TODO__",
-    "noPolicies": "__TODO__",
-    "applyTimesTitle": "__TODO__"
+    "noPolicy": "بدون سياسة (عدم فرض حدود يومية)",
+    "applyGridTitle": "تطبيق الشبكة — سياسة الجدولة",
+    "selectPolicy": "اختر سياسة الجدولة التي ستُستخدم في «تطبيق الأوقات»:",
+    "noPolicies": "لا توجد سياسات جدولة متاحة",
+    "applyTimesTitle": "تطبيق الأوقات — سياسة الجدولة"
   },
   "capacity": {
-    "noCourts": "__TODO__",
-    "noCourtsAddVenues": "__TODO__",
-    "openPainter": "__TODO__",
-    "noChanges": "__TODO__"
+    "noCourts": "لم تُهيَّأ أي ملاعب لهذه البطولة",
+    "noCourtsAddVenues": "لم تُهيَّأ أي ملاعب. أضف الملاعب من «الأماكن».",
+    "openPainter": "فتح محرّر التوفّر ←",
+    "noChanges": "لا توجد تغييرات لتطبيقها"
   },
   "clearSchedule": {
-    "dayKeepCompleted": "__TODO__",
-    "dayIncludingCompleted": "__TODO__",
-    "allData": "__TODO__",
-    "nothingInScope": "__TODO__",
-    "nothingVisible": "__TODO__"
+    "dayKeepCompleted": "مسح هذا اليوم (مع الإبقاء على المكتملة)",
+    "dayIncludingCompleted": "مسح هذا اليوم (بما في ذلك المكتملة)",
+    "allData": "مسح جميع بيانات الجدول",
+    "nothingInScope": "لا توجد مباريات لمسحها ضمن هذا النطاق.",
+    "nothingVisible": "لا شيء مجدول على الملاعب الظاهرة."
   },
   "gridActions": {
-    "minWidth": "__TODO__",
-    "minWidthHint": "__TODO__",
-    "conflictsWith": "__TODO__",
-    "minRowsHint": "__TODO__"
+    "minWidth": "أقل عرض",
+    "minWidthHint": "أقل عرض لعمود الملعب — تتسع الخلايا عند توفر مساحة",
+    "conflictsWith": " يتعارض مع ",
+    "minRowsHint": "أقل عدد من صفوف الوقت في شبكة الجدول"
   },
   "scheduleResults": {
-    "title": "__TODO__",
-    "noActivity": "__TODO__",
-    "noPerDate": "__TODO__"
+    "title": "نتائج الجدولة",
+    "noActivity": "لا يوجد نشاط للمجدول في هذا التاريخ.",
+    "noPerDate": "أنهى المجدول عمله لكنه لم يُبلّغ عن نشاط بحسب التاريخ."
   },
   "schedulingTab": {
-    "availability": "__TODO__",
-    "plan": "__TODO__",
-    "discardChanges": "__TODO__",
-    "discard": "__TODO__"
+    "availability": "التوفّر",
+    "plan": "الخطة",
+    "discardChanges": "تجاهل التغييرات غير المحفوظة؟",
+    "discard": "تجاهل"
   },
   "linkedTournaments": {
-    "intro": "__TODO__",
-    "empty": "__TODO__",
-    "link": "__TODO__",
-    "linkAction": "__TODO__"
+    "intro": "البطولات التي تتشارك هذا المرفق. الربط يجعل جداولها تراعي بعضها البعض على الملاعب المشتركة.",
+    "empty": "لا توجد بطولات مرتبطة بعد.",
+    "link": "ربط البطولات",
+    "linkAction": "ربط"
   },
   "settingsGrid": {
-    "askAssistant": "__TODO__",
-    "schedulePlan": "__TODO__",
-    "desktopNotifications": "__TODO__",
-    "serverUrl": "__TODO__",
-    "workOffline": "__TODO__"
+    "askAssistant": "اسأل مساعد TMX",
+    "schedulePlan": "خطة الجدولة",
+    "desktopNotifications": " إشعارات سطح المكتب",
+    "serverUrl": "عنوان الخادم",
+    "workOffline": " العمل دون اتصال"
   },
   "venueDetail": {
-    "noCourts": "__TODO__",
-    "notFound": "__TODO__"
+    "noCourts": "لا توجد ملاعب في هذا المكان بعد.",
+    "notFound": "لم يُعثر على المكان."
   },
   "tournamentDisplay": {
-    "refreshed": "__TODO__"
+    "refreshed": "تم تحديث بيانات البطولة من الخادم"
   },
   "platform": {
-    "about": "__TODO__"
+    "about": "حول TMX"
   },
   "activeScale": {
-    "switchTitle": "__TODO__"
+    "switchTitle": "تبديل التقييم النشط؟"
   },
   "scoreRelay": {
-    "networkError": "__TODO__"
+    "networkError": "score-relay: خطأ في الشبكة"
   },
   "exportFile": {
-    "saveJson": "__TODO__",
-    "saveFile": "__TODO__"
+    "saveJson": "حفظ بصيغة JSON",
+    "saveFile": "حفظ الملف"
   },
   "remoteMutations": {
-    "updateFailed": "__TODO__"
+    "updateFailed": "فشل التحديث عن بُعد — يرجى إعادة التحميل"
   },
   "mutationPrompts": {
-    "modify": "__TODO__",
-    "impersonate": "__TODO__",
-    "rejected": "__TODO__",
-    "sessionExpired": "__TODO__"
+    "modify": "تعديل؟",
+    "impersonate": "انتحال هوية مستخدم آخر؟",
+    "rejected": "رفض الخادم التعديل",
+    "sessionExpired": "انتهت الجلسة"
   },
   "queueService": {
-    "saved": "__TODO__"
+    "saved": "تم الحفظ"
   },
   "storage": {
-    "importTournament": "__TODO__",
-    "resetFailed": "__TODO__",
-    "writeFailed": "__TODO__"
+    "importTournament": "استيراد بطولة",
+    "resetFailed": "تعذّرت إعادة تعيين قاعدة البيانات",
+    "writeFailed": "فشلت الكتابة في قاعدة البيانات"
   },
   "participantActions": {
-    "editParticipant": "__TODO__"
+    "editParticipant": "تعديل المشارك"
   },
   "tournamentActions": {
-    "send": "__TODO__"
+    "send": "إرسال؟؟"
   }
 }
