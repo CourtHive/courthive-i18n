@@ -79,8 +79,8 @@
   "ovw": "Overview",
   "prt": "Participants",
   "evt": "Events",
-  "sch": "Schedule (legacy)",
-  "sch2": "Schedule",
+  "sch": "Schedule",
+  "sch2": "Schedule 2",
   "ven": "Venues",
   "rpt": "Reports",
   "pub": "Publishing",
@@ -1491,7 +1491,7 @@
     },
     "editGroupNames": {
       "title": "Edit group names",
-      "minChars": "minimum 3 characters",
+      "minChars": "minimum 4 characters",
       "groupsRenamed": "Groups renamed"
     },
     "addFlights": {
@@ -1661,15 +1661,15 @@
       "usageList": "{{name}} is used by: {{events}}"
     },
     "firstLogin": {
-      "title": "Set your password",
-      "intro": "Your account was created with a temporary password. Choose a new password to finish signing in.",
-      "newPasswordLabel": "New password",
-      "newPasswordPlaceholder": "minimum 8 characters",
-      "confirmPasswordLabel": "Confirm password",
-      "confirmPasswordPlaceholder": "re-enter new password",
-      "setPassword": "Set password",
-      "failed": "Could not set your password. Please try again.",
-      "tokenExpired": "This sign-in session expired. Please log in again."
+      "title": "Set Your Password",
+      "intro": "Your administrator assigned you a temporary password. Please choose a new password to continue.",
+      "newPasswordLabel": "New Password",
+      "newPasswordPlaceholder": "At least 8 characters",
+      "confirmPasswordLabel": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "setPassword": "Set Password",
+      "failed": "Failed to set new password.",
+      "tokenExpired": "Your sign-in expired. Please log in again."
     },
     "forgotPassword": {
       "title": "Reset your password",
@@ -1727,16 +1727,16 @@
       "failed": "Delete failed."
     },
     "contactEmail": {
-      "title": "Recovery email",
-      "label": "Recovery email",
+      "title": "Contact email",
+      "label": "Email address",
       "save": "Save",
       "resend": "Resend verification",
-      "savedPending": "Verification email sent to {{email}}.",
-      "resent": "Verification email sent.",
-      "alreadyVerified": "Recovery email is already verified.",
-      "failed": "Could not update recovery email. Please try again.",
-      "statusNotSet": "No recovery email set. Add one so you can recover access if you lose your password.",
-      "statusPending": "Pending verification — check {{email}} and click the link.",
+      "savedPending": "Verification email sent to {{email}}. Check your inbox.",
+      "resent": "Verification email re-sent.",
+      "alreadyVerified": "Your contact email is already verified.",
+      "failed": "Could not save contact email.",
+      "statusNotSet": "No contact email is set yet. Set one so you can recover your password by email.",
+      "statusPending": "Pending verification: {{email}}. Click the link in your inbox.",
       "statusVerified": "Verified: {{email}}"
     },
     "editUser": {
@@ -2290,7 +2290,7 @@
       "viewAvailability": "View Availability",
       "viewTable": "View Table",
       "setDefaultAvailability": "Set Default Availability",
-      "saveToTournament": "Save",
+      "saveToTournament": "Save to Tournament",
       "grid": {
         "view": "View",
         "day1": "1 Day",
@@ -2766,7 +2766,8 @@
     "grantError": "Failed to grant access.",
     "revokeError": "Failed to revoke access.",
     "granted": "{{email}} granted access",
-    "revoked": "{{email}} access revoked"
+    "revoked": "{{email}} access revoked",
+    "scopedAccess": "Scoped access (courts, days, events) →"
   },
   "providerConfig": {
     "editCapsButton": "Edit Caps",
@@ -3327,5 +3328,61 @@
     },
     "callSheet": "Call sheet",
     "callSheetSubtitle": "Officials"
+  },
+  "grants": {
+    "title": "Scoped tournament access",
+    "loading": "Loading access…",
+    "unavailable": "Scoped access is unavailable right now.",
+    "grantAccess": "Grant access",
+    "grant": "Grant",
+    "cancel": "Cancel",
+    "grantee": "Person",
+    "chooseGrantee": "Choose a person…",
+    "capability": "May",
+    "everything": "Everything (scope-limited)",
+    "grantedBy": "Granted by",
+    "revoke": "Revoke",
+    "revoked": "{{email}} — grant revoked",
+    "granted": "{{email}} granted",
+    "confirmRevoke": "Revoke this grant from {{email}}? They keep any access their tournament assignment gives them.",
+    "empty": "No scoped grants on this tournament.",
+    "emptyMeaning": "No scoped grants does not mean no access: anyone assigned to this tournament is unrestricted by this mechanism. A grant narrows what one person may do.",
+    "scope": {
+      "label": "Where",
+      "wholeTournament": "Whole tournament",
+      "wholeTournamentNote": "Anywhere in this tournament.",
+      "theseCourts": "These courts",
+      "thisDay": "This day",
+      "thisEvent": "This event",
+      "advanced": "Advanced",
+      "advancedNote": "Ids, comma separated. Leave a row blank to leave that dimension unrestricted.",
+      "commaSeparated": "id, id, id",
+      "noneAvailable": "This tournament has nothing to choose from in this dimension yet."
+    },
+    "window": {
+      "label": "When",
+      "shift": "A shift",
+      "tournament": "Whole tournament",
+      "none": "No expiry",
+      "from": "From {{when}}",
+      "until": "until {{when}}",
+      "noExpiry": "No expiry",
+      "lapsed": "Lapsed",
+      "warning": "Delivery roles are handed over between shifts. A grant with no expiry outlives the person who needed it.",
+      "blocking": "Expired {{when}} — blocking all access",
+      "inert": "Expired — no effect, another grant is live",
+      "cliff": "When the window closes, this person can do nothing on this tournament until the grant is extended or revoked."
+    },
+    "issues": {
+      "chooseGrantee": "Choose who this grant is for.",
+      "chooseCapability": "Choose what they may do.",
+      "chooseScopeValues": "Choose at least one — or switch to Whole tournament.",
+      "advancedEmpty": "Fill in at least one dimension — or switch to Whole tournament.",
+      "chooseEnd": "Choose when the shift ends."
+    },
+    "extend": "Extend",
+    "extendTitle": "Extend access",
+    "lockout_one": "{{who}} cannot act on this tournament at all — their scoped access has expired. Extend it or revoke it.",
+    "lockout_other": "{{count}} people cannot act on this tournament at all ({{who}}) — their scoped access has expired. Extend or revoke."
   }
 }

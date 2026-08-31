@@ -2766,7 +2766,8 @@
     "grantError": "Falha ao conceder acesso.",
     "revokeError": "Falha ao revogar acesso.",
     "granted": "Acesso concedido a {{email}}",
-    "revoked": "Acesso de {{email}} revogado"
+    "revoked": "Acesso de {{email}} revogado",
+    "scopedAccess": "__TODO__"
   },
   "providerConfig": {
     "editCapsButton": "Editar Limites",
@@ -3327,5 +3328,61 @@
     },
     "callSheet": "__TODO__",
     "callSheetSubtitle": "__TODO__"
+  },
+  "grants": {
+    "title": "__TODO__",
+    "loading": "__TODO__",
+    "unavailable": "__TODO__",
+    "grantAccess": "__TODO__",
+    "grant": "__TODO__",
+    "cancel": "__TODO__",
+    "grantee": "__TODO__",
+    "chooseGrantee": "__TODO__",
+    "capability": "__TODO__",
+    "everything": "__TODO__",
+    "grantedBy": "__TODO__",
+    "revoke": "__TODO__",
+    "revoked": "__TODO__",
+    "granted": "__TODO__",
+    "confirmRevoke": "__TODO__",
+    "empty": "__TODO__",
+    "emptyMeaning": "__TODO__",
+    "scope": {
+      "label": "__TODO__",
+      "wholeTournament": "__TODO__",
+      "wholeTournamentNote": "__TODO__",
+      "theseCourts": "__TODO__",
+      "thisDay": "__TODO__",
+      "thisEvent": "__TODO__",
+      "advanced": "__TODO__",
+      "advancedNote": "__TODO__",
+      "commaSeparated": "__TODO__",
+      "noneAvailable": "__TODO__"
+    },
+    "window": {
+      "label": "__TODO__",
+      "shift": "__TODO__",
+      "tournament": "__TODO__",
+      "none": "__TODO__",
+      "from": "__TODO__",
+      "until": "__TODO__",
+      "noExpiry": "__TODO__",
+      "lapsed": "__TODO__",
+      "warning": "__TODO__",
+      "blocking": "__TODO__",
+      "inert": "__TODO__",
+      "cliff": "__TODO__"
+    },
+    "issues": {
+      "chooseGrantee": "__TODO__",
+      "chooseCapability": "__TODO__",
+      "chooseScopeValues": "__TODO__",
+      "advancedEmpty": "__TODO__",
+      "chooseEnd": "__TODO__"
+    },
+    "extend": "__TODO__",
+    "extendTitle": "__TODO__",
+    "lockout_one": "__TODO__",
+    "lockout_other": "__TODO__"
   }
 }
