@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.0](https://github.com/CourtHive/courthive-i18n/compare/v0.4.9...v0.5.0) (2026-08-31)
+
+
+### Features
+
+* **i18n:** mark a translation stale when its English changes under it ([#110](https://github.com/CourtHive/courthive-i18n/issues/110)) ([e515e09](https://github.com/CourtHive/courthive-i18n/commit/e515e09a32b1a4d261918df438fafb58488eace2))
+* **i18n:** translate the whole backlog — 8 locales to 100% ([#111](https://github.com/CourtHive/courthive-i18n/issues/111)) ([e2e6fbc](https://github.com/CourtHive/courthive-i18n/commit/e2e6fbca69a774168cca034fc2a8844bbd3f3fed))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from courthive-console ([#105](https://github.com/CourtHive/courthive-i18n/issues/105)) ([ec15c11](https://github.com/CourtHive/courthive-i18n/commit/ec15c1178e12061f5a5bdd90b4d981710343c90d))
+* **i18n:** sync en.json from TMX ([#103](https://github.com/CourtHive/courthive-i18n/issues/103)) ([27cbdc4](https://github.com/CourtHive/courthive-i18n/commit/27cbdc402fbc63666eb4170881df8f5b2fa8e80e))
+
 ## [0.4.9](https://github.com/CourtHive/courthive-i18n/compare/v0.4.8...v0.4.9) (2026-08-23)
 
 
