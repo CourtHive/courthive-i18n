@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.6.0](https://github.com/CourtHive/courthive-i18n/compare/v0.5.0...v0.6.0) (2026-08-31)
+
+
+### Features
+
+* **i18n:** translate the sanctioning wizard keys — back to 100% ([#114](https://github.com/CourtHive/courthive-i18n/issues/114)) ([640a229](https://github.com/CourtHive/courthive-i18n/commit/640a2290a140505ce4eeedaed48b12f1de54e8f1))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from courthive-console ([#112](https://github.com/CourtHive/courthive-i18n/issues/112)) ([fd26365](https://github.com/CourtHive/courthive-i18n/commit/fd26365becb2eb0761f09a4e311d648eb83cf5c8))
+
 ## [0.5.0](https://github.com/CourtHive/courthive-i18n/compare/v0.4.9...v0.5.0) (2026-08-31)
 
 
