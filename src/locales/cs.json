@@ -79,8 +79,8 @@
   "ovw": "Přehled",
   "prt": "Účastníci",
   "evt": "Soutěže",
-  "sch": "__STALE__Rozpis (původní)",
-  "sch2": "__STALE__Rozpis",
+  "sch": "Rozpis (původní)",
+  "sch2": "Rozpis",
   "ven": "Místa",
   "rpt": "Reporty",
   "pub": "Publikování",
@@ -1559,7 +1559,7 @@
     },
     "editGroupNames": {
       "title": "Upravit názvy skupin",
-      "minChars": "__STALE__minimálně 4 znaky",
+      "minChars": "minimálně 3 znaky",
       "groupsRenamed": "Skupiny přejmenovány"
     },
     "addFlights": {
@@ -1729,15 +1729,15 @@
       "usageList": "{{name}} používá: {{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__Nastavte si heslo",
-      "intro": "__STALE__Váš účet byl vytvořen s dočasným heslem. Zvolte nové heslo pro dokončení přihlášení.",
-      "newPasswordLabel": "__STALE__Nové heslo",
-      "newPasswordPlaceholder": "__STALE__minimálně 8 znaků",
-      "confirmPasswordLabel": "__STALE__Potvrdit heslo",
-      "confirmPasswordPlaceholder": "__STALE__zadejte nové heslo znovu",
-      "setPassword": "__STALE__Nastavit heslo",
-      "failed": "__STALE__Heslo nelze nastavit. Zkuste to prosím znovu.",
-      "tokenExpired": "__STALE__Tato přihlašovací relace vypršela. Přihlaste se prosím znovu."
+      "title": "Nastavte si heslo",
+      "intro": "Váš účet byl vytvořen s dočasným heslem. Zvolte nové heslo pro dokončení přihlášení.",
+      "newPasswordLabel": "Nové heslo",
+      "newPasswordPlaceholder": "minimálně 8 znaků",
+      "confirmPasswordLabel": "Potvrdit heslo",
+      "confirmPasswordPlaceholder": "zadejte nové heslo znovu",
+      "setPassword": "Nastavit heslo",
+      "failed": "Heslo nelze nastavit. Zkuste to prosím znovu.",
+      "tokenExpired": "Tato přihlašovací relace vypršela. Přihlaste se prosím znovu."
     },
     "forgotPassword": {
       "title": "Obnovení hesla",
@@ -1797,16 +1797,16 @@
       "failed": "Smazání selhalo."
     },
     "contactEmail": {
-      "title": "__STALE__Obnovovací e-mail",
-      "label": "__STALE__Obnovovací e-mail",
+      "title": "Obnovovací e-mail",
+      "label": "Obnovovací e-mail",
       "save": "Uložit",
       "resend": "Znovu odeslat ověření",
-      "savedPending": "__STALE__Ověřovací e-mail odeslán na {{email}}.",
-      "resent": "__STALE__Ověřovací e-mail odeslán.",
-      "alreadyVerified": "__STALE__Obnovovací e-mail je již ověřen.",
-      "failed": "__STALE__Obnovovací e-mail nelze aktualizovat. Zkuste to prosím znovu.",
-      "statusNotSet": "__STALE__Není nastaven obnovovací e-mail. Přidejte jej, abyste mohli obnovit přístup, pokud ztratíte heslo.",
-      "statusPending": "__STALE__Čeká na ověření — zkontrolujte {{email}} a klikněte na odkaz.",
+      "savedPending": "Ověřovací e-mail odeslán na {{email}}.",
+      "resent": "Ověřovací e-mail odeslán.",
+      "alreadyVerified": "Obnovovací e-mail je již ověřen.",
+      "failed": "Obnovovací e-mail nelze aktualizovat. Zkuste to prosím znovu.",
+      "statusNotSet": "Není nastaven obnovovací e-mail. Přidejte jej, abyste mohli obnovit přístup, pokud ztratíte heslo.",
+      "statusPending": "Čeká na ověření — zkontrolujte {{email}} a klikněte na odkaz.",
       "statusVerified": "Ověřeno: {{email}}"
     },
     "editUser": {
@@ -2375,7 +2375,7 @@
       "viewAvailability": "Zobrazit dostupnost",
       "viewTable": "Zobrazit tabulku",
       "setDefaultAvailability": "Nastavit výchozí dostupnost",
-      "saveToTournament": "__STALE__Uložit do turnaje",
+      "saveToTournament": "Uložit",
       "grid": {
         "view": "Zobrazení",
         "day1": "1 den",

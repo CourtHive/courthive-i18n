@@ -76,8 +76,8 @@
   "ovw": "Resumen",
   "prt": "Participantes",
   "evt": "Eventos",
-  "sch": "__STALE__Programación (heredado)",
-  "sch2": "__STALE__Programación",
+  "sch": "Programación (heredado)",
+  "sch2": "Programación",
   "ven": "Sedes",
   "pub": "Publicación",
   "rename": "Renombrar",
@@ -1304,7 +1304,7 @@
     },
     "editGroupNames": {
       "title": "Editar nombres de grupos",
-      "minChars": "__STALE__mínimo 4 caracteres",
+      "minChars": "mínimo 3 caracteres",
       "groupsRenamed": "Grupos renombrados"
     },
     "addFlights": {
@@ -1562,15 +1562,15 @@
       "usageList": "{{name}} es usada por: {{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__Establece tu contraseña",
-      "intro": "__STALE__Tu cuenta se creó con una contraseña temporal. Elige una nueva contraseña para terminar de iniciar sesión.",
-      "newPasswordLabel": "__STALE__Nueva contraseña",
-      "newPasswordPlaceholder": "__STALE__mínimo 8 caracteres",
-      "confirmPasswordLabel": "__STALE__Confirmar contraseña",
-      "confirmPasswordPlaceholder": "__STALE__vuelve a ingresar la nueva contraseña",
-      "setPassword": "__STALE__Establecer contraseña",
-      "failed": "__STALE__No se pudo establecer tu contraseña. Inténtalo de nuevo.",
-      "tokenExpired": "__STALE__Esta sesión de inicio expiró. Vuelve a iniciar sesión."
+      "title": "Establece tu contraseña",
+      "intro": "Tu cuenta se creó con una contraseña temporal. Elige una nueva contraseña para terminar de iniciar sesión.",
+      "newPasswordLabel": "Nueva contraseña",
+      "newPasswordPlaceholder": "mínimo 8 caracteres",
+      "confirmPasswordLabel": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "vuelve a ingresar la nueva contraseña",
+      "setPassword": "Establecer contraseña",
+      "failed": "No se pudo establecer tu contraseña. Inténtalo de nuevo.",
+      "tokenExpired": "Esta sesión de inicio expiró. Vuelve a iniciar sesión."
     },
     "forgotPassword": {
       "title": "Restablece tu contraseña",
@@ -1630,16 +1630,16 @@
       "failed": "Falló la eliminación."
     },
     "contactEmail": {
-      "title": "__STALE__Correo de recuperación",
-      "label": "__STALE__Correo de recuperación",
+      "title": "Correo de recuperación",
+      "label": "Correo de recuperación",
       "save": "Guardar",
       "resend": "Reenviar verificación",
-      "savedPending": "__STALE__Correo de verificación enviado a {{email}}.",
-      "resent": "__STALE__Correo de verificación enviado.",
-      "alreadyVerified": "__STALE__El correo de recuperación ya está verificado.",
-      "failed": "__STALE__No se pudo actualizar el correo de recuperación. Inténtalo de nuevo.",
-      "statusNotSet": "__STALE__No hay correo de recuperación definido. Agrega uno para poder recuperar el acceso si pierdes tu contraseña.",
-      "statusPending": "__STALE__Verificación pendiente — revisa {{email}} y haz clic en el enlace.",
+      "savedPending": "Correo de verificación enviado a {{email}}.",
+      "resent": "Correo de verificación enviado.",
+      "alreadyVerified": "El correo de recuperación ya está verificado.",
+      "failed": "No se pudo actualizar el correo de recuperación. Inténtalo de nuevo.",
+      "statusNotSet": "No hay correo de recuperación definido. Agrega uno para poder recuperar el acceso si pierdes tu contraseña.",
+      "statusPending": "Verificación pendiente — revisa {{email}} y haz clic en el enlace.",
       "statusVerified": "Verificado: {{email}}"
     },
     "editUser": {
@@ -2208,7 +2208,7 @@
       "viewAvailability": "Ver disponibilidad",
       "viewTable": "Ver tabla",
       "setDefaultAvailability": "Establecer disponibilidad predeterminada",
-      "saveToTournament": "__STALE__Guardar en torneo",
+      "saveToTournament": "Guardar",
       "grid": {
         "view": "Vista",
         "day1": "1 Día",

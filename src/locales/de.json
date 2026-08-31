@@ -76,8 +76,8 @@
   "ovw": "Übersicht",
   "prt": "Teilnehmer",
   "evt": "Bewerbe",
-  "sch": "__STALE__Spielplan (alt)",
-  "sch2": "__STALE__Spielplan",
+  "sch": "Spielplan (alt)",
+  "sch2": "Spielplan",
   "ven": "Spielstätten",
   "pub": "Veröffentlichung",
   "rename": "Umbenennen",
@@ -1304,7 +1304,7 @@
     },
     "editGroupNames": {
       "title": "Gruppennamen bearbeiten",
-      "minChars": "__STALE__mindestens 4 Zeichen",
+      "minChars": "mindestens 3 Zeichen",
       "groupsRenamed": "Gruppen umbenannt"
     },
     "addFlights": {
@@ -1562,15 +1562,15 @@
       "usageList": "{{name}} wird verwendet von: {{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__Passwort festlegen",
-      "intro": "__STALE__Ihr Konto wurde mit einem temporären Passwort erstellt. Wählen Sie ein neues Passwort, um die Anmeldung abzuschließen.",
-      "newPasswordLabel": "__STALE__Neues Passwort",
-      "newPasswordPlaceholder": "__STALE__mindestens 8 Zeichen",
-      "confirmPasswordLabel": "__STALE__Passwort bestätigen",
-      "confirmPasswordPlaceholder": "__STALE__neues Passwort erneut eingeben",
-      "setPassword": "__STALE__Passwort festlegen",
-      "failed": "__STALE__Ihr Passwort konnte nicht festgelegt werden. Bitte versuchen Sie es erneut.",
-      "tokenExpired": "__STALE__Diese Anmeldesitzung ist abgelaufen. Bitte melden Sie sich erneut an."
+      "title": "Passwort festlegen",
+      "intro": "Ihr Konto wurde mit einem temporären Passwort erstellt. Wählen Sie ein neues Passwort, um die Anmeldung abzuschließen.",
+      "newPasswordLabel": "Neues Passwort",
+      "newPasswordPlaceholder": "mindestens 8 Zeichen",
+      "confirmPasswordLabel": "Passwort bestätigen",
+      "confirmPasswordPlaceholder": "neues Passwort erneut eingeben",
+      "setPassword": "Passwort festlegen",
+      "failed": "Ihr Passwort konnte nicht festgelegt werden. Bitte versuchen Sie es erneut.",
+      "tokenExpired": "Diese Anmeldesitzung ist abgelaufen. Bitte melden Sie sich erneut an."
     },
     "forgotPassword": {
       "title": "Passwort zurücksetzen",
@@ -1630,16 +1630,16 @@
       "failed": "Löschen fehlgeschlagen."
     },
     "contactEmail": {
-      "title": "__STALE__Wiederherstellungs-E-Mail",
-      "label": "__STALE__Wiederherstellungs-E-Mail",
+      "title": "Wiederherstellungs-E-Mail",
+      "label": "Wiederherstellungs-E-Mail",
       "save": "Speichern",
       "resend": "Verifizierung erneut senden",
-      "savedPending": "__STALE__Verifizierungs-E-Mail an {{email}} gesendet.",
-      "resent": "__STALE__Verifizierungs-E-Mail gesendet.",
-      "alreadyVerified": "__STALE__Wiederherstellungs-E-Mail ist bereits verifiziert.",
-      "failed": "__STALE__Wiederherstellungs-E-Mail konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
-      "statusNotSet": "__STALE__Keine Wiederherstellungs-E-Mail festgelegt. Fügen Sie eine hinzu, damit Sie den Zugriff wiederherstellen können, falls Sie Ihr Passwort verlieren.",
-      "statusPending": "__STALE__Verifizierung ausstehend — prüfen Sie {{email}} und klicken Sie auf den Link.",
+      "savedPending": "Verifizierungs-E-Mail an {{email}} gesendet.",
+      "resent": "Verifizierungs-E-Mail gesendet.",
+      "alreadyVerified": "Wiederherstellungs-E-Mail ist bereits verifiziert.",
+      "failed": "Wiederherstellungs-E-Mail konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut.",
+      "statusNotSet": "Keine Wiederherstellungs-E-Mail festgelegt. Fügen Sie eine hinzu, damit Sie den Zugriff wiederherstellen können, falls Sie Ihr Passwort verlieren.",
+      "statusPending": "Verifizierung ausstehend — prüfen Sie {{email}} und klicken Sie auf den Link.",
       "statusVerified": "Verifiziert: {{email}}"
     },
     "editUser": {
@@ -2208,7 +2208,7 @@
       "viewAvailability": "Verfügbarkeit anzeigen",
       "viewTable": "Tabellenansicht",
       "setDefaultAvailability": "Standardverfügbarkeit festlegen",
-      "saveToTournament": "__STALE__Im Turnier speichern",
+      "saveToTournament": "Speichern",
       "grid": {
         "view": "Ansicht",
         "day1": "1 Tag",

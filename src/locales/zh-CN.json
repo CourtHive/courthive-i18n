@@ -76,8 +76,8 @@
   "ovw": "概览",
   "prt": "参赛者",
   "evt": "赛事",
-  "sch": "__STALE__赛程（旧版）",
-  "sch2": "__STALE__赛程",
+  "sch": "赛程（旧版）",
+  "sch2": "赛程",
   "ven": "场馆",
   "pub": "发布",
   "rename": "重命名",
@@ -1467,7 +1467,7 @@
     },
     "editGroupNames": {
       "title": "编辑组名",
-      "minChars": "__STALE__最少4个字符",
+      "minChars": "最少 3 个字符",
       "groupsRenamed": "组名已更新"
     },
     "addFlights": {
@@ -1725,15 +1725,15 @@
       "usageList": "{{name}} 被以下赛事使用：{{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__设置您的密码",
-      "intro": "__STALE__您的账户是用临时密码创建的。请选择一个新密码以完成登录。",
-      "newPasswordLabel": "__STALE__新密码",
-      "newPasswordPlaceholder": "__STALE__至少 8 个字符",
-      "confirmPasswordLabel": "__STALE__确认密码",
-      "confirmPasswordPlaceholder": "__STALE__重新输入新密码",
-      "setPassword": "__STALE__设置密码",
-      "failed": "__STALE__无法设置密码。请重试。",
-      "tokenExpired": "__STALE__此登录会话已过期。请重新登录。"
+      "title": "设置您的密码",
+      "intro": "您的账户是用临时密码创建的。请选择一个新密码以完成登录。",
+      "newPasswordLabel": "新密码",
+      "newPasswordPlaceholder": "至少 8 个字符",
+      "confirmPasswordLabel": "确认密码",
+      "confirmPasswordPlaceholder": "重新输入新密码",
+      "setPassword": "设置密码",
+      "failed": "无法设置密码。请重试。",
+      "tokenExpired": "此登录会话已过期。请重新登录。"
     },
     "forgotPassword": {
       "title": "重置您的密码",
@@ -1793,16 +1793,16 @@
       "failed": "删除失败。"
     },
     "contactEmail": {
-      "title": "__STALE__恢复邮箱",
-      "label": "__STALE__恢复邮箱",
+      "title": "恢复邮箱",
+      "label": "恢复邮箱",
       "save": "保存",
       "resend": "重新发送验证",
-      "savedPending": "__STALE__验证邮件已发送至 {{email}}。",
-      "resent": "__STALE__验证邮件已发送。",
-      "alreadyVerified": "__STALE__恢复邮箱已验证。",
-      "failed": "__STALE__无法更新恢复邮箱。请重试。",
-      "statusNotSet": "__STALE__未设置恢复邮箱。添加一个，以便在忘记密码时恢复访问。",
-      "statusPending": "__STALE__待验证 — 请查看 {{email}} 并点击链接。",
+      "savedPending": "验证邮件已发送至 {{email}}。",
+      "resent": "验证邮件已发送。",
+      "alreadyVerified": "恢复邮箱已验证。",
+      "failed": "无法更新恢复邮箱。请重试。",
+      "statusNotSet": "未设置恢复邮箱。添加一个，以便在忘记密码时恢复访问。",
+      "statusPending": "待验证 — 请查看 {{email}} 并点击链接。",
       "statusVerified": "已验证：{{email}}"
     },
     "editUser": {
@@ -2371,7 +2371,7 @@
       "viewAvailability": "查看可用性",
       "viewTable": "查看表格",
       "setDefaultAvailability": "设置默认可用性",
-      "saveToTournament": "__STALE__保存到赛事",
+      "saveToTournament": "保存",
       "grid": {
         "view": "视图",
         "day1": "1天",
