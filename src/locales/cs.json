@@ -79,8 +79,8 @@
   "ovw": "Přehled",
   "prt": "Účastníci",
   "evt": "Soutěže",
-  "sch": "Rozpis (původní)",
-  "sch2": "Rozpis",
+  "sch": "__STALE__Rozpis (původní)",
+  "sch2": "__STALE__Rozpis",
   "ven": "Místa",
   "rpt": "Reporty",
   "pub": "Publikování",
@@ -1452,7 +1452,43 @@
       "includeRankings": "Zahrnout žebříčky",
       "includeTimestamp": "Zahrnout časové razítko",
       "includeOrganizers": "Zahrnout organizátory",
-      "generateError": "Nepodařilo se vygenerovat PDF."
+      "generateError": "Nepodařilo se vygenerovat PDF.",
+      "preset": "__TODO__",
+      "headerLayout": "__TODO__",
+      "footerLayout": "__TODO__",
+      "pdfComposition": "__TODO__",
+      "composition": "__TODO__",
+      "multiPage": "__TODO__",
+      "presets": {
+        "clubBasic": "__TODO__",
+        "nationalFederation": "__TODO__",
+        "itfJunior": "__TODO__",
+        "itfProCircuit": "__TODO__",
+        "ncaaCollegiate": "__TODO__",
+        "atp250": "__TODO__",
+        "atpFinals": "__TODO__",
+        "wta500": "__TODO__",
+        "wta1000": "__TODO__",
+        "grandSlam": "__TODO__",
+        "wimbledon": "__TODO__",
+        "australianOpen": "__TODO__"
+      },
+      "headerLayouts": {
+        "grandSlam": "__TODO__",
+        "itfProfessional": "__TODO__",
+        "wtaAtpTour": "__TODO__",
+        "nationalFederation": "__TODO__",
+        "minimal": "__TODO__",
+        "none": "__TODO__"
+      },
+      "footerLayouts": {
+        "standard": "__TODO__",
+        "seedingsTable": "__TODO__",
+        "prizeMoney": "__TODO__",
+        "officialsSignoff": "__TODO__",
+        "combinedTour": "__TODO__",
+        "none": "__TODO__"
+      }
     },
     "listPicker": {
       "title": "Vybrat"
@@ -1523,7 +1559,7 @@
     },
     "editGroupNames": {
       "title": "Upravit názvy skupin",
-      "minChars": "minimálně 4 znaky",
+      "minChars": "__STALE__minimálně 4 znaky",
       "groupsRenamed": "Skupiny přejmenovány"
     },
     "addFlights": {
@@ -1693,15 +1729,15 @@
       "usageList": "{{name}} používá: {{events}}"
     },
     "firstLogin": {
-      "title": "Nastavte si heslo",
-      "intro": "Váš účet byl vytvořen s dočasným heslem. Zvolte nové heslo pro dokončení přihlášení.",
-      "newPasswordLabel": "Nové heslo",
-      "newPasswordPlaceholder": "minimálně 8 znaků",
-      "confirmPasswordLabel": "Potvrdit heslo",
-      "confirmPasswordPlaceholder": "zadejte nové heslo znovu",
-      "setPassword": "Nastavit heslo",
-      "failed": "Heslo nelze nastavit. Zkuste to prosím znovu.",
-      "tokenExpired": "Tato přihlašovací relace vypršela. Přihlaste se prosím znovu."
+      "title": "__STALE__Nastavte si heslo",
+      "intro": "__STALE__Váš účet byl vytvořen s dočasným heslem. Zvolte nové heslo pro dokončení přihlášení.",
+      "newPasswordLabel": "__STALE__Nové heslo",
+      "newPasswordPlaceholder": "__STALE__minimálně 8 znaků",
+      "confirmPasswordLabel": "__STALE__Potvrdit heslo",
+      "confirmPasswordPlaceholder": "__STALE__zadejte nové heslo znovu",
+      "setPassword": "__STALE__Nastavit heslo",
+      "failed": "__STALE__Heslo nelze nastavit. Zkuste to prosím znovu.",
+      "tokenExpired": "__STALE__Tato přihlašovací relace vypršela. Přihlaste se prosím znovu."
     },
     "forgotPassword": {
       "title": "Obnovení hesla",
@@ -1761,16 +1797,16 @@
       "failed": "Smazání selhalo."
     },
     "contactEmail": {
-      "title": "Obnovovací e-mail",
-      "label": "Obnovovací e-mail",
+      "title": "__STALE__Obnovovací e-mail",
+      "label": "__STALE__Obnovovací e-mail",
       "save": "Uložit",
       "resend": "Znovu odeslat ověření",
-      "savedPending": "Ověřovací e-mail odeslán na {{email}}.",
-      "resent": "Ověřovací e-mail odeslán.",
-      "alreadyVerified": "Obnovovací e-mail je již ověřen.",
-      "failed": "Obnovovací e-mail nelze aktualizovat. Zkuste to prosím znovu.",
-      "statusNotSet": "Není nastaven obnovovací e-mail. Přidejte jej, abyste mohli obnovit přístup, pokud ztratíte heslo.",
-      "statusPending": "Čeká na ověření — zkontrolujte {{email}} a klikněte na odkaz.",
+      "savedPending": "__STALE__Ověřovací e-mail odeslán na {{email}}.",
+      "resent": "__STALE__Ověřovací e-mail odeslán.",
+      "alreadyVerified": "__STALE__Obnovovací e-mail je již ověřen.",
+      "failed": "__STALE__Obnovovací e-mail nelze aktualizovat. Zkuste to prosím znovu.",
+      "statusNotSet": "__STALE__Není nastaven obnovovací e-mail. Přidejte jej, abyste mohli obnovit přístup, pokud ztratíte heslo.",
+      "statusPending": "__STALE__Čeká na ověření — zkontrolujte {{email}} a klikněte na odkaz.",
       "statusVerified": "Ověřeno: {{email}}"
     },
     "editUser": {
@@ -1888,6 +1924,21 @@
         "email": "E-mail",
         "public": "Veřejné"
       }
+    },
+    "participantProfile": {
+      "wins": "__TODO__",
+      "perWin": "__TODO__",
+      "bonus": "__TODO__",
+      "quality": "__TODO__",
+      "rankingPoints": "__TODO__",
+      "previous": "__TODO__",
+      "next": "__TODO__"
+    },
+    "displaySettings": {
+      "google": "__TODO__",
+      "showSchedule": "__TODO__",
+      "detail": "__TODO__",
+      "title": "__TODO__"
     }
   },
   "dashboard": {
@@ -2324,7 +2375,7 @@
       "viewAvailability": "Zobrazit dostupnost",
       "viewTable": "Zobrazit tabulku",
       "setDefaultAvailability": "Nastavit výchozí dostupnost",
-      "saveToTournament": "Uložit do turnaje",
+      "saveToTournament": "__STALE__Uložit do turnaje",
       "grid": {
         "view": "Zobrazení",
         "day1": "1 den",
@@ -2744,7 +2795,15 @@
     "statistics": "Statistiky"
   },
   "theme": {
-    "toggleDark": "Přepnout tmavý režim"
+    "toggleDark": "Přepnout tmavý režim",
+    "systemDefault": "__TODO__",
+    "sizes": {
+      "xs": "__TODO__",
+      "sm": "__TODO__",
+      "md": "__TODO__",
+      "lg": "__TODO__",
+      "xl": "__TODO__"
+    }
   },
   "language": {
     "select": "Vyberte jazyk"
@@ -2768,7 +2827,14 @@
     "sponsors": "Sponzoři",
     "additional": "Další informace",
     "dressCode": "Dress code",
-    "contingencyPlan": "Náhradní plán při počasí"
+    "contingencyPlan": "Náhradní plán při počasí",
+    "title": "__TODO__",
+    "select": "__TODO__",
+    "priceRange": "__TODO__",
+    "eventName": "__TODO__",
+    "description": "__TODO__",
+    "sponsorName": "__TODO__",
+    "tier": "__TODO__"
   },
   "provisioner": {
     "myProviders": "Moji poskytovatelé",
@@ -3824,14 +3890,26 @@
     "yours": "Vaše",
     "builtin": "Vestavěné",
     "delete": "Smazat",
-    "builtinReadOnly": "Vestavěné (jen ke čtení — pro úpravy vytvořte kopii)"
+    "builtinReadOnly": "Vestavěné (jen ke čtení — pro úpravy vytvořte kopii)",
+    "topologyTemplates": "__TODO__",
+    "selectTopology": "__TODO__",
+    "tieFormatTemplates": "__TODO__",
+    "selectTieFormat": "__TODO__",
+    "compositionTemplates": "__TODO__",
+    "selectComposition": "__TODO__",
+    "empty": "__TODO__",
+    "noCollectionDefinitions": "__TODO__",
+    "templateName": "__TODO__",
+    "nameRequired": "__TODO__",
+    "saveTemplate": "__TODO__"
   },
   "policiesPage": {
     "loadFailed": "Zásady se nepodařilo načíst",
     "createFailed": "Zásadu se nepodařilo vytvořit",
     "saveFailed": "Zásadu se nepodařilo uložit",
     "deleted": "Zásada smazána",
-    "deleteFailed": "Zásadu se nepodařilo smazat"
+    "deleteFailed": "Zásadu se nepodařilo smazat",
+    "browseCatalog": "__TODO__"
   },
   "federationIngest": {
     "heading": "Import od svazu",
@@ -3856,5 +3934,405 @@
   "sanctioningOptions": {
     "generic": "Obecné (bez svazového řádu)",
     "itfWorldTennisTour": "ITF World Tennis Tour"
+  },
+  "voluntaryConsolation": {
+    "singleElimination": "__TODO__",
+    "luckyDraw": "__TODO__",
+    "adHoc": "__TODO__",
+    "accepted": "__TODO__",
+    "generate": "__TODO__",
+    "eliminated": "__TODO__"
+  },
+  "tournamentsControls": {
+    "sortDateNewest": "__TODO__",
+    "sortDateOldest": "__TODO__",
+    "sortNameAsc": "__TODO__",
+    "sortNameDesc": "__TODO__",
+    "sortPlayers": "__TODO__",
+    "search": "__TODO__",
+    "all": "__TODO__",
+    "exampleTournaments": "__TODO__",
+    "importTournament": "__TODO__",
+    "chatMonitor": "__TODO__",
+    "welcome": "__TODO__",
+    "examples": "__TODO__",
+    "upcoming": "__TODO__"
+  },
+  "segmentOverlay": {
+    "moveParticipants": "__TODO__",
+    "removeFromDraw": "__TODO__",
+    "createPair": "__TODO__",
+    "removeFromEvent": "__TODO__",
+    "manualSeeding": "__TODO__",
+    "clearSeeding": "__TODO__",
+    "addToAccepted": "__TODO__",
+    "addToQualifying": "__TODO__",
+    "addToAlternates": "__TODO__",
+    "addEntries": "__TODO__",
+    "pairingOff": "__TODO__"
+  },
+  "swissStandings": {
+    "losses": "__TODO__",
+    "ties": "__TODO__",
+    "pts": "__TODO__",
+    "buchholz": "__TODO__",
+    "sonnebornBerger": "__TODO__",
+    "empty": "__TODO__"
+  },
+  "policyCatalog": {
+    "empty": "__TODO__",
+    "back": "__TODO__",
+    "title": "__TODO__",
+    "intro": "__TODO__",
+    "features": "__TODO__",
+    "saveToMine": "__TODO__",
+    "saved": "__TODO__",
+    "openMine": "__TODO__"
+  },
+  "avoidances": {
+    "selectRules": "__TODO__",
+    "doublesPairs": "__TODO__",
+    "postalCodeDigits": "__TODO__"
+  },
+  "schedulingProfile": {
+    "dragHint": "__TODO__",
+    "clearedTitle": "__TODO__",
+    "cleared": "__TODO__",
+    "savedTitle": "__TODO__",
+    "saved": "__TODO__",
+    "noRounds": "__TODO__",
+    "failed": "__TODO__",
+    "gridFailed": "__TODO__"
+  },
+  "topology": {
+    "clearCanvas": "__TODO__",
+    "drawFailed": "__TODO__",
+    "drawGenerated": "__TODO__",
+    "templateName": "__TODO__",
+    "templateSaved": "__TODO__"
+  },
+  "participantFields": {
+    "identifiers": "__TODO__",
+    "person": "__TODO__"
+  },
+  "draft": {
+    "notFound": "__TODO__",
+    "configure": "__TODO__",
+    "transparencyReport": "__TODO__",
+    "alreadyResolved": "__TODO__",
+    "resolved": "__TODO__",
+    "resolve": "__TODO__",
+    "preview": "__TODO__",
+    "resolveAndPlace": "__TODO__"
+  },
+  "eventRow": {
+    "noDraws": "__TODO__",
+    "renameSelected": "__TODO__",
+    "viewEntries": "__TODO__",
+    "avoidances": "__TODO__"
+  },
+  "gridView": {
+    "publishFailed": "__TODO__",
+    "localFailed": "__TODO__",
+    "serverFailed": "__TODO__",
+    "discarded": "__TODO__",
+    "noScheduled": "__TODO__",
+    "noConflicts": "__TODO__",
+    "resolveConflicts": "__TODO__",
+    "nowOccupied": "__TODO__"
+  },
+  "welcome": {
+    "events": "__TODO__",
+    "scheduling": "__TODO__",
+    "participants": "__TODO__",
+    "scoring": "__TODO__",
+    "getStarted": "__TODO__",
+    "generateDemo": "__TODO__",
+    "createNew": "__TODO__",
+    "back": "__TODO__"
+  },
+  "courtCards": {
+    "noScheduledOnCourt": "__TODO__",
+    "matchUpNotFound": "__TODO__",
+    "noDataForMatchUp": "__TODO__",
+    "noUpcoming": "__TODO__",
+    "noData": "__TODO__",
+    "noneOnCourts": "__TODO__",
+    "noneInRound": "__TODO__"
+  },
+  "ui": {
+    "explanation": "__TODO__",
+    "noParticipants": "__TODO__",
+    "noMatches": "__TODO__",
+    "ok": "__TODO__",
+    "deleteFlights": "__TODO__",
+    "totalMatchUps": "__TODO__",
+    "grid": "__TODO__",
+    "policyLabel": "__TODO__",
+    "newValue": "__TODO__",
+    "newName": "__TODO__",
+    "template": "__TODO__",
+    "reset": "__TODO__",
+    "change": "__TODO__",
+    "display": "__TODO__",
+    "website": "__TODO__",
+    "fee": "__TODO__",
+    "lights": "__TODO__",
+    "grouping": "__TODO__",
+    "winLoss": "__TODO__",
+    "scorelines": "__TODO__",
+    "chart": "__TODO__",
+    "table": "__TODO__",
+    "stats": "__TODO__",
+    "standings": "__TODO__",
+    "tableView": "__TODO__",
+    "noCourts": "__TODO__",
+    "noVenues": "__TODO__",
+    "noTournaments": "__TODO__",
+    "noCollections": "__TODO__",
+    "noEntries": "__TODO__",
+    "noDrawsYet": "__TODO__",
+    "notGenerated": "__TODO__",
+    "clearFilters": "__TODO__"
+  },
+  "addDrawForm": {
+    "sizeMin": "__TODO__",
+    "qualifyingNoPositions": "__TODO__",
+    "qualifierRequired": "__TODO__",
+    "regenerate": "__TODO__",
+    "roundOf16": "__TODO__",
+    "consolationFeedDepth": "__TODO__",
+    "roundProfile": "__TODO__",
+    "matchUpsPerRound": "__TODO__",
+    "evenDrawSize": "__TODO__"
+  },
+  "keyActions": {
+    "enterNewKey": "__TODO__",
+    "storedKeys": "__TODO__"
+  },
+  "chat": {
+    "tournamentChat": "__TODO__",
+    "noRecentActivity": "__TODO__",
+    "monitorTitle": "__TODO__",
+    "selectGroup": "__TODO__"
+  },
+  "drawActions": {
+    "pagePlayoff": "__TODO__",
+    "selectDate": "__TODO__",
+    "deleteReason": "__TODO__",
+    "noEntriesInDraw": "__TODO__",
+    "resetReason": "__TODO__",
+    "removeAssignments": "__TODO__",
+    "noInvalidParticipants": "__TODO__",
+    "addQualifying": "__TODO__",
+    "addPlayoffs": "__TODO__",
+    "allDraws": "__TODO__",
+    "noDrawsForEvent": "__TODO__",
+    "generateQualifying": "__TODO__",
+    "completeRoundFirst": "__TODO__",
+    "exitAssignmentMode": "__TODO__",
+    "autoPosition": "__TODO__"
+  },
+  "sports": {
+    "tennis": "__TODO__",
+    "pickleball": "__TODO__",
+    "badminton": "__TODO__",
+    "basketball": "__TODO__",
+    "baseball": "__TODO__",
+    "hockey": "__TODO__",
+    "padel": "__TODO__"
+  },
+  "tieFormatEditor": {
+    "scorecardName": "__TODO__",
+    "addCollection": "__TODO__",
+    "noCollections": "__TODO__"
+  },
+  "assistant": {
+    "title": "__TODO__",
+    "ask": "__TODO__"
+  },
+  "matchUpActions": {
+    "scheduleDate": "__TODO__",
+    "scheduleTime": "__TODO__",
+    "printMatchCard": "__TODO__",
+    "assignParticipant": "__TODO__",
+    "removeParticipant": "__TODO__",
+    "replaceParticipant": "__TODO__",
+    "substitution": "__TODO__",
+    "assignSeedNumber": "__TODO__",
+    "seedNumber": "__TODO__",
+    "nickname": "__TODO__"
+  },
+  "entries": {
+    "alreadyInDraw": "__TODO__",
+    "addToDraw": "__TODO__",
+    "changeStatus": "__TODO__",
+    "addFlight": "__TODO__",
+    "destroyPairs": "__TODO__",
+    "noDestroyablePairs": "__TODO__",
+    "saveSeeding": "__TODO__",
+    "numberOfDraws": "__TODO__",
+    "acceptedEntries": "__TODO__",
+    "completedMatchUps": "__TODO__",
+    "noTeamParticipants": "__TODO__",
+    "noIndividualParticipants": "__TODO__",
+    "addPlayers": "__TODO__",
+    "noRatingData": "__TODO__",
+    "scheduledMatches": "__TODO__"
+  },
+  "ageCategories": {
+    "u10": "__TODO__",
+    "u12": "__TODO__",
+    "u14": "__TODO__",
+    "u16": "__TODO__",
+    "u18": "__TODO__"
+  },
+  "roundOptions": {
+    "roundActions": "__TODO__",
+    "scheduleRoundEllipsis": "__TODO__",
+    "printRoundMatchCards": "__TODO__",
+    "printCourtCards": "__TODO__",
+    "timeOptional": "__TODO__",
+    "scheduleRound": "__TODO__",
+    "generateSwissRound": "__TODO__",
+    "cardDisplay": "__TODO__",
+    "ratingsHistogram": "__TODO__",
+    "competitiveness": "__TODO__",
+    "burstProgression": "__TODO__",
+    "burstCompetitive": "__TODO__"
+  },
+  "maps": {
+    "google": "__TODO__",
+    "bing": "__TODO__"
+  },
+  "matchUpsActions": {
+    "abandonExplain": "__TODO__",
+    "abandonPartial": "__TODO__",
+    "abandonRemaining": "__TODO__",
+    "republishExplain": "__TODO__",
+    "rankingsNotConfigured": "__TODO__",
+    "republishRankings": "__TODO__"
+  },
+  "groupings": {
+    "generateMockTeams": "__TODO__",
+    "noMatchesFilters": "__TODO__",
+    "createNewEvent": "__TODO__"
+  },
+  "printModals": {
+    "factSheet": "__TODO__",
+    "playerList": "__TODO__",
+    "competitor": "__TODO__"
+  },
+  "eventActions": {
+    "rankingPoints": "__TODO__"
+  },
+  "registrations": {
+    "applicant": "__TODO__",
+    "rankSingles": "__TODO__",
+    "applied": "__TODO__",
+    "partner": "__TODO__",
+    "noProvider": "__TODO__",
+    "accepted": "__TODO__",
+    "waitlisted": "__TODO__",
+    "rejected": "__TODO__"
+  },
+  "reports": {
+    "noData": "__TODO__",
+    "audit": "__TODO__",
+    "noDraws": "__TODO__",
+    "structureAudit": "__TODO__"
+  },
+  "applyScheduling": {
+    "noPolicy": "__TODO__",
+    "applyGridTitle": "__TODO__",
+    "selectPolicy": "__TODO__",
+    "noPolicies": "__TODO__",
+    "applyTimesTitle": "__TODO__"
+  },
+  "capacity": {
+    "noCourts": "__TODO__",
+    "noCourtsAddVenues": "__TODO__",
+    "openPainter": "__TODO__",
+    "noChanges": "__TODO__"
+  },
+  "clearSchedule": {
+    "dayKeepCompleted": "__TODO__",
+    "dayIncludingCompleted": "__TODO__",
+    "allData": "__TODO__",
+    "nothingInScope": "__TODO__",
+    "nothingVisible": "__TODO__"
+  },
+  "gridActions": {
+    "minWidth": "__TODO__",
+    "minWidthHint": "__TODO__",
+    "conflictsWith": "__TODO__",
+    "minRowsHint": "__TODO__"
+  },
+  "scheduleResults": {
+    "title": "__TODO__",
+    "noActivity": "__TODO__",
+    "noPerDate": "__TODO__"
+  },
+  "schedulingTab": {
+    "availability": "__TODO__",
+    "plan": "__TODO__",
+    "discardChanges": "__TODO__",
+    "discard": "__TODO__"
+  },
+  "linkedTournaments": {
+    "intro": "__TODO__",
+    "empty": "__TODO__",
+    "link": "__TODO__",
+    "linkAction": "__TODO__"
+  },
+  "settingsGrid": {
+    "askAssistant": "__TODO__",
+    "schedulePlan": "__TODO__",
+    "desktopNotifications": "__TODO__",
+    "serverUrl": "__TODO__",
+    "workOffline": "__TODO__"
+  },
+  "venueDetail": {
+    "noCourts": "__TODO__",
+    "notFound": "__TODO__"
+  },
+  "tournamentDisplay": {
+    "refreshed": "__TODO__"
+  },
+  "platform": {
+    "about": "__TODO__"
+  },
+  "activeScale": {
+    "switchTitle": "__TODO__"
+  },
+  "scoreRelay": {
+    "networkError": "__TODO__"
+  },
+  "exportFile": {
+    "saveJson": "__TODO__",
+    "saveFile": "__TODO__"
+  },
+  "remoteMutations": {
+    "updateFailed": "__TODO__"
+  },
+  "mutationPrompts": {
+    "modify": "__TODO__",
+    "impersonate": "__TODO__",
+    "rejected": "__TODO__",
+    "sessionExpired": "__TODO__"
+  },
+  "queueService": {
+    "saved": "__TODO__"
+  },
+  "storage": {
+    "importTournament": "__TODO__",
+    "resetFailed": "__TODO__",
+    "writeFailed": "__TODO__"
+  },
+  "participantActions": {
+    "editParticipant": "__TODO__"
+  },
+  "tournamentActions": {
+    "send": "__TODO__"
   }
 }
