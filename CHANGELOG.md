@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.7.0](https://github.com/CourtHive/courthive-i18n/compare/v0.6.1...v0.7.0) (2026-08-31)
+
+
+### Features
+
+* **i18n:** TMX burn-down — resolve the first real __STALE__ batch, translate 360 new keys ([#121](https://github.com/CourtHive/courthive-i18n/issues/121)) ([0901a09](https://github.com/CourtHive/courthive-i18n/commit/0901a09816204afe7e2d2f48abb7d748149bcc4c))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from TMX ([#119](https://github.com/CourtHive/courthive-i18n/issues/119)) ([10a4321](https://github.com/CourtHive/courthive-i18n/commit/10a4321e3e3e519e668cf6d8b974275009e1b0be))
+
 ## [0.6.1](https://github.com/CourtHive/courthive-i18n/compare/v0.6.0...v0.6.1) (2026-08-31)
 
 
