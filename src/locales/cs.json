@@ -79,8 +79,8 @@
   "ovw": "Přehled",
   "prt": "Účastníci",
   "evt": "Soutěže",
-  "sch": "__STALE__Rozpis (původní)",
-  "sch2": "__STALE__Rozpis",
+  "sch": "Rozpis (původní)",
+  "sch2": "Rozpis",
   "ven": "Místa",
   "rpt": "Reporty",
   "pub": "Publikování",
@@ -1453,41 +1453,41 @@
       "includeTimestamp": "Zahrnout časové razítko",
       "includeOrganizers": "Zahrnout organizátory",
       "generateError": "Nepodařilo se vygenerovat PDF.",
-      "preset": "__TODO__",
-      "headerLayout": "__TODO__",
-      "footerLayout": "__TODO__",
-      "pdfComposition": "__TODO__",
-      "composition": "__TODO__",
-      "multiPage": "__TODO__",
+      "preset": "Předvolba",
+      "headerLayout": "Rozvržení záhlaví",
+      "footerLayout": "Rozvržení zápatí",
+      "pdfComposition": "Kompozice PDF",
+      "composition": "Kompozice",
+      "multiPage": "Více stránek (rozděleno do sekcí)",
       "presets": {
-        "clubBasic": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "itfJunior": "__TODO__",
-        "itfProCircuit": "__TODO__",
-        "ncaaCollegiate": "__TODO__",
-        "atp250": "__TODO__",
-        "atpFinals": "__TODO__",
-        "wta500": "__TODO__",
-        "wta1000": "__TODO__",
-        "grandSlam": "__TODO__",
-        "wimbledon": "__TODO__",
-        "australianOpen": "__TODO__"
+        "clubBasic": "Klub — základní",
+        "nationalFederation": "Národní svaz",
+        "itfJunior": "ITF Junior",
+        "itfProCircuit": "ITF Pro Circuit",
+        "ncaaCollegiate": "NCAA univerzitní",
+        "atp250": "ATP 250",
+        "atpFinals": "ATP Finals",
+        "wta500": "WTA 500",
+        "wta1000": "WTA 1000",
+        "grandSlam": "Grand Slam",
+        "wimbledon": "Wimbledon",
+        "australianOpen": "Australian Open"
       },
       "headerLayouts": {
-        "grandSlam": "__TODO__",
-        "itfProfessional": "__TODO__",
-        "wtaAtpTour": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "minimal": "__TODO__",
-        "none": "__TODO__"
+        "grandSlam": "Grand Slam",
+        "itfProfessional": "ITF / Profesionální",
+        "wtaAtpTour": "Okruh WTA / ATP",
+        "nationalFederation": "Národní svaz",
+        "minimal": "Minimální",
+        "none": "Žádné"
       },
       "footerLayouts": {
-        "standard": "__TODO__",
-        "seedingsTable": "__TODO__",
-        "prizeMoney": "__TODO__",
-        "officialsSignoff": "__TODO__",
-        "combinedTour": "__TODO__",
-        "none": "__TODO__"
+        "standard": "Standardní",
+        "seedingsTable": "Tabulka nasazených",
+        "prizeMoney": "Prize money",
+        "officialsSignoff": "Podpis rozhodčích",
+        "combinedTour": "Kombinovaný okruh",
+        "none": "Žádné"
       }
     },
     "listPicker": {
@@ -1559,7 +1559,7 @@
     },
     "editGroupNames": {
       "title": "Upravit názvy skupin",
-      "minChars": "__STALE__minimálně 4 znaky",
+      "minChars": "minimálně 3 znaky",
       "groupsRenamed": "Skupiny přejmenovány"
     },
     "addFlights": {
@@ -1729,15 +1729,15 @@
       "usageList": "{{name}} používá: {{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__Nastavte si heslo",
-      "intro": "__STALE__Váš účet byl vytvořen s dočasným heslem. Zvolte nové heslo pro dokončení přihlášení.",
-      "newPasswordLabel": "__STALE__Nové heslo",
-      "newPasswordPlaceholder": "__STALE__minimálně 8 znaků",
-      "confirmPasswordLabel": "__STALE__Potvrdit heslo",
-      "confirmPasswordPlaceholder": "__STALE__zadejte nové heslo znovu",
-      "setPassword": "__STALE__Nastavit heslo",
-      "failed": "__STALE__Heslo nelze nastavit. Zkuste to prosím znovu.",
-      "tokenExpired": "__STALE__Tato přihlašovací relace vypršela. Přihlaste se prosím znovu."
+      "title": "Nastavte si heslo",
+      "intro": "Váš účet byl vytvořen s dočasným heslem. Zvolte nové heslo pro dokončení přihlášení.",
+      "newPasswordLabel": "Nové heslo",
+      "newPasswordPlaceholder": "minimálně 8 znaků",
+      "confirmPasswordLabel": "Potvrdit heslo",
+      "confirmPasswordPlaceholder": "zadejte nové heslo znovu",
+      "setPassword": "Nastavit heslo",
+      "failed": "Heslo nelze nastavit. Zkuste to prosím znovu.",
+      "tokenExpired": "Tato přihlašovací relace vypršela. Přihlaste se prosím znovu."
     },
     "forgotPassword": {
       "title": "Obnovení hesla",
@@ -1797,16 +1797,16 @@
       "failed": "Smazání selhalo."
     },
     "contactEmail": {
-      "title": "__STALE__Obnovovací e-mail",
-      "label": "__STALE__Obnovovací e-mail",
+      "title": "Obnovovací e-mail",
+      "label": "Obnovovací e-mail",
       "save": "Uložit",
       "resend": "Znovu odeslat ověření",
-      "savedPending": "__STALE__Ověřovací e-mail odeslán na {{email}}.",
-      "resent": "__STALE__Ověřovací e-mail odeslán.",
-      "alreadyVerified": "__STALE__Obnovovací e-mail je již ověřen.",
-      "failed": "__STALE__Obnovovací e-mail nelze aktualizovat. Zkuste to prosím znovu.",
-      "statusNotSet": "__STALE__Není nastaven obnovovací e-mail. Přidejte jej, abyste mohli obnovit přístup, pokud ztratíte heslo.",
-      "statusPending": "__STALE__Čeká na ověření — zkontrolujte {{email}} a klikněte na odkaz.",
+      "savedPending": "Ověřovací e-mail odeslán na {{email}}.",
+      "resent": "Ověřovací e-mail odeslán.",
+      "alreadyVerified": "Obnovovací e-mail je již ověřen.",
+      "failed": "Obnovovací e-mail nelze aktualizovat. Zkuste to prosím znovu.",
+      "statusNotSet": "Není nastaven obnovovací e-mail. Přidejte jej, abyste mohli obnovit přístup, pokud ztratíte heslo.",
+      "statusPending": "Čeká na ověření — zkontrolujte {{email}} a klikněte na odkaz.",
       "statusVerified": "Ověřeno: {{email}}"
     },
     "editUser": {
@@ -1926,19 +1926,19 @@
       }
     },
     "participantProfile": {
-      "wins": "__TODO__",
-      "perWin": "__TODO__",
-      "bonus": "__TODO__",
-      "quality": "__TODO__",
-      "rankingPoints": "__TODO__",
-      "previous": "__TODO__",
-      "next": "__TODO__"
+      "wins": "Výhry",
+      "perWin": "Za výhru",
+      "bonus": "Bonus",
+      "quality": "Kvalita",
+      "rankingPoints": "Body do žebříčku",
+      "previous": "← Předchozí",
+      "next": "Další →"
     },
     "displaySettings": {
-      "google": "__TODO__",
-      "showSchedule": "__TODO__",
-      "detail": "__TODO__",
-      "title": "__TODO__"
+      "google": "Google",
+      "showSchedule": "Zobrazit rozpis",
+      "detail": "Detail",
+      "title": "Upravit nastavení zobrazení"
     }
   },
   "dashboard": {
@@ -2375,7 +2375,7 @@
       "viewAvailability": "Zobrazit dostupnost",
       "viewTable": "Zobrazit tabulku",
       "setDefaultAvailability": "Nastavit výchozí dostupnost",
-      "saveToTournament": "__STALE__Uložit do turnaje",
+      "saveToTournament": "Uložit",
       "grid": {
         "view": "Zobrazení",
         "day1": "1 den",
@@ -2796,13 +2796,13 @@
   },
   "theme": {
     "toggleDark": "Přepnout tmavý režim",
-    "systemDefault": "__TODO__",
+    "systemDefault": "Systémové (výchozí)",
     "sizes": {
-      "xs": "__TODO__",
-      "sm": "__TODO__",
-      "md": "__TODO__",
-      "lg": "__TODO__",
-      "xl": "__TODO__"
+      "xs": "Velmi malé (13 px)",
+      "sm": "Malé (14 px)",
+      "md": "Střední (16 px)",
+      "lg": "Velké (18 px)",
+      "xl": "Velmi velké (20 px)"
     }
   },
   "language": {
@@ -2828,13 +2828,13 @@
     "additional": "Další informace",
     "dressCode": "Dress code",
     "contingencyPlan": "Náhradní plán při počasí",
-    "title": "__TODO__",
-    "select": "__TODO__",
-    "priceRange": "__TODO__",
-    "eventName": "__TODO__",
-    "description": "__TODO__",
-    "sponsorName": "__TODO__",
-    "tier": "__TODO__"
+    "title": "Profil přihlášky",
+    "select": "-- Vybrat --",
+    "priceRange": "Cenové rozpětí",
+    "eventName": "Název soutěže",
+    "description": "Popis",
+    "sponsorName": "Název sponzora",
+    "tier": "Úroveň"
   },
   "provisioner": {
     "myProviders": "Moji poskytovatelé",
@@ -3891,17 +3891,17 @@
     "builtin": "Vestavěné",
     "delete": "Smazat",
     "builtinReadOnly": "Vestavěné (jen ke čtení — pro úpravy vytvořte kopii)",
-    "topologyTemplates": "__TODO__",
-    "selectTopology": "__TODO__",
-    "tieFormatTemplates": "__TODO__",
-    "selectTieFormat": "__TODO__",
-    "compositionTemplates": "__TODO__",
-    "selectComposition": "__TODO__",
-    "empty": "__TODO__",
-    "noCollectionDefinitions": "__TODO__",
-    "templateName": "__TODO__",
-    "nameRequired": "__TODO__",
-    "saveTemplate": "__TODO__"
+    "topologyTemplates": "Šablony topologie",
+    "selectTopology": "Vyberte šablonu k zobrazení nebo klikněte na Nový",
+    "tieFormatTemplates": "Šablony formátu utkání",
+    "selectTieFormat": "Vyberte formát utkání k zobrazení nebo klikněte na Nový",
+    "compositionTemplates": "Šablony kompozic",
+    "selectComposition": "Vyberte kompozici k zobrazení nebo klikněte na Nový",
+    "empty": "Prázdné",
+    "noCollectionDefinitions": "Žádné definice kolekcí",
+    "templateName": "Název šablony",
+    "nameRequired": "Zadejte prosím název",
+    "saveTemplate": "Uložit šablonu"
   },
   "policiesPage": {
     "loadFailed": "Zásady se nepodařilo načíst",
@@ -3909,7 +3909,7 @@
     "saveFailed": "Zásadu se nepodařilo uložit",
     "deleted": "Zásada smazána",
     "deleteFailed": "Zásadu se nepodařilo smazat",
-    "browseCatalog": "__TODO__"
+    "browseCatalog": "Procházet veřejný katalog →"
   },
   "federationIngest": {
     "heading": "Import od svazu",
@@ -3936,403 +3936,403 @@
     "itfWorldTennisTour": "ITF World Tennis Tour"
   },
   "voluntaryConsolation": {
-    "singleElimination": "__TODO__",
-    "luckyDraw": "__TODO__",
-    "adHoc": "__TODO__",
-    "accepted": "__TODO__",
-    "generate": "__TODO__",
-    "eliminated": "__TODO__"
+    "singleElimination": "Vyřazovací systém",
+    "luckyDraw": "Lucky Draw",
+    "adHoc": "Ad hoc",
+    "accepted": "Přijat",
+    "generate": "Vygenerovat útěchu",
+    "eliminated": "Vyřazen"
   },
   "tournamentsControls": {
-    "sortDateNewest": "__TODO__",
-    "sortDateOldest": "__TODO__",
-    "sortNameAsc": "__TODO__",
-    "sortNameDesc": "__TODO__",
-    "sortPlayers": "__TODO__",
-    "search": "__TODO__",
-    "all": "__TODO__",
-    "exampleTournaments": "__TODO__",
-    "importTournament": "__TODO__",
-    "chatMonitor": "__TODO__",
-    "welcome": "__TODO__",
-    "examples": "__TODO__",
-    "upcoming": "__TODO__"
+    "sortDateNewest": "Datum (nejnovější první)",
+    "sortDateOldest": "Datum (nejstarší první)",
+    "sortNameAsc": "Název (A → Z)",
+    "sortNameDesc": "Název (Z → A)",
+    "sortPlayers": "Hráči (nejvíce první)",
+    "search": "Hledat turnaje",
+    "all": "Vše",
+    "exampleTournaments": "Ukázkové turnaje",
+    "importTournament": "Importovat turnaj",
+    "chatMonitor": "Sledování chatu",
+    "welcome": "Vítejte",
+    "examples": "Ukázky",
+    "upcoming": "Nadcházející"
   },
   "segmentOverlay": {
-    "moveParticipants": "__TODO__",
-    "removeFromDraw": "__TODO__",
-    "createPair": "__TODO__",
-    "removeFromEvent": "__TODO__",
-    "manualSeeding": "__TODO__",
-    "clearSeeding": "__TODO__",
-    "addToAccepted": "__TODO__",
-    "addToQualifying": "__TODO__",
-    "addToAlternates": "__TODO__",
-    "addEntries": "__TODO__",
-    "pairingOff": "__TODO__"
+    "moveParticipants": "Přesunout účastníky",
+    "removeFromDraw": "Odebrat z pavouka",
+    "createPair": "Vytvořit pár",
+    "removeFromEvent": "Odebrat ze soutěže",
+    "manualSeeding": "Ruční nasazení",
+    "clearSeeding": "Vymazat nasazení",
+    "addToAccepted": "Přidat mezi přijaté",
+    "addToQualifying": "Přidat do kvalifikace",
+    "addToAlternates": "Přidat mezi náhradníky",
+    "addEntries": "Přidat přihlášky",
+    "pairingOff": "Párování: VYPNUTO"
   },
   "swissStandings": {
-    "losses": "__TODO__",
-    "ties": "__TODO__",
-    "pts": "__TODO__",
-    "buchholz": "__TODO__",
-    "sonnebornBerger": "__TODO__",
-    "empty": "__TODO__"
+    "losses": "Prohry",
+    "ties": "Remízy",
+    "pts": "Body",
+    "buchholz": "Pomocné hodnocení Buchholz",
+    "sonnebornBerger": "Pomocné hodnocení Sonneborn-Berger",
+    "empty": "Není dostupné žádné pořadí — nejprve vygenerujte a dokončete kola"
   },
   "policyCatalog": {
-    "empty": "__TODO__",
-    "back": "__TODO__",
-    "title": "__TODO__",
-    "intro": "__TODO__",
-    "features": "__TODO__",
-    "saveToMine": "__TODO__",
-    "saved": "__TODO__",
-    "openMine": "__TODO__"
+    "empty": "Katalog je prázdný.",
+    "back": "← Zpět na Moje zásady",
+    "title": "Veřejný katalog zásad",
+    "intro": "Svazové zásady pro body do žebříčku, které si může prohlédnout kdokoli. Otevřete zásadu a klikněte na „Uložit do mých zásad“, čímž ji zkopírujete do svého místního katalogu, kde ji můžete upravovat, přiřazovat a používat.",
+    "features": "Vlastnosti",
+    "saveToMine": "Uložit do mých zásad",
+    "saved": "Uloženo — otevřete Moje zásady pro úpravu nebo použití.",
+    "openMine": "Otevřít Moje zásady"
   },
   "avoidances": {
-    "selectRules": "__TODO__",
-    "doublesPairs": "__TODO__",
-    "postalCodeDigits": "__TODO__"
+    "selectRules": "Vybrat pravidla",
+    "doublesPairs": "Čtyřhrové páry",
+    "postalCodeDigits": "Číslice PSČ"
   },
   "schedulingProfile": {
-    "dragHint": "__TODO__",
-    "clearedTitle": "__TODO__",
-    "cleared": "__TODO__",
-    "savedTitle": "__TODO__",
-    "saved": "__TODO__",
-    "noRounds": "__TODO__",
-    "failed": "__TODO__",
-    "gridFailed": "__TODO__"
+    "dragHint": "Přetáhněte kola z katalogu do pruhů míst konání. Kliknutím na „Použít rozpis“ přiřadíte časy.",
+    "clearedTitle": "Profil rozpisu vymazán",
+    "cleared": "Profil vymazán.",
+    "savedTitle": "Profil rozpisu uložen",
+    "saved": "Profil uložen.",
+    "noRounds": "V denním plánu nejsou žádná kola. Nejprve přetáhněte kola z katalogu do pruhů míst konání.",
+    "failed": "Rozpis selhal. Podrobnosti najdete v konzoli.",
+    "gridFailed": "Rozpis mřížky selhal."
   },
   "topology": {
-    "clearCanvas": "__TODO__",
-    "drawFailed": "__TODO__",
-    "drawGenerated": "__TODO__",
-    "templateName": "__TODO__",
-    "templateSaved": "__TODO__"
+    "clearCanvas": "Vymazat plátno",
+    "drawFailed": "Generování pavouka selhalo",
+    "drawGenerated": "Pavouk úspěšně vygenerován",
+    "templateName": "Název šablony",
+    "templateSaved": "Šablona uložena"
   },
   "participantFields": {
-    "identifiers": "__TODO__",
-    "person": "__TODO__"
+    "identifiers": "Identifikátory",
+    "person": "Osoba"
   },
   "draft": {
-    "notFound": "__TODO__",
-    "configure": "__TODO__",
-    "transparencyReport": "__TODO__",
-    "alreadyResolved": "__TODO__",
-    "resolved": "__TODO__",
-    "resolve": "__TODO__",
-    "preview": "__TODO__",
-    "resolveAndPlace": "__TODO__"
+    "notFound": "Pro tohoto pavouka nebyl nalezen žádný draft",
+    "configure": "Nastavit draft",
+    "transparencyReport": "Zpráva o transparentnosti draftu",
+    "alreadyResolved": "Draft již byl vyřešen",
+    "resolved": "Draft vyřešen — účastníci umístěni",
+    "resolve": "Vyřešit draft",
+    "preview": "Náhled",
+    "resolveAndPlace": "Vyřešit a umístit"
   },
   "eventRow": {
-    "noDraws": "__TODO__",
-    "renameSelected": "__TODO__",
-    "viewEntries": "__TODO__",
-    "avoidances": "__TODO__"
+    "noDraws": "Žádní pavouci",
+    "renameSelected": "Přejmenovat vybrané",
+    "viewEntries": "Zobrazit přihlášky",
+    "avoidances": "Omezení"
   },
   "gridView": {
-    "publishFailed": "__TODO__",
-    "localFailed": "__TODO__",
-    "serverFailed": "__TODO__",
-    "discarded": "__TODO__",
-    "noScheduled": "__TODO__",
-    "noConflicts": "__TODO__",
-    "resolveConflicts": "__TODO__",
-    "nowOccupied": "__TODO__"
+    "publishFailed": "Publikování změny selhalo",
+    "localFailed": "Změna rozpisu selhala lokálně",
+    "serverFailed": "Změny rozpisu se nepodařilo uložit na server",
+    "discarded": "Změny rozpisu zahozeny",
+    "noScheduled": "V tento den nejsou žádné naplánované zápasy k vyřešení",
+    "noConflicts": "V tento den nejsou žádné konflikty hráčů k vyřešení",
+    "resolveConflicts": "Vyřešit konflikty hráčů?",
+    "nowOccupied": "Slot Nyní na tomto kurtu je obsazený"
   },
   "welcome": {
-    "events": "__TODO__",
-    "scheduling": "__TODO__",
-    "participants": "__TODO__",
-    "scoring": "__TODO__",
-    "getStarted": "__TODO__",
-    "generateDemo": "__TODO__",
-    "createNew": "__TODO__",
-    "back": "__TODO__"
+    "events": "Vytvářejte soutěže, spravujte pavouky a veďte turnaje od začátku do konce.",
+    "scheduling": "Přidělujte kurty, spravujte časové bloky a řešte konflikty v rozpisu.",
+    "participants": "Registrujte hráče, spravujte hodnocení a automaticky nasazujte do pavouků.",
+    "scoring": "Skórujte zápasy v reálném čase s automatickým postupem v pavouku.",
+    "getStarted": "Začněte vygenerováním ukázkových turnajů, abyste si vyzkoušeli funkce TMX, nebo si vytvořte vlastní.",
+    "generateDemo": "Vygenerovat ukázkové turnaje",
+    "createNew": "Vytvořit turnaj",
+    "back": "← Zpět na turnaje"
   },
   "courtCards": {
-    "noScheduledOnCourt": "__TODO__",
-    "matchUpNotFound": "__TODO__",
-    "noDataForMatchUp": "__TODO__",
-    "noUpcoming": "__TODO__",
-    "noData": "__TODO__",
-    "noneOnCourts": "__TODO__",
-    "noneInRound": "__TODO__"
+    "noScheduledOnCourt": "Na tomto kurtu nejsou naplánovány žádné zápasy",
+    "matchUpNotFound": "Zápas nenalezen",
+    "noDataForMatchUp": "Pro tento zápas nejsou data karty kurtu",
+    "noUpcoming": "Na tomto kurtu nejsou žádné nadcházející zápasy s oběma přiřazenými účastníky",
+    "noData": "Žádná data karty kurtu",
+    "noneOnCourts": "Na kurtech nejsou naplánovány žádné zápasy",
+    "noneInRound": "Žádný zápas tohoto kola není přiřazen ke kurtu"
   },
   "ui": {
-    "explanation": "__TODO__",
-    "noParticipants": "__TODO__",
-    "noMatches": "__TODO__",
-    "ok": "__TODO__",
-    "deleteFlights": "__TODO__",
-    "totalMatchUps": "__TODO__",
-    "grid": "__TODO__",
-    "policyLabel": "__TODO__",
-    "newValue": "__TODO__",
-    "newName": "__TODO__",
-    "template": "__TODO__",
-    "reset": "__TODO__",
-    "change": "__TODO__",
-    "display": "__TODO__",
-    "website": "__TODO__",
-    "fee": "__TODO__",
-    "lights": "__TODO__",
-    "grouping": "__TODO__",
-    "winLoss": "__TODO__",
-    "scorelines": "__TODO__",
-    "chart": "__TODO__",
-    "table": "__TODO__",
-    "stats": "__TODO__",
-    "standings": "__TODO__",
-    "tableView": "__TODO__",
-    "noCourts": "__TODO__",
-    "noVenues": "__TODO__",
-    "noTournaments": "__TODO__",
-    "noCollections": "__TODO__",
-    "noEntries": "__TODO__",
-    "noDrawsYet": "__TODO__",
-    "notGenerated": "__TODO__",
-    "clearFilters": "__TODO__"
+    "explanation": "Vysvětlení",
+    "noParticipants": "Žádní účastníci",
+    "noMatches": "Žádné zápasy",
+    "ok": "OK",
+    "deleteFlights": "Smazat skupiny",
+    "totalMatchUps": "Zápasů celkem",
+    "grid": "Mřížka",
+    "policyLabel": "Zásada:",
+    "newValue": "Nová hodnota",
+    "newName": "Nový název",
+    "template": "Šablona",
+    "reset": "Resetovat",
+    "change": "Změnit",
+    "display": "Zobrazení",
+    "website": "Web",
+    "fee": "Poplatek",
+    "lights": "Osvětlení",
+    "grouping": "Seskupení",
+    "winLoss": "V/P",
+    "scorelines": "Průběžné skóre",
+    "chart": "Graf",
+    "table": "Tabulka",
+    "stats": "Statistiky",
+    "standings": "Pořadí",
+    "tableView": "Tabulkové zobrazení",
+    "noCourts": "Žádné kurty",
+    "noVenues": "Žádná místa konání",
+    "noTournaments": "Žádné turnaje",
+    "noCollections": "Žádné kolekce",
+    "noEntries": "Žádné přihlášky",
+    "noDrawsYet": "Zatím žádní pavouci.",
+    "notGenerated": "Nevygenerováno",
+    "clearFilters": "Vymazat filtry"
   },
   "addDrawForm": {
-    "sizeMin": "__TODO__",
-    "qualifyingNoPositions": "__TODO__",
-    "qualifierRequired": "__TODO__",
-    "regenerate": "__TODO__",
-    "roundOf16": "__TODO__",
-    "consolationFeedDepth": "__TODO__",
-    "roundProfile": "__TODO__",
-    "matchUpsPerRound": "__TODO__",
-    "evenDrawSize": "__TODO__"
+    "sizeMin": "Velikost pavouka musí být alespoň 2",
+    "qualifyingNoPositions": "Kvalifikaci nelze připojit — cílová struktura nemá žádné pozice",
+    "qualifierRequired": "Při připojení kvalifikační struktury je vyžadována alespoň jedna pozice kvalifikanta",
+    "regenerate": "Vygenerovat pavouka znovu?",
+    "roundOf16": "Osmifinále",
+    "consolationFeedDepth": "Hloubka napojení útěchy",
+    "roundProfile": "Profil kol",
+    "matchUpsPerRound": "zápasů na kolo",
+    "evenDrawSize": "Explicitní profil kol vyžaduje sudou velikost pavouka alespoň 2."
   },
   "keyActions": {
-    "enterNewKey": "__TODO__",
-    "storedKeys": "__TODO__"
+    "enterNewKey": "Zadat nový klíč",
+    "storedKeys": "Uložené klíče"
   },
   "chat": {
-    "tournamentChat": "__TODO__",
-    "noRecentActivity": "__TODO__",
-    "monitorTitle": "__TODO__",
-    "selectGroup": "__TODO__"
+    "tournamentChat": "Chat turnaje",
+    "noRecentActivity": "V posledním období není žádná aktivita v chatu.",
+    "monitorTitle": "Sledování chatu — všechny turnaje",
+    "selectGroup": "Vyberte štítek skupiny a odpovězte do daného turnaje"
   },
   "drawActions": {
-    "pagePlayoff": "__TODO__",
-    "selectDate": "__TODO__",
-    "deleteReason": "__TODO__",
-    "noEntriesInDraw": "__TODO__",
-    "resetReason": "__TODO__",
-    "removeAssignments": "__TODO__",
-    "noInvalidParticipants": "__TODO__",
-    "addQualifying": "__TODO__",
-    "addPlayoffs": "__TODO__",
-    "allDraws": "__TODO__",
-    "noDrawsForEvent": "__TODO__",
-    "generateQualifying": "__TODO__",
-    "completeRoundFirst": "__TODO__",
-    "exitAssignmentMode": "__TODO__",
-    "autoPosition": "__TODO__"
+    "pagePlayoff": "Page play-off",
+    "selectDate": "Vybrat datum",
+    "deleteReason": "Uveďte prosím důvod smazání pavouka.",
+    "noEntriesInDraw": "V tomto pavouku nejsou žádné přihlášky",
+    "resetReason": "Uveďte prosím důvod resetování pavouka.",
+    "removeAssignments": "Odebrat všechna přiřazení pozic",
+    "noInvalidParticipants": "Žádní neplatní účastníci",
+    "addQualifying": "Přidat kvalifikaci",
+    "addPlayoffs": "Přidat play-off",
+    "allDraws": "Všichni pavouci",
+    "noDrawsForEvent": "Pro tuto soutěž nebyl vytvořen žádný pavouk.",
+    "generateQualifying": "Vygenerovat kvalifikaci",
+    "completeRoundFirst": "Před generováním dalšího kola dokončete všechny zápasy aktuálního kola",
+    "exitAssignmentMode": "Ukončit režim přiřazování",
+    "autoPosition": "Automatické umístění"
   },
   "sports": {
-    "tennis": "__TODO__",
-    "pickleball": "__TODO__",
-    "badminton": "__TODO__",
-    "basketball": "__TODO__",
-    "baseball": "__TODO__",
-    "hockey": "__TODO__",
-    "padel": "__TODO__"
+    "tennis": "Tenis",
+    "pickleball": "Pickleball",
+    "badminton": "Badminton",
+    "basketball": "Basketbal",
+    "baseball": "Baseball",
+    "hockey": "Hokej",
+    "padel": "Padel"
   },
   "tieFormatEditor": {
-    "scorecardName": "__TODO__",
-    "addCollection": "__TODO__",
-    "noCollections": "__TODO__"
+    "scorecardName": "Název zápisu o utkání",
+    "addCollection": "Přidat kolekci",
+    "noCollections": "Žádné kolekce — začněte kliknutím na Přidat kolekci"
   },
   "assistant": {
-    "title": "__TODO__",
-    "ask": "__TODO__"
+    "title": "Asistent TMX",
+    "ask": "Zeptat se TMX"
   },
   "matchUpActions": {
-    "scheduleDate": "__TODO__",
-    "scheduleTime": "__TODO__",
-    "printMatchCard": "__TODO__",
-    "assignParticipant": "__TODO__",
-    "removeParticipant": "__TODO__",
-    "replaceParticipant": "__TODO__",
-    "substitution": "__TODO__",
-    "assignSeedNumber": "__TODO__",
-    "seedNumber": "__TODO__",
-    "nickname": "__TODO__"
+    "scheduleDate": "Datum rozpisu",
+    "scheduleTime": "Čas rozpisu",
+    "printMatchCard": "Vytisknout kartu zápasu",
+    "assignParticipant": "Přiřadit účastníka",
+    "removeParticipant": "Odebrat účastníka",
+    "replaceParticipant": "Nahradit účastníka",
+    "substitution": "Střídání",
+    "assignSeedNumber": "Přiřadit číslo nasazení ",
+    "seedNumber": "Číslo nasazení",
+    "nickname": "Přezdívka "
   },
   "entries": {
-    "alreadyInDraw": "__TODO__",
-    "addToDraw": "__TODO__",
-    "changeStatus": "__TODO__",
-    "addFlight": "__TODO__",
-    "destroyPairs": "__TODO__",
-    "noDestroyablePairs": "__TODO__",
-    "saveSeeding": "__TODO__",
-    "numberOfDraws": "__TODO__",
-    "acceptedEntries": "__TODO__",
-    "completedMatchUps": "__TODO__",
-    "noTeamParticipants": "__TODO__",
-    "noIndividualParticipants": "__TODO__",
-    "addPlayers": "__TODO__",
-    "noRatingData": "__TODO__",
-    "scheduledMatches": "__TODO__"
+    "alreadyInDraw": "Všichni vybraní účastníci již v tomto pavouku jsou",
+    "addToDraw": "Přidat do pavouka",
+    "changeStatus": "Změnit stav",
+    "addFlight": "Přidat skupinu",
+    "destroyPairs": "Zrušit páry",
+    "noDestroyablePairs": "Nebyl vybrán žádný zrušitelný pár",
+    "saveSeeding": "Uložit nasazení",
+    "numberOfDraws": "Počet pavouků",
+    "acceptedEntries": "Přijaté přihlášky",
+    "completedMatchUps": "Dokončené zápasy",
+    "noTeamParticipants": "Žádné týmové účastníky",
+    "noIndividualParticipants": "Žádní jednotliví účastníci",
+    "addPlayers": "Přidat hráče",
+    "noRatingData": "Nejsou dostupná žádná data hodnocení",
+    "scheduledMatches": "Naplánované zápasy"
   },
   "ageCategories": {
-    "u10": "__TODO__",
-    "u12": "__TODO__",
-    "u14": "__TODO__",
-    "u16": "__TODO__",
-    "u18": "__TODO__"
+    "u10": "10 let a mladší",
+    "u12": "12 let a mladší",
+    "u14": "14 let a mladší",
+    "u16": "16 let a mladší",
+    "u18": "18 let a mladší"
   },
   "roundOptions": {
-    "roundActions": "__TODO__",
-    "scheduleRoundEllipsis": "__TODO__",
-    "printRoundMatchCards": "__TODO__",
-    "printCourtCards": "__TODO__",
-    "timeOptional": "__TODO__",
-    "scheduleRound": "__TODO__",
-    "generateSwissRound": "__TODO__",
-    "cardDisplay": "__TODO__",
-    "ratingsHistogram": "__TODO__",
-    "competitiveness": "__TODO__",
-    "burstProgression": "__TODO__",
-    "burstCompetitive": "__TODO__"
+    "roundActions": "Akce kola",
+    "scheduleRoundEllipsis": "Naplánovat kolo...",
+    "printRoundMatchCards": "Vytisknout karty zápasů kola",
+    "printCourtCards": "Vytisknout karty kurtů",
+    "timeOptional": "Čas (nepovinné)",
+    "scheduleRound": "Naplánovat kolo",
+    "generateSwissRound": "Vygenerovat švýcarské kolo",
+    "cardDisplay": "Zobrazení karet",
+    "ratingsHistogram": "Histogram hodnocení",
+    "competitiveness": "Vyrovnanost",
+    "burstProgression": "Burst (průběh)",
+    "burstCompetitive": "Burst (vyrovnanost)"
   },
   "maps": {
-    "google": "__TODO__",
-    "bing": "__TODO__"
+    "google": "Otevřít v Google Maps",
+    "bing": "Otevřít v Bing Maps"
   },
   "matchUpsActions": {
-    "abandonExplain": "__TODO__",
-    "abandonPartial": "__TODO__",
-    "abandonRemaining": "__TODO__",
-    "republishExplain": "__TODO__",
-    "rankingsNotConfigured": "__TODO__",
-    "republishRankings": "__TODO__"
+    "abandonExplain": "Označit každý zbývající zápas připravený ke skórování jako opuštěný. Dokončené zápasy a BYE zůstanou nedotčeny. Určeno pro turnaje, které nebudou dohrány.",
+    "abandonPartial": "Opustit i zápasy s částečným skóre",
+    "abandonRemaining": "Opustit zbývající zápasy",
+    "republishExplain": "Znovu publikovat tento turnaj do veřejného seznamu žebříčků. Body se přepočítají z jeho rozhodnutých zápasů.",
+    "rankingsNotConfigured": "Proces žebříčků není nakonfigurován",
+    "republishRankings": "Znovu publikovat žebříčky"
   },
   "groupings": {
-    "generateMockTeams": "__TODO__",
-    "noMatchesFilters": "__TODO__",
-    "createNewEvent": "__TODO__"
+    "generateMockTeams": "Vygenerovat ukázkové týmy",
+    "noMatchesFilters": "Žádné výsledky — upravte nebo vymažte filtry",
+    "createNewEvent": "Vytvořit soutěž"
   },
   "printModals": {
-    "factSheet": "__TODO__",
-    "playerList": "__TODO__",
-    "competitor": "__TODO__"
+    "factSheet": "Vytisknout přehledový list",
+    "playerList": "Vytisknout seznam hráčů",
+    "competitor": "Soutěžící"
   },
   "eventActions": {
-    "rankingPoints": "__TODO__"
+    "rankingPoints": "Body do žebříčku"
   },
   "registrations": {
-    "applicant": "__TODO__",
-    "rankSingles": "__TODO__",
-    "applied": "__TODO__",
-    "partner": "__TODO__",
-    "noProvider": "__TODO__",
-    "accepted": "__TODO__",
-    "waitlisted": "__TODO__",
-    "rejected": "__TODO__"
+    "applicant": "Žadatel",
+    "rankSingles": "Pořadí (DVOUHRA)",
+    "applied": "Přihlášen",
+    "partner": "Spoluhráč",
+    "noProvider": "Tento turnaj nemá poskytovatele — přihlášky nelze načíst.",
+    "accepted": "Žadatel přijat do turnaje.",
+    "waitlisted": "Žadatel přesunut na čekací listinu.",
+    "rejected": "Žadatel zamítnut."
   },
   "reports": {
-    "noData": "__TODO__",
-    "audit": "__TODO__",
-    "noDraws": "__TODO__",
-    "structureAudit": "__TODO__"
+    "noData": "Žádná data",
+    "audit": "Audit",
+    "noDraws": "Tento turnaj nemá žádné vygenerované pavouky k auditu.",
+    "structureAudit": "Audit integrity struktur"
   },
   "applyScheduling": {
-    "noPolicy": "__TODO__",
-    "applyGridTitle": "__TODO__",
-    "selectPolicy": "__TODO__",
-    "noPolicies": "__TODO__",
-    "applyTimesTitle": "__TODO__"
+    "noPolicy": "Bez pravidla (nevynucovat denní limity)",
+    "applyGridTitle": "Použít mřížku — pravidlo rozpisu",
+    "selectPolicy": "Vyberte pravidlo rozpisu pro funkci Použít časy:",
+    "noPolicies": "Nejsou dostupná žádná pravidla rozpisu",
+    "applyTimesTitle": "Použít časy — pravidlo rozpisu"
   },
   "capacity": {
-    "noCourts": "__TODO__",
-    "noCourtsAddVenues": "__TODO__",
-    "openPainter": "__TODO__",
-    "noChanges": "__TODO__"
+    "noCourts": "Pro tento turnaj nejsou nakonfigurovány žádné kurty",
+    "noCourtsAddVenues": "Nejsou nakonfigurovány žádné kurty. Přidejte je v Místech konání.",
+    "openPainter": "Otevřít editor dostupnosti →",
+    "noChanges": "Žádné změny k použití"
   },
   "clearSchedule": {
-    "dayKeepCompleted": "__TODO__",
-    "dayIncludingCompleted": "__TODO__",
-    "allData": "__TODO__",
-    "nothingInScope": "__TODO__",
-    "nothingVisible": "__TODO__"
+    "dayKeepCompleted": "Vymazat tento den (ponechat dokončené)",
+    "dayIncludingCompleted": "Vymazat tento den (včetně dokončených)",
+    "allData": "Vymazat všechna data rozpisu",
+    "nothingInScope": "V tomto rozsahu není co vymazat.",
+    "nothingVisible": "Na viditelných kurtech není nic naplánováno."
   },
   "gridActions": {
-    "minWidth": "__TODO__",
-    "minWidthHint": "__TODO__",
-    "conflictsWith": "__TODO__",
-    "minRowsHint": "__TODO__"
+    "minWidth": "Min. šířka",
+    "minWidthHint": "Minimální šířka sloupce kurtu — buňky se rozšíří, pokud je místo",
+    "conflictsWith": " je v konfliktu s ",
+    "minRowsHint": "Minimální počet časových řádků v mřížce rozpisu"
   },
   "scheduleResults": {
-    "title": "__TODO__",
-    "noActivity": "__TODO__",
-    "noPerDate": "__TODO__"
+    "title": "Výsledky rozpisu",
+    "noActivity": "K tomuto datu není žádná aktivita plánovače.",
+    "noPerDate": "Plánovač skončil, ale nehlásil žádnou aktivitu podle data."
   },
   "schedulingTab": {
-    "availability": "__TODO__",
-    "plan": "__TODO__",
-    "discardChanges": "__TODO__",
-    "discard": "__TODO__"
+    "availability": "Dostupnost",
+    "plan": "Plán",
+    "discardChanges": "Zahodit neuložené změny?",
+    "discard": "Zahodit"
   },
   "linkedTournaments": {
-    "intro": "__TODO__",
-    "empty": "__TODO__",
-    "link": "__TODO__",
-    "linkAction": "__TODO__"
+    "intro": "Turnaje sdílející toto zařízení. Propojení umožní, aby jejich rozpisy braly ohled jeden na druhý na sdílených kurtech.",
+    "empty": "Zatím žádné propojené turnaje.",
+    "link": "Propojit turnaje",
+    "linkAction": "Propojit"
   },
   "settingsGrid": {
-    "askAssistant": "__TODO__",
-    "schedulePlan": "__TODO__",
-    "desktopNotifications": "__TODO__",
-    "serverUrl": "__TODO__",
-    "workOffline": "__TODO__"
+    "askAssistant": "Zeptat se asistenta TMX",
+    "schedulePlan": "Plán rozpisu",
+    "desktopNotifications": " Oznámení na ploše",
+    "serverUrl": "URL serveru",
+    "workOffline": " Pracovat offline"
   },
   "venueDetail": {
-    "noCourts": "__TODO__",
-    "notFound": "__TODO__"
+    "noCourts": "Na tomto místě konání zatím nejsou žádné kurty.",
+    "notFound": "Místo konání nenalezeno."
   },
   "tournamentDisplay": {
-    "refreshed": "__TODO__"
+    "refreshed": "Data turnaje aktualizována ze serveru"
   },
   "platform": {
-    "about": "__TODO__"
+    "about": "O aplikaci TMX"
   },
   "activeScale": {
-    "switchTitle": "__TODO__"
+    "switchTitle": "Přepnout aktivní hodnocení?"
   },
   "scoreRelay": {
-    "networkError": "__TODO__"
+    "networkError": "score-relay: chyba sítě"
   },
   "exportFile": {
-    "saveJson": "__TODO__",
-    "saveFile": "__TODO__"
+    "saveJson": "Uložit jako JSON",
+    "saveFile": "Uložit soubor"
   },
   "remoteMutations": {
-    "updateFailed": "__TODO__"
+    "updateFailed": "Vzdálená aktualizace selhala — načtěte prosím stránku znovu"
   },
   "mutationPrompts": {
-    "modify": "__TODO__",
-    "impersonate": "__TODO__",
-    "rejected": "__TODO__",
-    "sessionExpired": "__TODO__"
+    "modify": "Upravit?",
+    "impersonate": "Vydávat se za jiného uživatele?",
+    "rejected": "Server odmítl změnu",
+    "sessionExpired": "Relace vypršela"
   },
   "queueService": {
-    "saved": "__TODO__"
+    "saved": "Uloženo"
   },
   "storage": {
-    "importTournament": "__TODO__",
-    "resetFailed": "__TODO__",
-    "writeFailed": "__TODO__"
+    "importTournament": "Importovat turnaj",
+    "resetFailed": "Databázi se nepodařilo resetovat",
+    "writeFailed": "Zápis do databáze selhal"
   },
   "participantActions": {
-    "editParticipant": "__TODO__"
+    "editParticipant": "Upravit účastníka"
   },
   "tournamentActions": {
-    "send": "__TODO__"
+    "send": "Odeslat??"
   }
 }

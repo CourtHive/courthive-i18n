@@ -76,8 +76,8 @@
   "ovw": "概览",
   "prt": "参赛者",
   "evt": "赛事",
-  "sch": "__STALE__赛程（旧版）",
-  "sch2": "__STALE__赛程",
+  "sch": "赛程（旧版）",
+  "sch2": "赛程",
   "ven": "场馆",
   "pub": "发布",
   "rename": "重命名",
@@ -1373,41 +1373,41 @@
       "includeTimestamp": "包含时间戳",
       "includeOrganizers": "包含组织者",
       "generateError": "生成PDF失败。",
-      "preset": "__TODO__",
-      "headerLayout": "__TODO__",
-      "footerLayout": "__TODO__",
-      "pdfComposition": "__TODO__",
-      "composition": "__TODO__",
-      "multiPage": "__TODO__",
+      "preset": "预设",
+      "headerLayout": "页眉版式",
+      "footerLayout": "页脚版式",
+      "pdfComposition": "PDF 版式组合",
+      "composition": "版式组合",
+      "multiPage": "多页（拆分为多个部分）",
       "presets": {
-        "clubBasic": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "itfJunior": "__TODO__",
-        "itfProCircuit": "__TODO__",
-        "ncaaCollegiate": "__TODO__",
-        "atp250": "__TODO__",
-        "atpFinals": "__TODO__",
-        "wta500": "__TODO__",
-        "wta1000": "__TODO__",
-        "grandSlam": "__TODO__",
-        "wimbledon": "__TODO__",
-        "australianOpen": "__TODO__"
+        "clubBasic": "俱乐部基础版",
+        "nationalFederation": "国家协会",
+        "itfJunior": "ITF 青少年",
+        "itfProCircuit": "ITF 职业巡回赛",
+        "ncaaCollegiate": "NCAA 大学",
+        "atp250": "ATP 250",
+        "atpFinals": "ATP 年终总决赛",
+        "wta500": "WTA 500",
+        "wta1000": "WTA 1000",
+        "grandSlam": "大满贯",
+        "wimbledon": "温布尔登",
+        "australianOpen": "澳大利亚网球公开赛"
       },
       "headerLayouts": {
-        "grandSlam": "__TODO__",
-        "itfProfessional": "__TODO__",
-        "wtaAtpTour": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "minimal": "__TODO__",
-        "none": "__TODO__"
+        "grandSlam": "大满贯",
+        "itfProfessional": "ITF / 职业",
+        "wtaAtpTour": "WTA / ATP 巡回赛",
+        "nationalFederation": "国家协会",
+        "minimal": "极简",
+        "none": "无"
       },
       "footerLayouts": {
-        "standard": "__TODO__",
-        "seedingsTable": "__TODO__",
-        "prizeMoney": "__TODO__",
-        "officialsSignoff": "__TODO__",
-        "combinedTour": "__TODO__",
-        "none": "__TODO__"
+        "standard": "标准",
+        "seedingsTable": "种子表",
+        "prizeMoney": "奖金",
+        "officialsSignoff": "官员签字",
+        "combinedTour": "合并巡回赛",
+        "none": "无"
       }
     },
     "listPicker": {
@@ -1467,7 +1467,7 @@
     },
     "editGroupNames": {
       "title": "编辑组名",
-      "minChars": "__STALE__最少4个字符",
+      "minChars": "最少 3 个字符",
       "groupsRenamed": "组名已更新"
     },
     "addFlights": {
@@ -1725,15 +1725,15 @@
       "usageList": "{{name}} 被以下赛事使用：{{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__设置您的密码",
-      "intro": "__STALE__您的账户是用临时密码创建的。请选择一个新密码以完成登录。",
-      "newPasswordLabel": "__STALE__新密码",
-      "newPasswordPlaceholder": "__STALE__至少 8 个字符",
-      "confirmPasswordLabel": "__STALE__确认密码",
-      "confirmPasswordPlaceholder": "__STALE__重新输入新密码",
-      "setPassword": "__STALE__设置密码",
-      "failed": "__STALE__无法设置密码。请重试。",
-      "tokenExpired": "__STALE__此登录会话已过期。请重新登录。"
+      "title": "设置您的密码",
+      "intro": "您的账户是用临时密码创建的。请选择一个新密码以完成登录。",
+      "newPasswordLabel": "新密码",
+      "newPasswordPlaceholder": "至少 8 个字符",
+      "confirmPasswordLabel": "确认密码",
+      "confirmPasswordPlaceholder": "重新输入新密码",
+      "setPassword": "设置密码",
+      "failed": "无法设置密码。请重试。",
+      "tokenExpired": "此登录会话已过期。请重新登录。"
     },
     "forgotPassword": {
       "title": "重置您的密码",
@@ -1793,16 +1793,16 @@
       "failed": "删除失败。"
     },
     "contactEmail": {
-      "title": "__STALE__恢复邮箱",
-      "label": "__STALE__恢复邮箱",
+      "title": "恢复邮箱",
+      "label": "恢复邮箱",
       "save": "保存",
       "resend": "重新发送验证",
-      "savedPending": "__STALE__验证邮件已发送至 {{email}}。",
-      "resent": "__STALE__验证邮件已发送。",
-      "alreadyVerified": "__STALE__恢复邮箱已验证。",
-      "failed": "__STALE__无法更新恢复邮箱。请重试。",
-      "statusNotSet": "__STALE__未设置恢复邮箱。添加一个，以便在忘记密码时恢复访问。",
-      "statusPending": "__STALE__待验证 — 请查看 {{email}} 并点击链接。",
+      "savedPending": "验证邮件已发送至 {{email}}。",
+      "resent": "验证邮件已发送。",
+      "alreadyVerified": "恢复邮箱已验证。",
+      "failed": "无法更新恢复邮箱。请重试。",
+      "statusNotSet": "未设置恢复邮箱。添加一个，以便在忘记密码时恢复访问。",
+      "statusPending": "待验证 — 请查看 {{email}} 并点击链接。",
       "statusVerified": "已验证：{{email}}"
     },
     "editUser": {
@@ -1922,19 +1922,19 @@
       }
     },
     "participantProfile": {
-      "wins": "__TODO__",
-      "perWin": "__TODO__",
-      "bonus": "__TODO__",
-      "quality": "__TODO__",
-      "rankingPoints": "__TODO__",
-      "previous": "__TODO__",
-      "next": "__TODO__"
+      "wins": "胜场",
+      "perWin": "每胜一场",
+      "bonus": "奖励分",
+      "quality": "质量分",
+      "rankingPoints": "排名积分",
+      "previous": "← 上一个",
+      "next": "下一个 →"
     },
     "displaySettings": {
-      "google": "__TODO__",
-      "showSchedule": "__TODO__",
-      "detail": "__TODO__",
-      "title": "__TODO__"
+      "google": "Google",
+      "showSchedule": "显示赛程",
+      "detail": "详情",
+      "title": "编辑显示设置"
     }
   },
   "dashboard": {
@@ -2371,7 +2371,7 @@
       "viewAvailability": "查看可用性",
       "viewTable": "查看表格",
       "setDefaultAvailability": "设置默认可用性",
-      "saveToTournament": "__STALE__保存到赛事",
+      "saveToTournament": "保存",
       "grid": {
         "view": "视图",
         "day1": "1天",
@@ -2796,13 +2796,13 @@
   },
   "theme": {
     "toggleDark": "切换深色模式",
-    "systemDefault": "__TODO__",
+    "systemDefault": "系统（默认）",
     "sizes": {
-      "xs": "__TODO__",
-      "sm": "__TODO__",
-      "md": "__TODO__",
-      "lg": "__TODO__",
-      "xl": "__TODO__"
+      "xs": "超小（13px）",
+      "sm": "小（14px）",
+      "md": "中（16px）",
+      "lg": "大（18px）",
+      "xl": "超大（20px）"
     }
   },
   "language": {
@@ -2828,13 +2828,13 @@
     "additional": "附加信息",
     "dressCode": "着装要求",
     "contingencyPlan": "天气应急预案",
-    "title": "__TODO__",
-    "select": "__TODO__",
-    "priceRange": "__TODO__",
-    "eventName": "__TODO__",
-    "description": "__TODO__",
-    "sponsorName": "__TODO__",
-    "tier": "__TODO__"
+    "title": "报名资料",
+    "select": "-- 请选择 --",
+    "priceRange": "价格区间",
+    "eventName": "赛事名称",
+    "description": "说明",
+    "sponsorName": "赞助商名称",
+    "tier": "级别"
   },
   "provisioner": {
     "myProviders": "我的服务商",
@@ -3891,17 +3891,17 @@
     "builtin": "内置",
     "delete": "删除",
     "builtinReadOnly": "内置（只读——复制后可自定义）",
-    "topologyTemplates": "__TODO__",
-    "selectTopology": "__TODO__",
-    "tieFormatTemplates": "__TODO__",
-    "selectTieFormat": "__TODO__",
-    "compositionTemplates": "__TODO__",
-    "selectComposition": "__TODO__",
-    "empty": "__TODO__",
-    "noCollectionDefinitions": "__TODO__",
-    "templateName": "__TODO__",
-    "nameRequired": "__TODO__",
-    "saveTemplate": "__TODO__"
+    "topologyTemplates": "拓扑模板",
+    "selectTopology": "选择一个模板查看，或点击「新建」",
+    "tieFormatTemplates": "团体赛赛制模板",
+    "selectTieFormat": "选择一个团体赛赛制查看，或点击「新建」",
+    "compositionTemplates": "版式组合模板",
+    "selectComposition": "选择一个版式组合查看，或点击「新建」",
+    "empty": "空",
+    "noCollectionDefinitions": "没有小项定义",
+    "templateName": "模板名称",
+    "nameRequired": "请输入名称",
+    "saveTemplate": "保存模板"
   },
   "policiesPage": {
     "loadFailed": "无法加载策略",
@@ -3909,7 +3909,7 @@
     "saveFailed": "无法保存策略",
     "deleted": "策略已删除",
     "deleteFailed": "无法删除策略",
-    "browseCatalog": "__TODO__"
+    "browseCatalog": "浏览公共目录 →"
   },
   "federationIngest": {
     "heading": "协会数据导入",
@@ -3936,403 +3936,403 @@
     "itfWorldTennisTour": "ITF World Tennis Tour"
   },
   "voluntaryConsolation": {
-    "singleElimination": "__TODO__",
-    "luckyDraw": "__TODO__",
-    "adHoc": "__TODO__",
-    "accepted": "__TODO__",
-    "generate": "__TODO__",
-    "eliminated": "__TODO__"
+    "singleElimination": "单败淘汰",
+    "luckyDraw": "幸运抽签",
+    "adHoc": "临时",
+    "accepted": "已接受",
+    "generate": "生成安慰赛",
+    "eliminated": "已淘汰"
   },
   "tournamentsControls": {
-    "sortDateNewest": "__TODO__",
-    "sortDateOldest": "__TODO__",
-    "sortNameAsc": "__TODO__",
-    "sortNameDesc": "__TODO__",
-    "sortPlayers": "__TODO__",
-    "search": "__TODO__",
-    "all": "__TODO__",
-    "exampleTournaments": "__TODO__",
-    "importTournament": "__TODO__",
-    "chatMonitor": "__TODO__",
-    "welcome": "__TODO__",
-    "examples": "__TODO__",
-    "upcoming": "__TODO__"
+    "sortDateNewest": "日期（最新在前）",
+    "sortDateOldest": "日期（最早在前）",
+    "sortNameAsc": "名称（A → Z）",
+    "sortNameDesc": "名称（Z → A）",
+    "sortPlayers": "选手数（最多在前）",
+    "search": "搜索锦标赛",
+    "all": "全部",
+    "exampleTournaments": "示例锦标赛",
+    "importTournament": "导入锦标赛",
+    "chatMonitor": "聊天监控",
+    "welcome": "欢迎",
+    "examples": "示例",
+    "upcoming": "即将开始"
   },
   "segmentOverlay": {
-    "moveParticipants": "__TODO__",
-    "removeFromDraw": "__TODO__",
-    "createPair": "__TODO__",
-    "removeFromEvent": "__TODO__",
-    "manualSeeding": "__TODO__",
-    "clearSeeding": "__TODO__",
-    "addToAccepted": "__TODO__",
-    "addToQualifying": "__TODO__",
-    "addToAlternates": "__TODO__",
-    "addEntries": "__TODO__",
-    "pairingOff": "__TODO__"
+    "moveParticipants": "移动参赛者",
+    "removeFromDraw": "从签表中移除",
+    "createPair": "创建组合",
+    "removeFromEvent": "从赛事中移除",
+    "manualSeeding": "手动设置种子",
+    "clearSeeding": "清除种子安排",
+    "addToAccepted": "加入已接受名单",
+    "addToQualifying": "加入资格赛",
+    "addToAlternates": "加入替补名单",
+    "addEntries": "添加报名",
+    "pairingOff": "配对：关闭"
   },
   "swissStandings": {
-    "losses": "__TODO__",
-    "ties": "__TODO__",
-    "pts": "__TODO__",
-    "buchholz": "__TODO__",
-    "sonnebornBerger": "__TODO__",
-    "empty": "__TODO__"
+    "losses": "负场",
+    "ties": "平局",
+    "pts": "分",
+    "buchholz": "Buchholz 小分",
+    "sonnebornBerger": "Sonneborn-Berger 小分",
+    "empty": "暂无排名——请先生成并完成若干轮次"
   },
   "policyCatalog": {
-    "empty": "__TODO__",
-    "back": "__TODO__",
-    "title": "__TODO__",
-    "intro": "__TODO__",
-    "features": "__TODO__",
-    "saveToMine": "__TODO__",
-    "saved": "__TODO__",
-    "openMine": "__TODO__"
+    "empty": "目录为空。",
+    "back": "← 返回我的策略",
+    "title": "公共策略目录",
+    "intro": "任何人都可浏览的协会排名积分策略。打开一项策略并点击「保存到我的策略」，即可将其复制到本地目录，在那里进行编辑、附加和应用。",
+    "features": "特性",
+    "saveToMine": "保存到我的策略",
+    "saved": "已保存——打开「我的策略」进行编辑或应用。",
+    "openMine": "打开我的策略"
   },
   "avoidances": {
-    "selectRules": "__TODO__",
-    "doublesPairs": "__TODO__",
-    "postalCodeDigits": "__TODO__"
+    "selectRules": "选择规则",
+    "doublesPairs": "双打组合",
+    "postalCodeDigits": "邮政编码位数"
   },
   "schedulingProfile": {
-    "dragHint": "__TODO__",
-    "clearedTitle": "__TODO__",
-    "cleared": "__TODO__",
-    "savedTitle": "__TODO__",
-    "saved": "__TODO__",
-    "noRounds": "__TODO__",
-    "failed": "__TODO__",
-    "gridFailed": "__TODO__"
+    "dragHint": "将轮次从目录拖到场馆泳道。点击「应用赛程」以分配时间。",
+    "clearedTitle": "排程配置已清除",
+    "cleared": "配置已清除。",
+    "savedTitle": "排程配置已保存",
+    "saved": "配置已保存。",
+    "noRounds": "当日计划中没有轮次。请先将轮次从目录拖入场馆泳道。",
+    "failed": "排程失败。详情请查看控制台。",
+    "gridFailed": "网格排程失败。"
   },
   "topology": {
-    "clearCanvas": "__TODO__",
-    "drawFailed": "__TODO__",
-    "drawGenerated": "__TODO__",
-    "templateName": "__TODO__",
-    "templateSaved": "__TODO__"
+    "clearCanvas": "清空画布",
+    "drawFailed": "签表生成失败",
+    "drawGenerated": "签表生成成功",
+    "templateName": "模板名称",
+    "templateSaved": "模板已保存"
   },
   "participantFields": {
-    "identifiers": "__TODO__",
-    "person": "__TODO__"
+    "identifiers": "标识符",
+    "person": "人员"
   },
   "draft": {
-    "notFound": "__TODO__",
-    "configure": "__TODO__",
-    "transparencyReport": "__TODO__",
-    "alreadyResolved": "__TODO__",
-    "resolved": "__TODO__",
-    "resolve": "__TODO__",
-    "preview": "__TODO__",
-    "resolveAndPlace": "__TODO__"
+    "notFound": "未找到该签表的抽签",
+    "configure": "配置抽签",
+    "transparencyReport": "抽签透明度报告",
+    "alreadyResolved": "该抽签已完成",
+    "resolved": "抽签完成——参赛者已就位",
+    "resolve": "完成抽签",
+    "preview": "预览",
+    "resolveAndPlace": "完成并安排位置"
   },
   "eventRow": {
-    "noDraws": "__TODO__",
-    "renameSelected": "__TODO__",
-    "viewEntries": "__TODO__",
-    "avoidances": "__TODO__"
+    "noDraws": "无签表",
+    "renameSelected": "重命名所选",
+    "viewEntries": "查看报名",
+    "avoidances": "回避规则"
   },
   "gridView": {
-    "publishFailed": "__TODO__",
-    "localFailed": "__TODO__",
-    "serverFailed": "__TODO__",
-    "discarded": "__TODO__",
-    "noScheduled": "__TODO__",
-    "noConflicts": "__TODO__",
-    "resolveConflicts": "__TODO__",
-    "nowOccupied": "__TODO__"
+    "publishFailed": "发布更改失败",
+    "localFailed": "赛程更改在本地失败",
+    "serverFailed": "无法将赛程更改保存到服务器",
+    "discarded": "已放弃赛程更改",
+    "noScheduled": "这一天没有需要处理的已安排比赛",
+    "noConflicts": "这一天没有需要解决的选手冲突",
+    "resolveConflicts": "解决选手冲突？",
+    "nowOccupied": "该球场的「现在」时段已被占用"
   },
   "welcome": {
-    "events": "__TODO__",
-    "scheduling": "__TODO__",
-    "participants": "__TODO__",
-    "scoring": "__TODO__",
-    "getStarted": "__TODO__",
-    "generateDemo": "__TODO__",
-    "createNew": "__TODO__",
-    "back": "__TODO__"
+    "events": "创建赛事、管理签表，从头到尾组织锦标赛。",
+    "scheduling": "分配球场、管理时段并处理赛程冲突。",
+    "participants": "登记选手、管理评级并自动安排种子。",
+    "scoring": "实时记录比分，签表自动推进。",
+    "getStarted": "先生成示例锦标赛来体验 TMX 的功能，或者创建您自己的锦标赛。",
+    "generateDemo": "生成演示锦标赛",
+    "createNew": "创建新锦标赛",
+    "back": "← 返回锦标赛列表"
   },
   "courtCards": {
-    "noScheduledOnCourt": "__TODO__",
-    "matchUpNotFound": "__TODO__",
-    "noDataForMatchUp": "__TODO__",
-    "noUpcoming": "__TODO__",
-    "noData": "__TODO__",
-    "noneOnCourts": "__TODO__",
-    "noneInRound": "__TODO__"
+    "noScheduledOnCourt": "该球场没有已安排的比赛",
+    "matchUpNotFound": "未找到该比赛",
+    "noDataForMatchUp": "该比赛没有球场卡数据",
+    "noUpcoming": "该球场上没有双方参赛者均已确定的即将进行的比赛",
+    "noData": "没有球场卡数据",
+    "noneOnCourts": "球场上没有已安排的比赛",
+    "noneInRound": "本轮没有比赛被分配到球场"
   },
   "ui": {
-    "explanation": "__TODO__",
-    "noParticipants": "__TODO__",
-    "noMatches": "__TODO__",
-    "ok": "__TODO__",
-    "deleteFlights": "__TODO__",
-    "totalMatchUps": "__TODO__",
-    "grid": "__TODO__",
-    "policyLabel": "__TODO__",
-    "newValue": "__TODO__",
-    "newName": "__TODO__",
-    "template": "__TODO__",
-    "reset": "__TODO__",
-    "change": "__TODO__",
-    "display": "__TODO__",
-    "website": "__TODO__",
-    "fee": "__TODO__",
-    "lights": "__TODO__",
-    "grouping": "__TODO__",
-    "winLoss": "__TODO__",
-    "scorelines": "__TODO__",
-    "chart": "__TODO__",
-    "table": "__TODO__",
-    "stats": "__TODO__",
-    "standings": "__TODO__",
-    "tableView": "__TODO__",
-    "noCourts": "__TODO__",
-    "noVenues": "__TODO__",
-    "noTournaments": "__TODO__",
-    "noCollections": "__TODO__",
-    "noEntries": "__TODO__",
-    "noDrawsYet": "__TODO__",
-    "notGenerated": "__TODO__",
-    "clearFilters": "__TODO__"
+    "explanation": "说明",
+    "noParticipants": "没有参赛者",
+    "noMatches": "没有比赛",
+    "ok": "确定",
+    "deleteFlights": "删除分组",
+    "totalMatchUps": "比赛总数",
+    "grid": "网格",
+    "policyLabel": "策略：",
+    "newValue": "新值",
+    "newName": "新名称",
+    "template": "模板",
+    "reset": "重置",
+    "change": "变化",
+    "display": "显示",
+    "website": "网站",
+    "fee": "费用",
+    "lights": "照明",
+    "grouping": "分组",
+    "winLoss": "胜/负",
+    "scorelines": "各盘比分",
+    "chart": "图表",
+    "table": "表格",
+    "stats": "统计",
+    "standings": "排名",
+    "tableView": "表格视图",
+    "noCourts": "没有球场",
+    "noVenues": "没有场馆",
+    "noTournaments": "没有锦标赛",
+    "noCollections": "没有小项",
+    "noEntries": "没有报名",
+    "noDrawsYet": "尚无签表。",
+    "notGenerated": "未生成",
+    "clearFilters": "清除筛选"
   },
   "addDrawForm": {
-    "sizeMin": "__TODO__",
-    "qualifyingNoPositions": "__TODO__",
-    "qualifierRequired": "__TODO__",
-    "regenerate": "__TODO__",
-    "roundOf16": "__TODO__",
-    "consolationFeedDepth": "__TODO__",
-    "roundProfile": "__TODO__",
-    "matchUpsPerRound": "__TODO__",
-    "evenDrawSize": "__TODO__"
+    "sizeMin": "签表规模至少为 2",
+    "qualifyingNoPositions": "无法附加资格赛——目标结构没有位置",
+    "qualifierRequired": "附加资格赛结构时至少需要一个资格赛名额",
+    "regenerate": "重新生成签表？",
+    "roundOf16": "16 强",
+    "consolationFeedDepth": "安慰赛输入深度",
+    "roundProfile": "轮次配置",
+    "matchUpsPerRound": "每轮比赛场数",
+    "evenDrawSize": "显式的轮次配置要求签表规模为不小于 2 的偶数。"
   },
   "keyActions": {
-    "enterNewKey": "__TODO__",
-    "storedKeys": "__TODO__"
+    "enterNewKey": "输入新密钥",
+    "storedKeys": "已保存的密钥"
   },
   "chat": {
-    "tournamentChat": "__TODO__",
-    "noRecentActivity": "__TODO__",
-    "monitorTitle": "__TODO__",
-    "selectGroup": "__TODO__"
+    "tournamentChat": "锦标赛聊天",
+    "noRecentActivity": "近期没有聊天活动。",
+    "monitorTitle": "聊天监控 — 所有锦标赛",
+    "selectGroup": "选择一个分组标签以在该锦标赛中回复"
   },
   "drawActions": {
-    "pagePlayoff": "__TODO__",
-    "selectDate": "__TODO__",
-    "deleteReason": "__TODO__",
-    "noEntriesInDraw": "__TODO__",
-    "resetReason": "__TODO__",
-    "removeAssignments": "__TODO__",
-    "noInvalidParticipants": "__TODO__",
-    "addQualifying": "__TODO__",
-    "addPlayoffs": "__TODO__",
-    "allDraws": "__TODO__",
-    "noDrawsForEvent": "__TODO__",
-    "generateQualifying": "__TODO__",
-    "completeRoundFirst": "__TODO__",
-    "exitAssignmentMode": "__TODO__",
-    "autoPosition": "__TODO__"
+    "pagePlayoff": "Page 附加赛",
+    "selectDate": "选择日期",
+    "deleteReason": "请说明删除签表的原因。",
+    "noEntriesInDraw": "该签表中没有报名",
+    "resetReason": "请说明重置签表的原因。",
+    "removeAssignments": "移除所有位置分配",
+    "noInvalidParticipants": "没有无效参赛者",
+    "addQualifying": "添加资格赛",
+    "addPlayoffs": "添加附加赛",
+    "allDraws": "全部签表",
+    "noDrawsForEvent": "此赛事尚未创建任何签表。",
+    "generateQualifying": "生成资格赛",
+    "completeRoundFirst": "生成下一轮前请先完成本轮所有比赛",
+    "exitAssignmentMode": "退出分配模式",
+    "autoPosition": "自动排位"
   },
   "sports": {
-    "tennis": "__TODO__",
-    "pickleball": "__TODO__",
-    "badminton": "__TODO__",
-    "basketball": "__TODO__",
-    "baseball": "__TODO__",
-    "hockey": "__TODO__",
-    "padel": "__TODO__"
+    "tennis": "网球",
+    "pickleball": "匹克球",
+    "badminton": "羽毛球",
+    "basketball": "篮球",
+    "baseball": "棒球",
+    "hockey": "曲棍球",
+    "padel": "板式网球"
   },
   "tieFormatEditor": {
-    "scorecardName": "__TODO__",
-    "addCollection": "__TODO__",
-    "noCollections": "__TODO__"
+    "scorecardName": "记分表名称",
+    "addCollection": "添加小项",
+    "noCollections": "暂无小项——点击「添加小项」开始"
   },
   "assistant": {
-    "title": "__TODO__",
-    "ask": "__TODO__"
+    "title": "TMX 助手",
+    "ask": "询问 TMX"
   },
   "matchUpActions": {
-    "scheduleDate": "__TODO__",
-    "scheduleTime": "__TODO__",
-    "printMatchCard": "__TODO__",
-    "assignParticipant": "__TODO__",
-    "removeParticipant": "__TODO__",
-    "replaceParticipant": "__TODO__",
-    "substitution": "__TODO__",
-    "assignSeedNumber": "__TODO__",
-    "seedNumber": "__TODO__",
-    "nickname": "__TODO__"
+    "scheduleDate": "排程日期",
+    "scheduleTime": "排程时间",
+    "printMatchCard": "打印比赛卡",
+    "assignParticipant": "分配参赛者",
+    "removeParticipant": "移除参赛者",
+    "replaceParticipant": "替换参赛者",
+    "substitution": "替补",
+    "assignSeedNumber": "分配种子序号 ",
+    "seedNumber": "种子序号",
+    "nickname": "昵称 "
   },
   "entries": {
-    "alreadyInDraw": "__TODO__",
-    "addToDraw": "__TODO__",
-    "changeStatus": "__TODO__",
-    "addFlight": "__TODO__",
-    "destroyPairs": "__TODO__",
-    "noDestroyablePairs": "__TODO__",
-    "saveSeeding": "__TODO__",
-    "numberOfDraws": "__TODO__",
-    "acceptedEntries": "__TODO__",
-    "completedMatchUps": "__TODO__",
-    "noTeamParticipants": "__TODO__",
-    "noIndividualParticipants": "__TODO__",
-    "addPlayers": "__TODO__",
-    "noRatingData": "__TODO__",
-    "scheduledMatches": "__TODO__"
+    "alreadyInDraw": "所选参赛者均已在该签表中",
+    "addToDraw": "添加到签表",
+    "changeStatus": "更改状态",
+    "addFlight": "添加分组",
+    "destroyPairs": "解散组合",
+    "noDestroyablePairs": "未选择可解散的组合",
+    "saveSeeding": "保存种子安排",
+    "numberOfDraws": "签表数量",
+    "acceptedEntries": "已接受的报名",
+    "completedMatchUps": "已完成的比赛",
+    "noTeamParticipants": "没有参赛队伍",
+    "noIndividualParticipants": "没有个人参赛者",
+    "addPlayers": "添加选手",
+    "noRatingData": "没有可用的评级数据",
+    "scheduledMatches": "已安排的比赛"
   },
   "ageCategories": {
-    "u10": "__TODO__",
-    "u12": "__TODO__",
-    "u14": "__TODO__",
-    "u16": "__TODO__",
-    "u18": "__TODO__"
+    "u10": "10 岁及以下",
+    "u12": "12 岁及以下",
+    "u14": "14 岁及以下",
+    "u16": "16 岁及以下",
+    "u18": "18 岁及以下"
   },
   "roundOptions": {
-    "roundActions": "__TODO__",
-    "scheduleRoundEllipsis": "__TODO__",
-    "printRoundMatchCards": "__TODO__",
-    "printCourtCards": "__TODO__",
-    "timeOptional": "__TODO__",
-    "scheduleRound": "__TODO__",
-    "generateSwissRound": "__TODO__",
-    "cardDisplay": "__TODO__",
-    "ratingsHistogram": "__TODO__",
-    "competitiveness": "__TODO__",
-    "burstProgression": "__TODO__",
-    "burstCompetitive": "__TODO__"
+    "roundActions": "本轮操作",
+    "scheduleRoundEllipsis": "安排本轮...",
+    "printRoundMatchCards": "打印本轮比赛卡",
+    "printCourtCards": "打印球场卡",
+    "timeOptional": "时间（可选）",
+    "scheduleRound": "安排本轮",
+    "generateSwissRound": "生成瑞士轮",
+    "cardDisplay": "卡片显示",
+    "ratingsHistogram": "评级直方图",
+    "competitiveness": "竞争激烈度",
+    "burstProgression": "Burst（进程）",
+    "burstCompetitive": "Burst（竞争激烈度）"
   },
   "maps": {
-    "google": "__TODO__",
-    "bing": "__TODO__"
+    "google": "在谷歌地图中打开",
+    "bing": "在必应地图中打开"
   },
   "matchUpsActions": {
-    "abandonExplain": "__TODO__",
-    "abandonPartial": "__TODO__",
-    "abandonRemaining": "__TODO__",
-    "republishExplain": "__TODO__",
-    "rankingsNotConfigured": "__TODO__",
-    "republishRankings": "__TODO__"
+    "abandonExplain": "将所有剩余的可计分比赛标记为已放弃。已完成的比赛和轮空不受影响。适用于不会打完的锦标赛。",
+    "abandonPartial": "同时放弃有部分比分的比赛",
+    "abandonRemaining": "放弃剩余比赛",
+    "republishExplain": "将本锦标赛重新发布到公开排名列表。积分将根据其已决出胜负的比赛重新计算。",
+    "rankingsNotConfigured": "排名流程尚未配置",
+    "republishRankings": "重新发布排名"
   },
   "groupings": {
-    "generateMockTeams": "__TODO__",
-    "noMatchesFilters": "__TODO__",
-    "createNewEvent": "__TODO__"
+    "generateMockTeams": "生成示例队伍",
+    "noMatchesFilters": "无结果——请调整或清除筛选条件",
+    "createNewEvent": "创建赛事"
   },
   "printModals": {
-    "factSheet": "__TODO__",
-    "playerList": "__TODO__",
-    "competitor": "__TODO__"
+    "factSheet": "打印情况说明表",
+    "playerList": "打印选手名单",
+    "competitor": "参赛者"
   },
   "eventActions": {
-    "rankingPoints": "__TODO__"
+    "rankingPoints": "排名积分"
   },
   "registrations": {
-    "applicant": "__TODO__",
-    "rankSingles": "__TODO__",
-    "applied": "__TODO__",
-    "partner": "__TODO__",
-    "noProvider": "__TODO__",
-    "accepted": "__TODO__",
-    "waitlisted": "__TODO__",
-    "rejected": "__TODO__"
+    "applicant": "申请人",
+    "rankSingles": "排名（单打）",
+    "applied": "已申请",
+    "partner": "搭档",
+    "noProvider": "本锦标赛没有供应商——无法加载报名信息。",
+    "accepted": "申请人已被接受参赛。",
+    "waitlisted": "申请人已移至候补名单。",
+    "rejected": "申请人已被拒绝。"
   },
   "reports": {
-    "noData": "__TODO__",
-    "audit": "__TODO__",
-    "noDraws": "__TODO__",
-    "structureAudit": "__TODO__"
+    "noData": "无数据",
+    "audit": "审计",
+    "noDraws": "本锦标赛没有已生成的签表可供审计。",
+    "structureAudit": "结构完整性审计"
   },
   "applyScheduling": {
-    "noPolicy": "__TODO__",
-    "applyGridTitle": "__TODO__",
-    "selectPolicy": "__TODO__",
-    "noPolicies": "__TODO__",
-    "applyTimesTitle": "__TODO__"
+    "noPolicy": "无策略（不强制每日上限）",
+    "applyGridTitle": "应用网格 — 排程策略",
+    "selectPolicy": "选择用于「应用时间」的排程策略：",
+    "noPolicies": "没有可用的排程策略",
+    "applyTimesTitle": "应用时间 — 排程策略"
   },
   "capacity": {
-    "noCourts": "__TODO__",
-    "noCourtsAddVenues": "__TODO__",
-    "openPainter": "__TODO__",
-    "noChanges": "__TODO__"
+    "noCourts": "本锦标赛未配置任何球场",
+    "noCourtsAddVenues": "未配置球场。请通过「场馆」添加球场。",
+    "openPainter": "打开可用性编辑器 →",
+    "noChanges": "没有需要应用的更改"
   },
   "clearSchedule": {
-    "dayKeepCompleted": "__TODO__",
-    "dayIncludingCompleted": "__TODO__",
-    "allData": "__TODO__",
-    "nothingInScope": "__TODO__",
-    "nothingVisible": "__TODO__"
+    "dayKeepCompleted": "清除这一天（保留已完成）",
+    "dayIncludingCompleted": "清除这一天（含已完成）",
+    "allData": "清除所有赛程数据",
+    "nothingInScope": "此范围内没有可清除的比赛。",
+    "nothingVisible": "可见球场上没有任何安排。"
   },
   "gridActions": {
-    "minWidth": "__TODO__",
-    "minWidthHint": "__TODO__",
-    "conflictsWith": "__TODO__",
-    "minRowsHint": "__TODO__"
+    "minWidth": "最小宽度",
+    "minWidthHint": "球场列的最小宽度——空间充足时单元格会自动变宽",
+    "conflictsWith": " 与以下冲突：",
+    "minRowsHint": "赛程网格中时间行的最少数量"
   },
   "scheduleResults": {
-    "title": "__TODO__",
-    "noActivity": "__TODO__",
-    "noPerDate": "__TODO__"
+    "title": "排程结果",
+    "noActivity": "该日期没有排程器活动。",
+    "noPerDate": "排程器已完成，但未报告按日期的活动。"
   },
   "schedulingTab": {
-    "availability": "__TODO__",
-    "plan": "__TODO__",
-    "discardChanges": "__TODO__",
-    "discard": "__TODO__"
+    "availability": "可用性",
+    "plan": "方案",
+    "discardChanges": "放弃未保存的更改？",
+    "discard": "放弃"
   },
   "linkedTournaments": {
-    "intro": "__TODO__",
-    "empty": "__TODO__",
-    "link": "__TODO__",
-    "linkAction": "__TODO__"
+    "intro": "共用此场地设施的锦标赛。关联后，它们的赛程会在共用球场上相互考虑。",
+    "empty": "尚无关联的锦标赛。",
+    "link": "关联锦标赛",
+    "linkAction": "关联"
   },
   "settingsGrid": {
-    "askAssistant": "__TODO__",
-    "schedulePlan": "__TODO__",
-    "desktopNotifications": "__TODO__",
-    "serverUrl": "__TODO__",
-    "workOffline": "__TODO__"
+    "askAssistant": "询问 TMX 助手",
+    "schedulePlan": "赛程方案",
+    "desktopNotifications": " 桌面通知",
+    "serverUrl": "服务器地址",
+    "workOffline": " 离线工作"
   },
   "venueDetail": {
-    "noCourts": "__TODO__",
-    "notFound": "__TODO__"
+    "noCourts": "该场馆尚无球场。",
+    "notFound": "未找到该场馆。"
   },
   "tournamentDisplay": {
-    "refreshed": "__TODO__"
+    "refreshed": "已从服务器刷新锦标赛数据"
   },
   "platform": {
-    "about": "__TODO__"
+    "about": "关于 TMX"
   },
   "activeScale": {
-    "switchTitle": "__TODO__"
+    "switchTitle": "切换当前评级？"
   },
   "scoreRelay": {
-    "networkError": "__TODO__"
+    "networkError": "score-relay：网络错误"
   },
   "exportFile": {
-    "saveJson": "__TODO__",
-    "saveFile": "__TODO__"
+    "saveJson": "保存为 JSON",
+    "saveFile": "保存文件"
   },
   "remoteMutations": {
-    "updateFailed": "__TODO__"
+    "updateFailed": "远程更新失败——请重新加载"
   },
   "mutationPrompts": {
-    "modify": "__TODO__",
-    "impersonate": "__TODO__",
-    "rejected": "__TODO__",
-    "sessionExpired": "__TODO__"
+    "modify": "要修改吗？",
+    "impersonate": "以其他用户身份操作？",
+    "rejected": "服务器拒绝了此次更改",
+    "sessionExpired": "会话已过期"
   },
   "queueService": {
-    "saved": "__TODO__"
+    "saved": "已保存"
   },
   "storage": {
-    "importTournament": "__TODO__",
-    "resetFailed": "__TODO__",
-    "writeFailed": "__TODO__"
+    "importTournament": "导入锦标赛",
+    "resetFailed": "无法重置数据库",
+    "writeFailed": "数据库写入失败"
   },
   "participantActions": {
-    "editParticipant": "__TODO__"
+    "editParticipant": "编辑参赛者"
   },
   "tournamentActions": {
-    "send": "__TODO__"
+    "send": "要发送吗？？"
   }
 }

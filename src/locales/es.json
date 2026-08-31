@@ -76,8 +76,8 @@
   "ovw": "Resumen",
   "prt": "Participantes",
   "evt": "Eventos",
-  "sch": "__STALE__Programación (heredado)",
-  "sch2": "__STALE__Programación",
+  "sch": "Programación (heredado)",
+  "sch2": "Programación",
   "ven": "Sedes",
   "pub": "Publicación",
   "rename": "Renombrar",
@@ -1210,41 +1210,41 @@
       "includeTimestamp": "Incluir fecha y hora",
       "includeOrganizers": "Incluir organizadores",
       "generateError": "Error al generar PDF.",
-      "preset": "__TODO__",
-      "headerLayout": "__TODO__",
-      "footerLayout": "__TODO__",
-      "pdfComposition": "__TODO__",
-      "composition": "__TODO__",
-      "multiPage": "__TODO__",
+      "preset": "Preajuste",
+      "headerLayout": "Diseño del encabezado",
+      "footerLayout": "Diseño del pie de página",
+      "pdfComposition": "Composición del PDF",
+      "composition": "Composición",
+      "multiPage": "Varias páginas (dividido en secciones)",
       "presets": {
-        "clubBasic": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "itfJunior": "__TODO__",
-        "itfProCircuit": "__TODO__",
-        "ncaaCollegiate": "__TODO__",
-        "atp250": "__TODO__",
-        "atpFinals": "__TODO__",
-        "wta500": "__TODO__",
-        "wta1000": "__TODO__",
-        "grandSlam": "__TODO__",
-        "wimbledon": "__TODO__",
-        "australianOpen": "__TODO__"
+        "clubBasic": "Club básico",
+        "nationalFederation": "Federación nacional",
+        "itfJunior": "ITF Junior",
+        "itfProCircuit": "Circuito Pro ITF",
+        "ncaaCollegiate": "NCAA universitario",
+        "atp250": "ATP 250",
+        "atpFinals": "ATP Finals",
+        "wta500": "WTA 500",
+        "wta1000": "WTA 1000",
+        "grandSlam": "Grand Slam",
+        "wimbledon": "Wimbledon",
+        "australianOpen": "Abierto de Australia"
       },
       "headerLayouts": {
-        "grandSlam": "__TODO__",
-        "itfProfessional": "__TODO__",
-        "wtaAtpTour": "__TODO__",
-        "nationalFederation": "__TODO__",
-        "minimal": "__TODO__",
-        "none": "__TODO__"
+        "grandSlam": "Grand Slam",
+        "itfProfessional": "ITF / Profesional",
+        "wtaAtpTour": "Circuito WTA / ATP",
+        "nationalFederation": "Federación nacional",
+        "minimal": "Mínimo",
+        "none": "Ninguno"
       },
       "footerLayouts": {
-        "standard": "__TODO__",
-        "seedingsTable": "__TODO__",
-        "prizeMoney": "__TODO__",
-        "officialsSignoff": "__TODO__",
-        "combinedTour": "__TODO__",
-        "none": "__TODO__"
+        "standard": "Estándar",
+        "seedingsTable": "Tabla de cabezas de serie",
+        "prizeMoney": "Premios en metálico",
+        "officialsSignoff": "Firma de los oficiales",
+        "combinedTour": "Circuito combinado",
+        "none": "Ninguno"
       }
     },
     "listPicker": {
@@ -1304,7 +1304,7 @@
     },
     "editGroupNames": {
       "title": "Editar nombres de grupos",
-      "minChars": "__STALE__mínimo 4 caracteres",
+      "minChars": "mínimo 3 caracteres",
       "groupsRenamed": "Grupos renombrados"
     },
     "addFlights": {
@@ -1562,15 +1562,15 @@
       "usageList": "{{name}} es usada por: {{events}}"
     },
     "firstLogin": {
-      "title": "__STALE__Establece tu contraseña",
-      "intro": "__STALE__Tu cuenta se creó con una contraseña temporal. Elige una nueva contraseña para terminar de iniciar sesión.",
-      "newPasswordLabel": "__STALE__Nueva contraseña",
-      "newPasswordPlaceholder": "__STALE__mínimo 8 caracteres",
-      "confirmPasswordLabel": "__STALE__Confirmar contraseña",
-      "confirmPasswordPlaceholder": "__STALE__vuelve a ingresar la nueva contraseña",
-      "setPassword": "__STALE__Establecer contraseña",
-      "failed": "__STALE__No se pudo establecer tu contraseña. Inténtalo de nuevo.",
-      "tokenExpired": "__STALE__Esta sesión de inicio expiró. Vuelve a iniciar sesión."
+      "title": "Establece tu contraseña",
+      "intro": "Tu cuenta se creó con una contraseña temporal. Elige una nueva contraseña para terminar de iniciar sesión.",
+      "newPasswordLabel": "Nueva contraseña",
+      "newPasswordPlaceholder": "mínimo 8 caracteres",
+      "confirmPasswordLabel": "Confirmar contraseña",
+      "confirmPasswordPlaceholder": "vuelve a ingresar la nueva contraseña",
+      "setPassword": "Establecer contraseña",
+      "failed": "No se pudo establecer tu contraseña. Inténtalo de nuevo.",
+      "tokenExpired": "Esta sesión de inicio expiró. Vuelve a iniciar sesión."
     },
     "forgotPassword": {
       "title": "Restablece tu contraseña",
@@ -1630,16 +1630,16 @@
       "failed": "Falló la eliminación."
     },
     "contactEmail": {
-      "title": "__STALE__Correo de recuperación",
-      "label": "__STALE__Correo de recuperación",
+      "title": "Correo de recuperación",
+      "label": "Correo de recuperación",
       "save": "Guardar",
       "resend": "Reenviar verificación",
-      "savedPending": "__STALE__Correo de verificación enviado a {{email}}.",
-      "resent": "__STALE__Correo de verificación enviado.",
-      "alreadyVerified": "__STALE__El correo de recuperación ya está verificado.",
-      "failed": "__STALE__No se pudo actualizar el correo de recuperación. Inténtalo de nuevo.",
-      "statusNotSet": "__STALE__No hay correo de recuperación definido. Agrega uno para poder recuperar el acceso si pierdes tu contraseña.",
-      "statusPending": "__STALE__Verificación pendiente — revisa {{email}} y haz clic en el enlace.",
+      "savedPending": "Correo de verificación enviado a {{email}}.",
+      "resent": "Correo de verificación enviado.",
+      "alreadyVerified": "El correo de recuperación ya está verificado.",
+      "failed": "No se pudo actualizar el correo de recuperación. Inténtalo de nuevo.",
+      "statusNotSet": "No hay correo de recuperación definido. Agrega uno para poder recuperar el acceso si pierdes tu contraseña.",
+      "statusPending": "Verificación pendiente — revisa {{email}} y haz clic en el enlace.",
       "statusVerified": "Verificado: {{email}}"
     },
     "editUser": {
@@ -1759,19 +1759,19 @@
       }
     },
     "participantProfile": {
-      "wins": "__TODO__",
-      "perWin": "__TODO__",
-      "bonus": "__TODO__",
-      "quality": "__TODO__",
-      "rankingPoints": "__TODO__",
-      "previous": "__TODO__",
-      "next": "__TODO__"
+      "wins": "Victorias",
+      "perWin": "Por victoria",
+      "bonus": "Bonificación",
+      "quality": "Calidad",
+      "rankingPoints": "Puntos de ranking",
+      "previous": "← Anterior",
+      "next": "Siguiente →"
     },
     "displaySettings": {
-      "google": "__TODO__",
-      "showSchedule": "__TODO__",
-      "detail": "__TODO__",
-      "title": "__TODO__"
+      "google": "Google",
+      "showSchedule": "Mostrar la programación",
+      "detail": "Detalle",
+      "title": "Editar los ajustes de visualización"
     }
   },
   "dashboard": {
@@ -2208,7 +2208,7 @@
       "viewAvailability": "Ver disponibilidad",
       "viewTable": "Ver tabla",
       "setDefaultAvailability": "Establecer disponibilidad predeterminada",
-      "saveToTournament": "__STALE__Guardar en torneo",
+      "saveToTournament": "Guardar",
       "grid": {
         "view": "Vista",
         "day1": "1 Día",
@@ -2796,13 +2796,13 @@
   },
   "theme": {
     "toggleDark": "Alternar modo oscuro",
-    "systemDefault": "__TODO__",
+    "systemDefault": "Sistema (predeterminado)",
     "sizes": {
-      "xs": "__TODO__",
-      "sm": "__TODO__",
-      "md": "__TODO__",
-      "lg": "__TODO__",
-      "xl": "__TODO__"
+      "xs": "Muy pequeño (13 px)",
+      "sm": "Pequeño (14 px)",
+      "md": "Mediano (16 px)",
+      "lg": "Grande (18 px)",
+      "xl": "Muy grande (20 px)"
     }
   },
   "language": {
@@ -2828,13 +2828,13 @@
     "additional": "Información adicional",
     "dressCode": "Código de vestimenta",
     "contingencyPlan": "Contingencia por clima",
-    "title": "__TODO__",
-    "select": "__TODO__",
-    "priceRange": "__TODO__",
-    "eventName": "__TODO__",
-    "description": "__TODO__",
-    "sponsorName": "__TODO__",
-    "tier": "__TODO__"
+    "title": "Perfil de inscripción",
+    "select": "-- Seleccionar --",
+    "priceRange": "Rango de precios",
+    "eventName": "Nombre del evento",
+    "description": "Descripción",
+    "sponsorName": "Nombre del patrocinador",
+    "tier": "Nivel"
   },
   "provisioner": {
     "myProviders": "Mis proveedores",
@@ -3891,17 +3891,17 @@
     "builtin": "Integrada",
     "delete": "Eliminar",
     "builtinReadOnly": "Integrada (solo lectura: duplíquela para personalizarla)",
-    "topologyTemplates": "__TODO__",
-    "selectTopology": "__TODO__",
-    "tieFormatTemplates": "__TODO__",
-    "selectTieFormat": "__TODO__",
-    "compositionTemplates": "__TODO__",
-    "selectComposition": "__TODO__",
-    "empty": "__TODO__",
-    "noCollectionDefinitions": "__TODO__",
-    "templateName": "__TODO__",
-    "nameRequired": "__TODO__",
-    "saveTemplate": "__TODO__"
+    "topologyTemplates": "Plantillas de topología",
+    "selectTopology": "Seleccione una plantilla para verla o haga clic en Nuevo",
+    "tieFormatTemplates": "Plantillas de formato de enfrentamiento",
+    "selectTieFormat": "Seleccione un formato de enfrentamiento para verlo o haga clic en Nuevo",
+    "compositionTemplates": "Plantillas de composición",
+    "selectComposition": "Seleccione una composición para verla o haga clic en Nuevo",
+    "empty": "Vacío",
+    "noCollectionDefinitions": "No hay definiciones de colección",
+    "templateName": "Nombre de la plantilla",
+    "nameRequired": "Introduzca un nombre",
+    "saveTemplate": "Guardar plantilla"
   },
   "policiesPage": {
     "loadFailed": "No se pudieron cargar las políticas",
@@ -3909,7 +3909,7 @@
     "saveFailed": "No se pudo guardar la política",
     "deleted": "Política eliminada",
     "deleteFailed": "No se pudo eliminar la política",
-    "browseCatalog": "__TODO__"
+    "browseCatalog": "Explorar el catálogo público →"
   },
   "federationIngest": {
     "heading": "Importación de federación",
@@ -3936,403 +3936,403 @@
     "itfWorldTennisTour": "ITF World Tennis Tour"
   },
   "voluntaryConsolation": {
-    "singleElimination": "__TODO__",
-    "luckyDraw": "__TODO__",
-    "adHoc": "__TODO__",
-    "accepted": "__TODO__",
-    "generate": "__TODO__",
-    "eliminated": "__TODO__"
+    "singleElimination": "Eliminación directa",
+    "luckyDraw": "Sorteo",
+    "adHoc": "Ad hoc",
+    "accepted": "Aceptado",
+    "generate": "Generar consolación",
+    "eliminated": "Eliminado"
   },
   "tournamentsControls": {
-    "sortDateNewest": "__TODO__",
-    "sortDateOldest": "__TODO__",
-    "sortNameAsc": "__TODO__",
-    "sortNameDesc": "__TODO__",
-    "sortPlayers": "__TODO__",
-    "search": "__TODO__",
-    "all": "__TODO__",
-    "exampleTournaments": "__TODO__",
-    "importTournament": "__TODO__",
-    "chatMonitor": "__TODO__",
-    "welcome": "__TODO__",
-    "examples": "__TODO__",
-    "upcoming": "__TODO__"
+    "sortDateNewest": "Fecha (más recientes primero)",
+    "sortDateOldest": "Fecha (más antiguos primero)",
+    "sortNameAsc": "Nombre (A → Z)",
+    "sortNameDesc": "Nombre (Z → A)",
+    "sortPlayers": "Jugadores (más primero)",
+    "search": "Buscar torneos",
+    "all": "Todos",
+    "exampleTournaments": "Torneos de ejemplo",
+    "importTournament": "Importar torneo",
+    "chatMonitor": "Monitor de chat",
+    "welcome": "Bienvenido",
+    "examples": "Ejemplos",
+    "upcoming": "Próximos"
   },
   "segmentOverlay": {
-    "moveParticipants": "__TODO__",
-    "removeFromDraw": "__TODO__",
-    "createPair": "__TODO__",
-    "removeFromEvent": "__TODO__",
-    "manualSeeding": "__TODO__",
-    "clearSeeding": "__TODO__",
-    "addToAccepted": "__TODO__",
-    "addToQualifying": "__TODO__",
-    "addToAlternates": "__TODO__",
-    "addEntries": "__TODO__",
-    "pairingOff": "__TODO__"
+    "moveParticipants": "Mover participantes",
+    "removeFromDraw": "Quitar del cuadro",
+    "createPair": "Crear pareja",
+    "removeFromEvent": "Quitar del evento",
+    "manualSeeding": "Cabezas de serie manuales",
+    "clearSeeding": "Borrar cabezas de serie",
+    "addToAccepted": "Añadir a aceptados",
+    "addToQualifying": "Añadir a la clasificación",
+    "addToAlternates": "Añadir a suplentes",
+    "addEntries": "Añadir inscripciones",
+    "pairingOff": "Emparejamiento: DESACTIVADO"
   },
   "swissStandings": {
-    "losses": "__TODO__",
-    "ties": "__TODO__",
-    "pts": "__TODO__",
-    "buchholz": "__TODO__",
-    "sonnebornBerger": "__TODO__",
-    "empty": "__TODO__"
+    "losses": "Derrotas",
+    "ties": "Empates",
+    "pts": "Pts",
+    "buchholz": "Desempate Buchholz",
+    "sonnebornBerger": "Desempate Sonneborn-Berger",
+    "empty": "No hay clasificación disponible: genere y complete rondas primero"
   },
   "policyCatalog": {
-    "empty": "__TODO__",
-    "back": "__TODO__",
-    "title": "__TODO__",
-    "intro": "__TODO__",
-    "features": "__TODO__",
-    "saveToMine": "__TODO__",
-    "saved": "__TODO__",
-    "openMine": "__TODO__"
+    "empty": "El catálogo está vacío.",
+    "back": "← Volver a mis políticas",
+    "title": "Catálogo público de políticas",
+    "intro": "Políticas federativas de puntos de ranking que cualquiera puede consultar. Abra una política y haga clic en «Guardar en mis políticas» para copiarla en su catálogo local, donde podrá editarla, adjuntarla y aplicarla.",
+    "features": "Características",
+    "saveToMine": "Guardar en mis políticas",
+    "saved": "Guardado: abra Mis políticas para editar o aplicar.",
+    "openMine": "Abrir Mis políticas"
   },
   "avoidances": {
-    "selectRules": "__TODO__",
-    "doublesPairs": "__TODO__",
-    "postalCodeDigits": "__TODO__"
+    "selectRules": "Seleccionar reglas",
+    "doublesPairs": "Parejas de dobles",
+    "postalCodeDigits": "Dígitos del código postal"
   },
   "schedulingProfile": {
-    "dragHint": "__TODO__",
-    "clearedTitle": "__TODO__",
-    "cleared": "__TODO__",
-    "savedTitle": "__TODO__",
-    "saved": "__TODO__",
-    "noRounds": "__TODO__",
-    "failed": "__TODO__",
-    "gridFailed": "__TODO__"
+    "dragHint": "Arrastre rondas del catálogo a los carriles de sede. Haga clic en «Aplicar programación» para asignar horarios.",
+    "clearedTitle": "Perfil de programación borrado",
+    "cleared": "Perfil borrado.",
+    "savedTitle": "Perfil de programación guardado",
+    "saved": "Perfil guardado.",
+    "noRounds": "No hay rondas en el plan del día. Arrastre primero rondas del catálogo a los carriles de sede.",
+    "failed": "Error en la programación. Consulte la consola para más detalles.",
+    "gridFailed": "Error en la programación de la cuadrícula."
   },
   "topology": {
-    "clearCanvas": "__TODO__",
-    "drawFailed": "__TODO__",
-    "drawGenerated": "__TODO__",
-    "templateName": "__TODO__",
-    "templateSaved": "__TODO__"
+    "clearCanvas": "Borrar el lienzo",
+    "drawFailed": "Error al generar el cuadro",
+    "drawGenerated": "Cuadro generado correctamente",
+    "templateName": "Nombre de la plantilla",
+    "templateSaved": "Plantilla guardada"
   },
   "participantFields": {
-    "identifiers": "__TODO__",
-    "person": "__TODO__"
+    "identifiers": "Identificadores",
+    "person": "Persona"
   },
   "draft": {
-    "notFound": "__TODO__",
-    "configure": "__TODO__",
-    "transparencyReport": "__TODO__",
-    "alreadyResolved": "__TODO__",
-    "resolved": "__TODO__",
-    "resolve": "__TODO__",
-    "preview": "__TODO__",
-    "resolveAndPlace": "__TODO__"
+    "notFound": "No se encontró ningún sorteo para este cuadro",
+    "configure": "Configurar el sorteo",
+    "transparencyReport": "Informe de transparencia del sorteo",
+    "alreadyResolved": "El sorteo ya ha sido resuelto",
+    "resolved": "Sorteo resuelto: participantes ubicados",
+    "resolve": "Resolver el sorteo",
+    "preview": "Vista previa",
+    "resolveAndPlace": "Resolver y ubicar"
   },
   "eventRow": {
-    "noDraws": "__TODO__",
-    "renameSelected": "__TODO__",
-    "viewEntries": "__TODO__",
-    "avoidances": "__TODO__"
+    "noDraws": "Sin cuadros",
+    "renameSelected": "Renombrar lo seleccionado",
+    "viewEntries": "Ver inscripciones",
+    "avoidances": "Evitaciones"
   },
   "gridView": {
-    "publishFailed": "__TODO__",
-    "localFailed": "__TODO__",
-    "serverFailed": "__TODO__",
-    "discarded": "__TODO__",
-    "noScheduled": "__TODO__",
-    "noConflicts": "__TODO__",
-    "resolveConflicts": "__TODO__",
-    "nowOccupied": "__TODO__"
+    "publishFailed": "Error al publicar el cambio",
+    "localFailed": "El cambio de programación falló localmente",
+    "serverFailed": "No se pudieron guardar los cambios de programación en el servidor",
+    "discarded": "Cambios de programación descartados",
+    "noScheduled": "No hay partidos programados que resolver en este día",
+    "noConflicts": "No hay conflictos de jugadores que resolver en este día",
+    "resolveConflicts": "¿Resolver los conflictos de jugadores?",
+    "nowOccupied": "La franja Ahora de esa cancha está ocupada"
   },
   "welcome": {
-    "events": "__TODO__",
-    "scheduling": "__TODO__",
-    "participants": "__TODO__",
-    "scoring": "__TODO__",
-    "getStarted": "__TODO__",
-    "generateDemo": "__TODO__",
-    "createNew": "__TODO__",
-    "back": "__TODO__"
+    "events": "Cree eventos, gestione cuadros y dirija torneos de principio a fin.",
+    "scheduling": "Asigne canchas, gestione franjas horarias y resuelva conflictos de programación.",
+    "participants": "Inscriba jugadores, gestione valoraciones y siembre los cuadros automáticamente.",
+    "scoring": "Puntúe partidos en tiempo real con progresión automática del cuadro.",
+    "getStarted": "Empiece generando torneos de ejemplo para explorar las funciones de TMX, o cree el suyo.",
+    "generateDemo": "Generar torneos de demostración",
+    "createNew": "Crear un torneo",
+    "back": "← Volver a los torneos"
   },
   "courtCards": {
-    "noScheduledOnCourt": "__TODO__",
-    "matchUpNotFound": "__TODO__",
-    "noDataForMatchUp": "__TODO__",
-    "noUpcoming": "__TODO__",
-    "noData": "__TODO__",
-    "noneOnCourts": "__TODO__",
-    "noneInRound": "__TODO__"
+    "noScheduledOnCourt": "No hay partidos programados en esta cancha",
+    "matchUpNotFound": "Partido no encontrado",
+    "noDataForMatchUp": "No hay datos de ficha de cancha para este partido",
+    "noUpcoming": "No hay próximos partidos con ambos participantes asignados en esta cancha",
+    "noData": "No hay datos de ficha de cancha",
+    "noneOnCourts": "No hay partidos programados en canchas",
+    "noneInRound": "Ningún partido de esta ronda está asignado a una cancha"
   },
   "ui": {
-    "explanation": "__TODO__",
-    "noParticipants": "__TODO__",
-    "noMatches": "__TODO__",
-    "ok": "__TODO__",
-    "deleteFlights": "__TODO__",
-    "totalMatchUps": "__TODO__",
-    "grid": "__TODO__",
-    "policyLabel": "__TODO__",
-    "newValue": "__TODO__",
-    "newName": "__TODO__",
-    "template": "__TODO__",
-    "reset": "__TODO__",
-    "change": "__TODO__",
-    "display": "__TODO__",
-    "website": "__TODO__",
-    "fee": "__TODO__",
-    "lights": "__TODO__",
-    "grouping": "__TODO__",
-    "winLoss": "__TODO__",
-    "scorelines": "__TODO__",
-    "chart": "__TODO__",
-    "table": "__TODO__",
-    "stats": "__TODO__",
-    "standings": "__TODO__",
-    "tableView": "__TODO__",
-    "noCourts": "__TODO__",
-    "noVenues": "__TODO__",
-    "noTournaments": "__TODO__",
-    "noCollections": "__TODO__",
-    "noEntries": "__TODO__",
-    "noDrawsYet": "__TODO__",
-    "notGenerated": "__TODO__",
-    "clearFilters": "__TODO__"
+    "explanation": "Explicación",
+    "noParticipants": "No hay participantes",
+    "noMatches": "No hay partidos",
+    "ok": "Aceptar",
+    "deleteFlights": "Eliminar grupos",
+    "totalMatchUps": "Total de partidos",
+    "grid": "Cuadrícula",
+    "policyLabel": "Política:",
+    "newValue": "Valor nuevo",
+    "newName": "Nombre nuevo",
+    "template": "Plantilla",
+    "reset": "Restablecer",
+    "change": "Cambiar",
+    "display": "Visualización",
+    "website": "Sitio web",
+    "fee": "Cuota",
+    "lights": "Iluminación",
+    "grouping": "Agrupación",
+    "winLoss": "V/D",
+    "scorelines": "Marcadores",
+    "chart": "Gráfico",
+    "table": "Tabla",
+    "stats": "Estadísticas",
+    "standings": "Clasificación",
+    "tableView": "Vista de tabla",
+    "noCourts": "No hay canchas",
+    "noVenues": "No hay sedes",
+    "noTournaments": "No hay torneos",
+    "noCollections": "No hay colecciones",
+    "noEntries": "No hay inscripciones",
+    "noDrawsYet": "Todavía no hay cuadros.",
+    "notGenerated": "No generado",
+    "clearFilters": "Borrar filtros"
   },
   "addDrawForm": {
-    "sizeMin": "__TODO__",
-    "qualifyingNoPositions": "__TODO__",
-    "qualifierRequired": "__TODO__",
-    "regenerate": "__TODO__",
-    "roundOf16": "__TODO__",
-    "consolationFeedDepth": "__TODO__",
-    "roundProfile": "__TODO__",
-    "matchUpsPerRound": "__TODO__",
-    "evenDrawSize": "__TODO__"
+    "sizeMin": "El tamaño del cuadro debe ser de al menos 2",
+    "qualifyingNoPositions": "No se puede adjuntar la clasificación: la estructura de destino no tiene posiciones",
+    "qualifierRequired": "Se requiere al menos una plaza de clasificado al adjuntar una estructura de clasificación",
+    "regenerate": "¿Regenerar el cuadro?",
+    "roundOf16": "Octavos de final",
+    "consolationFeedDepth": "Profundidad de alimentación de la consolación",
+    "roundProfile": "Perfil de rondas",
+    "matchUpsPerRound": "partidos por ronda",
+    "evenDrawSize": "Un perfil de rondas explícito requiere un tamaño de cuadro par de 2 o más."
   },
   "keyActions": {
-    "enterNewKey": "__TODO__",
-    "storedKeys": "__TODO__"
+    "enterNewKey": "Introducir una clave nueva",
+    "storedKeys": "Claves guardadas"
   },
   "chat": {
-    "tournamentChat": "__TODO__",
-    "noRecentActivity": "__TODO__",
-    "monitorTitle": "__TODO__",
-    "selectGroup": "__TODO__"
+    "tournamentChat": "Chat del torneo",
+    "noRecentActivity": "No hay actividad de chat en el periodo reciente.",
+    "monitorTitle": "Monitor de chat: todos los torneos",
+    "selectGroup": "Seleccione una etiqueta de grupo para responder en ese torneo"
   },
   "drawActions": {
-    "pagePlayoff": "__TODO__",
-    "selectDate": "__TODO__",
-    "deleteReason": "__TODO__",
-    "noEntriesInDraw": "__TODO__",
-    "resetReason": "__TODO__",
-    "removeAssignments": "__TODO__",
-    "noInvalidParticipants": "__TODO__",
-    "addQualifying": "__TODO__",
-    "addPlayoffs": "__TODO__",
-    "allDraws": "__TODO__",
-    "noDrawsForEvent": "__TODO__",
-    "generateQualifying": "__TODO__",
-    "completeRoundFirst": "__TODO__",
-    "exitAssignmentMode": "__TODO__",
-    "autoPosition": "__TODO__"
+    "pagePlayoff": "Play-off en página",
+    "selectDate": "Seleccionar fecha",
+    "deleteReason": "Indique un motivo para eliminar el cuadro.",
+    "noEntriesInDraw": "No hay inscripciones en este cuadro",
+    "resetReason": "Indique un motivo para restablecer el cuadro.",
+    "removeAssignments": "Quitar todas las asignaciones de posición",
+    "noInvalidParticipants": "No hay participantes inválidos",
+    "addQualifying": "Añadir clasificación",
+    "addPlayoffs": "Añadir play-offs",
+    "allDraws": "Todos los cuadros",
+    "noDrawsForEvent": "No se ha creado ningún cuadro para este evento.",
+    "generateQualifying": "Generar la clasificación",
+    "completeRoundFirst": "Complete todos los partidos de la ronda actual antes de generar la siguiente",
+    "exitAssignmentMode": "Salir del modo de asignación",
+    "autoPosition": "Posicionamiento automático"
   },
   "sports": {
-    "tennis": "__TODO__",
-    "pickleball": "__TODO__",
-    "badminton": "__TODO__",
-    "basketball": "__TODO__",
-    "baseball": "__TODO__",
-    "hockey": "__TODO__",
-    "padel": "__TODO__"
+    "tennis": "Tenis",
+    "pickleball": "Pickleball",
+    "badminton": "Bádminton",
+    "basketball": "Baloncesto",
+    "baseball": "Béisbol",
+    "hockey": "Hockey",
+    "padel": "Pádel"
   },
   "tieFormatEditor": {
-    "scorecardName": "__TODO__",
-    "addCollection": "__TODO__",
-    "noCollections": "__TODO__"
+    "scorecardName": "Nombre del acta",
+    "addCollection": "Añadir colección",
+    "noCollections": "No hay colecciones: haga clic en Añadir colección para empezar"
   },
   "assistant": {
-    "title": "__TODO__",
-    "ask": "__TODO__"
+    "title": "Asistente TMX",
+    "ask": "Preguntar a TMX"
   },
   "matchUpActions": {
-    "scheduleDate": "__TODO__",
-    "scheduleTime": "__TODO__",
-    "printMatchCard": "__TODO__",
-    "assignParticipant": "__TODO__",
-    "removeParticipant": "__TODO__",
-    "replaceParticipant": "__TODO__",
-    "substitution": "__TODO__",
-    "assignSeedNumber": "__TODO__",
-    "seedNumber": "__TODO__",
-    "nickname": "__TODO__"
+    "scheduleDate": "Fecha de programación",
+    "scheduleTime": "Hora de programación",
+    "printMatchCard": "Imprimir la ficha del partido",
+    "assignParticipant": "Asignar participante",
+    "removeParticipant": "Quitar participante",
+    "replaceParticipant": "Sustituir participante",
+    "substitution": "Sustitución",
+    "assignSeedNumber": "Asignar número de cabeza de serie ",
+    "seedNumber": "Número de cabeza de serie",
+    "nickname": "Apodo "
   },
   "entries": {
-    "alreadyInDraw": "__TODO__",
-    "addToDraw": "__TODO__",
-    "changeStatus": "__TODO__",
-    "addFlight": "__TODO__",
-    "destroyPairs": "__TODO__",
-    "noDestroyablePairs": "__TODO__",
-    "saveSeeding": "__TODO__",
-    "numberOfDraws": "__TODO__",
-    "acceptedEntries": "__TODO__",
-    "completedMatchUps": "__TODO__",
-    "noTeamParticipants": "__TODO__",
-    "noIndividualParticipants": "__TODO__",
-    "addPlayers": "__TODO__",
-    "noRatingData": "__TODO__",
-    "scheduledMatches": "__TODO__"
+    "alreadyInDraw": "Todos los participantes seleccionados ya están en este cuadro",
+    "addToDraw": "Añadir al cuadro",
+    "changeStatus": "Cambiar el estado",
+    "addFlight": "Añadir grupo",
+    "destroyPairs": "Deshacer parejas",
+    "noDestroyablePairs": "No se ha seleccionado ninguna pareja deshacible",
+    "saveSeeding": "Guardar cabezas de serie",
+    "numberOfDraws": "Número de cuadros",
+    "acceptedEntries": "Inscripciones aceptadas",
+    "completedMatchUps": "Partidos completados",
+    "noTeamParticipants": "No hay equipos participantes",
+    "noIndividualParticipants": "No hay participantes individuales",
+    "addPlayers": "Añadir jugadores",
+    "noRatingData": "No hay datos de valoración disponibles",
+    "scheduledMatches": "Partidos programados"
   },
   "ageCategories": {
-    "u10": "__TODO__",
-    "u12": "__TODO__",
-    "u14": "__TODO__",
-    "u16": "__TODO__",
-    "u18": "__TODO__"
+    "u10": "10 años y menores",
+    "u12": "12 años y menores",
+    "u14": "14 años y menores",
+    "u16": "16 años y menores",
+    "u18": "18 años y menores"
   },
   "roundOptions": {
-    "roundActions": "__TODO__",
-    "scheduleRoundEllipsis": "__TODO__",
-    "printRoundMatchCards": "__TODO__",
-    "printCourtCards": "__TODO__",
-    "timeOptional": "__TODO__",
-    "scheduleRound": "__TODO__",
-    "generateSwissRound": "__TODO__",
-    "cardDisplay": "__TODO__",
-    "ratingsHistogram": "__TODO__",
-    "competitiveness": "__TODO__",
-    "burstProgression": "__TODO__",
-    "burstCompetitive": "__TODO__"
+    "roundActions": "Acciones de la ronda",
+    "scheduleRoundEllipsis": "Programar ronda...",
+    "printRoundMatchCards": "Imprimir fichas de partido de la ronda",
+    "printCourtCards": "Imprimir fichas de cancha",
+    "timeOptional": "Hora (opcional)",
+    "scheduleRound": "Programar la ronda",
+    "generateSwissRound": "Generar ronda suiza",
+    "cardDisplay": "Visualización de fichas",
+    "ratingsHistogram": "Histograma de valoraciones",
+    "competitiveness": "Competitividad",
+    "burstProgression": "Burst (progresión)",
+    "burstCompetitive": "Burst (competitividad)"
   },
   "maps": {
-    "google": "__TODO__",
-    "bing": "__TODO__"
+    "google": "Abrir en Google Maps",
+    "bing": "Abrir en Bing Maps"
   },
   "matchUpsActions": {
-    "abandonExplain": "__TODO__",
-    "abandonPartial": "__TODO__",
-    "abandonRemaining": "__TODO__",
-    "republishExplain": "__TODO__",
-    "rankingsNotConfigured": "__TODO__",
-    "republishRankings": "__TODO__"
+    "abandonExplain": "Marcar como abandonado cada partido restante listo para puntuar. Los partidos completados y los BYE no se ven afectados. Pensado para torneos que no se van a completar.",
+    "abandonPartial": "Abandonar también los partidos con puntaje parcial",
+    "abandonRemaining": "Abandonar los partidos restantes",
+    "republishExplain": "Volver a publicar este torneo en la lista pública de rankings. Los puntos se recalculan a partir de sus partidos decididos.",
+    "rankingsNotConfigured": "El proceso de rankings no está configurado",
+    "republishRankings": "Volver a publicar los rankings"
   },
   "groupings": {
-    "generateMockTeams": "__TODO__",
-    "noMatchesFilters": "__TODO__",
-    "createNewEvent": "__TODO__"
+    "generateMockTeams": "Generar equipos de prueba",
+    "noMatchesFilters": "Sin resultados: ajuste o borre los filtros",
+    "createNewEvent": "Crear un evento"
   },
   "printModals": {
-    "factSheet": "__TODO__",
-    "playerList": "__TODO__",
-    "competitor": "__TODO__"
+    "factSheet": "Imprimir la ficha técnica",
+    "playerList": "Imprimir la lista de jugadores",
+    "competitor": "Competidor"
   },
   "eventActions": {
-    "rankingPoints": "__TODO__"
+    "rankingPoints": "Puntos de ranking"
   },
   "registrations": {
-    "applicant": "__TODO__",
-    "rankSingles": "__TODO__",
-    "applied": "__TODO__",
-    "partner": "__TODO__",
-    "noProvider": "__TODO__",
-    "accepted": "__TODO__",
-    "waitlisted": "__TODO__",
-    "rejected": "__TODO__"
+    "applicant": "Solicitante",
+    "rankSingles": "Ranking (INDIVIDUAL)",
+    "applied": "Solicitado",
+    "partner": "Compañero",
+    "noProvider": "Este torneo no tiene proveedor: no se pueden cargar las inscripciones.",
+    "accepted": "Solicitante aceptado en el torneo.",
+    "waitlisted": "Solicitante pasado a la lista de espera.",
+    "rejected": "Solicitante rechazado."
   },
   "reports": {
-    "noData": "__TODO__",
-    "audit": "__TODO__",
-    "noDraws": "__TODO__",
-    "structureAudit": "__TODO__"
+    "noData": "Sin datos",
+    "audit": "Auditoría",
+    "noDraws": "Este torneo no tiene cuadros generados que auditar.",
+    "structureAudit": "Auditoría de integridad de estructuras"
   },
   "applyScheduling": {
-    "noPolicy": "__TODO__",
-    "applyGridTitle": "__TODO__",
-    "selectPolicy": "__TODO__",
-    "noPolicies": "__TODO__",
-    "applyTimesTitle": "__TODO__"
+    "noPolicy": "Sin política (no aplicar límites diarios)",
+    "applyGridTitle": "Aplicar cuadrícula: política de programación",
+    "selectPolicy": "Seleccione la política de programación que se usará en Aplicar horarios:",
+    "noPolicies": "No hay políticas de programación disponibles",
+    "applyTimesTitle": "Aplicar horarios: política de programación"
   },
   "capacity": {
-    "noCourts": "__TODO__",
-    "noCourtsAddVenues": "__TODO__",
-    "openPainter": "__TODO__",
-    "noChanges": "__TODO__"
+    "noCourts": "No hay canchas configuradas para este torneo",
+    "noCourtsAddVenues": "No hay canchas configuradas. Añádalas desde Sedes.",
+    "openPainter": "Abrir el editor de disponibilidad →",
+    "noChanges": "No hay cambios que aplicar"
   },
   "clearSchedule": {
-    "dayKeepCompleted": "__TODO__",
-    "dayIncludingCompleted": "__TODO__",
-    "allData": "__TODO__",
-    "nothingInScope": "__TODO__",
-    "nothingVisible": "__TODO__"
+    "dayKeepCompleted": "Borrar este día (conservar los completados)",
+    "dayIncludingCompleted": "Borrar este día (incluidos los completados)",
+    "allData": "Borrar todos los datos de programación",
+    "nothingInScope": "No hay partidos que borrar en este ámbito.",
+    "nothingVisible": "No hay nada programado en las canchas visibles."
   },
   "gridActions": {
-    "minWidth": "__TODO__",
-    "minWidthHint": "__TODO__",
-    "conflictsWith": "__TODO__",
-    "minRowsHint": "__TODO__"
+    "minWidth": "Ancho mín.",
+    "minWidthHint": "Ancho mínimo de la columna de cancha: las celdas se ensanchan si hay espacio",
+    "conflictsWith": " entra en conflicto con ",
+    "minRowsHint": "Número mínimo de filas horarias en la cuadrícula de programación"
   },
   "scheduleResults": {
-    "title": "__TODO__",
-    "noActivity": "__TODO__",
-    "noPerDate": "__TODO__"
+    "title": "Resultados de la programación",
+    "noActivity": "No hay actividad del programador en esta fecha.",
+    "noPerDate": "El programador terminó pero no informó de actividad por fecha."
   },
   "schedulingTab": {
-    "availability": "__TODO__",
-    "plan": "__TODO__",
-    "discardChanges": "__TODO__",
-    "discard": "__TODO__"
+    "availability": "Disponibilidad",
+    "plan": "Plan",
+    "discardChanges": "¿Descartar los cambios sin guardar?",
+    "discard": "Descartar"
   },
   "linkedTournaments": {
-    "intro": "__TODO__",
-    "empty": "__TODO__",
-    "link": "__TODO__",
-    "linkAction": "__TODO__"
+    "intro": "Torneos que comparten esta instalación. Vincularlos permite que sus programaciones se tengan en cuenta mutuamente en las canchas compartidas.",
+    "empty": "Todavía no hay torneos vinculados.",
+    "link": "Vincular torneos",
+    "linkAction": "Vincular"
   },
   "settingsGrid": {
-    "askAssistant": "__TODO__",
-    "schedulePlan": "__TODO__",
-    "desktopNotifications": "__TODO__",
-    "serverUrl": "__TODO__",
-    "workOffline": "__TODO__"
+    "askAssistant": "Preguntar al asistente TMX",
+    "schedulePlan": "Plan de programación",
+    "desktopNotifications": " Notificaciones de escritorio",
+    "serverUrl": "URL del servidor",
+    "workOffline": " Trabajar sin conexión"
   },
   "venueDetail": {
-    "noCourts": "__TODO__",
-    "notFound": "__TODO__"
+    "noCourts": "Todavía no hay canchas en esta sede.",
+    "notFound": "Sede no encontrada."
   },
   "tournamentDisplay": {
-    "refreshed": "__TODO__"
+    "refreshed": "Datos del torneo actualizados desde el servidor"
   },
   "platform": {
-    "about": "__TODO__"
+    "about": "Acerca de TMX"
   },
   "activeScale": {
-    "switchTitle": "__TODO__"
+    "switchTitle": "¿Cambiar la valoración activa?"
   },
   "scoreRelay": {
-    "networkError": "__TODO__"
+    "networkError": "score-relay: error de red"
   },
   "exportFile": {
-    "saveJson": "__TODO__",
-    "saveFile": "__TODO__"
+    "saveJson": "Guardar JSON",
+    "saveFile": "Guardar archivo"
   },
   "remoteMutations": {
-    "updateFailed": "__TODO__"
+    "updateFailed": "Error en la actualización remota: vuelva a cargar"
   },
   "mutationPrompts": {
-    "modify": "__TODO__",
-    "impersonate": "__TODO__",
-    "rejected": "__TODO__",
-    "sessionExpired": "__TODO__"
+    "modify": "¿Modificar?",
+    "impersonate": "¿Suplantar identidad?",
+    "rejected": "El servidor rechazó la modificación",
+    "sessionExpired": "Sesión caducada"
   },
   "queueService": {
-    "saved": "__TODO__"
+    "saved": "Guardado"
   },
   "storage": {
-    "importTournament": "__TODO__",
-    "resetFailed": "__TODO__",
-    "writeFailed": "__TODO__"
+    "importTournament": "Importar torneo",
+    "resetFailed": "No se pudo restablecer la base de datos",
+    "writeFailed": "Error de escritura en la base de datos"
   },
   "participantActions": {
-    "editParticipant": "__TODO__"
+    "editParticipant": "Editar participante"
   },
   "tournamentActions": {
-    "send": "__TODO__"
+    "send": "¿Enviar?"
   }
 }
