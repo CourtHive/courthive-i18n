@@ -1,6 +1,6 @@
 /* global console, process, require, __dirname */
 /**
- * Post-build gate: no `__TODO__` sentinel may reach `dist/locales/`.
+ * Post-build gate: neither translator sentinel may reach `dist/locales/`.
  *
  * i18next falls back to `fallbackLng` only when a key is **absent**. A key whose
  * value is the string `__TODO__` is present, so it renders literally — meaning a
@@ -12,8 +12,14 @@
  * French TD read `__TODO__` in the schedule UI. `copy-locales.cjs` now strips the
  * sentinel on the way to dist; this asserts it stays stripped.
  *
+ * `__STALE__` leaks differently and is checked alongside it. It is written as a
+ * PREFIX on a retained translation (`__STALE__Enregistrer dans le tournoi`), so
+ * a leak does not replace the string — it corrupts it, prepending eight
+ * underscores and a word to whatever the user reads. `copy-locales` strips the
+ * prefix and ships the translation; this asserts it stays stripped.
+ *
  * Also checks the inverse, because a stripper that removed *everything* would
- * pass a naive "no __TODO__" check: every locale must still carry a substantial
+ * pass a naive "no sentinels" check: every locale must still carry a substantial
  * number of real translations, and `en` must be untouched.
  *
  * Usage: node scripts/check-dist-no-todo.cjs   (chained into `pnpm build`)
@@ -22,6 +28,7 @@ const fs = require('fs');
 const path = require('path');
 
 const TODO = '__TODO__';
+const STALE = '__STALE__';
 const distLocales = path.join(__dirname, '..', 'dist', 'locales');
 const srcLocales = path.join(__dirname, '..', 'src', 'locales');
 
@@ -30,15 +37,20 @@ if (!fs.existsSync(distLocales)) {
   process.exit(1);
 }
 
-/** Every `dotted.path` whose leaf equals the sentinel. */
-function todoPaths(value, prefix, acc) {
-  if (value === TODO) {
-    acc.push(prefix);
+/**
+ * Every `dotted.path` whose leaf carries `sentinel`. `__TODO__` is matched
+ * exactly (it replaces the value); `__STALE__` is matched as a prefix (it wraps
+ * a retained translation).
+ */
+function sentinelPaths(value, sentinel, prefix, acc) {
+  if (typeof value === 'string') {
+    const hit = sentinel === TODO ? value === TODO : value.startsWith(sentinel);
+    if (hit) acc.push(prefix);
     return acc;
   }
   if (value === null || typeof value !== 'object' || Array.isArray(value)) return acc;
   for (const [key, child] of Object.entries(value)) {
-    todoPaths(child, prefix ? `${prefix}.${key}` : key, acc);
+    sentinelPaths(child, sentinel, prefix ? `${prefix}.${key}` : key, acc);
   }
   return acc;
 }
@@ -60,12 +72,21 @@ for (const file of files) {
   const code = file.replace(/\.json$/, '');
   const parsed = JSON.parse(fs.readFileSync(path.join(distLocales, file), 'utf8'));
 
-  const offenders = todoPaths(parsed, '', []);
-  if (offenders.length) {
+  const todoOffenders = sentinelPaths(parsed, TODO, '', []);
+  if (todoOffenders.length) {
     failed = true;
     console.error(
-      `check-dist-no-todo: ${file} ships ${offenders.length} __TODO__ key(s) — ` +
-        `these render literally instead of falling back to English. e.g. ${offenders.slice(0, 3).join(', ')}`,
+      `check-dist-no-todo: ${file} ships ${todoOffenders.length} __TODO__ key(s) — ` +
+        `these render literally instead of falling back to English. e.g. ${todoOffenders.slice(0, 3).join(', ')}`,
+    );
+  }
+
+  const staleOffenders = sentinelPaths(parsed, STALE, '', []);
+  if (staleOffenders.length) {
+    failed = true;
+    console.error(
+      `check-dist-no-todo: ${file} ships ${staleOffenders.length} __STALE__-prefixed key(s) — ` +
+        `these render the marker in front of the translation. e.g. ${staleOffenders.slice(0, 3).join(', ')}`,
     );
   }
 
@@ -95,4 +116,4 @@ for (const file of files) {
 }
 
 if (failed) process.exit(1);
-console.log(`check-dist-no-todo: OK — ${files.length} locale files carry no __TODO__`);
+console.log(`check-dist-no-todo: OK — ${files.length} locale files carry no __TODO__ or __STALE__`);

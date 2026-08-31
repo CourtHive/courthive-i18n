@@ -21,6 +21,10 @@ src/
     zh-CN.json
 scripts/
   compare-keys.cjs     # CI gate: fails on key drift / duplicate keys
+  merge-source-en.cjs  # Merges a consumer's en.json in; seeds __TODO__ / __STALE__
+  copy-locales.cjs     # src -> dist; drops __TODO__, unwraps __STALE__
+  check-dist-no-todo.cjs    # Build gate: no sentinel may reach dist
+  todo-report.cjs      # Backlog report consumed by i18n-todo-reminder
   install-husky-hooks.cjs   # Copies scripts/husky/* into .husky/ on prepare
   husky/
     pre-commit         # Hook body (lint + check-types + compare-keys)
@@ -37,9 +41,31 @@ scripts/
   completeness, RTL flag) used by CFS to serve `GET /i18n/manifest`.
 - `dist/index.js` + `.d.ts` — re-exports the manifest type and labels.
 
-`completeness = 1 - (__TODO__ count / total keys)`. New keys land as
-`__TODO__` placeholders in non-English locales; translators fill them
-in and merge a follow-up PR that brings completeness back to 1.0.
+## The two translator sentinels
+
+`completeness = 1 - ((__TODO__ + __STALE__ count) / total keys)`, measured
+against `src` — the only tree where the sentinels still exist.
+
+| sentinel    | means                                                              | shape in `src`                         | what `dist` ships                     | what the user sees                 |
+| ----------- | ------------------------------------------------------------------ | -------------------------------------- | ------------------------------------- | ---------------------------------- |
+| `__TODO__`  | no translation yet                                                 | replaces the value                     | key **dropped**                       | English (i18next per-key fallback) |
+| `__STALE__` | a translation exists, but the English it was made from has changed | **prefix** on the retained translation | prefix **stripped**, translation kept | the old translation                |
+
+`merge-source-en.cjs` seeds both: `__TODO__` for keys the source adds,
+`__STALE__` for keys whose English value changes under an existing
+translation. Translators fill in / confirm them and merge a follow-up PR
+that brings completeness back to 1.0.
+
+`__STALE__` is deliberately a _prefix_, not a replacement value. Replacing
+the value and dropping it like `__TODO__` would make the key **absent**, and
+an absent key falls back to English — so a copy edit in English would
+silently un-translate the string for every non-English user. Keeping the
+translation on screen while the metric counts it as debt is the trade.
+
+Neither sentinel may reach `dist`: `check-dist-no-todo.cjs` fails the build
+on either. A shipped `__TODO__` renders literally (this was live in
+production on 2026-08-16 — a French TD read `__TODO__` in the schedule UI);
+a shipped `__STALE__` would prepend the marker to a real translation.
 
 ## Scripts
 

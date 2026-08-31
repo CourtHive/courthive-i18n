@@ -1,6 +1,6 @@
 /**
  * Build-time CLI: scans `dist/locales/*.json`, computes a SHA256 per
- * file, counts keys and `__TODO__` sentinels, and emits
+ * file, counts keys and translator sentinels, and emits
  * `dist/manifest.json`.
  *
  * The manifest is the authoritative contract served by CFS at
@@ -27,6 +27,16 @@
  * `keyCount` is therefore the *translatable* key count, which is ≥ the number of
  * keys present in the served file. That is the useful reading of it, but it does
  * mean keyCount cannot be used to validate a downloaded locale's key count.
+ *
+ * ## Completeness counts both sentinels
+ *
+ * `__TODO__` means no translation exists. `__STALE__<translation>` means one
+ * exists but the English it was made from has since changed, so it may now
+ * answer the wrong question — see `scripts/merge-source-en.cjs`. Both are
+ * outstanding translator work and both count against `completeness`; a stale
+ * string is not a correct one. The stale prefix is stripped by `copy-locales`
+ * on the way to dist, so it is only ever visible in `src` — which is exactly
+ * why the metric is read from `src`.
  */
 
 import { createHash } from 'node:crypto';
@@ -51,7 +61,7 @@ export interface ManifestLocaleEntry {
   size: number;
   /** Total leaf-key count. */
   keyCount: number;
-  /** 1 - (__TODO__ count / total keys). */
+  /** 1 - ((__TODO__ + __STALE__ count) / total keys). */
   completeness: number;
   /** Right-to-left rendering required. */
   rtl: boolean;
@@ -66,6 +76,7 @@ export interface Manifest {
 }
 
 const TODO_SENTINEL = '__TODO__';
+const STALE_SENTINEL = '__STALE__';
 
 function countLeafKeys(obj: unknown): number {
   if (obj === null || typeof obj !== 'object' || Array.isArray(obj)) return 1;
@@ -76,12 +87,13 @@ function countLeafKeys(obj: unknown): number {
   return n;
 }
 
-function countTodos(obj: unknown): number {
-  if (typeof obj === 'string') return obj === TODO_SENTINEL ? 1 : 0;
+/** Leaves carrying either sentinel — untranslated or translated-then-drifted. */
+function countOutstanding(obj: unknown): number {
+  if (typeof obj === 'string') return obj === TODO_SENTINEL || obj.startsWith(STALE_SENTINEL) ? 1 : 0;
   if (obj === null || typeof obj !== 'object' || Array.isArray(obj)) return 0;
   let n = 0;
   for (const key of Object.keys(obj as Record<string, unknown>)) {
-    n += countTodos((obj as Record<string, unknown>)[key]);
+    n += countOutstanding((obj as Record<string, unknown>)[key]);
   }
   return n;
 }
@@ -112,8 +124,8 @@ function build(): Manifest {
     const sha = createHash('sha256').update(raw).digest('hex');
     const size = statSync(fullPath).size;
 
-    // … while the translation metric is read from src, where `__TODO__` still
-    // lives. Fall back to the dist copy if src is unavailable (e.g. a consumer
+    // … while the translation metric is read from src, where both sentinels
+    // still live. Fall back to the dist copy if src is unavailable (e.g. a consumer
     // running the generator against an extracted package) rather than silently
     // reporting 100% complete.
     const srcPath = join(__dirname, '..', 'src', 'locales', file);
@@ -121,8 +133,8 @@ function build(): Manifest {
     const parsed = JSON.parse(readFileSync(metricSource, 'utf8')) as unknown;
 
     const keyCount = countLeafKeys(parsed);
-    const todos = countTodos(parsed);
-    const completeness = keyCount > 0 ? 1 - todos / keyCount : 1;
+    const outstanding = countOutstanding(parsed);
+    const completeness = keyCount > 0 ? 1 - outstanding / keyCount : 1;
 
     entries.push({
       code,
@@ -137,7 +149,8 @@ function build(): Manifest {
 
     if (completeness < 1) {
       console.warn(
-        `manifest.gen: locale "${code}" is ${(completeness * 100).toFixed(1)}% complete (${todos}/${keyCount} __TODO__)`,
+        `manifest.gen: locale "${code}" is ${(completeness * 100).toFixed(1)}% complete ` +
+          `(${outstanding}/${keyCount} outstanding)`,
       );
     }
   }
