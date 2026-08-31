@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.7.0](https://github.com/CourtHive/courthive-i18n/compare/v0.6.0...v0.7.0) (2026-08-31)
+
+
+### Features
+
+* **i18n:** translate the console burn-down keys — back to 100% ([#117](https://github.com/CourtHive/courthive-i18n/issues/117)) ([82a2188](https://github.com/CourtHive/courthive-i18n/commit/82a21888dfac6013c8c22dd6638a08b728755037))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from courthive-console ([#115](https://github.com/CourtHive/courthive-i18n/issues/115)) ([f472fb3](https://github.com/CourtHive/courthive-i18n/commit/f472fb34a5d9656638852adc23ab765190e4c7a7))
+
 ## [0.6.0](https://github.com/CourtHive/courthive-i18n/compare/v0.5.0...v0.6.0) (2026-08-31)
 
 
