@@ -881,12 +881,79 @@
           "noTime": "__TODO__",
           "unknownMatchUp": "__TODO__"
         }
+      },
+      "actions": {
+        "trigger": "__TODO__",
+        "viewDraw": "__TODO__",
+        "participants": "__TODO__"
+      },
+      "rest": {
+        "heading": "__TODO__",
+        "hoursMinutes": "__TODO__",
+        "minutesOnly": "__TODO__",
+        "rested": "__TODO__",
+        "resting": "__TODO__",
+        "onCourt": "__TODO__",
+        "onCourtUntil": "__TODO__",
+        "onCourtOverrun": "__TODO__",
+        "anchorUnreliable": "__TODO__",
+        "noPriorMatch": "__TODO__",
+        "typeChange": "__TODO__",
+        "ordinal": "__TODO__",
+        "ordinalLimit": "__TODO__",
+        "atLimit": "__TODO__",
+        "source": {
+          "endTime": "__TODO__",
+          "scoredTime": "__TODO__",
+          "startTime": "__TODO__",
+          "calledAt": "__TODO__",
+          "scheduledTime": "__TODO__"
+        },
+        "discarded": "__TODO__",
+        "discardedName": {
+          "endTime": "__TODO__",
+          "scoredTime": "__TODO__",
+          "startTime": "__TODO__",
+          "calledAt": "__TODO__",
+          "scheduledTime": "__TODO__"
+        },
+        "skip": {
+          "generic": "__TODO__",
+          "bye": "__TODO__",
+          "completed": "__TODO__",
+          "noParticipants": "__TODO__",
+          "unknownMatchUp": "__TODO__"
+        }
       }
     },
     "byeScheduledTitle": "__TODO__",
     "byeScheduledBody": "__TODO__",
     "byeKeepScheduling": "__TODO__",
-    "byeRemoveScheduling": "__TODO__"
+    "byeRemoveScheduling": "__TODO__",
+    "startAllRest": {
+      "title": "__TODO__",
+      "pill": "__TODO__",
+      "intro": "__TODO__",
+      "resting": "__TODO__",
+      "onCourt": "__TODO__"
+    },
+    "card": {
+      "rest": {
+        "onCourt": "__TODO__",
+        "none": "__TODO__",
+        "unknown": "__TODO__",
+        "limit": "__TODO__",
+        "tooltipRest": "__TODO__",
+        "tooltipOnCourt": "__TODO__",
+        "tooltipOnCourtOverrun": "__TODO__",
+        "tooltipNone": "__TODO__",
+        "tooltipUnknown": "__TODO__"
+      }
+    },
+    "venueFrame": {
+      "notice": "__TODO__",
+      "noticeTitle": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Não fez Check-Out",
@@ -985,7 +1052,10 @@
       "themeSystem": "Sistema",
       "font": "Fonte",
       "dangerZone": "Zona de perigo",
-      "schedule2": "Página de Programação 2"
+      "schedule2": "Página de Programação 2",
+      "options": "__TODO__",
+      "officialsBoard": "__TODO__",
+      "linkedTournaments": "__TODO__"
     },
     "editTournamentName": {
       "title": "Editar Nome do Torneio",
@@ -1129,7 +1199,8 @@
       "notClaimed": "Não reivindicado",
       "offline": "Offline",
       "online": "Online",
-      "uploadWarning": "Aviso: Esta ação substituirá o registro do torneio no servidor"
+      "uploadWarning": "Aviso: Esta ação substituirá o registro do torneio no servidor",
+      "scopedAccess": "__TODO__"
     },
     "inviteUser": {
       "title": "Convidar usuário",
@@ -1584,6 +1655,38 @@
       },
       "contactPerson": "__TODO__",
       "contactPersonNone": "__TODO__"
+    },
+    "callSheet": {
+      "title": "__TODO__",
+      "contactSelected": "__TODO__",
+      "reachable_one": "__TODO__",
+      "reachable_other": "__TODO__",
+      "withoutContact_one": "__TODO__",
+      "withoutContact_other": "__TODO__",
+      "noContact": "__TODO__",
+      "textAll_one": "__TODO__",
+      "textAll_other": "__TODO__",
+      "emailAll_one": "__TODO__",
+      "emailAll_other": "__TODO__",
+      "copyNumbers": "__TODO__",
+      "print": "__TODO__",
+      "notReached_one": "__TODO__",
+      "notReached_other": "__TODO__",
+      "noMobiles": "__TODO__",
+      "noEmails": "__TODO__",
+      "noNumbers": "__TODO__",
+      "numbersCopied_one": "__TODO__",
+      "numbersCopied_other": "__TODO__",
+      "copyFailed": "__TODO__",
+      "columns": {
+        "name": "__TODO__",
+        "role": "__TODO__",
+        "contact": "__TODO__",
+        "mobile": "__TODO__",
+        "telephone": "__TODO__",
+        "email": "__TODO__",
+        "public": "__TODO__"
+      }
     }
   },
   "dashboard": {
@@ -1762,7 +1865,18 @@
     "deleteForbidden": "Você não está autorizado a excluir este torneio.",
     "matchUpScoredElsewhere": "__TODO__",
     "overwriteRemoteScore": "__TODO__",
-    "cannotModifyParticipant": "__TODO__"
+    "cannotModifyParticipant": "__TODO__",
+    "schedule": {
+      "endBeforeStart": "__TODO__",
+      "startAfterEnd": "__TODO__",
+      "beforeCourtOpens": "__TODO__",
+      "afterCourtCloses": "__TODO__",
+      "invalidEndTime": "__TODO__",
+      "invalidStartTime": "__TODO__",
+      "invalidTime": "__TODO__",
+      "courtNotFound": "__TODO__",
+      "notSaved": "__TODO__"
+    }
   },
   "loginMenu": {
     "authorization": "Autorização",
@@ -1867,7 +1981,13 @@
       "teamAffiliation": "Filiação da equipe",
       "contactPublic": "__TODO__",
       "contactPublicYes": "__TODO__",
-      "contactPublicNo": "__TODO__"
+      "contactPublicNo": "__TODO__",
+      "contactActions": "__TODO__",
+      "contactCall": "__TODO__",
+      "contactText": "__TODO__",
+      "contactEmail": "__TODO__",
+      "contactPrivateMark": "__TODO__",
+      "contactMore": "__TODO__"
     },
     "bracket": {
       "participant": "Participante",
@@ -2081,7 +2201,8 @@
         "addVenue": "__TODO__",
         "added": "__TODO__",
         "searching": "__TODO__"
-      }
+      },
+      "addCourtsPreview": "__TODO__"
     },
     "events": {
       "title": "Eventos",
@@ -2190,7 +2311,12 @@
         "contactIsPublic": "__TODO__",
         "contactRelationship": "__TODO__",
         "contactName": "__TODO__",
-        "contactNamePlaceholder": "__TODO__"
+        "contactNamePlaceholder": "__TODO__",
+        "primaryContact": "__TODO__",
+        "additionalContact": "__TODO__",
+        "telephone": "__TODO__",
+        "telephonePlaceholder": "__TODO__",
+        "whichPrimary": "__TODO__"
       },
       "newTeam": "Nova equipe",
       "generateTeams": "Gerar equipes",
@@ -2235,7 +2361,12 @@
         "chaperone": "__TODO__",
         "emergency": "__TODO__",
         "other": "__TODO__"
-      }
+      },
+      "selected": "__TODO__",
+      "closeTheDay": "__TODO__",
+      "closeTheDayNobody": "__TODO__",
+      "closeTheDayConfirm_one": "__TODO__",
+      "closeTheDayConfirm_other": "__TODO__"
     }
   },
   "overlays": {
@@ -3027,7 +3158,8 @@
   "officiating": {
     "conflictWarning": "__TODO__",
     "selectOfficial": "__TODO__",
-    "noOfficialsFound": "__TODO__"
+    "noOfficialsFound": "__TODO__",
+    "notChecked": "__TODO__"
   },
   "participantRoles": {
     "OTHER": "__TODO__",
@@ -3084,5 +3216,116 @@
       "alias": "__TODO__",
       "city": "__TODO__"
     }
+  },
+  "capability": {
+    "denied": {
+      "provider": "__TODO__",
+      "createCompetitor": "__TODO__",
+      "createOfficial": "__TODO__",
+      "importParticipants": "__TODO__",
+      "deleteParticipants": "__TODO__",
+      "editParticipantDetails": "__TODO__",
+      "modifyEntries": "__TODO__",
+      "createEvent": "__TODO__",
+      "deleteEvent": "__TODO__",
+      "createDraw": "__TODO__",
+      "deleteDraw": "__TODO__",
+      "assignPositions": "__TODO__",
+      "modifyStructures": "__TODO__",
+      "createVenue": "__TODO__",
+      "deleteVenue": "__TODO__",
+      "modifySchedule": "__TODO__",
+      "useBulkScheduling": "__TODO__",
+      "enterScores": "__TODO__",
+      "publish": "__TODO__",
+      "unpublish": "__TODO__",
+      "useChat": "__TODO__"
+    },
+    "outOfScope": "__TODO__"
+  },
+  "demoMode": {
+    "title": "__TODO__",
+    "menuItem": "__TODO__",
+    "clientOnly": "__TODO__",
+    "posture": "__TODO__",
+    "capabilities": "__TODO__",
+    "exit": "__TODO__",
+    "badgeLabel": "__TODO__",
+    "bannerText": "__TODO__",
+    "legend": "__TODO__",
+    "presets": {
+      "providerDefaults": "__TODO__",
+      "recorder": "__TODO__",
+      "scheduler": "__TODO__",
+      "registrar": "__TODO__",
+      "director": "__TODO__",
+      "readOnly": "__TODO__",
+      "custom": "__TODO__"
+    },
+    "groups": {
+      "participants": "__TODO__",
+      "events": "__TODO__",
+      "draws": "__TODO__",
+      "scheduling": "__TODO__",
+      "venues": "__TODO__",
+      "scoring": "__TODO__",
+      "publishing": "__TODO__",
+      "settings": "__TODO__",
+      "communication": "__TODO__"
+    },
+    "badge": {
+      "both": "__TODO__",
+      "ui": "__TODO__",
+      "mutation": "__TODO__",
+      "none": "__TODO__"
+    }
+  },
+  "checkIn": {
+    "action": "__TODO__",
+    "title": "__TODO__",
+    "clickToCheckIn": "__TODO__",
+    "clickToCheckOut": "__TODO__",
+    "toggleFailed": "__TODO__",
+    "callBeforeCheckIn_one": "__TODO__",
+    "callBeforeCheckIn_other": "__TODO__",
+    "columnHeader": "__TODO__",
+    "columnTooltip": "__TODO__",
+    "badgeComplete_one": "__TODO__",
+    "badgeComplete_other": "__TODO__",
+    "badgePartial_one": "__TODO__",
+    "badgePartial_other": "__TODO__",
+    "callOnDropBeforeCheckIn_one": "__TODO__",
+    "callOnDropBeforeCheckIn_other": "__TODO__",
+    "promptMode": {
+      "label": "__TODO__",
+      "off": "__TODO__",
+      "on": "__TODO__",
+      "auto": "__TODO__",
+      "offHint": "__TODO__",
+      "onHint": "__TODO__",
+      "autoHint": "__TODO__"
+    }
+  },
+  "ofc": "__TODO__",
+  "officials": {
+    "empty": "__TODO__",
+    "state": {
+      "onCourt": "__TODO__",
+      "assigned": "__TODO__",
+      "waiting": "__TODO__",
+      "available": "__TODO__",
+      "availableHint": "__TODO__"
+    },
+    "columns": {
+      "name": "__TODO__",
+      "state": "__TODO__",
+      "court": "__TODO__",
+      "next": "__TODO__",
+      "matches": "__TODO__",
+      "onCourt": "__TODO__",
+      "contact": "__TODO__"
+    },
+    "callSheet": "__TODO__",
+    "callSheetSubtitle": "__TODO__"
   }
 }
