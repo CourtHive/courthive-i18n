@@ -308,7 +308,9 @@
     "approve": "Approuver le joueur",
     "add2team": "Ajouter un joueur à l'équipe",
     "lastfirst": "NOM Prénom",
-    "firstlast": "Prénom Nom"
+    "firstlast": "Prénom Nom",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Simple",
@@ -985,7 +987,8 @@
     "venueFrame": {
       "notice": "Heures en {{timeZone}} — fuseau du site non défini",
       "noticeTitle": "Ce tournoi n’a pas de fuseau horaire défini ; les heures sont donc affichées dans le fuseau de cet appareil ({{timeZone}}). Définissez le fuseau horaire du site pour que tous les opérateurs lisent la même heure."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Défaut de désinscription",
@@ -2977,10 +2980,10 @@
     "title": "Vérifier votre e-mail",
     "intro": "Cliquez sur le bouton ci-dessous pour confirmer que cet e-mail est le vôtre.",
     "verifyButton": "Vérifier l'e-mail",
-    "verifying": "Vérification…",
+    "verifying": "__STALE__Vérification…",
     "success": "Vérifié ✓ — vous pouvez désormais recevoir les e-mails de récupération de mot de passe à {{email}}. Vous pouvez fermer cet onglet.",
     "successPlain": "Vérifié ✓. Vous pouvez fermer cet onglet.",
-    "missingToken": "Ce lien de vérification n'a pas de jeton. Réessayez de cliquer sur le lien dans votre e-mail, ou demandez-en un nouveau dans les paramètres d'e-mail de contact.",
+    "missingToken": "__STALE__Ce lien de vérification n'a pas de jeton. Réessayez de cliquer sur le lien dans votre e-mail, ou demandez-en un nouveau dans les paramètres d'e-mail de contact.",
     "tokenExpired": "Ce lien de vérification a expiré. Demandez-en un nouveau dans vos paramètres d'e-mail de contact.",
     "tokenMismatch": "Ce lien ne correspond plus à votre e-mail de contact actuel — il a probablement été remplacé par une modification plus récente.",
     "tryAgain": "Réessayer",

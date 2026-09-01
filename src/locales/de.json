@@ -308,7 +308,9 @@
     "approve": "Spieler genehmigen",
     "add2team": "Teamspieler hinzufügen",
     "lastfirst": "NACHNAME Vorname",
-    "firstlast": "Vorname Nachname"
+    "firstlast": "Vorname Nachname",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Einzel",
@@ -985,7 +987,8 @@
     "venueFrame": {
       "notice": "Zeiten in {{timeZone}} — Zeitzone der Anlage nicht festgelegt",
       "noticeTitle": "Für dieses Turnier ist keine Zeitzone festgelegt, daher werden die Zeiten in der Zone dieses Geräts angezeigt ({{timeZone}}). Legen Sie die Zeitzone der Anlage fest, damit alle Beteiligten dieselbe Uhr lesen."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nicht abgemeldet",
@@ -2977,10 +2980,10 @@
     "title": "E-Mail verifizieren",
     "intro": "Klicken Sie auf die Schaltfläche unten, um zu bestätigen, dass diese E-Mail Ihnen gehört.",
     "verifyButton": "E-Mail verifizieren",
-    "verifying": "Wird verifiziert…",
+    "verifying": "__STALE__Wird verifiziert…",
     "success": "Verifiziert ✓ — Sie können nun Passwort-Wiederherstellungs-E-Mails an {{email}} empfangen. Sie können diesen Tab schließen.",
     "successPlain": "Verifiziert ✓. Sie können diesen Tab schließen.",
-    "missingToken": "Diesem Verifizierungslink fehlt das Token. Klicken Sie erneut auf den Link in Ihrer E-Mail oder fordern Sie in den Kontakt-E-Mail-Einstellungen einen neuen an.",
+    "missingToken": "__STALE__Diesem Verifizierungslink fehlt das Token. Klicken Sie erneut auf den Link in Ihrer E-Mail oder fordern Sie in den Kontakt-E-Mail-Einstellungen einen neuen an.",
     "tokenExpired": "Dieser Verifizierungslink ist abgelaufen. Fordern Sie in Ihren Kontakt-E-Mail-Einstellungen einen neuen an.",
     "tokenMismatch": "Dieser Link stimmt nicht mehr mit Ihrer aktuellen Kontakt-E-Mail überein — er wurde wahrscheinlich durch eine neuere Änderung ersetzt.",
     "tryAgain": "Erneut versuchen",

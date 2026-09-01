@@ -475,7 +475,9 @@
     "approve": "Schválit hráče",
     "add2team": "Přidat hráče do týmu",
     "lastfirst": "PŘÍJMENÍ Jméno",
-    "firstlast": "Jméno Příjmení"
+    "firstlast": "Jméno Příjmení",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Dvouhra",
@@ -1152,7 +1154,8 @@
     "venueFrame": {
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
       "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",
@@ -2977,10 +2980,10 @@
     "title": "Ověřte svůj e-mail",
     "intro": "Kliknutím na tlačítko níže potvrdíte, že tento e-mail je váš.",
     "verifyButton": "Ověřit e-mail",
-    "verifying": "Ověřování…",
+    "verifying": "__STALE__Ověřování…",
     "success": "Ověřeno ✓ — nyní můžete přijímat e-mail pro obnovení hesla na {{email}}. Tuto kartu můžete zavřít.",
     "successPlain": "Ověřeno ✓. Tuto kartu můžete zavřít.",
-    "missingToken": "Tomuto ověřovacímu odkazu chybí token. Zkuste znovu kliknout na odkaz v e-mailu nebo si vyžádejte nový v nastavení kontaktního e-mailu.",
+    "missingToken": "__STALE__Tomuto ověřovacímu odkazu chybí token. Zkuste znovu kliknout na odkaz v e-mailu nebo si vyžádejte nový v nastavení kontaktního e-mailu.",
     "tokenExpired": "Tento ověřovací odkaz vypršel. Vyžádejte si nový v nastavení kontaktního e-mailu.",
     "tokenMismatch": "Tento odkaz již neodpovídá vašemu aktuálnímu kontaktnímu e-mailu — pravděpodobně byl nahrazen novější změnou.",
     "tryAgain": "Zkusit znovu",

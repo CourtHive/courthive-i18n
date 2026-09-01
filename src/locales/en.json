@@ -475,7 +475,9 @@
     "approve": "Approve Player",
     "add2team": "Add Team Player",
     "lastfirst": "LAST First",
-    "firstlast": "First Last"
+    "firstlast": "First Last",
+    "participants": "Search participants",
+    "noResults": "No matches for that name"
   },
   "formats": {
     "singles": "Singles",
@@ -1152,7 +1154,8 @@
     "venueFrame": {
       "notice": "Times in {{timeZone}} — venue zone not set",
       "noticeTitle": "This tournament has no time zone set, so times are shown in this device’s zone ({{timeZone}}). Set the venue’s time zone so every operator reads the same clock."
-    }
+    },
+    "viewInDraw": "View in draw"
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -2977,10 +2980,10 @@
     "title": "Verify your email",
     "intro": "Click the button below to confirm that this email is yours.",
     "verifyButton": "Verify email",
-    "verifying": "Verifying…",
+    "verifying": "Verifying your email…",
     "success": "Verified ✓ — you can now receive password-recovery email at {{email}}. You may close this tab.",
     "successPlain": "Verified ✓. You may close this tab.",
-    "missingToken": "This verification link is missing its token. Try clicking the link in your email again, or request a fresh one from the contact-email settings.",
+    "missingToken": "Missing verification token.",
     "tokenExpired": "This verification link has expired. Request a fresh one from your contact-email settings.",
     "tokenMismatch": "This link no longer matches your current contact email — it was probably superseded by a more recent change.",
     "tryAgain": "Try again",

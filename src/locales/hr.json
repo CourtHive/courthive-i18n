@@ -475,7 +475,9 @@
     "approve": "Odobri igrača",
     "add2team": "Dodaj igrača u ekipu",
     "lastfirst": "PREZIME Ime",
-    "firstlast": "Ime Prezime"
+    "firstlast": "Ime Prezime",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Pojedinačno",
@@ -1152,7 +1154,8 @@
     "venueFrame": {
       "notice": "Vremena u {{timeZone}} — zona lokacije nije postavljena",
       "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Propust odjave",
@@ -2977,10 +2980,10 @@
     "title": "Potvrdite e-poštu",
     "intro": "Kliknite gumb u nastavku za potvrdu da je ova e-pošta vaša.",
     "verifyButton": "Potvrdi e-poštu",
-    "verifying": "Potvrđivanje…",
+    "verifying": "__STALE__Potvrđivanje…",
     "success": "Potvrđeno ✓ — sada možete primati e-poštu za oporavak lozinke na {{email}}. Možete zatvoriti ovu karticu.",
     "successPlain": "Potvrđeno ✓. Možete zatvoriti ovu karticu.",
-    "missingToken": "Ovoj poveznici za potvrdu nedostaje token. Pokušajte ponovno kliknuti poveznicu u e-pošti ili zatražite novu iz postavki kontakt e-pošte.",
+    "missingToken": "__STALE__Ovoj poveznici za potvrdu nedostaje token. Pokušajte ponovno kliknuti poveznicu u e-pošti ili zatražite novu iz postavki kontakt e-pošte.",
     "tokenExpired": "Ova je poveznica za potvrdu istekla. Zatražite novu iz postavki kontakt e-pošte.",
     "tokenMismatch": "Ova poveznica više ne odgovara vašoj trenutnoj kontakt e-pošti — vjerojatno ju je zamijenila novija promjena.",
     "tryAgain": "Pokušaj ponovno",

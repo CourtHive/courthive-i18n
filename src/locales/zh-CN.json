@@ -471,7 +471,9 @@
     "approve": "批准选手",
     "add2team": "添加队员",
     "lastfirst": "姓 名",
-    "firstlast": "名 姓"
+    "firstlast": "名 姓",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "单打",
@@ -1148,7 +1150,8 @@
     "venueFrame": {
       "notice": "时间以 {{timeZone}} 显示 — 未设置场馆时区",
       "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。"
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "未签退",
@@ -2977,10 +2980,10 @@
     "title": "验证您的邮箱",
     "intro": "点击下方按钮以确认此邮箱属于您。",
     "verifyButton": "验证邮箱",
-    "verifying": "正在验证…",
+    "verifying": "__STALE__正在验证…",
     "success": "已验证 ✓ — 您现在可以在 {{email}} 接收密码恢复邮件。您可以关闭此标签页。",
     "successPlain": "已验证 ✓。您可以关闭此标签页。",
-    "missingToken": "此验证链接缺少令牌。请重新点击邮件中的链接，或从联系邮箱设置中请求一个新链接。",
+    "missingToken": "__STALE__此验证链接缺少令牌。请重新点击邮件中的链接，或从联系邮箱设置中请求一个新链接。",
     "tokenExpired": "此验证链接已过期。请从您的联系邮箱设置中请求一个新链接。",
     "tokenMismatch": "此链接不再与您当前的联系邮箱匹配 — 可能已被更近期的更改取代。",
     "tryAgain": "重试",
