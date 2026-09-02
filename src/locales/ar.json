@@ -76,8 +76,8 @@
   "ovw": "نظرة عامة",
   "prt": "المشاركون",
   "evt": "أحداث",
-  "sch": "الجدول (قديم)",
-  "sch2": "الجدول",
+  "sch": "__STALE__الجدول (قديم)",
+  "sch2": "__STALE__الجدول",
   "ven": "الأماكن",
   "pub": "النشر",
   "rename": "إعادة تسمية",
@@ -1304,7 +1304,7 @@
     },
     "editGroupNames": {
       "title": "تعديل أسماء المجموعات",
-      "minChars": "3 أحرف كحد أدنى",
+      "minChars": "__STALE__3 أحرف كحد أدنى",
       "groupsRenamed": "تمت إعادة تسمية المجموعات"
     },
     "addFlights": {
@@ -1562,15 +1562,15 @@
       "usageList": "{{name}} مُستخدمة بواسطة: {{events}}"
     },
     "firstLogin": {
-      "title": "عيّن كلمة مرورك",
-      "intro": "تم إنشاء حسابك بكلمة مرور مؤقتة. اختر كلمة مرور جديدة لإكمال تسجيل الدخول.",
-      "newPasswordLabel": "كلمة المرور الجديدة",
-      "newPasswordPlaceholder": "8 أحرف على الأقل",
-      "confirmPasswordLabel": "تأكيد كلمة المرور",
-      "confirmPasswordPlaceholder": "أعد إدخال كلمة المرور الجديدة",
-      "setPassword": "تعيين كلمة المرور",
-      "failed": "تعذّر تعيين كلمة مرورك. يرجى المحاولة مجدداً.",
-      "tokenExpired": "انتهت صلاحية جلسة تسجيل الدخول هذه. يرجى تسجيل الدخول مجدداً."
+      "title": "__STALE__عيّن كلمة مرورك",
+      "intro": "__STALE__تم إنشاء حسابك بكلمة مرور مؤقتة. اختر كلمة مرور جديدة لإكمال تسجيل الدخول.",
+      "newPasswordLabel": "__STALE__كلمة المرور الجديدة",
+      "newPasswordPlaceholder": "__STALE__8 أحرف على الأقل",
+      "confirmPasswordLabel": "__STALE__تأكيد كلمة المرور",
+      "confirmPasswordPlaceholder": "__STALE__أعد إدخال كلمة المرور الجديدة",
+      "setPassword": "__STALE__تعيين كلمة المرور",
+      "failed": "__STALE__تعذّر تعيين كلمة مرورك. يرجى المحاولة مجدداً.",
+      "tokenExpired": "__STALE__انتهت صلاحية جلسة تسجيل الدخول هذه. يرجى تسجيل الدخول مجدداً."
     },
     "forgotPassword": {
       "title": "إعادة تعيين كلمة مرورك",
@@ -1630,16 +1630,16 @@
       "failed": "فشل الحذف."
     },
     "contactEmail": {
-      "title": "بريد الاسترداد",
-      "label": "بريد الاسترداد",
+      "title": "__STALE__بريد الاسترداد",
+      "label": "__STALE__بريد الاسترداد",
       "save": "حفظ",
       "resend": "إعادة إرسال التحقق",
-      "savedPending": "تم إرسال بريد التحقق إلى {{email}}.",
-      "resent": "تم إرسال بريد التحقق.",
-      "alreadyVerified": "بريد الاسترداد موثَّق بالفعل.",
-      "failed": "تعذّر تحديث بريد الاسترداد. يرجى المحاولة مجدداً.",
-      "statusNotSet": "لم يتم تعيين بريد استرداد. أضف واحداً لتتمكن من استعادة الوصول إذا فقدت كلمة المرور.",
-      "statusPending": "بانتظار التحقق — تحقق من {{email}} وانقر الرابط.",
+      "savedPending": "__STALE__تم إرسال بريد التحقق إلى {{email}}.",
+      "resent": "__STALE__تم إرسال بريد التحقق.",
+      "alreadyVerified": "__STALE__بريد الاسترداد موثَّق بالفعل.",
+      "failed": "__STALE__تعذّر تحديث بريد الاسترداد. يرجى المحاولة مجدداً.",
+      "statusNotSet": "__STALE__لم يتم تعيين بريد استرداد. أضف واحداً لتتمكن من استعادة الوصول إذا فقدت كلمة المرور.",
+      "statusPending": "__STALE__بانتظار التحقق — تحقق من {{email}} وانقر الرابط.",
       "statusVerified": "موثَّق: {{email}}"
     },
     "editUser": {
@@ -2208,7 +2208,7 @@
       "viewAvailability": "عرض التوفر",
       "viewTable": "عرض الجدول",
       "setDefaultAvailability": "تعيين التوفر الافتراضي",
-      "saveToTournament": "حفظ",
+      "saveToTournament": "__STALE__حفظ",
       "grid": {
         "view": "عرض",
         "day1": "يوم واحد",
@@ -2675,7 +2675,9 @@
       "deletedDrawsLoadError": "فشل تحميل القرعات المحذوفة",
       "providerLockedToActive": "مقفل على المزوّد النشط في جلستك. أوقف انتحال الصفة (أو بدّل المزوّدين) لفحص القرعات المحذوفة لمستأجر آخر."
     },
-    "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى."
+    "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "معالج التنسيق",
@@ -2851,7 +2853,14 @@
     "userCreated": "تم إنشاء المستخدم",
     "userFieldsRequired": "البريد والمعرّف الخارجي مطلوبان",
     "selectProvider": "اختر مزوّداً…",
-    "selectProviderFirst": "اختر مزوّداً أولاً"
+    "selectProviderFirst": "اختر مزوّداً أولاً",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "إدارة الوصول إلى البطولة",

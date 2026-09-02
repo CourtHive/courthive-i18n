@@ -76,8 +76,8 @@
   "ovw": "Visão Geral",
   "prt": "Participantes",
   "evt": "Eventos",
-  "sch": "Programação (legado)",
-  "sch2": "Programação",
+  "sch": "__STALE__Programação (legado)",
+  "sch2": "__STALE__Programação",
   "ven": "Locais",
   "pub": "Publicação",
   "rename": "Renomear",
@@ -1304,7 +1304,7 @@
     },
     "editGroupNames": {
       "title": "Editar nomes dos grupos",
-      "minChars": "mínimo de 3 caracteres",
+      "minChars": "__STALE__mínimo de 3 caracteres",
       "groupsRenamed": "Grupos renomeados"
     },
     "addFlights": {
@@ -1562,15 +1562,15 @@
       "usageList": "{{name}} é usada por: {{events}}"
     },
     "firstLogin": {
-      "title": "Defina sua senha",
-      "intro": "Sua conta foi criada com uma senha temporária. Escolha uma nova senha para concluir o login.",
-      "newPasswordLabel": "Nova senha",
-      "newPasswordPlaceholder": "mínimo de 8 caracteres",
-      "confirmPasswordLabel": "Confirmar senha",
-      "confirmPasswordPlaceholder": "digite a nova senha novamente",
-      "setPassword": "Definir senha",
-      "failed": "Não foi possível definir sua senha. Tente novamente.",
-      "tokenExpired": "Esta sessão de login expirou. Faça login novamente."
+      "title": "__STALE__Defina sua senha",
+      "intro": "__STALE__Sua conta foi criada com uma senha temporária. Escolha uma nova senha para concluir o login.",
+      "newPasswordLabel": "__STALE__Nova senha",
+      "newPasswordPlaceholder": "__STALE__mínimo de 8 caracteres",
+      "confirmPasswordLabel": "__STALE__Confirmar senha",
+      "confirmPasswordPlaceholder": "__STALE__digite a nova senha novamente",
+      "setPassword": "__STALE__Definir senha",
+      "failed": "__STALE__Não foi possível definir sua senha. Tente novamente.",
+      "tokenExpired": "__STALE__Esta sessão de login expirou. Faça login novamente."
     },
     "forgotPassword": {
       "title": "Redefinir sua senha",
@@ -1630,16 +1630,16 @@
       "failed": "Falha ao excluir."
     },
     "contactEmail": {
-      "title": "E-mail de recuperação",
-      "label": "E-mail de recuperação",
+      "title": "__STALE__E-mail de recuperação",
+      "label": "__STALE__E-mail de recuperação",
       "save": "Salvar",
       "resend": "Reenviar verificação",
-      "savedPending": "E-mail de verificação enviado para {{email}}.",
-      "resent": "E-mail de verificação enviado.",
-      "alreadyVerified": "O e-mail de recuperação já está verificado.",
-      "failed": "Não foi possível atualizar o e-mail de recuperação. Tente novamente.",
-      "statusNotSet": "Nenhum e-mail de recuperação definido. Adicione um para poder recuperar o acesso se perder sua senha.",
-      "statusPending": "Verificação pendente — verifique {{email}} e clique no link.",
+      "savedPending": "__STALE__E-mail de verificação enviado para {{email}}.",
+      "resent": "__STALE__E-mail de verificação enviado.",
+      "alreadyVerified": "__STALE__O e-mail de recuperação já está verificado.",
+      "failed": "__STALE__Não foi possível atualizar o e-mail de recuperação. Tente novamente.",
+      "statusNotSet": "__STALE__Nenhum e-mail de recuperação definido. Adicione um para poder recuperar o acesso se perder sua senha.",
+      "statusPending": "__STALE__Verificação pendente — verifique {{email}} e clique no link.",
       "statusVerified": "Verificado: {{email}}"
     },
     "editUser": {
@@ -2208,7 +2208,7 @@
       "viewAvailability": "Ver disponibilidade",
       "viewTable": "Ver tabela",
       "setDefaultAvailability": "Definir disponibilidade padrão",
-      "saveToTournament": "Salvar",
+      "saveToTournament": "__STALE__Salvar",
       "grid": {
         "view": "Visualização",
         "day1": "1 Dia",
@@ -2675,7 +2675,9 @@
       "deletedDrawsLoadError": "Falha ao carregar chaves excluídas",
       "providerLockedToActive": "Bloqueado ao provedor ativo na sua sessão. Encerre a personificação (ou troque de provedor) para inspecionar as chaves excluídas de outro tenant."
     },
-    "inviteFailed": "Não foi possível enviar o convite. Tente novamente."
+    "inviteFailed": "Não foi possível enviar o convite. Tente novamente.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistente de Formato",
@@ -2851,7 +2853,14 @@
     "userCreated": "Usuário criado",
     "userFieldsRequired": "E-mail e ID externo são obrigatórios",
     "selectProvider": "Selecione um provedor…",
-    "selectProviderFirst": "Selecione um provedor primeiro"
+    "selectProviderFirst": "Selecione um provedor primeiro",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Gerenciar Acesso ao Torneio",

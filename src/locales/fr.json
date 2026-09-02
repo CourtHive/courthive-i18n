@@ -76,8 +76,8 @@
   "ovw": "Aperçu",
   "prt": "Participants",
   "evt": "Épreuves",
-  "sch": "Programmation (ancien)",
-  "sch2": "Programmation",
+  "sch": "__STALE__Programmation (ancien)",
+  "sch2": "__STALE__Programmation",
   "ven": "Sites",
   "pub": "Publication",
   "rename": "Renommer",
@@ -1304,7 +1304,7 @@
     },
     "editGroupNames": {
       "title": "Modifier les noms des groupes",
-      "minChars": "3 caractères minimum",
+      "minChars": "__STALE__3 caractères minimum",
       "groupsRenamed": "Groupes renommés"
     },
     "addFlights": {
@@ -1562,15 +1562,15 @@
       "usageList": "{{name}} est utilisée par : {{events}}"
     },
     "firstLogin": {
-      "title": "Définir votre mot de passe",
-      "intro": "Votre compte a été créé avec un mot de passe temporaire. Choisissez un nouveau mot de passe pour terminer la connexion.",
-      "newPasswordLabel": "Nouveau mot de passe",
-      "newPasswordPlaceholder": "8 caractères minimum",
-      "confirmPasswordLabel": "Confirmer le mot de passe",
-      "confirmPasswordPlaceholder": "ressaisir le nouveau mot de passe",
-      "setPassword": "Définir le mot de passe",
-      "failed": "Impossible de définir votre mot de passe. Veuillez réessayer.",
-      "tokenExpired": "Cette session de connexion a expiré. Veuillez vous reconnecter."
+      "title": "__STALE__Définir votre mot de passe",
+      "intro": "__STALE__Votre compte a été créé avec un mot de passe temporaire. Choisissez un nouveau mot de passe pour terminer la connexion.",
+      "newPasswordLabel": "__STALE__Nouveau mot de passe",
+      "newPasswordPlaceholder": "__STALE__8 caractères minimum",
+      "confirmPasswordLabel": "__STALE__Confirmer le mot de passe",
+      "confirmPasswordPlaceholder": "__STALE__ressaisir le nouveau mot de passe",
+      "setPassword": "__STALE__Définir le mot de passe",
+      "failed": "__STALE__Impossible de définir votre mot de passe. Veuillez réessayer.",
+      "tokenExpired": "__STALE__Cette session de connexion a expiré. Veuillez vous reconnecter."
     },
     "forgotPassword": {
       "title": "Réinitialiser votre mot de passe",
@@ -1630,16 +1630,16 @@
       "failed": "Échec de la suppression."
     },
     "contactEmail": {
-      "title": "E-mail de récupération",
-      "label": "E-mail de récupération",
+      "title": "__STALE__E-mail de récupération",
+      "label": "__STALE__E-mail de récupération",
       "save": "Enregistrer",
       "resend": "Renvoyer la vérification",
-      "savedPending": "E-mail de vérification envoyé à {{email}}.",
-      "resent": "E-mail de vérification envoyé.",
-      "alreadyVerified": "L'e-mail de récupération est déjà vérifié.",
-      "failed": "Impossible de mettre à jour l'e-mail de récupération. Veuillez réessayer.",
-      "statusNotSet": "Aucun e-mail de récupération défini. Ajoutez-en un pour pouvoir récupérer l'accès en cas de perte de votre mot de passe.",
-      "statusPending": "En attente de vérification — vérifiez {{email}} et cliquez sur le lien.",
+      "savedPending": "__STALE__E-mail de vérification envoyé à {{email}}.",
+      "resent": "__STALE__E-mail de vérification envoyé.",
+      "alreadyVerified": "__STALE__L'e-mail de récupération est déjà vérifié.",
+      "failed": "__STALE__Impossible de mettre à jour l'e-mail de récupération. Veuillez réessayer.",
+      "statusNotSet": "__STALE__Aucun e-mail de récupération défini. Ajoutez-en un pour pouvoir récupérer l'accès en cas de perte de votre mot de passe.",
+      "statusPending": "__STALE__En attente de vérification — vérifiez {{email}} et cliquez sur le lien.",
       "statusVerified": "Vérifié : {{email}}"
     },
     "editUser": {
@@ -2208,7 +2208,7 @@
       "viewAvailability": "Voir disponibilité",
       "viewTable": "Voir tableau",
       "setDefaultAvailability": "Définir la disponibilité par défaut",
-      "saveToTournament": "Enregistrer",
+      "saveToTournament": "__STALE__Enregistrer",
       "grid": {
         "view": "Vue",
         "day1": "1 Jour",
@@ -2675,7 +2675,9 @@
       "deletedDrawsLoadError": "Échec du chargement des tableaux supprimés",
       "providerLockedToActive": "Verrouillé sur le fournisseur actif de votre session. Arrêtez l'usurpation (ou changez de fournisseur) pour inspecter les tableaux supprimés d'un autre locataire."
     },
-    "inviteFailed": "Impossible d’envoyer l’invitation. Veuillez réessayer."
+    "inviteFailed": "Impossible d’envoyer l’invitation. Veuillez réessayer.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistant de format",
@@ -2851,7 +2853,14 @@
     "userCreated": "Utilisateur créé",
     "userFieldsRequired": "L'e-mail et l'ID externe sont requis",
     "selectProvider": "Sélectionner un fournisseur…",
-    "selectProviderFirst": "Sélectionnez d'abord un fournisseur"
+    "selectProviderFirst": "Sélectionnez d'abord un fournisseur",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Gérer l'accès au tournoi",

@@ -79,8 +79,8 @@
   "ovw": "Pregled",
   "prt": "Sudionici",
   "evt": "Natjecanja",
-  "sch": "Raspored (stari)",
-  "sch2": "Raspored",
+  "sch": "__STALE__Raspored (stari)",
+  "sch2": "__STALE__Raspored",
   "ven": "Lokacije",
   "rpt": "Izvještaji",
   "pub": "Objavljivanje",
@@ -460,7 +460,9 @@
       "deletedDrawsLoadError": "Učitavanje izbrisanih ždrijebova nije uspjelo",
       "providerLockedToActive": "Zaključano na aktivnog pružatelja u vašoj sesiji. Zaustavite predstavljanje (ili promijenite pružatelja) za pregled izbrisanih ždrijebova drugog zakupca."
     },
-    "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno."
+    "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "round_names": {
     "F": "Finale",
@@ -1559,7 +1561,7 @@
     },
     "editGroupNames": {
       "title": "Uredi nazive grupa",
-      "minChars": "najmanje 3 znaka",
+      "minChars": "__STALE__najmanje 3 znaka",
       "groupsRenamed": "Grupe preimenovane"
     },
     "addFlights": {
@@ -1729,15 +1731,15 @@
       "usageList": "{{name}} koristi: {{events}}"
     },
     "firstLogin": {
-      "title": "Postavite lozinku",
-      "intro": "Vaš je račun stvoren s privremenom lozinkom. Odaberite novu lozinku za dovršetak prijave.",
-      "newPasswordLabel": "Nova lozinka",
-      "newPasswordPlaceholder": "najmanje 8 znakova",
-      "confirmPasswordLabel": "Potvrdi lozinku",
-      "confirmPasswordPlaceholder": "ponovno unesite novu lozinku",
-      "setPassword": "Postavi lozinku",
-      "failed": "Nije moguće postaviti lozinku. Pokušajte ponovno.",
-      "tokenExpired": "Ova je sesija prijave istekla. Prijavite se ponovno."
+      "title": "__STALE__Postavite lozinku",
+      "intro": "__STALE__Vaš je račun stvoren s privremenom lozinkom. Odaberite novu lozinku za dovršetak prijave.",
+      "newPasswordLabel": "__STALE__Nova lozinka",
+      "newPasswordPlaceholder": "__STALE__najmanje 8 znakova",
+      "confirmPasswordLabel": "__STALE__Potvrdi lozinku",
+      "confirmPasswordPlaceholder": "__STALE__ponovno unesite novu lozinku",
+      "setPassword": "__STALE__Postavi lozinku",
+      "failed": "__STALE__Nije moguće postaviti lozinku. Pokušajte ponovno.",
+      "tokenExpired": "__STALE__Ova je sesija prijave istekla. Prijavite se ponovno."
     },
     "forgotPassword": {
       "title": "Ponovno postavite lozinku",
@@ -1797,16 +1799,16 @@
       "failed": "Brisanje nije uspjelo."
     },
     "contactEmail": {
-      "title": "E-pošta za oporavak",
-      "label": "E-pošta za oporavak",
+      "title": "__STALE__E-pošta za oporavak",
+      "label": "__STALE__E-pošta za oporavak",
       "save": "Spremi",
       "resend": "Ponovno pošalji potvrdu",
-      "savedPending": "E-pošta za potvrdu poslana na {{email}}.",
-      "resent": "E-pošta za potvrdu poslana.",
-      "alreadyVerified": "E-pošta za oporavak već je potvrđena.",
-      "failed": "Nije moguće ažurirati e-poštu za oporavak. Pokušajte ponovno.",
-      "statusNotSet": "Nije postavljena e-pošta za oporavak. Dodajte je kako biste mogli oporaviti pristup ako izgubite lozinku.",
-      "statusPending": "Čeka se potvrda — provjerite {{email}} i kliknite poveznicu.",
+      "savedPending": "__STALE__E-pošta za potvrdu poslana na {{email}}.",
+      "resent": "__STALE__E-pošta za potvrdu poslana.",
+      "alreadyVerified": "__STALE__E-pošta za oporavak već je potvrđena.",
+      "failed": "__STALE__Nije moguće ažurirati e-poštu za oporavak. Pokušajte ponovno.",
+      "statusNotSet": "__STALE__Nije postavljena e-pošta za oporavak. Dodajte je kako biste mogli oporaviti pristup ako izgubite lozinku.",
+      "statusPending": "__STALE__Čeka se potvrda — provjerite {{email}} i kliknite poveznicu.",
       "statusVerified": "Potvrđeno: {{email}}"
     },
     "editUser": {
@@ -2375,7 +2377,7 @@
       "viewAvailability": "Pregled dostupnosti",
       "viewTable": "Pregled tablice",
       "setDefaultAvailability": "Postavi zadanu dostupnost",
-      "saveToTournament": "Spremi",
+      "saveToTournament": "__STALE__Spremi",
       "grid": {
         "view": "Pregled",
         "day1": "1 dan",
@@ -2851,7 +2853,14 @@
     "userCreated": "Korisnik stvoren",
     "userFieldsRequired": "E-pošta i vanjski ID su obavezni",
     "selectProvider": "Odaberite pružatelja…",
-    "selectProviderFirst": "Prvo odaberite pružatelja"
+    "selectProviderFirst": "Prvo odaberite pružatelja",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Upravljanje pristupom turniru",
