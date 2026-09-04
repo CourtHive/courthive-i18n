@@ -475,7 +475,9 @@
     "approve": "Odobri igrača",
     "add2team": "Dodaj igrača u ekipu",
     "lastfirst": "PREZIME Ime",
-    "firstlast": "Ime Prezime"
+    "firstlast": "Ime Prezime",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Pojedinačno",
@@ -1152,7 +1154,8 @@
     "venueFrame": {
       "notice": "Vremena u {{timeZone}} — zona lokacije nije postavljena",
       "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Propust odjave",

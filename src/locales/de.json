@@ -308,7 +308,9 @@
     "approve": "Spieler genehmigen",
     "add2team": "Teamspieler hinzufügen",
     "lastfirst": "NACHNAME Vorname",
-    "firstlast": "Vorname Nachname"
+    "firstlast": "Vorname Nachname",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Einzel",
@@ -985,7 +987,8 @@
     "venueFrame": {
       "notice": "Zeiten in {{timeZone}} — Zeitzone der Anlage nicht festgelegt",
       "noticeTitle": "Für dieses Turnier ist keine Zeitzone festgelegt, daher werden die Zeiten in der Zone dieses Geräts angezeigt ({{timeZone}}). Legen Sie die Zeitzone der Anlage fest, damit alle Beteiligten dieselbe Uhr lesen."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nicht abgemeldet",

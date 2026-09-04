@@ -475,7 +475,9 @@
     "approve": "Schválit hráče",
     "add2team": "Přidat hráče do týmu",
     "lastfirst": "PŘÍJMENÍ Jméno",
-    "firstlast": "Jméno Příjmení"
+    "firstlast": "Jméno Příjmení",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Dvouhra",
@@ -1152,7 +1154,8 @@
     "venueFrame": {
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
       "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",

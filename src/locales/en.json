@@ -475,7 +475,9 @@
     "approve": "Approve Player",
     "add2team": "Add Team Player",
     "lastfirst": "LAST First",
-    "firstlast": "First Last"
+    "firstlast": "First Last",
+    "participants": "Search participants",
+    "noResults": "No matches for that name"
   },
   "formats": {
     "singles": "Singles",
@@ -1152,7 +1154,8 @@
     "venueFrame": {
       "notice": "Times in {{timeZone}} — venue zone not set",
       "noticeTitle": "This tournament has no time zone set, so times are shown in this device’s zone ({{timeZone}}). Set the venue’s time zone so every operator reads the same clock."
-    }
+    },
+    "viewInDraw": "View in draw"
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",

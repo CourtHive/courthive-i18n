@@ -471,7 +471,9 @@
     "approve": "批准选手",
     "add2team": "添加队员",
     "lastfirst": "姓 名",
-    "firstlast": "名 姓"
+    "firstlast": "名 姓",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "单打",
@@ -1148,7 +1150,8 @@
     "venueFrame": {
       "notice": "时间以 {{timeZone}} 显示 — 未设置场馆时区",
       "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。"
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "未签退",

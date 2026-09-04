@@ -308,7 +308,9 @@
     "approve": "Approuver le joueur",
     "add2team": "Ajouter un joueur à l'équipe",
     "lastfirst": "NOM Prénom",
-    "firstlast": "Prénom Nom"
+    "firstlast": "Prénom Nom",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Simple",
@@ -985,7 +987,8 @@
     "venueFrame": {
       "notice": "Heures en {{timeZone}} — fuseau du site non défini",
       "noticeTitle": "Ce tournoi n’a pas de fuseau horaire défini ; les heures sont donc affichées dans le fuseau de cet appareil ({{timeZone}}). Définissez le fuseau horaire du site pour que tous les opérateurs lisent la même heure."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Défaut de désinscription",

@@ -308,7 +308,9 @@
     "approve": "Aprovar Jogador",
     "add2team": "Adicionar Jogador à Equipe",
     "lastfirst": "SOBRENOME Nome",
-    "firstlast": "Nome Sobrenome"
+    "firstlast": "Nome Sobrenome",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Simples",
@@ -985,7 +987,8 @@
     "venueFrame": {
       "notice": "Horários em {{timeZone}} — fuso do local não definido",
       "noticeTitle": "Este torneio não tem fuso horário definido, então os horários são exibidos no fuso deste dispositivo ({{timeZone}}). Defina o fuso horário do local para que todos os operadores leiam o mesmo relógio."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "Não fez Check-Out",

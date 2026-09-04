@@ -308,7 +308,9 @@
     "approve": "Aprobar Jugador",
     "add2team": "Agregar Jugador al Equipo",
     "lastfirst": "APELLIDO Nombre",
-    "firstlast": "Nombre Apellido"
+    "firstlast": "Nombre Apellido",
+    "participants": "__TODO__",
+    "noResults": "__TODO__"
   },
   "formats": {
     "singles": "Singles",
@@ -985,7 +987,8 @@
     "venueFrame": {
       "notice": "Horas en {{timeZone}}: zona de la sede sin definir",
       "noticeTitle": "Este torneo no tiene zona horaria definida, por lo que las horas se muestran en la zona de este dispositivo ({{timeZone}}). Defina la zona horaria de la sede para que todos los operadores lean el mismo reloj."
-    }
+    },
+    "viewInDraw": "__TODO__"
   },
   "penalties": {
     "fail2signout": "No se Presentó a la Salida",
