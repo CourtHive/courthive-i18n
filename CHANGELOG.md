@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.8.0](https://github.com/CourtHive/courthive-i18n/compare/v0.7.0...v0.8.0) (2026-09-04)
+
+
+### Features
+
+* **i18n:** translate the 21 keys the three consumer syncs added ([b4fae0f](https://github.com/CourtHive/courthive-i18n/commit/b4fae0fe65478bef98006572e71aa552258f174d))
+
+
+### Bug Fixes
+
+* **deps:** raise fast-uri to a patched version ([#125](https://github.com/CourtHive/courthive-i18n/issues/125)) ([9c060d7](https://github.com/CourtHive/courthive-i18n/commit/9c060d7d3bccae1fd1d3c167a634b3a5c2f4a825))
+* **i18n:** sync en.json from courthive-console ([f59fb77](https://github.com/CourtHive/courthive-i18n/commit/f59fb77a23ecf9c43b0b42c9eb1be71d52a118f7))
+* **i18n:** sync en.json from courthive-public ([2d2240f](https://github.com/CourtHive/courthive-i18n/commit/2d2240f3e5fdff48326038cda5819df4fc4258b7))
+* **i18n:** sync en.json from TMX ([f6835c3](https://github.com/CourtHive/courthive-i18n/commit/f6835c37e3df6406f3509054923e730cb3960b05))
+
 ## [0.7.0](https://github.com/CourtHive/courthive-i18n/compare/v0.6.1...v0.7.0) (2026-08-31)
 
 
