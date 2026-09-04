@@ -2452,6 +2452,17 @@
       "closeTheDayNobody": "لا أحد مسجّل الحضور حالياً",
       "closeTheDayConfirm_one": "هل تريد إنهاء حضور {{count}} شخص ما زال مسجّلاً اليوم؟",
       "closeTheDayConfirm_other": "هل تريد إنهاء حضور {{count}} أشخاص ما زالوا مسجّلين اليوم؟"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {

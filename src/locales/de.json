@@ -2452,6 +2452,17 @@
       "closeTheDayNobody": "Derzeit ist niemand angemeldet",
       "closeTheDayConfirm_one": "{{count}} Person abmelden, die heute noch angemeldet ist?",
       "closeTheDayConfirm_other": "{{count}} Personen abmelden, die heute noch angemeldet sind?"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {

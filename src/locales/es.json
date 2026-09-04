@@ -2452,6 +2452,17 @@
       "closeTheDayNobody": "Nadie tiene la entrada registrada en este momento",
       "closeTheDayConfirm_one": "¿Registrar la salida de {{count}} persona que sigue con la entrada registrada hoy?",
       "closeTheDayConfirm_other": "¿Registrar la salida de {{count}} personas que siguen con la entrada registrada hoy?"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {

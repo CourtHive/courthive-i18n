@@ -2615,6 +2615,17 @@
       "closeTheDayNobody": "目前无人处于签到状态",
       "closeTheDayConfirm_one": "为今日仍处于签到状态的 {{count}} 人办理签退吗？",
       "closeTheDayConfirm_other": "为今日仍处于签到状态的 {{count}} 人办理签退吗？"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {

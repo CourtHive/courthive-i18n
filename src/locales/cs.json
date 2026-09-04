@@ -2619,6 +2619,17 @@
       "closeTheDayNobody": "Momentálně není nikdo prezentován",
       "closeTheDayConfirm_one": "Zrušit prezenci {{count}} osobě, která je dnes stále prezentována?",
       "closeTheDayConfirm_other": "Zrušit prezenci {{count}} osobám, které jsou dnes stále prezentovány?"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {

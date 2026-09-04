@@ -2452,6 +2452,17 @@
       "closeTheDayNobody": "Ninguém está com check-in no momento",
       "closeTheDayConfirm_one": "Fazer check-out de {{count}} pessoa que ainda está com check-in hoje?",
       "closeTheDayConfirm_other": "Fazer check-out de {{count}} pessoas que ainda estão com check-in hoje?"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {

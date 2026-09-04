@@ -2619,6 +2619,17 @@
       "closeTheDayNobody": "Trenutačno nitko nije prijavljen",
       "closeTheDayConfirm_one": "Odjaviti {{count}} osobu koja je danas još prijavljena?",
       "closeTheDayConfirm_other": "Odjaviti {{count}} osoba koje su danas još prijavljene?"
+    },
+    "participation": {
+      "title": "__TODO__",
+      "navLabel": "__TODO__",
+      "fixtureCount_one": "__TODO__",
+      "fixtureCount_other": "__TODO__",
+      "undated": "__TODO__",
+      "noFixtures": "__TODO__",
+      "loadFailed": "__TODO__",
+      "retry": "__TODO__",
+      "adminOnly": "__TODO__"
     }
   },
   "overlays": {
