@@ -457,8 +457,8 @@
       "providerLockedToActive": "锁定到您会话中的活跃服务商。停止模拟（或切换服务商）以检查另一租户的已删除签表。"
     },
     "inviteFailed": "无法发送邀请。请重试。",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "以此供应方身份管理",
+    "nowManagingProvisioner": "当前以“{{name}}”身份操作"
   },
   "round_names": {
     "F": "决赛",
@@ -474,8 +474,8 @@
     "add2team": "添加队员",
     "lastfirst": "姓 名",
     "firstlast": "名 姓",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "搜索参赛者",
+    "noResults": "没有符合该姓名的结果"
   },
   "formats": {
     "singles": "单打",
@@ -1153,7 +1153,7 @@
       "notice": "时间以 {{timeZone}} 显示 — 未设置场馆时区",
       "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。"
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "在签表中查看"
   },
   "penalties": {
     "fail2signout": "未签退",
@@ -2622,15 +2622,15 @@
       "closeTheDayConfirm_other": "为今日仍处于签到状态的 {{count}} 人办理签退吗？"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "赛程",
+      "navLabel": "赛程",
+      "fixtureCount_one": "{{count}} 场比赛",
+      "fixtureCount_other": "{{count}} 场比赛",
+      "undated": "无日期",
+      "noFixtures": "此项目暂无比赛记录。",
+      "loadFailed": "无法加载赛程。",
+      "retry": "重试",
+      "adminOnly": "查看赛程需要管理员角色。"
     }
   },
   "overlays": {
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "邮箱和外部 ID 为必填项",
     "selectProvider": "选择一个服务商…",
     "selectProviderFirst": "请先选择一个服务商",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "当前身份",
+    "unnamedProvisioner": "所选供应方",
+    "exitProvisioner": "退出",
+    "exitedProvisioner": "已退出供应方身份",
+    "noActiveProvisioner": "未选择供应方",
+    "selectProvisionerFromSystem": "请在「系统 → 供应方」中选择一个供应方，然后使用「以此供应方身份管理」代其创建和管理供应商。",
+    "goToProvisioners": "前往供应方"
   },
   "manageAccess": {
     "title": "管理赛事访问权限",

@@ -461,8 +461,8 @@
       "providerLockedToActive": "Uzamčeno na aktivního poskytovatele ve vaší relaci. Ukončete vystupování za jiného (nebo přepněte poskytovatele) pro kontrolu smazaných pavouků jiného nájemce."
     },
     "inviteFailed": "Pozvánku se nepodařilo odeslat. Zkuste to prosím znovu.",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "Spravovat jako tento provisioner",
+    "nowManagingProvisioner": "Nyní vystupujete jako „{{name}}“"
   },
   "round_names": {
     "F": "Finále",
@@ -478,8 +478,8 @@
     "add2team": "Přidat hráče do týmu",
     "lastfirst": "PŘÍJMENÍ Jméno",
     "firstlast": "Jméno Příjmení",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "Hledat účastníky",
+    "noResults": "Tomuto jménu neodpovídá žádný záznam"
   },
   "formats": {
     "singles": "Dvouhra",
@@ -1157,7 +1157,7 @@
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
       "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas."
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "Zobrazit v pavouku"
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",
@@ -2626,15 +2626,15 @@
       "closeTheDayConfirm_other": "Zrušit prezenci {{count}} osobám, které jsou dnes stále prezentovány?"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "Rozpis",
+      "navLabel": "Rozpis",
+      "fixtureCount_one": "{{count}} zápas",
+      "fixtureCount_other": "{{count}} zápasů",
+      "undated": "Bez data",
+      "noFixtures": "Pro tento program nejsou zaznamenány žádné zápasy.",
+      "loadFailed": "Rozpis se nepodařilo načíst.",
+      "retry": "Zkusit znovu",
+      "adminOnly": "K zobrazení rozpisu je vyžadována role administrátora."
     }
   },
   "overlays": {
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "E-mail a externí ID jsou povinné",
     "selectProvider": "Vyberte poskytovatele…",
     "selectProviderFirst": "Nejprve vyberte poskytovatele",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "Vystupujete jako",
+    "unnamedProvisioner": "Vybraný provisioner",
+    "exitProvisioner": "Ukončit",
+    "exitedProvisioner": "Již nevystupujete jako provisioner",
+    "noActiveProvisioner": "Není vybrán žádný provisioner",
+    "selectProvisionerFromSystem": "Vyberte provisionera v Systém → Provisioneři a použijte „Spravovat jako tento provisioner“ k vytváření a správě poskytovatelů jeho jménem.",
+    "goToProvisioners": "Přejít na Provisionery"
   },
   "manageAccess": {
     "title": "Správa přístupu k turnaji",

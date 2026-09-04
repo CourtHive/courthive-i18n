@@ -309,8 +309,8 @@
     "add2team": "Teamspieler hinzufügen",
     "lastfirst": "NACHNAME Vorname",
     "firstlast": "Vorname Nachname",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "Teilnehmer suchen",
+    "noResults": "Keine Treffer für diesen Namen"
   },
   "formats": {
     "singles": "Einzel",
@@ -988,7 +988,7 @@
       "notice": "Zeiten in {{timeZone}} — Zeitzone der Anlage nicht festgelegt",
       "noticeTitle": "Für dieses Turnier ist keine Zeitzone festgelegt, daher werden die Zeiten in der Zone dieses Geräts angezeigt ({{timeZone}}). Legen Sie die Zeitzone der Anlage fest, damit alle Beteiligten dieselbe Uhr lesen."
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "In der Auslosung anzeigen"
   },
   "penalties": {
     "fail2signout": "Nicht abgemeldet",
@@ -2457,15 +2457,15 @@
       "closeTheDayConfirm_other": "{{count}} Personen abmelden, die heute noch angemeldet sind?"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "Spielplan",
+      "navLabel": "Spielplan",
+      "fixtureCount_one": "{{count}} Begegnung",
+      "fixtureCount_other": "{{count}} Begegnungen",
+      "undated": "Kein Datum",
+      "noFixtures": "Für dieses Programm sind keine Begegnungen erfasst.",
+      "loadFailed": "Der Spielplan konnte nicht geladen werden.",
+      "retry": "Erneut versuchen",
+      "adminOnly": "Zum Ansehen eines Spielplans ist eine Administratorrolle erforderlich."
     }
   },
   "overlays": {
@@ -2690,8 +2690,8 @@
       "providerLockedToActive": "An den aktiven Anbieter in Ihrer Sitzung gebunden. Beenden Sie die Imitation (oder wechseln Sie den Anbieter), um die gelöschten Auslosungen eines anderen Mandanten zu prüfen."
     },
     "inviteFailed": "Die Einladung konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "Als dieser Provisioner verwalten",
+    "nowManagingProvisioner": "Handelt jetzt als „{{name}}“"
   },
   "formatWizard": {
     "title": "Format-Assistent",
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "E-Mail und externe ID sind erforderlich",
     "selectProvider": "Anbieter auswählen…",
     "selectProviderFirst": "Wählen Sie zuerst einen Anbieter aus",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "Handelt als",
+    "unnamedProvisioner": "Ausgewählter Provisioner",
+    "exitProvisioner": "Beenden",
+    "exitedProvisioner": "Nicht mehr als Provisioner tätig",
+    "noActiveProvisioner": "Kein Provisioner ausgewählt",
+    "selectProvisionerFromSystem": "Wählen Sie unter System → Provisioner einen Provisioner aus und verwenden Sie „Als dieser Provisioner verwalten“, um in dessen Namen Anbieter zu erstellen und zu verwalten.",
+    "goToProvisioners": "Zu den Provisionern"
   },
   "manageAccess": {
     "title": "Turnierzugriff verwalten",

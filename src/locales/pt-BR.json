@@ -309,8 +309,8 @@
     "add2team": "Adicionar Jogador à Equipe",
     "lastfirst": "SOBRENOME Nome",
     "firstlast": "Nome Sobrenome",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "Buscar participantes",
+    "noResults": "Nenhuma correspondência para esse nome"
   },
   "formats": {
     "singles": "Simples",
@@ -988,7 +988,7 @@
       "notice": "Horários em {{timeZone}} — fuso do local não definido",
       "noticeTitle": "Este torneio não tem fuso horário definido, então os horários são exibidos no fuso deste dispositivo ({{timeZone}}). Defina o fuso horário do local para que todos os operadores leiam o mesmo relógio."
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "Ver na chave"
   },
   "penalties": {
     "fail2signout": "Não fez Check-Out",
@@ -2457,15 +2457,15 @@
       "closeTheDayConfirm_other": "Fazer check-out de {{count}} pessoas que ainda estão com check-in hoje?"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "Programação",
+      "navLabel": "Programação",
+      "fixtureCount_one": "{{count}} confronto",
+      "fixtureCount_other": "{{count}} confrontos",
+      "undated": "Sem data",
+      "noFixtures": "Nenhum confronto registrado para este programa.",
+      "loadFailed": "Não foi possível carregar a programação.",
+      "retry": "Tentar novamente",
+      "adminOnly": "É necessário ter perfil de administrador para ver uma programação."
     }
   },
   "overlays": {
@@ -2690,8 +2690,8 @@
       "providerLockedToActive": "Bloqueado ao provedor ativo na sua sessão. Encerre a personificação (ou troque de provedor) para inspecionar as chaves excluídas de outro tenant."
     },
     "inviteFailed": "Não foi possível enviar o convite. Tente novamente.",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "Gerenciar como este provisionador",
+    "nowManagingProvisioner": "Agora atuando como “{{name}}”"
   },
   "formatWizard": {
     "title": "Assistente de Formato",
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "E-mail e ID externo são obrigatórios",
     "selectProvider": "Selecione um provedor…",
     "selectProviderFirst": "Selecione um provedor primeiro",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "Atuando como",
+    "unnamedProvisioner": "Provisionador selecionado",
+    "exitProvisioner": "Sair",
+    "exitedProvisioner": "Não está mais atuando como provisionador",
+    "noActiveProvisioner": "Nenhum provisionador selecionado",
+    "selectProvisionerFromSystem": "Escolha um provisionador em Sistema → Provisionadores e use “Gerenciar como este provisionador” para criar e gerenciar provedores em seu nome.",
+    "goToProvisioners": "Ir para Provisionadores"
   },
   "manageAccess": {
     "title": "Gerenciar Acesso ao Torneio",

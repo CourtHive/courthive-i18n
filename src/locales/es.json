@@ -309,8 +309,8 @@
     "add2team": "Agregar Jugador al Equipo",
     "lastfirst": "APELLIDO Nombre",
     "firstlast": "Nombre Apellido",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "Buscar participantes",
+    "noResults": "No hay coincidencias para ese nombre"
   },
   "formats": {
     "singles": "Singles",
@@ -988,7 +988,7 @@
       "notice": "Horas en {{timeZone}}: zona de la sede sin definir",
       "noticeTitle": "Este torneo no tiene zona horaria definida, por lo que las horas se muestran en la zona de este dispositivo ({{timeZone}}). Defina la zona horaria de la sede para que todos los operadores lean el mismo reloj."
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "Ver en el cuadro"
   },
   "penalties": {
     "fail2signout": "No se Presentó a la Salida",
@@ -2457,15 +2457,15 @@
       "closeTheDayConfirm_other": "¿Registrar la salida de {{count}} personas que siguen con la entrada registrada hoy?"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "Programación",
+      "navLabel": "Programación",
+      "fixtureCount_one": "{{count}} encuentro",
+      "fixtureCount_other": "{{count}} encuentros",
+      "undated": "Sin fecha",
+      "noFixtures": "No hay encuentros registrados para este programa.",
+      "loadFailed": "No se pudo cargar la programación.",
+      "retry": "Intentar de nuevo",
+      "adminOnly": "Se requiere un rol de administrador para ver una programación."
     }
   },
   "overlays": {
@@ -2690,8 +2690,8 @@
       "providerLockedToActive": "Bloqueado al proveedor activo en tu sesión. Detén la suplantación (o cambia de proveedor) para inspeccionar los cuadros eliminados de otro inquilino."
     },
     "inviteFailed": "No se pudo enviar la invitación. Inténtelo de nuevo.",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "Gestionar como este aprovisionador",
+    "nowManagingProvisioner": "Ahora actuando como «{{name}}»"
   },
   "formatWizard": {
     "title": "Asistente de formato",
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "El correo y el ID externo son obligatorios",
     "selectProvider": "Selecciona un proveedor…",
     "selectProviderFirst": "Selecciona primero un proveedor",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "Actuando como",
+    "unnamedProvisioner": "Aprovisionador seleccionado",
+    "exitProvisioner": "Salir",
+    "exitedProvisioner": "Ya no actúa como aprovisionador",
+    "noActiveProvisioner": "Ningún aprovisionador seleccionado",
+    "selectProvisionerFromSystem": "Elija un aprovisionador en Sistema → Aprovisionadores y use «Gestionar como este aprovisionador» para crear y gestionar proveedores en su nombre.",
+    "goToProvisioners": "Ir a Aprovisionadores"
   },
   "manageAccess": {
     "title": "Gestionar acceso al torneo",

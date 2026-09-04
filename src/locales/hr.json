@@ -461,8 +461,8 @@
       "providerLockedToActive": "Zaključano na aktivnog pružatelja u vašoj sesiji. Zaustavite predstavljanje (ili promijenite pružatelja) za pregled izbrisanih ždrijebova drugog zakupca."
     },
     "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno.",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "Upravljaj kao ovaj opskrbljivač",
+    "nowManagingProvisioner": "Sada djelujete kao „{{name}}“"
   },
   "round_names": {
     "F": "Finale",
@@ -478,8 +478,8 @@
     "add2team": "Dodaj igrača u ekipu",
     "lastfirst": "PREZIME Ime",
     "firstlast": "Ime Prezime",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "Pretraži sudionike",
+    "noResults": "Nema podudaranja za to ime"
   },
   "formats": {
     "singles": "Pojedinačno",
@@ -1157,7 +1157,7 @@
       "notice": "Vremena u {{timeZone}} — zona lokacije nije postavljena",
       "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat."
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "Prikaži u ždrijebu"
   },
   "penalties": {
     "fail2signout": "Propust odjave",
@@ -2626,15 +2626,15 @@
       "closeTheDayConfirm_other": "Odjaviti {{count}} osoba koje su danas još prijavljene?"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "Raspored",
+      "navLabel": "Raspored",
+      "fixtureCount_one": "{{count}} susret",
+      "fixtureCount_other": "{{count}} susreta",
+      "undated": "Bez datuma",
+      "noFixtures": "Za ovaj program nema zabilježenih susreta.",
+      "loadFailed": "Raspored se nije mogao učitati.",
+      "retry": "Pokušaj ponovno",
+      "adminOnly": "Za pregled rasporeda potrebna je administratorska uloga."
     }
   },
   "overlays": {
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "E-pošta i vanjski ID su obavezni",
     "selectProvider": "Odaberite pružatelja…",
     "selectProviderFirst": "Prvo odaberite pružatelja",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "Djeluje kao",
+    "unnamedProvisioner": "Odabrani opskrbljivač",
+    "exitProvisioner": "Izlaz",
+    "exitedProvisioner": "Više ne djelujete kao opskrbljivač",
+    "noActiveProvisioner": "Nije odabran nijedan opskrbljivač",
+    "selectProvisionerFromSystem": "Odaberite opskrbljivača u Sustav → Opskrbljivači i upotrijebite „Upravljaj kao ovaj opskrbljivač“ za stvaranje pružatelja i upravljanje njima u njegovo ime.",
+    "goToProvisioners": "Idi na Opskrbljivače"
   },
   "manageAccess": {
     "title": "Upravljanje pristupom turniru",

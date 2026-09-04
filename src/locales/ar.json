@@ -309,8 +309,8 @@
     "add2team": "إضافة لاعب للفريق",
     "lastfirst": "العائلة الأول",
     "firstlast": "الأول العائلة",
-    "participants": "__TODO__",
-    "noResults": "__TODO__"
+    "participants": "البحث عن المشاركين",
+    "noResults": "لا توجد نتائج مطابقة لهذا الاسم"
   },
   "formats": {
     "singles": "فردي",
@@ -988,7 +988,7 @@
       "notice": "الأوقات بتوقيت {{timeZone}} — لم تُحدَّد منطقة المكان",
       "noticeTitle": "لم تُحدَّد منطقة زمنية لهذه البطولة، لذا تُعرض الأوقات بمنطقة هذا الجهاز ({{timeZone}}). حدّد المنطقة الزمنية للمكان ليقرأ جميع المشغّلين التوقيت نفسه."
     },
-    "viewInDraw": "__TODO__"
+    "viewInDraw": "عرض في القرعة"
   },
   "penalties": {
     "fail2signout": "عدم تسجيل الانصراف",
@@ -2457,15 +2457,15 @@
       "closeTheDayConfirm_other": "هل تريد إنهاء حضور {{count}} أشخاص ما زالوا مسجّلين اليوم؟"
     },
     "participation": {
-      "title": "__TODO__",
-      "navLabel": "__TODO__",
-      "fixtureCount_one": "__TODO__",
-      "fixtureCount_other": "__TODO__",
-      "undated": "__TODO__",
-      "noFixtures": "__TODO__",
-      "loadFailed": "__TODO__",
-      "retry": "__TODO__",
-      "adminOnly": "__TODO__"
+      "title": "الجدول",
+      "navLabel": "الجدول",
+      "fixtureCount_one": "{{count}} مباراة",
+      "fixtureCount_other": "{{count}} مباريات",
+      "undated": "بلا تاريخ",
+      "noFixtures": "لا توجد مباريات مسجّلة لهذا البرنامج.",
+      "loadFailed": "تعذّر تحميل الجدول.",
+      "retry": "حاول مجدداً",
+      "adminOnly": "يلزم دور المسؤول لعرض الجدول."
     }
   },
   "overlays": {
@@ -2690,8 +2690,8 @@
       "providerLockedToActive": "مقفل على المزوّد النشط في جلستك. أوقف انتحال الصفة (أو بدّل المزوّدين) لفحص القرعات المحذوفة لمستأجر آخر."
     },
     "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى.",
-    "manageAsProvisioner": "__TODO__",
-    "nowManagingProvisioner": "__TODO__"
+    "manageAsProvisioner": "الإدارة بصفة هذا المُوفِّر",
+    "nowManagingProvisioner": "تعمل الآن بصفة «{{name}}»"
   },
   "formatWizard": {
     "title": "معالج التنسيق",
@@ -2868,13 +2868,13 @@
     "userFieldsRequired": "البريد والمعرّف الخارجي مطلوبان",
     "selectProvider": "اختر مزوّداً…",
     "selectProviderFirst": "اختر مزوّداً أولاً",
-    "actingAs": "__TODO__",
-    "unnamedProvisioner": "__TODO__",
-    "exitProvisioner": "__TODO__",
-    "exitedProvisioner": "__TODO__",
-    "noActiveProvisioner": "__TODO__",
-    "selectProvisionerFromSystem": "__TODO__",
-    "goToProvisioners": "__TODO__"
+    "actingAs": "يعمل بصفة",
+    "unnamedProvisioner": "المُوفِّر المحدَّد",
+    "exitProvisioner": "خروج",
+    "exitedProvisioner": "لم تعد تعمل بصفة مُوفِّر",
+    "noActiveProvisioner": "لم يتم تحديد أي مُوفِّر",
+    "selectProvisionerFromSystem": "اختر مُوفِّراً من النظام ← الموفّرون واستخدم «الإدارة بصفة هذا المُوفِّر» لإنشاء المزوّدين وإدارتهم نيابةً عنه.",
+    "goToProvisioners": "الذهاب إلى الموفّرين"
   },
   "manageAccess": {
     "title": "إدارة الوصول إلى البطولة",
