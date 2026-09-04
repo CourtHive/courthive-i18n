@@ -460,7 +460,9 @@
       "deletedDrawsLoadError": "Načtení smazaných pavouků selhalo",
       "providerLockedToActive": "Uzamčeno na aktivního poskytovatele ve vaší relaci. Ukončete vystupování za jiného (nebo přepněte poskytovatele) pro kontrolu smazaných pavouků jiného nájemce."
     },
-    "inviteFailed": "Pozvánku se nepodařilo odeslat. Zkuste to prosím znovu."
+    "inviteFailed": "Pozvánku se nepodařilo odeslat. Zkuste to prosím znovu.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "round_names": {
     "F": "Finále",
@@ -2865,7 +2867,14 @@
     "userCreated": "Uživatel vytvořen",
     "userFieldsRequired": "E-mail a externí ID jsou povinné",
     "selectProvider": "Vyberte poskytovatele…",
-    "selectProviderFirst": "Nejprve vyberte poskytovatele"
+    "selectProviderFirst": "Nejprve vyberte poskytovatele",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Správa přístupu k turnaji",

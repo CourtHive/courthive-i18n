@@ -456,7 +456,9 @@
       "deletedDrawsLoadError": "加载已删除签表失败",
       "providerLockedToActive": "锁定到您会话中的活跃服务商。停止模拟（或切换服务商）以检查另一租户的已删除签表。"
     },
-    "inviteFailed": "无法发送邀请。请重试。"
+    "inviteFailed": "无法发送邀请。请重试。",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "round_names": {
     "F": "决赛",
@@ -2865,7 +2867,14 @@
     "userCreated": "用户已创建",
     "userFieldsRequired": "邮箱和外部 ID 为必填项",
     "selectProvider": "选择一个服务商…",
-    "selectProviderFirst": "请先选择一个服务商"
+    "selectProviderFirst": "请先选择一个服务商",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "管理赛事访问权限",

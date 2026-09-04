@@ -460,7 +460,9 @@
       "deletedDrawsLoadError": "Failed to load deleted draws",
       "providerLockedToActive": "Locked to the active provider in your session. Stop impersonation (or switch providers) to inspect another tenant's deleted draws."
     },
-    "inviteFailed": "Could not send the invitation. Please try again."
+    "inviteFailed": "Could not send the invitation. Please try again.",
+    "manageAsProvisioner": "Manage as this provisioner",
+    "nowManagingProvisioner": "Now acting as \"{{name}}\""
   },
   "round_names": {
     "F": "Final",
@@ -2865,7 +2867,14 @@
     "userCreated": "User created",
     "userFieldsRequired": "Email and external ID are required",
     "selectProvider": "Select a provider…",
-    "selectProviderFirst": "Select a provider first"
+    "selectProviderFirst": "Select a provider first",
+    "actingAs": "Acting as",
+    "unnamedProvisioner": "Selected provisioner",
+    "exitProvisioner": "Exit",
+    "exitedProvisioner": "No longer acting as a provisioner",
+    "noActiveProvisioner": "No provisioner selected",
+    "selectProvisionerFromSystem": "Choose a provisioner under System → Provisioners and use \"Manage as this provisioner\" to create and manage providers on its behalf.",
+    "goToProvisioners": "Go to Provisioners"
   },
   "manageAccess": {
     "title": "Manage Tournament Access",

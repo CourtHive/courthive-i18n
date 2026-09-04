@@ -2689,7 +2689,9 @@
       "deletedDrawsLoadError": "Échec du chargement des tableaux supprimés",
       "providerLockedToActive": "Verrouillé sur le fournisseur actif de votre session. Arrêtez l'usurpation (ou changez de fournisseur) pour inspecter les tableaux supprimés d'un autre locataire."
     },
-    "inviteFailed": "Impossible d’envoyer l’invitation. Veuillez réessayer."
+    "inviteFailed": "Impossible d’envoyer l’invitation. Veuillez réessayer.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistant de format",
@@ -2865,7 +2867,14 @@
     "userCreated": "Utilisateur créé",
     "userFieldsRequired": "L'e-mail et l'ID externe sont requis",
     "selectProvider": "Sélectionner un fournisseur…",
-    "selectProviderFirst": "Sélectionnez d'abord un fournisseur"
+    "selectProviderFirst": "Sélectionnez d'abord un fournisseur",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Gérer l'accès au tournoi",

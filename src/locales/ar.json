@@ -2689,7 +2689,9 @@
       "deletedDrawsLoadError": "فشل تحميل القرعات المحذوفة",
       "providerLockedToActive": "مقفل على المزوّد النشط في جلستك. أوقف انتحال الصفة (أو بدّل المزوّدين) لفحص القرعات المحذوفة لمستأجر آخر."
     },
-    "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى."
+    "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "معالج التنسيق",
@@ -2865,7 +2867,14 @@
     "userCreated": "تم إنشاء المستخدم",
     "userFieldsRequired": "البريد والمعرّف الخارجي مطلوبان",
     "selectProvider": "اختر مزوّداً…",
-    "selectProviderFirst": "اختر مزوّداً أولاً"
+    "selectProviderFirst": "اختر مزوّداً أولاً",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "إدارة الوصول إلى البطولة",

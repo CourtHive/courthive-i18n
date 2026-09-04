@@ -2689,7 +2689,9 @@
       "deletedDrawsLoadError": "Falha ao carregar chaves excluídas",
       "providerLockedToActive": "Bloqueado ao provedor ativo na sua sessão. Encerre a personificação (ou troque de provedor) para inspecionar as chaves excluídas de outro tenant."
     },
-    "inviteFailed": "Não foi possível enviar o convite. Tente novamente."
+    "inviteFailed": "Não foi possível enviar o convite. Tente novamente.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistente de Formato",
@@ -2865,7 +2867,14 @@
     "userCreated": "Usuário criado",
     "userFieldsRequired": "E-mail e ID externo são obrigatórios",
     "selectProvider": "Selecione um provedor…",
-    "selectProviderFirst": "Selecione um provedor primeiro"
+    "selectProviderFirst": "Selecione um provedor primeiro",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Gerenciar Acesso ao Torneio",

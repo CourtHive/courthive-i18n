@@ -2689,7 +2689,9 @@
       "deletedDrawsLoadError": "Gelöschte Auslosungen konnten nicht geladen werden",
       "providerLockedToActive": "An den aktiven Anbieter in Ihrer Sitzung gebunden. Beenden Sie die Imitation (oder wechseln Sie den Anbieter), um die gelöschten Auslosungen eines anderen Mandanten zu prüfen."
     },
-    "inviteFailed": "Die Einladung konnte nicht gesendet werden. Bitte versuchen Sie es erneut."
+    "inviteFailed": "Die Einladung konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "Format-Assistent",
@@ -2865,7 +2867,14 @@
     "userCreated": "Benutzer erstellt",
     "userFieldsRequired": "E-Mail und externe ID sind erforderlich",
     "selectProvider": "Anbieter auswählen…",
-    "selectProviderFirst": "Wählen Sie zuerst einen Anbieter aus"
+    "selectProviderFirst": "Wählen Sie zuerst einen Anbieter aus",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Turnierzugriff verwalten",

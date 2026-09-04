@@ -2689,7 +2689,9 @@
       "deletedDrawsLoadError": "No se pudieron cargar los cuadros eliminados",
       "providerLockedToActive": "Bloqueado al proveedor activo en tu sesión. Detén la suplantación (o cambia de proveedor) para inspeccionar los cuadros eliminados de otro inquilino."
     },
-    "inviteFailed": "No se pudo enviar la invitación. Inténtelo de nuevo."
+    "inviteFailed": "No se pudo enviar la invitación. Inténtelo de nuevo.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "formatWizard": {
     "title": "Asistente de formato",
@@ -2865,7 +2867,14 @@
     "userCreated": "Usuario creado",
     "userFieldsRequired": "El correo y el ID externo son obligatorios",
     "selectProvider": "Selecciona un proveedor…",
-    "selectProviderFirst": "Selecciona primero un proveedor"
+    "selectProviderFirst": "Selecciona primero un proveedor",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Gestionar acceso al torneo",

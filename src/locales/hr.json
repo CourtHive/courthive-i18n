@@ -460,7 +460,9 @@
       "deletedDrawsLoadError": "Učitavanje izbrisanih ždrijebova nije uspjelo",
       "providerLockedToActive": "Zaključano na aktivnog pružatelja u vašoj sesiji. Zaustavite predstavljanje (ili promijenite pružatelja) za pregled izbrisanih ždrijebova drugog zakupca."
     },
-    "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno."
+    "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno.",
+    "manageAsProvisioner": "__TODO__",
+    "nowManagingProvisioner": "__TODO__"
   },
   "round_names": {
     "F": "Finale",
@@ -2865,7 +2867,14 @@
     "userCreated": "Korisnik stvoren",
     "userFieldsRequired": "E-pošta i vanjski ID su obavezni",
     "selectProvider": "Odaberite pružatelja…",
-    "selectProviderFirst": "Prvo odaberite pružatelja"
+    "selectProviderFirst": "Prvo odaberite pružatelja",
+    "actingAs": "__TODO__",
+    "unnamedProvisioner": "__TODO__",
+    "exitProvisioner": "__TODO__",
+    "exitedProvisioner": "__TODO__",
+    "noActiveProvisioner": "__TODO__",
+    "selectProvisionerFromSystem": "__TODO__",
+    "goToProvisioners": "__TODO__"
   },
   "manageAccess": {
     "title": "Upravljanje pristupom turniru",
