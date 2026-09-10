@@ -1857,7 +1857,6 @@
       "seedingPolicy": "Setzliste-Richtlinie",
       "seedsCount": "Anzahl der Gesetzten",
       "automaticSeedsCount": "Automatisch (Richtlinie)",
-      "invalidSeedsCount": "Die Anzahl der Gesetzten ist für diese Auslosungsgröße und Teilnehmerzahl ungültig",
       "scorecard": "Scorecard",
       "qualifiers": "Qualifikanten",
       "structureNamePlaceholder": "Anzeigename der Struktur",

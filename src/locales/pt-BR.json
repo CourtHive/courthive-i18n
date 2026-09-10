@@ -1857,7 +1857,6 @@
       "seedingPolicy": "Política de cabeças de chave",
       "seedsCount": "Número de cabeças de chave",
       "automaticSeedsCount": "Automático (conforme a política)",
-      "invalidSeedsCount": "O número de cabeças de chave não é válido para este tamanho de chave e número de participantes",
       "scorecard": "Súmula",
       "qualifiers": "Qualificados",
       "structureNamePlaceholder": "Nome de exibição da estrutura",

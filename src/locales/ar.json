@@ -1857,7 +1857,6 @@
       "seedingPolicy": "سياسة التصنيف",
       "seedsCount": "عدد المصنفين",
       "automaticSeedsCount": "تلقائي (وفقًا للسياسة)",
-      "invalidSeedsCount": "عدد المصنفين غير صالح لحجم القرعة هذا وعدد المشاركين",
       "scorecard": "بطاقة النتائج",
       "qualifiers": "المؤهلون",
       "structureNamePlaceholder": "اسم العرض للهيكل",
