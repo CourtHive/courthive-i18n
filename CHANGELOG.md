@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.9.0](https://github.com/CourtHive/courthive-i18n/compare/v0.8.0...v0.9.0) (2026-09-11)
+
+
+### Features
+
+* add seed settings translations ([#129](https://github.com/CourtHive/courthive-i18n/issues/129)) ([2f57ee6](https://github.com/CourtHive/courthive-i18n/commit/2f57ee6deb768792a0a64d5e28e27c628ae1faa4))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from TMX ([#131](https://github.com/CourtHive/courthive-i18n/issues/131)) ([a09f00b](https://github.com/CourtHive/courthive-i18n/commit/a09f00b49d49879709ca8c9f01184252629ebfd9))
+
 ## [0.8.0](https://github.com/CourtHive/courthive-i18n/compare/v0.7.0...v0.8.0) (2026-09-04)
 
 
