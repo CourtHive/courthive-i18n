@@ -293,6 +293,16 @@
       "toggleProvisioner": "Cliquez pour activer/désactiver. Liste autorisée par le provisionneur ci-dessus.",
       "toggleAll": "Cliquez pour activer/désactiver. Sélection vide = toutes les valeurs autorisées.",
       "noRows": "Aucune ligne. Cliquez sur Ajouter une ligne pour commencer."
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "round_names": {
@@ -1916,7 +1926,8 @@
       "generateMainDraw": "Générer le tableau principal",
       "noMainDraw": "Le tableau principal n'a pas encore été généré.",
       "drawTypeSwiss": "Système suisse",
-      "drawTypePagePlayoff": "Play-off Page"
+      "drawTypePagePlayoff": "Play-off Page",
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {

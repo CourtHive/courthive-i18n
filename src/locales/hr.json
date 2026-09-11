@@ -297,6 +297,16 @@
       "toggleProvisioner": "Kliknite za uključivanje/isključivanje. Iznad je popis koji dopušta provisioner.",
       "toggleAll": "Kliknite za uključivanje/isključivanje. Prazan odabir = sve vrijednosti dopuštene.",
       "noRows": "Nema redaka. Kliknite Dodaj redak za početak."
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "system": {
@@ -2085,7 +2095,8 @@
         "PLAY_OFF": "Playoff grupa korištena kao sekundarna struktura.",
         "ROUND_ROBIN_WITH_PLAYOFF": "Liga grupna faza praćena jednostrukom eliminacijom u playoffu.",
         "FEED_IN": "Ždrijeb sa stupnjevitim ulazom gdje sudionici ulaze u ždrijeb u različitim kolima."
-      }
+      },
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {

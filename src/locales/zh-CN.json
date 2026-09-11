@@ -293,6 +293,16 @@
       "toggleProvisioner": "点击切换。上方为供应管理方允许的列表。",
       "toggleAll": "点击切换。留空表示允许所有值。",
       "noRows": "暂无行。点击「添加行」开始。"
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "system": {
@@ -2081,7 +2091,8 @@
       "generateMainDraw": "生成主签表",
       "noMainDraw": "主签表尚未生成。",
       "drawTypeSwiss": "瑞士制",
-      "drawTypePagePlayoff": "佩奇附加赛"
+      "drawTypePagePlayoff": "佩奇附加赛",
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {

@@ -293,6 +293,16 @@
       "toggleProvisioner": "Zum Umschalten klicken. Vom Provisionierer erlaubte Liste oben.",
       "toggleAll": "Zum Umschalten klicken. Leere Auswahl = alle Werte erlaubt.",
       "noRows": "Keine Zeilen. Klicken Sie auf Zeile hinzufügen, um zu beginnen."
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "round_names": {
@@ -1916,7 +1926,8 @@
       "generateMainDraw": "Hauptfeld erzeugen",
       "noMainDraw": "Das Hauptfeld wurde noch nicht erzeugt.",
       "drawTypeSwiss": "Schweizer System",
-      "drawTypePagePlayoff": "Page-Playoff"
+      "drawTypePagePlayoff": "Page-Playoff",
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {
