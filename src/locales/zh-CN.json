@@ -2020,6 +2020,8 @@
       "creation": "创建方式",
       "scoreFormat": "比分格式",
       "seedingPolicy": "种子政策",
+      "seedsCount": "种子数量",
+      "automaticSeedsCount": "自动（按政策）",
       "scorecard": "记分卡",
       "qualifiers": "资格赛选手",
       "structureNamePlaceholder": "结构的显示名称",

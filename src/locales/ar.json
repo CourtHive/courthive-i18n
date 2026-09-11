@@ -1855,6 +1855,8 @@
       "creation": "الإنشاء",
       "scoreFormat": "تنسيق النتيجة",
       "seedingPolicy": "سياسة التصنيف",
+      "seedsCount": "عدد المصنفين",
+      "automaticSeedsCount": "تلقائي (وفقًا للسياسة)",
       "scorecard": "بطاقة النتائج",
       "qualifiers": "المؤهلون",
       "structureNamePlaceholder": "اسم العرض للهيكل",

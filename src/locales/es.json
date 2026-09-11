@@ -1855,6 +1855,8 @@
       "creation": "Creación",
       "scoreFormat": "Formato de puntaje",
       "seedingPolicy": "Política de preclasificación",
+      "seedsCount": "Número de cabezas de serie",
+      "automaticSeedsCount": "Automático (según la política)",
       "scorecard": "Planilla",
       "qualifiers": "Clasificados",
       "structureNamePlaceholder": "Nombre visible de la estructura",

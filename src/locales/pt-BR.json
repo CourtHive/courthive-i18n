@@ -1855,6 +1855,8 @@
       "creation": "Criação",
       "scoreFormat": "Formato de placar",
       "seedingPolicy": "Política de cabeças de chave",
+      "seedsCount": "Número de cabeças de chave",
+      "automaticSeedsCount": "Automático (conforme a política)",
       "scorecard": "Súmula",
       "qualifiers": "Qualificados",
       "structureNamePlaceholder": "Nome de exibição da estrutura",

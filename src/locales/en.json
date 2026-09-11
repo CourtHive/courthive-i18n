@@ -2024,6 +2024,8 @@
       "creation": "Creation",
       "scoreFormat": "Score format",
       "seedingPolicy": "Seeding policy",
+      "seedsCount": "Seed count",
+      "automaticSeedsCount": "Automatic (policy)",
       "scorecard": "Scorecard",
       "qualifiers": "Qualifiers",
       "qualifyingFirst": "Start with qualifying",

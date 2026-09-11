@@ -1855,6 +1855,8 @@
       "creation": "Erstellung",
       "scoreFormat": "Punkteformat",
       "seedingPolicy": "Setzliste-Richtlinie",
+      "seedsCount": "Anzahl der Gesetzten",
+      "automaticSeedsCount": "Automatisch (Richtlinie)",
       "scorecard": "Scorecard",
       "qualifiers": "Qualifikanten",
       "structureNamePlaceholder": "Anzeigename der Struktur",

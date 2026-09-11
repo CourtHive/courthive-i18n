@@ -2024,6 +2024,8 @@
       "creation": "Vytvoření",
       "scoreFormat": "Formát skóre",
       "seedingPolicy": "Pravidlo nasazení",
+      "seedsCount": "Počet nasazených",
+      "automaticSeedsCount": "Automaticky (podle pravidla)",
       "scorecard": "Zápis skóre",
       "qualifiers": "Kvalifikanti",
       "qualifyingFirst": "Začít kvalifikací",

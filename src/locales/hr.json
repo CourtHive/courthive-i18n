@@ -2024,6 +2024,8 @@
       "creation": "Kreiranje",
       "scoreFormat": "Format rezultata",
       "seedingPolicy": "Pravilo nositelja",
+      "seedsCount": "Broj nositelja",
+      "automaticSeedsCount": "Automatski (prema pravilu)",
       "scorecard": "Bodovna lista",
       "qualifiers": "Kvalifikanti",
       "qualifyingFirst": "Započni s kvalifikacijama",

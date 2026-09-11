@@ -1855,6 +1855,8 @@
       "creation": "Création",
       "scoreFormat": "Format de score",
       "seedingPolicy": "Politique de têtes de série",
+      "seedsCount": "Nombre de têtes de série",
+      "automaticSeedsCount": "Automatique (selon la politique)",
       "scorecard": "Feuille de match",
       "qualifiers": "Qualifiés",
       "structureNamePlaceholder": "Nom d'affichage de la structure",
