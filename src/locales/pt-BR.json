@@ -293,6 +293,16 @@
       "toggleProvisioner": "Clique para alternar. Lista permitida pelo provisionador acima.",
       "toggleAll": "Clique para alternar. Seleção vazia = todos os valores permitidos.",
       "noRows": "Nenhuma linha. Clique em Adicionar linha para começar."
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "round_names": {
@@ -1916,7 +1926,8 @@
       "generateMainDraw": "Gerar chave principal",
       "noMainDraw": "A chave principal ainda não foi gerada.",
       "drawTypeSwiss": "Sistema suíço",
-      "drawTypePagePlayoff": "Playoff Page"
+      "drawTypePagePlayoff": "Playoff Page",
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {

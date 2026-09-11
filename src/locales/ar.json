@@ -293,6 +293,16 @@
       "toggleProvisioner": "انقر للتبديل. القائمة المسموح بها من المزوّد أعلاه.",
       "toggleAll": "انقر للتبديل. الاختيار الفارغ = جميع القيم مسموح بها.",
       "noRows": "لا توجد صفوف. انقر على «إضافة صف» للبدء."
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "round_names": {
@@ -1916,7 +1926,8 @@
       "generateMainDraw": "إنشاء القرعة الرئيسية",
       "noMainDraw": "لم يتم إنشاء القرعة الرئيسية بعد.",
       "drawTypeSwiss": "النظام السويسري",
-      "drawTypePagePlayoff": "تصفيات بيج"
+      "drawTypePagePlayoff": "تصفيات بيج",
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {

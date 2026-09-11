@@ -293,6 +293,16 @@
       "toggleProvisioner": "Haga clic para alternar. Lista permitida por el aprovisionador arriba.",
       "toggleAll": "Haga clic para alternar. Selección vacía = todos los valores permitidos.",
       "noRows": "No hay filas. Haga clic en Añadir fila para empezar."
+    },
+    "seedingPolicy": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "locked": "__TODO__",
+      "thresholds": "__TODO__",
+      "providerPolicy": "__TODO__",
+      "none": "__TODO__",
+      "custom": "__TODO__",
+      "attached": "__TODO__"
     }
   },
   "round_names": {
@@ -1916,7 +1926,8 @@
       "generateMainDraw": "Generar cuadro principal",
       "noMainDraw": "El cuadro principal aún no se ha generado.",
       "drawTypeSwiss": "Sistema suizo",
-      "drawTypePagePlayoff": "Playoff de Page"
+      "drawTypePagePlayoff": "Playoff de Page",
+      "providerSeedingPolicy": "__TODO__"
     }
   },
   "toasts": {
