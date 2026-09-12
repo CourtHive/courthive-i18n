@@ -967,7 +967,8 @@
           "completed": "Ya completado: el descanso ya no se aplica.",
           "noParticipants": "Participantes aún sin determinar, así que no hay a quién dar descanso.",
           "unknownMatchUp": "Este partido ya no está en el torneo."
-        }
+        },
+        "searchFor": "__TODO__"
       }
     },
     "byeScheduledTitle": "El partido está programado",
@@ -998,7 +999,24 @@
       "notice": "Horas en {{timeZone}}: zona de la sede sin definir",
       "noticeTitle": "Este torneo no tiene zona horaria definida, por lo que las horas se muestran en la zona de este dispositivo ({{timeZone}}). Defina la zona horaria de la sede para que todos los operadores lean el mismo reloj."
     },
-    "viewInDraw": "Ver en el cuadro"
+    "viewInDraw": "Ver en el cuadro",
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "No se Presentó a la Salida",

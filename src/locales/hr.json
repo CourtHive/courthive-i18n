@@ -1136,7 +1136,8 @@
           "completed": "Već dovršeno — odmor više nije primjenjiv.",
           "noParticipants": "Sudionici još nisu određeni, pa nema tko odmarati.",
           "unknownMatchUp": "Ovaj meč više nije dio turnira."
-        }
+        },
+        "searchFor": "__TODO__"
       }
     },
     "byeScheduledTitle": "Meč je u rasporedu",
@@ -1167,7 +1168,24 @@
       "notice": "Vremena u {{timeZone}} — zona lokacije nije postavljena",
       "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat."
     },
-    "viewInDraw": "Prikaži u ždrijebu"
+    "viewInDraw": "Prikaži u ždrijebu",
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Propust odjave",

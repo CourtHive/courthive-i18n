@@ -1136,7 +1136,8 @@
           "completed": "Již dokončeno — odpočinek se už neuplatní.",
           "noParticipants": "Účastníci zatím nejsou určeni, takže není kdo by odpočíval.",
           "unknownMatchUp": "Tento zápas už není součástí turnaje."
-        }
+        },
+        "searchFor": "__TODO__"
       }
     },
     "byeScheduledTitle": "Zápas je v rozpisu",
@@ -1167,7 +1168,24 @@
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
       "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas."
     },
-    "viewInDraw": "Zobrazit v pavouku"
+    "viewInDraw": "Zobrazit v pavouku",
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",
