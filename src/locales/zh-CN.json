@@ -1132,7 +1132,8 @@
           "completed": "已结束——休息规则不再适用。",
           "noParticipants": "参赛者尚未确定，因此没有需要休息的人。",
           "unknownMatchUp": "这场比赛已不在本锦标赛中。"
-        }
+        },
+        "searchFor": "__TODO__"
       }
     },
     "byeScheduledTitle": "该比赛已排程",
@@ -1163,7 +1164,24 @@
       "notice": "时间以 {{timeZone}} 显示 — 未设置场馆时区",
       "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。"
     },
-    "viewInDraw": "在签表中查看"
+    "viewInDraw": "在签表中查看",
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "未签退",
