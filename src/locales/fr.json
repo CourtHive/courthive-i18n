@@ -923,13 +923,22 @@
           "completed": "Déjà terminé — plus rien à préparer.",
           "notScheduled": "Pas encore programmé, il n’y a donc aucune heure de référence.",
           "noTime": "Aucune heure programmée, la disponibilité ne peut donc pas être projetée.",
-          "unknownMatchUp": "Ce match ne fait plus partie du tournoi."
-        }
+          "unknownMatchUp": "Ce match ne fait plus partie du tournoi.",
+          "timeNotPromised": "__TODO__"
+        },
+        "dependencyBoth": "__TODO__",
+        "dependencyWaiting": "__TODO__",
+        "finishes": "__TODO__",
+        "readyAt": "__TODO__"
       },
       "actions": {
         "trigger": "Actions du match",
         "viewDraw": "Voir le tableau",
-        "participants": "Participants"
+        "participants": "Participants",
+        "schedule": "__TODO__",
+        "setTime": "__TODO__",
+        "clearTime": "__TODO__",
+        "navigate": "__TODO__"
       },
       "rest": {
         "heading": "Repos",
@@ -967,6 +976,26 @@
           "completed": "Déjà terminé — le repos ne s’applique plus.",
           "noParticipants": "Participants pas encore déterminés, il n’y a donc personne à faire reposer.",
           "unknownMatchUp": "Ce match ne fait plus partie du tournoi."
+        },
+        "pendingName": "__TODO__",
+        "pending": "__TODO__",
+        "pendingUntil": "__TODO__",
+        "searchFor": "__TODO__"
+      },
+      "heading": "__TODO__",
+      "back": "__TODO__",
+      "placed": "__TODO__",
+      "placedAt": "__TODO__",
+      "placedHint": "__TODO__",
+      "timing": {
+        "heading": "__TODO__",
+        "average": "__TODO__",
+        "recovery": "__TODO__",
+        "typeChange": "__TODO__",
+        "source": {
+          "event": "__TODO__",
+          "tournament": "__TODO__",
+          "default": "__TODO__"
         }
       }
     },
@@ -991,14 +1020,42 @@
         "tooltipOnCourt": "{{name}} — encore sur le court",
         "tooltipOnCourtOverrun": "{{name}} — encore sur le court, au-delà de la fin prévue",
         "tooltipNone": "{{name}} — aucun match précédent aujourd’hui",
-        "tooltipUnknown": "{{name}} — le match précédent n’a pas d’heure de fin enregistrée"
+        "tooltipUnknown": "{{name}} — le match précédent n’a pas d’heure de fin enregistrée",
+        "tooltipPending": "__TODO__",
+        "tooltipPendingReady": "__TODO__"
+      },
+      "time": {
+        "ok": "__TODO__",
+        "warn": "__TODO__",
+        "alert": "__TODO__"
       }
     },
     "venueFrame": {
       "notice": "Heures en {{timeZone}} — fuseau du site non défini",
       "noticeTitle": "Ce tournoi n’a pas de fuseau horaire défini ; les heures sont donc affichées dans le fuseau de cet appareil ({{timeZone}}). Définissez le fuseau horaire du site pour que tous les opérateurs lisent la même heure."
     },
-    "viewInDraw": "Voir dans le tableau"
+    "viewInDraw": "Voir dans le tableau",
+    "strip": {
+      "runwayHint": "__TODO__",
+      "blockEdgeHint": "__TODO__"
+    },
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Défaut de désinscription",
@@ -1977,7 +2034,8 @@
       "invalidTime": "Cette heure n’a pas pu être enregistrée.",
       "courtNotFound": "Ce court n’existe plus. Actualisez le tournoi et réessayez.",
       "notSaved": "La modification de la programmation n’a pas été enregistrée : {{reason}}"
-    }
+    },
+    "tournamentsTruncated": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisation",
@@ -4005,7 +4063,13 @@
     "addToQualifying": "Ajouter aux qualifications",
     "addToAlternates": "Ajouter aux remplaçants",
     "addEntries": "Ajouter des inscriptions",
-    "pairingOff": "Appariement : DÉSACTIVÉ"
+    "pairingOff": "Appariement : DÉSACTIVÉ",
+    "pairingOn": "__TODO__",
+    "pairAs": "__TODO__",
+    "createPairAs": "__TODO__",
+    "pairAsAccepted": "__TODO__",
+    "pairAsQualifying": "__TODO__",
+    "pairAsAlternate": "__TODO__"
   },
   "swissStandings": {
     "losses": "Défaites",
