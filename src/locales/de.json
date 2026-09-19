@@ -923,13 +923,22 @@
           "completed": "Bereits abgeschlossen — es gibt nichts mehr vorzubereiten.",
           "notScheduled": "Noch nicht angesetzt, daher gibt es keine Zeit zum Abgleichen.",
           "noTime": "Keine angesetzte Zeit, daher lässt sich die Bereitschaft nicht hochrechnen.",
-          "unknownMatchUp": "Dieses Match ist nicht mehr Teil des Turniers."
-        }
+          "unknownMatchUp": "Dieses Match ist nicht mehr Teil des Turniers.",
+          "timeNotPromised": "__TODO__"
+        },
+        "dependencyBoth": "__TODO__",
+        "dependencyWaiting": "__TODO__",
+        "finishes": "__TODO__",
+        "readyAt": "__TODO__"
       },
       "actions": {
         "trigger": "Match-Aktionen",
         "viewDraw": "Auslosung ansehen",
-        "participants": "Teilnehmer"
+        "participants": "Teilnehmer",
+        "schedule": "__TODO__",
+        "setTime": "__TODO__",
+        "clearTime": "__TODO__",
+        "navigate": "__TODO__"
       },
       "rest": {
         "heading": "Pause",
@@ -967,6 +976,26 @@
           "completed": "Bereits abgeschlossen — die Pause gilt nicht mehr.",
           "noParticipants": "Teilnehmer noch nicht ermittelt, es gibt also niemanden, der pausieren müsste.",
           "unknownMatchUp": "Dieses Match ist nicht mehr Teil des Turniers."
+        },
+        "pendingName": "__TODO__",
+        "pending": "__TODO__",
+        "pendingUntil": "__TODO__",
+        "searchFor": "__TODO__"
+      },
+      "heading": "__TODO__",
+      "back": "__TODO__",
+      "placed": "__TODO__",
+      "placedAt": "__TODO__",
+      "placedHint": "__TODO__",
+      "timing": {
+        "heading": "__TODO__",
+        "average": "__TODO__",
+        "recovery": "__TODO__",
+        "typeChange": "__TODO__",
+        "source": {
+          "event": "__TODO__",
+          "tournament": "__TODO__",
+          "default": "__TODO__"
         }
       }
     },
@@ -991,14 +1020,42 @@
         "tooltipOnCourt": "{{name}} — noch auf dem Platz",
         "tooltipOnCourtOverrun": "{{name}} — noch auf dem Platz, über das erwartete Ende hinaus",
         "tooltipNone": "{{name}} — heute kein vorheriges Match",
-        "tooltipUnknown": "{{name}} — für das vorherige Match ist kein Ende erfasst"
+        "tooltipUnknown": "{{name}} — für das vorherige Match ist kein Ende erfasst",
+        "tooltipPending": "__TODO__",
+        "tooltipPendingReady": "__TODO__"
+      },
+      "time": {
+        "ok": "__TODO__",
+        "warn": "__TODO__",
+        "alert": "__TODO__"
       }
     },
     "venueFrame": {
       "notice": "Zeiten in {{timeZone}} — Zeitzone der Anlage nicht festgelegt",
       "noticeTitle": "Für dieses Turnier ist keine Zeitzone festgelegt, daher werden die Zeiten in der Zone dieses Geräts angezeigt ({{timeZone}}). Legen Sie die Zeitzone der Anlage fest, damit alle Beteiligten dieselbe Uhr lesen."
     },
-    "viewInDraw": "In der Auslosung anzeigen"
+    "viewInDraw": "In der Auslosung anzeigen",
+    "strip": {
+      "runwayHint": "__TODO__",
+      "blockEdgeHint": "__TODO__"
+    },
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Nicht abgemeldet",
@@ -1977,7 +2034,8 @@
       "invalidTime": "Diese Zeit konnte nicht erfasst werden.",
       "courtNotFound": "Diesen Platz gibt es nicht mehr. Aktualisieren Sie das Turnier und versuchen Sie es erneut.",
       "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}"
-    }
+    },
+    "tournamentsTruncated": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisierung",
@@ -4005,7 +4063,13 @@
     "addToQualifying": "Zur Qualifikation hinzufügen",
     "addToAlternates": "Zu Nachrückern hinzufügen",
     "addEntries": "Meldungen hinzufügen",
-    "pairingOff": "Paarung: AUS"
+    "pairingOff": "Paarung: AUS",
+    "pairingOn": "__TODO__",
+    "pairAs": "__TODO__",
+    "createPairAs": "__TODO__",
+    "pairAsAccepted": "__TODO__",
+    "pairAsQualifying": "__TODO__",
+    "pairAsAlternate": "__TODO__"
   },
   "swissStandings": {
     "losses": "Niederlagen",

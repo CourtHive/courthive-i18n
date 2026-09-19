@@ -1092,13 +1092,22 @@
           "completed": "Již dokončeno — není na co se připravovat.",
           "notScheduled": "Zatím není v rozpisu, takže není podle čeho kontrolovat.",
           "noTime": "Bez času v rozpisu nelze připravenost odhadnout.",
-          "unknownMatchUp": "Tento zápas už není součástí turnaje."
-        }
+          "unknownMatchUp": "Tento zápas už není součástí turnaje.",
+          "timeNotPromised": "__TODO__"
+        },
+        "dependencyBoth": "__TODO__",
+        "dependencyWaiting": "__TODO__",
+        "finishes": "__TODO__",
+        "readyAt": "__TODO__"
       },
       "actions": {
         "trigger": "Akce zápasu",
         "viewDraw": "Zobrazit pavouka",
-        "participants": "Účastníci"
+        "participants": "Účastníci",
+        "schedule": "__TODO__",
+        "setTime": "__TODO__",
+        "clearTime": "__TODO__",
+        "navigate": "__TODO__"
       },
       "rest": {
         "heading": "Odpočinek",
@@ -1136,6 +1145,26 @@
           "completed": "Již dokončeno — odpočinek se už neuplatní.",
           "noParticipants": "Účastníci zatím nejsou určeni, takže není kdo by odpočíval.",
           "unknownMatchUp": "Tento zápas už není součástí turnaje."
+        },
+        "pendingName": "__TODO__",
+        "pending": "__TODO__",
+        "pendingUntil": "__TODO__",
+        "searchFor": "__TODO__"
+      },
+      "heading": "__TODO__",
+      "back": "__TODO__",
+      "placed": "__TODO__",
+      "placedAt": "__TODO__",
+      "placedHint": "__TODO__",
+      "timing": {
+        "heading": "__TODO__",
+        "average": "__TODO__",
+        "recovery": "__TODO__",
+        "typeChange": "__TODO__",
+        "source": {
+          "event": "__TODO__",
+          "tournament": "__TODO__",
+          "default": "__TODO__"
         }
       }
     },
@@ -1160,14 +1189,42 @@
         "tooltipOnCourt": "{{name}} — stále na kurtu",
         "tooltipOnCourtOverrun": "{{name}} — stále na kurtu, po očekávaném konci",
         "tooltipNone": "{{name}} — dnes žádný předchozí zápas",
-        "tooltipUnknown": "{{name}} — předchozí zápas nemá zaznamenaný konec"
+        "tooltipUnknown": "{{name}} — předchozí zápas nemá zaznamenaný konec",
+        "tooltipPending": "__TODO__",
+        "tooltipPendingReady": "__TODO__"
+      },
+      "time": {
+        "ok": "__TODO__",
+        "warn": "__TODO__",
+        "alert": "__TODO__"
       }
     },
     "venueFrame": {
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
       "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas."
     },
-    "viewInDraw": "Zobrazit v pavouku"
+    "viewInDraw": "Zobrazit v pavouku",
+    "strip": {
+      "runwayHint": "__TODO__",
+      "blockEdgeHint": "__TODO__"
+    },
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Nepřihlásil se k odhlášení",
@@ -2146,7 +2203,8 @@
       "invalidTime": "Tento čas se nepodařilo zaznamenat.",
       "courtNotFound": "Tento kurt už neexistuje. Obnovte turnaj a zkuste to znovu.",
       "notSaved": "Změna rozpisu nebyla uložena: {{reason}}"
-    }
+    },
+    "tournamentsTruncated": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -4005,7 +4063,13 @@
     "addToQualifying": "Přidat do kvalifikace",
     "addToAlternates": "Přidat mezi náhradníky",
     "addEntries": "Přidat přihlášky",
-    "pairingOff": "Párování: VYPNUTO"
+    "pairingOff": "Párování: VYPNUTO",
+    "pairingOn": "__TODO__",
+    "pairAs": "__TODO__",
+    "createPairAs": "__TODO__",
+    "pairAsAccepted": "__TODO__",
+    "pairAsQualifying": "__TODO__",
+    "pairAsAlternate": "__TODO__"
   },
   "swissStandings": {
     "losses": "Prohry",
