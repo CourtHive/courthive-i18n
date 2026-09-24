@@ -1088,13 +1088,22 @@
           "completed": "已结束——没有什么需要准备了。",
           "notScheduled": "尚未排程，因此没有可比对的时间。",
           "noTime": "没有排程时间，因此无法推算就绪情况。",
-          "unknownMatchUp": "这场比赛已不在本锦标赛中。"
-        }
+          "unknownMatchUp": "这场比赛已不在本锦标赛中。",
+          "timeNotPromised": "__TODO__"
+        },
+        "dependencyBoth": "__TODO__",
+        "dependencyWaiting": "__TODO__",
+        "finishes": "__TODO__",
+        "readyAt": "__TODO__"
       },
       "actions": {
         "trigger": "比赛操作",
         "viewDraw": "查看签表",
-        "participants": "参赛者"
+        "participants": "参赛者",
+        "schedule": "__TODO__",
+        "setTime": "__TODO__",
+        "clearTime": "__TODO__",
+        "navigate": "__TODO__"
       },
       "rest": {
         "heading": "休息",
@@ -1132,6 +1141,26 @@
           "completed": "已结束——休息规则不再适用。",
           "noParticipants": "参赛者尚未确定，因此没有需要休息的人。",
           "unknownMatchUp": "这场比赛已不在本锦标赛中。"
+        },
+        "pendingName": "__TODO__",
+        "pending": "__TODO__",
+        "pendingUntil": "__TODO__",
+        "searchFor": "__TODO__"
+      },
+      "heading": "__TODO__",
+      "back": "__TODO__",
+      "placed": "__TODO__",
+      "placedAt": "__TODO__",
+      "placedHint": "__TODO__",
+      "timing": {
+        "heading": "__TODO__",
+        "average": "__TODO__",
+        "recovery": "__TODO__",
+        "typeChange": "__TODO__",
+        "source": {
+          "event": "__TODO__",
+          "tournament": "__TODO__",
+          "default": "__TODO__"
         }
       }
     },
@@ -1156,14 +1185,63 @@
         "tooltipOnCourt": "{{name}} — 仍在场上",
         "tooltipOnCourtOverrun": "{{name}} — 仍在场上，已超过预计结束时间",
         "tooltipNone": "{{name}} — 今日无前一场比赛",
-        "tooltipUnknown": "{{name}} — 前一场比赛没有记录结束时间"
+        "tooltipUnknown": "{{name}} — 前一场比赛没有记录结束时间",
+        "tooltipPending": "__TODO__",
+        "tooltipPendingReady": "__TODO__"
+      },
+      "time": {
+        "ok": "__TODO__",
+        "warn": "__TODO__",
+        "alert": "__TODO__"
       }
     },
     "venueFrame": {
       "notice": "时间以 {{timeZone}} 显示 — 未设置场馆时区",
       "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。"
     },
-    "viewInDraw": "在签表中查看"
+    "viewInDraw": "在签表中查看",
+    "strip": {
+      "runwayHint": "__TODO__",
+      "blockEdgeHint": "__TODO__"
+    },
+    "blockType": {
+      "blocked": "__TODO__",
+      "maintenance": "__TODO__",
+      "drying": "__TODO__",
+      "practice": "__TODO__"
+    },
+    "timeBlock": {
+      "open": "__TODO__",
+      "title": "__TODO__",
+      "from": "__TODO__",
+      "to": "__TODO__",
+      "addPeriod": "__TODO__",
+      "removePeriod": "__TODO__",
+      "allCourts": "__TODO__",
+      "save": "__TODO__",
+      "noWindow": "__TODO__",
+      "error": {
+        "incomplete": "__TODO__",
+        "inverted": "__TODO__"
+      }
+    },
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "未签退",
@@ -1573,7 +1651,12 @@
       "setScores": "盘比分：",
       "tiebreaks": "抢七：",
       "matchTiebreaks": "决胜盘抢十：",
-      "irregularEndings": "非常规结束方式："
+      "irregularEndings": "非常规结束方式：",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "incomplete": "__TODO__",
+      "reasonCode": "__TODO__",
+      "noReasonCode": "__TODO__"
     },
     "generateTeams": {
       "title": "生成模拟队伍",
@@ -2092,7 +2175,9 @@
       "noMainDraw": "主签表尚未生成。",
       "drawTypeSwiss": "瑞士制",
       "drawTypePagePlayoff": "佩奇附加赛",
-      "providerSeedingPolicy": "__TODO__"
+      "providerSeedingPolicy": "__TODO__",
+      "additionalSeedsCount_one": "__TODO__",
+      "additionalSeedsCount_other": "__TODO__"
     }
   },
   "toasts": {
@@ -2142,7 +2227,9 @@
       "invalidTime": "无法记录该时间。",
       "courtNotFound": "该球场已不存在。请刷新锦标赛后重试。",
       "notSaved": "赛程更改未保存：{{reason}}"
-    }
+    },
+    "tournamentsTruncated": "__TODO__",
+    "tournamentSearchFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -2700,7 +2787,10 @@
     "cityState": "城市 / 省份",
     "timeZoneNotSetTitle": "未设置时区",
     "timeZoneNotSetBody": "本锦标赛未设置时区。已发布的比赛时间对其他时区的观众可能含义不明。请在发布前设置时区。",
-    "setTimeZone": "设置时区"
+    "setTimeZone": "设置时区",
+    "tournamentInformation": "__TODO__",
+    "informationEvents": "__TODO__",
+    "informationEmbargoNote": "__TODO__"
   },
   "cal": "日历",
   "tpl": "模板",
@@ -3691,6 +3781,23 @@
       "offHint": "叫比赛上场前从不询问。",
       "onHint": "有人未签到时始终询问。",
       "autoHint": "仅在本锦标赛今日启用签到时询问。"
+    },
+    "attester": {
+      "action": "__TODO__",
+      "self": "__TODO__",
+      "parent": "__TODO__",
+      "guardian": "__TODO__",
+      "chaperone": "__TODO__",
+      "other": "__TODO__",
+      "namePrompt": "__TODO__",
+      "namePlaceholder": "__TODO__",
+      "telephonePlaceholder": "__TODO__",
+      "cancel": "__TODO__",
+      "confirm": "__TODO__",
+      "bySelf": "__TODO__",
+      "byRelationship": "__TODO__",
+      "byOperator": "__TODO__",
+      "at": "__TODO__"
     }
   },
   "ofc": "官员",
@@ -4005,7 +4112,15 @@
     "addToQualifying": "加入资格赛",
     "addToAlternates": "加入替补名单",
     "addEntries": "添加报名",
-    "pairingOff": "配对：关闭"
+    "pairingOff": "配对：关闭",
+    "pairingOn": "__TODO__",
+    "pairAs": "__TODO__",
+    "createPairAs": "__TODO__",
+    "pairAsAccepted": "__TODO__",
+    "pairAsQualifying": "__TODO__",
+    "pairAsAlternate": "__TODO__",
+    "rotatingPartnersOff": "__TODO__",
+    "rotatingPartnersOn": "__TODO__"
   },
   "swissStandings": {
     "losses": "负场",
@@ -4214,7 +4329,9 @@
     "noIndividualParticipants": "没有个人参赛者",
     "addPlayers": "添加选手",
     "noRatingData": "没有可用的评级数据",
-    "scheduledMatches": "已安排的比赛"
+    "scheduledMatches": "已安排的比赛",
+    "alreadyPartners": "__TODO__",
+    "pairedWith": "__TODO__"
   },
   "ageCategories": {
     "u10": "10 岁及以下",
@@ -4370,5 +4487,17 @@
   },
   "tournamentActions": {
     "send": "要发送吗？？"
+  },
+  "additionalSeeds": {
+    "chooseBasis": "__TODO__",
+    "seededOn": "__TODO__",
+    "added": "__TODO__",
+    "refused": "__TODO__",
+    "basis": {
+      "organiserDiscretion": "__TODO__",
+      "protectedRanking": "__TODO__",
+      "ranking": "__TODO__",
+      "rating": "__TODO__"
+    }
   }
 }

@@ -923,13 +923,22 @@
           "completed": "Já concluída — não há mais nada para preparar.",
           "notScheduled": "Ainda não programada, então não há horário de referência.",
           "noTime": "Sem horário programado, então a prontidão não pode ser projetada.",
-          "unknownMatchUp": "Esta partida não está mais no torneio."
-        }
+          "unknownMatchUp": "Esta partida não está mais no torneio.",
+          "timeNotPromised": "__TODO__"
+        },
+        "dependencyBoth": "__TODO__",
+        "dependencyWaiting": "__TODO__",
+        "finishes": "__TODO__",
+        "readyAt": "__TODO__"
       },
       "actions": {
         "trigger": "Ações da partida",
         "viewDraw": "Ver chave",
-        "participants": "Participantes"
+        "participants": "Participantes",
+        "schedule": "__TODO__",
+        "setTime": "__TODO__",
+        "clearTime": "__TODO__",
+        "navigate": "__TODO__"
       },
       "rest": {
         "heading": "Descanso",
@@ -967,6 +976,26 @@
           "completed": "Já concluída — o descanso não se aplica mais.",
           "noParticipants": "Participantes ainda não definidos, então não há quem descansar.",
           "unknownMatchUp": "Esta partida não está mais no torneio."
+        },
+        "pendingName": "__TODO__",
+        "pending": "__TODO__",
+        "pendingUntil": "__TODO__",
+        "searchFor": "__TODO__"
+      },
+      "heading": "__TODO__",
+      "back": "__TODO__",
+      "placed": "__TODO__",
+      "placedAt": "__TODO__",
+      "placedHint": "__TODO__",
+      "timing": {
+        "heading": "__TODO__",
+        "average": "__TODO__",
+        "recovery": "__TODO__",
+        "typeChange": "__TODO__",
+        "source": {
+          "event": "__TODO__",
+          "tournament": "__TODO__",
+          "default": "__TODO__"
         }
       }
     },
@@ -991,14 +1020,63 @@
         "tooltipOnCourt": "{{name}} — ainda em quadra",
         "tooltipOnCourtOverrun": "{{name}} — ainda em quadra, além do término previsto",
         "tooltipNone": "{{name}} — sem partida anterior hoje",
-        "tooltipUnknown": "{{name}} — a partida anterior não tem término registrado"
+        "tooltipUnknown": "{{name}} — a partida anterior não tem término registrado",
+        "tooltipPending": "__TODO__",
+        "tooltipPendingReady": "__TODO__"
+      },
+      "time": {
+        "ok": "__TODO__",
+        "warn": "__TODO__",
+        "alert": "__TODO__"
       }
     },
     "venueFrame": {
       "notice": "Horários em {{timeZone}} — fuso do local não definido",
       "noticeTitle": "Este torneio não tem fuso horário definido, então os horários são exibidos no fuso deste dispositivo ({{timeZone}}). Defina o fuso horário do local para que todos os operadores leiam o mesmo relógio."
     },
-    "viewInDraw": "Ver na chave"
+    "viewInDraw": "Ver na chave",
+    "strip": {
+      "runwayHint": "__TODO__",
+      "blockEdgeHint": "__TODO__"
+    },
+    "blockType": {
+      "blocked": "__TODO__",
+      "maintenance": "__TODO__",
+      "drying": "__TODO__",
+      "practice": "__TODO__"
+    },
+    "timeBlock": {
+      "open": "__TODO__",
+      "title": "__TODO__",
+      "from": "__TODO__",
+      "to": "__TODO__",
+      "addPeriod": "__TODO__",
+      "removePeriod": "__TODO__",
+      "allCourts": "__TODO__",
+      "save": "__TODO__",
+      "noWindow": "__TODO__",
+      "error": {
+        "incomplete": "__TODO__",
+        "inverted": "__TODO__"
+      }
+    },
+    "legend": {
+      "title": "__TODO__",
+      "restBadge": "__TODO__",
+      "restOnCourt": "__TODO__",
+      "restDurationSample": "__TODO__",
+      "restDuration": "__TODO__",
+      "restUnknown": "__TODO__",
+      "restNone": "__TODO__",
+      "restLimit": "__TODO__",
+      "inspector": "__TODO__",
+      "estimatedSample": "__TODO__",
+      "estimated": "__TODO__",
+      "discarded": "__TODO__",
+      "cellMarks": "__TODO__",
+      "checkIn": "__TODO__",
+      "annotations": "__TODO__"
+    }
   },
   "penalties": {
     "fail2signout": "Não fez Check-Out",
@@ -1408,7 +1486,12 @@
       "setScores": "Placares de sets:",
       "tiebreaks": "Tiebreaks:",
       "matchTiebreaks": "Super tiebreaks:",
-      "irregularEndings": "Finais irregulares:"
+      "irregularEndings": "Finais irregulares:",
+      "abandoned": "__TODO__",
+      "cancelled": "__TODO__",
+      "incomplete": "__TODO__",
+      "reasonCode": "__TODO__",
+      "noReasonCode": "__TODO__"
     },
     "generateTeams": {
       "title": "Gerar equipes fictícias",
@@ -1927,7 +2010,9 @@
       "noMainDraw": "A chave principal ainda não foi gerada.",
       "drawTypeSwiss": "Sistema suíço",
       "drawTypePagePlayoff": "Playoff Page",
-      "providerSeedingPolicy": "__TODO__"
+      "providerSeedingPolicy": "__TODO__",
+      "additionalSeedsCount_one": "__TODO__",
+      "additionalSeedsCount_other": "__TODO__"
     }
   },
   "toasts": {
@@ -1977,7 +2062,9 @@
       "invalidTime": "Esse horário não pôde ser registrado.",
       "courtNotFound": "Essa quadra não existe mais. Atualize o torneio e tente novamente.",
       "notSaved": "A alteração da programação não foi salva: {{reason}}"
-    }
+    },
+    "tournamentsTruncated": "__TODO__",
+    "tournamentSearchFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorização",
@@ -2535,7 +2622,10 @@
     "confirmUnpublish": "Despublicar todos os eventos, participantes e programação",
     "timeZoneNotSetTitle": "Fuso horário não definido",
     "timeZoneNotSetBody": "Este torneio não tem fuso horário definido. Os horários publicados podem ficar ambíguos para espectadores de outros fusos. Defina um fuso horário antes de publicar.",
-    "setTimeZone": "Definir fuso horário"
+    "setTimeZone": "Definir fuso horário",
+    "tournamentInformation": "__TODO__",
+    "informationEvents": "__TODO__",
+    "informationEmbargoNote": "__TODO__"
   },
   "cal": "Calendário",
   "tpl": "Modelos",
@@ -3691,6 +3781,23 @@
       "offHint": "Nunca perguntar antes de chamar uma partida para a quadra.",
       "onHint": "Sempre perguntar quando alguém não tiver feito check-in.",
       "autoHint": "Perguntar apenas quando este torneio estiver usando check-in hoje."
+    },
+    "attester": {
+      "action": "__TODO__",
+      "self": "__TODO__",
+      "parent": "__TODO__",
+      "guardian": "__TODO__",
+      "chaperone": "__TODO__",
+      "other": "__TODO__",
+      "namePrompt": "__TODO__",
+      "namePlaceholder": "__TODO__",
+      "telephonePlaceholder": "__TODO__",
+      "cancel": "__TODO__",
+      "confirm": "__TODO__",
+      "bySelf": "__TODO__",
+      "byRelationship": "__TODO__",
+      "byOperator": "__TODO__",
+      "at": "__TODO__"
     }
   },
   "ofc": "Oficiais",
@@ -4005,7 +4112,15 @@
     "addToQualifying": "Adicionar à qualificação",
     "addToAlternates": "Adicionar aos suplentes",
     "addEntries": "Adicionar inscrições",
-    "pairingOff": "Emparelhamento: DESLIGADO"
+    "pairingOff": "Emparelhamento: DESLIGADO",
+    "pairingOn": "__TODO__",
+    "pairAs": "__TODO__",
+    "createPairAs": "__TODO__",
+    "pairAsAccepted": "__TODO__",
+    "pairAsQualifying": "__TODO__",
+    "pairAsAlternate": "__TODO__",
+    "rotatingPartnersOff": "__TODO__",
+    "rotatingPartnersOn": "__TODO__"
   },
   "swissStandings": {
     "losses": "Derrotas",
@@ -4214,7 +4329,9 @@
     "noIndividualParticipants": "Nenhum participante individual",
     "addPlayers": "Adicionar jogadores",
     "noRatingData": "Nenhum dado de avaliação disponível",
-    "scheduledMatches": "Partidas programadas"
+    "scheduledMatches": "Partidas programadas",
+    "alreadyPartners": "__TODO__",
+    "pairedWith": "__TODO__"
   },
   "ageCategories": {
     "u10": "10 anos e abaixo",
@@ -4370,5 +4487,17 @@
   },
   "tournamentActions": {
     "send": "Enviar??"
+  },
+  "additionalSeeds": {
+    "chooseBasis": "__TODO__",
+    "seededOn": "__TODO__",
+    "added": "__TODO__",
+    "refused": "__TODO__",
+    "basis": {
+      "organiserDiscretion": "__TODO__",
+      "protectedRanking": "__TODO__",
+      "ranking": "__TODO__",
+      "rating": "__TODO__"
+    }
   }
 }
