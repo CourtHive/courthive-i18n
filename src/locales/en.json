@@ -1092,13 +1092,22 @@
           "completed": "Already complete — nothing left to be ready for.",
           "notScheduled": "Not scheduled yet, so there is no time to check against.",
           "noTime": "No scheduled time, so readiness cannot be projected.",
-          "unknownMatchUp": "This matchUp is no longer in the tournament."
-        }
+          "unknownMatchUp": "This matchUp is no longer in the tournament.",
+          "timeNotPromised": "The schedule does not state a time for this matchUp, so there is none to check against."
+        },
+        "dependencyBoth": "Waiting on {{labels}} — finishes ~{{finishes}}, its winner ready ~{{ready}}",
+        "dependencyWaiting": "Waiting on {{labels}}",
+        "finishes": "finishes ~{{time}}",
+        "readyAt": "ready ~{{time}}"
       },
       "actions": {
         "trigger": "MatchUp actions",
         "viewDraw": "View draw",
-        "participants": "Participants"
+        "participants": "Participants",
+        "schedule": "Schedule",
+        "setTime": "Set time",
+        "clearTime": "Clear time",
+        "navigate": "Go to"
       },
       "rest": {
         "heading": "Rest",
@@ -1136,6 +1145,26 @@
           "completed": "Already complete — rest no longer applies.",
           "noParticipants": "Participants not yet determined, so there is no one to rest.",
           "unknownMatchUp": "This matchUp is no longer in the tournament."
+        },
+        "pendingName": "Winner of {{label}}",
+        "pending": "Still to be decided — no rest yet",
+        "pendingUntil": "Still to be decided — ready {{time}}",
+        "searchFor": "Highlight {{name}}'s matches on the grid"
+      },
+      "heading": "Inspector",
+      "back": "Back to actions",
+      "placed": "On the grid — {{court}}",
+      "placedAt": "On the grid — {{court}} at {{time}}",
+      "placedHint": "Not in either catalog list. Click to highlight it on the court grid.",
+      "timing": {
+        "heading": "Format timing",
+        "average": "{{minutes}} average",
+        "recovery": "{{minutes}} recovery",
+        "typeChange": "{{minutes}} after a type change",
+        "source": {
+          "event": "from this event's scheduling policy",
+          "tournament": "from the tournament's scheduling policy",
+          "default": "factory default — no scheduling policy attached"
         }
       }
     },
@@ -1160,14 +1189,63 @@
         "tooltipOnCourt": "{{name}} — still on court",
         "tooltipOnCourtOverrun": "{{name}} — still on court, past the expected finish",
         "tooltipNone": "{{name}} — no prior match today",
-        "tooltipUnknown": "{{name}} — prior match has no recorded finish"
+        "tooltipUnknown": "{{name}} — prior match has no recorded finish",
+        "tooltipPending": "Winner of {{label}} — still to be decided, no rest yet",
+        "tooltipPendingReady": "Winner of {{label}} — still to be decided, ready {{time}}"
+      },
+      "time": {
+        "ok": "This time looks achievable.",
+        "warn": "This time is at risk:",
+        "alert": "This time cannot be met:"
       }
     },
     "venueFrame": {
       "notice": "Times in {{timeZone}} — venue zone not set",
       "noticeTitle": "This tournament has no time zone set, so times are shown in this device’s zone ({{timeZone}}). Set the venue’s time zone so every operator reads the same clock."
     },
-    "viewInDraw": "View in draw"
+    "viewInDraw": "View in draw",
+    "strip": {
+      "runwayHint": "{{minutes}} until this court is taken by {{type}} — a typical match no longer fits",
+      "blockEdgeHint": "{{type}} starts in {{minutes}}, before this match is expected to finish"
+    },
+    "blockType": {
+      "blocked": "Blocked",
+      "maintenance": "Maintenance",
+      "drying": "Drying",
+      "practice": "Practice"
+    },
+    "timeBlock": {
+      "open": "Block time",
+      "title": "Block {{court}}",
+      "from": "From",
+      "to": "to",
+      "addPeriod": "+ Add another period",
+      "removePeriod": "Remove this period",
+      "allCourts": "Apply to all {{count}} courts",
+      "save": "Block",
+      "noWindow": "No open hours recorded for {{courts}} — set the court's availability first.",
+      "error": {
+        "incomplete": "Each period needs both a start and an end.",
+        "inverted": "A period has to end after it starts."
+      }
+    },
+    "legend": {
+      "title": "What the marks on this page mean",
+      "restBadge": "Rest badge (on a match card)",
+      "restOnCourt": "A player is still in an earlier match",
+      "restDurationSample": "41m",
+      "restDuration": "How long the least-rested player has had off",
+      "restUnknown": "The prior match has no recorded finish, so rest cannot be measured",
+      "restNone": "Nobody on this card has played yet today",
+      "restLimit": "Which match of the day this would be for that player",
+      "inspector": "Inspector rest rows",
+      "estimatedSample": "(est.)",
+      "estimated": "The finish was inferred, not recorded — a projection, not a measurement",
+      "discarded": "A recorded stamp was rejected as unreadable, and the next best one was used",
+      "cellMarks": "On a scheduled cell",
+      "checkIn": "Participants who have not yet presented at the desk",
+      "annotations": "Notes a director has pinned to the match"
+    }
   },
   "penalties": {
     "fail2signout": "Failed to Sign Out",
@@ -1666,7 +1744,12 @@
       "setScores": "Set Scores:",
       "tiebreaks": "Tiebreaks:",
       "matchTiebreaks": "Match Tiebreaks:",
-      "irregularEndings": "Irregular Endings:"
+      "irregularEndings": "Irregular Endings:",
+      "abandoned": "Abandoned",
+      "cancelled": "Cancelled",
+      "incomplete": "Incomplete",
+      "reasonCode": "Reason",
+      "noReasonCode": "No reason given"
     },
     "generateTeams": {
       "title": "Generate mock teams",
@@ -2096,7 +2179,9 @@
         "ROUND_ROBIN_WITH_PLAYOFF": "Round robin group stage followed by single elimination playoffs.",
         "FEED_IN": "Staggered entry draw where participants enter the bracket at different rounds."
       },
-      "providerSeedingPolicy": "Provider policy"
+      "providerSeedingPolicy": "Provider policy",
+      "additionalSeedsCount_one": "{{seeds}} (+{{count}} additional seed)",
+      "additionalSeedsCount_other": "{{seeds}} (+{{count}} additional seeds)"
     }
   },
   "toasts": {
@@ -2146,7 +2231,9 @@
       "invalidTime": "That time could not be recorded.",
       "courtNotFound": "That court no longer exists. Refresh the tournament and try again.",
       "notSaved": "Schedule change was not saved: {{reason}}"
-    }
+    },
+    "tournamentsTruncated": "Showing the first {{loaded}} of {{total}} tournaments. Filter or search to narrow the list.",
+    "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded."
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -2704,7 +2791,10 @@
     "cityState": "City / State",
     "timeZoneNotSetTitle": "Time zone not set",
     "timeZoneNotSetBody": "This tournament has no time zone set. Published match times may be ambiguous for viewers in other time zones. Set a time zone before publishing.",
-    "setTimeZone": "Set time zone"
+    "setTimeZone": "Set time zone",
+    "tournamentInformation": "Tournament Information",
+    "informationEvents": "Events listed publicly",
+    "informationEmbargoNote": "Published, but not listed publicly until {{when}}."
   },
   "formatWizard": {
     "title": "Format Wizard",
@@ -3691,6 +3781,23 @@
       "offHint": "Never ask before calling a match to court.",
       "onHint": "Always ask when someone has not checked in.",
       "autoHint": "Ask only when this tournament is using check-in today."
+    },
+    "attester": {
+      "action": "Check in as…",
+      "self": "Themselves",
+      "parent": "Parent",
+      "guardian": "Guardian",
+      "chaperone": "Chaperone",
+      "other": "Someone else",
+      "namePrompt": "Who is checking {{name}} in?",
+      "namePlaceholder": "Name",
+      "telephonePlaceholder": "Telephone (optional)",
+      "cancel": "Cancel",
+      "confirm": "Check in",
+      "bySelf": "Checked in by themselves",
+      "byRelationship": "Checked in by {{name}} ({{relationship}})",
+      "byOperator": "Checked in by {{name}}",
+      "at": "at {{time}}"
     }
   },
   "ofc": "Officials",
@@ -4005,7 +4112,15 @@
     "addToQualifying": "Add to Qualifying",
     "addToAlternates": "Add to Alternates",
     "addEntries": "Add entries",
-    "pairingOff": "Pairing: OFF"
+    "pairingOff": "Pairing: OFF",
+    "pairingOn": "Pairing: ON",
+    "pairAs": "Pair as",
+    "createPairAs": "Create pair as",
+    "pairAsAccepted": "Accepted",
+    "pairAsQualifying": "Qualifying",
+    "pairAsAlternate": "Alternate",
+    "rotatingPartnersOff": "Rotating partners: OFF",
+    "rotatingPartnersOn": "Rotating partners: ON"
   },
   "swissStandings": {
     "losses": "Losses",
@@ -4214,7 +4329,9 @@
     "noIndividualParticipants": "No individual participants",
     "addPlayers": "Add players",
     "noRatingData": "No rating data available",
-    "scheduledMatches": "Scheduled matches"
+    "scheduledMatches": "Scheduled matches",
+    "alreadyPartners": "These players are already partners in this event",
+    "pairedWith": "with"
   },
   "ageCategories": {
     "u10": "10 and Under",
@@ -4370,5 +4487,17 @@
   },
   "tournamentActions": {
     "send": "Send??"
+  },
+  "additionalSeeds": {
+    "chooseBasis": "On what basis?",
+    "seededOn": "Seeded on {{basis}}",
+    "added": "Added as seed {{seedNumber}}",
+    "refused": "The seeding policy allows no further additional seeds",
+    "basis": {
+      "organiserDiscretion": "Organiser discretion",
+      "protectedRanking": "Protected ranking",
+      "ranking": "Ranking",
+      "rating": "Rating"
+    }
   }
 }
