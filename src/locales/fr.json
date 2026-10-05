@@ -498,7 +498,7 @@
     "auth": "Autorisé",
     "fetch": "Télécharger",
     "fetchtournament": "Télécharger l'enregistrement du tournoi",
-    "convert": "Convertir en TODS / Enregistrer",
+    "convert": "Convertir en CODES / Enregistrer",
     "send": "Envoyer l'enregistrement du tournoi",
     "export": "Exporter l'enregistrement du tournoi",
     "renewlist": "Actualiser la liste",
@@ -614,7 +614,7 @@
     "noconnection": "Aucune connexion",
     "schedulepriority": "Priorité de programmation des matchs",
     "send": "Envoyer",
-    "sendTODS": "Envoyer l'enregistrement TODS du tournoi",
+    "sendCODES": "Envoyer l'enregistrement CODES du tournoi",
     "export": "Exporter",
     "pointsvalidfrom": "Points valides à partir du",
     "linkcopied": "Lien copié dans le presse-papiers",
@@ -1272,7 +1272,7 @@
       "goOffline": "Passer hors ligne - mode autonome",
       "goOnline": "Passer en ligne - quitter le mode autonome",
       "exportUtr": "Exporter les matchs UTR",
-      "exportTods": "Exporter le fichier CODES",
+      "exportCodes": "Exporter le fichier CODES",
       "noActions": "Aucune action disponible",
       "replaceTournament": "Remplacer le tournoi sur le serveur",
       "go": "Lancer",
@@ -1376,7 +1376,7 @@
       "invalidUrl": "URL invalide"
     },
     "exportTournament": {
-      "tods": "CODES"
+      "codes": "CODES"
     },
     "notesEditor": {
       "title": "Modifier la vue d'ensemble"

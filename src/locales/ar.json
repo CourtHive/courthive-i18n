@@ -498,7 +498,7 @@
     "auth": "مصرح",
     "fetch": "تنزيل",
     "fetchtournament": "تنزيل سجل البطولة",
-    "convert": "تحويل إلى TODS / حفظ",
+    "convert": "تحويل إلى CODES / حفظ",
     "send": "رفع سجل البطولة",
     "export": "تصدير سجل البطولة",
     "renewlist": "تجديد القائمة",
@@ -614,7 +614,7 @@
     "noconnection": "لا يوجد اتصال",
     "schedulepriority": "أولوية جدولة المباريات",
     "send": "إرسال",
-    "sendTODS": "إرسال سجل بطولة TODS",
+    "sendCODES": "إرسال سجل بطولة CODES",
     "export": "تصدير",
     "pointsvalidfrom": "النقاط صالحة من",
     "linkcopied": "تم نسخ الرابط إلى الحافظة",
@@ -1272,7 +1272,7 @@
       "goOffline": "العمل دون اتصال - الوضع المستقل",
       "goOnline": "العمل متصلاً - الخروج من الوضع المستقل",
       "exportUtr": "تصدير مباريات UTR",
-      "exportTods": "تصدير ملف CODES",
+      "exportCodes": "تصدير ملف CODES",
       "noActions": "لا توجد إجراءات متاحة",
       "replaceTournament": "استبدال البطولة على الخادم",
       "go": "تنفيذ",
@@ -1376,7 +1376,7 @@
       "invalidUrl": "رابط غير صالح"
     },
     "exportTournament": {
-      "tods": "CODES"
+      "codes": "CODES"
     },
     "notesEditor": {
       "title": "تعديل النظرة العامة"

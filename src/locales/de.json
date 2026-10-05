@@ -498,7 +498,7 @@
     "auth": "Autorisiert",
     "fetch": "Herunterladen",
     "fetchtournament": "Turnierdatensatz herunterladen",
-    "convert": "In TODS konvertieren / Speichern",
+    "convert": "In CODES konvertieren / Speichern",
     "send": "Turnierdatensatz hochladen",
     "export": "Turnierdatensatz exportieren",
     "renewlist": "Liste erneuern",
@@ -614,7 +614,7 @@
     "noconnection": "Keine Verbindung",
     "schedulepriority": "Spielplanungspriorität",
     "send": "Senden",
-    "sendTODS": "TODS-Turnierdatensatz senden",
+    "sendCODES": "CODES-Turnierdatensatz senden",
     "export": "Exportieren",
     "pointsvalidfrom": "Punkte gültig ab",
     "linkcopied": "Link in die Zwischenablage kopiert",
@@ -1272,7 +1272,7 @@
       "goOffline": "Offline gehen - Standalone-Modus",
       "goOnline": "Online gehen - Standalone-Modus verlassen",
       "exportUtr": "UTR-Spiele exportieren",
-      "exportTods": "CODES-Datei exportieren",
+      "exportCodes": "CODES-Datei exportieren",
       "noActions": "Keine Aktionen verfügbar",
       "replaceTournament": "Turnier auf Server ersetzen",
       "go": "Los",
@@ -1376,7 +1376,7 @@
       "invalidUrl": "Ungültige URL"
     },
     "exportTournament": {
-      "tods": "CODES"
+      "codes": "CODES"
     },
     "notesEditor": {
       "title": "Übersicht bearbeiten"
