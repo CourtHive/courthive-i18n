@@ -1272,7 +1272,7 @@
       "goOffline": "Modo sin conexión - modo autónomo",
       "goOnline": "Modo en línea - salir del modo autónomo",
       "exportUtr": "Exportar partidos UTR",
-      "exportTods": "Exportar archivo TODS",
+      "exportTods": "Exportar archivo CODES",
       "noActions": "No hay acciones disponibles",
       "replaceTournament": "Reemplazar torneo en servidor",
       "go": "Ir",
@@ -1376,7 +1376,7 @@
       "invalidUrl": "URL inválida"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "tods": "CODES"
     },
     "notesEditor": {
       "title": "Editar Resumen"

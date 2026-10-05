@@ -1272,7 +1272,7 @@
       "goOffline": "Passer hors ligne - mode autonome",
       "goOnline": "Passer en ligne - quitter le mode autonome",
       "exportUtr": "Exporter les matchs UTR",
-      "exportTods": "Exporter le fichier TODS",
+      "exportTods": "Exporter le fichier CODES",
       "noActions": "Aucune action disponible",
       "replaceTournament": "Remplacer le tournoi sur le serveur",
       "go": "Lancer",
@@ -1376,7 +1376,7 @@
       "invalidUrl": "URL invalide"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "tods": "CODES"
     },
     "notesEditor": {
       "title": "Modifier la vue d'ensemble"

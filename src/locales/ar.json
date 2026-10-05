@@ -1272,7 +1272,7 @@
       "goOffline": "العمل دون اتصال - الوضع المستقل",
       "goOnline": "العمل متصلاً - الخروج من الوضع المستقل",
       "exportUtr": "تصدير مباريات UTR",
-      "exportTods": "تصدير ملف TODS",
+      "exportTods": "تصدير ملف CODES",
       "noActions": "لا توجد إجراءات متاحة",
       "replaceTournament": "استبدال البطولة على الخادم",
       "go": "تنفيذ",
@@ -1376,7 +1376,7 @@
       "invalidUrl": "رابط غير صالح"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "tods": "CODES"
     },
     "notesEditor": {
       "title": "تعديل النظرة العامة"

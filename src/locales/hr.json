@@ -1517,7 +1517,7 @@
       "goOffline": "Idi offline - samostalni način",
       "goOnline": "Idi online - izađi iz samostalnog načina",
       "exportUtr": "Izvezi UTR mečeve",
-      "exportTods": "Izvezi TODS datoteku",
+      "exportTods": "Izvezi CODES datoteku",
       "noActions": "Nema dostupnih radnji",
       "replaceTournament": "Zamijeni turnir na poslužitelju",
       "go": "Pokreni",
@@ -1633,7 +1633,7 @@
       "invalidUrl": "Neispravan URL"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "tods": "CODES"
     },
     "notesEditor": {
       "title": "Uredi pregled"

@@ -1437,7 +1437,7 @@
       "goOffline": "离线 - 独立模式",
       "goOnline": "在线 - 退出独立模式",
       "exportUtr": "导出UTR比赛",
-      "exportTods": "导出TODS文件",
+      "exportTods": "导出CODES文件",
       "noActions": "无可用操作",
       "replaceTournament": "替换服务器上的锦标赛",
       "go": "执行",
@@ -1541,7 +1541,7 @@
       "invalidUrl": "无效的URL"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "tods": "CODES"
     },
     "notesEditor": {
       "title": "编辑概览"

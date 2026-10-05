@@ -1517,7 +1517,7 @@
       "goOffline": "Přejít offline - samostatný režim",
       "goOnline": "Přejít online - opustit samostatný režim",
       "exportUtr": "Exportovat UTR zápasy",
-      "exportTods": "Exportovat TODS soubor",
+      "exportTods": "Exportovat CODES soubor",
       "noActions": "Žádné akce nejsou dostupné",
       "replaceTournament": "Nahradit turnaj na serveru",
       "go": "Spustit",
@@ -1633,7 +1633,7 @@
       "invalidUrl": "Neplatná URL"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "tods": "CODES"
     },
     "notesEditor": {
       "title": "Upravit přehled"
