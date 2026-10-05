@@ -667,7 +667,7 @@
     "auth": "Autoriziran",
     "fetch": "Preuzmi",
     "fetchtournament": "Preuzmi zapis turnira",
-    "convert": "Pretvori u TODS / Spremi",
+    "convert": "Pretvori u CODES / Spremi",
     "send": "Učitaj zapis turnira",
     "export": "Izvezi zapis turnira",
     "renewlist": "Obnovi listu",
@@ -784,7 +784,7 @@
     "noconnection": "Nema veze",
     "schedulepriority": "Prioritet rasporeda mečeva",
     "send": "Pošalji",
-    "sendTODS": "Pošalji TODS zapis turnira",
+    "sendCODES": "Pošalji CODES zapis turnira",
     "export": "Izvezi",
     "pointsvalidfrom": "Bodovi vrijede od",
     "linkcopied": "Poveznica kopirana u međuspremnik",
@@ -1517,7 +1517,7 @@
       "goOffline": "Idi offline - samostalni način",
       "goOnline": "Idi online - izađi iz samostalnog načina",
       "exportUtr": "Izvezi UTR mečeve",
-      "exportTods": "Izvezi TODS datoteku",
+      "exportCodes": "Izvezi CODES datoteku",
       "noActions": "Nema dostupnih radnji",
       "replaceTournament": "Zamijeni turnir na poslužitelju",
       "go": "Pokreni",
@@ -1633,7 +1633,7 @@
       "invalidUrl": "Neispravan URL"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "codes": "CODES"
     },
     "notesEditor": {
       "title": "Uredi pregled"

@@ -663,7 +663,7 @@
     "auth": "已授权",
     "fetch": "下载",
     "fetchtournament": "下载锦标赛记录",
-    "convert": "转换为TODS / 保存",
+    "convert": "转换为CODES / 保存",
     "send": "上传锦标赛记录",
     "export": "导出锦标赛记录",
     "renewlist": "刷新列表",
@@ -779,7 +779,7 @@
     "noconnection": "无连接",
     "schedulepriority": "比赛排程优先级",
     "send": "发送",
-    "sendTODS": "发送TODS锦标赛记录",
+    "sendCODES": "发送CODES锦标赛记录",
     "export": "导出",
     "pointsvalidfrom": "积分生效日期",
     "linkcopied": "链接已复制到剪贴板",
@@ -1437,7 +1437,7 @@
       "goOffline": "离线 - 独立模式",
       "goOnline": "在线 - 退出独立模式",
       "exportUtr": "导出UTR比赛",
-      "exportTods": "导出TODS文件",
+      "exportCodes": "导出CODES文件",
       "noActions": "无可用操作",
       "replaceTournament": "替换服务器上的锦标赛",
       "go": "执行",
@@ -1541,7 +1541,7 @@
       "invalidUrl": "无效的URL"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "codes": "CODES"
     },
     "notesEditor": {
       "title": "编辑概览"

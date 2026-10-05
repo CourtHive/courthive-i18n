@@ -667,7 +667,7 @@
     "auth": "Autorizováno",
     "fetch": "Stáhnout",
     "fetchtournament": "Stáhnout záznam turnaje",
-    "convert": "Převést na TODS / Uložit",
+    "convert": "Převést na CODES / Uložit",
     "send": "Nahrát záznam turnaje",
     "export": "Exportovat záznam turnaje",
     "renewlist": "Obnovit seznam",
@@ -784,7 +784,7 @@
     "noconnection": "Bez připojení",
     "schedulepriority": "Priorita plánování zápasů",
     "send": "Odeslat",
-    "sendTODS": "Odeslat záznam turnaje TODS",
+    "sendCODES": "Odeslat záznam turnaje CODES",
     "export": "Exportovat",
     "pointsvalidfrom": "Body platné od",
     "linkcopied": "Odkaz zkopírován do schránky",
@@ -1517,7 +1517,7 @@
       "goOffline": "Přejít offline - samostatný režim",
       "goOnline": "Přejít online - opustit samostatný režim",
       "exportUtr": "Exportovat UTR zápasy",
-      "exportTods": "Exportovat TODS soubor",
+      "exportCodes": "Exportovat CODES soubor",
       "noActions": "Žádné akce nejsou dostupné",
       "replaceTournament": "Nahradit turnaj na serveru",
       "go": "Spustit",
@@ -1633,7 +1633,7 @@
       "invalidUrl": "Neplatná URL"
     },
     "exportTournament": {
-      "tods": "TODS"
+      "codes": "CODES"
     },
     "notesEditor": {
       "title": "Upravit přehled"
