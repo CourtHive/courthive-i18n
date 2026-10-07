@@ -472,7 +472,14 @@
     },
     "inviteFailed": "Could not send the invitation. Please try again.",
     "manageAsProvisioner": "Manage as this provisioner",
-    "nowManagingProvisioner": "Now acting as \"{{name}}\""
+    "nowManagingProvisioner": "Now acting as \"{{name}}\"",
+    "associateExistingUser": "Associate Existing User",
+    "associateExistingUserHint": "Add a user who already has an account. Only users you are able to manage can be found.",
+    "userAssociated": "User associated with the provider",
+    "userAlreadyAssociated": "User was already associated; role updated",
+    "associateUserNotFound": "No user with that email that you can add. Create the user instead.",
+    "associateEmailAmbiguous": "More than one account has that email. A super-admin must resolve it.",
+    "lastProviderAdmin": "A provider must keep at least one Provider Admin"
   },
   "round_names": {
     "F": "Final",
@@ -667,7 +674,7 @@
     "auth": "Authorized",
     "fetch": "Download",
     "fetchtournament": "Download Tournament Record",
-    "convert": "Convert to CODES / Save",
+    "convert": "Convert to TODS / Save",
     "send": "Upload Tournament Record",
     "export": "Export Tournament Record",
     "renewlist": "Renew List",
@@ -801,7 +808,8 @@
     "cantrefresh": "Offline: Cannot Refresh",
     "blocked": "Pop-Up Windows are blocked by your browser",
     "enablepopups": "Please enable Pop-Ups for PDF printing",
-    "nopersist": "Data Persistence not guaranteed"
+    "nopersist": "Data Persistence not guaranteed",
+    "sendTODS": "Send TODS Tournament Record"
   },
   "events": {
     "name": "Name",
@@ -1270,7 +1278,18 @@
     "TIME_VIOLATION": "Time Violation",
     "UNSPORTSMANLIKE_CONDUCT": "Unsporting Behavior",
     "VERBAL_ABUSE": "Verbal Abuse",
-    "VISIBLE_OBSCENITY": "Visible Obscenity"
+    "VISIBLE_OBSCENITY": "Visible Obscenity",
+    "fail2signout": "Failed to Sign Out",
+    "illegalcoaching": "Illegal Coaching",
+    "ballabuse": "Ball Abuse",
+    "racquetabuse": "Racquet Abuse",
+    "equipmentabuse": "Equipment Abuse",
+    "cursing": "Swearing",
+    "rudegestures": "Rude Gestures",
+    "foullanguage": "Foul Language",
+    "timeviolation": "Time Violation",
+    "latearrival": "Late Arrival",
+    "unsporting": "Unsporting Behavior"
   },
   "datelocalization": "en-EN",
   "common": {
@@ -1616,7 +1635,8 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Warning: This action will replace the tournament record on the server",
-      "scopedAccess": "Scoped access"
+      "scopedAccess": "Scoped access",
+      "exportTods": "Export TODS file"
     },
     "manageAccess": {
       "title": "Manage access",
@@ -1635,7 +1655,7 @@
       "roles": "Roles",
       "client": "Client",
       "director": "Director",
-      "admin": "Admin",
+      "admin": "Platform admin",
       "official": "Official",
       "scoring": "Scoring",
       "developer": "Developer",
@@ -1723,7 +1743,8 @@
       "invalidUrl": "Invalid URL"
     },
     "exportTournament": {
-      "codes": "CODES"
+      "codes": "CODES",
+      "tods": "TODS"
     },
     "notesEditor": {
       "title": "Edit Overview"
@@ -2049,6 +2070,14 @@
       "showSchedule": "Show Schedule",
       "detail": "Detail",
       "title": "Edit display settings"
+    },
+    "chooseProvider": {
+      "title": "Choose a provider",
+      "intro": "Your account belongs to more than one provider. Choose the one you are working for now; you can switch later.",
+      "providerLabel": "Provider",
+      "continue": "Continue",
+      "signOut": "Sign out",
+      "failed": "Could not open that provider"
     }
   },
   "dashboard": {

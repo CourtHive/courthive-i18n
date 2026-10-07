@@ -472,7 +472,14 @@
     },
     "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno.",
     "manageAsProvisioner": "Upravljaj kao ovaj opskrbljivač",
-    "nowManagingProvisioner": "Sada djelujete kao „{{name}}“"
+    "nowManagingProvisioner": "Sada djelujete kao „{{name}}“",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "round_names": {
     "F": "Finale",
@@ -667,7 +674,7 @@
     "auth": "Autoriziran",
     "fetch": "Preuzmi",
     "fetchtournament": "Preuzmi zapis turnira",
-    "convert": "Pretvori u CODES / Spremi",
+    "convert": "__STALE__Pretvori u CODES / Spremi",
     "send": "Učitaj zapis turnira",
     "export": "Izvezi zapis turnira",
     "renewlist": "Obnovi listu",
@@ -801,7 +808,8 @@
     "cantrefresh": "Offline: Nije moguće osvježiti",
     "blocked": "Skočne prozore blokira vaš preglednik",
     "enablepopups": "Molimo omogućite skočne prozore za ispis PDF-a",
-    "nopersist": "Trajna pohrana podataka nije zajamčena"
+    "nopersist": "Trajna pohrana podataka nije zajamčena",
+    "sendTODS": "__TODO__"
   },
   "events": {
     "name": "Naziv",
@@ -1270,7 +1278,18 @@
     "TIME_VIOLATION": "Prekoračenje vremena",
     "UNSPORTSMANLIKE_CONDUCT": "Nesportsko ponašanje",
     "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__Nepristojne geste"
+    "VISIBLE_OBSCENITY": "__STALE__Nepristojne geste",
+    "fail2signout": "__TODO__",
+    "illegalcoaching": "__TODO__",
+    "ballabuse": "__TODO__",
+    "racquetabuse": "__TODO__",
+    "equipmentabuse": "__TODO__",
+    "cursing": "__TODO__",
+    "rudegestures": "__TODO__",
+    "foullanguage": "__TODO__",
+    "timeviolation": "__TODO__",
+    "latearrival": "__TODO__",
+    "unsporting": "__TODO__"
   },
   "datelocalization": "hr-HR",
   "common": {
@@ -1616,7 +1635,8 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Upozorenje: Ova radnja će zamijeniti zapis turnira na poslužitelju",
-      "scopedAccess": "Ograničeni pristup"
+      "scopedAccess": "Ograničeni pristup",
+      "exportTods": "__TODO__"
     },
     "manageAccess": {
       "title": "Upravljaj pristupom",
@@ -1635,7 +1655,7 @@
       "roles": "Uloge",
       "client": "Klijent",
       "director": "Direktor",
-      "admin": "Admin",
+      "admin": "__STALE__Admin",
       "official": "Sudac",
       "scoring": "Bodovanje",
       "developer": "Programer",
@@ -1723,7 +1743,8 @@
       "invalidUrl": "Neispravan URL"
     },
     "exportTournament": {
-      "codes": "CODES"
+      "codes": "CODES",
+      "tods": "__TODO__"
     },
     "notesEditor": {
       "title": "Uredi pregled"
@@ -2049,6 +2070,14 @@
       "showSchedule": "Prikaži raspored",
       "detail": "Detalj",
       "title": "Uredi postavke prikaza"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
