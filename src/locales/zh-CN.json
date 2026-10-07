@@ -468,7 +468,14 @@
     },
     "inviteFailed": "无法发送邀请。请重试。",
     "manageAsProvisioner": "以此供应方身份管理",
-    "nowManagingProvisioner": "当前以“{{name}}”身份操作"
+    "nowManagingProvisioner": "当前以“{{name}}”身份操作",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "round_names": {
     "F": "决赛",
@@ -663,7 +670,7 @@
     "auth": "已授权",
     "fetch": "下载",
     "fetchtournament": "下载锦标赛记录",
-    "convert": "转换为CODES / 保存",
+    "convert": "__STALE__转换为CODES / 保存",
     "send": "上传锦标赛记录",
     "export": "导出锦标赛记录",
     "renewlist": "刷新列表",
@@ -797,7 +804,8 @@
     "blocked": "弹出窗口已被浏览器屏蔽",
     "enablepopups": "请启用弹出窗口以打印PDF",
     "nopersist": "不保证数据持久性",
-    "filters": "筛选"
+    "filters": "筛选",
+    "sendTODS": "__TODO__"
   },
   "events": {
     "name": "名称",
@@ -1266,7 +1274,18 @@
     "TIME_VIOLATION": "时间违规",
     "UNSPORTSMANLIKE_CONDUCT": "非体育行为",
     "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__不雅手势"
+    "VISIBLE_OBSCENITY": "__STALE__不雅手势",
+    "fail2signout": "__TODO__",
+    "illegalcoaching": "__TODO__",
+    "ballabuse": "__TODO__",
+    "racquetabuse": "__TODO__",
+    "equipmentabuse": "__TODO__",
+    "cursing": "__TODO__",
+    "rudegestures": "__TODO__",
+    "foullanguage": "__TODO__",
+    "timeviolation": "__TODO__",
+    "latearrival": "__TODO__",
+    "unsporting": "__TODO__"
   },
   "datelocalization": "zh-CN",
   "common": {
@@ -1536,14 +1555,15 @@
       "offline": "离线",
       "online": "在线",
       "uploadWarning": "警告：此操作将替换服务器上的锦标赛记录",
-      "scopedAccess": "范围权限"
+      "scopedAccess": "范围权限",
+      "exportTods": "__TODO__"
     },
     "inviteUser": {
       "title": "邀请用户",
       "roles": "角色",
       "client": "客户端",
       "director": "赛事总监",
-      "admin": "管理员",
+      "admin": "__STALE__管理员",
       "official": "官员",
       "scoring": "记分",
       "developer": "开发者",
@@ -1631,7 +1651,8 @@
       "invalidUrl": "无效的URL"
     },
     "exportTournament": {
-      "codes": "CODES"
+      "codes": "CODES",
+      "tods": "__TODO__"
     },
     "notesEditor": {
       "title": "编辑概览"
@@ -2045,6 +2066,14 @@
       "showSchedule": "显示赛程",
       "detail": "详情",
       "title": "编辑显示设置"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {

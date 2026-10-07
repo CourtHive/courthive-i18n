@@ -472,7 +472,14 @@
     },
     "inviteFailed": "Pozvánku se nepodařilo odeslat. Zkuste to prosím znovu.",
     "manageAsProvisioner": "Spravovat jako tento provisioner",
-    "nowManagingProvisioner": "Nyní vystupujete jako „{{name}}“"
+    "nowManagingProvisioner": "Nyní vystupujete jako „{{name}}“",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "round_names": {
     "F": "Finále",
@@ -667,7 +674,7 @@
     "auth": "Autorizováno",
     "fetch": "Stáhnout",
     "fetchtournament": "Stáhnout záznam turnaje",
-    "convert": "Převést na CODES / Uložit",
+    "convert": "__STALE__Převést na CODES / Uložit",
     "send": "Nahrát záznam turnaje",
     "export": "Exportovat záznam turnaje",
     "renewlist": "Obnovit seznam",
@@ -801,7 +808,8 @@
     "cantrefresh": "Offline: Nelze obnovit",
     "blocked": "Vyskakovací okna jsou prohlížečem blokována",
     "enablepopups": "Povolte prosím vyskakovací okna pro tisk PDF",
-    "nopersist": "Trvalé uložení dat není garantováno"
+    "nopersist": "Trvalé uložení dat není garantováno",
+    "sendTODS": "__TODO__"
   },
   "events": {
     "name": "Název",
@@ -1270,7 +1278,18 @@
     "TIME_VIOLATION": "Porušení časového limitu",
     "UNSPORTSMANLIKE_CONDUCT": "Nesportovní chování",
     "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__Hrubé gesta"
+    "VISIBLE_OBSCENITY": "__STALE__Hrubé gesta",
+    "fail2signout": "__TODO__",
+    "illegalcoaching": "__TODO__",
+    "ballabuse": "__TODO__",
+    "racquetabuse": "__TODO__",
+    "equipmentabuse": "__TODO__",
+    "cursing": "__TODO__",
+    "rudegestures": "__TODO__",
+    "foullanguage": "__TODO__",
+    "timeviolation": "__TODO__",
+    "latearrival": "__TODO__",
+    "unsporting": "__TODO__"
   },
   "datelocalization": "cs-CZ",
   "common": {
@@ -1616,7 +1635,8 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Varování: Tato akce nahradí záznam turnaje na serveru",
-      "scopedAccess": "Omezený přístup"
+      "scopedAccess": "Omezený přístup",
+      "exportTods": "__TODO__"
     },
     "manageAccess": {
       "title": "Spravovat přístup",
@@ -1635,7 +1655,7 @@
       "roles": "Role",
       "client": "Klient",
       "director": "Ředitel",
-      "admin": "Admin",
+      "admin": "__STALE__Admin",
       "official": "Rozhodčí",
       "scoring": "Skórování",
       "developer": "Vývojář",
@@ -1723,7 +1743,8 @@
       "invalidUrl": "Neplatná URL"
     },
     "exportTournament": {
-      "codes": "CODES"
+      "codes": "CODES",
+      "tods": "__TODO__"
     },
     "notesEditor": {
       "title": "Upravit přehled"
@@ -2049,6 +2070,14 @@
       "showSchedule": "Zobrazit rozpis",
       "detail": "Detail",
       "title": "Upravit nastavení zobrazení"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {

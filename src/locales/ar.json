@@ -498,7 +498,7 @@
     "auth": "مصرح",
     "fetch": "تنزيل",
     "fetchtournament": "تنزيل سجل البطولة",
-    "convert": "تحويل إلى CODES / حفظ",
+    "convert": "__STALE__تحويل إلى CODES / حفظ",
     "send": "رفع سجل البطولة",
     "export": "تصدير سجل البطولة",
     "renewlist": "تجديد القائمة",
@@ -632,7 +632,8 @@
     "blocked": "النوافذ المنبثقة محظورة بواسطة المتصفح",
     "enablepopups": "يرجى تفعيل النوافذ المنبثقة لطباعة PDF",
     "nopersist": "استمرارية البيانات غير مضمونة",
-    "filters": "المرشّحات"
+    "filters": "المرشّحات",
+    "sendTODS": "__TODO__"
   },
   "events": {
     "name": "الاسم",
@@ -1101,7 +1102,18 @@
     "TIME_VIOLATION": "مخالفة وقتية",
     "UNSPORTSMANLIKE_CONDUCT": "سلوك غير رياضي",
     "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__إشارات بذيئة"
+    "VISIBLE_OBSCENITY": "__STALE__إشارات بذيئة",
+    "fail2signout": "__TODO__",
+    "illegalcoaching": "__TODO__",
+    "ballabuse": "__TODO__",
+    "racquetabuse": "__TODO__",
+    "equipmentabuse": "__TODO__",
+    "cursing": "__TODO__",
+    "rudegestures": "__TODO__",
+    "foullanguage": "__TODO__",
+    "timeviolation": "__TODO__",
+    "latearrival": "__TODO__",
+    "unsporting": "__TODO__"
   },
   "datelocalization": "ar-SA",
   "common": {
@@ -1371,14 +1383,15 @@
       "offline": "غير متصل",
       "online": "متصل",
       "uploadWarning": "تحذير: سيؤدي هذا الإجراء إلى استبدال سجل البطولة على الخادم",
-      "scopedAccess": "صلاحية محدودة النطاق"
+      "scopedAccess": "صلاحية محدودة النطاق",
+      "exportTods": "__TODO__"
     },
     "inviteUser": {
       "title": "دعوة مستخدم",
       "roles": "الأدوار",
       "client": "عميل",
       "director": "مدير",
-      "admin": "مدير النظام",
+      "admin": "__STALE__مدير النظام",
       "official": "مسؤول",
       "scoring": "تسجيل النتائج",
       "developer": "مطور",
@@ -1466,7 +1479,8 @@
       "invalidUrl": "رابط غير صالح"
     },
     "exportTournament": {
-      "codes": "CODES"
+      "codes": "CODES",
+      "tods": "__TODO__"
     },
     "notesEditor": {
       "title": "تعديل النظرة العامة"
@@ -1880,6 +1894,14 @@
       "showSchedule": "إظهار الجدول",
       "detail": "التفاصيل",
       "title": "تعديل إعدادات العرض"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2806,7 +2828,14 @@
     },
     "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى.",
     "manageAsProvisioner": "الإدارة بصفة هذا المُوفِّر",
-    "nowManagingProvisioner": "تعمل الآن بصفة «{{name}}»"
+    "nowManagingProvisioner": "تعمل الآن بصفة «{{name}}»",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "formatWizard": {
     "title": "معالج التنسيق",
