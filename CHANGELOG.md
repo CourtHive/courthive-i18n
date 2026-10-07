@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/CourtHive/courthive-i18n/compare/v0.9.0...v0.10.0) (2026-10-07)
+
+
+### Features
+
+* **i18n:** penalty labels are keyed by PenaltyTypeEnum code ([#137](https://github.com/CourtHive/courthive-i18n/issues/137)) ([a04deb7](https://github.com/CourtHive/courthive-i18n/commit/a04deb7b14c20ed49d6e9c277715ed588f68848b))
+
 ## [0.9.0](https://github.com/CourtHive/courthive-i18n/compare/v0.8.0...v0.9.0) (2026-10-05)
 
 
