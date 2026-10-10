@@ -1403,7 +1403,9 @@
       "title": "Ajouter des structures de barrage",
       "noPlayoffPositions": "Aucune position de barrage disponible",
       "nameBase": "Base du nom",
-      "structuresAdded": "Structure(s) ajoutée(s)"
+      "structuresAdded": "Structure(s) ajoutée(s)",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "Modifier les noms des groupes",
@@ -1880,6 +1882,20 @@
       "showSchedule": "Afficher la programmation",
       "detail": "Détail",
       "title": "Modifier les paramètres d’affichage"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -1996,7 +2012,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Poule avec playoff",
       "drawTypeAdaptive": "Adaptatif",
-      "drawTypeStaggeredEntry": "Entrée échelonnée",
+      "drawTypeStaggeredEntry": "__STALE__Entrée échelonnée",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Tableau à élimination directe standard où chaque défaite élimine un participant du tableau.",
         "ROUND_ROBIN": "Tous les participants jouent les uns contre les autres au sein de groupes ; le classement est déterminé par le bilan victoires/défaites.",
@@ -2024,7 +2040,14 @@
       "drawTypePagePlayoff": "Play-off Page",
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2076,7 +2099,10 @@
       "notSaved": "La modification de la programmation n’a pas été enregistrée : {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisation",
@@ -2637,7 +2663,8 @@
     "setTimeZone": "Définir le fuseau horaire",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__"
   },
   "cal": "Calendrier",
   "tpl": "Modèles",
@@ -4172,7 +4199,8 @@
     "drawFailed": "Échec de la génération du tableau",
     "drawGenerated": "Tableau généré avec succès",
     "templateName": "Nom du modèle",
-    "templateSaved": "Modèle enregistré"
+    "templateSaved": "Modèle enregistré",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifiants",
@@ -4460,7 +4488,8 @@
     "schedulePlan": "Plan de programmation",
     "desktopNotifications": " Notifications bureau",
     "serverUrl": "URL du serveur",
-    "workOffline": " Travailler hors ligne"
+    "workOffline": " Travailler hors ligne",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "Aucun court sur ce site pour le moment.",
