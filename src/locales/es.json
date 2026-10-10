@@ -1403,7 +1403,9 @@
       "title": "Agregar estructuras de playoff",
       "noPlayoffPositions": "No hay posiciones de playoff disponibles",
       "nameBase": "Nombre base",
-      "structuresAdded": "Estructura(s) agregada(s)"
+      "structuresAdded": "Estructura(s) agregada(s)",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "Editar nombres de grupos",
@@ -1880,6 +1882,20 @@
       "showSchedule": "Mostrar la programación",
       "detail": "Detalle",
       "title": "Editar los ajustes de visualización"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -1996,7 +2012,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Round robin con playoff",
       "drawTypeAdaptive": "Adaptativo",
-      "drawTypeStaggeredEntry": "Entrada escalonada",
+      "drawTypeStaggeredEntry": "__STALE__Entrada escalonada",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Cuadro de eliminación directa estándar donde cada derrota elimina a un participante del cuadro.",
         "ROUND_ROBIN": "Todos los participantes juegan entre sí dentro de grupos; la clasificación se determina por el registro de victorias/derrotas.",
@@ -2024,7 +2040,14 @@
       "drawTypePagePlayoff": "Playoff de Page",
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2076,7 +2099,10 @@
       "notSaved": "El cambio de programación no se guardó: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorización",
@@ -2637,7 +2663,8 @@
     "setTimeZone": "Definir zona horaria",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__"
   },
   "cal": "Calendario",
   "tpl": "Plantillas",
@@ -4172,7 +4199,8 @@
     "drawFailed": "Error al generar el cuadro",
     "drawGenerated": "Cuadro generado correctamente",
     "templateName": "Nombre de la plantilla",
-    "templateSaved": "Plantilla guardada"
+    "templateSaved": "Plantilla guardada",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identificadores",
@@ -4460,7 +4488,8 @@
     "schedulePlan": "Plan de programación",
     "desktopNotifications": " Notificaciones de escritorio",
     "serverUrl": "URL del servidor",
-    "workOffline": " Trabajar sin conexión"
+    "workOffline": " Trabajar sin conexión",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "Todavía no hay canchas en esta sede.",

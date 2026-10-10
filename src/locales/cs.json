@@ -1660,7 +1660,9 @@
       "title": "Přidat playoff struktury",
       "noPlayoffPositions": "Žádné playoff pozice nejsou k dispozici",
       "nameBase": "Základ názvu",
-      "structuresAdded": "Struktura(y) přidána(y)"
+      "structuresAdded": "Struktura(y) přidána(y)",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "Upravit názvy skupin",
@@ -2049,6 +2051,20 @@
       "showSchedule": "Zobrazit rozpis",
       "detail": "Detail",
       "title": "Upravit nastavení zobrazení"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -2171,7 +2187,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Skupina s playoffem",
       "drawTypeAdaptive": "Adaptivní",
-      "drawTypeStaggeredEntry": "Stupňovaný vstup",
+      "drawTypeStaggeredEntry": "__STALE__Stupňovaný vstup",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Standardní vyřazovací pavouk, kde každá prohra eliminuje účastníka z pavouka.",
         "ROUND_ROBIN": "Všichni účastníci hrají proti sobě ve skupinách; pořadí určeno bilancí výher/proher.",
@@ -2193,7 +2209,14 @@
       },
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2245,7 +2268,10 @@
       "notSaved": "Změna rozpisu nebyla uložena: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -2806,7 +2832,8 @@
     "setTimeZone": "Nastavit časové pásmo",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__"
   },
   "formatWizard": {
     "title": "Průvodce formátem",
@@ -4172,7 +4199,8 @@
     "drawFailed": "Generování pavouka selhalo",
     "drawGenerated": "Pavouk úspěšně vygenerován",
     "templateName": "Název šablony",
-    "templateSaved": "Šablona uložena"
+    "templateSaved": "Šablona uložena",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifikátory",
@@ -4460,7 +4488,8 @@
     "schedulePlan": "Plán rozpisu",
     "desktopNotifications": " Oznámení na ploše",
     "serverUrl": "URL serveru",
-    "workOffline": " Pracovat offline"
+    "workOffline": " Pracovat offline",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "Na tomto místě konání zatím nejsou žádné kurty.",

@@ -1660,7 +1660,9 @@
       "title": "Add playoff structures",
       "noPlayoffPositions": "No playoff positions available",
       "nameBase": "Name base",
-      "structuresAdded": "Structure(s) added"
+      "structuresAdded": "Structure(s) added",
+      "rounds": "Rounds",
+      "allRounds": "All"
     },
     "editGroupNames": {
       "title": "Edit group names",
@@ -2049,6 +2051,20 @@
       "showSchedule": "Show Schedule",
       "detail": "Detail",
       "title": "Edit display settings"
+    },
+    "chooseProvider": {
+      "title": "Choose a provider",
+      "intro": "Your account belongs to more than one provider. Choose the one you are working for now; you can switch later from the provider badge.",
+      "providerLabel": "Provider",
+      "continue": "Continue",
+      "signOut": "Sign out",
+      "failed": "Could not open that provider"
+    },
+    "exitBeforeArrival": {
+      "title": "Walkover or default",
+      "prompt": "{{name}} cannot play: record the exit now, before the opponent arrives. Whoever arrives takes the walkover.",
+      "exit": "Exit",
+      "clear": "Clear"
     }
   },
   "dashboard": {
@@ -2171,7 +2187,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Round robin w/ playoff",
       "drawTypeAdaptive": "Adaptive",
-      "drawTypeStaggeredEntry": "Staggered Entry",
+      "drawTypeStaggeredEntry": "Feed in (staggered entry)",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Standard knockout bracket where each loss eliminates a participant from the draw.",
         "ROUND_ROBIN": "All participants play each other within groups; standings determined by win/loss record.",
@@ -2193,7 +2209,14 @@
       },
       "providerSeedingPolicy": "Provider policy",
       "additionalSeedsCount_one": "{{seeds}} (+{{count}} additional seed)",
-      "additionalSeedsCount_other": "{{seeds}} (+{{count}} additional seeds)"
+      "additionalSeedsCount_other": "{{seeds}} (+{{count}} additional seeds)",
+      "feedInQualifiersInvalid": "A staggered entry qualifying of {{drawSize}} can produce only these numbers of qualifiers: {{counts}}",
+      "targetRound": "Target round",
+      "targetRoundOption": "Round {{round}} — {{open}} of {{total}} positions open",
+      "targetCapacity": "Round {{round}} can still take {{open}} of its {{total}} positions.",
+      "alreadyFed": "Round {{round}} is already fed by {{feederNames}}: {{count}} qualifiers promised.",
+      "noFeeders": "No qualifying structure feeds round {{round}} yet.",
+      "qualifying": "Qualifying"
     }
   },
   "toasts": {
@@ -2245,7 +2268,10 @@
       "notSaved": "Schedule change was not saved: {{reason}}"
     },
     "tournamentsTruncated": "Showing the first {{loaded}} of {{total}} tournaments. Filter or search to narrow the list.",
-    "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded."
+    "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded.",
+    "clearRefused": "This result can't be cleared: a later match depends on it. Clear that match first.",
+    "scoreDiscardedByFormat": "Changing the format to {{matchUpFormat}} discarded {{count}} set(s): {{sets}}",
+    "offlineChangeRejected": "A change made while offline was rejected by the server"
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -2806,7 +2832,8 @@
     "setTimeZone": "Set time zone",
     "tournamentInformation": "Tournament Information",
     "informationEvents": "Events listed publicly",
-    "informationEmbargoNote": "Published, but not listed publicly until {{when}}."
+    "informationEmbargoNote": "Published, but not listed publicly until {{when}}.",
+    "structure": "Structure"
   },
   "formatWizard": {
     "title": "Format Wizard",
@@ -4172,7 +4199,8 @@
     "drawFailed": "Draw generation failed",
     "drawGenerated": "Draw generated successfully",
     "templateName": "Template Name",
-    "templateSaved": "Template saved"
+    "templateSaved": "Template saved",
+    "structuresNotAttached": "Draw generated, but these structures could not be attached: {{unattached}}"
   },
   "participantFields": {
     "identifiers": "Identifiers",
@@ -4460,7 +4488,8 @@
     "schedulePlan": "Schedule Plan",
     "desktopNotifications": " Desktop Notifications",
     "serverUrl": "Server URL",
-    "workOffline": " Work Offline"
+    "workOffline": " Work Offline",
+    "scoreEntryDialog": "New score entry dialog"
   },
   "venueDetail": {
     "noCourts": "No courts at this venue yet.",
