@@ -1503,7 +1503,13 @@
       "cancelled": "__TODO__",
       "incomplete": "__TODO__",
       "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__"
+      "noReasonCode": "__TODO__",
+      "deadRubber": "مباراة بلا تأثير على النتيجة",
+      "challenged": "تم التحدي",
+      "statusUnavailable": "الحالة {{status}} غير متاحة لهذه المباراة",
+      "suspended": "موقوفة مؤقتًا",
+      "inProgress": "قيد اللعب",
+      "awaitingResult": "بانتظار النتيجة"
     },
     "generateTeams": {
       "title": "إنشاء فرق تجريبية",
@@ -2076,7 +2082,8 @@
       "notSaved": "لم يُحفظ تغيير الجدول: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "statusOutOfScope": "هذه الحالة غير متاحة لهذه المباراة"
   },
   "loginMenu": {
     "authorization": "التفويض",

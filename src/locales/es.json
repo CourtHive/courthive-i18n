@@ -1503,7 +1503,13 @@
       "cancelled": "__TODO__",
       "incomplete": "__TODO__",
       "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__"
+      "noReasonCode": "__TODO__",
+      "deadRubber": "Partido sin incidencia",
+      "challenged": "Desafiado",
+      "statusUnavailable": "{{status}} no está disponible para este partido",
+      "suspended": "Suspendido",
+      "inProgress": "En curso",
+      "awaitingResult": "Esperando resultado"
     },
     "generateTeams": {
       "title": "Generar equipos ficticios",
@@ -2076,7 +2082,8 @@
       "notSaved": "El cambio de programación no se guardó: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "statusOutOfScope": "Este estado no está disponible para este partido"
   },
   "loginMenu": {
     "authorization": "Autorización",

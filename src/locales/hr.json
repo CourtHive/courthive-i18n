@@ -1761,7 +1761,13 @@
       "cancelled": "__TODO__",
       "incomplete": "__TODO__",
       "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__"
+      "noReasonCode": "__TODO__",
+      "deadRubber": "Meč bez utjecaja na rezultat",
+      "challenged": "Izazvan",
+      "statusUnavailable": "Status {{status}} nije dostupan za ovaj meč",
+      "suspended": "Prekinuto",
+      "inProgress": "U tijeku",
+      "awaitingResult": "Čeka rezultat"
     },
     "generateTeams": {
       "title": "Generiraj test ekipe",
@@ -2245,7 +2251,8 @@
       "notSaved": "Promjena rasporeda nije spremljena: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "statusOutOfScope": "Ovaj status nije dostupan za ovaj meč"
   },
   "loginMenu": {
     "authorization": "Autorizacija",

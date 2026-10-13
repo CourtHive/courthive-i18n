@@ -1761,7 +1761,13 @@
       "cancelled": "__TODO__",
       "incomplete": "__TODO__",
       "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__"
+      "noReasonCode": "__TODO__",
+      "deadRubber": "Zápas bez vlivu na výsledek",
+      "challenged": "Vyzván",
+      "statusUnavailable": "Stav {{status}} není pro tento zápas dostupný",
+      "suspended": "Přerušeno",
+      "inProgress": "Probíhá",
+      "awaitingResult": "Čeká na výsledek"
     },
     "generateTeams": {
       "title": "Generovat ukázkové týmy",
@@ -2245,7 +2251,8 @@
       "notSaved": "Změna rozpisu nebyla uložena: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "statusOutOfScope": "Tento stav není pro tento zápas dostupný"
   },
   "loginMenu": {
     "authorization": "Autorizace",

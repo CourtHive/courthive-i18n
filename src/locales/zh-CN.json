@@ -1668,7 +1668,13 @@
       "cancelled": "__TODO__",
       "incomplete": "__TODO__",
       "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__"
+      "noReasonCode": "__TODO__",
+      "deadRubber": "不影响结果的比赛",
+      "challenged": "已发起挑战",
+      "statusUnavailable": "此比赛不可使用“{{status}}”状态",
+      "suspended": "已暂停",
+      "inProgress": "进行中",
+      "awaitingResult": "等待结果"
     },
     "generateTeams": {
       "title": "生成模拟队伍",
@@ -2241,7 +2247,8 @@
       "notSaved": "赛程更改未保存：{{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "statusOutOfScope": "此比赛不可使用该状态"
   },
   "loginMenu": {
     "authorization": "授权",

@@ -1503,7 +1503,13 @@
       "cancelled": "__TODO__",
       "incomplete": "__TODO__",
       "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__"
+      "noReasonCode": "__TODO__",
+      "deadRubber": "Spiel ohne Einfluss auf das Ergebnis",
+      "challenged": "Herausgefordert",
+      "statusUnavailable": "{{status}} ist für dieses Spiel nicht verfügbar",
+      "suspended": "Unterbrochen",
+      "inProgress": "Läuft",
+      "awaitingResult": "Ergebnis ausstehend"
     },
     "generateTeams": {
       "title": "Testteams generieren",
@@ -2076,7 +2082,8 @@
       "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}"
     },
     "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__"
+    "tournamentSearchFailed": "__TODO__",
+    "statusOutOfScope": "Dieser Status ist für dieses Spiel nicht verfügbar"
   },
   "loginMenu": {
     "authorization": "Autorisierung",
