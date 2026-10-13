@@ -1761,7 +1761,13 @@
       "cancelled": "Cancelled",
       "incomplete": "Incomplete",
       "reasonCode": "Reason",
-      "noReasonCode": "No reason given"
+      "noReasonCode": "No reason given",
+      "deadRubber": "Dead Rubber",
+      "challenged": "Challenged",
+      "statusUnavailable": "{{status}} is unavailable for this match",
+      "suspended": "Suspended",
+      "inProgress": "In Progress",
+      "awaitingResult": "Awaiting Result"
     },
     "generateTeams": {
       "title": "Generate mock teams",
@@ -2245,7 +2251,8 @@
       "notSaved": "Schedule change was not saved: {{reason}}"
     },
     "tournamentsTruncated": "Showing the first {{loaded}} of {{total}} tournaments. Filter or search to narrow the list.",
-    "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded."
+    "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded.",
+    "statusOutOfScope": "This status is unavailable for this match"
   },
   "loginMenu": {
     "authorization": "Authorization",
