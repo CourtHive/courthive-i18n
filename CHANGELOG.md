@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.10.0](https://github.com/CourtHive/courthive-i18n/compare/v0.9.0...v0.10.0) (2026-10-14)
+
+
+### Features
+
+* **i18n:** penalty labels are keyed by PenaltyTypeEnum code ([#137](https://github.com/CourtHive/courthive-i18n/issues/137)) ([a04deb7](https://github.com/CourtHive/courthive-i18n/commit/a04deb7b14c20ed49d6e9c277715ed588f68848b))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from TMX ([#140](https://github.com/CourtHive/courthive-i18n/issues/140)) ([104d1ea](https://github.com/CourtHive/courthive-i18n/commit/104d1eaab6ed59c47a014c6cad1e511e4f6fa83b))
+* translate score entry status scope messages ([#143](https://github.com/CourtHive/courthive-i18n/issues/143)) ([c4fd7fc](https://github.com/CourtHive/courthive-i18n/commit/c4fd7fc7c957b6b87471a96c1dc377d882b9dbb4))
+
 ## [0.9.0](https://github.com/CourtHive/courthive-i18n/compare/v0.8.0...v0.9.0) (2026-10-05)
 
 
