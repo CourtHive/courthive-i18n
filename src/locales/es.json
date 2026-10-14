@@ -295,14 +295,14 @@
       "noRows": "No hay filas. Haga clic en Añadir fila para empezar."
     },
     "seedingPolicy": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "locked": "__TODO__",
-      "thresholds": "__TODO__",
-      "providerPolicy": "__TODO__",
-      "none": "__TODO__",
-      "custom": "__TODO__",
-      "attached": "__TODO__"
+      "title": "Política de cabezas de serie",
+      "intro": "Se aplica a todos los cuadros de este torneo. Los cuadros creados con cabezas de serie “Heredadas” la usan, incluidos los cuadros regenerados más adelante.",
+      "locked": "Su proveedor define la política de cabezas de serie de este torneo. Se aplica a todos los cuadros y no puede cambiarse aquí.",
+      "thresholds": "Tamaño del cuadro → cabezas de serie:",
+      "providerPolicy": "Política del proveedor",
+      "none": "Ninguna — predeterminado de factory",
+      "custom": "Política personalizada",
+      "attached": "Asociada — {{name}}"
     }
   },
   "round_names": {
@@ -509,7 +509,7 @@
     "publishtime": "Hora de Publicación",
     "replacelocal": "¿Reemplazar Copia Local?",
     "unpublish": "¿Despublicar Torneo?",
-    "liveDemoClockUnavailable": "__TODO__"
+    "liveDemoClockUnavailable": "No se generó el ejemplo de Programación en vivo: el reloj de competición no da una hora utilizable. Corrija o elimine el reloj de competición (dev.setCompetitionClock) e inténtelo de nuevo."
   },
   "ddlb": {
     "singles": "Ranking de Torneo Singles:",
@@ -925,21 +925,21 @@
           "notScheduled": "Aún no está programado, así que no hay hora con la que contrastar.",
           "noTime": "Sin hora programada, por lo que no se puede proyectar la disponibilidad.",
           "unknownMatchUp": "Este partido ya no está en el torneo.",
-          "timeNotPromised": "__TODO__"
+          "timeNotPromised": "La programación no indica una hora para este partido, así que no hay ninguna con la que contrastar."
         },
-        "dependencyBoth": "__TODO__",
-        "dependencyWaiting": "__TODO__",
-        "finishes": "__TODO__",
-        "readyAt": "__TODO__"
+        "dependencyBoth": "Esperando {{labels}} — termina ~{{finishes}}, su ganador listo ~{{ready}}",
+        "dependencyWaiting": "Esperando {{labels}}",
+        "finishes": "termina ~{{time}}",
+        "readyAt": "listo ~{{time}}"
       },
       "actions": {
         "trigger": "Acciones del partido",
         "viewDraw": "Ver cuadro",
         "participants": "Participantes",
-        "schedule": "__TODO__",
-        "setTime": "__TODO__",
-        "clearTime": "__TODO__",
-        "navigate": "__TODO__"
+        "schedule": "Programar",
+        "setTime": "Fijar hora",
+        "clearTime": "Borrar hora",
+        "navigate": "Ir a"
       },
       "rest": {
         "heading": "Descanso",
@@ -977,29 +977,29 @@
           "completed": "Ya completado: el descanso ya no se aplica.",
           "noParticipants": "Participantes aún sin determinar, así que no hay a quién dar descanso.",
           "unknownMatchUp": "Este partido ya no está en el torneo.",
-          "noAsOf": "__TODO__"
+          "noAsOf": "No se puede determinar la zona horaria de la sede, así que no se puede medir el descanso."
         },
-        "pendingName": "__TODO__",
-        "pending": "__TODO__",
-        "pendingUntil": "__TODO__",
-        "searchFor": "__TODO__",
-        "locateFeeder": "__TODO__",
-        "feederNotDrawn": "__TODO__"
+        "pendingName": "Ganador de {{label}}",
+        "pending": "Aún por decidir — sin descanso todavía",
+        "pendingUntil": "Aún por decidir — listo {{time}}",
+        "searchFor": "Resaltar los partidos de {{name}} en la cuadrícula",
+        "locateFeeder": "Mostrar {{label}} en la cuadrícula",
+        "feederNotDrawn": "Ese partido no está en la cuadrícula de este día"
       },
-      "heading": "__TODO__",
-      "back": "__TODO__",
-      "placed": "__TODO__",
-      "placedAt": "__TODO__",
-      "placedHint": "__TODO__",
+      "heading": "Inspector",
+      "back": "Volver a las acciones",
+      "placed": "En la cuadrícula — {{court}}",
+      "placedAt": "En la cuadrícula — {{court}} a las {{time}}",
+      "placedHint": "No está en ninguna de las listas del catálogo. Haga clic para resaltarlo en la cuadrícula de canchas.",
       "timing": {
-        "heading": "__TODO__",
-        "average": "__TODO__",
-        "recovery": "__TODO__",
-        "typeChange": "__TODO__",
+        "heading": "Tiempos del formato",
+        "average": "{{minutes}} de promedio",
+        "recovery": "{{minutes}} de recuperación",
+        "typeChange": "{{minutes}} tras un cambio de tipo",
         "source": {
-          "event": "__TODO__",
-          "tournament": "__TODO__",
-          "default": "__TODO__"
+          "event": "de la política de programación de este evento",
+          "tournament": "de la política de programación del torneo",
+          "default": "predeterminado de factory — sin política de programación asociada"
         }
       }
     },
@@ -1025,96 +1025,96 @@
         "tooltipOnCourtOverrun": "{{name}}: sigue en cancha, pasado el final previsto",
         "tooltipNone": "{{name}}: sin partido previo hoy",
         "tooltipUnknown": "{{name}}: el partido previo no tiene final registrado",
-        "tooltipPending": "__TODO__",
-        "tooltipPendingReady": "__TODO__"
+        "tooltipPending": "Ganador de {{label}} — aún por decidir, sin descanso todavía",
+        "tooltipPendingReady": "Ganador de {{label}} — aún por decidir, listo {{time}}"
       },
       "time": {
-        "ok": "__TODO__",
-        "warn": "__TODO__",
-        "alert": "__TODO__"
+        "ok": "Esta hora parece alcanzable.",
+        "warn": "Esta hora está en riesgo:",
+        "alert": "Esta hora no se puede cumplir:"
       }
     },
     "venueFrame": {
       "notice": "Horas en {{timeZone}}: zona de la sede sin definir",
       "noticeTitle": "Este torneo no tiene zona horaria definida, por lo que las horas se muestran en la zona de este dispositivo ({{timeZone}}). Defina la zona horaria de la sede para que todos los operadores lean el mismo reloj.",
-      "conflicting": "__TODO__",
-      "conflictingTitle": "__TODO__",
-      "invalid": "__TODO__",
-      "invalidTitle": "__TODO__"
+      "conflicting": "Las sedes no coinciden en la zona horaria — horas ocultas",
+      "conflictingTitle": "Las sedes de este torneo indican zonas horarias distintas y el torneo no define ninguna, así que TMX no puede saber qué reloj sigue. Las horas están ocultas y las llamadas automáticas en pausa hasta que se defina la zona horaria del torneo.",
+      "invalid": "La zona horaria del torneo no es válida — horas ocultas",
+      "invalidTitle": "La zona horaria de este torneo no es una zona horaria reconocida. Las horas están ocultas y las llamadas automáticas en pausa hasta que se defina una válida."
     },
     "viewInDraw": "Ver en el cuadro",
     "strip": {
-      "runwayHint": "__TODO__",
-      "blockEdgeHint": "__TODO__"
+      "runwayHint": "{{minutes}} hasta que esta cancha quede ocupada por {{type}} — ya no cabe un partido típico",
+      "blockEdgeHint": "{{type}} empieza en {{minutes}}, antes de que se prevea terminar este partido"
     },
     "blockType": {
-      "blocked": "__TODO__",
-      "maintenance": "__TODO__",
-      "drying": "__TODO__",
-      "practice": "__TODO__"
+      "blocked": "Bloqueada",
+      "maintenance": "Mantenimiento",
+      "drying": "Secado",
+      "practice": "Práctica"
     },
     "timeBlock": {
-      "open": "__TODO__",
-      "title": "__TODO__",
-      "from": "__TODO__",
-      "to": "__TODO__",
-      "addPeriod": "__TODO__",
-      "removePeriod": "__TODO__",
-      "allCourts": "__TODO__",
-      "save": "__TODO__",
-      "noWindow": "__TODO__",
+      "open": "Bloquear horario",
+      "title": "Bloquear {{court}}",
+      "from": "Desde",
+      "to": "hasta",
+      "addPeriod": "+ Añadir otro periodo",
+      "removePeriod": "Quitar este periodo",
+      "allCourts": "Aplicar a las {{count}} canchas",
+      "save": "Bloquear",
+      "noWindow": "No hay horario de apertura registrado para {{courts}} — defina primero la disponibilidad de la cancha.",
       "error": {
-        "incomplete": "__TODO__",
-        "inverted": "__TODO__"
+        "incomplete": "Cada periodo necesita un inicio y un final.",
+        "inverted": "Un periodo debe terminar después de empezar."
       }
     },
     "legend": {
-      "title": "__TODO__",
-      "restBadge": "__TODO__",
-      "restOnCourt": "__TODO__",
-      "restDurationSample": "__TODO__",
-      "restDuration": "__TODO__",
-      "restUnknown": "__TODO__",
-      "restNone": "__TODO__",
-      "restLimit": "__TODO__",
-      "inspector": "__TODO__",
-      "estimatedSample": "__TODO__",
-      "estimated": "__TODO__",
-      "discarded": "__TODO__",
-      "cellMarks": "__TODO__",
-      "checkIn": "__TODO__",
-      "annotations": "__TODO__"
+      "title": "Qué significan las marcas de esta página",
+      "restBadge": "Insignia de descanso (en una ficha de partido)",
+      "restOnCourt": "Un jugador sigue en un partido anterior",
+      "restDurationSample": "41m",
+      "restDuration": "Cuánto descanso ha tenido el jugador menos descansado",
+      "restUnknown": "El partido previo no tiene final registrado, así que no se puede medir el descanso",
+      "restNone": "Nadie de esta ficha ha jugado todavía hoy",
+      "restLimit": "Qué partido del día sería este para ese jugador",
+      "inspector": "Filas de descanso del inspector",
+      "estimatedSample": "(est.)",
+      "estimated": "El final se dedujo, no se registró — una proyección, no una medición",
+      "discarded": "Se rechazó una marca registrada por ilegible y se usó la siguiente mejor",
+      "cellMarks": "En una celda programada",
+      "checkIn": "Participantes que aún no se han presentado en el mostrador",
+      "annotations": "Notas que un director ha fijado al partido"
     },
     "completedTimes": {
-      "called": "__TODO__",
-      "started": "__TODO__",
-      "ended": "__TODO__",
-      "scored": "__TODO__"
+      "called": "Llamado",
+      "started": "Iniciado",
+      "ended": "Terminado",
+      "scored": "Puntuado"
     },
-    "clockUnavailable": "__TODO__"
+    "clockUnavailable": "El reloj de competición no da una hora utilizable, así que el partido no se llamó."
   },
   "penalties": {
-    "AUDIBLE_OBSCENITY": "__STALE__Groserías",
+    "AUDIBLE_OBSCENITY": "Obscenidad Audible",
     "BALL_ABUSE": "Abuso de Pelota",
     "COACHING": "Coaching Ilegal",
-    "DRESS_CODE_VIOLATION": "__TODO__",
-    "EQUIPMENT_VIOLATION": "__TODO__",
-    "FAILURE_TO_COMPLETE": "__TODO__",
-    "FAILURE_TO_SIGN_IN": "__TODO__",
+    "DRESS_CODE_VIOLATION": "Violación del Código de Vestimenta",
+    "EQUIPMENT_VIOLATION": "Violación de Equipamiento",
+    "FAILURE_TO_COMPLETE": "No Completar el Partido",
+    "FAILURE_TO_SIGN_IN": "No se Presentó a la Entrada",
     "FAILURE_TO_SIGN_OUT": "No se Presentó a la Salida",
-    "INELIGIBILITY": "__TODO__",
-    "LEAVING_THE_COURT": "__TODO__",
-    "NO_SHOW": "__TODO__",
-    "OTHER": "__TODO__",
-    "PHYSICAL_ABUSE": "__TODO__",
-    "PROHIBITED_SUBSTANCE": "__TODO__",
+    "INELIGIBILITY": "Inelegibilidad",
+    "LEAVING_THE_COURT": "Abandonar la Cancha",
+    "NO_SHOW": "No Presentado",
+    "OTHER": "Otra",
+    "PHYSICAL_ABUSE": "Abuso Físico",
+    "PROHIBITED_SUBSTANCE": "Sustancia Prohibida",
     "PUNCTUALITY": "Llegada Tardía",
     "RACKET_ABUSE": "Abuso de Raqueta",
-    "REFUSAL_TO_PLAY": "__TODO__",
+    "REFUSAL_TO_PLAY": "Negarse a Jugar",
     "TIME_VIOLATION": "Violación de Tiempo",
     "UNSPORTSMANLIKE_CONDUCT": "Conducta Antideportiva",
-    "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__Gestos Groseros"
+    "VERBAL_ABUSE": "Abuso Verbal",
+    "VISIBLE_OBSCENITY": "Obscenidad Visible"
   },
   "datelocalization": "es-ES",
   "common": {
@@ -1417,8 +1417,8 @@
       "noPlayoffPositions": "No hay posiciones de playoff disponibles",
       "nameBase": "Nombre base",
       "structuresAdded": "Estructura(s) agregada(s)",
-      "rounds": "__TODO__",
-      "allRounds": "__TODO__"
+      "rounds": "Rondas",
+      "allRounds": "Todas"
     },
     "editGroupNames": {
       "title": "Editar nombres de grupos",
@@ -1514,11 +1514,11 @@
       "tiebreaks": "Tie-breaks:",
       "matchTiebreaks": "Super tie-breaks:",
       "irregularEndings": "Finales irregulares:",
-      "abandoned": "__TODO__",
-      "cancelled": "__TODO__",
-      "incomplete": "__TODO__",
-      "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__",
+      "abandoned": "Abandonado",
+      "cancelled": "Cancelado",
+      "incomplete": "Incompleto",
+      "reasonCode": "Motivo",
+      "noReasonCode": "Sin motivo indicado",
       "deadRubber": "Partido sin incidencia",
       "challenged": "Desafiado",
       "statusUnavailable": "{{status}} no está disponible para este partido",
@@ -1577,32 +1577,32 @@
       "starPoint": "Punto estrella",
       "games": "Juegos",
       "points": "Puntos",
-      "setPlural": "__TODO__",
-      "tiebreakPlural": "__TODO__",
-      "timedSetPlural": "__TODO__",
-      "outs": "__TODO__",
-      "pointsTotal": "__TODO__",
+      "setPlural": "Sets",
+      "tiebreakPlural": "Tie-breaks",
+      "timedSetPlural": "Sets cronometrados",
+      "outs": "Outs",
+      "pointsTotal": "Total de puntos",
       "roots": {
-        "set": "__TODO__",
-        "half": "__TODO__",
-        "quarter": "__TODO__",
-        "period": "__TODO__",
-        "inning": "__TODO__",
-        "round": "__TODO__",
-        "frame": "__TODO__",
-        "map": "__TODO__"
+        "set": "Set",
+        "half": "Tiempo",
+        "quarter": "Cuarto",
+        "period": "Periodo",
+        "inning": "Entrada",
+        "round": "Ronda",
+        "frame": "Frame",
+        "map": "Mapa"
       },
-      "setTo": "__TODO__",
-      "tiebreakTo": "__TODO__",
-      "winBy": "__TODO__",
-      "minutesCount": "__TODO__",
-      "outsCount": "__TODO__",
-      "maxMinutes": "__TODO__",
-      "pointsCount": "__TODO__",
-      "consecutive": "__TODO__",
-      "tieAllowed": "__TODO__",
-      "maxTime": "__TODO__",
-      "readOnly": "__TODO__"
+      "setTo": "a {n}",
+      "tiebreakTo": "TB a {n}",
+      "winBy": "Ganar por {n}",
+      "minutesCount": "{n} Minutos",
+      "outsCount": "{n} outs",
+      "maxMinutes": "{n} min",
+      "pointsCount": "{n} puntos",
+      "consecutive": "{n} consecutivos",
+      "tieAllowed": "Empate permitido",
+      "maxTime": "Tiempo máximo",
+      "readOnly": "Este formato no se puede editar aquí. Seleccionar lo mantiene sin cambios; elija otro formato para reemplazarlo."
     },
     "courtAvailability": {
       "startTime": "Hora de inicio",
@@ -1929,18 +1929,18 @@
       "title": "Editar los ajustes de visualización"
     },
     "chooseProvider": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "providerLabel": "__TODO__",
-      "continue": "__TODO__",
-      "signOut": "__TODO__",
-      "failed": "__TODO__"
+      "title": "Elija un proveedor",
+      "intro": "Su cuenta pertenece a más de un proveedor. Elija aquel para el que trabaja ahora; puede cambiar más tarde desde la insignia del proveedor.",
+      "providerLabel": "Proveedor",
+      "continue": "Continuar",
+      "signOut": "Cerrar sesión",
+      "failed": "No se pudo abrir ese proveedor"
     },
     "exitBeforeArrival": {
-      "title": "__TODO__",
-      "prompt": "__TODO__",
-      "exit": "__TODO__",
-      "clear": "__TODO__"
+      "title": "Walkover o descalificación",
+      "prompt": "{{name}} no puede jugar: registre la salida ahora, antes de que llegue el rival. Quien llegue se lleva el walkover.",
+      "exit": "Salida",
+      "clear": "Borrar"
     }
   },
   "dashboard": {
@@ -2057,7 +2057,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Round robin con playoff",
       "drawTypeAdaptive": "Adaptativo",
-      "drawTypeStaggeredEntry": "__STALE__Entrada escalonada",
+      "drawTypeStaggeredEntry": "Feed-in (entrada escalonada)",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Cuadro de eliminación directa estándar donde cada derrota elimina a un participante del cuadro.",
         "ROUND_ROBIN": "Todos los participantes juegan entre sí dentro de grupos; la clasificación se determina por el registro de victorias/derrotas.",
@@ -2083,16 +2083,16 @@
       "noMainDraw": "El cuadro principal aún no se ha generado.",
       "drawTypeSwiss": "Sistema suizo",
       "drawTypePagePlayoff": "Playoff de Page",
-      "providerSeedingPolicy": "__TODO__",
-      "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__",
-      "feedInQualifiersInvalid": "__TODO__",
-      "targetRound": "__TODO__",
-      "targetRoundOption": "__TODO__",
-      "targetCapacity": "__TODO__",
-      "alreadyFed": "__TODO__",
-      "noFeeders": "__TODO__",
-      "qualifying": "__TODO__"
+      "providerSeedingPolicy": "Política del proveedor",
+      "additionalSeedsCount_one": "{{seeds}} (+{{count}} cabeza de serie adicional)",
+      "additionalSeedsCount_other": "{{seeds}} (+{{count}} cabezas de serie adicionales)",
+      "feedInQualifiersInvalid": "Una clasificación de entrada escalonada de {{drawSize}} solo puede producir estos números de clasificados: {{counts}}",
+      "targetRound": "Ronda de destino",
+      "targetRoundOption": "Ronda {{round}} — {{open}} de {{total}} posiciones libres",
+      "targetCapacity": "La ronda {{round}} aún admite {{open}} de sus {{total}} posiciones.",
+      "alreadyFed": "La ronda {{round}} ya recibe clasificados de {{feederNames}}: {{count}} clasificados comprometidos.",
+      "noFeeders": "Ninguna estructura de clasificación alimenta todavía la ronda {{round}}.",
+      "qualifying": "Clasificación"
     }
   },
   "toasts": {
@@ -2143,12 +2143,12 @@
       "courtNotFound": "Esa cancha ya no existe. Actualice el torneo e inténtelo de nuevo.",
       "notSaved": "El cambio de programación no se guardó: {{reason}}"
     },
-    "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__",
+    "tournamentsTruncated": "Mostrando los primeros {{loaded}} de {{total}} torneos. Filtre o busque para acotar la lista.",
+    "tournamentSearchFailed": "La búsqueda de torneos no está disponible en este momento. Solo se muestran los torneos ya cargados.",
     "statusOutOfScope": "Este estado no está disponible para este partido",
-    "clearRefused": "__TODO__",
-    "scoreDiscardedByFormat": "__TODO__",
-    "offlineChangeRejected": "__TODO__"
+    "clearRefused": "Este resultado no se puede borrar: un partido posterior depende de él. Borre primero ese partido.",
+    "scoreDiscardedByFormat": "Al cambiar el formato a {{matchUpFormat}} se descartaron {{count}} set(s): {{sets}}",
+    "offlineChangeRejected": "El servidor rechazó un cambio realizado sin conexión"
   },
   "loginMenu": {
     "authorization": "Autorización",
@@ -2267,7 +2267,7 @@
       "winPct": "Vic%",
       "setPct": "Set%",
       "pos": "Pos",
-      "winLossDraw": "__TODO__"
+      "winLossDraw": "G/P/E"
     },
     "events": {
       "event": "Evento",
@@ -2371,8 +2371,8 @@
       "showCompetitivenessView": "Mostrar competitividad",
       "called": "Llamado",
       "scheduleLocked": "Programación bloqueada",
-      "hotkeyScoring": "__TODO__",
-      "hotkeyPlaceholder": "__TODO__"
+      "hotkeyScoring": "Ingreso de puntaje con atajos",
+      "hotkeyPlaceholder": "escriba el puntaje"
     },
     "schedule": {
       "searchParticipants": "Buscar participantes",
@@ -2710,11 +2710,11 @@
     "timeZoneNotSetTitle": "Zona horaria sin definir",
     "timeZoneNotSetBody": "Este torneo no tiene zona horaria definida. Los horarios publicados pueden resultar ambiguos para los espectadores de otras zonas horarias. Defina una zona horaria antes de publicar.",
     "setTimeZone": "Definir zona horaria",
-    "tournamentInformation": "__TODO__",
-    "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__",
-    "structure": "__TODO__",
-    "embargoUnreadable": "__TODO__"
+    "tournamentInformation": "Información del Torneo",
+    "informationEvents": "Eventos listados públicamente",
+    "informationEmbargoNote": "Publicado, pero no listado públicamente hasta {{when}}.",
+    "structure": "Estructura",
+    "embargoUnreadable": "No se pudo leer la hora del embargo en el reloj de la sede, así que no se fijó. Revise la fecha y la hora, y la zona horaria del torneo."
   },
   "cal": "Calendario",
   "tpl": "Plantillas",
@@ -3872,21 +3872,21 @@
       "autoHint": "Preguntar solo cuando este torneo esté usando el registro de entrada hoy."
     },
     "attester": {
-      "action": "__TODO__",
-      "self": "__TODO__",
-      "parent": "__TODO__",
-      "guardian": "__TODO__",
-      "chaperone": "__TODO__",
-      "other": "__TODO__",
-      "namePrompt": "__TODO__",
-      "namePlaceholder": "__TODO__",
-      "telephonePlaceholder": "__TODO__",
-      "cancel": "__TODO__",
-      "confirm": "__TODO__",
-      "bySelf": "__TODO__",
-      "byRelationship": "__TODO__",
-      "byOperator": "__TODO__",
-      "at": "__TODO__"
+      "action": "Registrar entrada como…",
+      "self": "El propio participante",
+      "parent": "Padre / madre",
+      "guardian": "Tutor",
+      "chaperone": "Acompañante",
+      "other": "Otra persona",
+      "namePrompt": "¿Quién registra la entrada de {{name}}?",
+      "namePlaceholder": "Nombre",
+      "telephonePlaceholder": "Teléfono (opcional)",
+      "cancel": "Cancelar",
+      "confirm": "Registrar entrada",
+      "bySelf": "Entrada registrada por el propio participante",
+      "byRelationship": "Entrada registrada por {{name}} ({{relationship}})",
+      "byOperator": "Entrada registrada por {{name}}",
+      "at": "a las {{time}}"
     }
   },
   "ofc": "Oficiales",
@@ -4202,14 +4202,14 @@
     "addToAlternates": "Añadir a suplentes",
     "addEntries": "Añadir inscripciones",
     "pairingOff": "Emparejamiento: DESACTIVADO",
-    "pairingOn": "__TODO__",
-    "pairAs": "__TODO__",
-    "createPairAs": "__TODO__",
-    "pairAsAccepted": "__TODO__",
-    "pairAsQualifying": "__TODO__",
-    "pairAsAlternate": "__TODO__",
-    "rotatingPartnersOff": "__TODO__",
-    "rotatingPartnersOn": "__TODO__"
+    "pairingOn": "Emparejamiento: SÍ",
+    "pairAs": "Emparejar como",
+    "createPairAs": "Crear pareja como",
+    "pairAsAccepted": "Aceptada",
+    "pairAsQualifying": "Clasificación",
+    "pairAsAlternate": "Alterna",
+    "rotatingPartnersOff": "Compañeros rotativos: NO",
+    "rotatingPartnersOn": "Compañeros rotativos: SÍ"
   },
   "swissStandings": {
     "losses": "Derrotas",
@@ -4250,7 +4250,7 @@
     "drawGenerated": "Cuadro generado correctamente",
     "templateName": "Nombre de la plantilla",
     "templateSaved": "Plantilla guardada",
-    "structuresNotAttached": "__TODO__"
+    "structuresNotAttached": "Cuadro generado, pero no se pudieron adjuntar estas estructuras: {{unattached}}"
   },
   "participantFields": {
     "identifiers": "Identificadores",
@@ -4420,8 +4420,8 @@
     "addPlayers": "Añadir jugadores",
     "noRatingData": "No hay datos de valoración disponibles",
     "scheduledMatches": "Partidos programados",
-    "alreadyPartners": "__TODO__",
-    "pairedWith": "__TODO__"
+    "alreadyPartners": "Estos jugadores ya son compañeros en este evento",
+    "pairedWith": "con"
   },
   "ageCategories": {
     "u10": "10 años y menores",
@@ -4484,7 +4484,7 @@
     "audit": "Auditoría",
     "noDraws": "Este torneo no tiene cuadros generados que auditar.",
     "structureAudit": "Auditoría de integridad de estructuras",
-    "frameRefused": "__TODO__"
+    "frameRefused": "No se puede determinar la zona horaria de este torneo, así que sus informes no se pueden leer en el reloj de la sede. Defina la zona horaria del torneo en Editar fechas."
   },
   "applyScheduling": {
     "noPolicy": "Sin política (no aplicar límites diarios)",
@@ -4511,11 +4511,11 @@
     "minWidthHint": "Ancho mínimo de la columna de cancha: las celdas se ensanchan si hay espacio",
     "conflictsWith": " entra en conflicto con ",
     "minRowsHint": "Número mínimo de filas horarias en la cuadrícula de programación",
-    "issuesTitle": "__TODO__",
-    "issuesWithErrors": "__TODO__",
-    "issuesWarningsOnly": "__TODO__",
-    "warningBars": "__TODO__",
-    "warningBarsHint": "__TODO__"
+    "issuesTitle": "Problemas de programación ({{total}})",
+    "issuesWithErrors": "Problemas de programación — al menos uno es un error",
+    "issuesWarningsOnly": "Problemas de programación — solo advertencias, sin errores",
+    "warningBars": "Barras de advertencia",
+    "warningBarsHint": "Mostrar los problemas de nivel advertencia en las celdas de la cuadrícula. Los errores se muestran siempre."
   },
   "scheduleResults": {
     "title": "Resultados de la programación",
@@ -4540,7 +4540,7 @@
     "desktopNotifications": " Notificaciones de escritorio",
     "serverUrl": "URL del servidor",
     "workOffline": " Trabajar sin conexión",
-    "scoreEntryDialog": "__TODO__"
+    "scoreEntryDialog": "Nuevo diálogo de ingreso de puntaje"
   },
   "venueDetail": {
     "noCourts": "Todavía no hay canchas en esta sede.",
@@ -4586,54 +4586,54 @@
     "send": "¿Enviar?"
   },
   "additionalSeeds": {
-    "chooseBasis": "__TODO__",
-    "seededOn": "__TODO__",
-    "added": "__TODO__",
-    "refused": "__TODO__",
+    "chooseBasis": "¿Con qué criterio?",
+    "seededOn": "Cabeza de serie por {{basis}}",
+    "added": "Añadido como cabeza de serie {{seedNumber}}",
+    "refused": "La política de cabezas de serie no permite más cabezas de serie adicionales",
     "basis": {
-      "organiserDiscretion": "__TODO__",
-      "protectedRanking": "__TODO__",
-      "ranking": "__TODO__",
-      "rating": "__TODO__"
+      "organiserDiscretion": "Criterio del organizador",
+      "protectedRanking": "Ranking protegido",
+      "ranking": "Ranking",
+      "rating": "Rating"
     }
   },
   "rotatingPartners": {
     "settlement": {
-      "title": "__TODO__",
-      "explanation": "__TODO__",
-      "treatment": "__TODO__",
-      "exclude": "__TODO__",
-      "playedPoints": "__TODO__",
-      "credit": "__TODO__",
-      "winningPoints": "__TODO__",
-      "losingPoints": "__TODO__",
-      "reason": "__TODO__",
-      "recordedBy": "__TODO__",
-      "required": "__TODO__",
-      "player": "__TODO__",
-      "points": "__TODO__",
-      "total": "__TODO__",
-      "preview": "__TODO__",
-      "confirm": "__TODO__"
+      "title": "Ajustar clasificación",
+      "explanation": "Elija cómo contribuye este resultado a la clasificación individual. El resultado del partido no cambia. Los créditos otorgados son puntos adjudicados, no puntos jugados.",
+      "treatment": "Tratamiento en la clasificación",
+      "exclude": "Excluir de la clasificación",
+      "playedPoints": "Contar los puntos registrados",
+      "credit": "Otorgar puntos",
+      "winningPoints": "Puntos para cada jugador del lado ganador",
+      "losingPoints": "Puntos para cada jugador del lado perdedor",
+      "reason": "Motivo (obligatorio)",
+      "recordedBy": "Registrado por",
+      "required": "Indique un motivo, una identidad de operador y los créditos de puntos requeridos antes de previsualizar.",
+      "player": "Jugador",
+      "points": "Puntos de este resultado",
+      "total": "Total en la clasificación",
+      "preview": "Previsualizar clasificación",
+      "confirm": "Confirmar ajuste"
     },
     "creation": {
-      "format": "__TODO__",
-      "standard": "__TODO__",
-      "pointTotal": "__TODO__",
-      "tieResolution": "__TODO__",
-      "rounds": "__TODO__",
-      "players": "__TODO__",
-      "americanoHelp": "__TODO__",
-      "mexicanoHelp": "__TODO__",
-      "ALLOW": "__TODO__",
-      "DECIDING_POINT": "__TODO__",
-      "WIN_BY_MARGIN": "__TODO__",
-      "rosterError": "__TODO__",
-      "configError": "__TODO__",
-      "previewTitle": "__TODO__",
-      "applyRound": "__TODO__",
-      "standings": "__TODO__",
-      "unresolved": "__TODO__"
+      "format": "Formato",
+      "standard": "Estándar",
+      "pointTotal": "Puntos combinados por partido",
+      "tieResolution": "Resolución de empates",
+      "rounds": "Rondas",
+      "players": "Jugadores individuales",
+      "americanoHelp": "Seleccione de 4 a 128 jugadores en múltiplos de cuatro. Cada jugador forma pareja una vez con todos los demás; la lista queda fijada tras la primera ronda.",
+      "mexicanoHelp": "Seleccione de 4 a 128 jugadores en múltiplos de cuatro. Las rondas posteriores usan la clasificación individual ajustada; la lista queda fijada tras la primera ronda.",
+      "ALLOW": "Permitir empate",
+      "DECIDING_POINT": "Punto decisivo",
+      "WIN_BY_MARGIN": "Ganar por {{margin}} puntos",
+      "rosterError": "Seleccione entre 4 y 128 jugadores individuales, en múltiplos de cuatro.",
+      "configError": "Elija un total de puntos, un número de rondas y una variante de puntuación válidos.",
+      "previewTitle": "Previsualizar ronda {{round}}",
+      "applyRound": "Generar ronda",
+      "standings": "Clasificación individual",
+      "unresolved": "Resultados sin resolver: {{count}}"
     }
   }
 }
