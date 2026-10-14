@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.1](https://github.com/CourtHive/courthive-i18n/compare/v0.10.0...v0.10.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* **i18n:** translate the 233 untranslated and 3 stale strings in every locale ([#144](https://github.com/CourtHive/courthive-i18n/issues/144)) ([fe9a0b4](https://github.com/CourtHive/courthive-i18n/commit/fe9a0b45cf7b4ff1e6d3fbcd5ecfae1a85f7dad7))
+
 ## [0.10.0](https://github.com/CourtHive/courthive-i18n/compare/v0.9.0...v0.10.0) (2026-10-14)
 
 
