@@ -677,7 +677,8 @@
     "existing": "Postojeći zapis turnira",
     "publishtime": "Vrijeme objave",
     "replacelocal": "Zamijeniti lokalnu kopiju?",
-    "unpublish": "Skinuti turnir s objave?"
+    "unpublish": "Skinuti turnir s objave?",
+    "liveDemoClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "Rang turnira (pojedinačno):",
@@ -1144,7 +1145,8 @@
           "bye": "BYE ne treba odmor.",
           "completed": "Već dovršeno — odmor više nije primjenjiv.",
           "noParticipants": "Sudionici još nisu određeni, pa nema tko odmarati.",
-          "unknownMatchUp": "Ovaj meč više nije dio turnira."
+          "unknownMatchUp": "Ovaj meč više nije dio turnira.",
+          "noAsOf": "__TODO__"
         },
         "pendingName": "__TODO__",
         "pending": "__TODO__",
@@ -1203,7 +1205,11 @@
     },
     "venueFrame": {
       "notice": "Vremena u {{timeZone}} — zona lokacije nije postavljena",
-      "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat."
+      "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat.",
+      "conflicting": "__TODO__",
+      "conflictingTitle": "__TODO__",
+      "invalid": "__TODO__",
+      "invalidTitle": "__TODO__"
     },
     "viewInDraw": "Prikaži u ždrijebu",
     "strip": {
@@ -1247,7 +1253,14 @@
       "cellMarks": "__TODO__",
       "checkIn": "__TODO__",
       "annotations": "__TODO__"
-    }
+    },
+    "completedTimes": {
+      "called": "__TODO__",
+      "started": "__TODO__",
+      "ended": "__TODO__",
+      "scored": "__TODO__"
+    },
+    "clockUnavailable": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "__STALE__Psovanje",
@@ -1660,7 +1673,9 @@
       "title": "Dodaj playoff strukture",
       "noPlayoffPositions": "Nema dostupnih playoff pozicija",
       "nameBase": "Osnova naziva",
-      "structuresAdded": "Struktura(e) dodana(e)"
+      "structuresAdded": "Struktura(e) dodana(e)",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "Uredi nazive grupa",
@@ -1819,7 +1834,33 @@
       "goldenPoint": "Zlatni poen",
       "starPoint": "Zvjezdani poen",
       "games": "Gemovi",
-      "points": "Bodovi"
+      "points": "Bodovi",
+      "setPlural": "__TODO__",
+      "tiebreakPlural": "__TODO__",
+      "timedSetPlural": "__TODO__",
+      "outs": "__TODO__",
+      "pointsTotal": "__TODO__",
+      "roots": {
+        "set": "__TODO__",
+        "half": "__TODO__",
+        "quarter": "__TODO__",
+        "period": "__TODO__",
+        "inning": "__TODO__",
+        "round": "__TODO__",
+        "frame": "__TODO__",
+        "map": "__TODO__"
+      },
+      "setTo": "__TODO__",
+      "tiebreakTo": "__TODO__",
+      "winBy": "__TODO__",
+      "minutesCount": "__TODO__",
+      "outsCount": "__TODO__",
+      "maxMinutes": "__TODO__",
+      "pointsCount": "__TODO__",
+      "consecutive": "__TODO__",
+      "tieAllowed": "__TODO__",
+      "maxTime": "__TODO__",
+      "readOnly": "__TODO__"
     },
     "courtAvailability": {
       "startTime": "Početak",
@@ -2055,6 +2096,20 @@
       "showSchedule": "Prikaži raspored",
       "detail": "Detalj",
       "title": "Uredi postavke prikaza"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -2177,7 +2232,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Liga s playoffom",
       "drawTypeAdaptive": "Adaptivni",
-      "drawTypeStaggeredEntry": "Stupnjeviti ulaz",
+      "drawTypeStaggeredEntry": "__STALE__Stupnjeviti ulaz",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Standardni eliminacijski ždrijeb gdje svaki poraz eliminira sudionika iz ždrijeba.",
         "ROUND_ROBIN": "Svi sudionici igraju jedan protiv drugog unutar grupa; poredak određuje omjer pobjeda/poraza.",
@@ -2199,7 +2254,14 @@
       },
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2252,7 +2314,10 @@
     },
     "tournamentsTruncated": "__TODO__",
     "tournamentSearchFailed": "__TODO__",
-    "statusOutOfScope": "Ovaj status nije dostupan za ovaj meč"
+    "statusOutOfScope": "Ovaj status nije dostupan za ovaj meč",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -2370,7 +2435,8 @@
       "winLoss": "P/I",
       "winPct": "Pobjede %",
       "setPct": "Setovi %",
-      "pos": "Poz"
+      "pos": "Poz",
+      "winLossDraw": "__TODO__"
     },
     "events": {
       "event": "Natjecanje",
@@ -2473,7 +2539,9 @@
       "showTodayView": "Prikaži današnji pregled",
       "showCompetitivenessView": "Prikaži izjednačenost",
       "called": "Pozvano",
-      "scheduleLocked": "Raspored zaključan"
+      "scheduleLocked": "Raspored zaključan",
+      "hotkeyScoring": "__TODO__",
+      "hotkeyPlaceholder": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Pretraži sudionike",
@@ -2813,7 +2881,9 @@
     "setTimeZone": "Postavi vremensku zonu",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__",
+    "embargoUnreadable": "__TODO__"
   },
   "formatWizard": {
     "title": "Čarobnjak formata",
@@ -4179,7 +4249,8 @@
     "drawFailed": "Generiranje ždrijeba nije uspjelo",
     "drawGenerated": "Ždrijeb uspješno generiran",
     "templateName": "Naziv predloška",
-    "templateSaved": "Predložak spremljen"
+    "templateSaved": "Predložak spremljen",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifikatori",
@@ -4412,7 +4483,8 @@
     "noData": "Nema podataka",
     "audit": "Revizija",
     "noDraws": "Ovaj turnir nema generiranih ždrijebova za reviziju.",
-    "structureAudit": "Revizija cjelovitosti struktura"
+    "structureAudit": "Revizija cjelovitosti struktura",
+    "frameRefused": "__TODO__"
   },
   "applyScheduling": {
     "noPolicy": "Bez pravila (ne primjenjuj dnevna ograničenja)",
@@ -4467,7 +4539,8 @@
     "schedulePlan": "Plan rasporeda",
     "desktopNotifications": " Obavijesti na radnoj površini",
     "serverUrl": "URL poslužitelja",
-    "workOffline": " Rad izvan mreže"
+    "workOffline": " Rad izvan mreže",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "Na ovoj lokaciji još nema terena.",
@@ -4522,6 +4595,45 @@
       "protectedRanking": "__TODO__",
       "ranking": "__TODO__",
       "rating": "__TODO__"
+    }
+  },
+  "rotatingPartners": {
+    "settlement": {
+      "title": "__TODO__",
+      "explanation": "__TODO__",
+      "treatment": "__TODO__",
+      "exclude": "__TODO__",
+      "playedPoints": "__TODO__",
+      "credit": "__TODO__",
+      "winningPoints": "__TODO__",
+      "losingPoints": "__TODO__",
+      "reason": "__TODO__",
+      "recordedBy": "__TODO__",
+      "required": "__TODO__",
+      "player": "__TODO__",
+      "points": "__TODO__",
+      "total": "__TODO__",
+      "preview": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "creation": {
+      "format": "__TODO__",
+      "standard": "__TODO__",
+      "pointTotal": "__TODO__",
+      "tieResolution": "__TODO__",
+      "rounds": "__TODO__",
+      "players": "__TODO__",
+      "americanoHelp": "__TODO__",
+      "mexicanoHelp": "__TODO__",
+      "ALLOW": "__TODO__",
+      "DECIDING_POINT": "__TODO__",
+      "WIN_BY_MARGIN": "__TODO__",
+      "rosterError": "__TODO__",
+      "configError": "__TODO__",
+      "previewTitle": "__TODO__",
+      "applyRound": "__TODO__",
+      "standings": "__TODO__",
+      "unresolved": "__TODO__"
     }
   }
 }

@@ -677,7 +677,8 @@
     "existing": "Stávající záznam turnaje",
     "publishtime": "Čas publikování",
     "replacelocal": "Nahradit lokální kopii?",
-    "unpublish": "Zrušit publikování turnaje?"
+    "unpublish": "Zrušit publikování turnaje?",
+    "liveDemoClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "Pořadí turnaje (dvouhra):",
@@ -1144,7 +1145,8 @@
           "bye": "BYE nepotřebuje odpočinek.",
           "completed": "Již dokončeno — odpočinek se už neuplatní.",
           "noParticipants": "Účastníci zatím nejsou určeni, takže není kdo by odpočíval.",
-          "unknownMatchUp": "Tento zápas už není součástí turnaje."
+          "unknownMatchUp": "Tento zápas už není součástí turnaje.",
+          "noAsOf": "__TODO__"
         },
         "pendingName": "__TODO__",
         "pending": "__TODO__",
@@ -1203,7 +1205,11 @@
     },
     "venueFrame": {
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
-      "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas."
+      "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas.",
+      "conflicting": "__TODO__",
+      "conflictingTitle": "__TODO__",
+      "invalid": "__TODO__",
+      "invalidTitle": "__TODO__"
     },
     "viewInDraw": "Zobrazit v pavouku",
     "strip": {
@@ -1247,7 +1253,14 @@
       "cellMarks": "__TODO__",
       "checkIn": "__TODO__",
       "annotations": "__TODO__"
-    }
+    },
+    "completedTimes": {
+      "called": "__TODO__",
+      "started": "__TODO__",
+      "ended": "__TODO__",
+      "scored": "__TODO__"
+    },
+    "clockUnavailable": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "__STALE__Klení",
@@ -1660,7 +1673,9 @@
       "title": "Přidat playoff struktury",
       "noPlayoffPositions": "Žádné playoff pozice nejsou k dispozici",
       "nameBase": "Základ názvu",
-      "structuresAdded": "Struktura(y) přidána(y)"
+      "structuresAdded": "Struktura(y) přidána(y)",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "Upravit názvy skupin",
@@ -1819,7 +1834,33 @@
       "goldenPoint": "Zlatý míč",
       "starPoint": "Hvězdný míč",
       "games": "Gamy",
-      "points": "Body"
+      "points": "Body",
+      "setPlural": "__TODO__",
+      "tiebreakPlural": "__TODO__",
+      "timedSetPlural": "__TODO__",
+      "outs": "__TODO__",
+      "pointsTotal": "__TODO__",
+      "roots": {
+        "set": "__TODO__",
+        "half": "__TODO__",
+        "quarter": "__TODO__",
+        "period": "__TODO__",
+        "inning": "__TODO__",
+        "round": "__TODO__",
+        "frame": "__TODO__",
+        "map": "__TODO__"
+      },
+      "setTo": "__TODO__",
+      "tiebreakTo": "__TODO__",
+      "winBy": "__TODO__",
+      "minutesCount": "__TODO__",
+      "outsCount": "__TODO__",
+      "maxMinutes": "__TODO__",
+      "pointsCount": "__TODO__",
+      "consecutive": "__TODO__",
+      "tieAllowed": "__TODO__",
+      "maxTime": "__TODO__",
+      "readOnly": "__TODO__"
     },
     "courtAvailability": {
       "startTime": "Začátek",
@@ -2055,6 +2096,20 @@
       "showSchedule": "Zobrazit rozpis",
       "detail": "Detail",
       "title": "Upravit nastavení zobrazení"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -2177,7 +2232,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Skupina s playoffem",
       "drawTypeAdaptive": "Adaptivní",
-      "drawTypeStaggeredEntry": "Stupňovaný vstup",
+      "drawTypeStaggeredEntry": "__STALE__Stupňovaný vstup",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Standardní vyřazovací pavouk, kde každá prohra eliminuje účastníka z pavouka.",
         "ROUND_ROBIN": "Všichni účastníci hrají proti sobě ve skupinách; pořadí určeno bilancí výher/proher.",
@@ -2199,7 +2254,14 @@
       },
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2252,7 +2314,10 @@
     },
     "tournamentsTruncated": "__TODO__",
     "tournamentSearchFailed": "__TODO__",
-    "statusOutOfScope": "Tento stav není pro tento zápas dostupný"
+    "statusOutOfScope": "Tento stav není pro tento zápas dostupný",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -2370,7 +2435,8 @@
       "winLoss": "V/P",
       "winPct": "Výhry %",
       "setPct": "Sety %",
-      "pos": "Poz"
+      "pos": "Poz",
+      "winLossDraw": "__TODO__"
     },
     "events": {
       "event": "Soutěž",
@@ -2473,7 +2539,9 @@
       "showTodayView": "Zobrazit dnešní přehled",
       "showCompetitivenessView": "Zobrazit vyrovnanost",
       "called": "Vyvoláno",
-      "scheduleLocked": "Rozpis uzamčen"
+      "scheduleLocked": "Rozpis uzamčen",
+      "hotkeyScoring": "__TODO__",
+      "hotkeyPlaceholder": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Hledat účastníky",
@@ -2813,7 +2881,9 @@
     "setTimeZone": "Nastavit časové pásmo",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__",
+    "embargoUnreadable": "__TODO__"
   },
   "formatWizard": {
     "title": "Průvodce formátem",
@@ -4179,7 +4249,8 @@
     "drawFailed": "Generování pavouka selhalo",
     "drawGenerated": "Pavouk úspěšně vygenerován",
     "templateName": "Název šablony",
-    "templateSaved": "Šablona uložena"
+    "templateSaved": "Šablona uložena",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifikátory",
@@ -4412,7 +4483,8 @@
     "noData": "Žádná data",
     "audit": "Audit",
     "noDraws": "Tento turnaj nemá žádné vygenerované pavouky k auditu.",
-    "structureAudit": "Audit integrity struktur"
+    "structureAudit": "Audit integrity struktur",
+    "frameRefused": "__TODO__"
   },
   "applyScheduling": {
     "noPolicy": "Bez pravidla (nevynucovat denní limity)",
@@ -4467,7 +4539,8 @@
     "schedulePlan": "Plán rozpisu",
     "desktopNotifications": " Oznámení na ploše",
     "serverUrl": "URL serveru",
-    "workOffline": " Pracovat offline"
+    "workOffline": " Pracovat offline",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "Na tomto místě konání zatím nejsou žádné kurty.",
@@ -4522,6 +4595,45 @@
       "protectedRanking": "__TODO__",
       "ranking": "__TODO__",
       "rating": "__TODO__"
+    }
+  },
+  "rotatingPartners": {
+    "settlement": {
+      "title": "__TODO__",
+      "explanation": "__TODO__",
+      "treatment": "__TODO__",
+      "exclude": "__TODO__",
+      "playedPoints": "__TODO__",
+      "credit": "__TODO__",
+      "winningPoints": "__TODO__",
+      "losingPoints": "__TODO__",
+      "reason": "__TODO__",
+      "recordedBy": "__TODO__",
+      "required": "__TODO__",
+      "player": "__TODO__",
+      "points": "__TODO__",
+      "total": "__TODO__",
+      "preview": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "creation": {
+      "format": "__TODO__",
+      "standard": "__TODO__",
+      "pointTotal": "__TODO__",
+      "tieResolution": "__TODO__",
+      "rounds": "__TODO__",
+      "players": "__TODO__",
+      "americanoHelp": "__TODO__",
+      "mexicanoHelp": "__TODO__",
+      "ALLOW": "__TODO__",
+      "DECIDING_POINT": "__TODO__",
+      "WIN_BY_MARGIN": "__TODO__",
+      "rosterError": "__TODO__",
+      "configError": "__TODO__",
+      "previewTitle": "__TODO__",
+      "applyRound": "__TODO__",
+      "standings": "__TODO__",
+      "unresolved": "__TODO__"
     }
   }
 }
