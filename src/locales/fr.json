@@ -508,7 +508,8 @@
     "existing": "Enregistrement de tournoi existant",
     "publishtime": "Heure de publication",
     "replacelocal": "Remplacer la copie locale ?",
-    "unpublish": "Dépublier le tournoi ?"
+    "unpublish": "Dépublier le tournoi ?",
+    "liveDemoClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "Rang du tournoi en simple :",
@@ -975,7 +976,8 @@
           "bye": "Un BYE ne nécessite aucun repos.",
           "completed": "Déjà terminé — le repos ne s’applique plus.",
           "noParticipants": "Participants pas encore déterminés, il n’y a donc personne à faire reposer.",
-          "unknownMatchUp": "Ce match ne fait plus partie du tournoi."
+          "unknownMatchUp": "Ce match ne fait plus partie du tournoi.",
+          "noAsOf": "__TODO__"
         },
         "pendingName": "__TODO__",
         "pending": "__TODO__",
@@ -1034,7 +1036,11 @@
     },
     "venueFrame": {
       "notice": "Heures en {{timeZone}} — fuseau du site non défini",
-      "noticeTitle": "Ce tournoi n’a pas de fuseau horaire défini ; les heures sont donc affichées dans le fuseau de cet appareil ({{timeZone}}). Définissez le fuseau horaire du site pour que tous les opérateurs lisent la même heure."
+      "noticeTitle": "Ce tournoi n’a pas de fuseau horaire défini ; les heures sont donc affichées dans le fuseau de cet appareil ({{timeZone}}). Définissez le fuseau horaire du site pour que tous les opérateurs lisent la même heure.",
+      "conflicting": "__TODO__",
+      "conflictingTitle": "__TODO__",
+      "invalid": "__TODO__",
+      "invalidTitle": "__TODO__"
     },
     "viewInDraw": "Voir dans le tableau",
     "strip": {
@@ -1078,7 +1084,14 @@
       "cellMarks": "__TODO__",
       "checkIn": "__TODO__",
       "annotations": "__TODO__"
-    }
+    },
+    "completedTimes": {
+      "called": "__TODO__",
+      "started": "__TODO__",
+      "ended": "__TODO__",
+      "scored": "__TODO__"
+    },
+    "clockUnavailable": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "__STALE__Jurons",
@@ -1403,7 +1416,9 @@
       "title": "Ajouter des structures de barrage",
       "noPlayoffPositions": "Aucune position de barrage disponible",
       "nameBase": "Base du nom",
-      "structuresAdded": "Structure(s) ajoutée(s)"
+      "structuresAdded": "Structure(s) ajoutée(s)",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "Modifier les noms des groupes",
@@ -1561,7 +1576,33 @@
       "goldenPoint": "Point en or",
       "starPoint": "Point étoile",
       "games": "Jeux",
-      "points": "Points"
+      "points": "Points",
+      "setPlural": "__TODO__",
+      "tiebreakPlural": "__TODO__",
+      "timedSetPlural": "__TODO__",
+      "outs": "__TODO__",
+      "pointsTotal": "__TODO__",
+      "roots": {
+        "set": "__TODO__",
+        "half": "__TODO__",
+        "quarter": "__TODO__",
+        "period": "__TODO__",
+        "inning": "__TODO__",
+        "round": "__TODO__",
+        "frame": "__TODO__",
+        "map": "__TODO__"
+      },
+      "setTo": "__TODO__",
+      "tiebreakTo": "__TODO__",
+      "winBy": "__TODO__",
+      "minutesCount": "__TODO__",
+      "outsCount": "__TODO__",
+      "maxMinutes": "__TODO__",
+      "pointsCount": "__TODO__",
+      "consecutive": "__TODO__",
+      "tieAllowed": "__TODO__",
+      "maxTime": "__TODO__",
+      "readOnly": "__TODO__"
     },
     "courtAvailability": {
       "startTime": "Heure de début",
@@ -1886,6 +1927,20 @@
       "showSchedule": "Afficher la programmation",
       "detail": "Détail",
       "title": "Modifier les paramètres d’affichage"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -2002,7 +2057,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Poule avec playoff",
       "drawTypeAdaptive": "Adaptatif",
-      "drawTypeStaggeredEntry": "Entrée échelonnée",
+      "drawTypeStaggeredEntry": "__STALE__Entrée échelonnée",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Tableau à élimination directe standard où chaque défaite élimine un participant du tableau.",
         "ROUND_ROBIN": "Tous les participants jouent les uns contre les autres au sein de groupes ; le classement est déterminé par le bilan victoires/défaites.",
@@ -2030,7 +2085,14 @@
       "drawTypePagePlayoff": "Play-off Page",
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2083,7 +2145,10 @@
     },
     "tournamentsTruncated": "__TODO__",
     "tournamentSearchFailed": "__TODO__",
-    "statusOutOfScope": "Ce statut n’est pas disponible pour ce match"
+    "statusOutOfScope": "Ce statut n’est pas disponible pour ce match",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisation",
@@ -2201,7 +2266,8 @@
       "winLoss": "W/L",
       "winPct": "% Vict.",
       "setPct": "% Sets",
-      "pos": "Pos"
+      "pos": "Pos",
+      "winLossDraw": "__TODO__"
     },
     "events": {
       "event": "Épreuve",
@@ -2304,7 +2370,9 @@
       "showTodayView": "Afficher la vue du jour",
       "showCompetitivenessView": "Afficher la compétitivité",
       "called": "Appelé",
-      "scheduleLocked": "Programmation verrouillée"
+      "scheduleLocked": "Programmation verrouillée",
+      "hotkeyScoring": "__TODO__",
+      "hotkeyPlaceholder": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Rechercher des participants",
@@ -2644,7 +2712,9 @@
     "setTimeZone": "Définir le fuseau horaire",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__",
+    "embargoUnreadable": "__TODO__"
   },
   "cal": "Calendrier",
   "tpl": "Modèles",
@@ -4179,7 +4249,8 @@
     "drawFailed": "Échec de la génération du tableau",
     "drawGenerated": "Tableau généré avec succès",
     "templateName": "Nom du modèle",
-    "templateSaved": "Modèle enregistré"
+    "templateSaved": "Modèle enregistré",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifiants",
@@ -4412,7 +4483,8 @@
     "noData": "Aucune donnée",
     "audit": "Audit",
     "noDraws": "Ce tournoi n’a aucun tableau généré à auditer.",
-    "structureAudit": "Audit d’intégrité des structures"
+    "structureAudit": "Audit d’intégrité des structures",
+    "frameRefused": "__TODO__"
   },
   "applyScheduling": {
     "noPolicy": "Aucune politique (ne pas appliquer de limites quotidiennes)",
@@ -4467,7 +4539,8 @@
     "schedulePlan": "Plan de programmation",
     "desktopNotifications": " Notifications bureau",
     "serverUrl": "URL du serveur",
-    "workOffline": " Travailler hors ligne"
+    "workOffline": " Travailler hors ligne",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "Aucun court sur ce site pour le moment.",
@@ -4522,6 +4595,45 @@
       "protectedRanking": "__TODO__",
       "ranking": "__TODO__",
       "rating": "__TODO__"
+    }
+  },
+  "rotatingPartners": {
+    "settlement": {
+      "title": "__TODO__",
+      "explanation": "__TODO__",
+      "treatment": "__TODO__",
+      "exclude": "__TODO__",
+      "playedPoints": "__TODO__",
+      "credit": "__TODO__",
+      "winningPoints": "__TODO__",
+      "losingPoints": "__TODO__",
+      "reason": "__TODO__",
+      "recordedBy": "__TODO__",
+      "required": "__TODO__",
+      "player": "__TODO__",
+      "points": "__TODO__",
+      "total": "__TODO__",
+      "preview": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "creation": {
+      "format": "__TODO__",
+      "standard": "__TODO__",
+      "pointTotal": "__TODO__",
+      "tieResolution": "__TODO__",
+      "rounds": "__TODO__",
+      "players": "__TODO__",
+      "americanoHelp": "__TODO__",
+      "mexicanoHelp": "__TODO__",
+      "ALLOW": "__TODO__",
+      "DECIDING_POINT": "__TODO__",
+      "WIN_BY_MARGIN": "__TODO__",
+      "rosterError": "__TODO__",
+      "configError": "__TODO__",
+      "previewTitle": "__TODO__",
+      "applyRound": "__TODO__",
+      "standings": "__TODO__",
+      "unresolved": "__TODO__"
     }
   }
 }

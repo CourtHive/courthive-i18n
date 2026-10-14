@@ -673,7 +673,8 @@
     "existing": "现有锦标赛记录",
     "publishtime": "发布时间",
     "replacelocal": "替换本地副本？",
-    "unpublish": "取消发布锦标赛？"
+    "unpublish": "取消发布锦标赛？",
+    "liveDemoClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "单打锦标赛排名：",
@@ -1140,7 +1141,8 @@
           "bye": "轮空无需休息。",
           "completed": "已结束——休息规则不再适用。",
           "noParticipants": "参赛者尚未确定，因此没有需要休息的人。",
-          "unknownMatchUp": "这场比赛已不在本锦标赛中。"
+          "unknownMatchUp": "这场比赛已不在本锦标赛中。",
+          "noAsOf": "__TODO__"
         },
         "pendingName": "__TODO__",
         "pending": "__TODO__",
@@ -1199,7 +1201,11 @@
     },
     "venueFrame": {
       "notice": "时间以 {{timeZone}} 显示 — 未设置场馆时区",
-      "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。"
+      "noticeTitle": "本锦标赛未设置时区，因此时间按本设备的时区（{{timeZone}}）显示。请设置场馆时区，使所有操作人员读到同一个时间。",
+      "conflicting": "__TODO__",
+      "conflictingTitle": "__TODO__",
+      "invalid": "__TODO__",
+      "invalidTitle": "__TODO__"
     },
     "viewInDraw": "在签表中查看",
     "strip": {
@@ -1243,7 +1249,14 @@
       "cellMarks": "__TODO__",
       "checkIn": "__TODO__",
       "annotations": "__TODO__"
-    }
+    },
+    "completedTimes": {
+      "called": "__TODO__",
+      "started": "__TODO__",
+      "ended": "__TODO__",
+      "scored": "__TODO__"
+    },
+    "clockUnavailable": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "__STALE__骂人",
@@ -1568,7 +1581,9 @@
       "title": "添加附加赛结构",
       "noPlayoffPositions": "无可用附加赛位置",
       "nameBase": "名称前缀",
-      "structuresAdded": "已添加结构"
+      "structuresAdded": "已添加结构",
+      "rounds": "__TODO__",
+      "allRounds": "__TODO__"
     },
     "editGroupNames": {
       "title": "编辑组名",
@@ -1726,7 +1741,33 @@
       "goldenPoint": "金分",
       "starPoint": "星分",
       "games": "局数",
-      "points": "分数"
+      "points": "分数",
+      "setPlural": "__TODO__",
+      "tiebreakPlural": "__TODO__",
+      "timedSetPlural": "__TODO__",
+      "outs": "__TODO__",
+      "pointsTotal": "__TODO__",
+      "roots": {
+        "set": "__TODO__",
+        "half": "__TODO__",
+        "quarter": "__TODO__",
+        "period": "__TODO__",
+        "inning": "__TODO__",
+        "round": "__TODO__",
+        "frame": "__TODO__",
+        "map": "__TODO__"
+      },
+      "setTo": "__TODO__",
+      "tiebreakTo": "__TODO__",
+      "winBy": "__TODO__",
+      "minutesCount": "__TODO__",
+      "outsCount": "__TODO__",
+      "maxMinutes": "__TODO__",
+      "pointsCount": "__TODO__",
+      "consecutive": "__TODO__",
+      "tieAllowed": "__TODO__",
+      "maxTime": "__TODO__",
+      "readOnly": "__TODO__"
     },
     "courtAvailability": {
       "startTime": "开始时间",
@@ -2051,6 +2092,20 @@
       "showSchedule": "显示赛程",
       "detail": "详情",
       "title": "编辑显示设置"
+    },
+    "chooseProvider": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "providerLabel": "__TODO__",
+      "continue": "__TODO__",
+      "signOut": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "exitBeforeArrival": {
+      "title": "__TODO__",
+      "prompt": "__TODO__",
+      "exit": "__TODO__",
+      "clear": "__TODO__"
     }
   },
   "dashboard": {
@@ -2167,7 +2222,7 @@
       "drawTypePlayoff": "附加赛",
       "drawTypeRoundRobinWithPlayoff": "循环赛加附加赛",
       "drawTypeAdaptive": "自适应",
-      "drawTypeStaggeredEntry": "交错入场",
+      "drawTypeStaggeredEntry": "__STALE__交错入场",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "标准淘汰赛签表，每次失败即淘汰出签表。",
         "ROUND_ROBIN": "所有参赛者在小组内互相比赛；排名由胜/负记录决定。",
@@ -2195,7 +2250,14 @@
       "drawTypePagePlayoff": "佩奇附加赛",
       "providerSeedingPolicy": "__TODO__",
       "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__"
+      "additionalSeedsCount_other": "__TODO__",
+      "feedInQualifiersInvalid": "__TODO__",
+      "targetRound": "__TODO__",
+      "targetRoundOption": "__TODO__",
+      "targetCapacity": "__TODO__",
+      "alreadyFed": "__TODO__",
+      "noFeeders": "__TODO__",
+      "qualifying": "__TODO__"
     }
   },
   "toasts": {
@@ -2248,7 +2310,10 @@
     },
     "tournamentsTruncated": "__TODO__",
     "tournamentSearchFailed": "__TODO__",
-    "statusOutOfScope": "此比赛不可使用该状态"
+    "statusOutOfScope": "此比赛不可使用该状态",
+    "clearRefused": "__TODO__",
+    "scoreDiscardedByFormat": "__TODO__",
+    "offlineChangeRejected": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -2366,7 +2431,8 @@
       "winLoss": "胜/负",
       "winPct": "胜率",
       "setPct": "盘胜率",
-      "pos": "位"
+      "pos": "位",
+      "winLossDraw": "__TODO__"
     },
     "events": {
       "event": "赛事",
@@ -2469,7 +2535,9 @@
       "showTodayView": "显示今日视图",
       "showCompetitivenessView": "显示竞争激烈度",
       "called": "已叫场",
-      "scheduleLocked": "赛程已锁定"
+      "scheduleLocked": "赛程已锁定",
+      "hotkeyScoring": "__TODO__",
+      "hotkeyPlaceholder": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "搜索参赛者",
@@ -2809,7 +2877,9 @@
     "setTimeZone": "设置时区",
     "tournamentInformation": "__TODO__",
     "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__"
+    "informationEmbargoNote": "__TODO__",
+    "structure": "__TODO__",
+    "embargoUnreadable": "__TODO__"
   },
   "cal": "日历",
   "tpl": "模板",
@@ -4179,7 +4249,8 @@
     "drawFailed": "签表生成失败",
     "drawGenerated": "签表生成成功",
     "templateName": "模板名称",
-    "templateSaved": "模板已保存"
+    "templateSaved": "模板已保存",
+    "structuresNotAttached": "__TODO__"
   },
   "participantFields": {
     "identifiers": "标识符",
@@ -4412,7 +4483,8 @@
     "noData": "无数据",
     "audit": "审计",
     "noDraws": "本锦标赛没有已生成的签表可供审计。",
-    "structureAudit": "结构完整性审计"
+    "structureAudit": "结构完整性审计",
+    "frameRefused": "__TODO__"
   },
   "applyScheduling": {
     "noPolicy": "无策略（不强制每日上限）",
@@ -4467,7 +4539,8 @@
     "schedulePlan": "赛程方案",
     "desktopNotifications": " 桌面通知",
     "serverUrl": "服务器地址",
-    "workOffline": " 离线工作"
+    "workOffline": " 离线工作",
+    "scoreEntryDialog": "__TODO__"
   },
   "venueDetail": {
     "noCourts": "该场馆尚无球场。",
@@ -4522,6 +4595,45 @@
       "protectedRanking": "__TODO__",
       "ranking": "__TODO__",
       "rating": "__TODO__"
+    }
+  },
+  "rotatingPartners": {
+    "settlement": {
+      "title": "__TODO__",
+      "explanation": "__TODO__",
+      "treatment": "__TODO__",
+      "exclude": "__TODO__",
+      "playedPoints": "__TODO__",
+      "credit": "__TODO__",
+      "winningPoints": "__TODO__",
+      "losingPoints": "__TODO__",
+      "reason": "__TODO__",
+      "recordedBy": "__TODO__",
+      "required": "__TODO__",
+      "player": "__TODO__",
+      "points": "__TODO__",
+      "total": "__TODO__",
+      "preview": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "creation": {
+      "format": "__TODO__",
+      "standard": "__TODO__",
+      "pointTotal": "__TODO__",
+      "tieResolution": "__TODO__",
+      "rounds": "__TODO__",
+      "players": "__TODO__",
+      "americanoHelp": "__TODO__",
+      "mexicanoHelp": "__TODO__",
+      "ALLOW": "__TODO__",
+      "DECIDING_POINT": "__TODO__",
+      "WIN_BY_MARGIN": "__TODO__",
+      "rosterError": "__TODO__",
+      "configError": "__TODO__",
+      "previewTitle": "__TODO__",
+      "applyRound": "__TODO__",
+      "standings": "__TODO__",
+      "unresolved": "__TODO__"
     }
   }
 }
