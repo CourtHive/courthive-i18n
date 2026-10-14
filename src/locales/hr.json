@@ -299,14 +299,14 @@
       "noRows": "Nema redaka. Kliknite Dodaj redak za početak."
     },
     "seedingPolicy": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "locked": "__TODO__",
-      "thresholds": "__TODO__",
-      "providerPolicy": "__TODO__",
-      "none": "__TODO__",
-      "custom": "__TODO__",
-      "attached": "__TODO__"
+      "title": "Pravilo nositelja",
+      "intro": "Primjenjuje se na svaki ždrijeb ovog turnira. Koriste ga ždrijebovi stvoreni s „Naslijeđeno” nositeljima, uključujući i one kasnije ponovno generirane.",
+      "locked": "Vaš pružatelj postavlja pravilo nositelja za ovaj turnir. Primjenjuje se na svaki ždrijeb i ovdje se ne može promijeniti.",
+      "thresholds": "Veličina ždrijeba → nositelji:",
+      "providerPolicy": "Pravilo pružatelja",
+      "none": "Nijedno — zadano u factoryju",
+      "custom": "Prilagođeno pravilo",
+      "attached": "Priloženo — {{name}}"
     }
   },
   "system": {
@@ -678,7 +678,7 @@
     "publishtime": "Vrijeme objave",
     "replacelocal": "Zamijeniti lokalnu kopiju?",
     "unpublish": "Skinuti turnir s objave?",
-    "liveDemoClockUnavailable": "__TODO__"
+    "liveDemoClockUnavailable": "Primjer rasporeda uživo nije generiran: natjecateljski sat ne daje upotrebljivo vrijeme. Ispravite ili uklonite natjecateljski sat (dev.setCompetitionClock) i pokušajte ponovno."
   },
   "ddlb": {
     "singles": "Rang turnira (pojedinačno):",
@@ -1094,21 +1094,21 @@
           "notScheduled": "Još nije u rasporedu, pa nema vremena za usporedbu.",
           "noTime": "Nema vremena u rasporedu, pa se spremnost ne može projicirati.",
           "unknownMatchUp": "Ovaj meč više nije dio turnira.",
-          "timeNotPromised": "__TODO__"
+          "timeNotPromised": "Raspored ne navodi vrijeme za ovaj meč, pa nema s čime usporediti."
         },
-        "dependencyBoth": "__TODO__",
-        "dependencyWaiting": "__TODO__",
-        "finishes": "__TODO__",
-        "readyAt": "__TODO__"
+        "dependencyBoth": "Čeka se {{labels}} — završava ~{{finishes}}, pobjednik spreman ~{{ready}}",
+        "dependencyWaiting": "Čeka se {{labels}}",
+        "finishes": "završava ~{{time}}",
+        "readyAt": "spreman ~{{time}}"
       },
       "actions": {
         "trigger": "Radnje meča",
         "viewDraw": "Prikaži ždrijeb",
         "participants": "Sudionici",
-        "schedule": "__TODO__",
-        "setTime": "__TODO__",
-        "clearTime": "__TODO__",
-        "navigate": "__TODO__"
+        "schedule": "Rasporedi",
+        "setTime": "Postavi vrijeme",
+        "clearTime": "Ukloni vrijeme",
+        "navigate": "Idi na"
       },
       "rest": {
         "heading": "Odmor",
@@ -1146,29 +1146,29 @@
           "completed": "Već dovršeno — odmor više nije primjenjiv.",
           "noParticipants": "Sudionici još nisu određeni, pa nema tko odmarati.",
           "unknownMatchUp": "Ovaj meč više nije dio turnira.",
-          "noAsOf": "__TODO__"
+          "noAsOf": "Vremenska zona lokacije ne može se odrediti, pa se odmor ne može izmjeriti."
         },
-        "pendingName": "__TODO__",
-        "pending": "__TODO__",
-        "pendingUntil": "__TODO__",
-        "searchFor": "__TODO__",
-        "locateFeeder": "__TODO__",
-        "feederNotDrawn": "__TODO__"
+        "pendingName": "Pobjednik {{label}}",
+        "pending": "Još nije odlučeno — još nema odmora",
+        "pendingUntil": "Još nije odlučeno — spreman {{time}}",
+        "searchFor": "Istakni mečeve igrača {{name}} na mreži",
+        "locateFeeder": "Prikaži {{label}} na mreži",
+        "feederNotDrawn": "Taj meč nije na mreži ovog dana"
       },
-      "heading": "__TODO__",
-      "back": "__TODO__",
-      "placed": "__TODO__",
-      "placedAt": "__TODO__",
-      "placedHint": "__TODO__",
+      "heading": "Inspektor",
+      "back": "Natrag na radnje",
+      "placed": "Na mreži — {{court}}",
+      "placedAt": "Na mreži — {{court}} u {{time}}",
+      "placedHint": "Nije ni na jednom popisu kataloga. Kliknite za isticanje na mreži terena.",
       "timing": {
-        "heading": "__TODO__",
-        "average": "__TODO__",
-        "recovery": "__TODO__",
-        "typeChange": "__TODO__",
+        "heading": "Trajanje formata",
+        "average": "{{minutes}} prosječno",
+        "recovery": "{{minutes}} oporavka",
+        "typeChange": "{{minutes}} nakon promjene vrste",
         "source": {
-          "event": "__TODO__",
-          "tournament": "__TODO__",
-          "default": "__TODO__"
+          "event": "iz pravila rasporeda ovog natjecanja",
+          "tournament": "iz pravila rasporeda turnira",
+          "default": "zadano u factoryju — nisu priložena pravila rasporeda"
         }
       }
     },
@@ -1194,96 +1194,96 @@
         "tooltipOnCourtOverrun": "{{name}} — još na terenu, nakon očekivanog završetka",
         "tooltipNone": "{{name}} — danas nema prethodnog meča",
         "tooltipUnknown": "{{name}} — prethodni meč nema zabilježen završetak",
-        "tooltipPending": "__TODO__",
-        "tooltipPendingReady": "__TODO__"
+        "tooltipPending": "Pobjednik {{label}} — još nije odlučeno, još nema odmora",
+        "tooltipPendingReady": "Pobjednik {{label}} — još nije odlučeno, spreman {{time}}"
       },
       "time": {
-        "ok": "__TODO__",
-        "warn": "__TODO__",
-        "alert": "__TODO__"
+        "ok": "Ovo vrijeme izgleda ostvarivo.",
+        "warn": "Ovo vrijeme je ugroženo:",
+        "alert": "Ovo vrijeme nije moguće ostvariti:"
       }
     },
     "venueFrame": {
       "notice": "Vremena u {{timeZone}} — zona lokacije nije postavljena",
       "noticeTitle": "Ovaj turnir nema postavljenu vremensku zonu, pa se vremena prikazuju u zoni ovog uređaja ({{timeZone}}). Postavite vremensku zonu lokacije kako bi svi operateri čitali isti sat.",
-      "conflicting": "__TODO__",
-      "conflictingTitle": "__TODO__",
-      "invalid": "__TODO__",
-      "invalidTitle": "__TODO__"
+      "conflicting": "Lokacije se ne slažu oko vremenske zone — vremena skrivena",
+      "conflictingTitle": "Lokacije ovog turnira navode različite vremenske zone, a turnir ne postavlja nijednu, pa TMX ne može utvrditi po kojem satu radi. Vremena su skrivena, a automatska pozivanja pauzirana dok se ne postavi vremenska zona turnira.",
+      "invalid": "Vremenska zona turnira nije valjana — vremena skrivena",
+      "invalidTitle": "Vremenska zona ovog turnira nije prepoznata vremenska zona. Vremena su skrivena, a automatska pozivanja pauzirana dok se ne postavi valjana."
     },
     "viewInDraw": "Prikaži u ždrijebu",
     "strip": {
-      "runwayHint": "__TODO__",
-      "blockEdgeHint": "__TODO__"
+      "runwayHint": "{{minutes}} dok ovaj teren ne zauzme {{type}} — uobičajeni meč više ne stane",
+      "blockEdgeHint": "{{type}} počinje za {{minutes}}, prije očekivanog završetka ovog meča"
     },
     "blockType": {
-      "blocked": "__TODO__",
-      "maintenance": "__TODO__",
-      "drying": "__TODO__",
-      "practice": "__TODO__"
+      "blocked": "Blokirano",
+      "maintenance": "Održavanje",
+      "drying": "Sušenje",
+      "practice": "Trening"
     },
     "timeBlock": {
-      "open": "__TODO__",
-      "title": "__TODO__",
-      "from": "__TODO__",
-      "to": "__TODO__",
-      "addPeriod": "__TODO__",
-      "removePeriod": "__TODO__",
-      "allCourts": "__TODO__",
-      "save": "__TODO__",
-      "noWindow": "__TODO__",
+      "open": "Blokiraj vrijeme",
+      "title": "Blokiraj {{court}}",
+      "from": "Od",
+      "to": "do",
+      "addPeriod": "+ Dodaj još jedno razdoblje",
+      "removePeriod": "Ukloni ovo razdoblje",
+      "allCourts": "Primijeni na sve terene ({{count}})",
+      "save": "Blokiraj",
+      "noWindow": "Nema zabilježenog radnog vremena za {{courts}} — najprije postavite dostupnost terena.",
       "error": {
-        "incomplete": "__TODO__",
-        "inverted": "__TODO__"
+        "incomplete": "Svako razdoblje treba i početak i kraj.",
+        "inverted": "Razdoblje mora završiti nakon što počne."
       }
     },
     "legend": {
-      "title": "__TODO__",
-      "restBadge": "__TODO__",
-      "restOnCourt": "__TODO__",
-      "restDurationSample": "__TODO__",
-      "restDuration": "__TODO__",
-      "restUnknown": "__TODO__",
-      "restNone": "__TODO__",
-      "restLimit": "__TODO__",
-      "inspector": "__TODO__",
-      "estimatedSample": "__TODO__",
-      "estimated": "__TODO__",
-      "discarded": "__TODO__",
-      "cellMarks": "__TODO__",
-      "checkIn": "__TODO__",
-      "annotations": "__TODO__"
+      "title": "Što znače oznake na ovoj stranici",
+      "restBadge": "Oznaka odmora (na kartici meča)",
+      "restOnCourt": "Igrač je još u ranijem meču",
+      "restDurationSample": "41m",
+      "restDuration": "Koliko se odmarao najmanje odmoreni igrač",
+      "restUnknown": "Prethodni meč nema zabilježen završetak, pa se odmor ne može izmjeriti",
+      "restNone": "Nitko na ovoj kartici danas još nije igrao",
+      "restLimit": "Koji bi to dnevni meč bio za tog igrača",
+      "inspector": "Retci odmora u inspektoru",
+      "estimatedSample": "(proc.)",
+      "estimated": "Završetak je izveden, a ne zabilježen — projekcija, ne mjerenje",
+      "discarded": "Zabilježena oznaka vremena odbačena je kao nečitljiva i korištena je sljedeća najbolja",
+      "cellMarks": "Na raspoređenoj ćeliji",
+      "checkIn": "Sudionici koji se još nisu javili za stolom",
+      "annotations": "Bilješke koje je direktor prikvačio uz meč"
     },
     "completedTimes": {
-      "called": "__TODO__",
-      "started": "__TODO__",
-      "ended": "__TODO__",
-      "scored": "__TODO__"
+      "called": "Pozvano",
+      "started": "Započeto",
+      "ended": "Završeno",
+      "scored": "Upisan rezultat"
     },
-    "clockUnavailable": "__TODO__"
+    "clockUnavailable": "Natjecateljski sat ne daje upotrebljivo vrijeme, pa meč nije pozvan."
   },
   "penalties": {
-    "AUDIBLE_OBSCENITY": "__STALE__Psovanje",
+    "AUDIBLE_OBSCENITY": "Čujna opscenost",
     "BALL_ABUSE": "Zlostavljanje loptice",
     "COACHING": "Nedozvoljeno treniranje",
-    "DRESS_CODE_VIOLATION": "__TODO__",
-    "EQUIPMENT_VIOLATION": "__TODO__",
-    "FAILURE_TO_COMPLETE": "__TODO__",
-    "FAILURE_TO_SIGN_IN": "__TODO__",
+    "DRESS_CODE_VIOLATION": "Kršenje pravila odijevanja",
+    "EQUIPMENT_VIOLATION": "Kršenje pravila opreme",
+    "FAILURE_TO_COMPLETE": "Nedovršavanje meča",
+    "FAILURE_TO_SIGN_IN": "Neprijavljivanje",
     "FAILURE_TO_SIGN_OUT": "Propust odjave",
-    "INELIGIBILITY": "__TODO__",
-    "LEAVING_THE_COURT": "__TODO__",
-    "NO_SHOW": "__TODO__",
-    "OTHER": "__TODO__",
-    "PHYSICAL_ABUSE": "__TODO__",
-    "PROHIBITED_SUBSTANCE": "__TODO__",
+    "INELIGIBILITY": "Nepodobnost",
+    "LEAVING_THE_COURT": "Napuštanje terena",
+    "NO_SHOW": "Nedolazak",
+    "OTHER": "Ostalo",
+    "PHYSICAL_ABUSE": "Fizičko zlostavljanje",
+    "PROHIBITED_SUBSTANCE": "Zabranjena tvar",
     "PUNCTUALITY": "Zakašnjeli dolazak",
     "RACKET_ABUSE": "Zlostavljanje reketa",
-    "REFUSAL_TO_PLAY": "__TODO__",
+    "REFUSAL_TO_PLAY": "Odbijanje igre",
     "TIME_VIOLATION": "Prekoračenje vremena",
     "UNSPORTSMANLIKE_CONDUCT": "Nesportsko ponašanje",
-    "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__Nepristojne geste"
+    "VERBAL_ABUSE": "Verbalno zlostavljanje",
+    "VISIBLE_OBSCENITY": "Vidljiva opscenost"
   },
   "datelocalization": "hr-HR",
   "common": {
@@ -1674,8 +1674,8 @@
       "noPlayoffPositions": "Nema dostupnih playoff pozicija",
       "nameBase": "Osnova naziva",
       "structuresAdded": "Struktura(e) dodana(e)",
-      "rounds": "__TODO__",
-      "allRounds": "__TODO__"
+      "rounds": "Kola",
+      "allRounds": "Sva"
     },
     "editGroupNames": {
       "title": "Uredi nazive grupa",
@@ -1772,11 +1772,11 @@
       "tiebreaks": "Tiebreakovi:",
       "matchTiebreaks": "Match tiebreakovi:",
       "irregularEndings": "Neregularni završeci:",
-      "abandoned": "__TODO__",
-      "cancelled": "__TODO__",
-      "incomplete": "__TODO__",
-      "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__",
+      "abandoned": "Prekinuto",
+      "cancelled": "Otkazano",
+      "incomplete": "Nedovršeno",
+      "reasonCode": "Razlog",
+      "noReasonCode": "Razlog nije naveden",
       "deadRubber": "Meč bez utjecaja na rezultat",
       "challenged": "Izazvan",
       "statusUnavailable": "Status {{status}} nije dostupan za ovaj meč",
@@ -1835,32 +1835,32 @@
       "starPoint": "Zvjezdani poen",
       "games": "Gemovi",
       "points": "Bodovi",
-      "setPlural": "__TODO__",
-      "tiebreakPlural": "__TODO__",
-      "timedSetPlural": "__TODO__",
-      "outs": "__TODO__",
-      "pointsTotal": "__TODO__",
+      "setPlural": "Setovi",
+      "tiebreakPlural": "Tiebreakovi",
+      "timedSetPlural": "Vremenski setovi",
+      "outs": "Autovi",
+      "pointsTotal": "Ukupno bodova",
       "roots": {
-        "set": "__TODO__",
-        "half": "__TODO__",
-        "quarter": "__TODO__",
-        "period": "__TODO__",
-        "inning": "__TODO__",
-        "round": "__TODO__",
-        "frame": "__TODO__",
-        "map": "__TODO__"
+        "set": "Set",
+        "half": "Poluvrijeme",
+        "quarter": "Četvrtina",
+        "period": "Period",
+        "inning": "Inning",
+        "round": "Runda",
+        "frame": "Frame",
+        "map": "Mapa"
       },
-      "setTo": "__TODO__",
-      "tiebreakTo": "__TODO__",
-      "winBy": "__TODO__",
-      "minutesCount": "__TODO__",
-      "outsCount": "__TODO__",
-      "maxMinutes": "__TODO__",
-      "pointsCount": "__TODO__",
-      "consecutive": "__TODO__",
-      "tieAllowed": "__TODO__",
-      "maxTime": "__TODO__",
-      "readOnly": "__TODO__"
+      "setTo": "do {n}",
+      "tiebreakTo": "TB do {n}",
+      "winBy": "Razlika {n}",
+      "minutesCount": "{n} minuta",
+      "outsCount": "{n} autova",
+      "maxMinutes": "{n} min",
+      "pointsCount": "{n} bodova",
+      "consecutive": "{n} uzastopno",
+      "tieAllowed": "Neriješeno dopušteno",
+      "maxTime": "Najdulje vrijeme",
+      "readOnly": "Ovaj format ovdje se ne može uređivati. Odabir ga ostavlja nepromijenjenim; odaberite drugi format da ga zamijenite."
     },
     "courtAvailability": {
       "startTime": "Početak",
@@ -2098,18 +2098,18 @@
       "title": "Uredi postavke prikaza"
     },
     "chooseProvider": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "providerLabel": "__TODO__",
-      "continue": "__TODO__",
-      "signOut": "__TODO__",
-      "failed": "__TODO__"
+      "title": "Odaberite pružatelja",
+      "intro": "Vaš račun pripada više pružatelja. Odaberite onog za kojeg sada radite; kasnije možete promijeniti putem oznake pružatelja.",
+      "providerLabel": "Pružatelj",
+      "continue": "Nastavi",
+      "signOut": "Odjava",
+      "failed": "Nije moguće otvoriti tog pružatelja"
     },
     "exitBeforeArrival": {
-      "title": "__TODO__",
-      "prompt": "__TODO__",
-      "exit": "__TODO__",
-      "clear": "__TODO__"
+      "title": "Walkover ili diskvalifikacija",
+      "prompt": "{{name}} ne može igrati: zabilježite izlazak sada, prije dolaska protivnika. Tko god dođe, dobiva walkover.",
+      "exit": "Izlazak",
+      "clear": "Očisti"
     }
   },
   "dashboard": {
@@ -2232,7 +2232,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Liga s playoffom",
       "drawTypeAdaptive": "Adaptivni",
-      "drawTypeStaggeredEntry": "__STALE__Stupnjeviti ulaz",
+      "drawTypeStaggeredEntry": "Feed-in (stupnjeviti ulaz)",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Standardni eliminacijski ždrijeb gdje svaki poraz eliminira sudionika iz ždrijeba.",
         "ROUND_ROBIN": "Svi sudionici igraju jedan protiv drugog unutar grupa; poredak određuje omjer pobjeda/poraza.",
@@ -2252,16 +2252,16 @@
         "ROUND_ROBIN_WITH_PLAYOFF": "Liga grupna faza praćena jednostrukom eliminacijom u playoffu.",
         "FEED_IN": "Ždrijeb sa stupnjevitim ulazom gdje sudionici ulaze u ždrijeb u različitim kolima."
       },
-      "providerSeedingPolicy": "__TODO__",
-      "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__",
-      "feedInQualifiersInvalid": "__TODO__",
-      "targetRound": "__TODO__",
-      "targetRoundOption": "__TODO__",
-      "targetCapacity": "__TODO__",
-      "alreadyFed": "__TODO__",
-      "noFeeders": "__TODO__",
-      "qualifying": "__TODO__"
+      "providerSeedingPolicy": "Pravilo pružatelja",
+      "additionalSeedsCount_one": "{{seeds}} (+{{count}} dodatni nositelj)",
+      "additionalSeedsCount_other": "{{seeds}} (+{{count}} dodatnih nositelja)",
+      "feedInQualifiersInvalid": "Kvalifikacije sa stupnjevitim ulazom veličine {{drawSize}} mogu dati samo ovaj broj kvalifikanata: {{counts}}",
+      "targetRound": "Ciljno kolo",
+      "targetRoundOption": "Kolo {{round}} — slobodno {{open}} od {{total}} pozicija",
+      "targetCapacity": "Kolo {{round}} još može primiti {{open}} od svojih {{total}} pozicija.",
+      "alreadyFed": "Kolo {{round}} već puni {{feederNames}}: obećano kvalifikanata: {{count}}.",
+      "noFeeders": "Nijedna kvalifikacijska struktura još ne puni kolo {{round}}.",
+      "qualifying": "Kvalifikacije"
     }
   },
   "toasts": {
@@ -2312,12 +2312,12 @@
       "courtNotFound": "Taj teren više ne postoji. Osvježite turnir i pokušajte ponovno.",
       "notSaved": "Promjena rasporeda nije spremljena: {{reason}}"
     },
-    "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__",
+    "tournamentsTruncated": "Prikazano prvih {{loaded}} od {{total}} turnira. Filtrirajte ili pretražite za sužavanje popisa.",
+    "tournamentSearchFailed": "Pretraživanje turnira trenutno nije dostupno. Prikazuju se samo već učitani turniri.",
     "statusOutOfScope": "Ovaj status nije dostupan za ovaj meč",
-    "clearRefused": "__TODO__",
-    "scoreDiscardedByFormat": "__TODO__",
-    "offlineChangeRejected": "__TODO__"
+    "clearRefused": "Ovaj rezultat ne može se ukloniti: o njemu ovisi kasniji meč. Najprije uklonite taj meč.",
+    "scoreDiscardedByFormat": "Promjenom formata u {{matchUpFormat}} odbačeno je setova: {{count}} ({{sets}})",
+    "offlineChangeRejected": "Poslužitelj je odbio promjenu napravljenu izvan mreže"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -2436,7 +2436,7 @@
       "winPct": "Pobjede %",
       "setPct": "Setovi %",
       "pos": "Poz",
-      "winLossDraw": "__TODO__"
+      "winLossDraw": "P/I/N"
     },
     "events": {
       "event": "Natjecanje",
@@ -2540,8 +2540,8 @@
       "showCompetitivenessView": "Prikaži izjednačenost",
       "called": "Pozvano",
       "scheduleLocked": "Raspored zaključan",
-      "hotkeyScoring": "__TODO__",
-      "hotkeyPlaceholder": "__TODO__"
+      "hotkeyScoring": "Unos rezultata tipkovnim prečacima",
+      "hotkeyPlaceholder": "upišite rezultat"
     },
     "schedule": {
       "searchParticipants": "Pretraži sudionike",
@@ -2879,11 +2879,11 @@
     "timeZoneNotSetTitle": "Vremenska zona nije postavljena",
     "timeZoneNotSetBody": "Ovaj turnir nema postavljenu vremensku zonu. Objavljena vremena mečeva mogu biti dvosmislena za gledatelje u drugim zonama. Postavite vremensku zonu prije objave.",
     "setTimeZone": "Postavi vremensku zonu",
-    "tournamentInformation": "__TODO__",
-    "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__",
-    "structure": "__TODO__",
-    "embargoUnreadable": "__TODO__"
+    "tournamentInformation": "Informacije o turniru",
+    "informationEvents": "Javno navedena natjecanja",
+    "informationEmbargoNote": "Objavljeno, ali nije javno navedeno do {{when}}.",
+    "structure": "Struktura",
+    "embargoUnreadable": "Vrijeme embarga nije bilo moguće pročitati po satu lokacije, pa nije postavljeno. Provjerite datum i vrijeme te vremensku zonu turnira."
   },
   "formatWizard": {
     "title": "Čarobnjak formata",
@@ -3872,21 +3872,21 @@
       "autoHint": "Pitaj samo kada ovaj turnir danas koristi prijavu."
     },
     "attester": {
-      "action": "__TODO__",
-      "self": "__TODO__",
-      "parent": "__TODO__",
-      "guardian": "__TODO__",
-      "chaperone": "__TODO__",
-      "other": "__TODO__",
-      "namePrompt": "__TODO__",
-      "namePlaceholder": "__TODO__",
-      "telephonePlaceholder": "__TODO__",
-      "cancel": "__TODO__",
-      "confirm": "__TODO__",
-      "bySelf": "__TODO__",
-      "byRelationship": "__TODO__",
-      "byOperator": "__TODO__",
-      "at": "__TODO__"
+      "action": "Prijavi kao…",
+      "self": "Sam/sama",
+      "parent": "Roditelj",
+      "guardian": "Skrbnik",
+      "chaperone": "Pratitelj",
+      "other": "Netko drugi",
+      "namePrompt": "Tko prijavljuje sudionika {{name}}?",
+      "namePlaceholder": "Ime",
+      "telephonePlaceholder": "Telefon (neobavezno)",
+      "cancel": "Odustani",
+      "confirm": "Prijavi",
+      "bySelf": "Prijavio se sam",
+      "byRelationship": "Prijavio: {{name}} ({{relationship}})",
+      "byOperator": "Prijavio: {{name}}",
+      "at": "u {{time}}"
     }
   },
   "ofc": "Suci",
@@ -4202,14 +4202,14 @@
     "addToAlternates": "Dodaj među pričuve",
     "addEntries": "Dodaj prijave",
     "pairingOff": "Uparivanje: ISKLJUČENO",
-    "pairingOn": "__TODO__",
-    "pairAs": "__TODO__",
-    "createPairAs": "__TODO__",
-    "pairAsAccepted": "__TODO__",
-    "pairAsQualifying": "__TODO__",
-    "pairAsAlternate": "__TODO__",
-    "rotatingPartnersOff": "__TODO__",
-    "rotatingPartnersOn": "__TODO__"
+    "pairingOn": "Uparivanje: UKLJUČENO",
+    "pairAs": "Upari kao",
+    "createPairAs": "Stvori par kao",
+    "pairAsAccepted": "Prihvaćen",
+    "pairAsQualifying": "Kvalifikacije",
+    "pairAsAlternate": "Zamjena",
+    "rotatingPartnersOff": "Rotirajući partneri: ISKLJUČENO",
+    "rotatingPartnersOn": "Rotirajući partneri: UKLJUČENO"
   },
   "swissStandings": {
     "losses": "Porazi",
@@ -4250,7 +4250,7 @@
     "drawGenerated": "Ždrijeb uspješno generiran",
     "templateName": "Naziv predloška",
     "templateSaved": "Predložak spremljen",
-    "structuresNotAttached": "__TODO__"
+    "structuresNotAttached": "Ždrijeb generiran, ali ove strukture nije bilo moguće priključiti: {{unattached}}"
   },
   "participantFields": {
     "identifiers": "Identifikatori",
@@ -4420,8 +4420,8 @@
     "addPlayers": "Dodaj igrače",
     "noRatingData": "Nema dostupnih podataka o ocjenama",
     "scheduledMatches": "Zakazani mečevi",
-    "alreadyPartners": "__TODO__",
-    "pairedWith": "__TODO__"
+    "alreadyPartners": "Ovi igrači već su partneri u ovom natjecanju",
+    "pairedWith": "s"
   },
   "ageCategories": {
     "u10": "10 godina i mlađi",
@@ -4484,7 +4484,7 @@
     "audit": "Revizija",
     "noDraws": "Ovaj turnir nema generiranih ždrijebova za reviziju.",
     "structureAudit": "Revizija cjelovitosti struktura",
-    "frameRefused": "__TODO__"
+    "frameRefused": "Vremenska zona ovog turnira ne može se odrediti, pa se njegova izvješća ne mogu čitati po satu lokacije. Postavite vremensku zonu turnira u Uredi datume."
   },
   "applyScheduling": {
     "noPolicy": "Bez pravila (ne primjenjuj dnevna ograničenja)",
@@ -4511,11 +4511,11 @@
     "minWidthHint": "Najmanja širina stupca terena — ćelije se šire kad ima mjesta",
     "conflictsWith": " je u sukobu s ",
     "minRowsHint": "Najmanji broj vremenskih redaka u mreži rasporeda",
-    "issuesTitle": "__TODO__",
-    "issuesWithErrors": "__TODO__",
-    "issuesWarningsOnly": "__TODO__",
-    "warningBars": "__TODO__",
-    "warningBarsHint": "__TODO__"
+    "issuesTitle": "Problemi rasporeda ({{total}})",
+    "issuesWithErrors": "Problemi rasporeda — barem jedan je pogreška",
+    "issuesWarningsOnly": "Problemi rasporeda — samo upozorenja, bez pogrešaka",
+    "warningBars": "Trake upozorenja",
+    "warningBarsHint": "Prikaži probleme razine upozorenja na ćelijama mreže. Pogreške se uvijek prikazuju."
   },
   "scheduleResults": {
     "title": "Rezultati rasporeda",
@@ -4540,7 +4540,7 @@
     "desktopNotifications": " Obavijesti na radnoj površini",
     "serverUrl": "URL poslužitelja",
     "workOffline": " Rad izvan mreže",
-    "scoreEntryDialog": "__TODO__"
+    "scoreEntryDialog": "Novi dijalog za unos rezultata"
   },
   "venueDetail": {
     "noCourts": "Na ovoj lokaciji još nema terena.",
@@ -4586,54 +4586,54 @@
     "send": "Poslati??"
   },
   "additionalSeeds": {
-    "chooseBasis": "__TODO__",
-    "seededOn": "__TODO__",
-    "added": "__TODO__",
-    "refused": "__TODO__",
+    "chooseBasis": "Na kojoj osnovi?",
+    "seededOn": "Nositelj na osnovi: {{basis}}",
+    "added": "Dodan kao nositelj {{seedNumber}}",
+    "refused": "Pravilo nositelja ne dopušta više dodatnih nositelja",
     "basis": {
-      "organiserDiscretion": "__TODO__",
-      "protectedRanking": "__TODO__",
-      "ranking": "__TODO__",
-      "rating": "__TODO__"
+      "organiserDiscretion": "Diskrecija organizatora",
+      "protectedRanking": "Zaštićeni plasman",
+      "ranking": "Rang",
+      "rating": "Ocjena"
     }
   },
   "rotatingPartners": {
     "settlement": {
-      "title": "__TODO__",
-      "explanation": "__TODO__",
-      "treatment": "__TODO__",
-      "exclude": "__TODO__",
-      "playedPoints": "__TODO__",
-      "credit": "__TODO__",
-      "winningPoints": "__TODO__",
-      "losingPoints": "__TODO__",
-      "reason": "__TODO__",
-      "recordedBy": "__TODO__",
-      "required": "__TODO__",
-      "player": "__TODO__",
-      "points": "__TODO__",
-      "total": "__TODO__",
-      "preview": "__TODO__",
-      "confirm": "__TODO__"
+      "title": "Utvrdi poredak",
+      "explanation": "Odaberite kako ovaj rezultat ulazi u pojedinačni poredak. Rezultat meča ostaje nepromijenjen. Dodijeljeni bodovi su dosuđeni, a ne odigrani bodovi.",
+      "treatment": "Obrada u poretku",
+      "exclude": "Izuzmi iz poretka",
+      "playedPoints": "Računaj zabilježene bodove",
+      "credit": "Dodijeli bodove",
+      "winningPoints": "Bodovi za svakog igrača pobjedničke strane",
+      "losingPoints": "Bodovi za svakog igrača poražene strane",
+      "reason": "Razlog (obavezno)",
+      "recordedBy": "Zabilježio",
+      "required": "Prije pregleda unesite razlog, identitet operatera i sve potrebne dodijeljene bodove.",
+      "player": "Igrač",
+      "points": "Bodovi iz ovog rezultata",
+      "total": "Ukupno u poretku",
+      "preview": "Pregled poretka",
+      "confirm": "Potvrdi poredak"
     },
     "creation": {
-      "format": "__TODO__",
-      "standard": "__TODO__",
-      "pointTotal": "__TODO__",
-      "tieResolution": "__TODO__",
-      "rounds": "__TODO__",
-      "players": "__TODO__",
-      "americanoHelp": "__TODO__",
-      "mexicanoHelp": "__TODO__",
-      "ALLOW": "__TODO__",
-      "DECIDING_POINT": "__TODO__",
-      "WIN_BY_MARGIN": "__TODO__",
-      "rosterError": "__TODO__",
-      "configError": "__TODO__",
-      "previewTitle": "__TODO__",
-      "applyRound": "__TODO__",
-      "standings": "__TODO__",
-      "unresolved": "__TODO__"
+      "format": "Format",
+      "standard": "Standardno",
+      "pointTotal": "Ukupno bodova po meču",
+      "tieResolution": "Rješavanje izjednačenja",
+      "rounds": "Kola",
+      "players": "Pojedinačni igrači",
+      "americanoHelp": "Odaberite 4–128 igrača u višekratnicima broja četiri. Svaki igrač jednom igra u paru sa svakim; popis je fiksan nakon prvog kola.",
+      "mexicanoHelp": "Odaberite 4–128 igrača u višekratnicima broja četiri. Kasnija kola koriste utvrđeni pojedinačni poredak; popis je fiksan nakon prvog kola.",
+      "ALLOW": "Dopusti neriješeno",
+      "DECIDING_POINT": "Odlučujući poen",
+      "WIN_BY_MARGIN": "Pobjeda razlikom od {{margin}} boda",
+      "rosterError": "Odaberite između 4 i 128 pojedinačnih igrača, u višekratnicima broja četiri.",
+      "configError": "Odaberite valjan ukupan broj bodova, broj kola i varijantu bodovanja.",
+      "previewTitle": "Pregled kola {{round}}",
+      "applyRound": "Generiraj kolo",
+      "standings": "Pojedinačni poredak",
+      "unresolved": "Neriješeni rezultati: {{count}}"
     }
   }
 }

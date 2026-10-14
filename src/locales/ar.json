@@ -295,14 +295,14 @@
       "noRows": "لا توجد صفوف. انقر على «إضافة صف» للبدء."
     },
     "seedingPolicy": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "locked": "__TODO__",
-      "thresholds": "__TODO__",
-      "providerPolicy": "__TODO__",
-      "none": "__TODO__",
-      "custom": "__TODO__",
-      "attached": "__TODO__"
+      "title": "سياسة التصنيف",
+      "intro": "تنطبق على كل قرعة في هذه البطولة. تستخدمها القرعات المُنشأة بتصنيف «موروث»، بما فيها القرعات التي يُعاد إنشاؤها لاحقاً.",
+      "locked": "يحدد مزوّدك سياسة التصنيف لهذه البطولة. وهي تنطبق على كل قرعة ولا يمكن تغييرها هنا.",
+      "thresholds": "حجم القرعة → المصنفون:",
+      "providerPolicy": "سياسة المزوّد",
+      "none": "لا شيء — الافتراضي في factory",
+      "custom": "سياسة مخصصة",
+      "attached": "مرفقة — {{name}}"
     }
   },
   "round_names": {
@@ -509,7 +509,7 @@
     "publishtime": "وقت النشر",
     "replacelocal": "استبدال النسخة المحلية؟",
     "unpublish": "إلغاء نشر البطولة؟",
-    "liveDemoClockUnavailable": "__TODO__"
+    "liveDemoClockUnavailable": "لم يُنشأ مثال الجدول المباشر: ساعة المنافسة لا تعطي وقتاً صالحاً. أصلح ساعة المنافسة أو أزلها (dev.setCompetitionClock) وحاول مرة أخرى."
   },
   "ddlb": {
     "singles": "ترتيب بطولة الفردي:",
@@ -925,21 +925,21 @@
           "notScheduled": "غير مجدولة بعد، لذا لا يوجد وقت للمقارنة معه.",
           "noTime": "لا يوجد وقت مجدول، لذا لا يمكن توقّع الجاهزية.",
           "unknownMatchUp": "لم تعد هذه المباراة ضمن البطولة.",
-          "timeNotPromised": "__TODO__"
+          "timeNotPromised": "لا يحدد الجدول وقتاً لهذه المباراة، لذا لا يوجد وقت للمقارنة معه."
         },
-        "dependencyBoth": "__TODO__",
-        "dependencyWaiting": "__TODO__",
-        "finishes": "__TODO__",
-        "readyAt": "__TODO__"
+        "dependencyBoth": "بانتظار {{labels}} — تنتهي ~{{finishes}}، وفائزها جاهز ~{{ready}}",
+        "dependencyWaiting": "بانتظار {{labels}}",
+        "finishes": "تنتهي ~{{time}}",
+        "readyAt": "جاهز ~{{time}}"
       },
       "actions": {
         "trigger": "إجراءات المباراة",
         "viewDraw": "عرض القرعة",
         "participants": "المشاركون",
-        "schedule": "__TODO__",
-        "setTime": "__TODO__",
-        "clearTime": "__TODO__",
-        "navigate": "__TODO__"
+        "schedule": "جدولة",
+        "setTime": "تعيين الوقت",
+        "clearTime": "مسح الوقت",
+        "navigate": "انتقال إلى"
       },
       "rest": {
         "heading": "الراحة",
@@ -977,29 +977,29 @@
           "completed": "اكتملت بالفعل — لم تعد الراحة تنطبق.",
           "noParticipants": "لم يُحدَّد المشاركون بعد، لذا لا يوجد من يستريح.",
           "unknownMatchUp": "لم تعد هذه المباراة ضمن البطولة.",
-          "noAsOf": "__TODO__"
+          "noAsOf": "تعذّر تحديد المنطقة الزمنية للمكان، لذا لا يمكن قياس الراحة."
         },
-        "pendingName": "__TODO__",
-        "pending": "__TODO__",
-        "pendingUntil": "__TODO__",
-        "searchFor": "__TODO__",
-        "locateFeeder": "__TODO__",
-        "feederNotDrawn": "__TODO__"
+        "pendingName": "الفائز في {{label}}",
+        "pending": "لم يُحسم بعد — لا راحة حتى الآن",
+        "pendingUntil": "لم يُحسم بعد — جاهز في {{time}}",
+        "searchFor": "تمييز مباريات {{name}} على الشبكة",
+        "locateFeeder": "إظهار {{label}} على الشبكة",
+        "feederNotDrawn": "هذه المباراة ليست على شبكة هذا اليوم"
       },
-      "heading": "__TODO__",
-      "back": "__TODO__",
-      "placed": "__TODO__",
-      "placedAt": "__TODO__",
-      "placedHint": "__TODO__",
+      "heading": "لوحة الفحص",
+      "back": "العودة إلى الإجراءات",
+      "placed": "على الشبكة — {{court}}",
+      "placedAt": "على الشبكة — {{court}} في {{time}}",
+      "placedHint": "ليست في أيٍّ من قائمتي الكتالوج. انقر لتمييزها على شبكة الملاعب.",
       "timing": {
-        "heading": "__TODO__",
-        "average": "__TODO__",
-        "recovery": "__TODO__",
-        "typeChange": "__TODO__",
+        "heading": "توقيت الصيغة",
+        "average": "{{minutes}} في المتوسط",
+        "recovery": "{{minutes}} للتعافي",
+        "typeChange": "{{minutes}} بعد تغيير النوع",
         "source": {
-          "event": "__TODO__",
-          "tournament": "__TODO__",
-          "default": "__TODO__"
+          "event": "من سياسة الجدولة لهذه المسابقة",
+          "tournament": "من سياسة الجدولة للبطولة",
+          "default": "الافتراضي في factory — لا توجد سياسة جدولة مرفقة"
         }
       }
     },
@@ -1025,96 +1025,96 @@
         "tooltipOnCourtOverrun": "{{name}} — ما زال في الملعب، بعد وقت الانتهاء المتوقع",
         "tooltipNone": "{{name}} — لا توجد مباراة سابقة اليوم",
         "tooltipUnknown": "{{name}} — المباراة السابقة بلا وقت انتهاء مسجّل",
-        "tooltipPending": "__TODO__",
-        "tooltipPendingReady": "__TODO__"
+        "tooltipPending": "الفائز في {{label}} — لم يُحسم بعد، لا راحة حتى الآن",
+        "tooltipPendingReady": "الفائز في {{label}} — لم يُحسم بعد، جاهز في {{time}}"
       },
       "time": {
-        "ok": "__TODO__",
-        "warn": "__TODO__",
-        "alert": "__TODO__"
+        "ok": "يبدو هذا الوقت قابلاً للتحقيق.",
+        "warn": "هذا الوقت معرّض للخطر:",
+        "alert": "لا يمكن الالتزام بهذا الوقت:"
       }
     },
     "venueFrame": {
       "notice": "الأوقات بتوقيت {{timeZone}} — لم تُحدَّد منطقة المكان",
       "noticeTitle": "لم تُحدَّد منطقة زمنية لهذه البطولة، لذا تُعرض الأوقات بمنطقة هذا الجهاز ({{timeZone}}). حدّد المنطقة الزمنية للمكان ليقرأ جميع المشغّلين التوقيت نفسه.",
-      "conflicting": "__TODO__",
-      "conflictingTitle": "__TODO__",
-      "invalid": "__TODO__",
-      "invalidTitle": "__TODO__"
+      "conflicting": "الأماكن مختلفة في المنطقة الزمنية — الأوقات مخفية",
+      "conflictingTitle": "تحدد أماكن هذه البطولة مناطق زمنية مختلفة ولا تحدد البطولة أياً منها، لذا لا يستطيع TMX معرفة الساعة التي تعمل بها. الأوقات مخفية والنداءات التلقائية متوقفة مؤقتاً حتى تُحدَّد المنطقة الزمنية للبطولة.",
+      "invalid": "المنطقة الزمنية للبطولة غير صالحة — الأوقات مخفية",
+      "invalidTitle": "المنطقة الزمنية لهذه البطولة ليست منطقة زمنية معروفة. الأوقات مخفية والنداءات التلقائية متوقفة مؤقتاً حتى تُحدَّد منطقة صالحة."
     },
     "viewInDraw": "عرض في القرعة",
     "strip": {
-      "runwayHint": "__TODO__",
-      "blockEdgeHint": "__TODO__"
+      "runwayHint": "{{minutes}} حتى يُشغَل هذا الملعب بـ{{type}} — لم تعد مباراة نموذجية تتسع",
+      "blockEdgeHint": "يبدأ {{type}} بعد {{minutes}}، قبل الموعد المتوقع لانتهاء هذه المباراة"
     },
     "blockType": {
-      "blocked": "__TODO__",
-      "maintenance": "__TODO__",
-      "drying": "__TODO__",
-      "practice": "__TODO__"
+      "blocked": "محجوب",
+      "maintenance": "صيانة",
+      "drying": "تجفيف",
+      "practice": "تدريب"
     },
     "timeBlock": {
-      "open": "__TODO__",
-      "title": "__TODO__",
-      "from": "__TODO__",
-      "to": "__TODO__",
-      "addPeriod": "__TODO__",
-      "removePeriod": "__TODO__",
-      "allCourts": "__TODO__",
-      "save": "__TODO__",
-      "noWindow": "__TODO__",
+      "open": "حجب وقت",
+      "title": "حجب {{court}}",
+      "from": "من",
+      "to": "إلى",
+      "addPeriod": "+ إضافة فترة أخرى",
+      "removePeriod": "إزالة هذه الفترة",
+      "allCourts": "تطبيق على جميع الملاعب ({{count}})",
+      "save": "حجب",
+      "noWindow": "لا توجد ساعات عمل مسجّلة لـ{{courts}} — عيّن توفر الملعب أولاً.",
       "error": {
-        "incomplete": "__TODO__",
-        "inverted": "__TODO__"
+        "incomplete": "تحتاج كل فترة إلى بداية ونهاية.",
+        "inverted": "يجب أن تنتهي الفترة بعد بدايتها."
       }
     },
     "legend": {
-      "title": "__TODO__",
-      "restBadge": "__TODO__",
-      "restOnCourt": "__TODO__",
-      "restDurationSample": "__TODO__",
-      "restDuration": "__TODO__",
-      "restUnknown": "__TODO__",
-      "restNone": "__TODO__",
-      "restLimit": "__TODO__",
-      "inspector": "__TODO__",
-      "estimatedSample": "__TODO__",
-      "estimated": "__TODO__",
-      "discarded": "__TODO__",
-      "cellMarks": "__TODO__",
-      "checkIn": "__TODO__",
-      "annotations": "__TODO__"
+      "title": "معنى العلامات في هذه الصفحة",
+      "restBadge": "شارة الراحة (على بطاقة المباراة)",
+      "restOnCourt": "لاعب ما زال في مباراة سابقة",
+      "restDurationSample": "41 د",
+      "restDuration": "مدة راحة اللاعب الأقل راحة",
+      "restUnknown": "المباراة السابقة بلا وقت انتهاء مسجّل، لذا لا يمكن قياس الراحة",
+      "restNone": "لم يلعب أحد في هذه البطاقة اليوم بعد",
+      "restLimit": "ترتيب هذه المباراة بين مباريات اليوم لذلك اللاعب",
+      "inspector": "صفوف الراحة في لوحة الفحص",
+      "estimatedSample": "(تقريبي)",
+      "estimated": "وقت الانتهاء مستنتج وغير مسجّل — تقدير لا قياس",
+      "discarded": "رُفض طابع زمني مسجّل لتعذّر قراءته، واستُخدم الأفضل التالي",
+      "cellMarks": "على خلية مجدولة",
+      "checkIn": "المشاركون الذين لم يحضروا إلى المكتب بعد",
+      "annotations": "ملاحظات ثبّتها مدير على المباراة"
     },
     "completedTimes": {
-      "called": "__TODO__",
-      "started": "__TODO__",
-      "ended": "__TODO__",
-      "scored": "__TODO__"
+      "called": "النداء",
+      "started": "البدء",
+      "ended": "الانتهاء",
+      "scored": "تسجيل النتيجة"
     },
-    "clockUnavailable": "__TODO__"
+    "clockUnavailable": "ساعة المنافسة لا تعطي وقتاً صالحاً، لذا لم يتم النداء على المباراة."
   },
   "penalties": {
-    "AUDIBLE_OBSCENITY": "__STALE__سباب",
+    "AUDIBLE_OBSCENITY": "سباب مسموع",
     "BALL_ABUSE": "إساءة استخدام الكرة",
     "COACHING": "تدريب غير قانوني",
-    "DRESS_CODE_VIOLATION": "__TODO__",
-    "EQUIPMENT_VIOLATION": "__TODO__",
-    "FAILURE_TO_COMPLETE": "__TODO__",
-    "FAILURE_TO_SIGN_IN": "__TODO__",
+    "DRESS_CODE_VIOLATION": "مخالفة قواعد اللباس",
+    "EQUIPMENT_VIOLATION": "مخالفة المعدات",
+    "FAILURE_TO_COMPLETE": "عدم إكمال المباراة",
+    "FAILURE_TO_SIGN_IN": "عدم تسجيل الحضور",
     "FAILURE_TO_SIGN_OUT": "عدم تسجيل الانصراف",
-    "INELIGIBILITY": "__TODO__",
-    "LEAVING_THE_COURT": "__TODO__",
-    "NO_SHOW": "__TODO__",
-    "OTHER": "__TODO__",
-    "PHYSICAL_ABUSE": "__TODO__",
-    "PROHIBITED_SUBSTANCE": "__TODO__",
+    "INELIGIBILITY": "عدم الأهلية",
+    "LEAVING_THE_COURT": "مغادرة الملعب",
+    "NO_SHOW": "عدم الحضور",
+    "OTHER": "أخرى",
+    "PHYSICAL_ABUSE": "إساءة جسدية",
+    "PROHIBITED_SUBSTANCE": "مادة محظورة",
     "PUNCTUALITY": "تأخر في الحضور",
     "RACKET_ABUSE": "إساءة استخدام المضرب",
-    "REFUSAL_TO_PLAY": "__TODO__",
+    "REFUSAL_TO_PLAY": "رفض اللعب",
     "TIME_VIOLATION": "مخالفة وقتية",
     "UNSPORTSMANLIKE_CONDUCT": "سلوك غير رياضي",
-    "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__إشارات بذيئة"
+    "VERBAL_ABUSE": "إساءة لفظية",
+    "VISIBLE_OBSCENITY": "إشارات بذيئة مرئية"
   },
   "datelocalization": "ar-SA",
   "common": {
@@ -1417,8 +1417,8 @@
       "noPlayoffPositions": "لا توجد مواقع مباريات فاصلة متاحة",
       "nameBase": "أساس الاسم",
       "structuresAdded": "تمت إضافة الهيكل (الهياكل)",
-      "rounds": "__TODO__",
-      "allRounds": "__TODO__"
+      "rounds": "الجولات",
+      "allRounds": "الكل"
     },
     "editGroupNames": {
       "title": "تعديل أسماء المجموعات",
@@ -1514,11 +1514,11 @@
       "tiebreaks": "كسر التعادل:",
       "matchTiebreaks": "كسر تعادل المباراة:",
       "irregularEndings": "النهايات غير النظامية:",
-      "abandoned": "__TODO__",
-      "cancelled": "__TODO__",
-      "incomplete": "__TODO__",
-      "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__",
+      "abandoned": "متروكة",
+      "cancelled": "ملغاة",
+      "incomplete": "غير مكتملة",
+      "reasonCode": "السبب",
+      "noReasonCode": "لم يُذكر سبب",
       "deadRubber": "مباراة بلا تأثير على النتيجة",
       "challenged": "تم التحدي",
       "statusUnavailable": "الحالة {{status}} غير متاحة لهذه المباراة",
@@ -1577,32 +1577,32 @@
       "starPoint": "النقطة النجمية",
       "games": "ألعاب",
       "points": "نقاط",
-      "setPlural": "__TODO__",
-      "tiebreakPlural": "__TODO__",
-      "timedSetPlural": "__TODO__",
-      "outs": "__TODO__",
-      "pointsTotal": "__TODO__",
+      "setPlural": "الأشواط",
+      "tiebreakPlural": "أشواط كسر التعادل",
+      "timedSetPlural": "أشواط موقوتة",
+      "outs": "الإقصاءات (Outs)",
+      "pointsTotal": "مجموع النقاط",
       "roots": {
-        "set": "__TODO__",
-        "half": "__TODO__",
-        "quarter": "__TODO__",
-        "period": "__TODO__",
-        "inning": "__TODO__",
-        "round": "__TODO__",
-        "frame": "__TODO__",
-        "map": "__TODO__"
+        "set": "شوط",
+        "half": "شوط (نصف)",
+        "quarter": "ربع",
+        "period": "فترة",
+        "inning": "جولة (Inning)",
+        "round": "جولة",
+        "frame": "إطار",
+        "map": "خريطة"
       },
-      "setTo": "__TODO__",
-      "tiebreakTo": "__TODO__",
-      "winBy": "__TODO__",
-      "minutesCount": "__TODO__",
-      "outsCount": "__TODO__",
-      "maxMinutes": "__TODO__",
-      "pointsCount": "__TODO__",
-      "consecutive": "__TODO__",
-      "tieAllowed": "__TODO__",
-      "maxTime": "__TODO__",
-      "readOnly": "__TODO__"
+      "setTo": "حتى {n}",
+      "tiebreakTo": "كسر التعادل حتى {n}",
+      "winBy": "الفوز بفارق {n}",
+      "minutesCount": "{n} دقيقة",
+      "outsCount": "{n} إقصاءات",
+      "maxMinutes": "{n} د",
+      "pointsCount": "{n} نقاط",
+      "consecutive": "{n} متتالية",
+      "tieAllowed": "التعادل مسموح",
+      "maxTime": "الحد الأقصى للوقت",
+      "readOnly": "لا يمكن تعديل هذه الصيغة هنا. «اختيار» يُبقيها دون تغيير؛ اختر صيغة أخرى لاستبدالها."
     },
     "courtAvailability": {
       "startTime": "وقت البداية",
@@ -1929,18 +1929,18 @@
       "title": "تعديل إعدادات العرض"
     },
     "chooseProvider": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "providerLabel": "__TODO__",
-      "continue": "__TODO__",
-      "signOut": "__TODO__",
-      "failed": "__TODO__"
+      "title": "اختر مزوّداً",
+      "intro": "ينتمي حسابك إلى أكثر من مزوّد. اختر المزوّد الذي تعمل لصالحه الآن؛ يمكنك التبديل لاحقاً من شارة المزوّد.",
+      "providerLabel": "المزوّد",
+      "continue": "متابعة",
+      "signOut": "تسجيل الخروج",
+      "failed": "تعذّر فتح هذا المزوّد"
     },
     "exitBeforeArrival": {
-      "title": "__TODO__",
-      "prompt": "__TODO__",
-      "exit": "__TODO__",
-      "clear": "__TODO__"
+      "title": "فوز بدون لعب أو استبعاد",
+      "prompt": "لا يستطيع {{name}} اللعب: سجّل الخروج الآن، قبل وصول المنافس. من يصل يحصل على الفوز بدون لعب.",
+      "exit": "خروج",
+      "clear": "مسح"
     }
   },
   "dashboard": {
@@ -2057,7 +2057,7 @@
       "drawTypePlayoff": "تصفيات",
       "drawTypeRoundRobinWithPlayoff": "دوري مع تصفيات",
       "drawTypeAdaptive": "تكيفي",
-      "drawTypeStaggeredEntry": "__STALE__دخول متدرج",
+      "drawTypeStaggeredEntry": "تغذية (دخول متدرج)",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "قرعة خروج مباشر حيث تؤدي كل خسارة إلى إقصاء المشارك من القرعة.",
         "ROUND_ROBIN": "يلعب جميع المشاركين ضد بعضهم البعض ضمن مجموعات؛ يتم تحديد الترتيب بناءً على سجل الفوز/الخسارة.",
@@ -2083,16 +2083,16 @@
       "noMainDraw": "لم يتم إنشاء القرعة الرئيسية بعد.",
       "drawTypeSwiss": "النظام السويسري",
       "drawTypePagePlayoff": "تصفيات بيج",
-      "providerSeedingPolicy": "__TODO__",
-      "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__",
-      "feedInQualifiersInvalid": "__TODO__",
-      "targetRound": "__TODO__",
-      "targetRoundOption": "__TODO__",
-      "targetCapacity": "__TODO__",
-      "alreadyFed": "__TODO__",
-      "noFeeders": "__TODO__",
-      "qualifying": "__TODO__"
+      "providerSeedingPolicy": "سياسة المزوّد",
+      "additionalSeedsCount_one": "{{seeds}} (+{{count}} مصنف إضافي)",
+      "additionalSeedsCount_other": "{{seeds}} (+{{count}} مصنفين إضافيين)",
+      "feedInQualifiersInvalid": "تأهيل بدخول متدرج بحجم {{drawSize}} لا يُنتج إلا هذه الأعداد من المؤهلين: {{counts}}",
+      "targetRound": "الجولة المستهدفة",
+      "targetRoundOption": "الجولة {{round}} — {{open}} من {{total}} موقعاً متاحاً",
+      "targetCapacity": "لا تزال الجولة {{round}} تستوعب {{open}} من مواقعها البالغة {{total}}.",
+      "alreadyFed": "الجولة {{round}} تغذيها بالفعل {{feederNames}}: {{count}} مؤهلين موعودين.",
+      "noFeeders": "لا يوجد هيكل تأهيل يغذي الجولة {{round}} بعد.",
+      "qualifying": "التأهيل"
     }
   },
   "toasts": {
@@ -2143,12 +2143,12 @@
       "courtNotFound": "لم يعد هذا الملعب موجوداً. حدّث البطولة وحاول مرة أخرى.",
       "notSaved": "لم يُحفظ تغيير الجدول: {{reason}}"
     },
-    "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__",
+    "tournamentsTruncated": "عرض أول {{loaded}} من {{total}} بطولة. استخدم التصفية أو البحث لتضييق القائمة.",
+    "tournamentSearchFailed": "البحث عن البطولات غير متاح حالياً. يتم عرض البطولات المحمّلة فقط.",
     "statusOutOfScope": "هذه الحالة غير متاحة لهذه المباراة",
-    "clearRefused": "__TODO__",
-    "scoreDiscardedByFormat": "__TODO__",
-    "offlineChangeRejected": "__TODO__"
+    "clearRefused": "لا يمكن مسح هذه النتيجة: تعتمد عليها مباراة لاحقة. امسح تلك المباراة أولاً.",
+    "scoreDiscardedByFormat": "أدى تغيير الصيغة إلى {{matchUpFormat}} إلى حذف {{count}} شوط (أشواط): {{sets}}",
+    "offlineChangeRejected": "رفض الخادم تغييراً أُجري دون اتصال"
   },
   "loginMenu": {
     "authorization": "التفويض",
@@ -2267,7 +2267,7 @@
       "winPct": "نسبة الفوز%",
       "setPct": "نسبة الأشواط%",
       "pos": "الموقع",
-      "winLossDraw": "__TODO__"
+      "winLossDraw": "ف/خ/ت"
     },
     "events": {
       "event": "الحدث",
@@ -2371,8 +2371,8 @@
       "showCompetitivenessView": "عرض درجة التكافؤ",
       "called": "تم النداء",
       "scheduleLocked": "الجدول مقفل",
-      "hotkeyScoring": "__TODO__",
-      "hotkeyPlaceholder": "__TODO__"
+      "hotkeyScoring": "إدخال النتيجة بمفاتيح الاختصار",
+      "hotkeyPlaceholder": "اكتب النتيجة"
     },
     "schedule": {
       "searchParticipants": "البحث عن مشاركين",
@@ -2710,11 +2710,11 @@
     "timeZoneNotSetTitle": "لم تُحدَّد المنطقة الزمنية",
     "timeZoneNotSetBody": "لم تُحدَّد منطقة زمنية لهذه البطولة. قد تكون أوقات المباريات المنشورة ملتبسة على المشاهدين في مناطق زمنية أخرى. عيّن منطقة زمنية قبل النشر.",
     "setTimeZone": "تعيين المنطقة الزمنية",
-    "tournamentInformation": "__TODO__",
-    "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__",
-    "structure": "__TODO__",
-    "embargoUnreadable": "__TODO__"
+    "tournamentInformation": "معلومات البطولة",
+    "informationEvents": "المسابقات المدرجة علناً",
+    "informationEmbargoNote": "منشورة، لكنها لن تُدرج علناً حتى {{when}}.",
+    "structure": "الهيكل",
+    "embargoUnreadable": "تعذّرت قراءة وقت الحظر بتوقيت ساعة المكان، لذا لم يُعيَّن. تحقق من التاريخ والوقت، ومن المنطقة الزمنية للبطولة."
   },
   "cal": "التقويم",
   "tpl": "القوالب",
@@ -3872,21 +3872,21 @@
       "autoHint": "اسأل فقط عندما تستخدم هذه البطولة تسجيل الحضور اليوم."
     },
     "attester": {
-      "action": "__TODO__",
-      "self": "__TODO__",
-      "parent": "__TODO__",
-      "guardian": "__TODO__",
-      "chaperone": "__TODO__",
-      "other": "__TODO__",
-      "namePrompt": "__TODO__",
-      "namePlaceholder": "__TODO__",
-      "telephonePlaceholder": "__TODO__",
-      "cancel": "__TODO__",
-      "confirm": "__TODO__",
-      "bySelf": "__TODO__",
-      "byRelationship": "__TODO__",
-      "byOperator": "__TODO__",
-      "at": "__TODO__"
+      "action": "تسجيل الحضور بواسطة…",
+      "self": "اللاعب نفسه",
+      "parent": "أحد الوالدين",
+      "guardian": "ولي الأمر",
+      "chaperone": "المرافق",
+      "other": "شخص آخر",
+      "namePrompt": "من يسجّل حضور {{name}}؟",
+      "namePlaceholder": "الاسم",
+      "telephonePlaceholder": "الهاتف (اختياري)",
+      "cancel": "إلغاء",
+      "confirm": "تسجيل الحضور",
+      "bySelf": "سجّل حضوره بنفسه",
+      "byRelationship": "سجّل الحضور {{name}} ({{relationship}})",
+      "byOperator": "سجّل الحضور {{name}}",
+      "at": "في {{time}}"
     }
   },
   "ofc": "المسؤولون",
@@ -4202,14 +4202,14 @@
     "addToAlternates": "إضافة إلى البدلاء",
     "addEntries": "إضافة تسجيلات",
     "pairingOff": "الإقران: متوقف",
-    "pairingOn": "__TODO__",
-    "pairAs": "__TODO__",
-    "createPairAs": "__TODO__",
-    "pairAsAccepted": "__TODO__",
-    "pairAsQualifying": "__TODO__",
-    "pairAsAlternate": "__TODO__",
-    "rotatingPartnersOff": "__TODO__",
-    "rotatingPartnersOn": "__TODO__"
+    "pairingOn": "الإقران: مفعّل",
+    "pairAs": "إقران كـ",
+    "createPairAs": "إنشاء زوج كـ",
+    "pairAsAccepted": "مقبول",
+    "pairAsQualifying": "تأهيل",
+    "pairAsAlternate": "بديل",
+    "rotatingPartnersOff": "تبديل الشركاء: متوقف",
+    "rotatingPartnersOn": "تبديل الشركاء: مفعّل"
   },
   "swissStandings": {
     "losses": "الهزائم",
@@ -4250,7 +4250,7 @@
     "drawGenerated": "تم توليد القرعة بنجاح",
     "templateName": "اسم القالب",
     "templateSaved": "تم حفظ القالب",
-    "structuresNotAttached": "__TODO__"
+    "structuresNotAttached": "أُنشئت القرعة، لكن تعذّر إرفاق هذه الهياكل: {{unattached}}"
   },
   "participantFields": {
     "identifiers": "المعرّفات",
@@ -4420,8 +4420,8 @@
     "addPlayers": "إضافة لاعبين",
     "noRatingData": "لا تتوفر بيانات تقييم",
     "scheduledMatches": "المباريات المجدولة",
-    "alreadyPartners": "__TODO__",
-    "pairedWith": "__TODO__"
+    "alreadyPartners": "هؤلاء اللاعبون شركاء بالفعل في هذه المسابقة",
+    "pairedWith": "مع"
   },
   "ageCategories": {
     "u10": "10 سنوات فما دون",
@@ -4484,7 +4484,7 @@
     "audit": "تدقيق",
     "noDraws": "لا توجد في هذه البطولة قرعات مولَّدة لتدقيقها.",
     "structureAudit": "تدقيق سلامة الهياكل",
-    "frameRefused": "__TODO__"
+    "frameRefused": "تعذّر تحديد المنطقة الزمنية لهذه البطولة، لذا لا يمكن قراءة تقاريرها بتوقيت ساعة المكان. عيّن المنطقة الزمنية للبطولة في «تعديل التواريخ»."
   },
   "applyScheduling": {
     "noPolicy": "بدون سياسة (عدم فرض حدود يومية)",
@@ -4511,11 +4511,11 @@
     "minWidthHint": "أقل عرض لعمود الملعب — تتسع الخلايا عند توفر مساحة",
     "conflictsWith": " يتعارض مع ",
     "minRowsHint": "أقل عدد من صفوف الوقت في شبكة الجدول",
-    "issuesTitle": "__TODO__",
-    "issuesWithErrors": "__TODO__",
-    "issuesWarningsOnly": "__TODO__",
-    "warningBars": "__TODO__",
-    "warningBarsHint": "__TODO__"
+    "issuesTitle": "مشكلات الجدولة ({{total}})",
+    "issuesWithErrors": "مشكلات الجدولة — واحدة منها على الأقل خطأ",
+    "issuesWarningsOnly": "مشكلات الجدولة — تحذيرات فقط، بلا أخطاء",
+    "warningBars": "أشرطة التحذير",
+    "warningBarsHint": "إظهار المشكلات بمستوى التحذير على خلايا الشبكة. الأخطاء تظهر دائماً."
   },
   "scheduleResults": {
     "title": "نتائج الجدولة",
@@ -4540,7 +4540,7 @@
     "desktopNotifications": " إشعارات سطح المكتب",
     "serverUrl": "عنوان الخادم",
     "workOffline": " العمل دون اتصال",
-    "scoreEntryDialog": "__TODO__"
+    "scoreEntryDialog": "نافذة إدخال النتيجة الجديدة"
   },
   "venueDetail": {
     "noCourts": "لا توجد ملاعب في هذا المكان بعد.",
@@ -4586,54 +4586,54 @@
     "send": "إرسال؟؟"
   },
   "additionalSeeds": {
-    "chooseBasis": "__TODO__",
-    "seededOn": "__TODO__",
-    "added": "__TODO__",
-    "refused": "__TODO__",
+    "chooseBasis": "على أي أساس؟",
+    "seededOn": "مصنف على أساس {{basis}}",
+    "added": "أُضيف كمصنف رقم {{seedNumber}}",
+    "refused": "لا تسمح سياسة التصنيف بمزيد من المصنفين الإضافيين",
     "basis": {
-      "organiserDiscretion": "__TODO__",
-      "protectedRanking": "__TODO__",
-      "ranking": "__TODO__",
-      "rating": "__TODO__"
+      "organiserDiscretion": "تقدير المنظم",
+      "protectedRanking": "تصنيف محمي",
+      "ranking": "التصنيف",
+      "rating": "التقييم"
     }
   },
   "rotatingPartners": {
     "settlement": {
-      "title": "__TODO__",
-      "explanation": "__TODO__",
-      "treatment": "__TODO__",
-      "exclude": "__TODO__",
-      "playedPoints": "__TODO__",
-      "credit": "__TODO__",
-      "winningPoints": "__TODO__",
-      "losingPoints": "__TODO__",
-      "reason": "__TODO__",
-      "recordedBy": "__TODO__",
-      "required": "__TODO__",
-      "player": "__TODO__",
-      "points": "__TODO__",
-      "total": "__TODO__",
-      "preview": "__TODO__",
-      "confirm": "__TODO__"
+      "title": "تسوية الترتيب",
+      "explanation": "اختر كيف تُسهم هذه النتيجة في الترتيب الفردي. تبقى نتيجة المباراة دون تغيير. النقاط الممنوحة نقاط مقرّرة، لا نقاط ملعوبة.",
+      "treatment": "طريقة احتساب الترتيب",
+      "exclude": "استبعاد من الترتيب",
+      "playedPoints": "احتساب النقاط المسجّلة",
+      "credit": "منح نقاط",
+      "winningPoints": "نقاط كل لاعب في الجانب الفائز",
+      "losingPoints": "نقاط كل لاعب في الجانب الخاسر",
+      "reason": "السبب (مطلوب)",
+      "recordedBy": "سجّله",
+      "required": "أدخل سبباً وهوية المشغّل وأي نقاط ممنوحة مطلوبة قبل المعاينة.",
+      "player": "اللاعب",
+      "points": "النقاط من هذه النتيجة",
+      "total": "مجموع الترتيب",
+      "preview": "معاينة الترتيب",
+      "confirm": "تأكيد التسوية"
     },
     "creation": {
-      "format": "__TODO__",
-      "standard": "__TODO__",
-      "pointTotal": "__TODO__",
-      "tieResolution": "__TODO__",
-      "rounds": "__TODO__",
-      "players": "__TODO__",
-      "americanoHelp": "__TODO__",
-      "mexicanoHelp": "__TODO__",
-      "ALLOW": "__TODO__",
-      "DECIDING_POINT": "__TODO__",
-      "WIN_BY_MARGIN": "__TODO__",
-      "rosterError": "__TODO__",
-      "configError": "__TODO__",
-      "previewTitle": "__TODO__",
-      "applyRound": "__TODO__",
-      "standings": "__TODO__",
-      "unresolved": "__TODO__"
+      "format": "الصيغة",
+      "standard": "قياسي",
+      "pointTotal": "مجموع النقاط لكل مباراة",
+      "tieResolution": "حسم التعادل",
+      "rounds": "الجولات",
+      "players": "لاعبون فرديون",
+      "americanoHelp": "اختر 4–128 لاعباً بمضاعفات الأربعة. يشارك كل لاعب كل لاعب آخر مرة واحدة؛ تُثبَّت القائمة بعد الجولة الأولى.",
+      "mexicanoHelp": "اختر 4–128 لاعباً بمضاعفات الأربعة. تعتمد الجولات اللاحقة على الترتيب الفردي المُسوّى؛ تُثبَّت القائمة بعد الجولة الأولى.",
+      "ALLOW": "السماح بالتعادل",
+      "DECIDING_POINT": "النقطة الحاسمة",
+      "WIN_BY_MARGIN": "الفوز بفارق {{margin}} نقاط",
+      "rosterError": "اختر بين 4 و128 لاعباً فردياً، بمضاعفات الأربعة.",
+      "configError": "اختر مجموع نقاط وعدد جولات وصيغة تسجيل صالحة.",
+      "previewTitle": "معاينة الجولة {{round}}",
+      "applyRound": "إنشاء الجولة",
+      "standings": "الترتيب الفردي",
+      "unresolved": "نتائج غير محسومة: {{count}}"
     }
   }
 }

@@ -299,14 +299,14 @@
       "noRows": "Žádné řádky. Začněte kliknutím na Přidat řádek."
     },
     "seedingPolicy": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "locked": "__TODO__",
-      "thresholds": "__TODO__",
-      "providerPolicy": "__TODO__",
-      "none": "__TODO__",
-      "custom": "__TODO__",
-      "attached": "__TODO__"
+      "title": "Pravidlo nasazení",
+      "intro": "Platí pro všechny pavouky tohoto turnaje. Pavouci vytvoření s nasazením „Zděděné“ ho používají, včetně později znovu vygenerovaných.",
+      "locked": "Pravidlo nasazení pro tento turnaj určuje váš poskytovatel. Platí pro všechny pavouky a zde ho nelze změnit.",
+      "thresholds": "Velikost pavouka → nasazení:",
+      "providerPolicy": "Pravidlo poskytovatele",
+      "none": "Žádné — výchozí nastavení factory",
+      "custom": "Vlastní pravidlo",
+      "attached": "Připojeno — {{name}}"
     }
   },
   "system": {
@@ -678,7 +678,7 @@
     "publishtime": "Čas publikování",
     "replacelocal": "Nahradit lokální kopii?",
     "unpublish": "Zrušit publikování turnaje?",
-    "liveDemoClockUnavailable": "__TODO__"
+    "liveDemoClockUnavailable": "Ukázka živého rozpisu nebyla vygenerována: soutěžní hodiny neposkytují použitelný čas. Opravte nebo odstraňte soutěžní hodiny (dev.setCompetitionClock) a zkuste to znovu."
   },
   "ddlb": {
     "singles": "Pořadí turnaje (dvouhra):",
@@ -1094,21 +1094,21 @@
           "notScheduled": "Zatím není v rozpisu, takže není podle čeho kontrolovat.",
           "noTime": "Bez času v rozpisu nelze připravenost odhadnout.",
           "unknownMatchUp": "Tento zápas už není součástí turnaje.",
-          "timeNotPromised": "__TODO__"
+          "timeNotPromised": "Rozpis pro tento zápas neuvádí čas, takže není s čím porovnávat."
         },
-        "dependencyBoth": "__TODO__",
-        "dependencyWaiting": "__TODO__",
-        "finishes": "__TODO__",
-        "readyAt": "__TODO__"
+        "dependencyBoth": "Čeká na {{labels}} — konec ~{{finishes}}, vítěz připraven ~{{ready}}",
+        "dependencyWaiting": "Čeká na {{labels}}",
+        "finishes": "konec ~{{time}}",
+        "readyAt": "připraven ~{{time}}"
       },
       "actions": {
         "trigger": "Akce zápasu",
         "viewDraw": "Zobrazit pavouka",
         "participants": "Účastníci",
-        "schedule": "__TODO__",
-        "setTime": "__TODO__",
-        "clearTime": "__TODO__",
-        "navigate": "__TODO__"
+        "schedule": "Naplánovat",
+        "setTime": "Nastavit čas",
+        "clearTime": "Vymazat čas",
+        "navigate": "Přejít na"
       },
       "rest": {
         "heading": "Odpočinek",
@@ -1146,29 +1146,29 @@
           "completed": "Již dokončeno — odpočinek se už neuplatní.",
           "noParticipants": "Účastníci zatím nejsou určeni, takže není kdo by odpočíval.",
           "unknownMatchUp": "Tento zápas už není součástí turnaje.",
-          "noAsOf": "__TODO__"
+          "noAsOf": "Časové pásmo místa konání nelze určit, takže odpočinek nelze změřit."
         },
-        "pendingName": "__TODO__",
-        "pending": "__TODO__",
-        "pendingUntil": "__TODO__",
-        "searchFor": "__TODO__",
-        "locateFeeder": "__TODO__",
-        "feederNotDrawn": "__TODO__"
+        "pendingName": "Vítěz {{label}}",
+        "pending": "Ještě nerozhodnuto — zatím bez odpočinku",
+        "pendingUntil": "Ještě nerozhodnuto — připraven {{time}}",
+        "searchFor": "Zvýraznit zápasy hráče {{name}} v mřížce",
+        "locateFeeder": "Zobrazit {{label}} v mřížce",
+        "feederNotDrawn": "Tento zápas není v mřížce tohoto dne"
       },
-      "heading": "__TODO__",
-      "back": "__TODO__",
-      "placed": "__TODO__",
-      "placedAt": "__TODO__",
-      "placedHint": "__TODO__",
+      "heading": "Inspektor",
+      "back": "Zpět na akce",
+      "placed": "V mřížce — {{court}}",
+      "placedAt": "V mřížce — {{court}} v {{time}}",
+      "placedHint": "Není v žádném ze seznamů katalogu. Kliknutím ho zvýrazníte v mřížce kurtů.",
       "timing": {
-        "heading": "__TODO__",
-        "average": "__TODO__",
-        "recovery": "__TODO__",
-        "typeChange": "__TODO__",
+        "heading": "Časování formátu",
+        "average": "{{minutes}} průměr",
+        "recovery": "{{minutes}} zotavení",
+        "typeChange": "{{minutes}} po změně typu",
         "source": {
-          "event": "__TODO__",
-          "tournament": "__TODO__",
-          "default": "__TODO__"
+          "event": "z pravidla rozpisu této soutěže",
+          "tournament": "z pravidla rozpisu turnaje",
+          "default": "výchozí nastavení factory — žádné pravidlo rozpisu není připojeno"
         }
       }
     },
@@ -1194,96 +1194,96 @@
         "tooltipOnCourtOverrun": "{{name}} — stále na kurtu, po očekávaném konci",
         "tooltipNone": "{{name}} — dnes žádný předchozí zápas",
         "tooltipUnknown": "{{name}} — předchozí zápas nemá zaznamenaný konec",
-        "tooltipPending": "__TODO__",
-        "tooltipPendingReady": "__TODO__"
+        "tooltipPending": "Vítěz {{label}} — ještě nerozhodnuto, zatím bez odpočinku",
+        "tooltipPendingReady": "Vítěz {{label}} — ještě nerozhodnuto, připraven {{time}}"
       },
       "time": {
-        "ok": "__TODO__",
-        "warn": "__TODO__",
-        "alert": "__TODO__"
+        "ok": "Tento čas vypadá dosažitelně.",
+        "warn": "Tento čas je ohrožen:",
+        "alert": "Tento čas nelze dodržet:"
       }
     },
     "venueFrame": {
       "notice": "Časy v {{timeZone}} — pásmo místa konání není nastaveno",
       "noticeTitle": "Tento turnaj nemá nastavené časové pásmo, takže se časy zobrazují v pásmu tohoto zařízení ({{timeZone}}). Nastavte časové pásmo místa konání, aby všichni pracovníci četli stejný čas.",
-      "conflicting": "__TODO__",
-      "conflictingTitle": "__TODO__",
-      "invalid": "__TODO__",
-      "invalidTitle": "__TODO__"
+      "conflicting": "Místa konání se neshodnou na časovém pásmu — časy skryty",
+      "conflictingTitle": "Místa konání tohoto turnaje uvádějí různá časová pásma a turnaj žádné nenastavuje, takže TMX nepozná, podle kterých hodin běží. Časy jsou skryty a automatická vyvolání pozastavena, dokud nebude nastaveno časové pásmo turnaje.",
+      "invalid": "Časové pásmo turnaje není platné — časy skryty",
+      "invalidTitle": "Časové pásmo tohoto turnaje není rozpoznané časové pásmo. Časy jsou skryty a automatická vyvolání pozastavena, dokud nebude nastaveno platné."
     },
     "viewInDraw": "Zobrazit v pavouku",
     "strip": {
-      "runwayHint": "__TODO__",
-      "blockEdgeHint": "__TODO__"
+      "runwayHint": "{{minutes}} do obsazení kurtu ({{type}}) — běžný zápas se už nevejde",
+      "blockEdgeHint": "{{type}} začíná za {{minutes}}, před očekávaným koncem tohoto zápasu"
     },
     "blockType": {
-      "blocked": "__TODO__",
-      "maintenance": "__TODO__",
-      "drying": "__TODO__",
-      "practice": "__TODO__"
+      "blocked": "Blokováno",
+      "maintenance": "Údržba",
+      "drying": "Vysoušení",
+      "practice": "Trénink"
     },
     "timeBlock": {
-      "open": "__TODO__",
-      "title": "__TODO__",
-      "from": "__TODO__",
-      "to": "__TODO__",
-      "addPeriod": "__TODO__",
-      "removePeriod": "__TODO__",
-      "allCourts": "__TODO__",
-      "save": "__TODO__",
-      "noWindow": "__TODO__",
+      "open": "Blokovat čas",
+      "title": "Blokovat {{court}}",
+      "from": "Od",
+      "to": "do",
+      "addPeriod": "+ Přidat další období",
+      "removePeriod": "Odebrat toto období",
+      "allCourts": "Použít na všech {{count}} kurtů",
+      "save": "Blokovat",
+      "noWindow": "Pro {{courts}} nejsou zaznamenány otevírací hodiny — nejprve nastavte dostupnost kurtu.",
       "error": {
-        "incomplete": "__TODO__",
-        "inverted": "__TODO__"
+        "incomplete": "Každé období potřebuje začátek i konec.",
+        "inverted": "Období musí skončit až po svém začátku."
       }
     },
     "legend": {
-      "title": "__TODO__",
-      "restBadge": "__TODO__",
-      "restOnCourt": "__TODO__",
-      "restDurationSample": "__TODO__",
-      "restDuration": "__TODO__",
-      "restUnknown": "__TODO__",
-      "restNone": "__TODO__",
-      "restLimit": "__TODO__",
-      "inspector": "__TODO__",
-      "estimatedSample": "__TODO__",
-      "estimated": "__TODO__",
-      "discarded": "__TODO__",
-      "cellMarks": "__TODO__",
-      "checkIn": "__TODO__",
-      "annotations": "__TODO__"
+      "title": "Co znamenají značky na této stránce",
+      "restBadge": "Odznak odpočinku (na kartě zápasu)",
+      "restOnCourt": "Hráč je stále v dřívějším zápase",
+      "restDurationSample": "41m",
+      "restDuration": "Jak dlouho odpočívá nejméně odpočatý hráč",
+      "restUnknown": "Předchozí zápas nemá zaznamenaný konec, takže odpočinek nelze změřit",
+      "restNone": "Nikdo na této kartě dnes ještě nehrál",
+      "restLimit": "Kolikátý zápas dne by to pro daného hráče byl",
+      "inspector": "Řádky odpočinku v inspektoru",
+      "estimatedSample": "(odh.)",
+      "estimated": "Konec byl odvozen, nikoli zaznamenán — odhad, ne měření",
+      "discarded": "Zaznamenané časové razítko bylo odmítnuto jako nečitelné a bylo použito další nejlepší",
+      "cellMarks": "Na naplánované buňce",
+      "checkIn": "Účastníci, kteří se dosud neprezentovali u stolku",
+      "annotations": "Poznámky, které ředitel připnul k zápasu"
     },
     "completedTimes": {
-      "called": "__TODO__",
-      "started": "__TODO__",
-      "ended": "__TODO__",
-      "scored": "__TODO__"
+      "called": "Vyvoláno",
+      "started": "Zahájeno",
+      "ended": "Ukončeno",
+      "scored": "Skóre zadáno"
     },
-    "clockUnavailable": "__TODO__"
+    "clockUnavailable": "Soutěžní hodiny neposkytují použitelný čas, takže zápas nebyl vyvolán."
   },
   "penalties": {
-    "AUDIBLE_OBSCENITY": "__STALE__Klení",
+    "AUDIBLE_OBSCENITY": "Slyšitelná obscenita",
     "BALL_ABUSE": "Zneužití míčku",
     "COACHING": "Nedovolené koučování",
-    "DRESS_CODE_VIOLATION": "__TODO__",
-    "EQUIPMENT_VIOLATION": "__TODO__",
-    "FAILURE_TO_COMPLETE": "__TODO__",
-    "FAILURE_TO_SIGN_IN": "__TODO__",
+    "DRESS_CODE_VIOLATION": "Porušení pravidel oblékání",
+    "EQUIPMENT_VIOLATION": "Porušení pravidel vybavení",
+    "FAILURE_TO_COMPLETE": "Nedokončení zápasu",
+    "FAILURE_TO_SIGN_IN": "Nepřihlášení se k zápasu",
     "FAILURE_TO_SIGN_OUT": "Nepřihlásil se k odhlášení",
-    "INELIGIBILITY": "__TODO__",
-    "LEAVING_THE_COURT": "__TODO__",
-    "NO_SHOW": "__TODO__",
-    "OTHER": "__TODO__",
-    "PHYSICAL_ABUSE": "__TODO__",
-    "PROHIBITED_SUBSTANCE": "__TODO__",
+    "INELIGIBILITY": "Nezpůsobilost",
+    "LEAVING_THE_COURT": "Opuštění kurtu",
+    "NO_SHOW": "Nenastoupení",
+    "OTHER": "Jiné",
+    "PHYSICAL_ABUSE": "Fyzické napadení",
+    "PROHIBITED_SUBSTANCE": "Zakázaná látka",
     "PUNCTUALITY": "Pozdní příchod",
     "RACKET_ABUSE": "Zneužití rakety",
-    "REFUSAL_TO_PLAY": "__TODO__",
+    "REFUSAL_TO_PLAY": "Odmítnutí hrát",
     "TIME_VIOLATION": "Porušení časového limitu",
     "UNSPORTSMANLIKE_CONDUCT": "Nesportovní chování",
-    "VERBAL_ABUSE": "__TODO__",
-    "VISIBLE_OBSCENITY": "__STALE__Hrubé gesta"
+    "VERBAL_ABUSE": "Slovní napadení",
+    "VISIBLE_OBSCENITY": "Viditelná obscenita"
   },
   "datelocalization": "cs-CZ",
   "common": {
@@ -1674,8 +1674,8 @@
       "noPlayoffPositions": "Žádné playoff pozice nejsou k dispozici",
       "nameBase": "Základ názvu",
       "structuresAdded": "Struktura(y) přidána(y)",
-      "rounds": "__TODO__",
-      "allRounds": "__TODO__"
+      "rounds": "Kola",
+      "allRounds": "Všechna"
     },
     "editGroupNames": {
       "title": "Upravit názvy skupin",
@@ -1772,11 +1772,11 @@
       "tiebreaks": "Tiebreaky:",
       "matchTiebreaks": "Match tiebreaky:",
       "irregularEndings": "Nestandardní ukončení:",
-      "abandoned": "__TODO__",
-      "cancelled": "__TODO__",
-      "incomplete": "__TODO__",
-      "reasonCode": "__TODO__",
-      "noReasonCode": "__TODO__",
+      "abandoned": "Přerušeno",
+      "cancelled": "Zrušeno",
+      "incomplete": "Nedokončeno",
+      "reasonCode": "Důvod",
+      "noReasonCode": "Důvod neuveden",
       "deadRubber": "Zápas bez vlivu na výsledek",
       "challenged": "Vyzván",
       "statusUnavailable": "Stav {{status}} není pro tento zápas dostupný",
@@ -1835,32 +1835,32 @@
       "starPoint": "Hvězdný míč",
       "games": "Gamy",
       "points": "Body",
-      "setPlural": "__TODO__",
-      "tiebreakPlural": "__TODO__",
-      "timedSetPlural": "__TODO__",
-      "outs": "__TODO__",
-      "pointsTotal": "__TODO__",
+      "setPlural": "Sety",
+      "tiebreakPlural": "Tiebreaky",
+      "timedSetPlural": "Časované sety",
+      "outs": "Auty",
+      "pointsTotal": "Celkem bodů",
       "roots": {
-        "set": "__TODO__",
-        "half": "__TODO__",
-        "quarter": "__TODO__",
-        "period": "__TODO__",
-        "inning": "__TODO__",
-        "round": "__TODO__",
-        "frame": "__TODO__",
-        "map": "__TODO__"
+        "set": "Set",
+        "half": "Poločas",
+        "quarter": "Čtvrtina",
+        "period": "Třetina",
+        "inning": "Směna",
+        "round": "Kolo",
+        "frame": "Frame",
+        "map": "Mapa"
       },
-      "setTo": "__TODO__",
-      "tiebreakTo": "__TODO__",
-      "winBy": "__TODO__",
-      "minutesCount": "__TODO__",
-      "outsCount": "__TODO__",
-      "maxMinutes": "__TODO__",
-      "pointsCount": "__TODO__",
-      "consecutive": "__TODO__",
-      "tieAllowed": "__TODO__",
-      "maxTime": "__TODO__",
-      "readOnly": "__TODO__"
+      "setTo": "do {n}",
+      "tiebreakTo": "TB do {n}",
+      "winBy": "Výhra o {n}",
+      "minutesCount": "{n} minut",
+      "outsCount": "{n} autů",
+      "maxMinutes": "{n} min",
+      "pointsCount": "{n} bodů",
+      "consecutive": "{n} po sobě",
+      "tieAllowed": "Remíza povolena",
+      "maxTime": "Max. čas",
+      "readOnly": "Tento formát zde nelze upravit. Vybrat jej ponechá beze změny; pro nahrazení zvolte jiný formát."
     },
     "courtAvailability": {
       "startTime": "Začátek",
@@ -2098,18 +2098,18 @@
       "title": "Upravit nastavení zobrazení"
     },
     "chooseProvider": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "providerLabel": "__TODO__",
-      "continue": "__TODO__",
-      "signOut": "__TODO__",
-      "failed": "__TODO__"
+      "title": "Vyberte poskytovatele",
+      "intro": "Váš účet patří k více poskytovatelům. Vyberte toho, pro kterého nyní pracujete; později můžete přepnout přes odznak poskytovatele.",
+      "providerLabel": "Poskytovatel",
+      "continue": "Pokračovat",
+      "signOut": "Odhlásit se",
+      "failed": "Tohoto poskytovatele se nepodařilo otevřít"
     },
     "exitBeforeArrival": {
-      "title": "__TODO__",
-      "prompt": "__TODO__",
-      "exit": "__TODO__",
-      "clear": "__TODO__"
+      "title": "Walkover nebo kontumace",
+      "prompt": "{{name}} nemůže hrát: zaznamenejte odstoupení hned, než dorazí soupeř. Kdo dorazí, získá walkover.",
+      "exit": "Odstoupení",
+      "clear": "Vymazat"
     }
   },
   "dashboard": {
@@ -2232,7 +2232,7 @@
       "drawTypePlayoff": "Playoff",
       "drawTypeRoundRobinWithPlayoff": "Skupina s playoffem",
       "drawTypeAdaptive": "Adaptivní",
-      "drawTypeStaggeredEntry": "__STALE__Stupňovaný vstup",
+      "drawTypeStaggeredEntry": "Feed-in (stupňovaný vstup)",
       "drawTypeDescriptions": {
         "SINGLE_ELIMINATION": "Standardní vyřazovací pavouk, kde každá prohra eliminuje účastníka z pavouka.",
         "ROUND_ROBIN": "Všichni účastníci hrají proti sobě ve skupinách; pořadí určeno bilancí výher/proher.",
@@ -2252,16 +2252,16 @@
         "ROUND_ROBIN_WITH_PLAYOFF": "Skupinová fáze každý s každým následovaná jednoduchým vyřazovacím playoffem.",
         "FEED_IN": "Pavouk se stupňovaným vstupem, kde účastníci vstupují do pavouka v různých kolech."
       },
-      "providerSeedingPolicy": "__TODO__",
-      "additionalSeedsCount_one": "__TODO__",
-      "additionalSeedsCount_other": "__TODO__",
-      "feedInQualifiersInvalid": "__TODO__",
-      "targetRound": "__TODO__",
-      "targetRoundOption": "__TODO__",
-      "targetCapacity": "__TODO__",
-      "alreadyFed": "__TODO__",
-      "noFeeders": "__TODO__",
-      "qualifying": "__TODO__"
+      "providerSeedingPolicy": "Pravidlo poskytovatele",
+      "additionalSeedsCount_one": "{{seeds}} (+{{count}} další nasazený)",
+      "additionalSeedsCount_other": "{{seeds}} (+{{count}} další nasazení)",
+      "feedInQualifiersInvalid": "Kvalifikace se stupňovaným vstupem o velikosti {{drawSize}} může vytvořit jen tyto počty kvalifikantů: {{counts}}",
+      "targetRound": "Cílové kolo",
+      "targetRoundOption": "Kolo {{round}} — volných {{open}} z {{total}} pozic",
+      "targetCapacity": "Kolo {{round}} může ještě přijmout {{open}} ze svých {{total}} pozic.",
+      "alreadyFed": "Kolo {{round}} již napojuje {{feederNames}}: přislíbeno kvalifikantů: {{count}}.",
+      "noFeeders": "Kolo {{round}} zatím nenapojuje žádná kvalifikační struktura.",
+      "qualifying": "Kvalifikace"
     }
   },
   "toasts": {
@@ -2312,12 +2312,12 @@
       "courtNotFound": "Tento kurt už neexistuje. Obnovte turnaj a zkuste to znovu.",
       "notSaved": "Změna rozpisu nebyla uložena: {{reason}}"
     },
-    "tournamentsTruncated": "__TODO__",
-    "tournamentSearchFailed": "__TODO__",
+    "tournamentsTruncated": "Zobrazeno prvních {{loaded}} z {{total}} turnajů. Seznam zúžíte filtrem nebo vyhledáváním.",
+    "tournamentSearchFailed": "Vyhledávání turnajů je momentálně nedostupné. Zobrazeny jsou jen již načtené turnaje.",
     "statusOutOfScope": "Tento stav není pro tento zápas dostupný",
-    "clearRefused": "__TODO__",
-    "scoreDiscardedByFormat": "__TODO__",
-    "offlineChangeRejected": "__TODO__"
+    "clearRefused": "Tento výsledek nelze vymazat: závisí na něm pozdější zápas. Nejprve vymažte ten zápas.",
+    "scoreDiscardedByFormat": "Změna formátu na {{matchUpFormat}} zahodila sety ({{count}}): {{sets}}",
+    "offlineChangeRejected": "Změna provedená offline byla serverem odmítnuta"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -2436,7 +2436,7 @@
       "winPct": "Výhry %",
       "setPct": "Sety %",
       "pos": "Poz",
-      "winLossDraw": "__TODO__"
+      "winLossDraw": "V/P/R"
     },
     "events": {
       "event": "Soutěž",
@@ -2540,8 +2540,8 @@
       "showCompetitivenessView": "Zobrazit vyrovnanost",
       "called": "Vyvoláno",
       "scheduleLocked": "Rozpis uzamčen",
-      "hotkeyScoring": "__TODO__",
-      "hotkeyPlaceholder": "__TODO__"
+      "hotkeyScoring": "Zadávání skóre klávesovými zkratkami",
+      "hotkeyPlaceholder": "zadejte skóre"
     },
     "schedule": {
       "searchParticipants": "Hledat účastníky",
@@ -2879,11 +2879,11 @@
     "timeZoneNotSetTitle": "Časové pásmo není nastaveno",
     "timeZoneNotSetBody": "Tento turnaj nemá nastavené časové pásmo. Publikované časy zápasů mohou být pro diváky v jiných pásmech nejednoznačné. Před publikováním nastavte časové pásmo.",
     "setTimeZone": "Nastavit časové pásmo",
-    "tournamentInformation": "__TODO__",
-    "informationEvents": "__TODO__",
-    "informationEmbargoNote": "__TODO__",
-    "structure": "__TODO__",
-    "embargoUnreadable": "__TODO__"
+    "tournamentInformation": "Informace o turnaji",
+    "informationEvents": "Veřejně uvedené soutěže",
+    "informationEmbargoNote": "Publikováno, ale veřejně uvedeno až od {{when}}.",
+    "structure": "Struktura",
+    "embargoUnreadable": "Čas embarga nešlo přečíst podle hodin místa konání, a proto nebyl nastaven. Zkontrolujte datum a čas a časové pásmo turnaje."
   },
   "formatWizard": {
     "title": "Průvodce formátem",
@@ -3872,21 +3872,21 @@
       "autoHint": "Ptát se jen tehdy, když tento turnaj dnes používá prezenci."
     },
     "attester": {
-      "action": "__TODO__",
-      "self": "__TODO__",
-      "parent": "__TODO__",
-      "guardian": "__TODO__",
-      "chaperone": "__TODO__",
-      "other": "__TODO__",
-      "namePrompt": "__TODO__",
-      "namePlaceholder": "__TODO__",
-      "telephonePlaceholder": "__TODO__",
-      "cancel": "__TODO__",
-      "confirm": "__TODO__",
-      "bySelf": "__TODO__",
-      "byRelationship": "__TODO__",
-      "byOperator": "__TODO__",
-      "at": "__TODO__"
+      "action": "Prezentovat jako…",
+      "self": "Sám/sama",
+      "parent": "Rodič",
+      "guardian": "Zákonný zástupce",
+      "chaperone": "Doprovod",
+      "other": "Někdo jiný",
+      "namePrompt": "Kdo prezentuje {{name}}?",
+      "namePlaceholder": "Jméno",
+      "telephonePlaceholder": "Telefon (nepovinné)",
+      "cancel": "Zrušit",
+      "confirm": "Prezentovat",
+      "bySelf": "Prezentoval(a) se sám/sama",
+      "byRelationship": "Prezentoval(a): {{name}} ({{relationship}})",
+      "byOperator": "Prezentoval(a): {{name}}",
+      "at": "v {{time}}"
     }
   },
   "ofc": "Rozhodčí",
@@ -4202,14 +4202,14 @@
     "addToAlternates": "Přidat mezi náhradníky",
     "addEntries": "Přidat přihlášky",
     "pairingOff": "Párování: VYPNUTO",
-    "pairingOn": "__TODO__",
-    "pairAs": "__TODO__",
-    "createPairAs": "__TODO__",
-    "pairAsAccepted": "__TODO__",
-    "pairAsQualifying": "__TODO__",
-    "pairAsAlternate": "__TODO__",
-    "rotatingPartnersOff": "__TODO__",
-    "rotatingPartnersOn": "__TODO__"
+    "pairingOn": "Párování: ZAP",
+    "pairAs": "Spárovat jako",
+    "createPairAs": "Vytvořit pár jako",
+    "pairAsAccepted": "Přijatý",
+    "pairAsQualifying": "Kvalifikace",
+    "pairAsAlternate": "Náhradník",
+    "rotatingPartnersOff": "Rotující spoluhráči: VYP",
+    "rotatingPartnersOn": "Rotující spoluhráči: ZAP"
   },
   "swissStandings": {
     "losses": "Prohry",
@@ -4250,7 +4250,7 @@
     "drawGenerated": "Pavouk úspěšně vygenerován",
     "templateName": "Název šablony",
     "templateSaved": "Šablona uložena",
-    "structuresNotAttached": "__TODO__"
+    "structuresNotAttached": "Pavouk vygenerován, ale tyto struktury nebylo možné připojit: {{unattached}}"
   },
   "participantFields": {
     "identifiers": "Identifikátory",
@@ -4420,8 +4420,8 @@
     "addPlayers": "Přidat hráče",
     "noRatingData": "Nejsou dostupná žádná data hodnocení",
     "scheduledMatches": "Naplánované zápasy",
-    "alreadyPartners": "__TODO__",
-    "pairedWith": "__TODO__"
+    "alreadyPartners": "Tito hráči už jsou v této soutěži spoluhráči",
+    "pairedWith": "s"
   },
   "ageCategories": {
     "u10": "10 let a mladší",
@@ -4484,7 +4484,7 @@
     "audit": "Audit",
     "noDraws": "Tento turnaj nemá žádné vygenerované pavouky k auditu.",
     "structureAudit": "Audit integrity struktur",
-    "frameRefused": "__TODO__"
+    "frameRefused": "Časové pásmo tohoto turnaje nelze určit, takže jeho reporty nelze číst podle hodin místa konání. Nastavte časové pásmo turnaje v Upravit data."
   },
   "applyScheduling": {
     "noPolicy": "Bez pravidla (nevynucovat denní limity)",
@@ -4511,11 +4511,11 @@
     "minWidthHint": "Minimální šířka sloupce kurtu — buňky se rozšíří, pokud je místo",
     "conflictsWith": " je v konfliktu s ",
     "minRowsHint": "Minimální počet časových řádků v mřížce rozpisu",
-    "issuesTitle": "__TODO__",
-    "issuesWithErrors": "__TODO__",
-    "issuesWarningsOnly": "__TODO__",
-    "warningBars": "__TODO__",
-    "warningBarsHint": "__TODO__"
+    "issuesTitle": "Problémy rozpisu ({{total}})",
+    "issuesWithErrors": "Problémy rozpisu — alespoň jeden je chyba",
+    "issuesWarningsOnly": "Problémy rozpisu — jen upozornění, žádné chyby",
+    "warningBars": "Pruhy upozornění",
+    "warningBarsHint": "Zobrazovat problémy úrovně upozornění v buňkách mřížky. Chyby se zobrazují vždy."
   },
   "scheduleResults": {
     "title": "Výsledky rozpisu",
@@ -4540,7 +4540,7 @@
     "desktopNotifications": " Oznámení na ploše",
     "serverUrl": "URL serveru",
     "workOffline": " Pracovat offline",
-    "scoreEntryDialog": "__TODO__"
+    "scoreEntryDialog": "Nový dialog zadávání skóre"
   },
   "venueDetail": {
     "noCourts": "Na tomto místě konání zatím nejsou žádné kurty.",
@@ -4586,54 +4586,54 @@
     "send": "Odeslat??"
   },
   "additionalSeeds": {
-    "chooseBasis": "__TODO__",
-    "seededOn": "__TODO__",
-    "added": "__TODO__",
-    "refused": "__TODO__",
+    "chooseBasis": "Na jakém základě?",
+    "seededOn": "Nasazen na základě: {{basis}}",
+    "added": "Přidán jako nasazený č. {{seedNumber}}",
+    "refused": "Pravidlo nasazení nepovoluje žádné další nasazené",
     "basis": {
-      "organiserDiscretion": "__TODO__",
-      "protectedRanking": "__TODO__",
-      "ranking": "__TODO__",
-      "rating": "__TODO__"
+      "organiserDiscretion": "Uvážení pořadatele",
+      "protectedRanking": "Chráněný žebříček",
+      "ranking": "Žebříček",
+      "rating": "Rating"
     }
   },
   "rotatingPartners": {
     "settlement": {
-      "title": "__TODO__",
-      "explanation": "__TODO__",
-      "treatment": "__TODO__",
-      "exclude": "__TODO__",
-      "playedPoints": "__TODO__",
-      "credit": "__TODO__",
-      "winningPoints": "__TODO__",
-      "losingPoints": "__TODO__",
-      "reason": "__TODO__",
-      "recordedBy": "__TODO__",
-      "required": "__TODO__",
-      "player": "__TODO__",
-      "points": "__TODO__",
-      "total": "__TODO__",
-      "preview": "__TODO__",
-      "confirm": "__TODO__"
+      "title": "Vypořádat pořadí",
+      "explanation": "Zvolte, jak tento výsledek přispěje k individuálnímu pořadí. Výsledek zápasu zůstane beze změny. Přiznané body jsou body přidělené rozhodnutím, nikoli odehrané.",
+      "treatment": "Zpracování v pořadí",
+      "exclude": "Vyřadit z pořadí",
+      "playedPoints": "Započítat zaznamenané body",
+      "credit": "Přiznat body",
+      "winningPoints": "Body pro každého hráče vítězné strany",
+      "losingPoints": "Body pro každého hráče poražené strany",
+      "reason": "Důvod (povinné)",
+      "recordedBy": "Zaznamenal(a)",
+      "required": "Před náhledem zadejte důvod, identitu operátora a případné požadované body.",
+      "player": "Hráč",
+      "points": "Body z tohoto výsledku",
+      "total": "Celkem v pořadí",
+      "preview": "Náhled pořadí",
+      "confirm": "Potvrdit vypořádání"
     },
     "creation": {
-      "format": "__TODO__",
-      "standard": "__TODO__",
-      "pointTotal": "__TODO__",
-      "tieResolution": "__TODO__",
-      "rounds": "__TODO__",
-      "players": "__TODO__",
-      "americanoHelp": "__TODO__",
-      "mexicanoHelp": "__TODO__",
-      "ALLOW": "__TODO__",
-      "DECIDING_POINT": "__TODO__",
-      "WIN_BY_MARGIN": "__TODO__",
-      "rosterError": "__TODO__",
-      "configError": "__TODO__",
-      "previewTitle": "__TODO__",
-      "applyRound": "__TODO__",
-      "standings": "__TODO__",
-      "unresolved": "__TODO__"
+      "format": "Formát",
+      "standard": "Standardní",
+      "pointTotal": "Celkem bodů na zápas",
+      "tieResolution": "Řešení remízy",
+      "rounds": "Kola",
+      "players": "Jednotliví hráči",
+      "americanoHelp": "Vyberte 4–128 hráčů v násobcích čtyř. Každý hráč hraje jednou s každým jako spoluhráč; po prvním kole je soupiska pevná.",
+      "mexicanoHelp": "Vyberte 4–128 hráčů v násobcích čtyř. Pozdější kola vycházejí z vypořádaného individuálního pořadí; po prvním kole je soupiska pevná.",
+      "ALLOW": "Povolit remízu",
+      "DECIDING_POINT": "Rozhodující bod",
+      "WIN_BY_MARGIN": "Výhra o {{margin}} body",
+      "rosterError": "Vyberte 4 až 128 jednotlivých hráčů, v násobcích čtyř.",
+      "configError": "Zvolte platný součet bodů, počet kol a variantu skórování.",
+      "previewTitle": "Náhled kola {{round}}",
+      "applyRound": "Vygenerovat kolo",
+      "standings": "Individuální pořadí",
+      "unresolved": "Nevyřešené výsledky: {{count}}"
     }
   }
 }
