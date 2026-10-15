@@ -496,7 +496,14 @@
     },
     "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno.",
     "manageAsProvisioner": "Upravljaj kao ovaj opskrbljivač",
-    "nowManagingProvisioner": "Sada djelujete kao „{{name}}“"
+    "nowManagingProvisioner": "Sada djelujete kao „{{name}}“",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "round_names": {
     "F": "Finale",
@@ -1672,7 +1679,7 @@
       "roles": "Uloge",
       "client": "Klijent",
       "director": "Direktor",
-      "admin": "Admin",
+      "admin": "__STALE__Admin",
       "official": "Sudac",
       "scoring": "Bodovanje",
       "developer": "Programer",
@@ -2127,7 +2134,8 @@
       "providerLabel": "Pružatelj",
       "continue": "Nastavi",
       "signOut": "Odjava",
-      "failed": "Nije moguće otvoriti tog pružatelja"
+      "failed": "Nije moguće otvoriti tog pružatelja",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "Walkover ili diskvalifikacija",

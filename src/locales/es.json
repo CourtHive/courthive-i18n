@@ -1415,7 +1415,7 @@
       "roles": "Roles",
       "client": "Cliente",
       "director": "Director",
-      "admin": "Admin",
+      "admin": "__STALE__Admin",
       "official": "Oficial",
       "scoring": "Puntuación",
       "developer": "Desarrollador",
@@ -1958,7 +1958,8 @@
       "providerLabel": "Proveedor",
       "continue": "Continuar",
       "signOut": "Cerrar sesión",
-      "failed": "No se pudo abrir ese proveedor"
+      "failed": "No se pudo abrir ese proveedor",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "Walkover o descalificación",
@@ -2907,7 +2908,14 @@
     },
     "inviteFailed": "No se pudo enviar la invitación. Inténtelo de nuevo.",
     "manageAsProvisioner": "Gestionar como este aprovisionador",
-    "nowManagingProvisioner": "Ahora actuando como «{{name}}»"
+    "nowManagingProvisioner": "Ahora actuando como «{{name}}»",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "formatWizard": {
     "title": "Asistente de formato",
