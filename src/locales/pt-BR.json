@@ -303,6 +303,30 @@
       "none": "Nenhuma — padrão do factory",
       "custom": "Política personalizada",
       "attached": "Anexada — {{name}}"
+    },
+    "pipelineFeatures": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disabled": "__TODO__",
+      "perCall": "__TODO__",
+      "policy": "__TODO__",
+      "progressionLocked": "__TODO__",
+      "default": "__TODO__",
+      "on": "__TODO__",
+      "off": "__TODO__",
+      "badge": "__TODO__",
+      "badgeTitle": "__TODO__",
+      "options": {
+        "propagateExitStatus": "__TODO__",
+        "propagateRetirementAsExit": "__TODO__",
+        "allowChangePropagation": "__TODO__",
+        "disableScoreValidation": "__TODO__",
+        "requireParticipantsForScoring": "__TODO__",
+        "doubleExitPropagateBye": "__TODO__",
+        "autoPlaceQualifiers": "__TODO__",
+        "autoReplaceQualifiers": "__TODO__",
+        "autoRemoveQualifiers": "__TODO__"
+      }
     }
   },
   "round_names": {
