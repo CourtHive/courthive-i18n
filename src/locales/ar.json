@@ -1415,7 +1415,7 @@
       "roles": "الأدوار",
       "client": "عميل",
       "director": "مدير",
-      "admin": "مدير النظام",
+      "admin": "__STALE__مدير النظام",
       "official": "مسؤول",
       "scoring": "تسجيل النتائج",
       "developer": "مطور",
@@ -1958,7 +1958,8 @@
       "providerLabel": "المزوّد",
       "continue": "متابعة",
       "signOut": "تسجيل الخروج",
-      "failed": "تعذّر فتح هذا المزوّد"
+      "failed": "تعذّر فتح هذا المزوّد",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "فوز بدون لعب أو استبعاد",
@@ -2907,7 +2908,14 @@
     },
     "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى.",
     "manageAsProvisioner": "الإدارة بصفة هذا المُوفِّر",
-    "nowManagingProvisioner": "تعمل الآن بصفة «{{name}}»"
+    "nowManagingProvisioner": "تعمل الآن بصفة «{{name}}»",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "formatWizard": {
     "title": "معالج التنسيق",

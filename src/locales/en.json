@@ -496,7 +496,14 @@
     },
     "inviteFailed": "Could not send the invitation. Please try again.",
     "manageAsProvisioner": "Manage as this provisioner",
-    "nowManagingProvisioner": "Now acting as \"{{name}}\""
+    "nowManagingProvisioner": "Now acting as \"{{name}}\"",
+    "associateExistingUser": "Associate Existing User",
+    "associateExistingUserHint": "Add a user who already has an account. Only users you are able to manage can be found.",
+    "userAssociated": "User associated with the provider",
+    "userAlreadyAssociated": "User was already associated; role updated",
+    "associateUserNotFound": "No user with that email that you can add. Create the user instead.",
+    "associateEmailAmbiguous": "More than one account has that email. A super-admin must resolve it.",
+    "lastProviderAdmin": "A provider must keep at least one Provider Admin"
   },
   "round_names": {
     "F": "Final",
@@ -1672,7 +1679,7 @@
       "roles": "Roles",
       "client": "Client",
       "director": "Director",
-      "admin": "Admin",
+      "admin": "Platform admin",
       "official": "Official",
       "scoring": "Scoring",
       "developer": "Developer",
@@ -2127,7 +2134,8 @@
       "providerLabel": "Provider",
       "continue": "Continue",
       "signOut": "Sign out",
-      "failed": "Could not open that provider"
+      "failed": "Could not open that provider",
+      "consoleIntro": "Your account belongs to more than one provider. Choose the one you are working for now; you can switch later."
     },
     "exitBeforeArrival": {
       "title": "Walkover or default",

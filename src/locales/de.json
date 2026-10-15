@@ -1415,7 +1415,7 @@
       "roles": "Rollen",
       "client": "Kunde",
       "director": "Direktor",
-      "admin": "Admin",
+      "admin": "__STALE__Admin",
       "official": "Offizieller",
       "scoring": "Wertung",
       "developer": "Entwickler",
@@ -1958,7 +1958,8 @@
       "providerLabel": "Anbieter",
       "continue": "Weiter",
       "signOut": "Abmelden",
-      "failed": "Dieser Anbieter konnte nicht geöffnet werden"
+      "failed": "Dieser Anbieter konnte nicht geöffnet werden",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "Walkover oder Disqualifikation",
@@ -2907,7 +2908,14 @@
     },
     "inviteFailed": "Die Einladung konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
     "manageAsProvisioner": "Als dieser Provisioner verwalten",
-    "nowManagingProvisioner": "Handelt jetzt als „{{name}}“"
+    "nowManagingProvisioner": "Handelt jetzt als „{{name}}“",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "formatWizard": {
     "title": "Format-Assistent",

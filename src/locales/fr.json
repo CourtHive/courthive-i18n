@@ -1415,7 +1415,7 @@
       "roles": "Rôles",
       "client": "Client",
       "director": "Directeur",
-      "admin": "Administrateur",
+      "admin": "__STALE__Administrateur",
       "official": "Officiel",
       "scoring": "Score",
       "developer": "Développeur",
@@ -1958,7 +1958,8 @@
       "providerLabel": "Fournisseur",
       "continue": "Continuer",
       "signOut": "Se déconnecter",
-      "failed": "Impossible d’ouvrir ce fournisseur"
+      "failed": "Impossible d’ouvrir ce fournisseur",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "Forfait ou disqualification",
@@ -2907,7 +2908,14 @@
     },
     "inviteFailed": "Impossible d’envoyer l’invitation. Veuillez réessayer.",
     "manageAsProvisioner": "Gérer en tant que ce provisionneur",
-    "nowManagingProvisioner": "Agit désormais en tant que « {{name}} »"
+    "nowManagingProvisioner": "Agit désormais en tant que « {{name}} »",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "formatWizard": {
     "title": "Assistant de format",

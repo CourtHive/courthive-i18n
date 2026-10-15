@@ -492,7 +492,14 @@
     },
     "inviteFailed": "无法发送邀请。请重试。",
     "manageAsProvisioner": "以此供应方身份管理",
-    "nowManagingProvisioner": "当前以“{{name}}”身份操作"
+    "nowManagingProvisioner": "当前以“{{name}}”身份操作",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "round_names": {
     "F": "决赛",
@@ -1580,7 +1587,7 @@
       "roles": "角色",
       "client": "客户端",
       "director": "赛事总监",
-      "admin": "管理员",
+      "admin": "__STALE__管理员",
       "official": "官员",
       "scoring": "记分",
       "developer": "开发者",
@@ -2123,7 +2130,8 @@
       "providerLabel": "服务商",
       "continue": "继续",
       "signOut": "退出登录",
-      "failed": "无法打开该服务商"
+      "failed": "无法打开该服务商",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "弃权或判负",

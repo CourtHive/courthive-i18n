@@ -496,7 +496,14 @@
     },
     "inviteFailed": "Pozvánku se nepodařilo odeslat. Zkuste to prosím znovu.",
     "manageAsProvisioner": "Spravovat jako tento provisioner",
-    "nowManagingProvisioner": "Nyní vystupujete jako „{{name}}“"
+    "nowManagingProvisioner": "Nyní vystupujete jako „{{name}}“",
+    "associateExistingUser": "__TODO__",
+    "associateExistingUserHint": "__TODO__",
+    "userAssociated": "__TODO__",
+    "userAlreadyAssociated": "__TODO__",
+    "associateUserNotFound": "__TODO__",
+    "associateEmailAmbiguous": "__TODO__",
+    "lastProviderAdmin": "__TODO__"
   },
   "round_names": {
     "F": "Finále",
@@ -1672,7 +1679,7 @@
       "roles": "Role",
       "client": "Klient",
       "director": "Ředitel",
-      "admin": "Admin",
+      "admin": "__STALE__Admin",
       "official": "Rozhodčí",
       "scoring": "Skórování",
       "developer": "Vývojář",
@@ -2127,7 +2134,8 @@
       "providerLabel": "Poskytovatel",
       "continue": "Pokračovat",
       "signOut": "Odhlásit se",
-      "failed": "Tohoto poskytovatele se nepodařilo otevřít"
+      "failed": "Tohoto poskytovatele se nepodařilo otevřít",
+      "consoleIntro": "__TODO__"
     },
     "exitBeforeArrival": {
       "title": "Walkover nebo kontumace",
