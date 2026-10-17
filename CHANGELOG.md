@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.10.2](https://github.com/CourtHive/courthive-i18n/compare/v0.10.1...v0.10.2) (2026-10-17)
+
+
+### Bug Fixes
+
+* **hooks:** pass the message file to commitlint once, so merge commits lint ([#150](https://github.com/CourtHive/courthive-i18n/issues/150)) ([5b02f89](https://github.com/CourtHive/courthive-i18n/commit/5b02f8985e8955c1e5fbef1b7d64e81b3bc8f146))
+* **i18n:** sync en.json from courthive-console ([#142](https://github.com/CourtHive/courthive-i18n/issues/142)) ([d97ef15](https://github.com/CourtHive/courthive-i18n/commit/d97ef1548948f34b217c5f7e693f0b918493b9de))
+* **i18n:** sync en.json from TMX ([#146](https://github.com/CourtHive/courthive-i18n/issues/146)) ([78097d0](https://github.com/CourtHive/courthive-i18n/commit/78097d01008b7d22ff95a32113fd3d95c97b27d0))
+
 ## [0.10.1](https://github.com/CourtHive/courthive-i18n/compare/v0.10.0...v0.10.1) (2026-10-14)
 
 
