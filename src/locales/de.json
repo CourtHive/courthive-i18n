@@ -1408,7 +1408,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Warnung: Diese Aktion ersetzt den Turnierdatensatz auf dem Server",
-      "scopedAccess": "Eingegrenzter Zugriff"
+      "scopedAccess": "Eingegrenzter Zugriff",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "Benutzer einladen",
@@ -2173,7 +2177,10 @@
     "statusOutOfScope": "Dieser Status ist für dieses Spiel nicht verfügbar",
     "clearRefused": "Dieses Ergebnis kann nicht gelöscht werden: Ein späteres Match hängt davon ab. Löschen Sie zuerst jenes Match.",
     "scoreDiscardedByFormat": "Die Formatänderung auf {{matchUpFormat}} hat {{count}} Satz/Sätze verworfen: {{sets}}",
-    "offlineChangeRejected": "Eine offline vorgenommene Änderung wurde vom Server abgelehnt"
+    "offlineChangeRejected": "Eine offline vorgenommene Änderung wurde vom Server abgelehnt",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisierung",
@@ -4601,7 +4608,9 @@
     "modify": "Ändern?",
     "impersonate": "Identität übernehmen?",
     "rejected": "Der Server hat die Änderung abgelehnt",
-    "sessionExpired": "Sitzung abgelaufen"
+    "sessionExpired": "Sitzung abgelaufen",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Gespeichert"

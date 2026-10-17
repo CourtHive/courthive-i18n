@@ -1580,7 +1580,11 @@
       "offline": "离线",
       "online": "在线",
       "uploadWarning": "警告：此操作将替换服务器上的锦标赛记录",
-      "scopedAccess": "范围权限"
+      "scopedAccess": "范围权限",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "邀请用户",
@@ -2345,7 +2349,10 @@
     "statusOutOfScope": "此比赛不可使用该状态",
     "clearRefused": "无法清除此结果：后续比赛依赖于它。请先清除那场比赛。",
     "scoreDiscardedByFormat": "将赛制更改为 {{matchUpFormat}} 后丢弃了 {{count}} 盘：{{sets}}",
-    "offlineChangeRejected": "离线期间所做的更改被服务器拒绝"
+    "offlineChangeRejected": "离线期间所做的更改被服务器拒绝",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -4601,7 +4608,9 @@
     "modify": "要修改吗？",
     "impersonate": "以其他用户身份操作？",
     "rejected": "服务器拒绝了此次更改",
-    "sessionExpired": "会话已过期"
+    "sessionExpired": "会话已过期",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "已保存"

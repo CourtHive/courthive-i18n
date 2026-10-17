@@ -1408,7 +1408,11 @@
       "offline": "Sin conexión",
       "online": "En línea",
       "uploadWarning": "Advertencia: Esta acción reemplazará el registro del torneo en el servidor",
-      "scopedAccess": "Acceso acotado"
+      "scopedAccess": "Acceso acotado",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "Invitar usuario",
@@ -2173,7 +2177,10 @@
     "statusOutOfScope": "Este estado no está disponible para este partido",
     "clearRefused": "Este resultado no se puede borrar: un partido posterior depende de él. Borre primero ese partido.",
     "scoreDiscardedByFormat": "Al cambiar el formato a {{matchUpFormat}} se descartaron {{count}} set(s): {{sets}}",
-    "offlineChangeRejected": "El servidor rechazó un cambio realizado sin conexión"
+    "offlineChangeRejected": "El servidor rechazó un cambio realizado sin conexión",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorización",
@@ -4601,7 +4608,9 @@
     "modify": "¿Modificar?",
     "impersonate": "¿Suplantar identidad?",
     "rejected": "El servidor rechazó la modificación",
-    "sessionExpired": "Sesión caducada"
+    "sessionExpired": "Sesión caducada",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Guardado"

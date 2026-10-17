@@ -1660,7 +1660,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Upozorenje: Ova radnja će zamijeniti zapis turnira na poslužitelju",
-      "scopedAccess": "Ograničeni pristup"
+      "scopedAccess": "Ograničeni pristup",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "manageAccess": {
       "title": "Upravljaj pristupom",
@@ -2349,7 +2353,10 @@
     "statusOutOfScope": "Ovaj status nije dostupan za ovaj meč",
     "clearRefused": "Ovaj rezultat ne može se ukloniti: o njemu ovisi kasniji meč. Najprije uklonite taj meč.",
     "scoreDiscardedByFormat": "Promjenom formata u {{matchUpFormat}} odbačeno je setova: {{count}} ({{sets}})",
-    "offlineChangeRejected": "Poslužitelj je odbio promjenu napravljenu izvan mreže"
+    "offlineChangeRejected": "Poslužitelj je odbio promjenu napravljenu izvan mreže",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -4601,7 +4608,9 @@
     "modify": "Izmijeniti?",
     "impersonate": "Predstaviti se kao drugi korisnik?",
     "rejected": "Poslužitelj je odbio izmjenu",
-    "sessionExpired": "Sesija je istekla"
+    "sessionExpired": "Sesija je istekla",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Spremljeno"

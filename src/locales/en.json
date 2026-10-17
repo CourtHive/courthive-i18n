@@ -1660,7 +1660,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Warning: This action will replace the tournament record on the server",
-      "scopedAccess": "Scoped access"
+      "scopedAccess": "Scoped access",
+      "saveConflict": "The server has a newer version of this tournament. Nothing was saved and your local copy was kept. Loading the server copy replaces it.",
+      "saveExists": "This tournament already exists on the server. Nothing was saved and your local copy was kept.",
+      "saveUncertain": "Could not confirm the save reached the server. Your local copy was kept; try again.",
+      "loadServerCopy": "Load server copy"
     },
     "manageAccess": {
       "title": "Manage access",
@@ -2349,7 +2353,10 @@
     "statusOutOfScope": "This status is unavailable for this match",
     "clearRefused": "This result can't be cleared: a later match depends on it. Clear that match first.",
     "scoreDiscardedByFormat": "Changing the format to {{matchUpFormat}} discarded {{count}} set(s): {{sets}}",
-    "offlineChangeRejected": "A change made while offline was rejected by the server"
+    "offlineChangeRejected": "A change made while offline was rejected by the server",
+    "durableChangeNeedsReview": "An earlier change needs review. Refresh the tournament before continuing.",
+    "durableCommandNotStored": "Durable command could not be stored for this session",
+    "durableQueueFailed": "The change could not be queued durably; keep this page open"
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -4601,7 +4608,9 @@
     "modify": "Modify?",
     "impersonate": "Impersonate?",
     "rejected": "Server rejected mutation",
-    "sessionExpired": "Session expired"
+    "sessionExpired": "Session expired",
+    "tournamentChangedBeforeApply": "Tournament changed before mutation could be applied",
+    "tournamentChangedAwaitingAck": "Tournament changed while awaiting acknowledgement"
   },
   "queueService": {
     "saved": "Saved"
