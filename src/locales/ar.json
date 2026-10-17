@@ -1408,7 +1408,11 @@
       "offline": "غير متصل",
       "online": "متصل",
       "uploadWarning": "تحذير: سيؤدي هذا الإجراء إلى استبدال سجل البطولة على الخادم",
-      "scopedAccess": "صلاحية محدودة النطاق"
+      "scopedAccess": "صلاحية محدودة النطاق",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "دعوة مستخدم",
@@ -2173,7 +2177,10 @@
     "statusOutOfScope": "هذه الحالة غير متاحة لهذه المباراة",
     "clearRefused": "لا يمكن مسح هذه النتيجة: تعتمد عليها مباراة لاحقة. امسح تلك المباراة أولاً.",
     "scoreDiscardedByFormat": "أدى تغيير الصيغة إلى {{matchUpFormat}} إلى حذف {{count}} شوط (أشواط): {{sets}}",
-    "offlineChangeRejected": "رفض الخادم تغييراً أُجري دون اتصال"
+    "offlineChangeRejected": "رفض الخادم تغييراً أُجري دون اتصال",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "التفويض",
@@ -4601,7 +4608,9 @@
     "modify": "تعديل؟",
     "impersonate": "انتحال هوية مستخدم آخر؟",
     "rejected": "رفض الخادم التعديل",
-    "sessionExpired": "انتهت الجلسة"
+    "sessionExpired": "انتهت الجلسة",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "تم الحفظ"

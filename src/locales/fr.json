@@ -1408,7 +1408,11 @@
       "offline": "Hors ligne",
       "online": "En ligne",
       "uploadWarning": "Avertissement : cette action remplacera l'enregistrement du tournoi sur le serveur",
-      "scopedAccess": "Accès ciblé"
+      "scopedAccess": "Accès ciblé",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "Inviter un utilisateur",
@@ -2173,7 +2177,10 @@
     "statusOutOfScope": "Ce statut n’est pas disponible pour ce match",
     "clearRefused": "Ce résultat ne peut pas être effacé : un match ultérieur en dépend. Effacez d’abord ce match.",
     "scoreDiscardedByFormat": "Le passage au format {{matchUpFormat}} a supprimé {{count}} set(s) : {{sets}}",
-    "offlineChangeRejected": "Une modification effectuée hors ligne a été rejetée par le serveur"
+    "offlineChangeRejected": "Une modification effectuée hors ligne a été rejetée par le serveur",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorisation",
@@ -4601,7 +4608,9 @@
     "modify": "Modifier ?",
     "impersonate": "Prendre l’identité ?",
     "rejected": "Le serveur a refusé la modification",
-    "sessionExpired": "Session expirée"
+    "sessionExpired": "Session expirée",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Enregistré"

@@ -1408,7 +1408,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Aviso: Esta ação substituirá o registro do torneio no servidor",
-      "scopedAccess": "Acesso delimitado"
+      "scopedAccess": "Acesso delimitado",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "Convidar usuário",
@@ -2173,7 +2177,10 @@
     "statusOutOfScope": "Este estado não está disponível para esta partida",
     "clearRefused": "Este resultado não pode ser limpo: uma partida posterior depende dele. Limpe essa partida primeiro.",
     "scoreDiscardedByFormat": "Alterar o formato para {{matchUpFormat}} descartou {{count}} set(s): {{sets}}",
-    "offlineChangeRejected": "Uma alteração feita offline foi rejeitada pelo servidor"
+    "offlineChangeRejected": "Uma alteração feita offline foi rejeitada pelo servidor",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorização",
@@ -4601,7 +4608,9 @@
     "modify": "Modificar?",
     "impersonate": "Personificar?",
     "rejected": "O servidor rejeitou a alteração",
-    "sessionExpired": "Sessão expirada"
+    "sessionExpired": "Sessão expirada",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Salvo"

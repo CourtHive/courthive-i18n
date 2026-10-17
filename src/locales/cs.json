@@ -1660,7 +1660,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Varování: Tato akce nahradí záznam turnaje na serveru",
-      "scopedAccess": "Omezený přístup"
+      "scopedAccess": "Omezený přístup",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "manageAccess": {
       "title": "Spravovat přístup",
@@ -2349,7 +2353,10 @@
     "statusOutOfScope": "Tento stav není pro tento zápas dostupný",
     "clearRefused": "Tento výsledek nelze vymazat: závisí na něm pozdější zápas. Nejprve vymažte ten zápas.",
     "scoreDiscardedByFormat": "Změna formátu na {{matchUpFormat}} zahodila sety ({{count}}): {{sets}}",
-    "offlineChangeRejected": "Změna provedená offline byla serverem odmítnuta"
+    "offlineChangeRejected": "Změna provedená offline byla serverem odmítnuta",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -4601,7 +4608,9 @@
     "modify": "Upravit?",
     "impersonate": "Vydávat se za jiného uživatele?",
     "rejected": "Server odmítl změnu",
-    "sessionExpired": "Relace vypršela"
+    "sessionExpired": "Relace vypršela",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Uloženo"
