@@ -708,8 +708,7 @@
     "existing": "Postojeći zapis turnira",
     "publishtime": "Vrijeme objave",
     "replacelocal": "Zamijeniti lokalnu kopiju?",
-    "unpublish": "Skinuti turnir s objave?",
-    "liveDemoClockUnavailable": "Primjer rasporeda uživo nije generiran: natjecateljski sat ne daje upotrebljivo vrijeme. Ispravite ili uklonite natjecateljski sat (dev.setCompetitionClock) i pokušajte ponovno."
+    "unpublish": "Skinuti turnir s objave?"
   },
   "ddlb": {
     "singles": "Rang turnira (pojedinačno):",
@@ -3849,7 +3848,6 @@
     "capabilities": "MOGUĆNOSTI",
     "exit": "Izađi iz demo načina rada",
     "badgeLabel": "DEMO",
-    "bannerText": "Demo način rada — {{preset}} · {{count}} mogućnosti onemogućeno · samo na strani klijenta",
     "legend": "UI+MUT = kontrola skrivena i mutacija odbijena · UI = samo skrivena kontrola · MUT = samo odbijena mutacija · — = nema ograničenja, uključivanje ništa ne mijenja",
     "presets": {
       "providerDefaults": "Zadane vrijednosti pružatelja (bez simulacije)",

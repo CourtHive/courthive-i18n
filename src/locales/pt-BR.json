@@ -532,8 +532,7 @@
     "existing": "Registro do Torneio Existente",
     "publishtime": "Hora de Publicação",
     "replacelocal": "Substituir Cópia Local?",
-    "unpublish": "Despublicar Torneio?",
-    "liveDemoClockUnavailable": "O exemplo de Programação ao Vivo não foi gerado: o relógio da competição não está fornecendo um horário utilizável. Corrija ou remova o relógio da competição (dev.setCompetitionClock) e tente novamente."
+    "unpublish": "Despublicar Torneio?"
   },
   "ddlb": {
     "singles": "Ranking do Torneio Simples:",
@@ -3849,7 +3848,6 @@
     "capabilities": "RECURSOS",
     "exit": "Sair do modo demonstração",
     "badgeLabel": "DEMO",
-    "bannerText": "Modo demonstração — {{preset}} · {{count}} recursos desativados · apenas no cliente",
     "legend": "UI+MUT = controle oculto e mutação recusada · UI = apenas controle oculto · MUT = apenas mutação recusada · — = sem bloqueio implementado, ativar não muda nada",
     "presets": {
       "providerDefaults": "Padrões do provedor (sem simulação)",
