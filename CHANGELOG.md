@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.10.3](https://github.com/CourtHive/courthive-i18n/compare/v0.10.2...v0.10.3) (2026-10-20)
+
+
+### Bug Fixes
+
+* **i18n:** remove keys TMX retired with the demo clock ([#152](https://github.com/CourtHive/courthive-i18n/issues/152)) ([35b7b20](https://github.com/CourtHive/courthive-i18n/commit/35b7b203179d17ccd0a1ad240f633e39abe6ce38))
+* **i18n:** sync en.json from TMX ([#148](https://github.com/CourtHive/courthive-i18n/issues/148)) ([0d92402](https://github.com/CourtHive/courthive-i18n/commit/0d92402fdb99624771dc7d9132331559e7b0935d))
+
 ## [0.10.2](https://github.com/CourtHive/courthive-i18n/compare/v0.10.1...v0.10.2) (2026-10-17)
 
 
