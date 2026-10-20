@@ -704,8 +704,7 @@
     "existing": "现有锦标赛记录",
     "publishtime": "发布时间",
     "replacelocal": "替换本地副本？",
-    "unpublish": "取消发布锦标赛？",
-    "liveDemoClockUnavailable": "未生成实时赛程示例：比赛时钟未提供可用的时间。请修复或移除比赛时钟（dev.setCompetitionClock）后重试。"
+    "unpublish": "取消发布锦标赛？"
   },
   "ddlb": {
     "singles": "单打锦标赛排名：",
@@ -3849,7 +3848,6 @@
     "capabilities": "功能",
     "exit": "退出演示模式",
     "badgeLabel": "演示",
-    "bannerText": "演示模式 — {{preset}} · 已停用 {{count}} 项功能 · 仅限客户端",
     "legend": "UI+MUT = 控件隐藏且变更被拒绝 · UI = 仅隐藏控件 · MUT = 仅拒绝变更 · — = 未实现限制，切换不会有任何变化",
     "presets": {
       "providerDefaults": "供应商默认设置（不模拟）",

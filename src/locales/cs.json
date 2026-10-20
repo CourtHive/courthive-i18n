@@ -708,8 +708,7 @@
     "existing": "Stávající záznam turnaje",
     "publishtime": "Čas publikování",
     "replacelocal": "Nahradit lokální kopii?",
-    "unpublish": "Zrušit publikování turnaje?",
-    "liveDemoClockUnavailable": "Ukázka živého rozpisu nebyla vygenerována: soutěžní hodiny neposkytují použitelný čas. Opravte nebo odstraňte soutěžní hodiny (dev.setCompetitionClock) a zkuste to znovu."
+    "unpublish": "Zrušit publikování turnaje?"
   },
   "ddlb": {
     "singles": "Pořadí turnaje (dvouhra):",
@@ -3849,7 +3848,6 @@
     "capabilities": "FUNKCE",
     "exit": "Ukončit režim ukázky",
     "badgeLabel": "DEMO",
-    "bannerText": "Režim ukázky — {{preset}} · {{count}} funkcí vypnuto · pouze na straně klienta",
     "legend": "UI+MUT = ovládací prvek skryt a mutace odmítnuta · UI = pouze skrytý ovládací prvek · MUT = pouze odmítnutá mutace · — = žádné omezení, přepnutí nic nezmění",
     "presets": {
       "providerDefaults": "Výchozí hodnoty poskytovatele (bez simulace)",

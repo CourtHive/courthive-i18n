@@ -708,8 +708,7 @@
     "existing": "Existing Tournament Record",
     "publishtime": "Publish Time",
     "replacelocal": "Replace Local Copy?",
-    "unpublish": "Unpublish Tournament?",
-    "liveDemoClockUnavailable": "The Live Schedule example was not generated: the competition clock is not giving a usable time. Fix or remove the competition clock (dev.setCompetitionClock) and try again."
+    "unpublish": "Unpublish Tournament?"
   },
   "ddlb": {
     "singles": "Singles Tournament Rank:",
@@ -3849,7 +3848,6 @@
     "capabilities": "CAPABILITIES",
     "exit": "Exit demo mode",
     "badgeLabel": "DEMO",
-    "bannerText": "Demo mode — {{preset}} · {{count}} capabilities disabled · client-side only",
     "legend": "UI+MUT = control hidden and mutation refused · UI = control hidden only · MUT = mutation refused only · — = no gate implemented, toggling changes nothing",
     "presets": {
       "providerDefaults": "Provider defaults (no simulation)",

@@ -532,8 +532,7 @@
     "existing": "Enregistrement de tournoi existant",
     "publishtime": "Heure de publication",
     "replacelocal": "Remplacer la copie locale ?",
-    "unpublish": "Dépublier le tournoi ?",
-    "liveDemoClockUnavailable": "L’exemple de programmation en direct n’a pas été généré : l’horloge de compétition ne fournit pas d’heure exploitable. Corrigez ou supprimez l’horloge de compétition (dev.setCompetitionClock) et réessayez."
+    "unpublish": "Dépublier le tournoi ?"
   },
   "ddlb": {
     "singles": "Rang du tournoi en simple :",
@@ -3849,7 +3848,6 @@
     "capabilities": "FONCTIONNALITÉS",
     "exit": "Quitter le mode démo",
     "badgeLabel": "DÉMO",
-    "bannerText": "Mode démo — {{preset}} · {{count}} fonctionnalités désactivées · côté client uniquement",
     "legend": "UI+MUT = contrôle masqué et mutation refusée · UI = contrôle masqué uniquement · MUT = mutation refusée uniquement · — = aucun filtre implémenté, activer ne change rien",
     "presets": {
       "providerDefaults": "Valeurs du fournisseur (aucune simulation)",

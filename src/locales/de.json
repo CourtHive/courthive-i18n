@@ -532,8 +532,7 @@
     "existing": "Vorhandener Turnierdatensatz",
     "publishtime": "Veröffentlichungszeit",
     "replacelocal": "Lokale Kopie ersetzen?",
-    "unpublish": "Turnier zurückziehen?",
-    "liveDemoClockUnavailable": "Das Live-Spielplan-Beispiel wurde nicht erzeugt: Die Wettkampfuhr liefert keine verwendbare Zeit. Korrigieren oder entfernen Sie die Wettkampfuhr (dev.setCompetitionClock) und versuchen Sie es erneut."
+    "unpublish": "Turnier zurückziehen?"
   },
   "ddlb": {
     "singles": "Einzel-Turnierrang:",
@@ -3849,7 +3848,6 @@
     "capabilities": "FUNKTIONEN",
     "exit": "Demomodus beenden",
     "badgeLabel": "DEMO",
-    "bannerText": "Demomodus — {{preset}} · {{count}} Funktionen deaktiviert · nur clientseitig",
     "legend": "UI+MUT = Bedienelement ausgeblendet und Mutation abgelehnt · UI = nur Bedienelement ausgeblendet · MUT = nur Mutation abgelehnt · — = keine Sperre umgesetzt, Umschalten ändert nichts",
     "presets": {
       "providerDefaults": "Anbietervorgaben (keine Simulation)",
