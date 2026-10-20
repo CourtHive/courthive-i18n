@@ -708,7 +708,8 @@
     "existing": "Postojeći zapis turnira",
     "publishtime": "Vrijeme objave",
     "replacelocal": "Zamijeniti lokalnu kopiju?",
-    "unpublish": "Skinuti turnir s objave?"
+    "unpublish": "Skinuti turnir s objave?",
+    "exampleClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "Rang turnira (pojedinačno):",
@@ -1008,7 +1009,7 @@
     "event": "Događaj",
     "round": "Kolo",
     "matchUp": "Meč",
-    "noScheduledMatchUpsMatch": "Nijedan zakazani meč ne odgovara pretrazi",
+    "noScheduledMatchUpsMatch": "__STALE__Nijedan zakazani meč ne odgovara pretrazi",
     "searchScheduledMatchUps": "Pretraži zakazane mečeve...",
     "scheduledTitle": "Zakazani mečevi",
     "scheduledCount_one": "{{count}} zakazan",
@@ -1290,7 +1291,19 @@
       "ended": "Završeno",
       "scored": "Upisan rezultat"
     },
-    "clockUnavailable": "Natjecateljski sat ne daje upotrebljivo vrijeme, pa meč nije pozvan."
+    "clockUnavailable": "Natjecateljski sat ne daje upotrebljivo vrijeme, pa meč nije pozvan.",
+    "presentation": {
+      "layout": "__TODO__",
+      "layoutLabel": "__TODO__",
+      "catalogPlacement": "__TODO__",
+      "inspectorPlacement": "__TODO__",
+      "catalogLeft": "__TODO__",
+      "catalogBottom": "__TODO__",
+      "inspectorDocked": "__TODO__",
+      "inspectorFloating": "__TODO__",
+      "previousCards": "__TODO__",
+      "nextCards": "__TODO__"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Čujna opscenost",
@@ -1659,7 +1672,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Upozorenje: Ova radnja će zamijeniti zapis turnira na poslužitelju",
-      "scopedAccess": "Ograničeni pristup"
+      "scopedAccess": "Ograničeni pristup",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "manageAccess": {
       "title": "Upravljaj pristupom",
@@ -2348,7 +2365,11 @@
     "statusOutOfScope": "Ovaj status nije dostupan za ovaj meč",
     "clearRefused": "Ovaj rezultat ne može se ukloniti: o njemu ovisi kasniji meč. Najprije uklonite taj meč.",
     "scoreDiscardedByFormat": "Promjenom formata u {{matchUpFormat}} odbačeno je setova: {{count}} ({{sets}})",
-    "offlineChangeRejected": "Poslužitelj je odbio promjenu napravljenu izvan mreže"
+    "offlineChangeRejected": "Poslužitelj je odbio promjenu napravljenu izvan mreže",
+    "scoreRefused": "__TODO__",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -4599,7 +4620,9 @@
     "modify": "Izmijeniti?",
     "impersonate": "Predstaviti se kao drugi korisnik?",
     "rejected": "Poslužitelj je odbio izmjenu",
-    "sessionExpired": "Sesija je istekla"
+    "sessionExpired": "Sesija je istekla",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Spremljeno"
@@ -4665,5 +4688,67 @@
       "standings": "Pojedinačni poredak",
       "unresolved": "Neriješeni rezultati: {{count}}"
     }
+  },
+  "demoClock": {
+    "title": "__TODO__",
+    "launch": "__TODO__",
+    "cannotStart": "__TODO__",
+    "launchHint": "__TODO__",
+    "collapse": "__TODO__",
+    "expand": "__TODO__",
+    "exit": "__TODO__",
+    "time": "__TODO__",
+    "date": "__TODO__",
+    "setTime": "__TODO__",
+    "set": "__TODO__",
+    "paused": "__TODO__",
+    "step": "__TODO__",
+    "forwardOnly": "__TODO__",
+    "boundary": "__TODO__",
+    "noBoundary": "__TODO__",
+    "boundaries": {
+      "scheduled": "__TODO__",
+      "blockStart": "__TODO__",
+      "blockEnd": "__TODO__"
+    },
+    "openDay": "__TODO__",
+    "garman": "__TODO__",
+    "pro": "__TODO__",
+    "saveFirst": "__TODO__",
+    "notOpened": "__TODO__",
+    "failed": "__TODO__",
+    "applied": "__TODO__",
+    "hint": "__TODO__",
+    "days": {
+      "day1": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day2": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day3": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      }
+    },
+    "shortLabel": "__TODO__",
+    "bottomBar": "__TODO__",
+    "mode": "__TODO__",
+    "modes": {
+      "clock": "__TODO__",
+      "script": "__TODO__"
+    },
+    "loadScript": "__TODO__",
+    "loadFailed": "__TODO__",
+    "freeHint": "__TODO__",
+    "startCapture": "__TODO__",
+    "stopCapture": "__TODO__",
+    "exportCapture": "__TODO__",
+    "capturing": "__TODO__",
+    "captureReady": "__TODO__",
+    "captureLimit": "__TODO__",
+    "captureFailed": "__TODO__"
   }
 }

@@ -704,7 +704,8 @@
     "existing": "现有锦标赛记录",
     "publishtime": "发布时间",
     "replacelocal": "替换本地副本？",
-    "unpublish": "取消发布锦标赛？"
+    "unpublish": "取消发布锦标赛？",
+    "exampleClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "单打锦标赛排名：",
@@ -1004,7 +1005,7 @@
     "event": "赛事",
     "round": "轮次",
     "matchUp": "比赛",
-    "noScheduledMatchUpsMatch": "没有已排期的比赛与搜索匹配",
+    "noScheduledMatchUpsMatch": "__STALE__没有已排期的比赛与搜索匹配",
     "searchScheduledMatchUps": "搜索已排期的比赛…",
     "scheduledTitle": "已排期的比赛",
     "scheduledCount_one": "{{count}} 场已排期",
@@ -1286,7 +1287,19 @@
       "ended": "结束",
       "scored": "录入比分"
     },
-    "clockUnavailable": "比赛时钟未提供可用的时间，因此未叫该比赛上场。"
+    "clockUnavailable": "比赛时钟未提供可用的时间，因此未叫该比赛上场。",
+    "presentation": {
+      "layout": "__TODO__",
+      "layoutLabel": "__TODO__",
+      "catalogPlacement": "__TODO__",
+      "inspectorPlacement": "__TODO__",
+      "catalogLeft": "__TODO__",
+      "catalogBottom": "__TODO__",
+      "inspectorDocked": "__TODO__",
+      "inspectorFloating": "__TODO__",
+      "previousCards": "__TODO__",
+      "nextCards": "__TODO__"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "言语猥亵",
@@ -1579,7 +1592,11 @@
       "offline": "离线",
       "online": "在线",
       "uploadWarning": "警告：此操作将替换服务器上的锦标赛记录",
-      "scopedAccess": "范围权限"
+      "scopedAccess": "范围权限",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "邀请用户",
@@ -2344,7 +2361,11 @@
     "statusOutOfScope": "此比赛不可使用该状态",
     "clearRefused": "无法清除此结果：后续比赛依赖于它。请先清除那场比赛。",
     "scoreDiscardedByFormat": "将赛制更改为 {{matchUpFormat}} 后丢弃了 {{count}} 盘：{{sets}}",
-    "offlineChangeRejected": "离线期间所做的更改被服务器拒绝"
+    "offlineChangeRejected": "离线期间所做的更改被服务器拒绝",
+    "scoreRefused": "__TODO__",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -4599,7 +4620,9 @@
     "modify": "要修改吗？",
     "impersonate": "以其他用户身份操作？",
     "rejected": "服务器拒绝了此次更改",
-    "sessionExpired": "会话已过期"
+    "sessionExpired": "会话已过期",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "已保存"
@@ -4665,5 +4688,67 @@
       "standings": "个人排名",
       "unresolved": "未结算的结果：{{count}}"
     }
+  },
+  "demoClock": {
+    "title": "__TODO__",
+    "launch": "__TODO__",
+    "cannotStart": "__TODO__",
+    "launchHint": "__TODO__",
+    "collapse": "__TODO__",
+    "expand": "__TODO__",
+    "exit": "__TODO__",
+    "time": "__TODO__",
+    "date": "__TODO__",
+    "setTime": "__TODO__",
+    "set": "__TODO__",
+    "paused": "__TODO__",
+    "step": "__TODO__",
+    "forwardOnly": "__TODO__",
+    "boundary": "__TODO__",
+    "noBoundary": "__TODO__",
+    "boundaries": {
+      "scheduled": "__TODO__",
+      "blockStart": "__TODO__",
+      "blockEnd": "__TODO__"
+    },
+    "openDay": "__TODO__",
+    "garman": "__TODO__",
+    "pro": "__TODO__",
+    "saveFirst": "__TODO__",
+    "notOpened": "__TODO__",
+    "failed": "__TODO__",
+    "applied": "__TODO__",
+    "hint": "__TODO__",
+    "days": {
+      "day1": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day2": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day3": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      }
+    },
+    "shortLabel": "__TODO__",
+    "bottomBar": "__TODO__",
+    "mode": "__TODO__",
+    "modes": {
+      "clock": "__TODO__",
+      "script": "__TODO__"
+    },
+    "loadScript": "__TODO__",
+    "loadFailed": "__TODO__",
+    "freeHint": "__TODO__",
+    "startCapture": "__TODO__",
+    "stopCapture": "__TODO__",
+    "exportCapture": "__TODO__",
+    "capturing": "__TODO__",
+    "captureReady": "__TODO__",
+    "captureLimit": "__TODO__",
+    "captureFailed": "__TODO__"
   }
 }
