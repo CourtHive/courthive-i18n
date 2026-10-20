@@ -708,7 +708,8 @@
     "existing": "Stávající záznam turnaje",
     "publishtime": "Čas publikování",
     "replacelocal": "Nahradit lokální kopii?",
-    "unpublish": "Zrušit publikování turnaje?"
+    "unpublish": "Zrušit publikování turnaje?",
+    "exampleClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "Pořadí turnaje (dvouhra):",
@@ -1008,7 +1009,7 @@
     "event": "Soutěž",
     "round": "Kolo",
     "matchUp": "Zápas",
-    "noScheduledMatchUpsMatch": "Hledání neodpovídají žádné naplánované zápasy",
+    "noScheduledMatchUpsMatch": "__STALE__Hledání neodpovídají žádné naplánované zápasy",
     "searchScheduledMatchUps": "Hledat naplánované zápasy...",
     "scheduledTitle": "Naplánované zápasy",
     "scheduledCount_one": "{{count}} naplánován",
@@ -1290,7 +1291,19 @@
       "ended": "Ukončeno",
       "scored": "Skóre zadáno"
     },
-    "clockUnavailable": "Soutěžní hodiny neposkytují použitelný čas, takže zápas nebyl vyvolán."
+    "clockUnavailable": "Soutěžní hodiny neposkytují použitelný čas, takže zápas nebyl vyvolán.",
+    "presentation": {
+      "layout": "__TODO__",
+      "layoutLabel": "__TODO__",
+      "catalogPlacement": "__TODO__",
+      "inspectorPlacement": "__TODO__",
+      "catalogLeft": "__TODO__",
+      "catalogBottom": "__TODO__",
+      "inspectorDocked": "__TODO__",
+      "inspectorFloating": "__TODO__",
+      "previousCards": "__TODO__",
+      "nextCards": "__TODO__"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Slyšitelná obscenita",
@@ -1659,7 +1672,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Varování: Tato akce nahradí záznam turnaje na serveru",
-      "scopedAccess": "Omezený přístup"
+      "scopedAccess": "Omezený přístup",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "manageAccess": {
       "title": "Spravovat přístup",
@@ -2348,7 +2365,11 @@
     "statusOutOfScope": "Tento stav není pro tento zápas dostupný",
     "clearRefused": "Tento výsledek nelze vymazat: závisí na něm pozdější zápas. Nejprve vymažte ten zápas.",
     "scoreDiscardedByFormat": "Změna formátu na {{matchUpFormat}} zahodila sety ({{count}}): {{sets}}",
-    "offlineChangeRejected": "Změna provedená offline byla serverem odmítnuta"
+    "offlineChangeRejected": "Změna provedená offline byla serverem odmítnuta",
+    "scoreRefused": "__TODO__",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -4599,7 +4620,9 @@
     "modify": "Upravit?",
     "impersonate": "Vydávat se za jiného uživatele?",
     "rejected": "Server odmítl změnu",
-    "sessionExpired": "Relace vypršela"
+    "sessionExpired": "Relace vypršela",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Uloženo"
@@ -4665,5 +4688,67 @@
       "standings": "Individuální pořadí",
       "unresolved": "Nevyřešené výsledky: {{count}}"
     }
+  },
+  "demoClock": {
+    "title": "__TODO__",
+    "launch": "__TODO__",
+    "cannotStart": "__TODO__",
+    "launchHint": "__TODO__",
+    "collapse": "__TODO__",
+    "expand": "__TODO__",
+    "exit": "__TODO__",
+    "time": "__TODO__",
+    "date": "__TODO__",
+    "setTime": "__TODO__",
+    "set": "__TODO__",
+    "paused": "__TODO__",
+    "step": "__TODO__",
+    "forwardOnly": "__TODO__",
+    "boundary": "__TODO__",
+    "noBoundary": "__TODO__",
+    "boundaries": {
+      "scheduled": "__TODO__",
+      "blockStart": "__TODO__",
+      "blockEnd": "__TODO__"
+    },
+    "openDay": "__TODO__",
+    "garman": "__TODO__",
+    "pro": "__TODO__",
+    "saveFirst": "__TODO__",
+    "notOpened": "__TODO__",
+    "failed": "__TODO__",
+    "applied": "__TODO__",
+    "hint": "__TODO__",
+    "days": {
+      "day1": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day2": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day3": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      }
+    },
+    "shortLabel": "__TODO__",
+    "bottomBar": "__TODO__",
+    "mode": "__TODO__",
+    "modes": {
+      "clock": "__TODO__",
+      "script": "__TODO__"
+    },
+    "loadScript": "__TODO__",
+    "loadFailed": "__TODO__",
+    "freeHint": "__TODO__",
+    "startCapture": "__TODO__",
+    "stopCapture": "__TODO__",
+    "exportCapture": "__TODO__",
+    "capturing": "__TODO__",
+    "captureReady": "__TODO__",
+    "captureLimit": "__TODO__",
+    "captureFailed": "__TODO__"
   }
 }

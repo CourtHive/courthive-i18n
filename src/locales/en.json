@@ -708,7 +708,8 @@
     "existing": "Existing Tournament Record",
     "publishtime": "Publish Time",
     "replacelocal": "Replace Local Copy?",
-    "unpublish": "Unpublish Tournament?"
+    "unpublish": "Unpublish Tournament?",
+    "exampleClockUnavailable": "The {{name}} example was not generated: the competition clock is not giving a usable time. Fix or remove the competition clock (dev.setCompetitionClock) and try again."
   },
   "ddlb": {
     "singles": "Singles Tournament Rank:",
@@ -1008,7 +1009,7 @@
     "event": "Event",
     "round": "Round",
     "matchUp": "Match",
-    "noScheduledMatchUpsMatch": "No scheduled matchUps match the search",
+    "noScheduledMatchUpsMatch": "No scheduled matchUps match the current filters and search",
     "searchScheduledMatchUps": "Search scheduled matchUps...",
     "scheduledTitle": "Scheduled MatchUps",
     "scheduledCount_one": "{{count}} scheduled",
@@ -1290,7 +1291,19 @@
       "ended": "Ended",
       "scored": "Scored"
     },
-    "clockUnavailable": "The competition clock is not giving a usable time, so the match was not called."
+    "clockUnavailable": "The competition clock is not giving a usable time, so the match was not called.",
+    "presentation": {
+      "layout": "Layout",
+      "layoutLabel": "Scheduling layout",
+      "catalogPlacement": "Catalog placement",
+      "inspectorPlacement": "Inspector placement",
+      "catalogLeft": "Catalog: Left",
+      "catalogBottom": "Catalog: Bottom",
+      "inspectorDocked": "Inspector: Docked",
+      "inspectorFloating": "Inspector: Floating",
+      "previousCards": "Previous cards",
+      "nextCards": "Next cards"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Audible Obscenity",
@@ -1659,7 +1672,11 @@
       "offline": "Offline",
       "online": "Online",
       "uploadWarning": "Warning: This action will replace the tournament record on the server",
-      "scopedAccess": "Scoped access"
+      "scopedAccess": "Scoped access",
+      "saveConflict": "The server has a newer version of this tournament. Nothing was saved and your local copy was kept. Loading the server copy replaces it.",
+      "saveExists": "This tournament already exists on the server. Nothing was saved and your local copy was kept.",
+      "saveUncertain": "Could not confirm the save reached the server. Your local copy was kept; try again.",
+      "loadServerCopy": "Load server copy"
     },
     "manageAccess": {
       "title": "Manage access",
@@ -2348,7 +2365,11 @@
     "statusOutOfScope": "This status is unavailable for this match",
     "clearRefused": "This result can't be cleared: a later match depends on it. Clear that match first.",
     "scoreDiscardedByFormat": "Changing the format to {{matchUpFormat}} discarded {{count}} set(s): {{sets}}",
-    "offlineChangeRejected": "A change made while offline was rejected by the server"
+    "offlineChangeRejected": "A change made while offline was rejected by the server",
+    "scoreRefused": "This match can't be scored or corrected now: the draw does not offer scoring for it.",
+    "durableChangeNeedsReview": "An earlier change needs review. Refresh the tournament before continuing.",
+    "durableCommandNotStored": "Durable command could not be stored for this session",
+    "durableQueueFailed": "The change could not be queued durably; keep this page open"
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -4599,7 +4620,9 @@
     "modify": "Modify?",
     "impersonate": "Impersonate?",
     "rejected": "Server rejected mutation",
-    "sessionExpired": "Session expired"
+    "sessionExpired": "Session expired",
+    "tournamentChangedBeforeApply": "Tournament changed before mutation could be applied",
+    "tournamentChangedAwaitingAck": "Tournament changed while awaiting acknowledgement"
   },
   "queueService": {
     "saved": "Saved"
@@ -4665,5 +4688,67 @@
       "standings": "Individual standings",
       "unresolved": "Unresolved results: {{count}}"
     }
+  },
+  "demoClock": {
+    "title": "Demo Clock",
+    "launch": "Open Demo Clock",
+    "cannotStart": "The demo clock could not start: this tournament needs a start date and a venue time zone.",
+    "launchHint": "Load a fresh Scheduling Lab with the Garman, Pro and combined walkthrough and its demo clock. The clock runs only in a Scheduling Lab: while one is open, Open Demo Clock brings the clock back. Available only while signed out.",
+    "collapse": "Hide controls",
+    "expand": "Clock controls",
+    "exit": "Exit clock",
+    "time": "Demo time",
+    "date": "Demo date",
+    "setTime": "Demo wall time",
+    "set": "Set time",
+    "paused": "Paused",
+    "step": "+{{minutes}} min",
+    "forwardOnly": "Choose a valid time at or after the current demo time. Calls and results cannot be rewound.",
+    "boundary": "Next: {{kind}} · {{time}}",
+    "noBoundary": "No upcoming time boundary",
+    "boundaries": {
+      "scheduled": "scheduled start",
+      "blockStart": "court block starts",
+      "blockEnd": "court block ends"
+    },
+    "openDay": "Open day",
+    "garman": "Apply Garman times",
+    "pro": "Apply Pro grid",
+    "saveFirst": "Save or discard scheduling edits before running a scheduler.",
+    "notOpened": "The scheduling demo was saved but not opened. Open it from the tournaments list.",
+    "failed": "Scheduling failed. Check the schedule and try again.",
+    "applied": "Scheduler applied. Inspect the day in Grid to compare the result.",
+    "hint": "Time is paused. Start, score and finish matches with the normal tournament controls. Opening a later day advances to 09:55; earlier days can be viewed without rewinding history. Exit restores real time.",
+    "days": {
+      "day1": {
+        "title": "Day 1 · Garman",
+        "description": "Apply Times to Singles. Inspect policy-based start times, recovery gaps and court availability."
+      },
+      "day2": {
+        "title": "Day 2 · Pro",
+        "description": "Apply Grid to Doubles. Inspect court order without scheduled times. Use the normal grid controls for not-before and follow-by annotations."
+      },
+      "day3": {
+        "title": "Day 3 · Together",
+        "description": "Apply Garman times first, then Pro grid to the same Singles and Doubles draws. Verify the times remain while court positions are added."
+      }
+    },
+    "shortLabel": "Demo time",
+    "bottomBar": "Demo clock bottom bar",
+    "mode": "Demo mode",
+    "modes": {
+      "clock": "Free clock",
+      "script": "Guided scheduling demo"
+    },
+    "loadScript": "Load guided scheduling demo",
+    "loadFailed": "Could not load the scheduling demo. Please try again.",
+    "freeHint": "Time is paused. Walk through this tournament using normal controls, step time forward, and optionally record your actions. Exit restores real time.",
+    "startCapture": "Start recording",
+    "stopCapture": "Stop recording",
+    "exportCapture": "Export recording",
+    "capturing": "Recording · {{count}} steps",
+    "captureReady": "Recording ready · {{count}} steps",
+    "captureLimit": "Recording stopped at the capture limit. Export the recorded steps.",
+    "captureFailed": "Could not start recording. Check that demo clock control is active."
   }
 }

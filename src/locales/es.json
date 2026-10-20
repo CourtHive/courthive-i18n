@@ -532,7 +532,8 @@
     "existing": "Registro del Torneo Existente",
     "publishtime": "Hora de Publicación",
     "replacelocal": "¿Reemplazar Copia Local?",
-    "unpublish": "¿Despublicar Torneo?"
+    "unpublish": "¿Despublicar Torneo?",
+    "exampleClockUnavailable": "__TODO__"
   },
   "ddlb": {
     "singles": "Ranking de Torneo Singles:",
@@ -832,7 +833,7 @@
     "event": "Evento",
     "round": "Ronda",
     "matchUp": "Partido",
-    "noScheduledMatchUpsMatch": "Ningún partido programado coincide con la búsqueda",
+    "noScheduledMatchUpsMatch": "__STALE__Ningún partido programado coincide con la búsqueda",
     "searchScheduledMatchUps": "Buscar partidos programados...",
     "scheduledTitle": "Partidos programados",
     "scheduledCount_one": "{{count}} programado",
@@ -1114,7 +1115,19 @@
       "ended": "Terminado",
       "scored": "Puntuado"
     },
-    "clockUnavailable": "El reloj de competición no da una hora utilizable, así que el partido no se llamó."
+    "clockUnavailable": "El reloj de competición no da una hora utilizable, así que el partido no se llamó.",
+    "presentation": {
+      "layout": "__TODO__",
+      "layoutLabel": "__TODO__",
+      "catalogPlacement": "__TODO__",
+      "inspectorPlacement": "__TODO__",
+      "catalogLeft": "__TODO__",
+      "catalogBottom": "__TODO__",
+      "inspectorDocked": "__TODO__",
+      "inspectorFloating": "__TODO__",
+      "previousCards": "__TODO__",
+      "nextCards": "__TODO__"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Obscenidad Audible",
@@ -1407,7 +1420,11 @@
       "offline": "Sin conexión",
       "online": "En línea",
       "uploadWarning": "Advertencia: Esta acción reemplazará el registro del torneo en el servidor",
-      "scopedAccess": "Acceso acotado"
+      "scopedAccess": "Acceso acotado",
+      "saveConflict": "__TODO__",
+      "saveExists": "__TODO__",
+      "saveUncertain": "__TODO__",
+      "loadServerCopy": "__TODO__"
     },
     "inviteUser": {
       "title": "Invitar usuario",
@@ -2172,7 +2189,11 @@
     "statusOutOfScope": "Este estado no está disponible para este partido",
     "clearRefused": "Este resultado no se puede borrar: un partido posterior depende de él. Borre primero ese partido.",
     "scoreDiscardedByFormat": "Al cambiar el formato a {{matchUpFormat}} se descartaron {{count}} set(s): {{sets}}",
-    "offlineChangeRejected": "El servidor rechazó un cambio realizado sin conexión"
+    "offlineChangeRejected": "El servidor rechazó un cambio realizado sin conexión",
+    "scoreRefused": "__TODO__",
+    "durableChangeNeedsReview": "__TODO__",
+    "durableCommandNotStored": "__TODO__",
+    "durableQueueFailed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorización",
@@ -4599,7 +4620,9 @@
     "modify": "¿Modificar?",
     "impersonate": "¿Suplantar identidad?",
     "rejected": "El servidor rechazó la modificación",
-    "sessionExpired": "Sesión caducada"
+    "sessionExpired": "Sesión caducada",
+    "tournamentChangedBeforeApply": "__TODO__",
+    "tournamentChangedAwaitingAck": "__TODO__"
   },
   "queueService": {
     "saved": "Guardado"
@@ -4665,5 +4688,67 @@
       "standings": "Clasificación individual",
       "unresolved": "Resultados sin resolver: {{count}}"
     }
+  },
+  "demoClock": {
+    "title": "__TODO__",
+    "launch": "__TODO__",
+    "cannotStart": "__TODO__",
+    "launchHint": "__TODO__",
+    "collapse": "__TODO__",
+    "expand": "__TODO__",
+    "exit": "__TODO__",
+    "time": "__TODO__",
+    "date": "__TODO__",
+    "setTime": "__TODO__",
+    "set": "__TODO__",
+    "paused": "__TODO__",
+    "step": "__TODO__",
+    "forwardOnly": "__TODO__",
+    "boundary": "__TODO__",
+    "noBoundary": "__TODO__",
+    "boundaries": {
+      "scheduled": "__TODO__",
+      "blockStart": "__TODO__",
+      "blockEnd": "__TODO__"
+    },
+    "openDay": "__TODO__",
+    "garman": "__TODO__",
+    "pro": "__TODO__",
+    "saveFirst": "__TODO__",
+    "notOpened": "__TODO__",
+    "failed": "__TODO__",
+    "applied": "__TODO__",
+    "hint": "__TODO__",
+    "days": {
+      "day1": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day2": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      },
+      "day3": {
+        "title": "__TODO__",
+        "description": "__TODO__"
+      }
+    },
+    "shortLabel": "__TODO__",
+    "bottomBar": "__TODO__",
+    "mode": "__TODO__",
+    "modes": {
+      "clock": "__TODO__",
+      "script": "__TODO__"
+    },
+    "loadScript": "__TODO__",
+    "loadFailed": "__TODO__",
+    "freeHint": "__TODO__",
+    "startCapture": "__TODO__",
+    "stopCapture": "__TODO__",
+    "exportCapture": "__TODO__",
+    "capturing": "__TODO__",
+    "captureReady": "__TODO__",
+    "captureLimit": "__TODO__",
+    "captureFailed": "__TODO__"
   }
 }
