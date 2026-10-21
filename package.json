@@ -53,7 +53,7 @@
     "*": "prettier --ignore-unknown --write"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.0",
