@@ -1127,7 +1127,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "live": "__TODO__",
+    "liveTooltip": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Obscénité audible",

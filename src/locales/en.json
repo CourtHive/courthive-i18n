@@ -1303,7 +1303,9 @@
       "inspectorFloating": "Inspector: Floating",
       "previousCards": "Previous cards",
       "nextCards": "Next cards"
-    }
+    },
+    "live": "LIVE",
+    "liveTooltip": "Live score — unofficial until the result is entered"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Audible Obscenity",
