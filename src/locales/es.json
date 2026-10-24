@@ -1127,7 +1127,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Obscenidad Audible",
@@ -2182,7 +2184,11 @@
       "invalidStartTime": "Hora de inicio no guardada: debe ser anterior a la hora de finalización ya registrada.",
       "invalidTime": "No se pudo registrar esa hora.",
       "courtNotFound": "Esa cancha ya no existe. Actualice el torneo e inténtelo de nuevo.",
-      "notSaved": "El cambio de programación no se guardó: {{reason}}"
+      "notSaved": "El cambio de programación no se guardó: {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "Mostrando los primeros {{loaded}} de {{total}} torneos. Filtre o busque para acotar la lista.",
     "tournamentSearchFailed": "La búsqueda de torneos no está disponible en este momento. Solo se muestran los torneos ya cargados.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "Puntuación reportada mediante rastreador en vivo",
       "unconfirmed": "Puntuación delegada sin confirmar — confirma para hacerla oficial",
-      "unconfirmedAria": "Puntuación delegada sin confirmar a la espera de confirmación"
+      "unconfirmedAria": "Puntuación delegada sin confirmar a la espera de confirmación",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "Aceptar",
     "nominateScorekeeper": "Designar anotador",
     "removeScorekeeper": "Quitar el anotador designado",
     "approveScorekeeper": "Aprobar como anotador",
-    "removeScorekeeperApproval": "Retirar la aprobación del anotador"
+    "removeScorekeeperApproval": "Retirar la aprobación del anotador",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Configura tu proveedor",
@@ -4293,7 +4305,13 @@
     "saved": "Perfil guardado.",
     "noRounds": "No hay rondas en el plan del día. Arrastre primero rondas del catálogo a los carriles de sede.",
     "failed": "Error en la programación. Consulte la consola para más detalles.",
-    "gridFailed": "Error en la programación de la cuadrícula."
+    "gridFailed": "Error en la programación de la cuadrícula.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "Borrar el lienzo",
@@ -4538,7 +4556,7 @@
     "frameRefused": "No se puede determinar la zona horaria de este torneo, así que sus informes no se pueden leer en el reloj de la sede. Defina la zona horaria del torneo en Editar fechas."
   },
   "applyScheduling": {
-    "noPolicy": "Sin política (no aplicar límites diarios)",
+    "noPolicy": "__STALE__Sin política (no aplicar límites diarios)",
     "applyGridTitle": "Aplicar cuadrícula: política de programación",
     "selectPolicy": "Seleccione la política de programación que se usará en Aplicar horarios:",
     "noPolicies": "No hay políticas de programación disponibles",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "Resultados de la programación",
     "noActivity": "No hay actividad del programador en esta fecha.",
-    "noPerDate": "El programador terminó pero no informó de actividad por fecha."
+    "noPerDate": "El programador terminó pero no informó de actividad por fecha.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Disponibilidad",

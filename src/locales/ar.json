@@ -1127,7 +1127,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "سباب مسموع",
@@ -2182,7 +2184,11 @@
       "invalidStartTime": "لم يُحفظ وقت البدء: يجب أن يسبق وقت الانتهاء المسجّل بالفعل.",
       "invalidTime": "تعذّر تسجيل هذا الوقت.",
       "courtNotFound": "لم يعد هذا الملعب موجوداً. حدّث البطولة وحاول مرة أخرى.",
-      "notSaved": "لم يُحفظ تغيير الجدول: {{reason}}"
+      "notSaved": "لم يُحفظ تغيير الجدول: {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "عرض أول {{loaded}} من {{total}} بطولة. استخدم التصفية أو البحث لتضييق القائمة.",
     "tournamentSearchFailed": "البحث عن البطولات غير متاح حالياً. يتم عرض البطولات المحمّلة فقط.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "تم الإبلاغ عن النتيجة عبر متتبِّع مباشر",
       "unconfirmed": "نتيجة مفوَّضة غير مؤكدة — أكّدها لجعلها رسمية",
-      "unconfirmedAria": "نتيجة مفوَّضة غير مؤكدة بانتظار التأكيد"
+      "unconfirmedAria": "نتيجة مفوَّضة غير مؤكدة بانتظار التأكيد",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "قبول",
     "nominateScorekeeper": "ترشيح مسجّل للنتائج",
     "removeScorekeeper": "إزالة مسجّل النتائج المرشّح",
     "approveScorekeeper": "اعتماده مسجّلاً للنتائج",
-    "removeScorekeeperApproval": "سحب اعتماد مسجّل النتائج"
+    "removeScorekeeperApproval": "سحب اعتماد مسجّل النتائج",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "أعدّ مزوّدك",
@@ -4293,7 +4305,13 @@
     "saved": "تم حفظ الملف.",
     "noRounds": "لا توجد أدوار في خطة اليوم. اسحب أولاً أدواراً من الفهرس إلى مسارات الأماكن.",
     "failed": "فشلت الجدولة. راجع وحدة التحكم للتفاصيل.",
-    "gridFailed": "فشلت جدولة الشبكة."
+    "gridFailed": "فشلت جدولة الشبكة.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "مسح لوحة الرسم",
@@ -4538,7 +4556,7 @@
     "frameRefused": "تعذّر تحديد المنطقة الزمنية لهذه البطولة، لذا لا يمكن قراءة تقاريرها بتوقيت ساعة المكان. عيّن المنطقة الزمنية للبطولة في «تعديل التواريخ»."
   },
   "applyScheduling": {
-    "noPolicy": "بدون سياسة (عدم فرض حدود يومية)",
+    "noPolicy": "__STALE__بدون سياسة (عدم فرض حدود يومية)",
     "applyGridTitle": "تطبيق الشبكة — سياسة الجدولة",
     "selectPolicy": "اختر سياسة الجدولة التي ستُستخدم في «تطبيق الأوقات»:",
     "noPolicies": "لا توجد سياسات جدولة متاحة",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "نتائج الجدولة",
     "noActivity": "لا يوجد نشاط للمجدول في هذا التاريخ.",
-    "noPerDate": "أنهى المجدول عمله لكنه لم يُبلّغ عن نشاط بحسب التاريخ."
+    "noPerDate": "أنهى المجدول عمله لكنه لم يُبلّغ عن نشاط بحسب التاريخ.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "التوفّر",
