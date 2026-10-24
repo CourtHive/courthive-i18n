@@ -1303,7 +1303,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Slyšitelná obscenita",
@@ -2358,7 +2360,11 @@
       "invalidStartTime": "Čas začátku nebyl uložen: musí předcházet již zaznamenanému času konce.",
       "invalidTime": "Tento čas se nepodařilo zaznamenat.",
       "courtNotFound": "Tento kurt už neexistuje. Obnovte turnaj a zkuste to znovu.",
-      "notSaved": "Změna rozpisu nebyla uložena: {{reason}}"
+      "notSaved": "Změna rozpisu nebyla uložena: {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "Zobrazeno prvních {{loaded}} z {{total}} turnajů. Seznam zúžíte filtrem nebo vyhledáváním.",
     "tournamentSearchFailed": "Vyhledávání turnajů je momentálně nedostupné. Zobrazeny jsou jen již načtené turnaje.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "Skóre nahlášeno přes živý sledovač",
       "unconfirmed": "Nepotvrzené delegované skóre — potvrďte pro zoficiálnění",
-      "unconfirmedAria": "Nepotvrzené delegované skóre čeká na potvrzení"
+      "unconfirmedAria": "Nepotvrzené delegované skóre čeká na potvrzení",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "Přijmout",
     "nominateScorekeeper": "Určit zapisovatele",
     "removeScorekeeper": "Odebrat určeného zapisovatele",
     "approveScorekeeper": "Schválit jako zapisovatele",
-    "removeScorekeeperApproval": "Odebrat schválení zapisovatele"
+    "removeScorekeeperApproval": "Odebrat schválení zapisovatele",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Nastavte svého poskytovatele",
@@ -4293,7 +4305,13 @@
     "saved": "Profil uložen.",
     "noRounds": "V denním plánu nejsou žádná kola. Nejprve přetáhněte kola z katalogu do pruhů míst konání.",
     "failed": "Rozpis selhal. Podrobnosti najdete v konzoli.",
-    "gridFailed": "Rozpis mřížky selhal."
+    "gridFailed": "Rozpis mřížky selhal.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "Vymazat plátno",
@@ -4538,7 +4556,7 @@
     "frameRefused": "Časové pásmo tohoto turnaje nelze určit, takže jeho reporty nelze číst podle hodin místa konání. Nastavte časové pásmo turnaje v Upravit data."
   },
   "applyScheduling": {
-    "noPolicy": "Bez pravidla (nevynucovat denní limity)",
+    "noPolicy": "__STALE__Bez pravidla (nevynucovat denní limity)",
     "applyGridTitle": "Použít mřížku — pravidlo rozpisu",
     "selectPolicy": "Vyberte pravidlo rozpisu pro funkci Použít časy:",
     "noPolicies": "Nejsou dostupná žádná pravidla rozpisu",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "Výsledky rozpisu",
     "noActivity": "K tomuto datu není žádná aktivita plánovače.",
-    "noPerDate": "Plánovač skončil, ale nehlásil žádnou aktivitu podle data."
+    "noPerDate": "Plánovač skončil, ale nehlásil žádnou aktivitu podle data.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Dostupnost",

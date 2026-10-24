@@ -1303,7 +1303,9 @@
       "inspectorFloating": "Inspector: Floating",
       "previousCards": "Previous cards",
       "nextCards": "Next cards"
-    }
+    },
+    "collapseAllGroups": "Collapse all groups",
+    "expandAllGroups": "Expand all groups"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Audible Obscenity",
@@ -2358,7 +2360,11 @@
       "invalidStartTime": "Start time not saved: it must come before the end time already recorded.",
       "invalidTime": "That time could not be recorded.",
       "courtNotFound": "That court no longer exists. Refresh the tournament and try again.",
-      "notSaved": "Schedule change was not saved: {{reason}}"
+      "notSaved": "Schedule change was not saved: {{reason}}",
+      "beforePlayedSource": "Not scheduled: it depends on {{matchUp}}, which was already played ({{when}}). Move that match first if its time is wrong.",
+      "afterDependent": "Not moved: a played match cannot come after {{matchUp}} ({{when}}), which depends on it.",
+      "moreBlocking": "(+{{count}} more)",
+      "roundLabel": "a round {{roundNumber}} match"
     },
     "tournamentsTruncated": "Showing the first {{loaded}} of {{total}} tournaments. Filter or search to narrow the list.",
     "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "Score reported via live tracker",
       "unconfirmed": "Unconfirmed delegated score — confirm to make it official",
-      "unconfirmedAria": "Unconfirmed delegated score awaiting confirmation"
+      "unconfirmedAria": "Unconfirmed delegated score awaiting confirmation",
+      "liveScore": "Live score from a tracker — unofficial until the result is entered",
+      "crowdSessions_one": "{{count}} crowd scorer on this match — click to review",
+      "crowdSessions_other": "{{count}} crowd scorers on this match — click to review",
+      "crowdTrusted_one": "{{count}} crowd scorer, promoted — their score is shown live. Click to review",
+      "crowdTrusted_other": "{{count}} crowd scorers, one promoted — its score is shown live. Click to review"
     },
     "accept": "Accept",
     "nominateScorekeeper": "Nominate scorekeeper",
     "removeScorekeeper": "Remove nominated scorekeeper",
     "approveScorekeeper": "Approve as scorekeeper",
-    "removeScorekeeperApproval": "Remove scorekeeper approval"
+    "removeScorekeeperApproval": "Remove scorekeeper approval",
+    "live": "LIVE"
   },
   "providerSetup": {
     "wizardTitle": "Set up your provider",
@@ -4293,7 +4305,13 @@
     "saved": "Profile saved.",
     "noRounds": "No rounds in the Day Plan. Drag rounds from the catalog into venue lanes first.",
     "failed": "Scheduling failed. Check console for details.",
-    "gridFailed": "Grid scheduling failed."
+    "gridFailed": "Grid scheduling failed.",
+    "repairTitle": "Scheduling profile needs repair",
+    "repairIntro": "The scheduling profile names {{count}} round(s) whose venue, event or draw no longer exists. Nothing was scheduled. Repair the profile (remove those rounds) and apply again?",
+    "repair": "Repair profile",
+    "repaired": "Profile repaired. Apply again to schedule.",
+    "repairFailed": "Profile repair failed.",
+    "planGuardRefused": "Nothing was scheduled: the plan placed {{count}} matchUp(s) before matches already played. Please report this."
   },
   "topology": {
     "clearCanvas": "Clear Canvas",
@@ -4538,7 +4556,7 @@
     "frameRefused": "This tournament’s time zone cannot be determined, so its reports cannot be read on the venue’s clock. Set the tournament’s time zone in Edit Dates."
   },
   "applyScheduling": {
-    "noPolicy": "No policy (do not enforce daily limits)",
+    "noPolicy": "No policy (do not enforce daily limits; flag placements over them)",
     "applyGridTitle": "Apply Grid — Scheduling Policy",
     "selectPolicy": "Select the scheduling policy to use for Apply Times:",
     "noPolicies": "No scheduling policies available",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "Scheduling Results",
     "noActivity": "No scheduler activity on this date.",
-    "noPerDate": "The scheduler completed but reported no per-date activity."
+    "noPerDate": "The scheduler completed but reported no per-date activity.",
+    "noFormat": "No Format",
+    "playedOrder": "Deferred — Played Order",
+    "playedOrderDetail": "{{matchUp}} already played {{when}}",
+    "dailyLimitWarnings": "Placed Over Daily Limit"
   },
   "schedulingTab": {
     "availability": "Availability",

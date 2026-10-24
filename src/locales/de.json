@@ -1127,7 +1127,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Hörbare Obszönität",
@@ -2182,7 +2184,11 @@
       "invalidStartTime": "Startzeit nicht gespeichert: Sie muss vor der bereits erfassten Endzeit liegen.",
       "invalidTime": "Diese Zeit konnte nicht erfasst werden.",
       "courtNotFound": "Diesen Platz gibt es nicht mehr. Aktualisieren Sie das Turnier und versuchen Sie es erneut.",
-      "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}"
+      "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "Die ersten {{loaded}} von {{total}} Turnieren werden angezeigt. Filtern oder suchen Sie, um die Liste einzugrenzen.",
     "tournamentSearchFailed": "Die Turniersuche ist derzeit nicht verfügbar. Es werden nur bereits geladene Turniere angezeigt.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "Ergebnis über Live-Tracker gemeldet",
       "unconfirmed": "Unbestätigtes delegiertes Ergebnis — bestätigen, um es offiziell zu machen",
-      "unconfirmedAria": "Unbestätigtes delegiertes Ergebnis, wartet auf Bestätigung"
+      "unconfirmedAria": "Unbestätigtes delegiertes Ergebnis, wartet auf Bestätigung",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "Annehmen",
     "nominateScorekeeper": "Schreiber benennen",
     "removeScorekeeper": "Benannten Schreiber entfernen",
     "approveScorekeeper": "Als Schreiber bestätigen",
-    "removeScorekeeperApproval": "Bestätigung des Schreibers zurückziehen"
+    "removeScorekeeperApproval": "Bestätigung des Schreibers zurückziehen",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Ihren Anbieter einrichten",
@@ -4293,7 +4305,13 @@
     "saved": "Profil gespeichert.",
     "noRounds": "Keine Runden im Tagesplan. Ziehen Sie zuerst Runden aus dem Katalog in die Anlagen-Spuren.",
     "failed": "Spielplanung fehlgeschlagen. Einzelheiten in der Konsole.",
-    "gridFailed": "Rasterplanung fehlgeschlagen."
+    "gridFailed": "Rasterplanung fehlgeschlagen.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "Arbeitsfläche leeren",
@@ -4538,7 +4556,7 @@
     "frameRefused": "Die Zeitzone dieses Turniers lässt sich nicht bestimmen, daher können seine Berichte nicht nach der Uhr der Anlage gelesen werden. Legen Sie die Zeitzone des Turniers unter „Daten bearbeiten“ fest."
   },
   "applyScheduling": {
-    "noPolicy": "Keine Richtlinie (keine Tageslimits durchsetzen)",
+    "noPolicy": "__STALE__Keine Richtlinie (keine Tageslimits durchsetzen)",
     "applyGridTitle": "Raster anwenden — Spielplanungsrichtlinie",
     "selectPolicy": "Wählen Sie die Spielplanungsrichtlinie für „Zeiten anwenden“:",
     "noPolicies": "Keine Spielplanungsrichtlinien verfügbar",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "Ergebnisse der Spielplanung",
     "noActivity": "Keine Planeraktivität an diesem Datum.",
-    "noPerDate": "Der Planer war erfolgreich, meldete aber keine Aktivität pro Datum."
+    "noPerDate": "Der Planer war erfolgreich, meldete aber keine Aktivität pro Datum.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Verfügbarkeit",

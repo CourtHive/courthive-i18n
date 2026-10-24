@@ -1127,7 +1127,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Obscenidade Audível",
@@ -2182,7 +2184,11 @@
       "invalidStartTime": "Horário de início não salvo: ele deve vir antes do horário de término já registrado.",
       "invalidTime": "Esse horário não pôde ser registrado.",
       "courtNotFound": "Essa quadra não existe mais. Atualize o torneio e tente novamente.",
-      "notSaved": "A alteração da programação não foi salva: {{reason}}"
+      "notSaved": "A alteração da programação não foi salva: {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "Mostrando os primeiros {{loaded}} de {{total}} torneios. Filtre ou busque para restringir a lista.",
     "tournamentSearchFailed": "A busca de torneios está indisponível no momento. Mostrando apenas os torneios já carregados.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "Placar reportado via rastreador ao vivo",
       "unconfirmed": "Placar delegado não confirmado — confirme para torná-lo oficial",
-      "unconfirmedAria": "Placar delegado não confirmado aguardando confirmação"
+      "unconfirmedAria": "Placar delegado não confirmado aguardando confirmação",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "Aceitar",
     "nominateScorekeeper": "Indicar marcador",
     "removeScorekeeper": "Remover o marcador indicado",
     "approveScorekeeper": "Aprovar como marcador",
-    "removeScorekeeperApproval": "Remover a aprovação do marcador"
+    "removeScorekeeperApproval": "Remover a aprovação do marcador",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Configure seu provedor",
@@ -4293,7 +4305,13 @@
     "saved": "Perfil salvo.",
     "noRounds": "Nenhuma rodada no plano do dia. Arraste primeiro rodadas do catálogo para as faixas de local.",
     "failed": "Falha na programação. Verifique o console para mais detalhes.",
-    "gridFailed": "Falha na programação da grade."
+    "gridFailed": "Falha na programação da grade.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "Limpar a tela",
@@ -4538,7 +4556,7 @@
     "frameRefused": "Não é possível determinar o fuso horário deste torneio, então seus relatórios não podem ser lidos no relógio do local. Defina o fuso horário do torneio em Editar Datas."
   },
   "applyScheduling": {
-    "noPolicy": "Sem política (não aplicar limites diários)",
+    "noPolicy": "__STALE__Sem política (não aplicar limites diários)",
     "applyGridTitle": "Aplicar grade — política de programação",
     "selectPolicy": "Selecione a política de programação a usar em Aplicar horários:",
     "noPolicies": "Nenhuma política de programação disponível",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "Resultados da programação",
     "noActivity": "Nenhuma atividade do programador nesta data.",
-    "noPerDate": "O programador concluiu, mas não relatou atividade por data."
+    "noPerDate": "O programador concluiu, mas não relatou atividade por data.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Disponibilidade",

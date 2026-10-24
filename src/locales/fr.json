@@ -1127,7 +1127,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Obscénité audible",
@@ -2182,7 +2184,11 @@
       "invalidStartTime": "Heure de début non enregistrée : elle doit précéder l’heure de fin déjà enregistrée.",
       "invalidTime": "Cette heure n’a pas pu être enregistrée.",
       "courtNotFound": "Ce court n’existe plus. Actualisez le tournoi et réessayez.",
-      "notSaved": "La modification de la programmation n’a pas été enregistrée : {{reason}}"
+      "notSaved": "La modification de la programmation n’a pas été enregistrée : {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "Affichage des {{loaded}} premiers tournois sur {{total}}. Filtrez ou recherchez pour affiner la liste.",
     "tournamentSearchFailed": "La recherche de tournois est indisponible pour le moment. Seuls les tournois déjà chargés sont affichés.",
@@ -3685,13 +3691,19 @@
     "tooltip": {
       "liveTracker": "Score reporté via un suiveur en direct",
       "unconfirmed": "Score délégué non confirmé — confirmez pour le rendre officiel",
-      "unconfirmedAria": "Score délégué non confirmé en attente de confirmation"
+      "unconfirmedAria": "Score délégué non confirmé en attente de confirmation",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "Accepter",
     "nominateScorekeeper": "Désigner un marqueur",
     "removeScorekeeper": "Retirer le marqueur désigné",
     "approveScorekeeper": "Approuver comme marqueur",
-    "removeScorekeeperApproval": "Retirer l’approbation du marqueur"
+    "removeScorekeeperApproval": "Retirer l’approbation du marqueur",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Configurer votre fournisseur",
@@ -4293,7 +4305,13 @@
     "saved": "Profil enregistré.",
     "noRounds": "Aucun tour dans le plan du jour. Faites d’abord glisser des tours du catalogue vers les couloirs de sites.",
     "failed": "Échec de la programmation. Consultez la console pour plus de détails.",
-    "gridFailed": "Échec de la programmation de la grille."
+    "gridFailed": "Échec de la programmation de la grille.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "Effacer le canevas",
@@ -4538,7 +4556,7 @@
     "frameRefused": "Le fuseau horaire de ce tournoi ne peut pas être déterminé, ses rapports ne peuvent donc pas être lus sur l’horloge du site. Définissez le fuseau horaire du tournoi dans Modifier les dates."
   },
   "applyScheduling": {
-    "noPolicy": "Aucune politique (ne pas appliquer de limites quotidiennes)",
+    "noPolicy": "__STALE__Aucune politique (ne pas appliquer de limites quotidiennes)",
     "applyGridTitle": "Appliquer la grille — politique de programmation",
     "selectPolicy": "Sélectionnez la politique de programmation à utiliser pour Appliquer les horaires :",
     "noPolicies": "Aucune politique de programmation disponible",
@@ -4571,7 +4589,11 @@
   "scheduleResults": {
     "title": "Résultats de la programmation",
     "noActivity": "Aucune activité du planificateur à cette date.",
-    "noPerDate": "Le planificateur a terminé mais n’a signalé aucune activité par date."
+    "noPerDate": "Le planificateur a terminé mais n’a signalé aucune activité par date.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Disponibilité",
