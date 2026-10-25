@@ -1303,7 +1303,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Čujna opscenost",
@@ -1413,7 +1415,10 @@
       "schedule2": "Stranica rasporeda 2",
       "options": "Opcije",
       "officialsBoard": "Ploča sudaca",
-      "linkedTournaments": "Povezani turniri"
+      "linkedTournaments": "Povezani turniri",
+      "themeMode": "__TODO__",
+      "lightPalette": "__TODO__",
+      "darkPalette": "__TODO__"
     },
     "editTournamentName": {
       "title": "Uredi naziv turnira",
@@ -2403,7 +2408,11 @@
       "invalidStartTime": "Vrijeme početka nije spremljeno: mora biti prije već zabilježenog vremena završetka.",
       "invalidTime": "To vrijeme nije bilo moguće zabilježiti.",
       "courtNotFound": "Taj teren više ne postoji. Osvježite turnir i pokušajte ponovno.",
-      "notSaved": "Promjena rasporeda nije spremljena: {{reason}}"
+      "notSaved": "Promjena rasporeda nije spremljena: {{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "Prikazano prvih {{loaded}} od {{total}} turnira. Filtrirajte ili pretražite za sužavanje popisa.",
     "tournamentSearchFailed": "Pretraživanje turnira trenutno nije dostupno. Prikazuju se samo već učitani turniri.",
@@ -3730,13 +3739,19 @@
     "tooltip": {
       "liveTracker": "Rezultat prijavljen putem pratitelja uživo",
       "unconfirmed": "Nepotvrđeni delegirani rezultat — potvrdite da postane službeni",
-      "unconfirmedAria": "Nepotvrđeni delegirani rezultat čeka potvrdu"
+      "unconfirmedAria": "Nepotvrđeni delegirani rezultat čeka potvrdu",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "Prihvati",
     "nominateScorekeeper": "Imenuj zapisničara",
     "removeScorekeeper": "Ukloni imenovanog zapisničara",
     "approveScorekeeper": "Odobri kao zapisničara",
-    "removeScorekeeperApproval": "Povuci odobrenje zapisničara"
+    "removeScorekeeperApproval": "Povuci odobrenje zapisničara",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "Postavite svog pružatelja",
@@ -4338,7 +4353,13 @@
     "saved": "Profil spremljen.",
     "noRounds": "U dnevnom planu nema kola. Najprije povucite kola iz kataloga u trake lokacija.",
     "failed": "Raspoređivanje nije uspjelo. Pojedinosti potražite u konzoli.",
-    "gridFailed": "Raspoređivanje mreže nije uspjelo."
+    "gridFailed": "Raspoređivanje mreže nije uspjelo.",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "Očisti platno",
@@ -4451,7 +4472,12 @@
     "tournamentChat": "Chat turnira",
     "noRecentActivity": "Nema aktivnosti u chatu u nedavnom razdoblju.",
     "monitorTitle": "Nadzor chata — svi turniri",
-    "selectGroup": "Odaberite oznaku grupe da biste odgovorili u tom turniru"
+    "selectGroup": "Odaberite oznaku grupe da biste odgovorili u tom turniru",
+    "sending": "__TODO__",
+    "delivered": "__TODO__",
+    "notDelivered": "__TODO__",
+    "retry": "__TODO__",
+    "clickToRetry": "__TODO__"
   },
   "drawActions": {
     "pagePlayoff": "Page doigravanje",
@@ -4583,7 +4609,7 @@
     "frameRefused": "Vremenska zona ovog turnira ne može se odrediti, pa se njegova izvješća ne mogu čitati po satu lokacije. Postavite vremensku zonu turnira u Uredi datume."
   },
   "applyScheduling": {
-    "noPolicy": "Bez pravila (ne primjenjuj dnevna ograničenja)",
+    "noPolicy": "__STALE__Bez pravila (ne primjenjuj dnevna ograničenja)",
     "applyGridTitle": "Primijeni mrežu — pravilo rasporeda",
     "selectPolicy": "Odaberite pravilo rasporeda za Primijeni vremena:",
     "noPolicies": "Nema dostupnih pravila rasporeda",
@@ -4616,7 +4642,11 @@
   "scheduleResults": {
     "title": "Rezultati rasporeda",
     "noActivity": "Na ovaj datum nema aktivnosti planera.",
-    "noPerDate": "Planer je završio, ali nije prijavio aktivnost po datumu."
+    "noPerDate": "Planer je završio, ali nije prijavio aktivnost po datumu.",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Dostupnost",
