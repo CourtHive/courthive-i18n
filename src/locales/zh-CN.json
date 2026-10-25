@@ -1301,7 +1301,9 @@
       "nextCards": "__TODO__"
     },
     "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__"
+    "expandAllGroups": "__TODO__",
+    "live": "__TODO__",
+    "liveTooltip": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "言语猥亵",
@@ -3117,7 +3119,14 @@
       "md": "中（16px）",
       "lg": "大（18px）",
       "xl": "超大（20px）"
-    }
+    },
+    "select": "__TODO__",
+    "mode": "__TODO__",
+    "light": "__TODO__",
+    "dark": "__TODO__",
+    "system": "__TODO__",
+    "lightPalette": "__TODO__",
+    "darkPalette": "__TODO__"
   },
   "language": {
     "select": "选择语言"
