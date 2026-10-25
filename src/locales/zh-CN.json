@@ -1299,7 +1299,9 @@
       "inspectorFloating": "__TODO__",
       "previousCards": "__TODO__",
       "nextCards": "__TODO__"
-    }
+    },
+    "collapseAllGroups": "__TODO__",
+    "expandAllGroups": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "言语猥亵",
@@ -1409,7 +1411,10 @@
       "schedule2": "日程页面 2",
       "options": "选项",
       "officialsBoard": "官员看板",
-      "linkedTournaments": "关联的锦标赛"
+      "linkedTournaments": "关联的锦标赛",
+      "themeMode": "__TODO__",
+      "lightPalette": "__TODO__",
+      "darkPalette": "__TODO__"
     },
     "editTournamentName": {
       "title": "编辑锦标赛名称",
@@ -2399,7 +2404,11 @@
       "invalidStartTime": "开始时间未保存：它必须早于已记录的结束时间。",
       "invalidTime": "无法记录该时间。",
       "courtNotFound": "该球场已不存在。请刷新锦标赛后重试。",
-      "notSaved": "赛程更改未保存：{{reason}}"
+      "notSaved": "赛程更改未保存：{{reason}}",
+      "beforePlayedSource": "__TODO__",
+      "afterDependent": "__TODO__",
+      "moreBlocking": "__TODO__",
+      "roundLabel": "__TODO__"
     },
     "tournamentsTruncated": "显示 {{total}} 项锦标赛中的前 {{loaded}} 项。请筛选或搜索以缩小列表。",
     "tournamentSearchFailed": "锦标赛搜索暂不可用。仅显示已加载的锦标赛。",
@@ -3730,13 +3739,19 @@
     "tooltip": {
       "liveTracker": "通过实时跟踪器上报比分",
       "unconfirmed": "未确认的委托比分 — 确认后即为官方比分",
-      "unconfirmedAria": "未确认的委托比分，等待确认"
+      "unconfirmedAria": "未确认的委托比分，等待确认",
+      "liveScore": "__TODO__",
+      "crowdSessions_one": "__TODO__",
+      "crowdSessions_other": "__TODO__",
+      "crowdTrusted_one": "__TODO__",
+      "crowdTrusted_other": "__TODO__"
     },
     "accept": "接受",
     "nominateScorekeeper": "提名记分员",
     "removeScorekeeper": "移除已提名的记分员",
     "approveScorekeeper": "批准为记分员",
-    "removeScorekeeperApproval": "撤销记分员批准"
+    "removeScorekeeperApproval": "撤销记分员批准",
+    "live": "__TODO__"
   },
   "providerSetup": {
     "wizardTitle": "设置您的服务商",
@@ -4338,7 +4353,13 @@
     "saved": "配置已保存。",
     "noRounds": "当日计划中没有轮次。请先将轮次从目录拖入场馆泳道。",
     "failed": "排程失败。详情请查看控制台。",
-    "gridFailed": "网格排程失败。"
+    "gridFailed": "网格排程失败。",
+    "repairTitle": "__TODO__",
+    "repairIntro": "__TODO__",
+    "repair": "__TODO__",
+    "repaired": "__TODO__",
+    "repairFailed": "__TODO__",
+    "planGuardRefused": "__TODO__"
   },
   "topology": {
     "clearCanvas": "清空画布",
@@ -4451,7 +4472,12 @@
     "tournamentChat": "锦标赛聊天",
     "noRecentActivity": "近期没有聊天活动。",
     "monitorTitle": "聊天监控 — 所有锦标赛",
-    "selectGroup": "选择一个分组标签以在该锦标赛中回复"
+    "selectGroup": "选择一个分组标签以在该锦标赛中回复",
+    "sending": "__TODO__",
+    "delivered": "__TODO__",
+    "notDelivered": "__TODO__",
+    "retry": "__TODO__",
+    "clickToRetry": "__TODO__"
   },
   "drawActions": {
     "pagePlayoff": "Page 附加赛",
@@ -4583,7 +4609,7 @@
     "frameRefused": "无法确定本锦标赛的时区，因此无法按场馆时钟读取其报告。请在「编辑日期」中设置锦标赛时区。"
   },
   "applyScheduling": {
-    "noPolicy": "无策略（不强制每日上限）",
+    "noPolicy": "__STALE__无策略（不强制每日上限）",
     "applyGridTitle": "应用网格 — 排程策略",
     "selectPolicy": "选择用于「应用时间」的排程策略：",
     "noPolicies": "没有可用的排程策略",
@@ -4616,7 +4642,11 @@
   "scheduleResults": {
     "title": "排程结果",
     "noActivity": "该日期没有排程器活动。",
-    "noPerDate": "排程器已完成，但未报告按日期的活动。"
+    "noPerDate": "排程器已完成，但未报告按日期的活动。",
+    "noFormat": "__TODO__",
+    "playedOrder": "__TODO__",
+    "playedOrderDetail": "__TODO__",
+    "dailyLimitWarnings": "__TODO__"
   },
   "schedulingTab": {
     "availability": "可用性",
