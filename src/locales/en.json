@@ -1305,7 +1305,9 @@
       "nextCards": "Next cards"
     },
     "collapseAllGroups": "Collapse all groups",
-    "expandAllGroups": "Expand all groups"
+    "expandAllGroups": "Expand all groups",
+    "live": "LIVE",
+    "liveTooltip": "Live score — unofficial until the result is entered"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Audible Obscenity",
@@ -3117,7 +3119,14 @@
       "md": "Medium (16px)",
       "lg": "Large (18px)",
       "xl": "Extra Large (20px)"
-    }
+    },
+    "select": "Theme",
+    "mode": "Mode",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "lightPalette": "Light mode theme",
+    "darkPalette": "Dark mode theme"
   },
   "language": {
     "select": "Select language"

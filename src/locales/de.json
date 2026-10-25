@@ -1129,7 +1129,9 @@
       "nextCards": "__TODO__"
     },
     "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__"
+    "expandAllGroups": "__TODO__",
+    "live": "__TODO__",
+    "liveTooltip": "__TODO__"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Hörbare Obszönität",
@@ -3117,7 +3119,14 @@
       "md": "Mittel (16 px)",
       "lg": "Groß (18 px)",
       "xl": "Sehr groß (20 px)"
-    }
+    },
+    "select": "__TODO__",
+    "mode": "__TODO__",
+    "light": "__TODO__",
+    "dark": "__TODO__",
+    "system": "__TODO__",
+    "lightPalette": "__TODO__",
+    "darkPalette": "__TODO__"
   },
   "language": {
     "select": "Sprache auswählen"
