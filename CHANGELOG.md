@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.11.0](https://github.com/CourtHive/courthive-i18n/compare/v0.10.3...v0.11.0) (2026-10-25)
+
+
+### Features
+
+* **i18n:** translate the score entry dialog; drop the retired scoring-modal keys ([#158](https://github.com/CourtHive/courthive-i18n/issues/158)) ([d036bf6](https://github.com/CourtHive/courthive-i18n/commit/d036bf6db74e76e6ed403d844b312f6f9ae3f191))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from courthive-public ([#157](https://github.com/CourtHive/courthive-i18n/issues/157)) ([8c771db](https://github.com/CourtHive/courthive-i18n/commit/8c771db07038d92b40a8d36bdb31e7e947eba50a))
+* **i18n:** sync en.json from TMX ([#155](https://github.com/CourtHive/courthive-i18n/issues/155)) ([5a22529](https://github.com/CourtHive/courthive-i18n/commit/5a2252952eb0d128804c5ab8757c38a8f6cd74a5))
+
 ## [0.10.3](https://github.com/CourtHive/courthive-i18n/compare/v0.10.2...v0.10.3) (2026-10-20)
 
 
