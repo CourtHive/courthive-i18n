@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.12.0](https://github.com/CourtHive/courthive-i18n/compare/v0.11.0...v0.12.0) (2026-10-26)
+
+
+### Features
+
+* **locales:** translate the 0.11.0 TMX and public strings ([#161](https://github.com/CourtHive/courthive-i18n/issues/161)) ([4b2c10c](https://github.com/CourtHive/courthive-i18n/commit/4b2c10c947ec2d680b6968c23c42540c1104e48a))
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from TMX ([#165](https://github.com/CourtHive/courthive-i18n/issues/165)) ([98922d4](https://github.com/CourtHive/courthive-i18n/commit/98922d4bb4a0c53cca1282f85cc98f09187f1f2a))
+* **locales:** each locale carries its own cldr plural forms ([#163](https://github.com/CourtHive/courthive-i18n/issues/163)) ([aa4d751](https://github.com/CourtHive/courthive-i18n/commit/aa4d75172e6050a9d4add64f27febe5f5bc37128))
+
 ## [0.11.0](https://github.com/CourtHive/courthive-i18n/compare/v0.10.3...v0.11.0) (2026-10-25)
 
 
