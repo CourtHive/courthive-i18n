@@ -2597,7 +2597,41 @@
         "added": "Local adicionado a partir do registro",
         "searching": "Buscando…"
       },
-      "addCourtsPreview": "Serão adicionadas: {{names}}"
+      "addCourtsPreview": "Serão adicionadas: {{names}}",
+      "transit": {
+        "button": "__TODO__",
+        "back": "__TODO__",
+        "title": "__TODO__",
+        "needsTwoVenues": "__TODO__",
+        "subtitle": "__TODO__",
+        "defaultFromPolicy": "__TODO__",
+        "noDefault": "__TODO__",
+        "legendOneWay": "__TODO__",
+        "networkLabel": "__TODO__",
+        "sameSite": "__TODO__",
+        "matrixCaption": "__TODO__",
+        "fromTo": "__TODO__",
+        "selectHint": "__TODO__",
+        "editTitle": "__TODO__",
+        "currently": "__TODO__",
+        "sanctionedFloor": "__TODO__",
+        "minutes": "__TODO__",
+        "oneWay": "__TODO__",
+        "save": "__TODO__",
+        "remove": "__TODO__",
+        "cancel": "__TODO__",
+        "source": {
+          "stated": "__TODO__",
+          "sanctioned": "__TODO__",
+          "default": "__TODO__",
+          "facility": "__TODO__",
+          "none": "__TODO__"
+        },
+        "errors": {
+          "notWhole": "__TODO__",
+          "belowSanctioned": "__TODO__"
+        }
+      }
     },
     "events": {
       "title": "Eventos",
@@ -4690,7 +4724,10 @@
     "noFormat": "Sem formato",
     "playedOrder": "Adiado — ordem jogada",
     "playedOrderDetail": "{{matchUp}} já jogada {{when}}",
-    "dailyLimitWarnings": "Alocados acima do limite diário"
+    "dailyLimitWarnings": "Alocados acima do limite diário",
+    "overnightRest": "__TODO__",
+    "overnightRestDetail": "__TODO__",
+    "overnightRestAdvancing": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Disponibilidade",
