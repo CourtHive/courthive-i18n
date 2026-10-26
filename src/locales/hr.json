@@ -309,27 +309,27 @@
       "attached": "Priloženo — {{name}}"
     },
     "pipelineFeatures": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "disabled": "__TODO__",
-      "perCall": "__TODO__",
-      "policy": "__TODO__",
-      "progressionLocked": "__TODO__",
-      "default": "__TODO__",
-      "on": "__TODO__",
-      "off": "__TODO__",
-      "badge": "__TODO__",
-      "badgeTitle": "__TODO__",
+      "title": "Značajke cjevovoda",
+      "intro": "Samo za testiranje. Mijenja način na koji se rezultati prenose kroz ždrijebove ovog turnira. Dostupno kada ste odjavljeni ili za generirani (probni) turnir, koji se tada izvodi lokalno na ovom uređaju.",
+      "disabled": "Ovaj turnir ima vlastita pravila bodovanja koja određuju ove opcije. Značajke cjevovoda su isključene.",
+      "perCall": "Primjenjuje se na svaki uneseni rezultat",
+      "policy": "Pridruženo ovom turniru",
+      "progressionLocked": "Ovaj turnir ima vlastita pravila napredovanja koja određuju ove opcije.",
+      "default": "Zadano",
+      "on": "Uključeno",
+      "off": "Isključeno",
+      "badge": "Značajke cjevovoda",
+      "badgeTitle": "Rezultati u ovom turniru unose se prema izmijenjenim pravilima cjevovoda (Postavke → Značajke cjevovoda)",
       "options": {
-        "propagateExitStatus": "__TODO__",
-        "propagateRetirementAsExit": "__TODO__",
-        "allowChangePropagation": "__TODO__",
-        "disableScoreValidation": "__TODO__",
-        "requireParticipantsForScoring": "__TODO__",
-        "doubleExitPropagateBye": "__TODO__",
-        "autoPlaceQualifiers": "__TODO__",
-        "autoReplaceQualifiers": "__TODO__",
-        "autoRemoveQualifiers": "__TODO__"
+        "propagateExitStatus": "Prenesi status izlaska (walkover/diskvalifikacija prati poraženog)",
+        "propagateRetirementAsExit": "Tretiraj predaju kao izlazak",
+        "allowChangePropagation": "Dopusti zamjenu promijenjenog pobjednika u sljedećim kolima",
+        "disableScoreValidation": "Preskoči provjeru rezultata",
+        "requireParticipantsForScoring": "Zahtijevaj oba sudionika prije bodovanja",
+        "doubleExitPropagateBye": "Dvostruki izlazak stavlja BYE na sljedeće mjesto poraženog",
+        "autoPlaceQualifiers": "Automatski smjesti kvalifikante kada kvalifikacije završe",
+        "autoReplaceQualifiers": "Automatski zamijeni kvalifikanta kada se promijeni rezultat kvalifikacija",
+        "autoRemoveQualifiers": "Automatski ukloni kvalifikanta kada se ukloni rezultat kvalifikacija"
       }
     }
   },
@@ -497,13 +497,13 @@
     "inviteFailed": "Pozivnicu nije bilo moguće poslati. Pokušajte ponovno.",
     "manageAsProvisioner": "Upravljaj kao ovaj opskrbljivač",
     "nowManagingProvisioner": "Sada djelujete kao „{{name}}“",
-    "associateExistingUser": "__TODO__",
-    "associateExistingUserHint": "__TODO__",
-    "userAssociated": "__TODO__",
-    "userAlreadyAssociated": "__TODO__",
-    "associateUserNotFound": "__TODO__",
-    "associateEmailAmbiguous": "__TODO__",
-    "lastProviderAdmin": "__TODO__"
+    "associateExistingUser": "Poveži postojećeg korisnika",
+    "associateExistingUserHint": "Dodajte korisnika koji već ima račun. Mogu se pronaći samo korisnici kojima možete upravljati.",
+    "userAssociated": "Korisnik je povezan s pružateljem",
+    "userAlreadyAssociated": "Korisnik je već bio povezan; uloga ažurirana",
+    "associateUserNotFound": "Nema korisnika s tom e-poštom kojeg možete dodati. Umjesto toga izradite korisnika.",
+    "associateEmailAmbiguous": "Više od jednog računa ima tu e-poštu. To mora riješiti super admin.",
+    "lastProviderAdmin": "Pružatelj mora zadržati barem jednog administratora pružatelja"
   },
   "round_names": {
     "F": "Finale",
@@ -709,7 +709,7 @@
     "publishtime": "Vrijeme objave",
     "replacelocal": "Zamijeniti lokalnu kopiju?",
     "unpublish": "Skinuti turnir s objave?",
-    "exampleClockUnavailable": "__TODO__"
+    "exampleClockUnavailable": "Primjer {{name}} nije generiran: natjecateljski sat ne daje upotrebljivo vrijeme. Ispravite ili uklonite natjecateljski sat (dev.setCompetitionClock) i pokušajte ponovno."
   },
   "ddlb": {
     "singles": "Rang turnira (pojedinačno):",
@@ -1293,21 +1293,21 @@
     },
     "clockUnavailable": "Natjecateljski sat ne daje upotrebljivo vrijeme, pa meč nije pozvan.",
     "presentation": {
-      "layout": "__TODO__",
-      "layoutLabel": "__TODO__",
-      "catalogPlacement": "__TODO__",
-      "inspectorPlacement": "__TODO__",
-      "catalogLeft": "__TODO__",
-      "catalogBottom": "__TODO__",
-      "inspectorDocked": "__TODO__",
-      "inspectorFloating": "__TODO__",
-      "previousCards": "__TODO__",
-      "nextCards": "__TODO__"
+      "layout": "Raspored prikaza",
+      "layoutLabel": "Raspored prikaza raspoređivanja",
+      "catalogPlacement": "Položaj kataloga",
+      "inspectorPlacement": "Položaj inspektora",
+      "catalogLeft": "Katalog: lijevo",
+      "catalogBottom": "Katalog: dolje",
+      "inspectorDocked": "Inspektor: usidren",
+      "inspectorFloating": "Inspektor: plutajući",
+      "previousCards": "Prethodne kartice",
+      "nextCards": "Sljedeće kartice"
     },
-    "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__",
-    "live": "__TODO__",
-    "liveTooltip": "__TODO__"
+    "collapseAllGroups": "Sažmi sve grupe",
+    "expandAllGroups": "Proširi sve grupe",
+    "live": "UŽIVO",
+    "liveTooltip": "Rezultat uživo — neslužben dok se ne unese rezultat"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Čujna opscenost",
@@ -1418,9 +1418,9 @@
       "options": "Opcije",
       "officialsBoard": "Ploča sudaca",
       "linkedTournaments": "Povezani turniri",
-      "themeMode": "__TODO__",
-      "lightPalette": "__TODO__",
-      "darkPalette": "__TODO__"
+      "themeMode": "Način",
+      "lightPalette": "Tema svijetlog načina",
+      "darkPalette": "Tema tamnog načina"
     },
     "editTournamentName": {
       "title": "Uredi naziv turnira",
@@ -1678,10 +1678,10 @@
       "online": "Online",
       "uploadWarning": "Upozorenje: Ova radnja će zamijeniti zapis turnira na poslužitelju",
       "scopedAccess": "Ograničeni pristup",
-      "saveConflict": "__TODO__",
-      "saveExists": "__TODO__",
-      "saveUncertain": "__TODO__",
-      "loadServerCopy": "__TODO__"
+      "saveConflict": "Poslužitelj ima noviju verziju ovog turnira. Ništa nije spremljeno, a vaša lokalna kopija je zadržana. Učitavanje kopije s poslužitelja zamjenjuje je.",
+      "saveExists": "Ovaj turnir već postoji na poslužitelju. Ništa nije spremljeno, a vaša lokalna kopija je zadržana.",
+      "saveUncertain": "Nije moguće potvrditi da je spremanje stiglo na poslužitelj. Vaša lokalna kopija je zadržana; pokušajte ponovno.",
+      "loadServerCopy": "Učitaj kopiju s poslužitelja"
     },
     "manageAccess": {
       "title": "Upravljaj pristupom",
@@ -2203,7 +2203,7 @@
       "continue": "Nastavi",
       "signOut": "Odjava",
       "failed": "Nije moguće otvoriti tog pružatelja",
-      "consoleIntro": "__TODO__"
+      "consoleIntro": "Vaš račun pripada više pružatelja. Odaberite onog za kojeg sada radite; kasnije možete promijeniti."
     },
     "exitBeforeArrival": {
       "title": "Walkover ili diskvalifikacija",
@@ -2411,10 +2411,10 @@
       "invalidTime": "To vrijeme nije bilo moguće zabilježiti.",
       "courtNotFound": "Taj teren više ne postoji. Osvježite turnir i pokušajte ponovno.",
       "notSaved": "Promjena rasporeda nije spremljena: {{reason}}",
-      "beforePlayedSource": "__TODO__",
-      "afterDependent": "__TODO__",
-      "moreBlocking": "__TODO__",
-      "roundLabel": "__TODO__"
+      "beforePlayedSource": "Nije raspoređeno: ovisi o meču {{matchUp}}, koji je već odigran ({{when}}). Najprije premjestite taj meč ako mu je vrijeme pogrešno.",
+      "afterDependent": "Nije premješteno: odigrani meč ne može biti nakon meča {{matchUp}} ({{when}}), koji ovisi o njemu.",
+      "moreBlocking": "(+{{count}} još)",
+      "roundLabel": "meč {{roundNumber}}. kola"
     },
     "tournamentsTruncated": "Prikazano prvih {{loaded}} od {{total}} turnira. Filtrirajte ili pretražite za sužavanje popisa.",
     "tournamentSearchFailed": "Pretraživanje turnira trenutno nije dostupno. Prikazuju se samo već učitani turniri.",
@@ -2422,10 +2422,10 @@
     "clearRefused": "Ovaj rezultat ne može se ukloniti: o njemu ovisi kasniji meč. Najprije uklonite taj meč.",
     "scoreDiscardedByFormat": "Promjenom formata u {{matchUpFormat}} odbačeno je setova: {{count}} ({{sets}})",
     "offlineChangeRejected": "Poslužitelj je odbio promjenu napravljenu izvan mreže",
-    "scoreRefused": "__TODO__",
-    "durableChangeNeedsReview": "__TODO__",
-    "durableCommandNotStored": "__TODO__",
-    "durableQueueFailed": "__TODO__"
+    "scoreRefused": "Ovaj meč sada se ne može bodovati ni ispraviti: ždrijeb za njega ne nudi bodovanje.",
+    "durableChangeNeedsReview": "Ranija izmjena treba pregled. Osvježite turnir prije nastavka.",
+    "durableCommandNotStored": "Trajna naredba nije se mogla pohraniti za ovu sesiju",
+    "durableQueueFailed": "Izmjena se nije mogla trajno staviti u red čekanja; ostavite ovu stranicu otvorenom"
   },
   "loginMenu": {
     "authorization": "Autorizacija",
@@ -3120,13 +3120,13 @@
       "lg": "Veliko (18 px)",
       "xl": "Vrlo veliko (20 px)"
     },
-    "select": "__TODO__",
-    "mode": "__TODO__",
-    "light": "__TODO__",
-    "dark": "__TODO__",
-    "system": "__TODO__",
-    "lightPalette": "__TODO__",
-    "darkPalette": "__TODO__"
+    "select": "Tema",
+    "mode": "Način",
+    "light": "Svijetla",
+    "dark": "Tamna",
+    "system": "Sustavna",
+    "lightPalette": "Tema svijetlog načina",
+    "darkPalette": "Tema tamnog načina"
   },
   "language": {
     "select": "Odaberi jezik"
@@ -3749,18 +3749,18 @@
       "liveTracker": "Rezultat prijavljen putem pratitelja uživo",
       "unconfirmed": "Nepotvrđeni delegirani rezultat — potvrdite da postane službeni",
       "unconfirmedAria": "Nepotvrđeni delegirani rezultat čeka potvrdu",
-      "liveScore": "__TODO__",
-      "crowdSessions_one": "__TODO__",
-      "crowdSessions_other": "__TODO__",
-      "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__"
+      "liveScore": "Rezultat uživo od pratitelja — neslužben dok se ne unese rezultat",
+      "crowdSessions_one": "{{count}} zapisničar iz publike na ovom meču — kliknite za pregled",
+      "crowdSessions_other": "Zapisničari iz publike na ovom meču: {{count}} — kliknite za pregled",
+      "crowdTrusted_one": "{{count}} zapisničar iz publike, promoviran — njegov rezultat prikazuje se uživo. Kliknite za pregled",
+      "crowdTrusted_other": "Zapisničari iz publike: {{count}}, jedan promoviran — njegov rezultat prikazuje se uživo. Kliknite za pregled"
     },
     "accept": "Prihvati",
     "nominateScorekeeper": "Imenuj zapisničara",
     "removeScorekeeper": "Ukloni imenovanog zapisničara",
     "approveScorekeeper": "Odobri kao zapisničara",
     "removeScorekeeperApproval": "Povuci odobrenje zapisničara",
-    "live": "__TODO__"
+    "live": "UŽIVO"
   },
   "providerSetup": {
     "wizardTitle": "Postavite svog pružatelja",
@@ -4363,12 +4363,12 @@
     "noRounds": "U dnevnom planu nema kola. Najprije povucite kola iz kataloga u trake lokacija.",
     "failed": "Raspoređivanje nije uspjelo. Pojedinosti potražite u konzoli.",
     "gridFailed": "Raspoređivanje mreže nije uspjelo.",
-    "repairTitle": "__TODO__",
-    "repairIntro": "__TODO__",
-    "repair": "__TODO__",
-    "repaired": "__TODO__",
-    "repairFailed": "__TODO__",
-    "planGuardRefused": "__TODO__"
+    "repairTitle": "Profil rasporeda treba popravak",
+    "repairIntro": "Profil rasporeda navodi kola ({{count}}) čija lokacija, natjecanje ili ždrijeb više ne postoji. Ništa nije raspoređeno. Popraviti profil (ukloniti ta kola) i ponovno primijeniti?",
+    "repair": "Popravi profil",
+    "repaired": "Profil je popravljen. Primijenite ponovno za raspoređivanje.",
+    "repairFailed": "Popravak profila nije uspio.",
+    "planGuardRefused": "Ništa nije raspoređeno: plan je smjestio mečeve ({{count}}) prije već odigranih mečeva. Molimo prijavite ovo."
   },
   "topology": {
     "clearCanvas": "Očisti platno",
@@ -4482,11 +4482,11 @@
     "noRecentActivity": "Nema aktivnosti u chatu u nedavnom razdoblju.",
     "monitorTitle": "Nadzor chata — svi turniri",
     "selectGroup": "Odaberite oznaku grupe da biste odgovorili u tom turniru",
-    "sending": "__TODO__",
-    "delivered": "__TODO__",
-    "notDelivered": "__TODO__",
-    "retry": "__TODO__",
-    "clickToRetry": "__TODO__"
+    "sending": "Slanje",
+    "delivered": "Dostavljeno",
+    "notDelivered": "Nije dostavljeno",
+    "retry": "Pokušaj ponovno",
+    "clickToRetry": "Kliknite za ponovno slanje."
   },
   "drawActions": {
     "pagePlayoff": "Page doigravanje",
@@ -4652,10 +4652,10 @@
     "title": "Rezultati rasporeda",
     "noActivity": "Na ovaj datum nema aktivnosti planera.",
     "noPerDate": "Planer je završio, ali nije prijavio aktivnost po datumu.",
-    "noFormat": "__TODO__",
-    "playedOrder": "__TODO__",
-    "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__"
+    "noFormat": "Bez formata",
+    "playedOrder": "Odgođeno — odigrani redoslijed",
+    "playedOrderDetail": "{{matchUp}} već odigran {{when}}",
+    "dailyLimitWarnings": "Smješteno iznad dnevnog ograničenja"
   },
   "schedulingTab": {
     "availability": "Dostupnost",
@@ -4704,8 +4704,8 @@
     "impersonate": "Predstaviti se kao drugi korisnik?",
     "rejected": "Poslužitelj je odbio izmjenu",
     "sessionExpired": "Sesija je istekla",
-    "tournamentChangedBeforeApply": "__TODO__",
-    "tournamentChangedAwaitingAck": "__TODO__"
+    "tournamentChangedBeforeApply": "Turnir se promijenio prije nego što je izmjena mogla biti primijenjena",
+    "tournamentChangedAwaitingAck": "Turnir se promijenio tijekom čekanja na potvrdu"
   },
   "queueService": {
     "saved": "Spremljeno"
@@ -4773,65 +4773,65 @@
     }
   },
   "demoClock": {
-    "title": "__TODO__",
-    "launch": "__TODO__",
-    "cannotStart": "__TODO__",
-    "launchHint": "__TODO__",
-    "collapse": "__TODO__",
-    "expand": "__TODO__",
-    "exit": "__TODO__",
-    "time": "__TODO__",
-    "date": "__TODO__",
-    "setTime": "__TODO__",
-    "set": "__TODO__",
-    "paused": "__TODO__",
-    "step": "__TODO__",
-    "forwardOnly": "__TODO__",
-    "boundary": "__TODO__",
-    "noBoundary": "__TODO__",
+    "title": "Demo sat",
+    "launch": "Otvori demo sat",
+    "cannotStart": "Demo sat nije se mogao pokrenuti: ovaj turnir treba datum početka i vremensku zonu lokacije.",
+    "launchHint": "Učitava novi Scheduling Lab s Garman, Pro i kombiniranim vodičem i njegovim demo satom. Sat radi samo u Scheduling Labu: dok je jedan otvoren, Otvori demo sat vraća sat. Dostupno samo kada ste odjavljeni.",
+    "collapse": "Sakrij kontrole",
+    "expand": "Kontrole sata",
+    "exit": "Izađi iz sata",
+    "time": "Demo vrijeme",
+    "date": "Demo datum",
+    "setTime": "Stvarno vrijeme demonstracije",
+    "set": "Postavi vrijeme",
+    "paused": "Pauzirano",
+    "step": "+{{minutes}} min",
+    "forwardOnly": "Odaberite valjano vrijeme jednako trenutačnom demo vremenu ili kasnije. Pozivanja i rezultati ne mogu se vratiti unatrag.",
+    "boundary": "Sljedeće: {{kind}} · {{time}}",
+    "noBoundary": "Nema nadolazeće vremenske granice",
     "boundaries": {
-      "scheduled": "__TODO__",
-      "blockStart": "__TODO__",
-      "blockEnd": "__TODO__"
+      "scheduled": "planirani početak",
+      "blockStart": "početak bloka terena",
+      "blockEnd": "kraj bloka terena"
     },
-    "openDay": "__TODO__",
-    "garman": "__TODO__",
-    "pro": "__TODO__",
-    "saveFirst": "__TODO__",
-    "notOpened": "__TODO__",
-    "failed": "__TODO__",
-    "applied": "__TODO__",
-    "hint": "__TODO__",
+    "openDay": "Otvori dan",
+    "garman": "Primijeni Garman vremena",
+    "pro": "Primijeni Pro mrežu",
+    "saveFirst": "Spremite ili odbacite izmjene rasporeda prije pokretanja planera.",
+    "notOpened": "Demo raspoređivanja spremljen je, ali nije otvoren. Otvorite ga s popisa turnira.",
+    "failed": "Raspoređivanje nije uspjelo. Provjerite raspored i pokušajte ponovno.",
+    "applied": "Planer je primijenjen. Pregledajte dan u mreži kako biste usporedili rezultat.",
+    "hint": "Vrijeme je pauzirano. Pokrećite, bodujte i završavajte mečeve uobičajenim kontrolama turnira. Otvaranje kasnijeg dana pomiče vrijeme na 09:55; ranije dane možete pregledati bez vraćanja povijesti. Izlaz vraća stvarno vrijeme.",
     "days": {
       "day1": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Dan 1 · Garman",
+        "description": "Primijenite vremena na pojedinačno. Pregledajte vremena početka prema pravilima, razmake za oporavak i dostupnost terena."
       },
       "day2": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Dan 2 · Pro",
+        "description": "Primijenite mrežu na parove. Pregledajte redoslijed na terenima bez planiranih vremena. Za napomene „ne prije“ i „slijedi“ koristite uobičajene kontrole mreže."
       },
       "day3": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Dan 3 · Zajedno",
+        "description": "Najprije primijenite Garman vremena, zatim Pro mrežu na iste ždrijebove pojedinačno i parova. Provjerite ostaju li vremena dok se dodaju pozicije na terenima."
       }
     },
-    "shortLabel": "__TODO__",
-    "bottomBar": "__TODO__",
-    "mode": "__TODO__",
+    "shortLabel": "Demo vrijeme",
+    "bottomBar": "Donja traka demo sata",
+    "mode": "Demo način rada",
     "modes": {
-      "clock": "__TODO__",
-      "script": "__TODO__"
+      "clock": "Slobodni sat",
+      "script": "Vođeni demo raspoređivanja"
     },
-    "loadScript": "__TODO__",
-    "loadFailed": "__TODO__",
-    "freeHint": "__TODO__",
-    "startCapture": "__TODO__",
-    "stopCapture": "__TODO__",
-    "exportCapture": "__TODO__",
-    "capturing": "__TODO__",
-    "captureReady": "__TODO__",
-    "captureLimit": "__TODO__",
-    "captureFailed": "__TODO__"
+    "loadScript": "Učitaj vođeni demo raspoređivanja",
+    "loadFailed": "Demo raspoređivanja nije se mogao učitati. Pokušajte ponovno.",
+    "freeHint": "Vrijeme je pauzirano. Prođite kroz ovaj turnir uobičajenim kontrolama, pomičite vrijeme naprijed i po želji snimajte svoje radnje. Izlaz vraća stvarno vrijeme.",
+    "startCapture": "Pokreni snimanje",
+    "stopCapture": "Zaustavi snimanje",
+    "exportCapture": "Izvezi snimku",
+    "capturing": "Snimanje · koraci: {{count}}",
+    "captureReady": "Snimka spremna · koraci: {{count}}",
+    "captureLimit": "Snimanje je zaustavljeno na ograničenju snimanja. Izvezite snimljene korake.",
+    "captureFailed": "Snimanje se nije moglo pokrenuti. Provjerite je li upravljanje demo satom aktivno."
   }
 }
