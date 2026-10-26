@@ -12,13 +12,16 @@
  *   - a placeholder English uses but the locale drops is an error (the value is lost);
  *   - plural forms (`_zero` `_one` `_two` `_few` `_many` `_other`) may add or drop `{{count}}`, which i18next always
  *     supplies: English "One match" and a language that writes "{{count}} zápas" are both right;
- *   - `__TODO__` values are skipped (no translation yet); `__STALE__` values are checked (they render).
+ *   - `__TODO__` values are skipped (no translation yet); `__STALE__` values are checked (they render);
+ *   - a plural form English does not have (Czech `_few`, Arabic `_two`, … — see plural-forms.cjs) is checked against
+ *     English's `_other`.
  * EXCEPTIONS below are allowed differences, each with its reason. Never add one to silence a real mistake.
  *
  * Usage: node scripts/check-placeholders.cjs   (exit 1 on any finding)
  */
 const fs = require('fs');
 const path = require('path');
+const { baseOf } = require('./plural-forms.cjs');
 
 const dir = path.join(__dirname, '..', 'src', 'locales');
 const SOURCE = 'en.json';
@@ -61,9 +64,12 @@ let checked = 0;
 const findings = [];
 for (const file of locales) {
   const target = flatten(JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8')), '', {});
-  for (const [key, english] of Object.entries(source)) {
-    let value = target[key];
-    if (typeof value !== 'string' || value === TODO) continue; // missing keys are compare-keys' job
+  for (const [key, raw] of Object.entries(target)) {
+    // a locale's own plural forms answer to English's `_other`; any other key English lacks is compare-keys' job
+    const english = key in source ? source[key] : baseOf(key) && source[baseOf(key) + '_other'];
+    if (typeof english !== 'string') continue;
+    let value = raw;
+    if (value === TODO) continue;
     if (value.startsWith(STALE)) value = value.slice(STALE.length);
     checked++;
     const want = placeholders(english);

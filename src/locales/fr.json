@@ -838,6 +838,7 @@
     "scheduledTitle": "Matchs programmés",
     "scheduledCount_one": "{{count}} programmé",
     "scheduledCount_other": "{{count}} programmés",
+    "scheduledCount_many": "__TODO__",
     "filterMatchUps": "Filtrer les matchs",
     "filterClearAll": "Tout effacer",
     "filterAllEventTypes": "Tous les types d'épreuve",
@@ -914,6 +915,7 @@
     "lockedMoveConfirm": "Ce déplacement concerne un match dont la programmation est verrouillée. Le déplacer quand même ? Le verrou suit le match jusqu’à son nouveau créneau.",
     "lockedPreserved_one": "{{count}} match verrouillé sera conservé.",
     "lockedPreserved_other": "{{count}} matchs verrouillés seront conservés.",
+    "lockedPreserved_many": "__TODO__",
     "lockLabel": "Verrouiller",
     "lockActions": "Verrouiller ou déverrouiller les placements de cette journée",
     "exitBulkForLock": "Quittez le mode groupé pour utiliser les actions de verrouillage",
@@ -923,12 +925,16 @@
     "unlockDayTitle": "Déverrouiller les placements de cette journée ?",
     "lockDayConfirm_one": "Épingler {{count}} placement le {{date}}. Les effacements et reprogrammations l’ignoreront.",
     "lockDayConfirm_other": "Épingler {{count}} placements le {{date}}. Les effacements et reprogrammations les ignoreront.",
+    "lockDayConfirm_many": "__TODO__",
     "unlockDayConfirm_one": "Libérer {{count}} placement épinglé le {{date}}.",
     "unlockDayConfirm_other": "Libérer {{count}} placements épinglés le {{date}}.",
+    "unlockDayConfirm_many": "__TODO__",
     "lockedCount_one": "{{count}} match verrouillé",
     "lockedCount_other": "{{count}} matchs verrouillés",
+    "lockedCount_many": "__TODO__",
     "unlockedCount_one": "{{count}} match déverrouillé",
     "unlockedCount_other": "{{count}} matchs déverrouillés",
+    "unlockedCount_many": "__TODO__",
     "nothingToLock": "Rien ne peut être verrouillé ou déverrouillé ce jour-là.",
     "inspector": {
       "show": "Afficher l’inspecteur",
@@ -1916,10 +1922,13 @@
       "counts": {
         "players_one": "{{count}} joueur",
         "players_other": "{{count}} joueurs",
+        "players_many": "__TODO__",
         "coaches_one": "{{count}} entraîneur",
         "coaches_other": "{{count}} entraîneurs",
+        "coaches_many": "__TODO__",
         "staff_one": "{{count}} membre du staff",
-        "staff_other": "{{count}} membres du staff"
+        "staff_other": "{{count}} membres du staff",
+        "staff_many": "__TODO__"
       }
     },
     "practiceCapacity": {
@@ -1968,7 +1977,8 @@
       },
       "counts": {
         "members_one": "{{count}} membre",
-        "members_other": "{{count}} membres"
+        "members_other": "{{count}} membres",
+        "members_many": "__TODO__"
       },
       "contactPerson": "Personne à contacter",
       "contactPersonNone": "Aucune"
@@ -1978,22 +1988,28 @@
       "contactSelected": "Contact sélectionné",
       "reachable_one": "{{count}} joignable",
       "reachable_other": "{{count}} joignables",
+      "reachable_many": "__TODO__",
       "withoutContact_one": "{{count}} sans coordonnées",
       "withoutContact_other": "{{count}} sans coordonnées",
+      "withoutContact_many": "__TODO__",
       "noContact": "Aucune coordonnée enregistrée",
       "textAll_one": "Envoyer un SMS à {{count}}",
       "textAll_other": "Envoyer un SMS à {{count}}",
+      "textAll_many": "__TODO__",
       "emailAll_one": "Envoyer un e-mail à {{count}}",
       "emailAll_other": "Envoyer un e-mail à {{count}}",
+      "emailAll_many": "__TODO__",
       "copyNumbers": "Copier les numéros",
       "print": "Imprimer",
       "notReached_one": "{{count}} personne ne recevra pas ce message",
       "notReached_other": "{{count}} personnes ne recevront pas ce message",
+      "notReached_many": "__TODO__",
       "noMobiles": "Personne sur cette liste n’a de numéro de mobile",
       "noEmails": "Personne sur cette liste n’a d’adresse e-mail",
       "noNumbers": "Aucun numéro à copier",
       "numbersCopied_one": "{{count}} numéro copié",
       "numbersCopied_other": "{{count}} numéros copiés",
+      "numbersCopied_many": "__TODO__",
       "copyFailed": "Impossible de copier dans le presse-papiers",
       "columns": {
         "name": "Nom",
@@ -2179,6 +2195,7 @@
       "providerSeedingPolicy": "Politique du fournisseur",
       "additionalSeedsCount_one": "{{seeds}} (+{{count}} tête de série supplémentaire)",
       "additionalSeedsCount_other": "{{seeds}} (+{{count}} têtes de série supplémentaires)",
+      "additionalSeedsCount_many": "__TODO__",
       "feedInQualifiersInvalid": "Une qualification à entrée échelonnée de {{drawSize}} ne peut produire que ces nombres de qualifiés : {{counts}}",
       "targetRound": "Tour cible",
       "targetRoundOption": "Tour {{round}} — {{open}} positions libres sur {{total}}",
@@ -2566,12 +2583,14 @@
         "keepTyping": "Saisissez au moins 2 caractères pour rechercher",
         "candidateCount": "{{count}} établissement correspondant",
         "candidateCount_other": "{{count}} établissements correspondants",
+        "candidateCount_many": "__TODO__",
         "noMatches": "Aucun établissement correspondant",
         "searchFailed": "La recherche d’établissements est indisponible",
         "venueFailed": "Impossible de charger cet établissement",
         "venueMissing": "Cet établissement n’a pas de fiche de site",
         "courtCount": "{{count}} court",
         "courtCount_other": "{{count}} courts",
+        "courtCount_many": "__TODO__",
         "matchedOn": "correspondance sur {{field}}",
         "selectFirst": "Choisissez d’abord un établissement",
         "addVenue": "Ajouter au tournoi",
@@ -2742,13 +2761,15 @@
       "closeTheDay": "Clôturer la journée",
       "closeTheDayNobody": "Personne n’est actuellement pointé",
       "closeTheDayConfirm_one": "Dépointer {{count}} personne encore pointée aujourd’hui ?",
-      "closeTheDayConfirm_other": "Dépointer {{count}} personnes encore pointées aujourd’hui ?"
+      "closeTheDayConfirm_other": "Dépointer {{count}} personnes encore pointées aujourd’hui ?",
+      "closeTheDayConfirm_many": "__TODO__"
     },
     "participation": {
       "title": "Programmation",
       "navLabel": "Programmation",
       "fixtureCount_one": "{{count}} rencontre",
       "fixtureCount_other": "{{count}} rencontres",
+      "fixtureCount_many": "__TODO__",
       "undated": "Aucune date",
       "noFixtures": "Aucune rencontre enregistrée pour ce programme.",
       "loadFailed": "Impossible de charger la programmation.",
@@ -3090,10 +3111,13 @@
     "teamCounts": {
       "players_one": "{{count}} joueur",
       "players_other": "{{count}} joueurs",
+      "players_many": "__TODO__",
       "coaches_one": "{{count}} entraîneur",
       "coaches_other": "{{count}} entraîneurs",
+      "coaches_many": "__TODO__",
       "staff_one": "{{count}} membre du staff",
-      "staff_other": "{{count}} membres du staff"
+      "staff_other": "{{count}} membres du staff",
+      "staff_many": "__TODO__"
     },
     "gender": {
       "female": "Femmes",
@@ -3723,6 +3747,7 @@
     "noActiveTrackers": "Aucun suiveur public actif",
     "activeTrackers_one": "{{count}} suiveur actif",
     "activeTrackers_other": "{{count}} suiveurs actifs",
+    "activeTrackers_many": "__TODO__",
     "viewTrackers": "Voir les suiveurs du public ({{count}})",
     "setDelegatedOutcome": "Définir le résultat délégué",
     "confirmDelegatedOutcome": "Confirmer le résultat délégué",
@@ -3752,8 +3777,10 @@
       "liveScore": "__TODO__",
       "crowdSessions_one": "__TODO__",
       "crowdSessions_other": "__TODO__",
+      "crowdSessions_many": "__TODO__",
       "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__"
+      "crowdTrusted_other": "__TODO__",
+      "crowdTrusted_many": "__TODO__"
     },
     "accept": "Accepter",
     "nominateScorekeeper": "Désigner un marqueur",
@@ -3873,10 +3900,13 @@
   "hero": {
     "events_one": "{{count}} épreuve",
     "events_other": "{{count}} épreuves",
+    "events_many": "__TODO__",
     "entries_one": "{{count}} inscription",
     "entries_other": "{{count}} inscriptions",
+    "entries_many": "__TODO__",
     "venues_one": "{{count}} site",
-    "venues_other": "{{count}} sites"
+    "venues_other": "{{count}} sites",
+    "venues_many": "__TODO__"
   },
   "venuePanel": {
     "title": "Site et courts",
@@ -3974,14 +4004,18 @@
     "toggleFailed": "Impossible de modifier l’état de pointage",
     "callBeforeCheckIn_one": "{{count}} participant n’a pas pointé. Appeler quand même sur le court ?",
     "callBeforeCheckIn_other": "{{count}} participants n’ont pas pointé. Appeler quand même sur le court ?",
+    "callBeforeCheckIn_many": "__TODO__",
     "columnHeader": "Pointé",
     "columnTooltip": "Participants qui se sont présentés à la table de marque pour ce match",
     "badgeComplete_one": "Le participant a pointé",
     "badgeComplete_other": "Les {{count}} participants ont pointé",
+    "badgeComplete_many": "__TODO__",
     "badgePartial_one": "{{count}} participant n’a pas encore pointé",
     "badgePartial_other": "{{count}} participants n’ont pas encore pointé",
+    "badgePartial_many": "__TODO__",
     "callOnDropBeforeCheckIn_one": "{{count}} participant n’a pas pointé. Appeler quand même ce match sur le court ?",
     "callOnDropBeforeCheckIn_other": "{{count}} participants n’ont pas pointé. Appeler quand même ce match sur le court ?",
+    "callOnDropBeforeCheckIn_many": "__TODO__",
     "promptMode": {
       "label": "Rappels de pointage",
       "off": "Désactivé",
@@ -4085,7 +4119,8 @@
     "extend": "Prolonger",
     "extendTitle": "Prolonger l’accès",
     "lockout_one": "{{who}} ne peut plus rien faire sur ce tournoi — son accès ciblé a expiré. Prolongez-le ou révoquez-le.",
-    "lockout_other": "{{count}} personnes ne peuvent plus rien faire sur ce tournoi ({{who}}) — leur accès ciblé a expiré. Prolongez ou révoquez."
+    "lockout_other": "{{count}} personnes ne peuvent plus rien faire sur ce tournoi ({{who}}) — leur accès ciblé a expiré. Prolongez ou révoquez.",
+    "lockout_many": "__TODO__"
   },
   "sanctioning": {
     "basicInfo": {

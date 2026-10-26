@@ -838,6 +838,7 @@
     "scheduledTitle": "Partidas Agendadas",
     "scheduledCount_one": "{{count}} agendada",
     "scheduledCount_other": "{{count}} agendadas",
+    "scheduledCount_many": "__TODO__",
     "filterMatchUps": "Filtrar partidas",
     "filterClearAll": "Limpar Tudo",
     "filterAllEventTypes": "Todos os Tipos de Evento",
@@ -914,6 +915,7 @@
     "lockedMoveConfirm": "Esta movimentação afeta uma partida com programação bloqueada. Mover mesmo assim? O bloqueio acompanha a partida até o novo horário.",
     "lockedPreserved_one": "{{count}} partida bloqueada será preservada.",
     "lockedPreserved_other": "{{count}} partidas bloqueadas serão preservadas.",
+    "lockedPreserved_many": "__TODO__",
     "lockLabel": "Bloquear",
     "lockActions": "Bloquear ou desbloquear os posicionamentos deste dia",
     "exitBulkForLock": "Saia do modo em massa para usar as ações de bloqueio",
@@ -923,12 +925,16 @@
     "unlockDayTitle": "Desbloquear os posicionamentos deste dia?",
     "lockDayConfirm_one": "Fixar {{count}} posicionamento em {{date}}. Limpezas e reprogramações vão ignorá-lo.",
     "lockDayConfirm_other": "Fixar {{count}} posicionamentos em {{date}}. Limpezas e reprogramações vão ignorá-los.",
+    "lockDayConfirm_many": "__TODO__",
     "unlockDayConfirm_one": "Liberar {{count}} posicionamento fixado em {{date}}.",
     "unlockDayConfirm_other": "Liberar {{count}} posicionamentos fixados em {{date}}.",
+    "unlockDayConfirm_many": "__TODO__",
     "lockedCount_one": "{{count}} partida bloqueada",
     "lockedCount_other": "{{count}} partidas bloqueadas",
+    "lockedCount_many": "__TODO__",
     "unlockedCount_one": "{{count}} partida desbloqueada",
     "unlockedCount_other": "{{count}} partidas desbloqueadas",
+    "unlockedCount_many": "__TODO__",
     "nothingToLock": "Nada neste dia pode ser bloqueado ou desbloqueado.",
     "inspector": {
       "show": "Mostrar o inspetor",
@@ -1916,10 +1922,13 @@
       "counts": {
         "players_one": "{{count}} jogador",
         "players_other": "{{count}} jogadores",
+        "players_many": "__TODO__",
         "coaches_one": "{{count}} técnico",
         "coaches_other": "{{count}} técnicos",
+        "coaches_many": "__TODO__",
         "staff_one": "{{count}} membro da comissão",
-        "staff_other": "{{count}} membros da comissão"
+        "staff_other": "{{count}} membros da comissão",
+        "staff_many": "__TODO__"
       }
     },
     "practiceCapacity": {
@@ -1968,7 +1977,8 @@
       },
       "counts": {
         "members_one": "{{count}} membro",
-        "members_other": "{{count}} membros"
+        "members_other": "{{count}} membros",
+        "members_many": "__TODO__"
       },
       "contactPerson": "Pessoa de contato",
       "contactPersonNone": "Nenhuma"
@@ -1978,22 +1988,28 @@
       "contactSelected": "Contato selecionado",
       "reachable_one": "{{count}} localizável",
       "reachable_other": "{{count}} localizáveis",
+      "reachable_many": "__TODO__",
       "withoutContact_one": "{{count}} sem dados de contato",
       "withoutContact_other": "{{count}} sem dados de contato",
+      "withoutContact_many": "__TODO__",
       "noContact": "Nenhum dado de contato registrado",
       "textAll_one": "Enviar SMS para {{count}}",
       "textAll_other": "Enviar SMS para {{count}}",
+      "textAll_many": "__TODO__",
       "emailAll_one": "Enviar email para {{count}}",
       "emailAll_other": "Enviar email para {{count}}",
+      "emailAll_many": "__TODO__",
       "copyNumbers": "Copiar números",
       "print": "Imprimir",
       "notReached_one": "{{count}} pessoa não receberá isto",
       "notReached_other": "{{count}} pessoas não receberão isto",
+      "notReached_many": "__TODO__",
       "noMobiles": "Ninguém nesta lista tem número de celular",
       "noEmails": "Ninguém nesta lista tem endereço de email",
       "noNumbers": "Nenhum número para copiar",
       "numbersCopied_one": "{{count}} número copiado",
       "numbersCopied_other": "{{count}} números copiados",
+      "numbersCopied_many": "__TODO__",
       "copyFailed": "Não foi possível copiar para a área de transferência",
       "columns": {
         "name": "Nome",
@@ -2179,6 +2195,7 @@
       "providerSeedingPolicy": "Política do provedor",
       "additionalSeedsCount_one": "{{seeds}} (+{{count}} cabeça de chave adicional)",
       "additionalSeedsCount_other": "{{seeds}} (+{{count}} cabeças de chave adicionais)",
+      "additionalSeedsCount_many": "__TODO__",
       "feedInQualifiersInvalid": "Uma qualificação de entrada escalonada de {{drawSize}} só pode produzir estas quantidades de qualificados: {{counts}}",
       "targetRound": "Rodada de destino",
       "targetRoundOption": "Rodada {{round}} — {{open}} de {{total}} posições livres",
@@ -2566,12 +2583,14 @@
         "keepTyping": "Digite pelo menos 2 caracteres para buscar",
         "candidateCount": "{{count}} instalação correspondente",
         "candidateCount_other": "{{count}} instalações correspondentes",
+        "candidateCount_many": "__TODO__",
         "noMatches": "Nenhuma instalação correspondente",
         "searchFailed": "A busca de instalações está indisponível",
         "venueFailed": "Não foi possível carregar essa instalação",
         "venueMissing": "Essa instalação não tem registro de local",
         "courtCount": "{{count}} quadra",
         "courtCount_other": "{{count}} quadras",
+        "courtCount_many": "__TODO__",
         "matchedOn": "correspondeu em {{field}}",
         "selectFirst": "Escolha primeiro uma instalação",
         "addVenue": "Adicionar ao torneio",
@@ -2742,13 +2761,15 @@
       "closeTheDay": "Encerrar o dia",
       "closeTheDayNobody": "Ninguém está com check-in no momento",
       "closeTheDayConfirm_one": "Fazer check-out de {{count}} pessoa que ainda está com check-in hoje?",
-      "closeTheDayConfirm_other": "Fazer check-out de {{count}} pessoas que ainda estão com check-in hoje?"
+      "closeTheDayConfirm_other": "Fazer check-out de {{count}} pessoas que ainda estão com check-in hoje?",
+      "closeTheDayConfirm_many": "__TODO__"
     },
     "participation": {
       "title": "Programação",
       "navLabel": "Programação",
       "fixtureCount_one": "{{count}} confronto",
       "fixtureCount_other": "{{count}} confrontos",
+      "fixtureCount_many": "__TODO__",
       "undated": "Sem data",
       "noFixtures": "Nenhum confronto registrado para este programa.",
       "loadFailed": "Não foi possível carregar a programação.",
@@ -3090,10 +3111,13 @@
     "teamCounts": {
       "players_one": "{{count}} jogador",
       "players_other": "{{count}} jogadores",
+      "players_many": "__TODO__",
       "coaches_one": "{{count}} técnico",
       "coaches_other": "{{count}} técnicos",
+      "coaches_many": "__TODO__",
       "staff_one": "{{count}} membro da comissão",
-      "staff_other": "{{count}} membros da comissão"
+      "staff_other": "{{count}} membros da comissão",
+      "staff_many": "__TODO__"
     },
     "gender": {
       "female": "Mulheres",
@@ -3723,6 +3747,7 @@
     "noActiveTrackers": "Nenhum rastreador do público ativo",
     "activeTrackers_one": "{{count}} rastreador ativo",
     "activeTrackers_other": "{{count}} rastreadores ativos",
+    "activeTrackers_many": "__TODO__",
     "viewTrackers": "Ver rastreadores do público ({{count}})",
     "setDelegatedOutcome": "Definir resultado delegado",
     "confirmDelegatedOutcome": "Confirmar resultado delegado",
@@ -3752,8 +3777,10 @@
       "liveScore": "__TODO__",
       "crowdSessions_one": "__TODO__",
       "crowdSessions_other": "__TODO__",
+      "crowdSessions_many": "__TODO__",
       "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__"
+      "crowdTrusted_other": "__TODO__",
+      "crowdTrusted_many": "__TODO__"
     },
     "accept": "Aceitar",
     "nominateScorekeeper": "Indicar marcador",
@@ -3873,10 +3900,13 @@
   "hero": {
     "events_one": "{{count}} evento",
     "events_other": "{{count}} eventos",
+    "events_many": "__TODO__",
     "entries_one": "{{count}} inscrição",
     "entries_other": "{{count}} inscrições",
+    "entries_many": "__TODO__",
     "venues_one": "{{count}} local",
-    "venues_other": "{{count}} locais"
+    "venues_other": "{{count}} locais",
+    "venues_many": "__TODO__"
   },
   "venuePanel": {
     "title": "Local e quadras",
@@ -3974,14 +4004,18 @@
     "toggleFailed": "Não foi possível alterar o estado do check-in",
     "callBeforeCheckIn_one": "{{count}} participante não fez check-in. Chamar para a quadra mesmo assim?",
     "callBeforeCheckIn_other": "{{count}} participantes não fizeram check-in. Chamar para a quadra mesmo assim?",
+    "callBeforeCheckIn_many": "__TODO__",
     "columnHeader": "Check-in feito",
     "columnTooltip": "Participantes que se apresentaram na mesa para esta partida",
     "badgeComplete_one": "O participante fez check-in",
     "badgeComplete_other": "Todos os {{count}} participantes fizeram check-in",
+    "badgeComplete_many": "__TODO__",
     "badgePartial_one": "{{count}} participante ainda não fez check-in",
     "badgePartial_other": "{{count}} participantes ainda não fizeram check-in",
+    "badgePartial_many": "__TODO__",
     "callOnDropBeforeCheckIn_one": "{{count}} participante não fez check-in. Chamar esta partida para a quadra mesmo assim?",
     "callOnDropBeforeCheckIn_other": "{{count}} participantes não fizeram check-in. Chamar esta partida para a quadra mesmo assim?",
+    "callOnDropBeforeCheckIn_many": "__TODO__",
     "promptMode": {
       "label": "Avisos de check-in",
       "off": "Desativado",
@@ -4085,7 +4119,8 @@
     "extend": "Prorrogar",
     "extendTitle": "Prorrogar o acesso",
     "lockout_one": "{{who}} não pode fazer nada neste torneio — seu acesso delimitado expirou. Prorrogue ou revogue.",
-    "lockout_other": "{{count}} pessoas não podem fazer nada neste torneio ({{who}}) — o acesso delimitado delas expirou. Prorrogue ou revogue."
+    "lockout_other": "{{count}} pessoas não podem fazer nada neste torneio ({{who}}) — o acesso delimitado delas expirou. Prorrogue ou revogue.",
+    "lockout_many": "__TODO__"
   },
   "sanctioning": {
     "basicInfo": {

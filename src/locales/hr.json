@@ -1014,6 +1014,7 @@
     "scheduledTitle": "Zakazani mečevi",
     "scheduledCount_one": "{{count}} zakazan",
     "scheduledCount_other": "{{count}} zakazanih",
+    "scheduledCount_few": "__TODO__",
     "filterMatchUps": "Filtriraj mečeve",
     "filterClearAll": "Očisti sve",
     "filterAllEventTypes": "Sve vrste događaja",
@@ -1090,6 +1091,7 @@
     "lockedMoveConfirm": "Ovaj premještaj utječe na meč sa zaključanim rasporedom. Ipak ga premjestiti? Zaključavanje ostaje uz meč i na novom terminu.",
     "lockedPreserved_one": "{{count}} zaključani meč bit će sačuvan.",
     "lockedPreserved_other": "{{count}} zaključanih mečeva bit će sačuvano.",
+    "lockedPreserved_few": "__TODO__",
     "lockLabel": "Zaključaj",
     "lockActions": "Zaključaj ili otključaj rasporede ovog dana",
     "exitBulkForLock": "Izađite iz skupnog načina rada da biste koristili radnje zaključavanja",
@@ -1099,12 +1101,16 @@
     "unlockDayTitle": "Otključati rasporede ovog dana?",
     "lockDayConfirm_one": "Prikvačiti {{count}} termin na dan {{date}}. Brisanja i ponovno raspoređivanje preskočit će ga.",
     "lockDayConfirm_other": "Prikvačiti {{count}} termina na dan {{date}}. Brisanja i ponovno raspoređivanje preskočit će ih.",
+    "lockDayConfirm_few": "__TODO__",
     "unlockDayConfirm_one": "Otpustiti {{count}} prikvačeni termin na dan {{date}}.",
     "unlockDayConfirm_other": "Otpustiti {{count}} prikvačenih termina na dan {{date}}.",
+    "unlockDayConfirm_few": "__TODO__",
     "lockedCount_one": "{{count}} meč zaključan",
     "lockedCount_other": "{{count}} mečeva zaključano",
+    "lockedCount_few": "__TODO__",
     "unlockedCount_one": "{{count}} meč otključan",
     "unlockedCount_other": "{{count}} mečeva otključano",
+    "unlockedCount_few": "__TODO__",
     "nothingToLock": "Na ovaj dan ništa se ne može zaključati ni otključati.",
     "inspector": {
       "show": "Prikaži inspektor",
@@ -2092,10 +2098,13 @@
       "counts": {
         "players_one": "{{count}} igrač",
         "players_other": "{{count}} igrača",
+        "players_few": "__TODO__",
         "coaches_one": "{{count}} trener",
         "coaches_other": "{{count}} trenera",
+        "coaches_few": "__TODO__",
         "staff_one": "{{count}} član osoblja",
-        "staff_other": "{{count}} članova osoblja"
+        "staff_other": "{{count}} članova osoblja",
+        "staff_few": "__TODO__"
       }
     },
     "practiceCapacity": {
@@ -2144,7 +2153,8 @@
       },
       "counts": {
         "members_one": "{{count}} član",
-        "members_other": "{{count}} članova"
+        "members_other": "{{count}} članova",
+        "members_few": "__TODO__"
       },
       "contactPerson": "Osoba za kontakt",
       "contactPersonNone": "Nijedna"
@@ -2154,22 +2164,28 @@
       "contactSelected": "Kontakt odabran",
       "reachable_one": "{{count}} dostupan",
       "reachable_other": "{{count}} dostupnih",
+      "reachable_few": "__TODO__",
       "withoutContact_one": "{{count}} bez kontaktnih podataka",
       "withoutContact_other": "{{count}} bez kontaktnih podataka",
+      "withoutContact_few": "__TODO__",
       "noContact": "Nisu zabilježeni kontaktni podaci",
       "textAll_one": "Pošalji SMS {{count}}",
       "textAll_other": "Pošalji SMS {{count}}",
+      "textAll_few": "__TODO__",
       "emailAll_one": "Pošalji e-mail {{count}}",
       "emailAll_other": "Pošalji e-mail {{count}}",
+      "emailAll_few": "__TODO__",
       "copyNumbers": "Kopiraj brojeve",
       "print": "Ispiši",
       "notReached_one": "{{count}} osoba ovo neće primiti",
       "notReached_other": "{{count}} osoba ovo neće primiti",
+      "notReached_few": "__TODO__",
       "noMobiles": "Nitko na ovom popisu nema broj mobitela",
       "noEmails": "Nitko na ovom popisu nema e-mail adresu",
       "noNumbers": "Nema brojeva za kopiranje",
       "numbersCopied_one": "{{count}} broj kopiran",
       "numbersCopied_other": "{{count}} brojeva kopirano",
+      "numbersCopied_few": "__TODO__",
       "copyFailed": "Kopiranje u međuspremnik nije uspjelo",
       "columns": {
         "name": "Ime",
@@ -2355,6 +2371,7 @@
       "providerSeedingPolicy": "Pravilo pružatelja",
       "additionalSeedsCount_one": "{{seeds}} (+{{count}} dodatni nositelj)",
       "additionalSeedsCount_other": "{{seeds}} (+{{count}} dodatnih nositelja)",
+      "additionalSeedsCount_few": "__TODO__",
       "feedInQualifiersInvalid": "Kvalifikacije sa stupnjevitim ulazom veličine {{drawSize}} mogu dati samo ovaj broj kvalifikanata: {{counts}}",
       "targetRound": "Ciljno kolo",
       "targetRoundOption": "Kolo {{round}} — slobodno {{open}} od {{total}} pozicija",
@@ -2742,12 +2759,14 @@
         "keepTyping": "Za pretragu upišite najmanje 2 znaka",
         "candidateCount": "{{count}} odgovarajući objekt",
         "candidateCount_other": "{{count}} odgovarajućih objekata",
+        "candidateCount_few": "__TODO__",
         "noMatches": "Nema odgovarajućih objekata",
         "searchFailed": "Pretraga objekata nije dostupna",
         "venueFailed": "Nije bilo moguće učitati taj objekt",
         "venueMissing": "Taj objekt nema zapis o lokaciji",
         "courtCount": "{{count}} teren",
         "courtCount_other": "{{count}} terena",
+        "courtCount_few": "__TODO__",
         "matchedOn": "podudaranje po {{field}}",
         "selectFirst": "Najprije odaberite objekt",
         "addVenue": "Dodaj na turnir",
@@ -2918,13 +2937,15 @@
       "closeTheDay": "Zatvori dan",
       "closeTheDayNobody": "Trenutačno nitko nije prijavljen",
       "closeTheDayConfirm_one": "Odjaviti {{count}} osobu koja je danas još prijavljena?",
-      "closeTheDayConfirm_other": "Odjaviti {{count}} osoba koje su danas još prijavljene?"
+      "closeTheDayConfirm_other": "Odjaviti {{count}} osoba koje su danas još prijavljene?",
+      "closeTheDayConfirm_few": "__TODO__"
     },
     "participation": {
       "title": "Raspored",
       "navLabel": "Raspored",
       "fixtureCount_one": "{{count}} susret",
       "fixtureCount_other": "{{count}} susreta",
+      "fixtureCount_few": "__TODO__",
       "undated": "Bez datuma",
       "noFixtures": "Za ovaj program nema zabilježenih susreta.",
       "loadFailed": "Raspored se nije mogao učitati.",
@@ -3090,10 +3111,13 @@
     "teamCounts": {
       "players_one": "{{count}} igrač",
       "players_other": "{{count}} igrača",
+      "players_few": "__TODO__",
       "coaches_one": "{{count}} trener",
       "coaches_other": "{{count}} trenera",
+      "coaches_few": "__TODO__",
       "staff_one": "{{count}} član osoblja",
-      "staff_other": "{{count}} članova osoblja"
+      "staff_other": "{{count}} članova osoblja",
+      "staff_few": "__TODO__"
     },
     "gender": {
       "female": "Žene",
@@ -3723,6 +3747,7 @@
     "noActiveTrackers": "Nema aktivnih pratitelja iz publike",
     "activeTrackers_one": "{{count}} aktivni pratitelj",
     "activeTrackers_other": "{{count}} aktivnih pratitelja",
+    "activeTrackers_few": "__TODO__",
     "viewTrackers": "Pogledaj pratitelje iz publike ({{count}})",
     "setDelegatedOutcome": "Postavi delegirani ishod",
     "confirmDelegatedOutcome": "Potvrdi delegirani ishod",
@@ -3752,8 +3777,10 @@
       "liveScore": "__TODO__",
       "crowdSessions_one": "__TODO__",
       "crowdSessions_other": "__TODO__",
+      "crowdSessions_few": "__TODO__",
       "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__"
+      "crowdTrusted_other": "__TODO__",
+      "crowdTrusted_few": "__TODO__"
     },
     "accept": "Prihvati",
     "nominateScorekeeper": "Imenuj zapisničara",
@@ -3873,10 +3900,13 @@
   "hero": {
     "events_one": "{{count}} natjecanje",
     "events_other": "{{count}} natjecanja",
+    "events_few": "__TODO__",
     "entries_one": "{{count}} prijava",
     "entries_other": "{{count}} prijava",
+    "entries_few": "__TODO__",
     "venues_one": "{{count}} lokacija",
-    "venues_other": "{{count}} lokacija"
+    "venues_other": "{{count}} lokacija",
+    "venues_few": "__TODO__"
   },
   "venuePanel": {
     "title": "Lokacija i tereni",
@@ -3974,14 +4004,18 @@
     "toggleFailed": "Nije bilo moguće promijeniti status prijave",
     "callBeforeCheckIn_one": "{{count}} sudionik se nije prijavio. Ipak pozvati na teren?",
     "callBeforeCheckIn_other": "{{count}} sudionika se nije prijavilo. Ipak pozvati na teren?",
+    "callBeforeCheckIn_few": "__TODO__",
     "columnHeader": "Prijavljen",
     "columnTooltip": "Sudionici koji su se javili za stolom za ovaj meč",
     "badgeComplete_one": "Sudionik se prijavio",
     "badgeComplete_other": "Svih {{count}} sudionika se prijavilo",
+    "badgeComplete_few": "__TODO__",
     "badgePartial_one": "{{count}} sudionik se još nije prijavio",
     "badgePartial_other": "{{count}} sudionika se još nije prijavilo",
+    "badgePartial_few": "__TODO__",
     "callOnDropBeforeCheckIn_one": "{{count}} sudionik se nije prijavio. Ipak pozvati ovaj meč na teren?",
     "callOnDropBeforeCheckIn_other": "{{count}} sudionika se nije prijavilo. Ipak pozvati ovaj meč na teren?",
+    "callOnDropBeforeCheckIn_few": "__TODO__",
     "promptMode": {
       "label": "Upiti o prijavi",
       "off": "Isključeno",
@@ -4085,7 +4119,8 @@
     "extend": "Produlji",
     "extendTitle": "Produlji pristup",
     "lockout_one": "{{who}} ne može na ovom turniru učiniti baš ništa — ograničeni pristup je istekao. Produljite ga ili opozovite.",
-    "lockout_other": "{{count}} osoba ne može na ovom turniru učiniti baš ništa ({{who}}) — njihov ograničeni pristup je istekao. Produljite ili opozovite."
+    "lockout_other": "{{count}} osoba ne može na ovom turniru učiniti baš ništa ({{who}}) — njihov ograničeni pristup je istekao. Produljite ili opozovite.",
+    "lockout_few": "__TODO__"
   },
   "sanctioning": {
     "basicInfo": {
