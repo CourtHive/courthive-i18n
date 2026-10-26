@@ -58,6 +58,10 @@ jobs:
       - run: pnpm check-types
       - name: Compare keys across locales (parity gate)
         run: node scripts/compare-keys.cjs
+      # A translation whose {{placeholders}} differ from English renders them literally or loses the value;
+      # key parity cannot see it. See scripts/check-placeholders.cjs.
+      - name: Placeholders match English
+        run: node scripts/check-placeholders.cjs
       - run: pnpm build
       - name: Sanity check generated manifest
         run: |
