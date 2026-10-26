@@ -58,6 +58,7 @@
  */
 const fs = require('fs');
 const path = require('path');
+const { baseOf, formsFor, localeOf, pluralBases } = require('./plural-forms.cjs');
 
 const TODO = '__TODO__';
 const STALE = '__STALE__';
@@ -89,6 +90,15 @@ writeJson(destEnPath, dest);
 
 // Seed __TODO__ for added keys (no translation exists) and mark changed keys
 // __STALE__ (a translation exists but now answers a different English string).
+// A plural key fans out to the LOCALE's CLDR forms (plural-forms.cjs): an added `x_other` seeds Czech `x_few` and
+// `x_many` too, and a changed English form stales every form of that key, since they share one meaning.
+const englishKeys = new Set(leafPaths(dest, []));
+const bases = pluralBases(englishKeys);
+function localeForms(dotted, locale) {
+  const base = baseOf(dotted);
+  if (base === undefined || !bases.has(base)) return [dotted];
+  return [...formsFor(base, locale, englishKeys).allowed];
+}
 const newKeys = [...added];
 const changedKeys = [...changed];
 const otherLocales = fs.readdirSync(localesDir).filter((f) => f.endsWith('.json') && f !== 'en.json');
@@ -97,16 +107,17 @@ let staleMarked = 0;
 for (const file of otherLocales) {
   const p = path.join(localesDir, file);
   const locale = readJson(p);
+  const code = localeOf(file);
   let mutated = false;
 
-  for (const dotted of newKeys) {
+  for (const dotted of newKeys.flatMap((k) => localeForms(k, code))) {
     if (!hasPath(locale, dotted)) {
       setPath(locale, dotted, TODO);
       mutated = true;
     }
   }
 
-  for (const dotted of changedKeys) {
+  for (const dotted of [...new Set(changedKeys.flatMap((k) => localeForms(k, code)))]) {
     const current = getPath(locale, dotted);
     // Only a real, already-translated string goes stale. `__TODO__` is still
     // untranslated (marking it stale would double-count it against
@@ -212,6 +223,17 @@ function mergeInto(src, dst, prefix) {
     }
   }
   return { added, changed };
+}
+
+/** Every leaf path in `obj`, dotted. */
+function leafPaths(obj, prefix) {
+  const out = [];
+  for (const key of Object.keys(obj)) {
+    const full = [...prefix, key];
+    if (isPlainObject(obj[key])) out.push(...leafPaths(obj[key], full));
+    else out.push(full.join('.'));
+  }
+  return out;
 }
 
 /** Leaf value at `dotted`, or undefined if any segment is missing. */

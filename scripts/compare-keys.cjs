@@ -5,10 +5,16 @@
  * Promoted from TMX/src/i18n/compare-keys.cjs and used as a CI gate.
  * Exits with code 1 on any key drift or duplicate key — fails the build.
  *
+ * Plural keys are compared per locale, not against English: a key English carries as `<base>_one` / `<base>_other`
+ * must have each of the LOCALE's CLDR forms (Czech `_one _few _many _other`, Arabic all six), and no form the locale
+ * does not use beyond English's own. See plural-forms.cjs. `node scripts/seed-plural-forms.cjs` adds a missing form
+ * as `__TODO__`.
+ *
  * Usage: node scripts/compare-keys.cjs
  */
 const fs = require('fs');
 const path = require('path');
+const { baseOf, formsFor, localeOf, pluralBases } = require('./plural-forms.cjs');
 
 const dir = path.join(__dirname, '..', 'src', 'locales');
 const files = fs.readdirSync(dir).filter(function (f) {
@@ -53,13 +59,7 @@ function checkDuplicateKeys(jsonString) {
         var currentLevel = keyStack[keyStack.length - 1];
         if (currentLevel[key]) {
           issues.push(
-            '  DUPLICATE key "' +
-              key +
-              '" at line ' +
-              (i + 1) +
-              ' (first seen at line ' +
-              currentLevel[key] +
-              ')',
+            '  DUPLICATE key "' + key + '" at line ' + (i + 1) + ' (first seen at line ' + currentLevel[key] + ')',
           );
         }
         currentLevel[key] = i + 1;
@@ -108,17 +108,46 @@ for (var ei = 0; ei < files.length; ei++) {
   }
 }
 
-var allKeys = Object.keys(allKeysSet).sort();
+var englishKeys = new Set(Object.keys(allKeysByFile['en.json'] || {}));
+var bases = pluralBases(englishKeys);
+function isPluralKey(key) {
+  var base = baseOf(key);
+  return base !== undefined && bases.has(base);
+}
 
-console.log('Total unique leaf keys across all files: ' + allKeys.length + '\n');
+// Ordinary keys: every file carries every key any file has. Plural keys: per locale, below.
+var allKeys = Object.keys(allKeysSet)
+  .filter(function (k) {
+    return !isPluralKey(k);
+  })
+  .sort();
+
+console.log('Total unique leaf keys across all files: ' + allKeys.length + ' (+ ' + bases.size + ' plural keys)\n');
 
 for (var mi = 0; mi < files.length; mi++) {
   var mf = files[mi];
+  var locale = localeOf(mf);
   var missing = [];
+  var foreign = [];
   for (var mki = 0; mki < allKeys.length; mki++) {
     if (!allKeysByFile[mf][allKeys[mki]]) {
       missing.push(allKeys[mki]);
     }
+  }
+  if (mf !== 'en.json') {
+    bases.forEach(function (base) {
+      var forms = formsFor(base, locale, englishKeys);
+      forms.required.forEach(function (k) {
+        // i18next falls back from a missing `_one` to the bare key, which some English sources use as the singular
+        if (k === base + '_one' && allKeysByFile[mf][base]) return;
+        if (!allKeysByFile[mf][k]) missing.push(k + '  (a ' + locale + ' plural form)');
+      });
+    });
+    Object.keys(allKeysByFile[mf]).forEach(function (k) {
+      var base = baseOf(k);
+      if (!isPluralKey(k)) return;
+      if (!formsFor(base, locale, englishKeys).allowed.has(k)) foreign.push(k);
+    });
   }
   if (missing.length > 0) {
     console.log('MISSING from ' + mf + ' (' + missing.length + ' keys):');
@@ -127,7 +156,16 @@ for (var mi = 0; mi < files.length; mi++) {
     }
     console.log('');
     hasErrors = true;
-  } else {
+  }
+  if (foreign.length > 0) {
+    console.log('NOT A ' + locale + ' PLURAL FORM in ' + mf + ' (' + foreign.length + ' keys):');
+    for (var fi = 0; fi < foreign.length; fi++) {
+      console.log('  ' + foreign[fi]);
+    }
+    console.log('');
+    hasErrors = true;
+  }
+  if (!missing.length && !foreign.length) {
     console.log(mf + ': COMPLETE (' + Object.keys(allKeysByFile[mf]).length + ' keys)');
   }
 }
