@@ -42,7 +42,7 @@
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{ts,json}\"",
-    "test": "node scripts/compare-keys.cjs && echo 'OK'",
+    "test": "node scripts/compare-keys.cjs && node scripts/check-placeholders.cjs && echo 'OK'",
     "todo-report": "node scripts/todo-report.cjs",
     "commitlint": "commitlint --edit",
     "prepare": "husky && node scripts/install-husky-hooks.cjs",

@@ -60,6 +60,8 @@ jobs:
 
       - run: node scripts/compare-keys.cjs
 
+      - run: node scripts/check-placeholders.cjs
+
       - run: pnpm build
 
       - name: Determine npm dist-tag
