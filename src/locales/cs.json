@@ -309,27 +309,27 @@
       "attached": "Připojeno — {{name}}"
     },
     "pipelineFeatures": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "disabled": "__TODO__",
-      "perCall": "__TODO__",
-      "policy": "__TODO__",
-      "progressionLocked": "__TODO__",
-      "default": "__TODO__",
-      "on": "__TODO__",
-      "off": "__TODO__",
-      "badge": "__TODO__",
-      "badgeTitle": "__TODO__",
+      "title": "Funkce pipeline",
+      "intro": "Pouze pro testování. Mění, jak se výsledky šíří pavouky tohoto turnaje. K dispozici po odhlášení nebo pro vygenerovaný (testovací) turnaj, který pak běží lokálně na tomto zařízení.",
+      "disabled": "Tento turnaj má vlastní pravidla skórování, která o těchto možnostech rozhodují. Funkce pipeline jsou vypnuté.",
+      "perCall": "Použito na každý zadaný výsledek",
+      "policy": "Připojeno k tomuto turnaji",
+      "progressionLocked": "Tento turnaj má vlastní pravidla postupu, která o těchto možnostech rozhodují.",
+      "default": "Výchozí",
+      "on": "Zapnuto",
+      "off": "Vypnuto",
+      "badge": "Funkce pipeline",
+      "badgeTitle": "Výsledky v tomto turnaji se zadávají podle upravených pravidel pipeline (Nastavení → Funkce pipeline)",
       "options": {
-        "propagateExitStatus": "__TODO__",
-        "propagateRetirementAsExit": "__TODO__",
-        "allowChangePropagation": "__TODO__",
-        "disableScoreValidation": "__TODO__",
-        "requireParticipantsForScoring": "__TODO__",
-        "doubleExitPropagateBye": "__TODO__",
-        "autoPlaceQualifiers": "__TODO__",
-        "autoReplaceQualifiers": "__TODO__",
-        "autoRemoveQualifiers": "__TODO__"
+        "propagateExitStatus": "Přenášet stav odstoupení (walkover/kontumace následuje poraženého)",
+        "propagateRetirementAsExit": "Zacházet se vzdáním jako s odstoupením",
+        "allowChangePropagation": "Povolit výměnu změněného vítěze v dalších kolech",
+        "disableScoreValidation": "Přeskočit ověření skóre",
+        "requireParticipantsForScoring": "Před skórováním vyžadovat oba účastníky",
+        "doubleExitPropagateBye": "Dvojité odstoupení umístí BYE na další pozici poraženého",
+        "autoPlaceQualifiers": "Automaticky umístit kvalifikanty po dokončení kvalifikace",
+        "autoReplaceQualifiers": "Automaticky nahradit kvalifikanta, když se změní výsledek kvalifikace",
+        "autoRemoveQualifiers": "Automaticky odebrat kvalifikanta, když je odebrán výsledek kvalifikace"
       }
     }
   },
@@ -497,13 +497,13 @@
     "inviteFailed": "Pozvánku se nepodařilo odeslat. Zkuste to prosím znovu.",
     "manageAsProvisioner": "Spravovat jako tento provisioner",
     "nowManagingProvisioner": "Nyní vystupujete jako „{{name}}“",
-    "associateExistingUser": "__TODO__",
-    "associateExistingUserHint": "__TODO__",
-    "userAssociated": "__TODO__",
-    "userAlreadyAssociated": "__TODO__",
-    "associateUserNotFound": "__TODO__",
-    "associateEmailAmbiguous": "__TODO__",
-    "lastProviderAdmin": "__TODO__"
+    "associateExistingUser": "Přidružit existujícího uživatele",
+    "associateExistingUserHint": "Přidejte uživatele, který už má účet. Najít lze jen uživatele, které můžete spravovat.",
+    "userAssociated": "Uživatel přidružen k poskytovateli",
+    "userAlreadyAssociated": "Uživatel už byl přidružen; role aktualizována",
+    "associateUserNotFound": "Žádný uživatel s tímto e-mailem, kterého můžete přidat. Místo toho uživatele vytvořte.",
+    "associateEmailAmbiguous": "Tento e-mail má více než jeden účet. Musí to vyřešit super admin.",
+    "lastProviderAdmin": "Poskytovatel si musí ponechat alespoň jednoho správce poskytovatele"
   },
   "round_names": {
     "F": "Finále",
@@ -709,7 +709,7 @@
     "publishtime": "Čas publikování",
     "replacelocal": "Nahradit lokální kopii?",
     "unpublish": "Zrušit publikování turnaje?",
-    "exampleClockUnavailable": "__TODO__"
+    "exampleClockUnavailable": "Ukázka {{name}} nebyla vygenerována: soutěžní hodiny neposkytují použitelný čas. Opravte nebo odeberte soutěžní hodiny (dev.setCompetitionClock) a zkuste to znovu."
   },
   "ddlb": {
     "singles": "Pořadí turnaje (dvouhra):",
@@ -1305,21 +1305,21 @@
     },
     "clockUnavailable": "Soutěžní hodiny neposkytují použitelný čas, takže zápas nebyl vyvolán.",
     "presentation": {
-      "layout": "__TODO__",
-      "layoutLabel": "__TODO__",
-      "catalogPlacement": "__TODO__",
-      "inspectorPlacement": "__TODO__",
-      "catalogLeft": "__TODO__",
-      "catalogBottom": "__TODO__",
-      "inspectorDocked": "__TODO__",
-      "inspectorFloating": "__TODO__",
-      "previousCards": "__TODO__",
-      "nextCards": "__TODO__"
+      "layout": "Rozložení",
+      "layoutLabel": "Rozložení rozpisu",
+      "catalogPlacement": "Umístění katalogu",
+      "inspectorPlacement": "Umístění inspektoru",
+      "catalogLeft": "Katalog: vlevo",
+      "catalogBottom": "Katalog: dole",
+      "inspectorDocked": "Inspektor: ukotvený",
+      "inspectorFloating": "Inspektor: plovoucí",
+      "previousCards": "Předchozí karty",
+      "nextCards": "Další karty"
     },
-    "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__",
-    "live": "__TODO__",
-    "liveTooltip": "__TODO__"
+    "collapseAllGroups": "Sbalit všechny skupiny",
+    "expandAllGroups": "Rozbalit všechny skupiny",
+    "live": "ŽIVĚ",
+    "liveTooltip": "Živé skóre — neoficiální, dokud nebude zadán výsledek"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Slyšitelná obscenita",
@@ -1430,9 +1430,9 @@
       "options": "Možnosti",
       "officialsBoard": "Tabule rozhodčích",
       "linkedTournaments": "Propojené turnaje",
-      "themeMode": "__TODO__",
-      "lightPalette": "__TODO__",
-      "darkPalette": "__TODO__"
+      "themeMode": "Režim",
+      "lightPalette": "Motiv světlého režimu",
+      "darkPalette": "Motiv tmavého režimu"
     },
     "editTournamentName": {
       "title": "Upravit název turnaje",
@@ -1690,10 +1690,10 @@
       "online": "Online",
       "uploadWarning": "Varování: Tato akce nahradí záznam turnaje na serveru",
       "scopedAccess": "Omezený přístup",
-      "saveConflict": "__TODO__",
-      "saveExists": "__TODO__",
-      "saveUncertain": "__TODO__",
-      "loadServerCopy": "__TODO__"
+      "saveConflict": "Server má novější verzi tohoto turnaje. Nic nebylo uloženo a vaše lokální kopie zůstala zachována. Načtení kopie ze serveru ji nahradí.",
+      "saveExists": "Tento turnaj na serveru již existuje. Nic nebylo uloženo a vaše lokální kopie zůstala zachována.",
+      "saveUncertain": "Nelze potvrdit, že uložení dorazilo na server. Vaše lokální kopie zůstala zachována; zkuste to znovu.",
+      "loadServerCopy": "Načíst kopii ze serveru"
     },
     "manageAccess": {
       "title": "Spravovat přístup",
@@ -2235,7 +2235,7 @@
       "continue": "Pokračovat",
       "signOut": "Odhlásit se",
       "failed": "Tohoto poskytovatele se nepodařilo otevřít",
-      "consoleIntro": "__TODO__"
+      "consoleIntro": "Váš účet patří k více poskytovatelům. Vyberte toho, pro kterého nyní pracujete; později můžete přepnout."
     },
     "exitBeforeArrival": {
       "title": "Walkover nebo kontumace",
@@ -2445,10 +2445,10 @@
       "invalidTime": "Tento čas se nepodařilo zaznamenat.",
       "courtNotFound": "Tento kurt už neexistuje. Obnovte turnaj a zkuste to znovu.",
       "notSaved": "Změna rozpisu nebyla uložena: {{reason}}",
-      "beforePlayedSource": "__TODO__",
-      "afterDependent": "__TODO__",
-      "moreBlocking": "__TODO__",
-      "roundLabel": "__TODO__"
+      "beforePlayedSource": "Nenaplánováno: závisí na {{matchUp}}, který už byl odehrán ({{when}}). Pokud je jeho čas chybný, přesuňte nejprve ten zápas.",
+      "afterDependent": "Nepřesunuto: odehraný zápas nemůže následovat po {{matchUp}} ({{when}}), který na něm závisí.",
+      "moreBlocking": "(+{{count}} další)",
+      "roundLabel": "zápas {{roundNumber}}. kola"
     },
     "tournamentsTruncated": "Zobrazeno prvních {{loaded}} z {{total}} turnajů. Seznam zúžíte filtrem nebo vyhledáváním.",
     "tournamentSearchFailed": "Vyhledávání turnajů je momentálně nedostupné. Zobrazeny jsou jen již načtené turnaje.",
@@ -2456,10 +2456,10 @@
     "clearRefused": "Tento výsledek nelze vymazat: závisí na něm pozdější zápas. Nejprve vymažte ten zápas.",
     "scoreDiscardedByFormat": "Změna formátu na {{matchUpFormat}} zahodila sety ({{count}}): {{sets}}",
     "offlineChangeRejected": "Změna provedená offline byla serverem odmítnuta",
-    "scoreRefused": "__TODO__",
-    "durableChangeNeedsReview": "__TODO__",
-    "durableCommandNotStored": "__TODO__",
-    "durableQueueFailed": "__TODO__"
+    "scoreRefused": "Tento zápas nyní nelze skórovat ani opravit: pavouk pro něj skórování nenabízí.",
+    "durableChangeNeedsReview": "Dřívější změna vyžaduje kontrolu. Před pokračováním obnovte turnaj.",
+    "durableCommandNotStored": "Trvalý příkaz nelze pro tuto relaci uložit",
+    "durableQueueFailed": "Změnu nelze trvale zařadit do fronty; nechte tuto stránku otevřenou"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -3202,13 +3202,13 @@
       "lg": "Velké (18 px)",
       "xl": "Velmi velké (20 px)"
     },
-    "select": "__TODO__",
-    "mode": "__TODO__",
-    "light": "__TODO__",
-    "dark": "__TODO__",
-    "system": "__TODO__",
-    "lightPalette": "__TODO__",
-    "darkPalette": "__TODO__"
+    "select": "Motiv",
+    "mode": "Režim",
+    "light": "Světlý",
+    "dark": "Tmavý",
+    "system": "Systémový",
+    "lightPalette": "Motiv světlého režimu",
+    "darkPalette": "Motiv tmavého režimu"
   },
   "language": {
     "select": "Vyberte jazyk"
@@ -3833,13 +3833,13 @@
       "liveTracker": "Skóre nahlášeno přes živý sledovač",
       "unconfirmed": "Nepotvrzené delegované skóre — potvrďte pro zoficiálnění",
       "unconfirmedAria": "Nepotvrzené delegované skóre čeká na potvrzení",
-      "liveScore": "__TODO__",
-      "crowdSessions_one": "__TODO__",
-      "crowdSessions_other": "__TODO__",
+      "liveScore": "Živé skóre ze sledovače — neoficiální, dokud nebude zadán výsledek",
+      "crowdSessions_one": "{{count}} zapisovatel z davu u tohoto zápasu — kliknutím zkontrolujte",
+      "crowdSessions_other": "Zapisovatelé z davu u tohoto zápasu: {{count}} — kliknutím zkontrolujte",
       "crowdSessions_few": "__TODO__",
       "crowdSessions_many": "__TODO__",
-      "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__",
+      "crowdTrusted_one": "{{count}} zapisovatel z davu, povýšený — jeho skóre se zobrazuje živě. Kliknutím zkontrolujte",
+      "crowdTrusted_other": "Zapisovatelé z davu: {{count}}, jeden povýšený — jeho skóre se zobrazuje živě. Kliknutím zkontrolujte",
       "crowdTrusted_few": "__TODO__",
       "crowdTrusted_many": "__TODO__"
     },
@@ -3848,7 +3848,7 @@
     "removeScorekeeper": "Odebrat určeného zapisovatele",
     "approveScorekeeper": "Schválit jako zapisovatele",
     "removeScorekeeperApproval": "Odebrat schválení zapisovatele",
-    "live": "__TODO__"
+    "live": "ŽIVĚ"
   },
   "providerSetup": {
     "wizardTitle": "Nastavte svého poskytovatele",
@@ -4467,12 +4467,12 @@
     "noRounds": "V denním plánu nejsou žádná kola. Nejprve přetáhněte kola z katalogu do pruhů míst konání.",
     "failed": "Rozpis selhal. Podrobnosti najdete v konzoli.",
     "gridFailed": "Rozpis mřížky selhal.",
-    "repairTitle": "__TODO__",
-    "repairIntro": "__TODO__",
-    "repair": "__TODO__",
-    "repaired": "__TODO__",
-    "repairFailed": "__TODO__",
-    "planGuardRefused": "__TODO__"
+    "repairTitle": "Profil rozpisu vyžaduje opravu",
+    "repairIntro": "Profil rozpisu uvádí kola ({{count}}), jejichž místo konání, soutěž nebo pavouk již neexistuje. Nic nebylo naplánováno. Opravit profil (odebrat tato kola) a použít znovu?",
+    "repair": "Opravit profil",
+    "repaired": "Profil opraven. Pro naplánování jej použijte znovu.",
+    "repairFailed": "Oprava profilu selhala.",
+    "planGuardRefused": "Nic nebylo naplánováno: plán umístil zápasy ({{count}}) před již odehrané zápasy. Nahlaste to prosím."
   },
   "topology": {
     "clearCanvas": "Vymazat plátno",
@@ -4586,11 +4586,11 @@
     "noRecentActivity": "V posledním období není žádná aktivita v chatu.",
     "monitorTitle": "Sledování chatu — všechny turnaje",
     "selectGroup": "Vyberte štítek skupiny a odpovězte do daného turnaje",
-    "sending": "__TODO__",
-    "delivered": "__TODO__",
-    "notDelivered": "__TODO__",
-    "retry": "__TODO__",
-    "clickToRetry": "__TODO__"
+    "sending": "Odesílání",
+    "delivered": "Doručeno",
+    "notDelivered": "Nedoručeno",
+    "retry": "Zkusit znovu",
+    "clickToRetry": "Kliknutím ji odešlete znovu."
   },
   "drawActions": {
     "pagePlayoff": "Page play-off",
@@ -4756,10 +4756,10 @@
     "title": "Výsledky rozpisu",
     "noActivity": "K tomuto datu není žádná aktivita plánovače.",
     "noPerDate": "Plánovač skončil, ale nehlásil žádnou aktivitu podle data.",
-    "noFormat": "__TODO__",
-    "playedOrder": "__TODO__",
-    "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__",
+    "noFormat": "Bez formátu",
+    "playedOrder": "Odloženo — odehrané pořadí",
+    "playedOrderDetail": "{{matchUp}} již odehráno {{when}}",
+    "dailyLimitWarnings": "Umístěno nad denní limit",
     "overnightRest": "__TODO__",
     "overnightRestDetail": "__TODO__",
     "overnightRestAdvancing": "__TODO__"
@@ -4811,8 +4811,8 @@
     "impersonate": "Vydávat se za jiného uživatele?",
     "rejected": "Server odmítl změnu",
     "sessionExpired": "Relace vypršela",
-    "tournamentChangedBeforeApply": "__TODO__",
-    "tournamentChangedAwaitingAck": "__TODO__"
+    "tournamentChangedBeforeApply": "Turnaj se změnil dříve, než bylo možné změnu použít",
+    "tournamentChangedAwaitingAck": "Turnaj se změnil během čekání na potvrzení"
   },
   "queueService": {
     "saved": "Uloženo"
@@ -4880,65 +4880,65 @@
     }
   },
   "demoClock": {
-    "title": "__TODO__",
-    "launch": "__TODO__",
-    "cannotStart": "__TODO__",
-    "launchHint": "__TODO__",
-    "collapse": "__TODO__",
-    "expand": "__TODO__",
-    "exit": "__TODO__",
-    "time": "__TODO__",
-    "date": "__TODO__",
-    "setTime": "__TODO__",
-    "set": "__TODO__",
-    "paused": "__TODO__",
-    "step": "__TODO__",
-    "forwardOnly": "__TODO__",
-    "boundary": "__TODO__",
-    "noBoundary": "__TODO__",
+    "title": "Ukázkové hodiny",
+    "launch": "Otevřít ukázkové hodiny",
+    "cannotStart": "Ukázkové hodiny nelze spustit: tento turnaj potřebuje datum zahájení a časové pásmo místa konání.",
+    "launchHint": "Načte nový Scheduling Lab s průvodcem Garman, Pro a kombinovaným a jeho ukázkovými hodinami. Hodiny běží jen v Scheduling Lab: dokud je nějaký otevřený, tlačítko Otevřít ukázkové hodiny je vrátí. K dispozici jen po odhlášení.",
+    "collapse": "Skrýt ovládání",
+    "expand": "Ovládání hodin",
+    "exit": "Ukončit hodiny",
+    "time": "Ukázkový čas",
+    "date": "Ukázkové datum",
+    "setTime": "Skutečný čas ukázky",
+    "set": "Nastavit čas",
+    "paused": "Pozastaveno",
+    "step": "+{{minutes}} min",
+    "forwardOnly": "Zvolte platný čas rovný aktuálnímu ukázkovému času nebo pozdější. Vyvolání a výsledky nelze vrátit zpět.",
+    "boundary": "Další: {{kind}} · {{time}}",
+    "noBoundary": "Žádná nadcházející časová hranice",
     "boundaries": {
-      "scheduled": "__TODO__",
-      "blockStart": "__TODO__",
-      "blockEnd": "__TODO__"
+      "scheduled": "plánovaný začátek",
+      "blockStart": "začátek bloku kurtu",
+      "blockEnd": "konec bloku kurtu"
     },
-    "openDay": "__TODO__",
-    "garman": "__TODO__",
-    "pro": "__TODO__",
-    "saveFirst": "__TODO__",
-    "notOpened": "__TODO__",
-    "failed": "__TODO__",
-    "applied": "__TODO__",
-    "hint": "__TODO__",
+    "openDay": "Otevřít den",
+    "garman": "Použít časy Garman",
+    "pro": "Použít mřížku Pro",
+    "saveFirst": "Před spuštěním plánovače uložte nebo zahoďte úpravy rozpisu.",
+    "notOpened": "Ukázka plánování byla uložena, ale neotevřena. Otevřete ji ze seznamu turnajů.",
+    "failed": "Plánování selhalo. Zkontrolujte rozpis a zkuste to znovu.",
+    "applied": "Plánovač použit. Prohlédněte si den v mřížce a porovnejte výsledek.",
+    "hint": "Čas je pozastaven. Zahajujte, skórujte a dokončujte zápasy běžným ovládáním turnaje. Otevření pozdějšího dne posune čas na 09:55; dřívější dny lze prohlížet bez vracení historie. Ukončení obnoví skutečný čas.",
     "days": {
       "day1": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Den 1 · Garman",
+        "description": "Použijte časy na dvouhru. Prohlédněte si časy zahájení podle pravidel, přestávky na zotavení a dostupnost kurtů."
       },
       "day2": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Den 2 · Pro",
+        "description": "Použijte mřížku na čtyřhru. Prohlédněte si pořadí na kurtech bez plánovaných časů. Pro poznámky „ne dříve než“ a „následováno“ použijte běžné ovládání mřížky."
       },
       "day3": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Den 3 · Společně",
+        "description": "Nejprve použijte časy Garman, poté mřížku Pro na stejné pavouky dvouhry a čtyřhry. Ověřte, že časy zůstanou zachovány, zatímco se přidávají pozice na kurtech."
       }
     },
-    "shortLabel": "__TODO__",
-    "bottomBar": "__TODO__",
-    "mode": "__TODO__",
+    "shortLabel": "Ukázkový čas",
+    "bottomBar": "Spodní lišta ukázkových hodin",
+    "mode": "Režim ukázky",
     "modes": {
-      "clock": "__TODO__",
-      "script": "__TODO__"
+      "clock": "Volné hodiny",
+      "script": "Průvodce ukázkou plánování"
     },
-    "loadScript": "__TODO__",
-    "loadFailed": "__TODO__",
-    "freeHint": "__TODO__",
-    "startCapture": "__TODO__",
-    "stopCapture": "__TODO__",
-    "exportCapture": "__TODO__",
-    "capturing": "__TODO__",
-    "captureReady": "__TODO__",
-    "captureLimit": "__TODO__",
-    "captureFailed": "__TODO__"
+    "loadScript": "Načíst průvodce ukázkou plánování",
+    "loadFailed": "Ukázku plánování nelze načíst. Zkuste to prosím znovu.",
+    "freeHint": "Čas je pozastaven. Projděte tento turnaj běžným ovládáním, posouvejte čas vpřed a volitelně nahrávejte své akce. Ukončení obnoví skutečný čas.",
+    "startCapture": "Spustit nahrávání",
+    "stopCapture": "Zastavit nahrávání",
+    "exportCapture": "Exportovat nahrávku",
+    "capturing": "Nahrávání · kroky: {{count}}",
+    "captureReady": "Nahrávka připravena · kroky: {{count}}",
+    "captureLimit": "Nahrávání se zastavilo na limitu záznamu. Exportujte nahrané kroky.",
+    "captureFailed": "Nahrávání nelze spustit. Zkontrolujte, zda je ovládání ukázkových hodin aktivní."
   }
 }

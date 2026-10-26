@@ -305,27 +305,27 @@
       "attached": "Angehängt — {{name}}"
     },
     "pipelineFeatures": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "disabled": "__TODO__",
-      "perCall": "__TODO__",
-      "policy": "__TODO__",
-      "progressionLocked": "__TODO__",
-      "default": "__TODO__",
-      "on": "__TODO__",
-      "off": "__TODO__",
-      "badge": "__TODO__",
-      "badgeTitle": "__TODO__",
+      "title": "Pipeline-Funktionen",
+      "intro": "Nur für Tests. Ändert, wie Ergebnisse in den Auslosungen dieses Turniers weitergegeben werden. Verfügbar im abgemeldeten Zustand oder für ein generiertes (Test-)Turnier, das dann lokal auf diesem Gerät läuft.",
+      "disabled": "Dieses Turnier hat eine eigene Scoring-Richtlinie, die diese Optionen festlegt. Pipeline-Funktionen sind deaktiviert.",
+      "perCall": "Auf jedes eingetragene Ergebnis angewendet",
+      "policy": "An dieses Turnier angehängt",
+      "progressionLocked": "Dieses Turnier hat eine eigene Fortschrittsrichtlinie, die diese Optionen festlegt.",
+      "default": "Standard",
+      "on": "Ein",
+      "off": "Aus",
+      "badge": "Pipeline-Funktionen",
+      "badgeTitle": "Ergebnisse in diesem Turnier werden unter geänderten Pipeline-Regeln eingetragen (Einstellungen → Pipeline-Funktionen)",
       "options": {
-        "propagateExitStatus": "__TODO__",
-        "propagateRetirementAsExit": "__TODO__",
-        "allowChangePropagation": "__TODO__",
-        "disableScoreValidation": "__TODO__",
-        "requireParticipantsForScoring": "__TODO__",
-        "doubleExitPropagateBye": "__TODO__",
-        "autoPlaceQualifiers": "__TODO__",
-        "autoReplaceQualifiers": "__TODO__",
-        "autoRemoveQualifiers": "__TODO__"
+        "propagateExitStatus": "Ausscheidestatus weitergeben (Kampflos/Disqualifikation folgt dem Verlierer)",
+        "propagateRetirementAsExit": "Eine Aufgabe wie ein Ausscheiden behandeln",
+        "allowChangePropagation": "Einen geänderten Sieger in späteren Runden austauschen lassen",
+        "disableScoreValidation": "Ergebnisprüfung überspringen",
+        "requireParticipantsForScoring": "Beide Teilnehmer vor der Ergebniseingabe verlangen",
+        "doubleExitPropagateBye": "Doppeltes Ausscheiden setzt ein BYE auf den nächsten Platz des Verlierers",
+        "autoPlaceQualifiers": "Qualifikanten nach Abschluss der Qualifikation automatisch platzieren",
+        "autoReplaceQualifiers": "Einen Qualifikanten automatisch ersetzen, wenn sich ein Qualifikationsergebnis ändert",
+        "autoRemoveQualifiers": "Einen Qualifikanten automatisch entfernen, wenn ein Qualifikationsergebnis entfernt wird"
       }
     }
   },
@@ -533,7 +533,7 @@
     "publishtime": "Veröffentlichungszeit",
     "replacelocal": "Lokale Kopie ersetzen?",
     "unpublish": "Turnier zurückziehen?",
-    "exampleClockUnavailable": "__TODO__"
+    "exampleClockUnavailable": "Das Beispiel {{name}} wurde nicht generiert: Die Wettkampfuhr liefert keine verwendbare Zeit. Korrigieren oder entfernen Sie die Wettkampfuhr (dev.setCompetitionClock) und versuchen Sie es erneut."
   },
   "ddlb": {
     "singles": "Einzel-Turnierrang:",
@@ -1117,21 +1117,21 @@
     },
     "clockUnavailable": "Die Wettkampfuhr liefert keine verwendbare Zeit, daher wurde das Match nicht aufgerufen.",
     "presentation": {
-      "layout": "__TODO__",
-      "layoutLabel": "__TODO__",
-      "catalogPlacement": "__TODO__",
-      "inspectorPlacement": "__TODO__",
-      "catalogLeft": "__TODO__",
-      "catalogBottom": "__TODO__",
-      "inspectorDocked": "__TODO__",
-      "inspectorFloating": "__TODO__",
-      "previousCards": "__TODO__",
-      "nextCards": "__TODO__"
+      "layout": "Layout",
+      "layoutLabel": "Planungslayout",
+      "catalogPlacement": "Position des Katalogs",
+      "inspectorPlacement": "Position des Inspektors",
+      "catalogLeft": "Katalog: links",
+      "catalogBottom": "Katalog: unten",
+      "inspectorDocked": "Inspektor: angedockt",
+      "inspectorFloating": "Inspektor: schwebend",
+      "previousCards": "Vorherige Karten",
+      "nextCards": "Nächste Karten"
     },
-    "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__",
-    "live": "__TODO__",
-    "liveTooltip": "__TODO__"
+    "collapseAllGroups": "Alle Gruppen einklappen",
+    "expandAllGroups": "Alle Gruppen ausklappen",
+    "live": "LIVE",
+    "liveTooltip": "Live-Ergebnis — inoffiziell, bis das Ergebnis eingetragen ist"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Hörbare Obszönität",
@@ -1242,9 +1242,9 @@
       "options": "Optionen",
       "officialsBoard": "Offiziellen-Tafel",
       "linkedTournaments": "Verknüpfte Turniere",
-      "themeMode": "__TODO__",
-      "lightPalette": "__TODO__",
-      "darkPalette": "__TODO__"
+      "themeMode": "Modus",
+      "lightPalette": "Theme für den Hellmodus",
+      "darkPalette": "Theme für den Dunkelmodus"
     },
     "editTournamentName": {
       "title": "Turniername bearbeiten",
@@ -1426,10 +1426,10 @@
       "online": "Online",
       "uploadWarning": "Warnung: Diese Aktion ersetzt den Turnierdatensatz auf dem Server",
       "scopedAccess": "Eingegrenzter Zugriff",
-      "saveConflict": "__TODO__",
-      "saveExists": "__TODO__",
-      "saveUncertain": "__TODO__",
-      "loadServerCopy": "__TODO__"
+      "saveConflict": "Der Server hat eine neuere Version dieses Turniers. Es wurde nichts gespeichert und Ihre lokale Kopie wurde behalten. Das Laden der Serverkopie ersetzt sie.",
+      "saveExists": "Dieses Turnier existiert bereits auf dem Server. Es wurde nichts gespeichert und Ihre lokale Kopie wurde behalten.",
+      "saveUncertain": "Es konnte nicht bestätigt werden, dass die Speicherung den Server erreicht hat. Ihre lokale Kopie wurde behalten; versuchen Sie es erneut.",
+      "loadServerCopy": "Serverkopie laden"
     },
     "inviteUser": {
       "title": "Benutzer einladen",
@@ -2027,7 +2027,7 @@
       "continue": "Weiter",
       "signOut": "Abmelden",
       "failed": "Dieser Anbieter konnte nicht geöffnet werden",
-      "consoleIntro": "__TODO__"
+      "consoleIntro": "Ihr Konto gehört zu mehr als einem Anbieter. Wählen Sie den, für den Sie gerade arbeiten; Sie können später wechseln."
     },
     "exitBeforeArrival": {
       "title": "Walkover oder Disqualifikation",
@@ -2235,10 +2235,10 @@
       "invalidTime": "Diese Zeit konnte nicht erfasst werden.",
       "courtNotFound": "Diesen Platz gibt es nicht mehr. Aktualisieren Sie das Turnier und versuchen Sie es erneut.",
       "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}",
-      "beforePlayedSource": "__TODO__",
-      "afterDependent": "__TODO__",
-      "moreBlocking": "__TODO__",
-      "roundLabel": "__TODO__"
+      "beforePlayedSource": "Nicht geplant: Es hängt von {{matchUp}} ab, das bereits gespielt wurde ({{when}}). Verschieben Sie zuerst jenes Match, falls seine Zeit falsch ist.",
+      "afterDependent": "Nicht verschoben: Ein gespieltes Match kann nicht nach {{matchUp}} ({{when}}) liegen, das davon abhängt.",
+      "moreBlocking": "(+{{count}} weitere)",
+      "roundLabel": "ein Match der Runde {{roundNumber}}"
     },
     "tournamentsTruncated": "Die ersten {{loaded}} von {{total}} Turnieren werden angezeigt. Filtern oder suchen Sie, um die Liste einzugrenzen.",
     "tournamentSearchFailed": "Die Turniersuche ist derzeit nicht verfügbar. Es werden nur bereits geladene Turniere angezeigt.",
@@ -2246,10 +2246,10 @@
     "clearRefused": "Dieses Ergebnis kann nicht gelöscht werden: Ein späteres Match hängt davon ab. Löschen Sie zuerst jenes Match.",
     "scoreDiscardedByFormat": "Die Formatänderung auf {{matchUpFormat}} hat {{count}} Satz/Sätze verworfen: {{sets}}",
     "offlineChangeRejected": "Eine offline vorgenommene Änderung wurde vom Server abgelehnt",
-    "scoreRefused": "__TODO__",
-    "durableChangeNeedsReview": "__TODO__",
-    "durableCommandNotStored": "__TODO__",
-    "durableQueueFailed": "__TODO__"
+    "scoreRefused": "Dieses Match kann jetzt nicht gewertet oder korrigiert werden: Die Auslosung bietet dafür keine Ergebniseingabe an.",
+    "durableChangeNeedsReview": "Eine frühere Änderung muss geprüft werden. Aktualisieren Sie das Turnier, bevor Sie fortfahren.",
+    "durableCommandNotStored": "Der dauerhafte Befehl konnte für diese Sitzung nicht gespeichert werden",
+    "durableQueueFailed": "Die Änderung konnte nicht dauerhaft in die Warteschlange gestellt werden; lassen Sie diese Seite geöffnet"
   },
   "loginMenu": {
     "authorization": "Autorisierung",
@@ -3019,13 +3019,13 @@
     "inviteFailed": "Die Einladung konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
     "manageAsProvisioner": "Als dieser Provisioner verwalten",
     "nowManagingProvisioner": "Handelt jetzt als „{{name}}“",
-    "associateExistingUser": "__TODO__",
-    "associateExistingUserHint": "__TODO__",
-    "userAssociated": "__TODO__",
-    "userAlreadyAssociated": "__TODO__",
-    "associateUserNotFound": "__TODO__",
-    "associateEmailAmbiguous": "__TODO__",
-    "lastProviderAdmin": "__TODO__"
+    "associateExistingUser": "Bestehenden Benutzer zuordnen",
+    "associateExistingUserHint": "Fügen Sie einen Benutzer hinzu, der bereits ein Konto hat. Nur Benutzer, die Sie verwalten dürfen, werden gefunden.",
+    "userAssociated": "Benutzer dem Anbieter zugeordnet",
+    "userAlreadyAssociated": "Benutzer war bereits zugeordnet; Rolle aktualisiert",
+    "associateUserNotFound": "Kein Benutzer mit dieser E-Mail, den Sie hinzufügen können. Legen Sie stattdessen den Benutzer an.",
+    "associateEmailAmbiguous": "Mehr als ein Konto hat diese E-Mail. Ein Super Admin muss das klären.",
+    "lastProviderAdmin": "Ein Anbieter muss mindestens einen Anbieter-Administrator behalten"
   },
   "formatWizard": {
     "title": "Format-Assistent",
@@ -3154,13 +3154,13 @@
       "lg": "Groß (18 px)",
       "xl": "Sehr groß (20 px)"
     },
-    "select": "__TODO__",
-    "mode": "__TODO__",
-    "light": "__TODO__",
-    "dark": "__TODO__",
-    "system": "__TODO__",
-    "lightPalette": "__TODO__",
-    "darkPalette": "__TODO__"
+    "select": "Thema",
+    "mode": "Modus",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System",
+    "lightPalette": "Theme für den Hellmodus",
+    "darkPalette": "Theme für den Dunkelmodus"
   },
   "language": {
     "select": "Sprache auswählen"
@@ -3783,18 +3783,18 @@
       "liveTracker": "Ergebnis über Live-Tracker gemeldet",
       "unconfirmed": "Unbestätigtes delegiertes Ergebnis — bestätigen, um es offiziell zu machen",
       "unconfirmedAria": "Unbestätigtes delegiertes Ergebnis, wartet auf Bestätigung",
-      "liveScore": "__TODO__",
-      "crowdSessions_one": "__TODO__",
-      "crowdSessions_other": "__TODO__",
-      "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__"
+      "liveScore": "Live-Ergebnis von einem Tracker — inoffiziell, bis das Ergebnis eingetragen ist",
+      "crowdSessions_one": "{{count}} Crowd-Schreiber bei diesem Match — zum Prüfen klicken",
+      "crowdSessions_other": "{{count}} Crowd-Schreiber bei diesem Match — zum Prüfen klicken",
+      "crowdTrusted_one": "{{count}} Crowd-Schreiber, hochgestuft — sein Ergebnis wird live angezeigt. Zum Prüfen klicken",
+      "crowdTrusted_other": "{{count}} Crowd-Schreiber, einer hochgestuft — sein Ergebnis wird live angezeigt. Zum Prüfen klicken"
     },
     "accept": "Annehmen",
     "nominateScorekeeper": "Schreiber benennen",
     "removeScorekeeper": "Benannten Schreiber entfernen",
     "approveScorekeeper": "Als Schreiber bestätigen",
     "removeScorekeeperApproval": "Bestätigung des Schreibers zurückziehen",
-    "live": "__TODO__"
+    "live": "LIVE"
   },
   "providerSetup": {
     "wizardTitle": "Ihren Anbieter einrichten",
@@ -4397,12 +4397,12 @@
     "noRounds": "Keine Runden im Tagesplan. Ziehen Sie zuerst Runden aus dem Katalog in die Anlagen-Spuren.",
     "failed": "Spielplanung fehlgeschlagen. Einzelheiten in der Konsole.",
     "gridFailed": "Rasterplanung fehlgeschlagen.",
-    "repairTitle": "__TODO__",
-    "repairIntro": "__TODO__",
-    "repair": "__TODO__",
-    "repaired": "__TODO__",
-    "repairFailed": "__TODO__",
-    "planGuardRefused": "__TODO__"
+    "repairTitle": "Spielplanprofil muss repariert werden",
+    "repairIntro": "Das Spielplanprofil nennt {{count}} Runde(n), deren Anlage, Konkurrenz oder Auslosung nicht mehr existiert. Es wurde nichts geplant. Profil reparieren (diese Runden entfernen) und erneut anwenden?",
+    "repair": "Profil reparieren",
+    "repaired": "Profil repariert. Erneut anwenden, um zu planen.",
+    "repairFailed": "Die Reparatur des Profils ist fehlgeschlagen.",
+    "planGuardRefused": "Es wurde nichts geplant: Der Plan hat {{count}} Match(es) vor bereits gespielte Matches gesetzt. Bitte melden Sie dies."
   },
   "topology": {
     "clearCanvas": "Arbeitsfläche leeren",
@@ -4516,11 +4516,11 @@
     "noRecentActivity": "Keine Chat-Aktivität im aktuellen Zeitfenster.",
     "monitorTitle": "Chat-Übersicht — alle Turniere",
     "selectGroup": "Wählen Sie eine Gruppen-Pille, um in dieses Turnier zu antworten",
-    "sending": "__TODO__",
-    "delivered": "__TODO__",
-    "notDelivered": "__TODO__",
-    "retry": "__TODO__",
-    "clickToRetry": "__TODO__"
+    "sending": "Wird gesendet",
+    "delivered": "Zugestellt",
+    "notDelivered": "Nicht zugestellt",
+    "retry": "Erneut versuchen",
+    "clickToRetry": "Klicken, um sie erneut zu senden."
   },
   "drawActions": {
     "pagePlayoff": "Page-Playoff",
@@ -4686,10 +4686,10 @@
     "title": "Ergebnisse der Spielplanung",
     "noActivity": "Keine Planeraktivität an diesem Datum.",
     "noPerDate": "Der Planer war erfolgreich, meldete aber keine Aktivität pro Datum.",
-    "noFormat": "__TODO__",
-    "playedOrder": "__TODO__",
-    "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__",
+    "noFormat": "Kein Format",
+    "playedOrder": "Zurückgestellt — gespielte Reihenfolge",
+    "playedOrderDetail": "{{matchUp}} bereits gespielt {{when}}",
+    "dailyLimitWarnings": "Über dem Tageslimit platziert",
     "overnightRest": "__TODO__",
     "overnightRestDetail": "__TODO__",
     "overnightRestAdvancing": "__TODO__"
@@ -4741,8 +4741,8 @@
     "impersonate": "Identität übernehmen?",
     "rejected": "Der Server hat die Änderung abgelehnt",
     "sessionExpired": "Sitzung abgelaufen",
-    "tournamentChangedBeforeApply": "__TODO__",
-    "tournamentChangedAwaitingAck": "__TODO__"
+    "tournamentChangedBeforeApply": "Das Turnier hat sich geändert, bevor die Änderung angewendet werden konnte",
+    "tournamentChangedAwaitingAck": "Das Turnier hat sich während des Wartens auf die Bestätigung geändert"
   },
   "queueService": {
     "saved": "Gespeichert"
@@ -4810,65 +4810,65 @@
     }
   },
   "demoClock": {
-    "title": "__TODO__",
-    "launch": "__TODO__",
-    "cannotStart": "__TODO__",
-    "launchHint": "__TODO__",
-    "collapse": "__TODO__",
-    "expand": "__TODO__",
-    "exit": "__TODO__",
-    "time": "__TODO__",
-    "date": "__TODO__",
-    "setTime": "__TODO__",
-    "set": "__TODO__",
-    "paused": "__TODO__",
-    "step": "__TODO__",
-    "forwardOnly": "__TODO__",
-    "boundary": "__TODO__",
-    "noBoundary": "__TODO__",
+    "title": "Demo-Uhr",
+    "launch": "Demo-Uhr öffnen",
+    "cannotStart": "Die Demo-Uhr konnte nicht starten: Dieses Turnier benötigt ein Startdatum und eine Zeitzone für die Anlage.",
+    "launchHint": "Lädt ein neues Scheduling Lab mit dem Garman-, Pro- und kombinierten Durchgang und seiner Demo-Uhr. Die Uhr läuft nur in einem Scheduling Lab: Solange eines geöffnet ist, holt „Demo-Uhr öffnen“ die Uhr zurück. Nur verfügbar, wenn Sie abgemeldet sind.",
+    "collapse": "Steuerung ausblenden",
+    "expand": "Uhrsteuerung",
+    "exit": "Uhr beenden",
+    "time": "Demo-Zeit",
+    "date": "Demo-Datum",
+    "setTime": "Reale Demo-Uhrzeit",
+    "set": "Zeit setzen",
+    "paused": "Angehalten",
+    "step": "+{{minutes}} Min.",
+    "forwardOnly": "Wählen Sie eine gültige Zeit zur oder nach der aktuellen Demo-Zeit. Aufrufe und Ergebnisse können nicht zurückgespult werden.",
+    "boundary": "Nächstes: {{kind}} · {{time}}",
+    "noBoundary": "Keine anstehende Zeitgrenze",
     "boundaries": {
-      "scheduled": "__TODO__",
-      "blockStart": "__TODO__",
-      "blockEnd": "__TODO__"
+      "scheduled": "geplanter Beginn",
+      "blockStart": "Platzblock beginnt",
+      "blockEnd": "Platzblock endet"
     },
-    "openDay": "__TODO__",
-    "garman": "__TODO__",
-    "pro": "__TODO__",
-    "saveFirst": "__TODO__",
-    "notOpened": "__TODO__",
-    "failed": "__TODO__",
-    "applied": "__TODO__",
-    "hint": "__TODO__",
+    "openDay": "Tag öffnen",
+    "garman": "Garman-Zeiten anwenden",
+    "pro": "Pro-Raster anwenden",
+    "saveFirst": "Speichern oder verwerfen Sie Planungsänderungen, bevor Sie einen Planer ausführen.",
+    "notOpened": "Die Planungsdemo wurde gespeichert, aber nicht geöffnet. Öffnen Sie sie aus der Turnierliste.",
+    "failed": "Planung fehlgeschlagen. Prüfen Sie den Spielplan und versuchen Sie es erneut.",
+    "applied": "Planer angewendet. Prüfen Sie den Tag im Raster, um das Ergebnis zu vergleichen.",
+    "hint": "Die Zeit ist angehalten. Starten, werten und beenden Sie Matches mit der normalen Turniersteuerung. Das Öffnen eines späteren Tages springt auf 09:55; frühere Tage können angesehen werden, ohne den Verlauf zurückzuspulen. Beenden stellt die reale Zeit wieder her.",
     "days": {
       "day1": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Tag 1 · Garman",
+        "description": "Wenden Sie Zeiten auf das Einzel an. Prüfen Sie richtlinienbasierte Startzeiten, Erholungspausen und Platzverfügbarkeit."
       },
       "day2": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Tag 2 · Pro",
+        "description": "Wenden Sie das Raster auf das Doppel an. Prüfen Sie die Platzreihenfolge ohne geplante Zeiten. Verwenden Sie die normale Rastersteuerung für „Nicht vor“- und „Gefolgt von“-Hinweise."
       },
       "day3": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Tag 3 · Zusammen",
+        "description": "Wenden Sie zuerst Garman-Zeiten und dann das Pro-Raster auf dieselben Einzel- und Doppel-Auslosungen an. Prüfen Sie, dass die Zeiten erhalten bleiben, während Platzpositionen hinzugefügt werden."
       }
     },
-    "shortLabel": "__TODO__",
-    "bottomBar": "__TODO__",
-    "mode": "__TODO__",
+    "shortLabel": "Demo-Zeit",
+    "bottomBar": "Untere Leiste der Demo-Uhr",
+    "mode": "Demomodus",
     "modes": {
-      "clock": "__TODO__",
-      "script": "__TODO__"
+      "clock": "Freie Uhr",
+      "script": "Geführte Planungsdemo"
     },
-    "loadScript": "__TODO__",
-    "loadFailed": "__TODO__",
-    "freeHint": "__TODO__",
-    "startCapture": "__TODO__",
-    "stopCapture": "__TODO__",
-    "exportCapture": "__TODO__",
-    "capturing": "__TODO__",
-    "captureReady": "__TODO__",
-    "captureLimit": "__TODO__",
-    "captureFailed": "__TODO__"
+    "loadScript": "Geführte Planungsdemo laden",
+    "loadFailed": "Die Planungsdemo konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "freeHint": "Die Zeit ist angehalten. Gehen Sie dieses Turnier mit der normalen Steuerung durch, stellen Sie die Zeit vor und zeichnen Sie Ihre Aktionen optional auf. Beenden stellt die reale Zeit wieder her.",
+    "startCapture": "Aufzeichnung starten",
+    "stopCapture": "Aufzeichnung beenden",
+    "exportCapture": "Aufzeichnung exportieren",
+    "capturing": "Aufzeichnung · {{count}} Schritte",
+    "captureReady": "Aufzeichnung bereit · {{count}} Schritte",
+    "captureLimit": "Die Aufzeichnung wurde am Aufnahmelimit beendet. Exportieren Sie die aufgezeichneten Schritte.",
+    "captureFailed": "Aufzeichnung konnte nicht gestartet werden. Prüfen Sie, ob die Steuerung der Demo-Uhr aktiv ist."
   }
 }

@@ -305,27 +305,27 @@
       "attached": "مرفقة — {{name}}"
     },
     "pipelineFeatures": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "disabled": "__TODO__",
-      "perCall": "__TODO__",
-      "policy": "__TODO__",
-      "progressionLocked": "__TODO__",
-      "default": "__TODO__",
-      "on": "__TODO__",
-      "off": "__TODO__",
-      "badge": "__TODO__",
-      "badgeTitle": "__TODO__",
+      "title": "ميزات خط المعالجة",
+      "intro": "للاختبار فقط. يغيّر كيفية انتقال النتائج عبر قرعات هذه البطولة. متاح عند تسجيل الخروج، أو لبطولة مُولَّدة (تجريبية)، تعمل حينها محلياً على هذا الجهاز.",
+      "disabled": "لهذه البطولة سياسة تسجيل خاصة بها تحدد هذه الخيارات. ميزات خط المعالجة معطّلة.",
+      "perCall": "يُطبَّق على كل نتيجة تُدخَل",
+      "policy": "مرفق بهذه البطولة",
+      "progressionLocked": "لهذه البطولة سياسة تقدّم خاصة بها تحدد هذه الخيارات.",
+      "default": "الافتراضي",
+      "on": "تشغيل",
+      "off": "إيقاف",
+      "badge": "ميزات خط المعالجة",
+      "badgeTitle": "تُدخَل النتائج في هذه البطولة وفق قواعد خط معالجة معدّلة (الإعدادات ← ميزات خط المعالجة)",
       "options": {
-        "propagateExitStatus": "__TODO__",
-        "propagateRetirementAsExit": "__TODO__",
-        "allowChangePropagation": "__TODO__",
-        "disableScoreValidation": "__TODO__",
-        "requireParticipantsForScoring": "__TODO__",
-        "doubleExitPropagateBye": "__TODO__",
-        "autoPlaceQualifiers": "__TODO__",
-        "autoReplaceQualifiers": "__TODO__",
-        "autoRemoveQualifiers": "__TODO__"
+        "propagateExitStatus": "نقل حالة الخروج (الفوز بدون لعب/الغياب يتبع الخاسر)",
+        "propagateRetirementAsExit": "معاملة الانسحاب كخروج",
+        "allowChangePropagation": "السماح باستبدال الفائز المعدَّل في الأدوار اللاحقة",
+        "disableScoreValidation": "تخطي التحقق من النتيجة",
+        "requireParticipantsForScoring": "اشتراط وجود المشاركَين كليهما قبل التسجيل",
+        "doubleExitPropagateBye": "الخروج المزدوج يضع BYE في الموضع التالي للخاسر",
+        "autoPlaceQualifiers": "وضع المؤهلين تلقائياً عند اكتمال التصفيات",
+        "autoReplaceQualifiers": "استبدال المؤهل تلقائياً عند تغيّر نتيجة في التصفيات",
+        "autoRemoveQualifiers": "إزالة المؤهل تلقائياً عند إزالة نتيجة في التصفيات"
       }
     }
   },
@@ -533,7 +533,7 @@
     "publishtime": "وقت النشر",
     "replacelocal": "استبدال النسخة المحلية؟",
     "unpublish": "إلغاء نشر البطولة؟",
-    "exampleClockUnavailable": "__TODO__"
+    "exampleClockUnavailable": "لم يتم إنشاء المثال {{name}}: ساعة المنافسة لا تعطي وقتاً صالحاً. أصلح ساعة المنافسة أو أزلها (dev.setCompetitionClock) وحاول مرة أخرى."
   },
   "ddlb": {
     "singles": "ترتيب بطولة الفردي:",
@@ -1141,21 +1141,21 @@
     },
     "clockUnavailable": "ساعة المنافسة لا تعطي وقتاً صالحاً، لذا لم يتم النداء على المباراة.",
     "presentation": {
-      "layout": "__TODO__",
-      "layoutLabel": "__TODO__",
-      "catalogPlacement": "__TODO__",
-      "inspectorPlacement": "__TODO__",
-      "catalogLeft": "__TODO__",
-      "catalogBottom": "__TODO__",
-      "inspectorDocked": "__TODO__",
-      "inspectorFloating": "__TODO__",
-      "previousCards": "__TODO__",
-      "nextCards": "__TODO__"
+      "layout": "التخطيط",
+      "layoutLabel": "تخطيط الجدولة",
+      "catalogPlacement": "موضع الكتالوج",
+      "inspectorPlacement": "موضع لوحة الفحص",
+      "catalogLeft": "الكتالوج: على اليسار",
+      "catalogBottom": "الكتالوج: في الأسفل",
+      "inspectorDocked": "لوحة الفحص: مثبّتة",
+      "inspectorFloating": "لوحة الفحص: عائمة",
+      "previousCards": "البطاقات السابقة",
+      "nextCards": "البطاقات التالية"
     },
-    "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__",
-    "live": "__TODO__",
-    "liveTooltip": "__TODO__"
+    "collapseAllGroups": "طي جميع المجموعات",
+    "expandAllGroups": "توسيع جميع المجموعات",
+    "live": "مباشر",
+    "liveTooltip": "نتيجة مباشرة — غير رسمية حتى يتم إدخال النتيجة"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "سباب مسموع",
@@ -1266,9 +1266,9 @@
       "options": "الخيارات",
       "officialsBoard": "لوحة المسؤولين",
       "linkedTournaments": "البطولات المرتبطة",
-      "themeMode": "__TODO__",
-      "lightPalette": "__TODO__",
-      "darkPalette": "__TODO__"
+      "themeMode": "الوضع",
+      "lightPalette": "سمة الوضع الفاتح",
+      "darkPalette": "سمة الوضع الداكن"
     },
     "editTournamentName": {
       "title": "تعديل اسم البطولة",
@@ -1450,10 +1450,10 @@
       "online": "متصل",
       "uploadWarning": "تحذير: سيؤدي هذا الإجراء إلى استبدال سجل البطولة على الخادم",
       "scopedAccess": "صلاحية محدودة النطاق",
-      "saveConflict": "__TODO__",
-      "saveExists": "__TODO__",
-      "saveUncertain": "__TODO__",
-      "loadServerCopy": "__TODO__"
+      "saveConflict": "لدى الخادم إصدار أحدث من هذه البطولة. لم يُحفظ أي شيء وتم الإبقاء على نسختك المحلية. تحميل نسخة الخادم يستبدلها.",
+      "saveExists": "هذه البطولة موجودة بالفعل على الخادم. لم يُحفظ أي شيء وتم الإبقاء على نسختك المحلية.",
+      "saveUncertain": "تعذّر التأكد من وصول الحفظ إلى الخادم. تم الإبقاء على نسختك المحلية؛ حاول مرة أخرى.",
+      "loadServerCopy": "تحميل نسخة الخادم"
     },
     "inviteUser": {
       "title": "دعوة مستخدم",
@@ -2091,7 +2091,7 @@
       "continue": "متابعة",
       "signOut": "تسجيل الخروج",
       "failed": "تعذّر فتح هذا المزوّد",
-      "consoleIntro": "__TODO__"
+      "consoleIntro": "ينتمي حسابك إلى أكثر من مزوّد. اختر المزوّد الذي تعمل لصالحه الآن؛ يمكنك التبديل لاحقاً."
     },
     "exitBeforeArrival": {
       "title": "فوز بدون لعب أو استبعاد",
@@ -2303,10 +2303,10 @@
       "invalidTime": "تعذّر تسجيل هذا الوقت.",
       "courtNotFound": "لم يعد هذا الملعب موجوداً. حدّث البطولة وحاول مرة أخرى.",
       "notSaved": "لم يُحفظ تغيير الجدول: {{reason}}",
-      "beforePlayedSource": "__TODO__",
-      "afterDependent": "__TODO__",
-      "moreBlocking": "__TODO__",
-      "roundLabel": "__TODO__"
+      "beforePlayedSource": "لم تتم الجدولة: تعتمد على {{matchUp}}، التي لُعبت بالفعل ({{when}}). انقل تلك المباراة أولاً إذا كان وقتها خاطئاً.",
+      "afterDependent": "لم يتم النقل: لا يمكن أن تأتي مباراة لُعبت بعد {{matchUp}} ({{when}})، التي تعتمد عليها.",
+      "moreBlocking": "(+{{count}} أخرى)",
+      "roundLabel": "مباراة من الجولة {{roundNumber}}"
     },
     "tournamentsTruncated": "عرض أول {{loaded}} من {{total}} بطولة. استخدم التصفية أو البحث لتضييق القائمة.",
     "tournamentSearchFailed": "البحث عن البطولات غير متاح حالياً. يتم عرض البطولات المحمّلة فقط.",
@@ -2314,10 +2314,10 @@
     "clearRefused": "لا يمكن مسح هذه النتيجة: تعتمد عليها مباراة لاحقة. امسح تلك المباراة أولاً.",
     "scoreDiscardedByFormat": "أدى تغيير الصيغة إلى {{matchUpFormat}} إلى حذف {{count}} شوط (أشواط): {{sets}}",
     "offlineChangeRejected": "رفض الخادم تغييراً أُجري دون اتصال",
-    "scoreRefused": "__TODO__",
-    "durableChangeNeedsReview": "__TODO__",
-    "durableCommandNotStored": "__TODO__",
-    "durableQueueFailed": "__TODO__"
+    "scoreRefused": "لا يمكن تسجيل نتيجة هذه المباراة أو تصحيحها الآن: القرعة لا تتيح تسجيل النتيجة لها.",
+    "durableChangeNeedsReview": "تغيير سابق يحتاج إلى مراجعة. حدّث البطولة قبل المتابعة.",
+    "durableCommandNotStored": "تعذّر تخزين الأمر الدائم لهذه الجلسة",
+    "durableQueueFailed": "تعذّر وضع التغيير في قائمة الانتظار بشكل دائم؛ أبقِ هذه الصفحة مفتوحة"
   },
   "loginMenu": {
     "authorization": "التفويض",
@@ -3103,13 +3103,13 @@
     "inviteFailed": "تعذّر إرسال الدعوة. يرجى المحاولة مرة أخرى.",
     "manageAsProvisioner": "الإدارة بصفة هذا المُوفِّر",
     "nowManagingProvisioner": "تعمل الآن بصفة «{{name}}»",
-    "associateExistingUser": "__TODO__",
-    "associateExistingUserHint": "__TODO__",
-    "userAssociated": "__TODO__",
-    "userAlreadyAssociated": "__TODO__",
-    "associateUserNotFound": "__TODO__",
-    "associateEmailAmbiguous": "__TODO__",
-    "lastProviderAdmin": "__TODO__"
+    "associateExistingUser": "ربط مستخدم موجود",
+    "associateExistingUserHint": "أضف مستخدماً لديه حساب بالفعل. لا يمكن العثور إلا على المستخدمين الذين يمكنك إدارتهم.",
+    "userAssociated": "تم ربط المستخدم بالمزوّد",
+    "userAlreadyAssociated": "كان المستخدم مرتبطاً بالفعل؛ تم تحديث الدور",
+    "associateUserNotFound": "لا يوجد مستخدم بهذا البريد الإلكتروني يمكنك إضافته. أنشئ المستخدم بدلاً من ذلك.",
+    "associateEmailAmbiguous": "يوجد أكثر من حساب بهذا البريد الإلكتروني. يجب أن يحل مدير أعلى هذه المشكلة.",
+    "lastProviderAdmin": "يجب أن يحتفظ المزوّد بمسؤول مزوّد واحد على الأقل"
   },
   "formatWizard": {
     "title": "معالج التنسيق",
@@ -3250,13 +3250,13 @@
       "lg": "كبير (18 بكسل)",
       "xl": "كبير جداً (20 بكسل)"
     },
-    "select": "__TODO__",
-    "mode": "__TODO__",
-    "light": "__TODO__",
-    "dark": "__TODO__",
-    "system": "__TODO__",
-    "lightPalette": "__TODO__",
-    "darkPalette": "__TODO__"
+    "select": "المظهر",
+    "mode": "الوضع",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام",
+    "lightPalette": "سمة الوضع الفاتح",
+    "darkPalette": "سمة الوضع الداكن"
   },
   "language": {
     "select": "اختر اللغة"
@@ -3883,15 +3883,15 @@
       "liveTracker": "تم الإبلاغ عن النتيجة عبر متتبِّع مباشر",
       "unconfirmed": "نتيجة مفوَّضة غير مؤكدة — أكّدها لجعلها رسمية",
       "unconfirmedAria": "نتيجة مفوَّضة غير مؤكدة بانتظار التأكيد",
-      "liveScore": "__TODO__",
-      "crowdSessions_one": "__TODO__",
-      "crowdSessions_other": "__TODO__",
+      "liveScore": "نتيجة مباشرة من متتبِّع — غير رسمية حتى يتم إدخال النتيجة",
+      "crowdSessions_one": "{{count}} مسجّل نتائج من الجمهور في هذه المباراة — انقر للمراجعة",
+      "crowdSessions_other": "مسجّلو نتائج من الجمهور في هذه المباراة: {{count}} — انقر للمراجعة",
       "crowdSessions_zero": "__TODO__",
       "crowdSessions_two": "__TODO__",
       "crowdSessions_few": "__TODO__",
       "crowdSessions_many": "__TODO__",
-      "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__",
+      "crowdTrusted_one": "{{count}} مسجّل نتائج من الجمهور، تمت ترقيته — تُعرض نتيجته مباشرة. انقر للمراجعة",
+      "crowdTrusted_other": "مسجّلو نتائج من الجمهور: {{count}}، تمت ترقية أحدهم — تُعرض نتيجته مباشرة. انقر للمراجعة",
       "crowdTrusted_zero": "__TODO__",
       "crowdTrusted_two": "__TODO__",
       "crowdTrusted_few": "__TODO__",
@@ -3902,7 +3902,7 @@
     "removeScorekeeper": "إزالة مسجّل النتائج المرشّح",
     "approveScorekeeper": "اعتماده مسجّلاً للنتائج",
     "removeScorekeeperApproval": "سحب اعتماد مسجّل النتائج",
-    "live": "__TODO__"
+    "live": "مباشر"
   },
   "providerSetup": {
     "wizardTitle": "أعدّ مزوّدك",
@@ -4537,12 +4537,12 @@
     "noRounds": "لا توجد أدوار في خطة اليوم. اسحب أولاً أدواراً من الفهرس إلى مسارات الأماكن.",
     "failed": "فشلت الجدولة. راجع وحدة التحكم للتفاصيل.",
     "gridFailed": "فشلت جدولة الشبكة.",
-    "repairTitle": "__TODO__",
-    "repairIntro": "__TODO__",
-    "repair": "__TODO__",
-    "repaired": "__TODO__",
-    "repairFailed": "__TODO__",
-    "planGuardRefused": "__TODO__"
+    "repairTitle": "ملف الجدولة يحتاج إلى إصلاح",
+    "repairIntro": "يذكر ملف الجدولة {{count}} جولة لم يعد مكانها أو مسابقتها أو قرعتها موجوداً. لم تتم جدولة أي شيء. هل تريد إصلاح الملف (إزالة تلك الجولات) والتطبيق مرة أخرى؟",
+    "repair": "إصلاح الملف",
+    "repaired": "تم إصلاح الملف. طبّقه مرة أخرى للجدولة.",
+    "repairFailed": "فشل إصلاح الملف.",
+    "planGuardRefused": "لم تتم جدولة أي شيء: وضعت الخطة {{count}} مباراة قبل مباريات لُعبت بالفعل. يُرجى الإبلاغ عن ذلك."
   },
   "topology": {
     "clearCanvas": "مسح لوحة الرسم",
@@ -4656,11 +4656,11 @@
     "noRecentActivity": "لا يوجد نشاط دردشة في الفترة الأخيرة.",
     "monitorTitle": "مراقبة الدردشة — جميع البطولات",
     "selectGroup": "اختر شارة مجموعة للرد ضمن تلك البطولة",
-    "sending": "__TODO__",
-    "delivered": "__TODO__",
-    "notDelivered": "__TODO__",
-    "retry": "__TODO__",
-    "clickToRetry": "__TODO__"
+    "sending": "جارٍ الإرسال",
+    "delivered": "تم التسليم",
+    "notDelivered": "لم يتم التسليم",
+    "retry": "إعادة المحاولة",
+    "clickToRetry": "انقر لإرسالها مرة أخرى."
   },
   "drawActions": {
     "pagePlayoff": "ملحق Page",
@@ -4826,10 +4826,10 @@
     "title": "نتائج الجدولة",
     "noActivity": "لا يوجد نشاط للمجدول في هذا التاريخ.",
     "noPerDate": "أنهى المجدول عمله لكنه لم يُبلّغ عن نشاط بحسب التاريخ.",
-    "noFormat": "__TODO__",
-    "playedOrder": "__TODO__",
-    "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__",
+    "noFormat": "بلا تنسيق",
+    "playedOrder": "مؤجَّل — ترتيب اللعب الفعلي",
+    "playedOrderDetail": "{{matchUp}} لُعبت بالفعل {{when}}",
+    "dailyLimitWarnings": "وُضعت فوق الحد اليومي",
     "overnightRest": "__TODO__",
     "overnightRestDetail": "__TODO__",
     "overnightRestAdvancing": "__TODO__"
@@ -4881,8 +4881,8 @@
     "impersonate": "انتحال هوية مستخدم آخر؟",
     "rejected": "رفض الخادم التعديل",
     "sessionExpired": "انتهت الجلسة",
-    "tournamentChangedBeforeApply": "__TODO__",
-    "tournamentChangedAwaitingAck": "__TODO__"
+    "tournamentChangedBeforeApply": "تغيّرت البطولة قبل أن يتسنى تطبيق التعديل",
+    "tournamentChangedAwaitingAck": "تغيّرت البطولة أثناء انتظار التأكيد"
   },
   "queueService": {
     "saved": "تم الحفظ"
@@ -4950,65 +4950,65 @@
     }
   },
   "demoClock": {
-    "title": "__TODO__",
-    "launch": "__TODO__",
-    "cannotStart": "__TODO__",
-    "launchHint": "__TODO__",
-    "collapse": "__TODO__",
-    "expand": "__TODO__",
-    "exit": "__TODO__",
-    "time": "__TODO__",
-    "date": "__TODO__",
-    "setTime": "__TODO__",
-    "set": "__TODO__",
-    "paused": "__TODO__",
-    "step": "__TODO__",
-    "forwardOnly": "__TODO__",
-    "boundary": "__TODO__",
-    "noBoundary": "__TODO__",
+    "title": "ساعة العرض التوضيحي",
+    "launch": "فتح ساعة العرض التوضيحي",
+    "cannotStart": "تعذّر تشغيل ساعة العرض التوضيحي: تحتاج هذه البطولة إلى تاريخ بدء ومنطقة زمنية للمكان.",
+    "launchHint": "يحمّل Scheduling Lab جديداً مع الجولة الإرشادية لـ Garman وPro والمدمجة وساعة العرض التوضيحي الخاصة به. تعمل الساعة فقط في Scheduling Lab: ما دام أحدها مفتوحاً، يعيد «فتح ساعة العرض التوضيحي» الساعة. متاح فقط عند تسجيل الخروج.",
+    "collapse": "إخفاء عناصر التحكم",
+    "expand": "عناصر التحكم في الساعة",
+    "exit": "الخروج من الساعة",
+    "time": "وقت العرض التوضيحي",
+    "date": "تاريخ العرض التوضيحي",
+    "setTime": "الوقت الفعلي للعرض التوضيحي",
+    "set": "تعيين الوقت",
+    "paused": "متوقف مؤقتاً",
+    "step": "+{{minutes}} دقيقة",
+    "forwardOnly": "اختر وقتاً صالحاً يساوي وقت العرض التوضيحي الحالي أو يليه. لا يمكن إرجاع النداءات والنتائج.",
+    "boundary": "التالي: {{kind}} · {{time}}",
+    "noBoundary": "لا يوجد حد زمني قادم",
     "boundaries": {
-      "scheduled": "__TODO__",
-      "blockStart": "__TODO__",
-      "blockEnd": "__TODO__"
+      "scheduled": "البداية المجدولة",
+      "blockStart": "بداية فترة الملعب",
+      "blockEnd": "نهاية فترة الملعب"
     },
-    "openDay": "__TODO__",
-    "garman": "__TODO__",
-    "pro": "__TODO__",
-    "saveFirst": "__TODO__",
-    "notOpened": "__TODO__",
-    "failed": "__TODO__",
-    "applied": "__TODO__",
-    "hint": "__TODO__",
+    "openDay": "فتح اليوم",
+    "garman": "تطبيق أوقات Garman",
+    "pro": "تطبيق شبكة Pro",
+    "saveFirst": "احفظ تعديلات الجدولة أو تجاهلها قبل تشغيل مجدول.",
+    "notOpened": "تم حفظ العرض التوضيحي للجدولة لكن لم يُفتح. افتحه من قائمة البطولات.",
+    "failed": "فشلت الجدولة. تحقّق من الجدول وحاول مرة أخرى.",
+    "applied": "تم تطبيق المجدول. افحص اليوم في الشبكة لمقارنة النتيجة.",
+    "hint": "الوقت متوقف مؤقتاً. ابدأ المباريات وسجّل نتائجها وأنهِها باستخدام عناصر التحكم المعتادة للبطولة. فتح يوم لاحق يقدّم الوقت إلى 09:55؛ ويمكن عرض الأيام السابقة دون إرجاع السجل. الخروج يعيد الوقت الحقيقي.",
     "days": {
       "day1": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "اليوم 1 · Garman",
+        "description": "طبّق الأوقات على الفردي. افحص أوقات البدء المستندة إلى السياسة وفترات التعافي وتوفر الملاعب."
       },
       "day2": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "اليوم 2 · Pro",
+        "description": "طبّق الشبكة على الزوجي. افحص ترتيب الملاعب دون أوقات مجدولة. استخدم عناصر التحكم المعتادة في الشبكة لملاحظات «ليس قبل» و«يليه»."
       },
       "day3": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "اليوم 3 · معاً",
+        "description": "طبّق أوقات Garman أولاً، ثم شبكة Pro على قرعتي الفردي والزوجي نفسيهما. تحقّق من بقاء الأوقات أثناء إضافة مواقع الملاعب."
       }
     },
-    "shortLabel": "__TODO__",
-    "bottomBar": "__TODO__",
-    "mode": "__TODO__",
+    "shortLabel": "وقت العرض التوضيحي",
+    "bottomBar": "الشريط السفلي لساعة العرض التوضيحي",
+    "mode": "وضع العرض التوضيحي",
     "modes": {
-      "clock": "__TODO__",
-      "script": "__TODO__"
+      "clock": "ساعة حرة",
+      "script": "عرض توضيحي موجَّه للجدولة"
     },
-    "loadScript": "__TODO__",
-    "loadFailed": "__TODO__",
-    "freeHint": "__TODO__",
-    "startCapture": "__TODO__",
-    "stopCapture": "__TODO__",
-    "exportCapture": "__TODO__",
-    "capturing": "__TODO__",
-    "captureReady": "__TODO__",
-    "captureLimit": "__TODO__",
-    "captureFailed": "__TODO__"
+    "loadScript": "تحميل العرض التوضيحي الموجَّه للجدولة",
+    "loadFailed": "تعذّر تحميل العرض التوضيحي للجدولة. يُرجى المحاولة مرة أخرى.",
+    "freeHint": "الوقت متوقف مؤقتاً. تجوّل في هذه البطولة باستخدام عناصر التحكم المعتادة، وقدِّم الوقت، وسجّل إجراءاتك اختيارياً. الخروج يعيد الوقت الحقيقي.",
+    "startCapture": "بدء التسجيل",
+    "stopCapture": "إيقاف التسجيل",
+    "exportCapture": "تصدير التسجيل",
+    "capturing": "جارٍ التسجيل · الخطوات: {{count}}",
+    "captureReady": "التسجيل جاهز · الخطوات: {{count}}",
+    "captureLimit": "توقف التسجيل عند حد الالتقاط. صدِّر الخطوات المسجّلة.",
+    "captureFailed": "تعذّر بدء التسجيل. تحقّق من أن التحكم في ساعة العرض التوضيحي نشط."
   }
 }

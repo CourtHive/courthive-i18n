@@ -305,27 +305,27 @@
       "attached": "Asociada — {{name}}"
     },
     "pipelineFeatures": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "disabled": "__TODO__",
-      "perCall": "__TODO__",
-      "policy": "__TODO__",
-      "progressionLocked": "__TODO__",
-      "default": "__TODO__",
-      "on": "__TODO__",
-      "off": "__TODO__",
-      "badge": "__TODO__",
-      "badgeTitle": "__TODO__",
+      "title": "Funciones del pipeline",
+      "intro": "Solo para pruebas. Cambia cómo se propagan los resultados por los cuadros de este torneo. Disponible sin iniciar sesión, o para un torneo generado (de prueba), que entonces se ejecuta localmente en este dispositivo.",
+      "disabled": "Este torneo tiene su propia política de puntuación, que decide estas opciones. Las funciones del pipeline están desactivadas.",
+      "perCall": "Se aplica a cada resultado introducido",
+      "policy": "Adjunto a este torneo",
+      "progressionLocked": "Este torneo tiene su propia política de progresión, que decide estas opciones.",
+      "default": "Predeterminado",
+      "on": "Activado",
+      "off": "Desactivado",
+      "badge": "Funciones del pipeline",
+      "badgeTitle": "Los resultados de este torneo se introducen con reglas de pipeline modificadas (Configuración → Funciones del pipeline)",
       "options": {
-        "propagateExitStatus": "__TODO__",
-        "propagateRetirementAsExit": "__TODO__",
-        "allowChangePropagation": "__TODO__",
-        "disableScoreValidation": "__TODO__",
-        "requireParticipantsForScoring": "__TODO__",
-        "doubleExitPropagateBye": "__TODO__",
-        "autoPlaceQualifiers": "__TODO__",
-        "autoReplaceQualifiers": "__TODO__",
-        "autoRemoveQualifiers": "__TODO__"
+        "propagateExitStatus": "Propagar el estado de salida (el walkover o default sigue al perdedor)",
+        "propagateRetirementAsExit": "Tratar un retiro como una salida",
+        "allowChangePropagation": "Permitir que un ganador modificado se sustituya en rondas posteriores",
+        "disableScoreValidation": "Omitir la validación de la puntuación",
+        "requireParticipantsForScoring": "Exigir ambos participantes antes de puntuar",
+        "doubleExitPropagateBye": "Una doble salida coloca un BYE en la siguiente posición del perdedor",
+        "autoPlaceQualifiers": "Colocar automáticamente a los clasificados al terminar la clasificación",
+        "autoReplaceQualifiers": "Sustituir automáticamente a un clasificado cuando cambia un resultado de clasificación",
+        "autoRemoveQualifiers": "Retirar automáticamente a un clasificado cuando se elimina un resultado de clasificación"
       }
     }
   },
@@ -533,7 +533,7 @@
     "publishtime": "Hora de Publicación",
     "replacelocal": "¿Reemplazar Copia Local?",
     "unpublish": "¿Despublicar Torneo?",
-    "exampleClockUnavailable": "__TODO__"
+    "exampleClockUnavailable": "No se generó el ejemplo {{name}}: el reloj de competición no da una hora utilizable. Corrija o elimine el reloj de competición (dev.setCompetitionClock) e inténtelo de nuevo."
   },
   "ddlb": {
     "singles": "Ranking de Torneo Singles:",
@@ -1123,21 +1123,21 @@
     },
     "clockUnavailable": "El reloj de competición no da una hora utilizable, así que el partido no se llamó.",
     "presentation": {
-      "layout": "__TODO__",
-      "layoutLabel": "__TODO__",
-      "catalogPlacement": "__TODO__",
-      "inspectorPlacement": "__TODO__",
-      "catalogLeft": "__TODO__",
-      "catalogBottom": "__TODO__",
-      "inspectorDocked": "__TODO__",
-      "inspectorFloating": "__TODO__",
-      "previousCards": "__TODO__",
-      "nextCards": "__TODO__"
+      "layout": "Diseño",
+      "layoutLabel": "Diseño de programación",
+      "catalogPlacement": "Posición del catálogo",
+      "inspectorPlacement": "Posición del inspector",
+      "catalogLeft": "Catálogo: izquierda",
+      "catalogBottom": "Catálogo: abajo",
+      "inspectorDocked": "Inspector: acoplado",
+      "inspectorFloating": "Inspector: flotante",
+      "previousCards": "Tarjetas anteriores",
+      "nextCards": "Tarjetas siguientes"
     },
-    "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__",
-    "live": "__TODO__",
-    "liveTooltip": "__TODO__"
+    "collapseAllGroups": "Contraer todos los grupos",
+    "expandAllGroups": "Expandir todos los grupos",
+    "live": "EN VIVO",
+    "liveTooltip": "Puntuación en vivo — no oficial hasta que se introduzca el resultado"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Obscenidad Audible",
@@ -1248,9 +1248,9 @@
       "options": "Opciones",
       "officialsBoard": "Panel de oficiales",
       "linkedTournaments": "Torneos vinculados",
-      "themeMode": "__TODO__",
-      "lightPalette": "__TODO__",
-      "darkPalette": "__TODO__"
+      "themeMode": "Modo",
+      "lightPalette": "Tema del modo claro",
+      "darkPalette": "Tema del modo oscuro"
     },
     "editTournamentName": {
       "title": "Editar Nombre del Torneo",
@@ -1432,10 +1432,10 @@
       "online": "En línea",
       "uploadWarning": "Advertencia: Esta acción reemplazará el registro del torneo en el servidor",
       "scopedAccess": "Acceso acotado",
-      "saveConflict": "__TODO__",
-      "saveExists": "__TODO__",
-      "saveUncertain": "__TODO__",
-      "loadServerCopy": "__TODO__"
+      "saveConflict": "El servidor tiene una versión más reciente de este torneo. No se guardó nada y se conservó su copia local. Cargar la copia del servidor la reemplaza.",
+      "saveExists": "Este torneo ya existe en el servidor. No se guardó nada y se conservó su copia local.",
+      "saveUncertain": "No se pudo confirmar que el guardado llegara al servidor. Se conservó su copia local; inténtelo de nuevo.",
+      "loadServerCopy": "Cargar copia del servidor"
     },
     "inviteUser": {
       "title": "Invitar usuario",
@@ -2043,7 +2043,7 @@
       "continue": "Continuar",
       "signOut": "Cerrar sesión",
       "failed": "No se pudo abrir ese proveedor",
-      "consoleIntro": "__TODO__"
+      "consoleIntro": "Su cuenta pertenece a más de un proveedor. Elija aquel para el que trabaja ahora; puede cambiar más tarde."
     },
     "exitBeforeArrival": {
       "title": "Walkover o descalificación",
@@ -2252,10 +2252,10 @@
       "invalidTime": "No se pudo registrar esa hora.",
       "courtNotFound": "Esa cancha ya no existe. Actualice el torneo e inténtelo de nuevo.",
       "notSaved": "El cambio de programación no se guardó: {{reason}}",
-      "beforePlayedSource": "__TODO__",
-      "afterDependent": "__TODO__",
-      "moreBlocking": "__TODO__",
-      "roundLabel": "__TODO__"
+      "beforePlayedSource": "No se programó: depende de {{matchUp}}, que ya se jugó ({{when}}). Mueva primero ese partido si su hora es incorrecta.",
+      "afterDependent": "No se movió: un partido jugado no puede ir después de {{matchUp}} ({{when}}), que depende de él.",
+      "moreBlocking": "(+{{count}} más)",
+      "roundLabel": "un partido de la ronda {{roundNumber}}"
     },
     "tournamentsTruncated": "Mostrando los primeros {{loaded}} de {{total}} torneos. Filtre o busque para acotar la lista.",
     "tournamentSearchFailed": "La búsqueda de torneos no está disponible en este momento. Solo se muestran los torneos ya cargados.",
@@ -2263,10 +2263,10 @@
     "clearRefused": "Este resultado no se puede borrar: un partido posterior depende de él. Borre primero ese partido.",
     "scoreDiscardedByFormat": "Al cambiar el formato a {{matchUpFormat}} se descartaron {{count}} set(s): {{sets}}",
     "offlineChangeRejected": "El servidor rechazó un cambio realizado sin conexión",
-    "scoreRefused": "__TODO__",
-    "durableChangeNeedsReview": "__TODO__",
-    "durableCommandNotStored": "__TODO__",
-    "durableQueueFailed": "__TODO__"
+    "scoreRefused": "Este partido no se puede puntuar ni corregir ahora: el cuadro no ofrece puntuación para él.",
+    "durableChangeNeedsReview": "Un cambio anterior necesita revisión. Actualice el torneo antes de continuar.",
+    "durableCommandNotStored": "No se pudo almacenar el comando persistente para esta sesión",
+    "durableQueueFailed": "No se pudo poner el cambio en cola de forma persistente; mantenga esta página abierta"
   },
   "loginMenu": {
     "authorization": "Autorización",
@@ -3040,13 +3040,13 @@
     "inviteFailed": "No se pudo enviar la invitación. Inténtelo de nuevo.",
     "manageAsProvisioner": "Gestionar como este aprovisionador",
     "nowManagingProvisioner": "Ahora actuando como «{{name}}»",
-    "associateExistingUser": "__TODO__",
-    "associateExistingUserHint": "__TODO__",
-    "userAssociated": "__TODO__",
-    "userAlreadyAssociated": "__TODO__",
-    "associateUserNotFound": "__TODO__",
-    "associateEmailAmbiguous": "__TODO__",
-    "lastProviderAdmin": "__TODO__"
+    "associateExistingUser": "Asociar usuario existente",
+    "associateExistingUserHint": "Añada un usuario que ya tenga una cuenta. Solo se pueden encontrar los usuarios que usted puede gestionar.",
+    "userAssociated": "Usuario asociado al proveedor",
+    "userAlreadyAssociated": "El usuario ya estaba asociado; rol actualizado",
+    "associateUserNotFound": "No hay ningún usuario con ese email que pueda añadir. Cree el usuario en su lugar.",
+    "associateEmailAmbiguous": "Más de una cuenta tiene ese email. Un super admin debe resolverlo.",
+    "lastProviderAdmin": "Un proveedor debe conservar al menos un Administrador del proveedor"
   },
   "formatWizard": {
     "title": "Asistente de formato",
@@ -3178,13 +3178,13 @@
       "lg": "Grande (18 px)",
       "xl": "Muy grande (20 px)"
     },
-    "select": "__TODO__",
-    "mode": "__TODO__",
-    "light": "__TODO__",
-    "dark": "__TODO__",
-    "system": "__TODO__",
-    "lightPalette": "__TODO__",
-    "darkPalette": "__TODO__"
+    "select": "Tema",
+    "mode": "Modo",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema",
+    "lightPalette": "Tema del modo claro",
+    "darkPalette": "Tema del modo oscuro"
   },
   "language": {
     "select": "Seleccionar idioma"
@@ -3808,12 +3808,12 @@
       "liveTracker": "Puntuación reportada mediante rastreador en vivo",
       "unconfirmed": "Puntuación delegada sin confirmar — confirma para hacerla oficial",
       "unconfirmedAria": "Puntuación delegada sin confirmar a la espera de confirmación",
-      "liveScore": "__TODO__",
-      "crowdSessions_one": "__TODO__",
-      "crowdSessions_other": "__TODO__",
+      "liveScore": "Puntuación en vivo de un rastreador — no oficial hasta que se introduzca el resultado",
+      "crowdSessions_one": "{{count}} anotador del público en este partido — haga clic para revisar",
+      "crowdSessions_other": "{{count}} anotadores del público en este partido — haga clic para revisar",
       "crowdSessions_many": "__TODO__",
-      "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__",
+      "crowdTrusted_one": "{{count}} anotador del público, promovido — su puntuación se muestra en vivo. Haga clic para revisar",
+      "crowdTrusted_other": "{{count}} anotadores del público, uno promovido — su puntuación se muestra en vivo. Haga clic para revisar",
       "crowdTrusted_many": "__TODO__"
     },
     "accept": "Aceptar",
@@ -3821,7 +3821,7 @@
     "removeScorekeeper": "Quitar el anotador designado",
     "approveScorekeeper": "Aprobar como anotador",
     "removeScorekeeperApproval": "Retirar la aprobación del anotador",
-    "live": "__TODO__"
+    "live": "EN VIVO"
   },
   "providerSetup": {
     "wizardTitle": "Configura tu proveedor",
@@ -4432,12 +4432,12 @@
     "noRounds": "No hay rondas en el plan del día. Arrastre primero rondas del catálogo a los carriles de sede.",
     "failed": "Error en la programación. Consulte la consola para más detalles.",
     "gridFailed": "Error en la programación de la cuadrícula.",
-    "repairTitle": "__TODO__",
-    "repairIntro": "__TODO__",
-    "repair": "__TODO__",
-    "repaired": "__TODO__",
-    "repairFailed": "__TODO__",
-    "planGuardRefused": "__TODO__"
+    "repairTitle": "El perfil de programación necesita reparación",
+    "repairIntro": "El perfil de programación menciona {{count}} ronda(s) cuya sede, evento o cuadro ya no existe. No se programó nada. ¿Reparar el perfil (eliminar esas rondas) y aplicar de nuevo?",
+    "repair": "Reparar perfil",
+    "repaired": "Perfil reparado. Aplique de nuevo para programar.",
+    "repairFailed": "La reparación del perfil falló.",
+    "planGuardRefused": "No se programó nada: el plan colocó {{count}} partido(s) antes de partidos ya jugados. Informe de este problema."
   },
   "topology": {
     "clearCanvas": "Borrar el lienzo",
@@ -4551,11 +4551,11 @@
     "noRecentActivity": "No hay actividad de chat en el periodo reciente.",
     "monitorTitle": "Monitor de chat: todos los torneos",
     "selectGroup": "Seleccione una etiqueta de grupo para responder en ese torneo",
-    "sending": "__TODO__",
-    "delivered": "__TODO__",
-    "notDelivered": "__TODO__",
-    "retry": "__TODO__",
-    "clickToRetry": "__TODO__"
+    "sending": "Enviando",
+    "delivered": "Entregado",
+    "notDelivered": "No entregado",
+    "retry": "Reintentar",
+    "clickToRetry": "Haga clic para enviarlo de nuevo."
   },
   "drawActions": {
     "pagePlayoff": "Play-off en página",
@@ -4721,10 +4721,10 @@
     "title": "Resultados de la programación",
     "noActivity": "No hay actividad del programador en esta fecha.",
     "noPerDate": "El programador terminó pero no informó de actividad por fecha.",
-    "noFormat": "__TODO__",
-    "playedOrder": "__TODO__",
-    "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__",
+    "noFormat": "Sin formato",
+    "playedOrder": "Aplazado — orden jugado",
+    "playedOrderDetail": "{{matchUp}} ya se jugó {{when}}",
+    "dailyLimitWarnings": "Colocados por encima del límite diario",
     "overnightRest": "__TODO__",
     "overnightRestDetail": "__TODO__",
     "overnightRestAdvancing": "__TODO__"
@@ -4776,8 +4776,8 @@
     "impersonate": "¿Suplantar identidad?",
     "rejected": "El servidor rechazó la modificación",
     "sessionExpired": "Sesión caducada",
-    "tournamentChangedBeforeApply": "__TODO__",
-    "tournamentChangedAwaitingAck": "__TODO__"
+    "tournamentChangedBeforeApply": "El torneo cambió antes de que se pudiera aplicar la modificación",
+    "tournamentChangedAwaitingAck": "El torneo cambió mientras se esperaba la confirmación"
   },
   "queueService": {
     "saved": "Guardado"
@@ -4845,65 +4845,65 @@
     }
   },
   "demoClock": {
-    "title": "__TODO__",
-    "launch": "__TODO__",
-    "cannotStart": "__TODO__",
-    "launchHint": "__TODO__",
-    "collapse": "__TODO__",
-    "expand": "__TODO__",
-    "exit": "__TODO__",
-    "time": "__TODO__",
-    "date": "__TODO__",
-    "setTime": "__TODO__",
-    "set": "__TODO__",
-    "paused": "__TODO__",
-    "step": "__TODO__",
-    "forwardOnly": "__TODO__",
-    "boundary": "__TODO__",
-    "noBoundary": "__TODO__",
+    "title": "Reloj de demostración",
+    "launch": "Abrir reloj de demostración",
+    "cannotStart": "No se pudo iniciar el reloj de demostración: este torneo necesita una fecha de inicio y una zona horaria de sede.",
+    "launchHint": "Carga un Scheduling Lab nuevo con el recorrido Garman, Pro y combinado y su reloj de demostración. El reloj solo funciona en un Scheduling Lab: mientras haya uno abierto, Abrir reloj de demostración recupera el reloj. Disponible solo sin iniciar sesión.",
+    "collapse": "Ocultar controles",
+    "expand": "Controles del reloj",
+    "exit": "Salir del reloj",
+    "time": "Hora de demostración",
+    "date": "Fecha de demostración",
+    "setTime": "Hora real de la demostración",
+    "set": "Fijar hora",
+    "paused": "En pausa",
+    "step": "+{{minutes}} min",
+    "forwardOnly": "Elija una hora válida igual o posterior a la hora de demostración actual. Las llamadas y los resultados no se pueden rebobinar.",
+    "boundary": "Siguiente: {{kind}} · {{time}}",
+    "noBoundary": "No hay ningún límite de tiempo próximo",
     "boundaries": {
-      "scheduled": "__TODO__",
-      "blockStart": "__TODO__",
-      "blockEnd": "__TODO__"
+      "scheduled": "inicio programado",
+      "blockStart": "inicio del bloque de cancha",
+      "blockEnd": "fin del bloque de cancha"
     },
-    "openDay": "__TODO__",
-    "garman": "__TODO__",
-    "pro": "__TODO__",
-    "saveFirst": "__TODO__",
-    "notOpened": "__TODO__",
-    "failed": "__TODO__",
-    "applied": "__TODO__",
-    "hint": "__TODO__",
+    "openDay": "Abrir día",
+    "garman": "Aplicar horarios Garman",
+    "pro": "Aplicar cuadrícula Pro",
+    "saveFirst": "Guarde o descarte los cambios de programación antes de ejecutar un programador.",
+    "notOpened": "La demostración de programación se guardó pero no se abrió. Ábrala desde la lista de torneos.",
+    "failed": "La programación falló. Revise el horario e inténtelo de nuevo.",
+    "applied": "Programador aplicado. Revise el día en la cuadrícula para comparar el resultado.",
+    "hint": "El tiempo está en pausa. Inicie, puntúe y termine partidos con los controles habituales del torneo. Abrir un día posterior avanza a las 09:55; los días anteriores se pueden ver sin rebobinar el historial. Al salir se restablece la hora real.",
     "days": {
       "day1": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Día 1 · Garman",
+        "description": "Aplique horarios a los singles. Revise las horas de inicio según la política, los intervalos de recuperación y la disponibilidad de canchas."
       },
       "day2": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Día 2 · Pro",
+        "description": "Aplique la cuadrícula a los dobles. Revise el orden de canchas sin horas programadas. Use los controles habituales de la cuadrícula para las anotaciones «no antes de» y «seguido por»."
       },
       "day3": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "Día 3 · Juntos",
+        "description": "Aplique primero los horarios Garman y luego la cuadrícula Pro a los mismos cuadros de singles y dobles. Verifique que los horarios se mantienen mientras se añaden las posiciones de cancha."
       }
     },
-    "shortLabel": "__TODO__",
-    "bottomBar": "__TODO__",
-    "mode": "__TODO__",
+    "shortLabel": "Hora de demostración",
+    "bottomBar": "Barra inferior del reloj de demostración",
+    "mode": "Modo demostración",
     "modes": {
-      "clock": "__TODO__",
-      "script": "__TODO__"
+      "clock": "Reloj libre",
+      "script": "Demostración guiada de programación"
     },
-    "loadScript": "__TODO__",
-    "loadFailed": "__TODO__",
-    "freeHint": "__TODO__",
-    "startCapture": "__TODO__",
-    "stopCapture": "__TODO__",
-    "exportCapture": "__TODO__",
-    "capturing": "__TODO__",
-    "captureReady": "__TODO__",
-    "captureLimit": "__TODO__",
-    "captureFailed": "__TODO__"
+    "loadScript": "Cargar demostración guiada de programación",
+    "loadFailed": "No se pudo cargar la demostración de programación. Inténtelo de nuevo.",
+    "freeHint": "El tiempo está en pausa. Recorra este torneo con los controles habituales, avance el tiempo y, si lo desea, grabe sus acciones. Al salir se restablece la hora real.",
+    "startCapture": "Iniciar grabación",
+    "stopCapture": "Detener grabación",
+    "exportCapture": "Exportar grabación",
+    "capturing": "Grabando · {{count}} pasos",
+    "captureReady": "Grabación lista · {{count}} pasos",
+    "captureLimit": "La grabación se detuvo al alcanzar el límite de captura. Exporte los pasos grabados.",
+    "captureFailed": "No se pudo iniciar la grabación. Compruebe que el control del reloj de demostración esté activo."
   }
 }

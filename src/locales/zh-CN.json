@@ -305,27 +305,27 @@
       "attached": "已附加 — {{name}}"
     },
     "pipelineFeatures": {
-      "title": "__TODO__",
-      "intro": "__TODO__",
-      "disabled": "__TODO__",
-      "perCall": "__TODO__",
-      "policy": "__TODO__",
-      "progressionLocked": "__TODO__",
-      "default": "__TODO__",
-      "on": "__TODO__",
-      "off": "__TODO__",
-      "badge": "__TODO__",
-      "badgeTitle": "__TODO__",
+      "title": "流水线功能",
+      "intro": "仅用于测试。更改此锦标赛中结果在签表间的传递方式。在未登录时可用，或用于生成的（模拟）锦标赛，该锦标赛随后在此设备上本地运行。",
+      "disabled": "此锦标赛有自己的计分策略，由其决定这些选项。流水线功能已关闭。",
+      "perCall": "应用于每次录入的结果",
+      "policy": "附加到此锦标赛",
+      "progressionLocked": "此锦标赛有自己的晋级策略，由其决定这些选项。",
+      "default": "默认",
+      "on": "开",
+      "off": "关",
+      "badge": "流水线功能",
+      "badgeTitle": "此锦标赛的结果按修改后的流水线规则录入（设置 → 流水线功能）",
       "options": {
-        "propagateExitStatus": "__TODO__",
-        "propagateRetirementAsExit": "__TODO__",
-        "allowChangePropagation": "__TODO__",
-        "disableScoreValidation": "__TODO__",
-        "requireParticipantsForScoring": "__TODO__",
-        "doubleExitPropagateBye": "__TODO__",
-        "autoPlaceQualifiers": "__TODO__",
-        "autoReplaceQualifiers": "__TODO__",
-        "autoRemoveQualifiers": "__TODO__"
+        "propagateExitStatus": "传递退出状态（弃权/判负跟随负者）",
+        "propagateRetirementAsExit": "将退赛视同退出处理",
+        "allowChangePropagation": "允许在后续轮次中替换已更改的胜者",
+        "disableScoreValidation": "跳过比分验证",
+        "requireParticipantsForScoring": "记分前要求双方参赛者均已确定",
+        "doubleExitPropagateBye": "双方退出时在负者的下一个位置放置轮空",
+        "autoPlaceQualifiers": "资格赛完成后自动安排晋级选手",
+        "autoReplaceQualifiers": "资格赛结果更改时自动替换晋级选手",
+        "autoRemoveQualifiers": "删除资格赛结果时自动移除晋级选手"
       }
     }
   },
@@ -493,13 +493,13 @@
     "inviteFailed": "无法发送邀请。请重试。",
     "manageAsProvisioner": "以此供应方身份管理",
     "nowManagingProvisioner": "当前以“{{name}}”身份操作",
-    "associateExistingUser": "__TODO__",
-    "associateExistingUserHint": "__TODO__",
-    "userAssociated": "__TODO__",
-    "userAlreadyAssociated": "__TODO__",
-    "associateUserNotFound": "__TODO__",
-    "associateEmailAmbiguous": "__TODO__",
-    "lastProviderAdmin": "__TODO__"
+    "associateExistingUser": "关联现有用户",
+    "associateExistingUserHint": "添加已有账户的用户。只能找到您有权管理的用户。",
+    "userAssociated": "用户已关联到服务商",
+    "userAlreadyAssociated": "用户已关联；角色已更新",
+    "associateUserNotFound": "没有您可以添加的使用该邮箱的用户。请改为创建该用户。",
+    "associateEmailAmbiguous": "有多个账户使用该邮箱。必须由超级管理员处理。",
+    "lastProviderAdmin": "服务商必须保留至少一名服务商管理员"
   },
   "round_names": {
     "F": "决赛",
@@ -705,7 +705,7 @@
     "publishtime": "发布时间",
     "replacelocal": "替换本地副本？",
     "unpublish": "取消发布锦标赛？",
-    "exampleClockUnavailable": "__TODO__"
+    "exampleClockUnavailable": "未生成示例 {{name}}：比赛时钟未提供可用的时间。请修复或移除比赛时钟（dev.setCompetitionClock）后重试。"
   },
   "ddlb": {
     "singles": "单打锦标赛排名：",
@@ -1289,21 +1289,21 @@
     },
     "clockUnavailable": "比赛时钟未提供可用的时间，因此未叫该比赛上场。",
     "presentation": {
-      "layout": "__TODO__",
-      "layoutLabel": "__TODO__",
-      "catalogPlacement": "__TODO__",
-      "inspectorPlacement": "__TODO__",
-      "catalogLeft": "__TODO__",
-      "catalogBottom": "__TODO__",
-      "inspectorDocked": "__TODO__",
-      "inspectorFloating": "__TODO__",
-      "previousCards": "__TODO__",
-      "nextCards": "__TODO__"
+      "layout": "布局",
+      "layoutLabel": "排程布局",
+      "catalogPlacement": "目录位置",
+      "inspectorPlacement": "检查面板位置",
+      "catalogLeft": "目录：左侧",
+      "catalogBottom": "目录：底部",
+      "inspectorDocked": "检查面板：停靠",
+      "inspectorFloating": "检查面板：浮动",
+      "previousCards": "上一组卡片",
+      "nextCards": "下一组卡片"
     },
-    "collapseAllGroups": "__TODO__",
-    "expandAllGroups": "__TODO__",
-    "live": "__TODO__",
-    "liveTooltip": "__TODO__"
+    "collapseAllGroups": "折叠所有分组",
+    "expandAllGroups": "展开所有分组",
+    "live": "实时",
+    "liveTooltip": "实时比分 — 在录入结果前为非官方比分"
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "言语猥亵",
@@ -1414,9 +1414,9 @@
       "options": "选项",
       "officialsBoard": "官员看板",
       "linkedTournaments": "关联的锦标赛",
-      "themeMode": "__TODO__",
-      "lightPalette": "__TODO__",
-      "darkPalette": "__TODO__"
+      "themeMode": "模式",
+      "lightPalette": "浅色模式主题",
+      "darkPalette": "深色模式主题"
     },
     "editTournamentName": {
       "title": "编辑锦标赛名称",
@@ -1598,10 +1598,10 @@
       "online": "在线",
       "uploadWarning": "警告：此操作将替换服务器上的锦标赛记录",
       "scopedAccess": "范围权限",
-      "saveConflict": "__TODO__",
-      "saveExists": "__TODO__",
-      "saveUncertain": "__TODO__",
-      "loadServerCopy": "__TODO__"
+      "saveConflict": "服务器上有此锦标赛的更新版本。未保存任何内容，已保留您的本地副本。加载服务器副本将替换本地副本。",
+      "saveExists": "此锦标赛已存在于服务器上。未保存任何内容，已保留您的本地副本。",
+      "saveUncertain": "无法确认保存已到达服务器。已保留您的本地副本；请重试。",
+      "loadServerCopy": "加载服务器副本"
     },
     "inviteUser": {
       "title": "邀请用户",
@@ -2199,7 +2199,7 @@
       "continue": "继续",
       "signOut": "退出登录",
       "failed": "无法打开该服务商",
-      "consoleIntro": "__TODO__"
+      "consoleIntro": "您的账户属于多个服务商。请选择您当前为之工作的服务商；之后可以切换。"
     },
     "exitBeforeArrival": {
       "title": "弃权或判负",
@@ -2407,10 +2407,10 @@
       "invalidTime": "无法记录该时间。",
       "courtNotFound": "该球场已不存在。请刷新锦标赛后重试。",
       "notSaved": "赛程更改未保存：{{reason}}",
-      "beforePlayedSource": "__TODO__",
-      "afterDependent": "__TODO__",
-      "moreBlocking": "__TODO__",
-      "roundLabel": "__TODO__"
+      "beforePlayedSource": "未排程：它依赖于已进行的 {{matchUp}}（{{when}}）。如果那场比赛的时间有误，请先移动那场比赛。",
+      "afterDependent": "未移动：已进行的比赛不能排在依赖它的 {{matchUp}}（{{when}}）之后。",
+      "moreBlocking": "（另有 {{count}} 项）",
+      "roundLabel": "第 {{roundNumber}} 轮的一场比赛"
     },
     "tournamentsTruncated": "显示 {{total}} 项锦标赛中的前 {{loaded}} 项。请筛选或搜索以缩小列表。",
     "tournamentSearchFailed": "锦标赛搜索暂不可用。仅显示已加载的锦标赛。",
@@ -2418,10 +2418,10 @@
     "clearRefused": "无法清除此结果：后续比赛依赖于它。请先清除那场比赛。",
     "scoreDiscardedByFormat": "将赛制更改为 {{matchUpFormat}} 后丢弃了 {{count}} 盘：{{sets}}",
     "offlineChangeRejected": "离线期间所做的更改被服务器拒绝",
-    "scoreRefused": "__TODO__",
-    "durableChangeNeedsReview": "__TODO__",
-    "durableCommandNotStored": "__TODO__",
-    "durableQueueFailed": "__TODO__"
+    "scoreRefused": "此比赛目前无法记分或更正：签表未对其提供记分。",
+    "durableChangeNeedsReview": "之前的更改需要审核。请先刷新锦标赛再继续。",
+    "durableCommandNotStored": "无法为此会话存储持久命令",
+    "durableQueueFailed": "无法将更改持久地加入队列；请保持此页面打开"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -3154,13 +3154,13 @@
       "lg": "大（18px）",
       "xl": "超大（20px）"
     },
-    "select": "__TODO__",
-    "mode": "__TODO__",
-    "light": "__TODO__",
-    "dark": "__TODO__",
-    "system": "__TODO__",
-    "lightPalette": "__TODO__",
-    "darkPalette": "__TODO__"
+    "select": "主题",
+    "mode": "模式",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统",
+    "lightPalette": "浅色模式主题",
+    "darkPalette": "深色模式主题"
   },
   "language": {
     "select": "选择语言"
@@ -3783,18 +3783,18 @@
       "liveTracker": "通过实时跟踪器上报比分",
       "unconfirmed": "未确认的委托比分 — 确认后即为官方比分",
       "unconfirmedAria": "未确认的委托比分，等待确认",
-      "liveScore": "__TODO__",
-      "crowdSessions_one": "__TODO__",
-      "crowdSessions_other": "__TODO__",
-      "crowdTrusted_one": "__TODO__",
-      "crowdTrusted_other": "__TODO__"
+      "liveScore": "来自跟踪器的实时比分 — 在录入结果前为非官方比分",
+      "crowdSessions_one": "本场比赛有 {{count}} 名众包记分员 — 点击查看",
+      "crowdSessions_other": "本场比赛有 {{count}} 名众包记分员 — 点击查看",
+      "crowdTrusted_one": "{{count}} 名众包记分员，已提升 — 其比分正在实时显示。点击查看",
+      "crowdTrusted_other": "{{count}} 名众包记分员，其中一名已提升 — 其比分正在实时显示。点击查看"
     },
     "accept": "接受",
     "nominateScorekeeper": "提名记分员",
     "removeScorekeeper": "移除已提名的记分员",
     "approveScorekeeper": "批准为记分员",
     "removeScorekeeperApproval": "撤销记分员批准",
-    "live": "__TODO__"
+    "live": "实时"
   },
   "providerSetup": {
     "wizardTitle": "设置您的服务商",
@@ -4397,12 +4397,12 @@
     "noRounds": "当日计划中没有轮次。请先将轮次从目录拖入场馆泳道。",
     "failed": "排程失败。详情请查看控制台。",
     "gridFailed": "网格排程失败。",
-    "repairTitle": "__TODO__",
-    "repairIntro": "__TODO__",
-    "repair": "__TODO__",
-    "repaired": "__TODO__",
-    "repairFailed": "__TODO__",
-    "planGuardRefused": "__TODO__"
+    "repairTitle": "排程配置需要修复",
+    "repairIntro": "排程配置中有 {{count}} 个轮次的场馆、项目或签表已不存在。未排程任何比赛。是否修复配置（移除这些轮次）并重新应用？",
+    "repair": "修复配置",
+    "repaired": "配置已修复。请重新应用以进行排程。",
+    "repairFailed": "配置修复失败。",
+    "planGuardRefused": "未排程任何比赛：该方案将 {{count}} 场比赛安排在已进行的比赛之前。请报告此问题。"
   },
   "topology": {
     "clearCanvas": "清空画布",
@@ -4516,11 +4516,11 @@
     "noRecentActivity": "近期没有聊天活动。",
     "monitorTitle": "聊天监控 — 所有锦标赛",
     "selectGroup": "选择一个分组标签以在该锦标赛中回复",
-    "sending": "__TODO__",
-    "delivered": "__TODO__",
-    "notDelivered": "__TODO__",
-    "retry": "__TODO__",
-    "clickToRetry": "__TODO__"
+    "sending": "发送中",
+    "delivered": "已送达",
+    "notDelivered": "未送达",
+    "retry": "重试",
+    "clickToRetry": "点击重新发送。"
   },
   "drawActions": {
     "pagePlayoff": "Page 附加赛",
@@ -4686,10 +4686,10 @@
     "title": "排程结果",
     "noActivity": "该日期没有排程器活动。",
     "noPerDate": "排程器已完成，但未报告按日期的活动。",
-    "noFormat": "__TODO__",
-    "playedOrder": "__TODO__",
-    "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__",
+    "noFormat": "无赛制",
+    "playedOrder": "已推迟 — 按实际比赛顺序",
+    "playedOrderDetail": "{{matchUp}} 已于 {{when}} 进行",
+    "dailyLimitWarnings": "超出每日上限的安排",
     "overnightRest": "__TODO__",
     "overnightRestDetail": "__TODO__",
     "overnightRestAdvancing": "__TODO__"
@@ -4741,8 +4741,8 @@
     "impersonate": "以其他用户身份操作？",
     "rejected": "服务器拒绝了此次更改",
     "sessionExpired": "会话已过期",
-    "tournamentChangedBeforeApply": "__TODO__",
-    "tournamentChangedAwaitingAck": "__TODO__"
+    "tournamentChangedBeforeApply": "在应用更改之前锦标赛已发生变化",
+    "tournamentChangedAwaitingAck": "等待确认期间锦标赛已发生变化"
   },
   "queueService": {
     "saved": "已保存"
@@ -4810,65 +4810,65 @@
     }
   },
   "demoClock": {
-    "title": "__TODO__",
-    "launch": "__TODO__",
-    "cannotStart": "__TODO__",
-    "launchHint": "__TODO__",
-    "collapse": "__TODO__",
-    "expand": "__TODO__",
-    "exit": "__TODO__",
-    "time": "__TODO__",
-    "date": "__TODO__",
-    "setTime": "__TODO__",
-    "set": "__TODO__",
-    "paused": "__TODO__",
-    "step": "__TODO__",
-    "forwardOnly": "__TODO__",
-    "boundary": "__TODO__",
-    "noBoundary": "__TODO__",
+    "title": "演示时钟",
+    "launch": "打开演示时钟",
+    "cannotStart": "演示时钟无法启动：此锦标赛需要开始日期和场馆时区。",
+    "launchHint": "加载一个全新的 Scheduling Lab，包含 Garman、Pro 及组合演练和演示时钟。时钟仅在 Scheduling Lab 中运行：只要有一个处于打开状态，“打开演示时钟”即可将时钟调回。仅在未登录时可用。",
+    "collapse": "隐藏控件",
+    "expand": "时钟控件",
+    "exit": "退出时钟",
+    "time": "演示时间",
+    "date": "演示日期",
+    "setTime": "演示实际时间",
+    "set": "设置时间",
+    "paused": "已暂停",
+    "step": "+{{minutes}} 分钟",
+    "forwardOnly": "请选择不早于当前演示时间的有效时间。叫上场和比赛结果无法回退。",
+    "boundary": "下一个：{{kind}} · {{time}}",
+    "noBoundary": "没有即将到来的时间节点",
     "boundaries": {
-      "scheduled": "__TODO__",
-      "blockStart": "__TODO__",
-      "blockEnd": "__TODO__"
+      "scheduled": "计划开始",
+      "blockStart": "球场时段开始",
+      "blockEnd": "球场时段结束"
     },
-    "openDay": "__TODO__",
-    "garman": "__TODO__",
-    "pro": "__TODO__",
-    "saveFirst": "__TODO__",
-    "notOpened": "__TODO__",
-    "failed": "__TODO__",
-    "applied": "__TODO__",
-    "hint": "__TODO__",
+    "openDay": "打开当天",
+    "garman": "应用 Garman 时间",
+    "pro": "应用 Pro 网格",
+    "saveFirst": "运行排程器前，请保存或放弃排程编辑。",
+    "notOpened": "排程演示已保存但未打开。请从锦标赛列表中打开。",
+    "failed": "排程失败。请检查赛程后重试。",
+    "applied": "已应用排程器。请在网格中查看当天以比较结果。",
+    "hint": "时间已暂停。使用常规锦标赛控件开始比赛、记分并结束比赛。打开之后的某一天会推进到 09:55；可以查看之前的日期而无需回退历史。退出后恢复真实时间。",
     "days": {
       "day1": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "第 1 天 · Garman",
+        "description": "将时间应用到单打。查看基于策略的开始时间、恢复间隔和球场可用性。"
       },
       "day2": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "第 2 天 · Pro",
+        "description": "将网格应用到双打。查看没有计划时间的球场顺序。使用常规网格控件添加“不早于”和“接下来”标注。"
       },
       "day3": {
-        "title": "__TODO__",
-        "description": "__TODO__"
+        "title": "第 3 天 · 组合",
+        "description": "先应用 Garman 时间，再将 Pro 网格应用到相同的单打和双打签表。确认在添加球场位置时时间保持不变。"
       }
     },
-    "shortLabel": "__TODO__",
-    "bottomBar": "__TODO__",
-    "mode": "__TODO__",
+    "shortLabel": "演示时间",
+    "bottomBar": "演示时钟底部栏",
+    "mode": "演示模式",
     "modes": {
-      "clock": "__TODO__",
-      "script": "__TODO__"
+      "clock": "自由时钟",
+      "script": "引导式排程演示"
     },
-    "loadScript": "__TODO__",
-    "loadFailed": "__TODO__",
-    "freeHint": "__TODO__",
-    "startCapture": "__TODO__",
-    "stopCapture": "__TODO__",
-    "exportCapture": "__TODO__",
-    "capturing": "__TODO__",
-    "captureReady": "__TODO__",
-    "captureLimit": "__TODO__",
-    "captureFailed": "__TODO__"
+    "loadScript": "加载引导式排程演示",
+    "loadFailed": "无法加载排程演示。请重试。",
+    "freeHint": "时间已暂停。使用常规控件浏览此锦标赛，向前推进时间，并可选择录制您的操作。退出后恢复真实时间。",
+    "startCapture": "开始录制",
+    "stopCapture": "停止录制",
+    "exportCapture": "导出录制",
+    "capturing": "录制中 · {{count}} 个步骤",
+    "captureReady": "录制就绪 · {{count}} 个步骤",
+    "captureLimit": "录制已在捕获上限处停止。请导出已录制的步骤。",
+    "captureFailed": "无法开始录制。请检查演示时钟控制是否处于活动状态。"
   }
 }
