@@ -2578,7 +2578,41 @@
         "added": "Anlage aus dem Verzeichnis hinzugefügt",
         "searching": "Suche läuft…"
       },
-      "addCourtsPreview": "Wird hinzugefügt: {{names}}"
+      "addCourtsPreview": "Wird hinzugefügt: {{names}}",
+      "transit": {
+        "button": "__TODO__",
+        "back": "__TODO__",
+        "title": "__TODO__",
+        "needsTwoVenues": "__TODO__",
+        "subtitle": "__TODO__",
+        "defaultFromPolicy": "__TODO__",
+        "noDefault": "__TODO__",
+        "legendOneWay": "__TODO__",
+        "networkLabel": "__TODO__",
+        "sameSite": "__TODO__",
+        "matrixCaption": "__TODO__",
+        "fromTo": "__TODO__",
+        "selectHint": "__TODO__",
+        "editTitle": "__TODO__",
+        "currently": "__TODO__",
+        "sanctionedFloor": "__TODO__",
+        "minutes": "__TODO__",
+        "oneWay": "__TODO__",
+        "save": "__TODO__",
+        "remove": "__TODO__",
+        "cancel": "__TODO__",
+        "source": {
+          "stated": "__TODO__",
+          "sanctioned": "__TODO__",
+          "default": "__TODO__",
+          "facility": "__TODO__",
+          "none": "__TODO__"
+        },
+        "errors": {
+          "notWhole": "__TODO__",
+          "belowSanctioned": "__TODO__"
+        }
+      }
     },
     "events": {
       "title": "Bewerbe",
@@ -4655,7 +4689,10 @@
     "noFormat": "__TODO__",
     "playedOrder": "__TODO__",
     "playedOrderDetail": "__TODO__",
-    "dailyLimitWarnings": "__TODO__"
+    "dailyLimitWarnings": "__TODO__",
+    "overnightRest": "__TODO__",
+    "overnightRestDetail": "__TODO__",
+    "overnightRestAdvancing": "__TODO__"
   },
   "schedulingTab": {
     "availability": "Verfügbarkeit",
