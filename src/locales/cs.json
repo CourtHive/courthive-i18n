@@ -1238,7 +1238,9 @@
         "tooltipNone": "{{name}} — dnes žádný předchozí zápas",
         "tooltipUnknown": "{{name}} — předchozí zápas nemá zaznamenaný konec",
         "tooltipPending": "Vítěz {{label}} — ještě nerozhodnuto, zatím bez odpočinku",
-        "tooltipPendingReady": "Vítěz {{label}} — ještě nerozhodnuto, připraven {{time}}"
+        "tooltipPendingReady": "Vítěz {{label}} — ještě nerozhodnuto, připraven {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "Tento čas vypadá dosažitelně.",
@@ -2226,7 +2228,10 @@
       "google": "Google",
       "showSchedule": "Zobrazit rozpis",
       "detail": "Detail",
-      "title": "Upravit nastavení zobrazení"
+      "title": "Upravit nastavení zobrazení",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "Vyberte poskytovatele",
@@ -2242,6 +2247,17 @@
       "prompt": "{{name}} nemůže hrát: zaznamenejte odstoupení hned, než dorazí soupeř. Kdo dorazí, získá walkover.",
       "exit": "Odstoupení",
       "clear": "Vymazat"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2446,9 +2462,18 @@
       "courtNotFound": "Tento kurt už neexistuje. Obnovte turnaj a zkuste to znovu.",
       "notSaved": "Změna rozpisu nebyla uložena: {{reason}}",
       "beforePlayedSource": "Nenaplánováno: závisí na {{matchUp}}, který už byl odehrán ({{when}}). Pokud je jeho čas chybný, přesuňte nejprve ten zápas.",
-      "afterDependent": "Nepřesunuto: odehraný zápas nemůže následovat po {{matchUp}} ({{when}}), který na něm závisí.",
+      "afterDependent": "__STALE__Nepřesunuto: odehraný zápas nemůže následovat po {{matchUp}} ({{when}}), který na něm závisí.",
       "moreBlocking": "(+{{count}} další)",
-      "roundLabel": "zápas {{roundNumber}}. kola"
+      "roundLabel": "zápas {{roundNumber}}. kola",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "Zobrazeno prvních {{loaded}} z {{total}} turnajů. Seznam zúžíte filtrem nebo vyhledáváním.",
     "tournamentSearchFailed": "Vyhledávání turnajů je momentálně nedostupné. Zobrazeny jsou jen již načtené turnaje.",

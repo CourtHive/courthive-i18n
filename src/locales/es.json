@@ -1056,7 +1056,9 @@
         "tooltipNone": "{{name}}: sin partido previo hoy",
         "tooltipUnknown": "{{name}}: el partido previo no tiene final registrado",
         "tooltipPending": "Ganador de {{label}} — aún por decidir, sin descanso todavía",
-        "tooltipPendingReady": "Ganador de {{label}} — aún por decidir, listo {{time}}"
+        "tooltipPendingReady": "Ganador de {{label}} — aún por decidir, listo {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "Esta hora parece alcanzable.",
@@ -2034,7 +2036,10 @@
       "google": "Google",
       "showSchedule": "Mostrar la programación",
       "detail": "Detalle",
-      "title": "Editar los ajustes de visualización"
+      "title": "Editar los ajustes de visualización",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "Elija un proveedor",
@@ -2050,6 +2055,17 @@
       "prompt": "{{name}} no puede jugar: registre la salida ahora, antes de que llegue el rival. Quien llegue se lleva el walkover.",
       "exit": "Salida",
       "clear": "Borrar"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2253,9 +2269,18 @@
       "courtNotFound": "Esa cancha ya no existe. Actualice el torneo e inténtelo de nuevo.",
       "notSaved": "El cambio de programación no se guardó: {{reason}}",
       "beforePlayedSource": "No se programó: depende de {{matchUp}}, que ya se jugó ({{when}}). Mueva primero ese partido si su hora es incorrecta.",
-      "afterDependent": "No se movió: un partido jugado no puede ir después de {{matchUp}} ({{when}}), que depende de él.",
+      "afterDependent": "__STALE__No se movió: un partido jugado no puede ir después de {{matchUp}} ({{when}}), que depende de él.",
       "moreBlocking": "(+{{count}} más)",
-      "roundLabel": "un partido de la ronda {{roundNumber}}"
+      "roundLabel": "un partido de la ronda {{roundNumber}}",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "Mostrando los primeros {{loaded}} de {{total}} torneos. Filtre o busque para acotar la lista.",
     "tournamentSearchFailed": "La búsqueda de torneos no está disponible en este momento. Solo se muestran los torneos ya cargados.",

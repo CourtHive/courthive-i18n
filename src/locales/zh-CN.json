@@ -1222,7 +1222,9 @@
         "tooltipNone": "{{name}} — 今日无前一场比赛",
         "tooltipUnknown": "{{name}} — 前一场比赛没有记录结束时间",
         "tooltipPending": "{{label}} 的胜者 — 尚未确定，暂无休息",
-        "tooltipPendingReady": "{{label}} 的胜者 — 尚未确定，{{time}} 可就绪"
+        "tooltipPendingReady": "{{label}} 的胜者 — 尚未确定，{{time}} 可就绪",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "此时间看起来可行。",
@@ -2190,7 +2192,10 @@
       "google": "Google",
       "showSchedule": "显示赛程",
       "detail": "详情",
-      "title": "编辑显示设置"
+      "title": "编辑显示设置",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "选择服务商",
@@ -2206,6 +2211,17 @@
       "prompt": "{{name}} 无法参赛：请在对手到场前立即记录退出。先到场的一方获得不战而胜。",
       "exit": "退出",
       "clear": "清除"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2408,9 +2424,18 @@
       "courtNotFound": "该球场已不存在。请刷新锦标赛后重试。",
       "notSaved": "赛程更改未保存：{{reason}}",
       "beforePlayedSource": "未排程：它依赖于已进行的 {{matchUp}}（{{when}}）。如果那场比赛的时间有误，请先移动那场比赛。",
-      "afterDependent": "未移动：已进行的比赛不能排在依赖它的 {{matchUp}}（{{when}}）之后。",
+      "afterDependent": "__STALE__未移动：已进行的比赛不能排在依赖它的 {{matchUp}}（{{when}}）之后。",
       "moreBlocking": "（另有 {{count}} 项）",
-      "roundLabel": "第 {{roundNumber}} 轮的一场比赛"
+      "roundLabel": "第 {{roundNumber}} 轮的一场比赛",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "显示 {{total}} 项锦标赛中的前 {{loaded}} 项。请筛选或搜索以缩小列表。",
     "tournamentSearchFailed": "锦标赛搜索暂不可用。仅显示已加载的锦标赛。",
