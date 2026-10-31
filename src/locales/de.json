@@ -1050,7 +1050,9 @@
         "tooltipNone": "{{name}} — heute kein vorheriges Match",
         "tooltipUnknown": "{{name}} — für das vorherige Match ist kein Ende erfasst",
         "tooltipPending": "Sieger von {{label}} — noch offen, noch keine Pause",
-        "tooltipPendingReady": "Sieger von {{label}} — noch offen, bereit {{time}}"
+        "tooltipPendingReady": "Sieger von {{label}} — noch offen, bereit {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "Diese Zeit scheint erreichbar.",
@@ -2018,7 +2020,10 @@
       "google": "Google",
       "showSchedule": "Spielplan anzeigen",
       "detail": "Detail",
-      "title": "Anzeigeeinstellungen bearbeiten"
+      "title": "Anzeigeeinstellungen bearbeiten",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "Anbieter auswählen",
@@ -2034,6 +2039,17 @@
       "prompt": "{{name}} kann nicht spielen: Erfassen Sie das Ausscheiden jetzt, bevor der Gegner eintrifft. Wer eintrifft, erhält den Walkover.",
       "exit": "Ausscheiden",
       "clear": "Zurücksetzen"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2236,9 +2252,18 @@
       "courtNotFound": "Diesen Platz gibt es nicht mehr. Aktualisieren Sie das Turnier und versuchen Sie es erneut.",
       "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}",
       "beforePlayedSource": "Nicht geplant: Es hängt von {{matchUp}} ab, das bereits gespielt wurde ({{when}}). Verschieben Sie zuerst jenes Match, falls seine Zeit falsch ist.",
-      "afterDependent": "Nicht verschoben: Ein gespieltes Match kann nicht nach {{matchUp}} ({{when}}) liegen, das davon abhängt.",
+      "afterDependent": "__STALE__Nicht verschoben: Ein gespieltes Match kann nicht nach {{matchUp}} ({{when}}) liegen, das davon abhängt.",
       "moreBlocking": "(+{{count}} weitere)",
-      "roundLabel": "ein Match der Runde {{roundNumber}}"
+      "roundLabel": "ein Match der Runde {{roundNumber}}",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "Die ersten {{loaded}} von {{total}} Turnieren werden angezeigt. Filtern oder suchen Sie, um die Liste einzugrenzen.",
     "tournamentSearchFailed": "Die Turniersuche ist derzeit nicht verfügbar. Es werden nur bereits geladene Turniere angezeigt.",

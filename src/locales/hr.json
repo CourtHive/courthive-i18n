@@ -1232,7 +1232,9 @@
         "tooltipNone": "{{name}} — danas nema prethodnog meča",
         "tooltipUnknown": "{{name}} — prethodni meč nema zabilježen završetak",
         "tooltipPending": "Pobjednik {{label}} — još nije odlučeno, još nema odmora",
-        "tooltipPendingReady": "Pobjednik {{label}} — još nije odlučeno, spreman {{time}}"
+        "tooltipPendingReady": "Pobjednik {{label}} — još nije odlučeno, spreman {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "Ovo vrijeme izgleda ostvarivo.",
@@ -2210,7 +2212,10 @@
       "google": "Google",
       "showSchedule": "Prikaži raspored",
       "detail": "Detalj",
-      "title": "Uredi postavke prikaza"
+      "title": "Uredi postavke prikaza",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "Odaberite pružatelja",
@@ -2226,6 +2231,17 @@
       "prompt": "{{name}} ne može igrati: zabilježite izlazak sada, prije dolaska protivnika. Tko god dođe, dobiva walkover.",
       "exit": "Izlazak",
       "clear": "Očisti"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2429,9 +2445,18 @@
       "courtNotFound": "Taj teren više ne postoji. Osvježite turnir i pokušajte ponovno.",
       "notSaved": "Promjena rasporeda nije spremljena: {{reason}}",
       "beforePlayedSource": "Nije raspoređeno: ovisi o meču {{matchUp}}, koji je već odigran ({{when}}). Najprije premjestite taj meč ako mu je vrijeme pogrešno.",
-      "afterDependent": "Nije premješteno: odigrani meč ne može biti nakon meča {{matchUp}} ({{when}}), koji ovisi o njemu.",
+      "afterDependent": "__STALE__Nije premješteno: odigrani meč ne može biti nakon meča {{matchUp}} ({{when}}), koji ovisi o njemu.",
       "moreBlocking": "(+{{count}} još)",
-      "roundLabel": "meč {{roundNumber}}. kola"
+      "roundLabel": "meč {{roundNumber}}. kola",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "Prikazano prvih {{loaded}} od {{total}} turnira. Filtrirajte ili pretražite za sužavanje popisa.",
     "tournamentSearchFailed": "Pretraživanje turnira trenutno nije dostupno. Prikazuju se samo već učitani turniri.",

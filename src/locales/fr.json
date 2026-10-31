@@ -1056,7 +1056,9 @@
         "tooltipNone": "{{name}} — aucun match précédent aujourd’hui",
         "tooltipUnknown": "{{name}} — le match précédent n’a pas d’heure de fin enregistrée",
         "tooltipPending": "Vainqueur de {{label}} — encore à déterminer, pas encore de repos",
-        "tooltipPendingReady": "Vainqueur de {{label}} — encore à déterminer, prêt à {{time}}"
+        "tooltipPendingReady": "Vainqueur de {{label}} — encore à déterminer, prêt à {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "Cette heure semble réalisable.",
@@ -2034,7 +2036,10 @@
       "google": "Google",
       "showSchedule": "Afficher la programmation",
       "detail": "Détail",
-      "title": "Modifier les paramètres d’affichage"
+      "title": "Modifier les paramètres d’affichage",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "Choisir un fournisseur",
@@ -2050,6 +2055,17 @@
       "prompt": "{{name}} ne peut pas jouer : enregistrez la sortie maintenant, avant l’arrivée de l’adversaire. Celui qui arrive gagne par forfait.",
       "exit": "Sortie",
       "clear": "Effacer"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2253,9 +2269,18 @@
       "courtNotFound": "Ce court n’existe plus. Actualisez le tournoi et réessayez.",
       "notSaved": "La modification de la programmation n’a pas été enregistrée : {{reason}}",
       "beforePlayedSource": "Non programmé : il dépend de {{matchUp}}, déjà joué ({{when}}). Déplacez d’abord ce match si son horaire est erroné.",
-      "afterDependent": "Non déplacé : un match joué ne peut pas avoir lieu après {{matchUp}} ({{when}}), qui en dépend.",
+      "afterDependent": "__STALE__Non déplacé : un match joué ne peut pas avoir lieu après {{matchUp}} ({{when}}), qui en dépend.",
       "moreBlocking": "(+{{count}} de plus)",
-      "roundLabel": "un match du tour {{roundNumber}}"
+      "roundLabel": "un match du tour {{roundNumber}}",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "Affichage des {{loaded}} premiers tournois sur {{total}}. Filtrez ou recherchez pour affiner la liste.",
     "tournamentSearchFailed": "La recherche de tournois est indisponible pour le moment. Seuls les tournois déjà chargés sont affichés.",

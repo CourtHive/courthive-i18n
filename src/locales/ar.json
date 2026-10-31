@@ -1074,7 +1074,9 @@
         "tooltipNone": "{{name}} — لا توجد مباراة سابقة اليوم",
         "tooltipUnknown": "{{name}} — المباراة السابقة بلا وقت انتهاء مسجّل",
         "tooltipPending": "الفائز في {{label}} — لم يُحسم بعد، لا راحة حتى الآن",
-        "tooltipPendingReady": "الفائز في {{label}} — لم يُحسم بعد، جاهز في {{time}}"
+        "tooltipPendingReady": "الفائز في {{label}} — لم يُحسم بعد، جاهز في {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "يبدو هذا الوقت قابلاً للتحقيق.",
@@ -2082,7 +2084,10 @@
       "google": "Google",
       "showSchedule": "إظهار الجدول",
       "detail": "التفاصيل",
-      "title": "تعديل إعدادات العرض"
+      "title": "تعديل إعدادات العرض",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "اختر مزوّداً",
@@ -2098,6 +2103,17 @@
       "prompt": "لا يستطيع {{name}} اللعب: سجّل الخروج الآن، قبل وصول المنافس. من يصل يحصل على الفوز بدون لعب.",
       "exit": "خروج",
       "clear": "مسح"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2304,9 +2320,18 @@
       "courtNotFound": "لم يعد هذا الملعب موجوداً. حدّث البطولة وحاول مرة أخرى.",
       "notSaved": "لم يُحفظ تغيير الجدول: {{reason}}",
       "beforePlayedSource": "لم تتم الجدولة: تعتمد على {{matchUp}}، التي لُعبت بالفعل ({{when}}). انقل تلك المباراة أولاً إذا كان وقتها خاطئاً.",
-      "afterDependent": "لم يتم النقل: لا يمكن أن تأتي مباراة لُعبت بعد {{matchUp}} ({{when}})، التي تعتمد عليها.",
+      "afterDependent": "__STALE__لم يتم النقل: لا يمكن أن تأتي مباراة لُعبت بعد {{matchUp}} ({{when}})، التي تعتمد عليها.",
       "moreBlocking": "(+{{count}} أخرى)",
-      "roundLabel": "مباراة من الجولة {{roundNumber}}"
+      "roundLabel": "مباراة من الجولة {{roundNumber}}",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "عرض أول {{loaded}} من {{total}} بطولة. استخدم التصفية أو البحث لتضييق القائمة.",
     "tournamentSearchFailed": "البحث عن البطولات غير متاح حالياً. يتم عرض البطولات المحمّلة فقط.",

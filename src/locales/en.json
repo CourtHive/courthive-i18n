@@ -1226,7 +1226,9 @@
         "tooltipNone": "{{name}} — no prior match today",
         "tooltipUnknown": "{{name}} — prior match has no recorded finish",
         "tooltipPending": "Winner of {{label}} — still to be decided, no rest yet",
-        "tooltipPendingReady": "Winner of {{label}} — still to be decided, ready {{time}}"
+        "tooltipPendingReady": "Winner of {{label}} — still to be decided, ready {{time}}",
+        "tooltipAtLimit": "match {{ordinal}} of {{limit}} today",
+        "tooltipOverLimit": "match {{ordinal}} today, over the limit of {{limit}}"
       },
       "time": {
         "ok": "This time looks achievable.",
@@ -2194,7 +2196,10 @@
       "google": "Google",
       "showSchedule": "Show Schedule",
       "detail": "Detail",
-      "title": "Edit display settings"
+      "title": "Edit display settings",
+      "pathHighlight": "Highlight participant path",
+      "showConnectors": "Show connectors",
+      "showFlags": "Show flags"
     },
     "chooseProvider": {
       "title": "Choose a provider",
@@ -2210,6 +2215,17 @@
       "prompt": "{{name}} cannot play: record the exit now, before the opponent arrives. Whoever arrives takes the walkover.",
       "exit": "Exit",
       "clear": "Clear"
+    },
+    "penalty": {
+      "participant": "Participant",
+      "selectParticipant": "Select participant",
+      "penaltyType": "Penalty",
+      "selectType": "Select penalty",
+      "notes": "Notes",
+      "assess": "Assess",
+      "incomplete": "Choose a participant and a penalty",
+      "added": "Penalty recorded",
+      "failed": "Penalty not recorded"
     }
   },
   "dashboard": {
@@ -2412,9 +2428,18 @@
       "courtNotFound": "That court no longer exists. Refresh the tournament and try again.",
       "notSaved": "Schedule change was not saved: {{reason}}",
       "beforePlayedSource": "Not scheduled: it depends on {{matchUp}}, which was already played ({{when}}). Move that match first if its time is wrong.",
-      "afterDependent": "Not moved: a played match cannot come after {{matchUp}} ({{when}}), which depends on it.",
+      "afterDependent": "Not scheduled: {{matchUp}} ({{when}}) depends on this match, so this match must come before it.",
       "moreBlocking": "(+{{count}} more)",
-      "roundLabel": "a round {{roundNumber}} match"
+      "roundLabel": "a round {{roundNumber}} match",
+      "beforeSource": "Not scheduled: it depends on {{matchUp}} ({{when}}), so it must come after that match. Move that match first if its time is wrong.",
+      "overlapsSource": "Times not saved: they overlap {{matchUp}} ({{when}}), which this match follows.",
+      "overlapsDependent": "Times not saved: they overlap {{matchUp}} ({{when}}), which follows this match.",
+      "timeBeforeBound": "{{time}} not saved: on {{date}} it must come after {{boundTime}}, set by a linked match.",
+      "timeAfterBound": "{{time}} not saved: on {{date}} it must come before {{boundTime}}, set by a linked match.",
+      "noValidDate": "No tournament date fits this match between the matches it is linked to.",
+      "locked": "Schedule change not saved: this match's schedule is locked. Unlock it first.",
+      "skipped": "Schedule change not saved: this match cannot be scheduled.",
+      "matchUpNotFound": "Schedule change not saved: the match was not found. Refresh the tournament and try again."
     },
     "tournamentsTruncated": "Showing the first {{loaded}} of {{total}} tournaments. Filter or search to narrow the list.",
     "tournamentSearchFailed": "Tournament search is unavailable right now. Showing only the tournaments already loaded.",
