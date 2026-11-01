@@ -685,7 +685,10 @@
     "wildcard": "Wildcard",
     "received": "Evento(s) Recibido(s)",
     "toggle": "¿Cambiar Estado de Publicación?",
-    "modifyranking": "Modificar Ranking"
+    "modifyranking": "Modificar Ranking",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "Nueva Ubicación",

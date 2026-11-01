@@ -685,7 +685,10 @@
     "wildcard": "بطاقة دعوة",
     "received": "حدث (أحداث) مستلمة",
     "toggle": "تبديل حالة النشر؟",
-    "modifyranking": "تعديل الترتيب"
+    "modifyranking": "تعديل الترتيب",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "موقع جديد",

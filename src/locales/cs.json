@@ -861,7 +861,10 @@
     "wildcard": "Wildcard",
     "received": "Přijaté soutěže",
     "toggle": "Přepnout stav publikování?",
-    "modifyranking": "Upravit pořadí"
+    "modifyranking": "Upravit pořadí",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "Nové místo",

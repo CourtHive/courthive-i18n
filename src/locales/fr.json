@@ -685,7 +685,10 @@
     "wildcard": "Invitation (Wild Card)",
     "received": "Épreuve(s) reçue(s)",
     "toggle": "Basculer l'état de publication ?",
-    "modifyranking": "Modifier le classement"
+    "modifyranking": "Modifier le classement",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "Nouveau lieu",
