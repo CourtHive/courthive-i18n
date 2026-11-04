@@ -771,6 +771,32 @@
     "reglink": "Definir Link"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "Não antes de",
+        "short": "Não antes de"
+      },
+      "FOLLOWED_BY": {
+        "label": "A seguir",
+        "short": "A seguir"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "Próxima quadra disponível",
+        "short": "Próxima livre"
+      },
+      "AFTER_REST": {
+        "label": "Após descanso",
+        "short": "Após descanso"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "A anunciar",
+        "short": "A anunciar"
+      },
+      "RAIN_DELAY": {
+        "label": "Atraso por chuva",
+        "short": "Chuva"
+      }
+    },
     "column": "Coluna",
     "rows": "Linhas da Programação",
     "startrow": "Linha Inicial",

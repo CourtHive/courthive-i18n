@@ -771,6 +771,32 @@
     "reglink": "Establecer Enlace"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "No antes de",
+        "short": "No antes de"
+      },
+      "FOLLOWED_BY": {
+        "label": "A continuación",
+        "short": "A continuación"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "Próxima pista disponible",
+        "short": "Próxima libre"
+      },
+      "AFTER_REST": {
+        "label": "Después del descanso",
+        "short": "Tras descanso"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "Por anunciar",
+        "short": "Por anunc."
+      },
+      "RAIN_DELAY": {
+        "label": "Retraso por lluvia",
+        "short": "Lluvia"
+      }
+    },
     "column": "Columna",
     "rows": "Filas de Programación",
     "startrow": "Fila Inicial",

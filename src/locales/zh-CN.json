@@ -943,6 +943,32 @@
     "reglink": "设置链接"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "不早于",
+        "short": "不早于"
+      },
+      "FOLLOWED_BY": {
+        "label": "随后进行",
+        "short": "随后"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "下一片可用场地",
+        "short": "下一空场"
+      },
+      "AFTER_REST": {
+        "label": "充分休息后",
+        "short": "休息后"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "待公布",
+        "short": "待公布"
+      },
+      "RAIN_DELAY": {
+        "label": "因雨延迟",
+        "short": "雨延"
+      }
+    },
     "column": "列",
     "rows": "赛程行数",
     "startrow": "起始行",

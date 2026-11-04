@@ -771,6 +771,32 @@
     "reglink": "تعيين الرابط"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "ليس قبل",
+        "short": "ليس قبل"
+      },
+      "FOLLOWED_BY": {
+        "label": "يليه",
+        "short": "يليه"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "الملعب المتاح التالي",
+        "short": "التالي المتاح"
+      },
+      "AFTER_REST": {
+        "label": "بعد الراحة",
+        "short": "بعد الراحة"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "سيُعلن لاحقًا",
+        "short": "يُعلن لاحقًا"
+      },
+      "RAIN_DELAY": {
+        "label": "تأخير بسبب المطر",
+        "short": "تأخير المطر"
+      }
+    },
     "column": "عمود",
     "rows": "صفوف الجدول",
     "startrow": "صف البداية",

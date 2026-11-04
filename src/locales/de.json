@@ -771,6 +771,32 @@
     "reglink": "Link festlegen"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "Nicht vor",
+        "short": "Nicht vor"
+      },
+      "FOLLOWED_BY": {
+        "label": "Anschließend",
+        "short": "Anschließend"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "Nächster verfügbarer Platz",
+        "short": "Nächster freier"
+      },
+      "AFTER_REST": {
+        "label": "Nach einer Ruhepause",
+        "short": "Nach Pause"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "Wird noch bekannt gegeben",
+        "short": "Wird angekündigt"
+      },
+      "RAIN_DELAY": {
+        "label": "Verzögerung wegen Regens",
+        "short": "Regenpause"
+      }
+    },
     "column": "Spalte",
     "rows": "Spielplanzeilen",
     "startrow": "Startzeile",
