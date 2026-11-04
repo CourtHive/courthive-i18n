@@ -1023,7 +1023,8 @@
         "source": {
           "event": "aus der Spielplanungsrichtlinie dieser Konkurrenz",
           "tournament": "aus der Spielplanungsrichtlinie des Turniers",
-          "default": "Factory-Standard — keine Spielplanungsrichtlinie angehängt"
+          "default": "Factory-Standard — keine Spielplanungsrichtlinie angehängt",
+          "eventTiming": "__TODO__"
         }
       }
     },
@@ -1050,7 +1051,9 @@
         "tooltipNone": "{{name}} — heute kein vorheriges Match",
         "tooltipUnknown": "{{name}} — für das vorherige Match ist kein Ende erfasst",
         "tooltipPending": "Sieger von {{label}} — noch offen, noch keine Pause",
-        "tooltipPendingReady": "Sieger von {{label}} — noch offen, bereit {{time}}"
+        "tooltipPendingReady": "Sieger von {{label}} — noch offen, bereit {{time}}",
+        "tooltipAtLimit": "__TODO__",
+        "tooltipOverLimit": "__TODO__"
       },
       "time": {
         "ok": "Diese Zeit scheint erreichbar.",
@@ -1472,7 +1475,19 @@
     },
     "addFlights": {
       "flightsGenerated": "Flights generiert",
-      "generationFailed": "Flight-Profil-Generierung fehlgeschlagen"
+      "generationFailed": "Flight-Profil-Generierung fehlgeschlagen",
+      "existingDraws": "__TODO__",
+      "existingProfile": "__TODO__",
+      "replaceTitle": "__TODO__",
+      "replaceExisting_one": "__TODO__",
+      "replaceExisting_other": "__TODO__",
+      "ratingFrom": "__TODO__",
+      "ratingTo": "__TODO__",
+      "remainingTitle": "__TODO__",
+      "remaining": "__TODO__",
+      "noneRemaining": "__TODO__",
+      "noneInBand": "__TODO__",
+      "alreadyFlighted": "__TODO__"
     },
     "addConsolation": {
       "title": "Freiwillige Trostrunde hinzufügen",
@@ -2012,13 +2027,25 @@
       "quality": "Qualität",
       "rankingPoints": "Ranglistenpunkte",
       "previous": "← Zurück",
-      "next": "Weiter →"
+      "next": "Weiter →",
+      "pairs": "__TODO__",
+      "teams": "__TODO__",
+      "groups": "__TODO__",
+      "players": "__TODO__",
+      "withPartner": "__TODO__",
+      "notEntered": "__TODO__",
+      "affiliation": "__TODO__",
+      "jersey": "__TODO__",
+      "openProfile": "__TODO__"
     },
     "displaySettings": {
       "google": "Google",
       "showSchedule": "Spielplan anzeigen",
       "detail": "Detail",
-      "title": "Anzeigeeinstellungen bearbeiten"
+      "title": "Anzeigeeinstellungen bearbeiten",
+      "pathHighlight": "__TODO__",
+      "showConnectors": "__TODO__",
+      "showFlags": "__TODO__"
     },
     "chooseProvider": {
       "title": "Anbieter auswählen",
@@ -2034,6 +2061,59 @@
       "prompt": "{{name}} kann nicht spielen: Erfassen Sie das Ausscheiden jetzt, bevor der Gegner eintrifft. Wer eintrifft, erhält den Walkover.",
       "exit": "Ausscheiden",
       "clear": "Zurücksetzen"
+    },
+    "tournamentDateChanges": {
+      "title": "__TODO__",
+      "tournament": "__TODO__",
+      "eventTracked": "__TODO__",
+      "eventClamped": "__TODO__",
+      "eventReset": "__TODO__",
+      "activeDatesPruned": "__TODO__",
+      "activeDatesUnset": "__TODO__",
+      "profileTrimmed": "__TODO__",
+      "unscheduled": "__TODO__"
+    },
+    "recordValidation": {
+      "title": "__TODO__",
+      "toast_one": "__TODO__",
+      "toast_other": "__TODO__",
+      "review": "__TODO__",
+      "counts": "__TODO__",
+      "schemaUnavailable": "__TODO__",
+      "showAll": "__TODO__",
+      "showFewer": "__TODO__",
+      "copyAll": "__TODO__",
+      "copied_one": "__TODO__",
+      "copied_other": "__TODO__",
+      "copyFailed": "__TODO__"
+    },
+    "deleteFlights": {
+      "confirmUngenerated_one": "__TODO__",
+      "confirmUngenerated_other": "__TODO__",
+      "keepFlightReason": "__TODO__",
+      "confirmAll": "__TODO__"
+    },
+    "penalties": {
+      "title": "__TODO__",
+      "none": "__TODO__",
+      "edit": "__TODO__",
+      "remove": "__TODO__",
+      "removeConfirm": "__TODO__",
+      "updated": "__TODO__",
+      "updateFailed": "__TODO__",
+      "removed": "__TODO__",
+      "removeFailed": "__TODO__"
+    },
+    "penalty": {
+      "participant": "__TODO__",
+      "selectParticipant": "__TODO__",
+      "penaltyType": "__TODO__",
+      "selectType": "__TODO__",
+      "notes": "__TODO__",
+      "assess": "__TODO__",
+      "incomplete": "__TODO__",
+      "added": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "dashboard": {
@@ -2236,9 +2316,18 @@
       "courtNotFound": "Diesen Platz gibt es nicht mehr. Aktualisieren Sie das Turnier und versuchen Sie es erneut.",
       "notSaved": "Die Spielplanänderung wurde nicht gespeichert: {{reason}}",
       "beforePlayedSource": "Nicht geplant: Es hängt von {{matchUp}} ab, das bereits gespielt wurde ({{when}}). Verschieben Sie zuerst jenes Match, falls seine Zeit falsch ist.",
-      "afterDependent": "Nicht verschoben: Ein gespieltes Match kann nicht nach {{matchUp}} ({{when}}) liegen, das davon abhängt.",
+      "afterDependent": "__STALE__Nicht verschoben: Ein gespieltes Match kann nicht nach {{matchUp}} ({{when}}) liegen, das davon abhängt.",
       "moreBlocking": "(+{{count}} weitere)",
-      "roundLabel": "ein Match der Runde {{roundNumber}}"
+      "roundLabel": "ein Match der Runde {{roundNumber}}",
+      "beforeSource": "__TODO__",
+      "overlapsSource": "__TODO__",
+      "overlapsDependent": "__TODO__",
+      "timeBeforeBound": "__TODO__",
+      "timeAfterBound": "__TODO__",
+      "noValidDate": "__TODO__",
+      "locked": "__TODO__",
+      "skipped": "__TODO__",
+      "matchUpNotFound": "__TODO__"
     },
     "tournamentsTruncated": "Die ersten {{loaded}} von {{total}} Turnieren werden angezeigt. Filtern oder suchen Sie, um die Liste einzugrenzen.",
     "tournamentSearchFailed": "Die Turniersuche ist derzeit nicht verfügbar. Es werden nur bereits geladene Turniere angezeigt.",
@@ -2332,7 +2421,11 @@
     "draws": {
       "drawName": "Auslosungsname",
       "drawType": "Auslosungstyp",
-      "flight": "Flight"
+      "flight": "Flight",
+      "moveUp": "__TODO__",
+      "moveDown": "__TODO__",
+      "dragToReorder": "__TODO__",
+      "drawActions": "__TODO__"
     },
     "selection": {
       "position": "Position",
@@ -2640,7 +2733,64 @@
         "competitionFormatLabel": "Sportregeln",
         "competitionFormatNone": "Keine",
         "competitionFormatTennis": "Tennis (Standard)",
-        "competitionFormatIntennse": "INTENNSE (Standard)"
+        "competitionFormatIntennse": "INTENNSE (Standard)",
+        "generalHeading": "__TODO__",
+        "datesHeading": "__TODO__",
+        "activeDatesLabel": "__TODO__",
+        "activeDatesPlaceholder": "__TODO__",
+        "weekdaysLabel": "__TODO__",
+        "eventDatesSchedulingHint": "__TODO__",
+        "eventDatesRefusal": {
+          "INVALID_DATE": "__TODO__",
+          "START_AFTER_END": "__TODO__",
+          "OUTSIDE_TOURNAMENT": "__TODO__",
+          "ACTIVE_DATE_OUTSIDE_EVENT": "__TODO__",
+          "INVALID_WEEKDAYS": "__TODO__"
+        },
+        "entriesHeading": "__TODO__",
+        "entryProfile": {
+          "entriesLimit": "__TODO__",
+          "targetDrawSize": "__TODO__",
+          "qualifiersCount": "__TODO__",
+          "qualifyingDrawSize": "__TODO__",
+          "wildcardCount": "__TODO__"
+        },
+        "entryProfileRefusal": {
+          "NOT_A_WHOLE_NUMBER": "__TODO__",
+          "QUALIFIERS_NOT_FEWER_THAN_QUALIFYING_DRAW": "__TODO__",
+          "RESERVED_PLACES_EXCEED_DRAW": "__TODO__"
+        },
+        "timing": {
+          "heading": "__TODO__",
+          "edit": "__TODO__",
+          "summaryDefaults": "__TODO__",
+          "summaryCustomised_one": "__TODO__",
+          "summaryCustomised_other": "__TODO__",
+          "title": "__TODO__",
+          "intro": "__TODO__",
+          "format": "__TODO__",
+          "average": "__TODO__",
+          "recovery": "__TODO__",
+          "source": "__TODO__",
+          "policy": "__TODO__",
+          "own": "__TODO__",
+          "useEvent": "__TODO__",
+          "useDraw": "__TODO__",
+          "useCollection": "__TODO__",
+          "useAdded": "__TODO__",
+          "noFormats": "__TODO__",
+          "addFormat": "__TODO__",
+          "useDefaults": "__TODO__",
+          "useDefaultsConfirm": "__TODO__",
+          "saved": "__TODO__",
+          "noChanges": "__TODO__",
+          "refusal": {
+            "INVALID_FORMAT": "__TODO__",
+            "DUPLICATE_FORMAT": "__TODO__",
+            "INVALID_AVERAGE": "__TODO__",
+            "INVALID_RECOVERY": "__TODO__"
+          }
+        }
       },
       "editFormat": {
         "noChanges": "Keine Änderungen",
@@ -2664,7 +2814,24 @@
         "configureDraft": "Entwurf konfigurieren",
         "resolveDraft": "Entwurf auflösen",
         "draftStatus": "Entwurf",
-        "recalculateStats": "Statistiken neu berechnen"
+        "recalculateStats": "Statistiken neu berechnen",
+        "deleteDrawAndFlight": "__TODO__",
+        "resetStructure": "__TODO__",
+        "placeQualifiers": "__TODO__"
+      },
+      "placeQualifiers": {
+        "title": "__TODO__",
+        "confirm": "__TODO__",
+        "nothingToPlace": "__TODO__",
+        "failed": "__TODO__",
+        "nonePlaced": "__TODO__",
+        "placedCount_one": "__TODO__",
+        "placedCount_other": "__TODO__",
+        "placedAt": "__TODO__",
+        "notPlaced_one": "__TODO__",
+        "notPlaced_other": "__TODO__",
+        "positionsOpen_one": "__TODO__",
+        "positionsOpen_other": "__TODO__"
       }
     },
     "participants": {
@@ -2795,6 +2962,29 @@
       "editScorecard": "Scorecard bearbeiten",
       "noChanges": "Keine Änderungen",
       "scorecardUpdated": "Scorecard aktualisiert"
+    },
+    "scorecard": {
+      "orderOfFinish": "__TODO__",
+      "orderOfFinishSaved": "__TODO__",
+      "orderOfFinishFailed": "__TODO__",
+      "noLinesToOrder": "__TODO__",
+      "issueCount": "__TODO__",
+      "issues": {
+        "LINEUP_INCOMPLETE": "__TODO__",
+        "DUPLICATE_IN_COLLECTION": "__TODO__",
+        "INELIGIBLE_GENDER": "__TODO__",
+        "INELIGIBLE_CATEGORY": "__TODO__",
+        "SCORE_INCOMPLETE": "__TODO__",
+        "MISSING_REASON": "__TODO__",
+        "DUAL_DECIDED": "__TODO__",
+        "MANUAL_SCORE": "__TODO__",
+        "MANUAL_SCORE_DIVERGES": "__TODO__"
+      },
+      "recordDeadRubbers": "__TODO__",
+      "overrideScore": "__TODO__",
+      "restoreAutoScore": "__TODO__",
+      "manualScore": "__TODO__",
+      "winner": "__TODO__"
     }
   },
   "publishing": {
@@ -4494,7 +4684,8 @@
     "noEntries": "Keine Meldungen",
     "noDrawsYet": "Noch keine Auslosungen.",
     "notGenerated": "Nicht erzeugt",
-    "clearFilters": "Filter löschen"
+    "clearFilters": "Filter löschen",
+    "deleteAllFlights": "__TODO__"
   },
   "addDrawForm": {
     "sizeMin": "Die Auslosungsgröße muss mindestens 2 betragen",
@@ -4537,7 +4728,10 @@
     "generateQualifying": "Qualifikation erzeugen",
     "completeRoundFirst": "Beenden Sie alle Matches der aktuellen Runde, bevor Sie die nächste erzeugen",
     "exitAssignmentMode": "Zuweisungsmodus verlassen",
-    "autoPosition": "Automatisch positionieren"
+    "autoPosition": "Automatisch positionieren",
+    "resetStructureReason": "__TODO__",
+    "resetStructureLinked": "__TODO__",
+    "resetStructureDelivered": "__TODO__"
   },
   "sports": {
     "tennis": "Tennis",
@@ -4551,7 +4745,8 @@
   "tieFormatEditor": {
     "scorecardName": "Name des Spielberichts",
     "addCollection": "Collection hinzufügen",
-    "noCollections": "Keine Collections — klicken Sie auf Collection hinzufügen, um zu beginnen"
+    "noCollections": "Keine Collections — klicken Sie auf Collection hinzufügen, um zu beginnen",
+    "lineValuesMissing": "__TODO__"
   },
   "assistant": {
     "title": "TMX-Assistent",
@@ -4586,7 +4781,38 @@
     "noRatingData": "Keine Bewertungsdaten verfügbar",
     "scheduledMatches": "Angesetzte Matches",
     "alreadyPartners": "Diese Spieler sind in dieser Konkurrenz bereits Partner",
-    "pairedWith": "mit"
+    "pairedWith": "mit",
+    "promoteAlternates": {
+      "button": "__TODO__",
+      "title": "__TODO__",
+      "openSlotsEntriesLimit": "__TODO__",
+      "openSlotsTargetDrawSize": "__TODO__",
+      "openSlotsDrawPositions": "__TODO__",
+      "openSlotsSanctionedDrawSize": "__TODO__",
+      "openSlotsHeld": "__TODO__",
+      "noLimit": "__TODO__",
+      "count": "__TODO__",
+      "willPromote": "__TODO__",
+      "confirm": "__TODO__",
+      "promoted_one": "__TODO__",
+      "promoted_other": "__TODO__",
+      "failed": "__TODO__"
+    },
+    "positionBadge": {
+      "accepted": "__TODO__",
+      "qualifying": "__TODO__",
+      "alternate": "__TODO__",
+      "withdrawn": "__TODO__",
+      "ungrouped": "__TODO__",
+      "other": "__TODO__",
+      "withStatus": "__TODO__",
+      "status": {
+        "wildcard": "__TODO__",
+        "specialExempt": "__TODO__",
+        "juniorExempt": "__TODO__",
+        "organiserAcceptance": "__TODO__"
+      }
+    }
   },
   "ageCategories": {
     "u10": "10 Jahre und jünger",
@@ -4619,7 +4845,20 @@
     "abandonRemaining": "Verbleibende Matches abbrechen",
     "republishExplain": "Dieses Turnier erneut in der öffentlichen Ranglistenliste veröffentlichen. Die Punkte werden aus seinen entschiedenen Matches neu berechnet.",
     "rankingsNotConfigured": "Die Ranglisten-Pipeline ist nicht konfiguriert",
-    "republishRankings": "Ranglisten erneut veröffentlichen"
+    "republishRankings": "Ranglisten erneut veröffentlichen",
+    "bulkStatus": {
+      "label": "__TODO__",
+      "confirmTitle": "__TODO__",
+      "confirmExplain_one": "__TODO__",
+      "confirmExplain_other": "__TODO__",
+      "applied_one": "__TODO__",
+      "applied_other": "__TODO__",
+      "refusedTitle": "__TODO__",
+      "refusedExplain_one": "__TODO__",
+      "refusedExplain_other": "__TODO__",
+      "notScorable": "__TODO__",
+      "refusedByFactory": "__TODO__"
+    }
   },
   "groupings": {
     "generateMockTeams": "Beispielteams erzeugen",
@@ -4656,7 +4895,11 @@
     "applyGridTitle": "Raster anwenden — Spielplanungsrichtlinie",
     "selectPolicy": "Wählen Sie die Spielplanungsrichtlinie für „Zeiten anwenden“:",
     "noPolicies": "Keine Spielplanungsrichtlinien verfügbar",
-    "applyTimesTitle": "Zeiten anwenden — Spielplanungsrichtlinie"
+    "applyTimesTitle": "Zeiten anwenden — Spielplanungsrichtlinie",
+    "periodLength": "__TODO__",
+    "periodMinutes_one": "__TODO__",
+    "periodMinutes_other": "__TODO__",
+    "periodLengthHint": "__TODO__"
   },
   "capacity": {
     "noCourts": "Für dieses Turnier sind keine Plätze konfiguriert",
@@ -4870,5 +5113,47 @@
     "captureReady": "Aufzeichnung bereit · {{count}} Schritte",
     "captureLimit": "Die Aufzeichnung wurde am Aufnahmelimit beendet. Exportieren Sie die aufgezeichneten Schritte.",
     "captureFailed": "Aufzeichnung konnte nicht gestartet werden. Prüfen Sie, ob die Steuerung der Demo-Uhr aktiv ist."
+  },
+  "eventDates": {
+    "placementWarning": "__TODO__",
+    "noPlayingDays": "__TODO__",
+    "andMore": "__TODO__",
+    "issue": "__TODO__",
+    "reason": {
+      "outsideEventDates": "__TODO__",
+      "outsideTournamentDates": "__TODO__",
+      "eventInactiveDate": "__TODO__",
+      "eventWeekday": "__TODO__",
+      "tournamentInactiveDate": "__TODO__",
+      "tournamentWeekday": "__TODO__",
+      "notPlaying": "__TODO__"
+    },
+    "skippedTitle": "__TODO__",
+    "skippedIntro": "__TODO__",
+    "scheduleAnyway": "__TODO__",
+    "extendEventDates": "__TODO__",
+    "extended": "__TODO__",
+    "extendFailed": "__TODO__"
+  },
+  "courtUse": {
+    "disable": "__TODO__",
+    "disableAllDates": "__TODO__",
+    "disableOnDate": "__TODO__",
+    "enable": "__TODO__",
+    "enableAllDates": "__TODO__",
+    "enableOnDate": "__TODO__",
+    "enableVenue": "__TODO__",
+    "courtTitle": "__TODO__",
+    "venueTitle": "__TODO__",
+    "confirmCourtAllDates": "__TODO__",
+    "confirmCourtOnDate": "__TODO__",
+    "confirmVenue": "__TODO__",
+    "matchUpsStay_one": "__TODO__",
+    "matchUpsStay_other": "__TODO__",
+    "noMatchUps": "__TODO__",
+    "disabled": "__TODO__",
+    "venueDisabled": "__TODO__",
+    "dropRefused": "__TODO__",
+    "failed": "__TODO__"
   }
 }
