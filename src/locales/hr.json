@@ -861,7 +861,10 @@
     "wildcard": "Wildcard",
     "received": "Primljeno natjecanje",
     "toggle": "Prebaci status objave?",
-    "modifyranking": "Izmijeni rangiranje"
+    "modifyranking": "Izmijeni rangiranje",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "Nova lokacija",

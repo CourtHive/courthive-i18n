@@ -861,7 +861,10 @@
     "wildcard": "Wildcard",
     "received": "Received Event(s)",
     "toggle": "Toggle Publish State?",
-    "modifyranking": "Modify Ranking"
+    "modifyranking": "Modify Ranking",
+    "plays": "Plays: {{days}}",
+    "playsNone": "No playing days",
+    "eventPlays": "{{eventName}}: {{days}}"
   },
   "locations": {
     "newlocation": "New Location",

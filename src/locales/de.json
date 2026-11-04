@@ -685,7 +685,10 @@
     "wildcard": "Wildcard",
     "received": "Bewerb(e) empfangen",
     "toggle": "Veröffentlichungsstatus umschalten?",
-    "modifyranking": "Rangliste ändern"
+    "modifyranking": "Rangliste ändern",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "Neuer Standort",

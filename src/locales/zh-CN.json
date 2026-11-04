@@ -857,7 +857,10 @@
     "wildcard": "外卡",
     "received": "已接收赛事",
     "toggle": "切换发布状态？",
-    "modifyranking": "修改排名"
+    "modifyranking": "修改排名",
+    "plays": "__TODO__",
+    "playsNone": "__TODO__",
+    "eventPlays": "__TODO__"
   },
   "locations": {
     "newlocation": "新场馆",
