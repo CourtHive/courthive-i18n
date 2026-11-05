@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.13.2](https://github.com/CourtHive/courthive-i18n/compare/v0.13.1...v0.13.2) (2026-11-05)
+
+
+### Bug Fixes
+
+* **schedule:** translate annotations in every locale ([#174](https://github.com/CourtHive/courthive-i18n/issues/174)) ([5f25f20](https://github.com/CourtHive/courthive-i18n/commit/5f25f20f55aaa3b5ec03773f6a0b711649b5f05b))
+
 ## [0.13.1](https://github.com/CourtHive/courthive-i18n/compare/v0.13.0...v0.13.1) (2026-11-04)
 
 
