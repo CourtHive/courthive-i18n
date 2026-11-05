@@ -19,8 +19,9 @@ name: release-please
 # across competition-factory, pdf-factory, courthive-components, etc.
 #
 # Day-to-day flow:
-#   1. Land feature/fix PRs on main with conventional commits
-#      (feat:, fix:, chore:, docs:, etc.)
+#   1. Land feature/fix PRs on dev with conventional commits
+#      (feat:, fix:, chore:, docs:, etc.); checkpoint dev into main with a
+#      merge commit (this workflow runs on that push).
 #   2. The bot updates a `chore: release X.Y.Z` PR automatically
 #   3. Merge the release PR → GitHub release fires `npm-publish.yml`
 #
