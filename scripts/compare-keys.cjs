@@ -100,6 +100,24 @@ for (var di = 0; di < files.length; di++) {
 for (var ei = 0; ei < files.length; ei++) {
   var ef = files[ei];
   var data = JSON.parse(fs.readFileSync(path.join(dir, ef), 'utf8'));
+  // Grid annotations are required translations, not optional fallback debt. Short and full text
+  // must ship together: a TODO would silently put English abbreviations back into localized cells.
+  for (const modifier of [
+    'NOT_BEFORE',
+    'FOLLOWED_BY',
+    'NEXT_AVAILABLE',
+    'AFTER_REST',
+    'TO_BE_ANNOUNCED',
+    'RAIN_DELAY',
+  ]) {
+    for (const field of ['label', 'short']) {
+      const value = data.schedule?.timeModifiers?.[modifier]?.[field];
+      if (typeof value !== 'string' || !value.trim() || /__TODO__|__STALE__/.test(value) || value === modifier) {
+        console.log('INCOMPLETE schedule annotation in ' + ef + ': ' + modifier + '.' + field);
+        hasErrors = true;
+      }
+    }
+  }
   var keys = getKeys(data);
   allKeysByFile[ef] = {};
   for (var ki = 0; ki < keys.length; ki++) {

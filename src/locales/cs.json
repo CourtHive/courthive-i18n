@@ -947,6 +947,32 @@
     "reglink": "Nastavit odkaz"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "Ne dříve než",
+        "short": "Ne dříve než"
+      },
+      "FOLLOWED_BY": {
+        "label": "Následuje",
+        "short": "Následuje"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "Na příštím volném kurtu",
+        "short": "Příští volný"
+      },
+      "AFTER_REST": {
+        "label": "Po odpočinku",
+        "short": "Po odpočinku"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "Bude oznámeno",
+        "short": "Bude oznámeno"
+      },
+      "RAIN_DELAY": {
+        "label": "Zpoždění kvůli dešti",
+        "short": "Déšť"
+      }
+    },
     "column": "Sloupec",
     "rows": "Řádky rozpisu",
     "startrow": "Počáteční řádek",

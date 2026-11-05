@@ -947,6 +947,32 @@
     "reglink": "Set Link"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "Not Before",
+        "short": "NB"
+      },
+      "FOLLOWED_BY": {
+        "label": "Followed by",
+        "short": "Followed by"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "Next available",
+        "short": "Next available"
+      },
+      "AFTER_REST": {
+        "label": "After rest",
+        "short": "After rest"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "To be announced",
+        "short": "TBA"
+      },
+      "RAIN_DELAY": {
+        "label": "Rain delay",
+        "short": "Rain delay"
+      }
+    },
     "column": "Column",
     "rows": "Schedule Rows",
     "startrow": "Start Row",

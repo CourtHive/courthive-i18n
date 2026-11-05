@@ -947,6 +947,32 @@
     "reglink": "Postavi poveznicu"
   },
   "schedule": {
+    "timeModifiers": {
+      "NOT_BEFORE": {
+        "label": "Ne prije",
+        "short": "Ne prije"
+      },
+      "FOLLOWED_BY": {
+        "label": "Slijedi",
+        "short": "Slijedi"
+      },
+      "NEXT_AVAILABLE": {
+        "label": "Na prvom slobodnom terenu",
+        "short": "Prvi slobodan"
+      },
+      "AFTER_REST": {
+        "label": "Nakon odmora",
+        "short": "Nakon odmora"
+      },
+      "TO_BE_ANNOUNCED": {
+        "label": "Bit će objavljeno",
+        "short": "Bit će objavljeno"
+      },
+      "RAIN_DELAY": {
+        "label": "Odgoda zbog kiše",
+        "short": "Kiša"
+      }
+    },
     "column": "Stupac",
     "rows": "Redovi rasporeda",
     "startrow": "Početni red",
