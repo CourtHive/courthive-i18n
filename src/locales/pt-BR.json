@@ -2315,7 +2315,14 @@
       "targetCapacity": "A rodada {{round}} ainda comporta {{open}} de suas {{total}} posições.",
       "alreadyFed": "A rodada {{round}} já é alimentada por {{feederNames}}: {{count}} qualificados previstos.",
       "noFeeders": "Nenhuma estrutura de qualificação alimenta a rodada {{round}} ainda.",
-      "qualifying": "Qualificação"
+      "qualifying": "Qualificação",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2929,7 +2936,7 @@
         "firstNamePlaceholder": "Primeiro nome",
         "lastName": "Sobrenome",
         "lastNamePlaceholder": "Nome de família",
-        "nameError": "Por favor digite um nome de pelo menos 3 caracteres",
+        "nameError": "__STALE__Por favor digite um nome de pelo menos 3 caracteres",
         "sex": "Sexo",
         "dateOfBirth": "Data de nascimento",
         "birthdayPlaceholder": "Aniversário",
@@ -3042,7 +3049,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4834,7 +4858,10 @@
     "substitution": "Substituição",
     "assignSeedNumber": "Atribuir número de cabeça de chave ",
     "seedNumber": "Número de cabeça de chave",
-    "nickname": "Apelido "
+    "nickname": "Apelido ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Todos os participantes selecionados já estão nesta chave",
@@ -5051,7 +5078,8 @@
   },
   "exportFile": {
     "saveJson": "Salvar JSON",
-    "saveFile": "Salvar arquivo"
+    "saveFile": "Salvar arquivo",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
     "updateFailed": "Falha na atualização remota — recarregue a página"
@@ -5210,7 +5238,20 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5233,5 +5274,9 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
   }
 }

@@ -2378,7 +2378,20 @@
       "targetCapacity": "لا تزال الجولة {{round}} تستوعب {{open}} من مواقعها البالغة {{total}}.",
       "alreadyFed": "الجولة {{round}} تغذيها بالفعل {{feederNames}}: {{count}} مؤهلين موعودين.",
       "noFeeders": "لا يوجد هيكل تأهيل يغذي الجولة {{round}} بعد.",
-      "qualifying": "التأهيل"
+      "qualifying": "التأهيل",
+      "entriesNotPlaced_zero": "__TODO__",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_two": "__TODO__",
+      "entriesNotPlaced_few": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_zero": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_two": "__TODO__",
+      "qualifyingEntriesNotPlaced_few": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -3010,7 +3023,7 @@
         "firstNamePlaceholder": "الاسم المعطى",
         "lastName": "اسم العائلة",
         "lastNamePlaceholder": "اسم العائلة",
-        "nameError": "يرجى إدخال اسم من 3 أحرف على الأقل",
+        "nameError": "__STALE__يرجى إدخال اسم من 3 أحرف على الأقل",
         "sex": "الجنس",
         "dateOfBirth": "تاريخ الميلاد",
         "birthdayPlaceholder": "تاريخ الميلاد",
@@ -3129,7 +3142,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4963,7 +4993,10 @@
     "substitution": "استبدال",
     "assignSeedNumber": "تعيين رقم التصنيف ",
     "seedNumber": "رقم التصنيف",
-    "nickname": "اللقب "
+    "nickname": "اللقب ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "جميع المشاركين المحددين موجودون بالفعل في هذه القرعة",
@@ -5195,7 +5228,8 @@
   },
   "exportFile": {
     "saveJson": "حفظ بصيغة JSON",
-    "saveFile": "حفظ الملف"
+    "saveFile": "حفظ الملف",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
     "updateFailed": "فشل التحديث عن بُعد — يرجى إعادة التحميل"
@@ -5354,7 +5388,23 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_zero": "__TODO__",
+      "button_one": "__TODO__",
+      "button_two": "__TODO__",
+      "button_few": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5380,5 +5430,9 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
   }
 }

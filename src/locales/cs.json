@@ -2512,7 +2512,16 @@
       "targetCapacity": "Kolo {{round}} může ještě přijmout {{open}} ze svých {{total}} pozic.",
       "alreadyFed": "Kolo {{round}} již napojuje {{feederNames}}: přislíbeno kvalifikantů: {{count}}.",
       "noFeeders": "Kolo {{round}} zatím nenapojuje žádná kvalifikační struktura.",
-      "qualifying": "Kvalifikace"
+      "qualifying": "Kvalifikace",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_few": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_few": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -3133,7 +3142,7 @@
         "firstNamePlaceholder": "Křestní jméno",
         "lastName": "Příjmení",
         "lastNamePlaceholder": "Příjmení",
-        "nameError": "Zadejte prosím jméno o délce alespoň 3 znaky",
+        "nameError": "__STALE__Zadejte prosím jméno o délce alespoň 3 znaky",
         "sex": "Pohlaví",
         "dateOfBirth": "Datum narození",
         "birthdayPlaceholder": "Narozeniny",
@@ -3247,7 +3256,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4877,7 +4903,10 @@
     "substitution": "Střídání",
     "assignSeedNumber": "Přiřadit číslo nasazení ",
     "seedNumber": "Číslo nasazení",
-    "nickname": "Přezdívka "
+    "nickname": "Přezdívka ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Všichni vybraní účastníci již v tomto pavouku jsou",
@@ -5099,7 +5128,8 @@
   },
   "exportFile": {
     "saveJson": "Uložit jako JSON",
-    "saveFile": "Uložit soubor"
+    "saveFile": "Uložit soubor",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
     "updateFailed": "Vzdálená aktualizace selhala — načtěte prosím stránku znovu"
@@ -5258,7 +5288,21 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_few": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5282,5 +5326,9 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
   }
 }
