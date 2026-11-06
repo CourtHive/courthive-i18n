@@ -2315,7 +2315,14 @@
       "targetCapacity": "La ronda {{round}} aún admite {{open}} de sus {{total}} posiciones.",
       "alreadyFed": "La ronda {{round}} ya recibe clasificados de {{feederNames}}: {{count}} clasificados comprometidos.",
       "noFeeders": "Ninguna estructura de clasificación alimenta todavía la ronda {{round}}.",
-      "qualifying": "Clasificación"
+      "qualifying": "Clasificación",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2929,7 +2936,7 @@
         "firstNamePlaceholder": "Nombre de pila",
         "lastName": "Apellido",
         "lastNamePlaceholder": "Apellido",
-        "nameError": "Por favor ingrese un nombre de al menos 3 caracteres",
+        "nameError": "__STALE__Por favor ingrese un nombre de al menos 3 caracteres",
         "sex": "Sexo",
         "dateOfBirth": "Fecha de nacimiento",
         "birthdayPlaceholder": "Cumpleaños",
@@ -3042,7 +3049,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4834,7 +4858,10 @@
     "substitution": "Sustitución",
     "assignSeedNumber": "Asignar número de cabeza de serie ",
     "seedNumber": "Número de cabeza de serie",
-    "nickname": "Apodo "
+    "nickname": "Apodo ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Todos los participantes seleccionados ya están en este cuadro",
@@ -5051,7 +5078,8 @@
   },
   "exportFile": {
     "saveJson": "Guardar JSON",
-    "saveFile": "Guardar archivo"
+    "saveFile": "Guardar archivo",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
     "updateFailed": "Error en la actualización remota: vuelva a cargar"
@@ -5210,7 +5238,20 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5233,5 +5274,9 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
   }
 }

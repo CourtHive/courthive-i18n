@@ -2491,7 +2491,14 @@
       "targetCapacity": "Kolo {{round}} još može primiti {{open}} od svojih {{total}} pozicija.",
       "alreadyFed": "Kolo {{round}} već puni {{feederNames}}: obećano kvalifikanata: {{count}}.",
       "noFeeders": "Nijedna kvalifikacijska struktura još ne puni kolo {{round}}.",
-      "qualifying": "Kvalifikacije"
+      "qualifying": "Kvalifikacije",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_few": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_few": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -3106,7 +3113,7 @@
         "firstNamePlaceholder": "Ime",
         "lastName": "Prezime",
         "lastNamePlaceholder": "Prezime",
-        "nameError": "Molimo unesite ime od najmanje 3 znaka",
+        "nameError": "__STALE__Molimo unesite ime od najmanje 3 znaka",
         "sex": "Spol",
         "dateOfBirth": "Datum rođenja",
         "birthdayPlaceholder": "Rođendan",
@@ -3218,7 +3225,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4834,7 +4858,10 @@
     "substitution": "Zamjena",
     "assignSeedNumber": "Dodijeli broj nositelja ",
     "seedNumber": "Broj nositelja",
-    "nickname": "Nadimak "
+    "nickname": "Nadimak ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Svi odabrani sudionici već su u ovom ždrijebu",
@@ -5051,7 +5078,8 @@
   },
   "exportFile": {
     "saveJson": "Spremi kao JSON",
-    "saveFile": "Spremi datoteku"
+    "saveFile": "Spremi datoteku",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
     "updateFailed": "Udaljeno ažuriranje nije uspjelo — ponovno učitajte stranicu"
@@ -5210,7 +5238,20 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_few": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5233,5 +5274,9 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
   }
 }

@@ -2466,7 +2466,12 @@
       "targetCapacity": "第 {{round}} 轮的 {{total}} 个位置中仍可容纳 {{open}} 个。",
       "alreadyFed": "第 {{round}} 轮已由 {{feederNames}} 补入：已承诺 {{count}} 名资格赛选手。",
       "noFeeders": "尚无资格赛结构补入第 {{round}} 轮。",
-      "qualifying": "资格赛"
+      "qualifying": "资格赛",
+      "entriesNotPlaced_other": "__TODO__",
+      "entriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -3074,7 +3079,7 @@
         "firstNamePlaceholder": "名",
         "lastName": "姓",
         "lastNamePlaceholder": "姓",
-        "nameError": "请输入至少3个字符的名称",
+        "nameError": "__STALE__请输入至少3个字符的名称",
         "sex": "性别",
         "dateOfBirth": "出生日期",
         "birthdayPlaceholder": "生日",
@@ -3185,7 +3190,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4791,7 +4813,10 @@
     "substitution": "替补",
     "assignSeedNumber": "分配种子序号 ",
     "seedNumber": "种子序号",
-    "nickname": "昵称 "
+    "nickname": "昵称 ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "所选参赛者均已在该签表中",
@@ -5003,7 +5028,8 @@
   },
   "exportFile": {
     "saveJson": "保存为 JSON",
-    "saveFile": "保存文件"
+    "saveFile": "保存文件",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
     "updateFailed": "远程更新失败——请重新加载"
@@ -5162,7 +5188,19 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_other": "__TODO__",
+      "button_one": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5184,5 +5222,9 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
   }
 }
