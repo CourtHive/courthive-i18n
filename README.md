@@ -97,4 +97,4 @@ CI runs it on every PR and push. Pre-commit (husky) runs it too.
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
