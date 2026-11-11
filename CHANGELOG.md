@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.13.2](https://github.com/CourtHive/courthive-i18n/compare/v0.13.1...v0.13.2) (2026-11-11)
+
+
+### Bug Fixes
+
+* **schedule:** translate annotations in every locale ([#174](https://github.com/CourtHive/courthive-i18n/issues/174)) ([5f25f20](https://github.com/CourtHive/courthive-i18n/commit/5f25f20f55aaa3b5ec03773f6a0b711649b5f05b))
+
+
+### Documentation
+
+* add the MIT license file ([#178](https://github.com/CourtHive/courthive-i18n/issues/178)) ([cc875f0](https://github.com/CourtHive/courthive-i18n/commit/cc875f0d37f521d884773063e887bdf18be4c1f1))
+
 ## [0.13.1](https://github.com/CourtHive/courthive-i18n/compare/v0.13.0...v0.13.1) (2026-11-04)
 
 
