@@ -1464,7 +1464,8 @@
       "linkedTournaments": "Propojené turnaje",
       "themeMode": "Režim",
       "lightPalette": "Motiv světlého režimu",
-      "darkPalette": "Motiv tmavého režimu"
+      "darkPalette": "Motiv tmavého režimu",
+      "smartComplements": "__TODO__"
     },
     "editTournamentName": {
       "title": "Upravit název turnaje",
@@ -1875,7 +1876,22 @@
       "statusUnavailable": "Stav {{status}} není pro tento zápas dostupný",
       "suspended": "Přerušeno",
       "inProgress": "Probíhá",
-      "awaitingResult": "Čeká na výsledek"
+      "awaitingResult": "Čeká na výsledek",
+      "title": "__TODO__",
+      "cancel": "__TODO__",
+      "clear": "__TODO__",
+      "submit": "__TODO__",
+      "format": "__TODO__",
+      "irregularEnding": "__TODO__",
+      "winner": "__TODO__",
+      "validScore": "__TODO__",
+      "scoreIncomplete": "__TODO__",
+      "invalidScore": "__TODO__",
+      "scoreTips": "__TODO__",
+      "setScores": "__TODO__",
+      "tiebreaks": "__TODO__",
+      "matchTiebreaks": "__TODO__",
+      "irregularEndings": "__TODO__"
     },
     "scoreEntry": {
       "title": "Zadání skóre",
@@ -4452,7 +4468,13 @@
       "tierPlaceholder": "např. W50, Úroveň 3",
       "tierSystem": "Systém úrovní",
       "tier": "Úroveň",
-      "tierNotConfigured": "{{system}} (nenakonfigurováno)"
+      "tierNotConfigured": "{{system}} (nenakonfigurováno)",
+      "governingBodyProvider": "__TODO__",
+      "governingBodyChoose": "__TODO__",
+      "governingBodyUnknown": "__TODO__",
+      "rulebook": "__TODO__",
+      "rulebookOnly": "__TODO__",
+      "rulebookSelect": "__TODO__"
     },
     "events": {
       "heading": "Návrhy soutěží",
@@ -5282,5 +5304,42 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "moveTournament": {
+    "button": "__TODO__",
+    "title": "__TODO__",
+    "tournament": "__TODO__",
+    "currentProvider": "__TODO__",
+    "destination": "__TODO__",
+    "chooseDestination": "__TODO__",
+    "providersLoadError": "__TODO__",
+    "preview": "__TODO__",
+    "previewButton": "__TODO__",
+    "previewError": "__TODO__",
+    "from": "__TODO__",
+    "to": "__TODO__",
+    "calendarMoves": "__TODO__",
+    "calendarUnlisted": "__TODO__",
+    "revokeAccess": {
+      "title": "__TODO__",
+      "confirm_one": "__TODO__",
+      "confirm_few": "__TODO__",
+      "confirm_many": "__TODO__",
+      "confirm_other": "__TODO__"
+    },
+    "crossProvisioner": {
+      "title": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "reason": "__TODO__",
+    "reasonPlaceholder": "__TODO__",
+    "moveButton": "__TODO__",
+    "moved": "__TODO__",
+    "moveError": "__TODO__"
+  },
+  "teamDisplay": {
+    "title": "__TODO__",
+    "saved": "__TODO__",
+    "error": "__TODO__"
   }
 }
