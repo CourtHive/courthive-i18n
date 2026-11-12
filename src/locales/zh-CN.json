@@ -1448,7 +1448,8 @@
       "linkedTournaments": "关联的锦标赛",
       "themeMode": "模式",
       "lightPalette": "浅色模式主题",
-      "darkPalette": "深色模式主题"
+      "darkPalette": "深色模式主题",
+      "smartComplements": "__TODO__"
     },
     "editTournamentName": {
       "title": "编辑锦标赛名称",
@@ -1768,7 +1769,22 @@
       "statusUnavailable": "此比赛不可使用“{{status}}”状态",
       "suspended": "已暂停",
       "inProgress": "进行中",
-      "awaitingResult": "等待结果"
+      "awaitingResult": "等待结果",
+      "title": "__TODO__",
+      "cancel": "__TODO__",
+      "clear": "__TODO__",
+      "submit": "__TODO__",
+      "format": "__TODO__",
+      "irregularEnding": "__TODO__",
+      "winner": "__TODO__",
+      "validScore": "__TODO__",
+      "scoreIncomplete": "__TODO__",
+      "invalidScore": "__TODO__",
+      "scoreTips": "__TODO__",
+      "setScores": "__TODO__",
+      "tiebreaks": "__TODO__",
+      "matchTiebreaks": "__TODO__",
+      "irregularEndings": "__TODO__"
     },
     "scoreEntry": {
       "title": "比分录入",
@@ -4366,7 +4382,13 @@
       "tierPlaceholder": "例如 W50、Level 3",
       "tierSystem": "级别体系",
       "tier": "级别",
-      "tierNotConfigured": "{{system}}（未配置）"
+      "tierNotConfigured": "{{system}}（未配置）",
+      "governingBodyProvider": "__TODO__",
+      "governingBodyChoose": "__TODO__",
+      "governingBodyUnknown": "__TODO__",
+      "rulebook": "__TODO__",
+      "rulebookOnly": "__TODO__",
+      "rulebookSelect": "__TODO__"
     },
     "events": {
       "heading": "赛事提案",
@@ -5184,5 +5206,40 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "moveTournament": {
+    "button": "__TODO__",
+    "title": "__TODO__",
+    "tournament": "__TODO__",
+    "currentProvider": "__TODO__",
+    "destination": "__TODO__",
+    "chooseDestination": "__TODO__",
+    "providersLoadError": "__TODO__",
+    "preview": "__TODO__",
+    "previewButton": "__TODO__",
+    "previewError": "__TODO__",
+    "from": "__TODO__",
+    "to": "__TODO__",
+    "calendarMoves": "__TODO__",
+    "calendarUnlisted": "__TODO__",
+    "revokeAccess": {
+      "title": "__TODO__",
+      "confirm_other": "__TODO__",
+      "confirm_one": "__TODO__"
+    },
+    "crossProvisioner": {
+      "title": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "reason": "__TODO__",
+    "reasonPlaceholder": "__TODO__",
+    "moveButton": "__TODO__",
+    "moved": "__TODO__",
+    "moveError": "__TODO__"
+  },
+  "teamDisplay": {
+    "title": "__TODO__",
+    "saved": "__TODO__",
+    "error": "__TODO__"
   }
 }

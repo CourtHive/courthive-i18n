@@ -1452,7 +1452,8 @@
       "linkedTournaments": "Linked Tournaments",
       "themeMode": "Mode",
       "lightPalette": "Light mode theme",
-      "darkPalette": "Dark mode theme"
+      "darkPalette": "Dark mode theme",
+      "smartComplements": "Smart complements (Dynamic Sets only)"
     },
     "editTournamentName": {
       "title": "Edit Tournament Name",
@@ -1861,7 +1862,22 @@
       "statusUnavailable": "{{status}} is unavailable for this match",
       "suspended": "Suspended",
       "inProgress": "In Progress",
-      "awaitingResult": "Awaiting Result"
+      "awaitingResult": "Awaiting Result",
+      "title": "Score Entry",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "submit": "Submit Score",
+      "format": "Format",
+      "irregularEnding": "Irregular Ending",
+      "winner": "Winner",
+      "validScore": "Valid score",
+      "scoreIncomplete": "Score incomplete",
+      "invalidScore": "Invalid score",
+      "scoreTips": "Score Entry Tips:",
+      "setScores": "Set Scores:",
+      "tiebreaks": "Tiebreaks:",
+      "matchTiebreaks": "Match Tiebreaks:",
+      "irregularEndings": "Irregular Endings:"
     },
     "scoreEntry": {
       "title": "Score Entry",
@@ -4366,7 +4382,13 @@
       "tierPlaceholder": "e.g. W50, Level 3",
       "tierSystem": "Tier System",
       "tier": "Tier",
-      "tierNotConfigured": "{{system}} (not configured)"
+      "tierNotConfigured": "{{system}} (not configured)",
+      "governingBodyProvider": "The provider applying, which owns the sanctioned tournament.",
+      "governingBodyChoose": "The provider filing this application; it owns the sanctioned tournament.",
+      "governingBodyUnknown": "No provider selected",
+      "rulebook": "Rulebook",
+      "rulebookOnly": "The only sanctioning rulebook configured for this provider.",
+      "rulebookSelect": "Selects the sanctioning rulebook applied to this application."
     },
     "events": {
       "heading": "Event Proposals",
@@ -5184,5 +5206,40 @@
     "venueDisabled": "Venue not in use",
     "dropRefused": "{{courtName}} is not in use on this date. Use it again first.",
     "failed": "The change was not applied"
+  },
+  "moveTournament": {
+    "button": "Move to another provider",
+    "title": "Move Tournament to Another Provider",
+    "tournament": "Tournament",
+    "currentProvider": "Current provider",
+    "destination": "Destination provider",
+    "chooseDestination": "Choose a provider…",
+    "providersLoadError": "Failed to load providers.",
+    "preview": "Preview",
+    "previewButton": "Preview",
+    "previewError": "Preview failed.",
+    "from": "From",
+    "to": "To",
+    "calendarMoves": "Its calendar listing moves to the new provider.",
+    "calendarUnlisted": "Not calendar-listed; it is removed from the old provider's calendar.",
+    "revokeAccess": {
+      "title": "Access granted by the old provider",
+      "confirm_one": "Revoke this access row as part of the move",
+      "confirm_other": "Revoke these {{count}} access rows as part of the move"
+    },
+    "crossProvisioner": {
+      "title": "Different provisioner",
+      "confirm": "The destination is under another provisioner; move it there"
+    },
+    "reason": "Reason (recorded in the audit log)",
+    "reasonPlaceholder": "e.g. created under the wrong provider",
+    "moveButton": "Move",
+    "moved": "Moved to {{provider}}",
+    "moveError": "Move failed."
+  },
+  "teamDisplay": {
+    "title": "Team colors and default display",
+    "saved": "Team display defaults saved",
+    "error": "Unable to load or save team display defaults"
   }
 }
