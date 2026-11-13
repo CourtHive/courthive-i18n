@@ -2091,7 +2091,12 @@
       "title": "Editar configurações de exibição",
       "pathHighlight": "__TODO__",
       "showConnectors": "__TODO__",
-      "showFlags": "__TODO__"
+      "showFlags": "__TODO__",
+      "advanced": "__TODO__",
+      "basic": "__TODO__",
+      "custom": "__TODO__",
+      "matchUpFooter": "__TODO__",
+      "preview": "__TODO__"
     },
     "chooseProvider": {
       "title": "Escolha um provedor",
@@ -2315,7 +2320,17 @@
       "targetCapacity": "A rodada {{round}} ainda comporta {{open}} de suas {{total}} posições.",
       "alreadyFed": "A rodada {{round}} já é alimentada por {{feederNames}}: {{count}} qualificados previstos.",
       "noFeeders": "Nenhuma estrutura de qualificação alimenta a rodada {{round}} ainda.",
-      "qualifying": "Qualificação"
+      "qualifying": "Qualificação",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "insufficientPositions_one": "__TODO__",
+      "insufficientPositions_many": "__TODO__",
+      "insufficientPositions_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2616,7 +2631,15 @@
       "called": "Chamada",
       "scheduleLocked": "Programação bloqueada",
       "hotkeyScoring": "Lançamento de placar por atalhos",
-      "hotkeyPlaceholder": "digite o placar"
+      "hotkeyPlaceholder": "digite o placar",
+      "typeLabel": "__TODO__",
+      "profileLabel": "__TODO__",
+      "statusLabel": "__TODO__",
+      "statusDetailLabel": "__TODO__",
+      "anyStatusDetail": "__TODO__",
+      "statusStripLabel": "__TODO__",
+      "eventLabel": "__TODO__",
+      "flightLabel": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Buscar participantes",
@@ -2888,6 +2911,19 @@
         "positionsOpen_one": "__TODO__",
         "positionsOpen_many": "__TODO__",
         "positionsOpen_other": "__TODO__"
+      },
+      "completeMatchUps": {
+        "tooltip": "__TODO__",
+        "title": "__TODO__",
+        "all": "__TODO__",
+        "throughRound": "__TODO__",
+        "completesRound": "__TODO__",
+        "completesRounds": "__TODO__",
+        "matchUps_one": "__TODO__",
+        "matchUps_many": "__TODO__",
+        "matchUps_other": "__TODO__",
+        "roundDone": "__TODO__",
+        "nothingLeft": "__TODO__"
       }
     },
     "participants": {
@@ -2929,7 +2965,7 @@
         "firstNamePlaceholder": "Primeiro nome",
         "lastName": "Sobrenome",
         "lastNamePlaceholder": "Nome de família",
-        "nameError": "Por favor digite um nome de pelo menos 3 caracteres",
+        "nameError": "__STALE__Por favor digite um nome de pelo menos 3 caracteres",
         "sex": "Sexo",
         "dateOfBirth": "Data de nascimento",
         "birthdayPlaceholder": "Aniversário",
@@ -2983,7 +3019,28 @@
         "namePlaceholder": "Nome do participante",
         "nicknamePlaceholder": "Apelido / abreviação",
         "preferNickname": "Preferir o apelido nas chaves",
-        "nameTooShort": "Informe um nome com pelo menos 3 caracteres"
+        "nameTooShort": "Informe um nome com pelo menos 3 caracteres",
+        "palette": "__TODO__",
+        "addColor": "__TODO__",
+        "clearPalette": "__TODO__",
+        "chooseColor": "__TODO__",
+        "missingColor": "__TODO__",
+        "color": "__TODO__",
+        "colorname": "__TODO__",
+        "colorvalue": "__TODO__",
+        "colorgroup": "__TODO__",
+        "moveColorUp": "__TODO__",
+        "removeColor": "__TODO__",
+        "invalidPalette": "__TODO__",
+        "team": {
+          "surface": "__TODO__",
+          "text": "__TODO__",
+          "accent": "__TODO__"
+        },
+        "score": {
+          "surface": "__TODO__",
+          "text": "__TODO__"
+        }
       },
       "staffRole": "Função",
       "contactRelationship": {
@@ -3042,7 +3099,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4302,6 +4376,36 @@
       "byRelationship": "Check-in feito por {{name}} ({{relationship}})",
       "byOperator": "Check-in feito por {{name}}",
       "at": "às {{time}}"
+    },
+    "callAnyway": "__TODO__",
+    "callTitle": "__TODO__",
+    "callChanged": "__TODO__",
+    "desk": {
+      "title": "__TODO__",
+      "side": "__TODO__",
+      "search": "__TODO__",
+      "status": "__TODO__",
+      "all": "__TODO__",
+      "awaiting": "__TODO__",
+      "partial": "__TODO__",
+      "complete": "__TODO__",
+      "event": "__TODO__",
+      "venue": "__TODO__",
+      "allEvents": "__TODO__",
+      "allVenues": "__TODO__",
+      "showCompleted": "__TODO__",
+      "hint": "__TODO__",
+      "matchCount_one": "__TODO__",
+      "matchCount_many": "__TODO__",
+      "matchCount_other": "__TODO__",
+      "empty": "__TODO__",
+      "checkedIn": "__TODO__",
+      "timeUnassigned": "__TODO__",
+      "courtUnassigned": "__TODO__",
+      "present": "__TODO__",
+      "noParticipants": "__TODO__",
+      "checkOutLocked": "__TODO__",
+      "readOnly": "__TODO__"
     }
   },
   "ofc": "Oficiais",
@@ -4672,7 +4776,8 @@
     "drawGenerated": "Chave gerada com sucesso",
     "templateName": "Nome do modelo",
     "templateSaved": "Modelo salvo",
-    "structuresNotAttached": "Chave gerada, mas estas estruturas não puderam ser anexadas: {{unattached}}"
+    "structuresNotAttached": "Chave gerada, mas estas estruturas não puderam ser anexadas: {{unattached}}",
+    "eventNotFound": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identificadores",
@@ -4834,7 +4939,10 @@
     "substitution": "Substituição",
     "assignSeedNumber": "Atribuir número de cabeça de chave ",
     "seedNumber": "Número de cabeça de chave",
-    "nickname": "Apelido "
+    "nickname": "Apelido ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Todos os participantes selecionados já estão nesta chave",
@@ -5051,10 +5159,14 @@
   },
   "exportFile": {
     "saveJson": "Salvar JSON",
-    "saveFile": "Salvar arquivo"
+    "saveFile": "Salvar arquivo",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
-    "updateFailed": "Falha na atualização remota — recarregue a página"
+    "updateFailed": "Falha na atualização remota — recarregue a página",
+    "tournamentReplaced": "__TODO__",
+    "refreshWaiting": "__TODO__",
+    "refreshBlocked": "__TODO__"
   },
   "mutationPrompts": {
     "modify": "Modificar?",
@@ -5210,7 +5322,20 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5233,5 +5358,83 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
+  },
+  "teamPresentation": {
+    "title": "__TODO__",
+    "scope": "__TODO__",
+    "allTeams": "__TODO__",
+    "reset": "__TODO__",
+    "inherit": "__TODO__",
+    "theme": "__TODO__",
+    "color": "__TODO__",
+    "colorValue": "__TODO__",
+    "palette": "__TODO__",
+    "paletteValue": "__TODO__",
+    "choosePalette": "__TODO__",
+    "missingTeam": "__TODO__",
+    "missingColor": "__TODO__",
+    "invalid": "__TODO__",
+    "importTeams": "__TODO__",
+    "providerIds": "__TODO__",
+    "providerError": "__TODO__",
+    "searchTeams": "__TODO__",
+    "search": "__TODO__",
+    "more": "__TODO__",
+    "noTeams": "__TODO__",
+    "tournamentChanged": "__TODO__"
+  },
+  "participantMerge": {
+    "title": "__TODO__",
+    "selectTwo": "__TODO__",
+    "keep": "__TODO__",
+    "remove": "__TODO__",
+    "source": "__TODO__",
+    "target": "__TODO__",
+    "choose": "__TODO__",
+    "confirm": "__TODO__",
+    "success": "__TODO__",
+    "unavailable": "__TODO__",
+    "failed": "__TODO__",
+    "references": "__TODO__",
+    "blocked": "__TODO__",
+    "refresh": "__TODO__",
+    "pending": "__TODO__",
+    "SHARED_DRAW": "__TODO__",
+    "PAIR_COLLAPSE": "__TODO__",
+    "DUPLICATE_PAIR": "__TODO__",
+    "PERSON_ID_CONFLICT": "__TODO__",
+    "ISSUED_ID_CONFLICT": "__TODO__",
+    "INVALID_ISSUED_ID": "__TODO__",
+    "HISTORY_CONFLICT": "__TODO__",
+    "ROLE_CONFLICT": "__TODO__",
+    "ENTRY_CONFLICT": "__TODO__",
+    "UNSUPPORTED_REFERENCE": "__TODO__",
+    "INVALID_RESOLUTION": "__TODO__",
+    "importStatus": {
+      "new": "__TODO__",
+      "unchanged": "__TODO__",
+      "update": "__TODO__",
+      "redirected": "__TODO__",
+      "invalid": "__TODO__"
+    },
+    "OPPOSING_SIDES": "__TODO__",
+    "DUPLICATE_LINEUP": "__TODO__",
+    "FLIGHT_CONFLICT": "__TODO__",
+    "INVALID_CONTACT_MEMBER": "__TODO__",
+    "INTEGRITY_CONFLICT": "__TODO__",
+    "birthDate": "__TODO__",
+    "givenName": "__TODO__",
+    "familyName": "__TODO__",
+    "nationality": "__TODO__",
+    "name": "__TODO__",
+    "sex": "__TODO__",
+    "entryStatus": "__TODO__",
+    "entryStage": "__TODO__",
+    "invalidImport": "__TODO__",
+    "ENTRY_GROUPING_CONFLICT": "__TODO__"
   }
 }

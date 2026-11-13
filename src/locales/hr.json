@@ -2267,7 +2267,12 @@
       "title": "Uredi postavke prikaza",
       "pathHighlight": "__TODO__",
       "showConnectors": "__TODO__",
-      "showFlags": "__TODO__"
+      "showFlags": "__TODO__",
+      "advanced": "__TODO__",
+      "basic": "__TODO__",
+      "custom": "__TODO__",
+      "matchUpFooter": "__TODO__",
+      "preview": "__TODO__"
     },
     "chooseProvider": {
       "title": "Odaberite pružatelja",
@@ -2491,7 +2496,17 @@
       "targetCapacity": "Kolo {{round}} još može primiti {{open}} od svojih {{total}} pozicija.",
       "alreadyFed": "Kolo {{round}} već puni {{feederNames}}: obećano kvalifikanata: {{count}}.",
       "noFeeders": "Nijedna kvalifikacijska struktura još ne puni kolo {{round}}.",
-      "qualifying": "Kvalifikacije"
+      "qualifying": "Kvalifikacije",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_few": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_few": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "insufficientPositions_one": "__TODO__",
+      "insufficientPositions_few": "__TODO__",
+      "insufficientPositions_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2792,7 +2807,15 @@
       "called": "Pozvano",
       "scheduleLocked": "Raspored zaključan",
       "hotkeyScoring": "Unos rezultata tipkovnim prečacima",
-      "hotkeyPlaceholder": "upišite rezultat"
+      "hotkeyPlaceholder": "upišite rezultat",
+      "typeLabel": "__TODO__",
+      "profileLabel": "__TODO__",
+      "statusLabel": "__TODO__",
+      "statusDetailLabel": "__TODO__",
+      "anyStatusDetail": "__TODO__",
+      "statusStripLabel": "__TODO__",
+      "eventLabel": "__TODO__",
+      "flightLabel": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Pretraži sudionike",
@@ -3064,6 +3087,19 @@
         "positionsOpen_one": "__TODO__",
         "positionsOpen_few": "__TODO__",
         "positionsOpen_other": "__TODO__"
+      },
+      "completeMatchUps": {
+        "tooltip": "__TODO__",
+        "title": "__TODO__",
+        "all": "__TODO__",
+        "throughRound": "__TODO__",
+        "completesRound": "__TODO__",
+        "completesRounds": "__TODO__",
+        "matchUps_one": "__TODO__",
+        "matchUps_few": "__TODO__",
+        "matchUps_other": "__TODO__",
+        "roundDone": "__TODO__",
+        "nothingLeft": "__TODO__"
       }
     },
     "participants": {
@@ -3106,7 +3142,7 @@
         "firstNamePlaceholder": "Ime",
         "lastName": "Prezime",
         "lastNamePlaceholder": "Prezime",
-        "nameError": "Molimo unesite ime od najmanje 3 znaka",
+        "nameError": "__STALE__Molimo unesite ime od najmanje 3 znaka",
         "sex": "Spol",
         "dateOfBirth": "Datum rođenja",
         "birthdayPlaceholder": "Rođendan",
@@ -3159,7 +3195,28 @@
         "namePlaceholder": "Ime sudionika",
         "nicknamePlaceholder": "Nadimak / kratica",
         "preferNickname": "U ždrijebovima koristi nadimak",
-        "nameTooShort": "Unesite ime od najmanje 3 znaka"
+        "nameTooShort": "Unesite ime od najmanje 3 znaka",
+        "palette": "__TODO__",
+        "addColor": "__TODO__",
+        "clearPalette": "__TODO__",
+        "chooseColor": "__TODO__",
+        "missingColor": "__TODO__",
+        "color": "__TODO__",
+        "colorname": "__TODO__",
+        "colorvalue": "__TODO__",
+        "colorgroup": "__TODO__",
+        "moveColorUp": "__TODO__",
+        "removeColor": "__TODO__",
+        "invalidPalette": "__TODO__",
+        "team": {
+          "surface": "__TODO__",
+          "text": "__TODO__",
+          "accent": "__TODO__"
+        },
+        "score": {
+          "surface": "__TODO__",
+          "text": "__TODO__"
+        }
       },
       "staffRole": "Uloga",
       "contactRelationship": {
@@ -3218,7 +3275,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -4302,6 +4376,36 @@
       "byRelationship": "Prijavio: {{name}} ({{relationship}})",
       "byOperator": "Prijavio: {{name}}",
       "at": "u {{time}}"
+    },
+    "callAnyway": "__TODO__",
+    "callTitle": "__TODO__",
+    "callChanged": "__TODO__",
+    "desk": {
+      "title": "__TODO__",
+      "side": "__TODO__",
+      "search": "__TODO__",
+      "status": "__TODO__",
+      "all": "__TODO__",
+      "awaiting": "__TODO__",
+      "partial": "__TODO__",
+      "complete": "__TODO__",
+      "event": "__TODO__",
+      "venue": "__TODO__",
+      "allEvents": "__TODO__",
+      "allVenues": "__TODO__",
+      "showCompleted": "__TODO__",
+      "hint": "__TODO__",
+      "matchCount_one": "__TODO__",
+      "matchCount_few": "__TODO__",
+      "matchCount_other": "__TODO__",
+      "empty": "__TODO__",
+      "checkedIn": "__TODO__",
+      "timeUnassigned": "__TODO__",
+      "courtUnassigned": "__TODO__",
+      "present": "__TODO__",
+      "noParticipants": "__TODO__",
+      "checkOutLocked": "__TODO__",
+      "readOnly": "__TODO__"
     }
   },
   "ofc": "Suci",
@@ -4672,7 +4776,8 @@
     "drawGenerated": "Ždrijeb uspješno generiran",
     "templateName": "Naziv predloška",
     "templateSaved": "Predložak spremljen",
-    "structuresNotAttached": "Ždrijeb generiran, ali ove strukture nije bilo moguće priključiti: {{unattached}}"
+    "structuresNotAttached": "Ždrijeb generiran, ali ove strukture nije bilo moguće priključiti: {{unattached}}",
+    "eventNotFound": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifikatori",
@@ -4834,7 +4939,10 @@
     "substitution": "Zamjena",
     "assignSeedNumber": "Dodijeli broj nositelja ",
     "seedNumber": "Broj nositelja",
-    "nickname": "Nadimak "
+    "nickname": "Nadimak ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Svi odabrani sudionici već su u ovom ždrijebu",
@@ -5051,10 +5159,14 @@
   },
   "exportFile": {
     "saveJson": "Spremi kao JSON",
-    "saveFile": "Spremi datoteku"
+    "saveFile": "Spremi datoteku",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
-    "updateFailed": "Udaljeno ažuriranje nije uspjelo — ponovno učitajte stranicu"
+    "updateFailed": "Udaljeno ažuriranje nije uspjelo — ponovno učitajte stranicu",
+    "tournamentReplaced": "__TODO__",
+    "refreshWaiting": "__TODO__",
+    "refreshBlocked": "__TODO__"
   },
   "mutationPrompts": {
     "modify": "Izmijeniti?",
@@ -5210,7 +5322,20 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_few": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5233,5 +5358,83 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
+  },
+  "teamPresentation": {
+    "title": "__TODO__",
+    "scope": "__TODO__",
+    "allTeams": "__TODO__",
+    "reset": "__TODO__",
+    "inherit": "__TODO__",
+    "theme": "__TODO__",
+    "color": "__TODO__",
+    "colorValue": "__TODO__",
+    "palette": "__TODO__",
+    "paletteValue": "__TODO__",
+    "choosePalette": "__TODO__",
+    "missingTeam": "__TODO__",
+    "missingColor": "__TODO__",
+    "invalid": "__TODO__",
+    "importTeams": "__TODO__",
+    "providerIds": "__TODO__",
+    "providerError": "__TODO__",
+    "searchTeams": "__TODO__",
+    "search": "__TODO__",
+    "more": "__TODO__",
+    "noTeams": "__TODO__",
+    "tournamentChanged": "__TODO__"
+  },
+  "participantMerge": {
+    "title": "__TODO__",
+    "selectTwo": "__TODO__",
+    "keep": "__TODO__",
+    "remove": "__TODO__",
+    "source": "__TODO__",
+    "target": "__TODO__",
+    "choose": "__TODO__",
+    "confirm": "__TODO__",
+    "success": "__TODO__",
+    "unavailable": "__TODO__",
+    "failed": "__TODO__",
+    "references": "__TODO__",
+    "blocked": "__TODO__",
+    "refresh": "__TODO__",
+    "pending": "__TODO__",
+    "SHARED_DRAW": "__TODO__",
+    "PAIR_COLLAPSE": "__TODO__",
+    "DUPLICATE_PAIR": "__TODO__",
+    "PERSON_ID_CONFLICT": "__TODO__",
+    "ISSUED_ID_CONFLICT": "__TODO__",
+    "INVALID_ISSUED_ID": "__TODO__",
+    "HISTORY_CONFLICT": "__TODO__",
+    "ROLE_CONFLICT": "__TODO__",
+    "ENTRY_CONFLICT": "__TODO__",
+    "UNSUPPORTED_REFERENCE": "__TODO__",
+    "INVALID_RESOLUTION": "__TODO__",
+    "importStatus": {
+      "new": "__TODO__",
+      "unchanged": "__TODO__",
+      "update": "__TODO__",
+      "redirected": "__TODO__",
+      "invalid": "__TODO__"
+    },
+    "OPPOSING_SIDES": "__TODO__",
+    "DUPLICATE_LINEUP": "__TODO__",
+    "FLIGHT_CONFLICT": "__TODO__",
+    "INVALID_CONTACT_MEMBER": "__TODO__",
+    "INTEGRITY_CONFLICT": "__TODO__",
+    "birthDate": "__TODO__",
+    "givenName": "__TODO__",
+    "familyName": "__TODO__",
+    "nationality": "__TODO__",
+    "name": "__TODO__",
+    "sex": "__TODO__",
+    "entryStatus": "__TODO__",
+    "entryStage": "__TODO__",
+    "invalidImport": "__TODO__",
+    "ENTRY_GROUPING_CONFLICT": "__TODO__"
   }
 }
