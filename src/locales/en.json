@@ -2250,7 +2250,12 @@
       "title": "Edit display settings",
       "pathHighlight": "Highlight participant path",
       "showConnectors": "Show connectors",
-      "showFlags": "Show flags"
+      "showFlags": "Show flags",
+      "advanced": "Advanced settings",
+      "basic": "Basic settings",
+      "custom": "custom",
+      "matchUpFooter": "MatchUp footer",
+      "preview": "Preview"
     },
     "chooseProvider": {
       "title": "Choose a provider",
@@ -2470,7 +2475,14 @@
       "targetCapacity": "Round {{round}} can still take {{open}} of its {{total}} positions.",
       "alreadyFed": "Round {{round}} is already fed by {{feederNames}}: {{count}} qualifiers promised.",
       "noFeeders": "No qualifying structure feeds round {{round}} yet.",
-      "qualifying": "Qualifying"
+      "qualifying": "Qualifying",
+      "entriesNotPlaced_one": "{{count}} accepted entry was not placed in the draw (draw size {{drawSize}}): {{names}}",
+      "entriesNotPlaced_other": "{{count}} accepted entries were not placed in the draw (draw size {{drawSize}}): {{names}}",
+      "qualifyingEntriesNotPlaced_one": "{{count}} qualifying entry was not placed in qualifying (draw size {{drawSize}}): {{names}}",
+      "qualifyingEntriesNotPlaced_other": "{{count}} qualifying entries were not placed in qualifying (draw size {{drawSize}}): {{names}}",
+      "insufficientPositions_one": "{{entries}} entries for {{places}} places: 1 more than the draw can hold. Enlarge the draw, or move an entry to the alternates.",
+      "insufficientPositions_other": "{{entries}} entries for {{places}} places: {{count}} more than the draw can hold. Enlarge the draw, or move entries to the alternates.",
+      "qualifyingDrawTooSmall": "A qualifying draw of {{drawSize}} cannot hold {{entriesCount}} qualifying entries. Choose a larger draw size or withdraw entries first."
     }
   },
   "toasts": {
@@ -2771,7 +2783,15 @@
       "called": "Called",
       "scheduleLocked": "Schedule locked",
       "hotkeyScoring": "Hotkey score entry",
-      "hotkeyPlaceholder": "type score"
+      "hotkeyPlaceholder": "type score",
+      "typeLabel": "Type",
+      "profileLabel": "Profile",
+      "statusLabel": "Status",
+      "statusDetailLabel": "Status detail",
+      "anyStatusDetail": "Any detail",
+      "statusStripLabel": "Quick status filter",
+      "eventLabel": "Event",
+      "flightLabel": "Flight"
     },
     "schedule": {
       "searchParticipants": "Search participants",
@@ -3037,6 +3057,18 @@
         "notPlaced_other": "{{count}} qualified participants could not be placed: {{names}}.",
         "positionsOpen_one": "{{count}} qualifier position is still open.",
         "positionsOpen_other": "{{count}} qualifier positions are still open."
+      },
+      "completeMatchUps": {
+        "tooltip": "Complete matchUps",
+        "title": "Complete matchUps",
+        "all": "All remaining",
+        "throughRound": "Through round",
+        "completesRound": "Completes {{round}}",
+        "completesRounds": "Completes {{from}} through {{to}}",
+        "matchUps_one": "{{count}} matchUp",
+        "matchUps_other": "{{count}} matchUps",
+        "roundDone": "{{round}} is complete",
+        "nothingLeft": "Every matchUp in this structure is complete"
       }
     },
     "participants": {
@@ -3079,7 +3111,7 @@
         "firstNamePlaceholder": "Given name",
         "lastName": "Last name",
         "lastNamePlaceholder": "Family name",
-        "nameError": "Please enter a name of at least 3 characters",
+        "nameError": "Please enter a name of at least 2 characters",
         "sex": "Sex",
         "dateOfBirth": "Date of birth",
         "birthdayPlaceholder": "Birthday",
@@ -3132,7 +3164,28 @@
         "namePlaceholder": "Participant name",
         "nicknamePlaceholder": "Nickname / abbreviation",
         "preferNickname": "Prefer nickname in draws",
-        "nameTooShort": "Please enter a name of at least 3 characters"
+        "nameTooShort": "Please enter a name of at least 3 characters",
+        "palette": "Team colors and default display",
+        "addColor": "Add color",
+        "clearPalette": "Clear palette",
+        "chooseColor": "Use theme default",
+        "missingColor": "Selected color removed — choose another",
+        "color": "Color",
+        "colorname": "Color name (optional)",
+        "colorvalue": "Color value",
+        "colorgroup": "Brand group (optional)",
+        "moveColorUp": "Move color up",
+        "removeColor": "Remove color",
+        "invalidPalette": "Check colors and role assignments. Every assigned role must reference an existing palette color.",
+        "team": {
+          "surface": "Team background",
+          "text": "Team text",
+          "accent": "Team accent"
+        },
+        "score": {
+          "surface": "Score background",
+          "text": "Score text"
+        }
       },
       "staffRole": "Role",
       "contactRelationship": {
@@ -3189,7 +3242,24 @@
       "overrideScore": "Override",
       "restoreAutoScore": "Restore automatic scoring",
       "manualScore": "Set by hand",
-      "winner": "Winner"
+      "winner": "Winner",
+      "home": "Home",
+      "homeVenue": "Home (venue)",
+      "homeHostOrganisation": "Home (host organisation)",
+      "editHome": "Edit home team",
+      "saveHome": "Save home team",
+      "homeTeam": "Home team",
+      "homeEditHint": "Select the home team · select it again for no home team",
+      "homeEditHintNoClear": "Select the home team",
+      "homeInferredVenueHint": "Home comes from the venue — select a team to set it",
+      "homeInferredHostHint": "Home comes from the host organisation — select a team to set it",
+      "homeDraft": "Home: {{name}} (unsaved)",
+      "homeDraftNone": "No home team set (unsaved)",
+      "homeSaveFailed": "Not saved — save again or cancel",
+      "exportStatCrew": "Export StatCrew",
+      "statCrewNotComplete": "StatCrew can be exported once the dual is complete",
+      "statCrewAmbiguous": "These teams met more than once, so the StatCrew game cannot be told apart",
+      "statCrewFailed": "The StatCrew file could not be produced"
     }
   },
   "publishing": {
@@ -4260,6 +4330,35 @@
       "byRelationship": "Checked in by {{name}} ({{relationship}})",
       "byOperator": "Checked in by {{name}}",
       "at": "at {{time}}"
+    },
+    "callAnyway": "Call to court anyway",
+    "callTitle": "Call before check-in?",
+    "callChanged": "The match or court changed while this dialog was open. Review it and try again.",
+    "desk": {
+      "title": "Check-In",
+      "side": "Side {{number}}",
+      "search": "Search participant names",
+      "status": "Check-in status",
+      "all": "All check-in states",
+      "awaiting": "Awaiting check-in",
+      "partial": "Partially checked in",
+      "complete": "Everyone checked in",
+      "event": "Event",
+      "venue": "Venue",
+      "allEvents": "All events",
+      "allVenues": "All venues",
+      "showCompleted": "Show completed matches",
+      "hint": "Check in each player for this match. Changes save immediately.",
+      "matchCount_one": "{{count}} match",
+      "matchCount_other": "{{count}} matches",
+      "empty": "No matches match these filters on this date.",
+      "checkedIn": "{{summary}} checked in",
+      "timeUnassigned": "Time unassigned",
+      "courtUnassigned": "Court unassigned",
+      "present": "Checked in",
+      "noParticipants": "There are no participants available for check-in.",
+      "checkOutLocked": "Check-out is unavailable once play has started or a score has been recorded.",
+      "readOnly": "Check-in changes are unavailable for this match."
     }
   },
   "ofc": "Officials",
@@ -4629,7 +4728,8 @@
     "drawGenerated": "Draw generated successfully",
     "templateName": "Template Name",
     "templateSaved": "Template saved",
-    "structuresNotAttached": "Draw generated, but these structures could not be attached: {{unattached}}"
+    "structuresNotAttached": "Draw generated, but these structures could not be attached: {{unattached}}",
+    "eventNotFound": "Event not found"
   },
   "participantFields": {
     "identifiers": "Identifiers",
@@ -4791,7 +4891,10 @@
     "substitution": "Substitution",
     "assignSeedNumber": "Assign seed number ",
     "seedNumber": "Seed number",
-    "nickname": "Nickname "
+    "nickname": "Nickname ",
+    "setHomeTeam": "Set home team",
+    "clearHomeTeam": "Clear home team",
+    "exportStatCrew": "Export StatCrew"
   },
   "entries": {
     "alreadyInDraw": "All selected participants are already in this draw",
@@ -5003,10 +5106,14 @@
   },
   "exportFile": {
     "saveJson": "Save JSON",
-    "saveFile": "Save File"
+    "saveFile": "Save File",
+    "saveXml": "Save XML"
   },
   "remoteMutations": {
-    "updateFailed": "Remote update failed — please reload"
+    "updateFailed": "Remote update failed — please reload",
+    "tournamentReplaced": "An administrator changed this tournament on the server — reloading",
+    "refreshWaiting": "Newer changes are on the server. They load once your unsaved entry or pending change finishes",
+    "refreshBlocked": "Newer changes can load once your unsaved entry or pending change finishes. Loading them now could discard it"
   },
   "mutationPrompts": {
     "modify": "Modify?",
@@ -5162,7 +5269,19 @@
     "scheduleAnyway": "Schedule anyway",
     "extendEventDates": "Extend event dates",
     "extended": "Event dates extended. Apply the schedule again to place the skipped matchUps.",
-    "extendFailed": "Could not extend the event dates"
+    "extendFailed": "Could not extend the event dates",
+    "outsideTournament": {
+      "button_one": "{{count}} event outside tournament dates",
+      "button_other": "{{count}} events outside tournament dates",
+      "title": "Event dates outside the tournament",
+      "intro": "These events have dates outside the tournament's. Scheduling already uses only the tournament's days; fixing the dates makes the event say so.",
+      "disjoint": "Event dates {{event}} lie entirely outside the tournament ({{tournament}}). Scheduling uses the tournament's dates instead.",
+      "edge": "Event dates {{event}} extend outside the tournament ({{tournament}}). Scheduling uses only the days inside it.",
+      "setToTournament": "Set event dates to tournament dates ({{range}})",
+      "trim": "Trim event dates to {{range}}",
+      "fixed": "Event dates updated",
+      "failed": "Could not update the event dates"
+    }
   },
   "courtUse": {
     "disable": "Don't use",
@@ -5184,5 +5303,83 @@
     "venueDisabled": "Venue not in use",
     "dropRefused": "{{courtName}} is not in use on this date. Use it again first.",
     "failed": "The change was not applied"
+  },
+  "tournamentClock": {
+    "ariaLabel": "Time where the tournament is played",
+    "title": "Tournament time: {{when}} ({{zone}}). Your time: {{local}}"
+  },
+  "teamPresentation": {
+    "title": "Tournament team presentation",
+    "scope": "Apply to",
+    "allTeams": "All teams",
+    "reset": "Reset this scope to inherited defaults",
+    "inherit": "Inherit",
+    "theme": "Use theme default",
+    "color": "Use color",
+    "colorValue": "custom color",
+    "palette": "Team palette color",
+    "paletteValue": "team palette color",
+    "choosePalette": "Choose team color",
+    "missingTeam": "missing team",
+    "missingColor": "Missing palette color",
+    "invalid": "Check colors and palette references",
+    "importTeams": "Import or refresh team provider defaults",
+    "providerIds": "Team provider IDs (one per line or separated by commas)",
+    "providerError": "Unable to load valid team defaults from the provider",
+    "searchTeams": "Find team providers",
+    "search": "Search",
+    "more": "More teams",
+    "noTeams": "No team providers with display defaults found",
+    "tournamentChanged": "The active tournament changed. No teams were imported."
+  },
+  "participantMerge": {
+    "title": "Merge participants",
+    "selectTwo": "Select exactly two individuals to merge.",
+    "keep": "Participant to keep",
+    "remove": "Their details and tournament participation will move to the participant you keep. The duplicate record will be removed.",
+    "source": "Use duplicate value",
+    "target": "Keep retained value",
+    "choose": "Choose a value",
+    "confirm": "Merge participants",
+    "success": "Merged duplicate into {{name}}.",
+    "unavailable": "Participant merging is not available on this server yet.",
+    "failed": "The merge could not be saved. Review the latest state and try again.",
+    "references": "{{count}} references will be transferred.",
+    "blocked": "Resolve these conflicts before merging:",
+    "refresh": "Refresh review",
+    "pending": "Saving merge…",
+    "SHARED_DRAW": "Both individuals occur in this draw. Remove the duplicate participation before merging.",
+    "PAIR_COLLAPSE": "These individuals form the same pair. Merging would leave only one member.",
+    "DUPLICATE_PAIR": "Merging would create duplicate pairs. Resolve the pair records first.",
+    "PERSON_ID_CONFLICT": "These records have different person identities. Resolve their identity first.",
+    "ISSUED_ID_CONFLICT": "An issuing organisation identifies these records differently.",
+    "INVALID_ISSUED_ID": "An external identifier has no issuing organisation or value.",
+    "HISTORY_CONFLICT": "These records have different histories. This version cannot reconcile them safely.",
+    "ROLE_CONFLICT": "These records have different participant roles.",
+    "ENTRY_CONFLICT": "These records have conflicting entries in the same event and stage.",
+    "UNSUPPORTED_REFERENCE": "A reference in this data cannot be transferred safely by this version.",
+    "INVALID_RESOLUTION": "A field choice is no longer valid. Refresh the review.",
+    "importStatus": {
+      "new": "New participant",
+      "unchanged": "Existing participant — unchanged",
+      "update": "Existing participant — update",
+      "redirected": "Previously merged — uses retained participant",
+      "invalid": "Invalid identity mapping — review required"
+    },
+    "OPPOSING_SIDES": "Merging would put the same individual on both sides of a match.",
+    "DUPLICATE_LINEUP": "Merging would put the same individual into this lineup twice.",
+    "FLIGHT_CONFLICT": "Merging would enter the same individual into multiple flights.",
+    "INVALID_CONTACT_MEMBER": "A grouping contact is not a member of that grouping.",
+    "INTEGRITY_CONFLICT": "Merging would introduce a tournament inconsistency.",
+    "birthDate": "Birth date",
+    "givenName": "Given name",
+    "familyName": "Family name",
+    "nationality": "Nationality",
+    "name": "Name",
+    "sex": "Sex",
+    "entryStatus": "Entry status",
+    "entryStage": "Entry stage",
+    "invalidImport": "Import could not resolve a previously merged participant. Refresh the tournament and review its identity mappings.",
+    "ENTRY_GROUPING_CONFLICT": "Merging would register the same individual through two entrants in this event and stage."
   }
 }
