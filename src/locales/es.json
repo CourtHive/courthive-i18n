@@ -1523,7 +1523,8 @@
       "remaining": "__TODO__",
       "noneRemaining": "__TODO__",
       "noneInBand": "__TODO__",
-      "alreadyFlighted": "__TODO__"
+      "alreadyFlighted": "__TODO__",
+      "noRatings": "__TODO__"
     },
     "addConsolation": {
       "title": "Agregar consolación voluntaria",
@@ -1848,7 +1849,7 @@
     },
     "editCategories": {
       "title": "Categorías del torneo",
-      "intro": "Agrega o quita categorías definidas para este torneo. Las categorías en uso no se pueden editar ni quitar — cámbialas reemplazando los eventos que las referencian.",
+      "intro": "__STALE__Agrega o quita categorías definidas para este torneo. Las categorías en uso no se pueden editar ni quitar — cámbialas reemplazando los eventos que las referencian.",
       "add": "+ Agregar categoría",
       "empty": "Aún no hay categorías definidas.",
       "duplicate": "Ya existe una categoría con ese nombre o código.",
@@ -1857,7 +1858,18 @@
       "deleteDisabledHint": "Esta categoría es usada por uno o más eventos. Quita o reasigna primero esos eventos.",
       "unused": "Sin uso",
       "usageCount": "{{count}} evento(s)",
-      "usageList": "{{name}} es usada por: {{events}}"
+      "usageList": "{{name}} es usada por: {{events}}",
+      "ageAtMost": "__TODO__",
+      "ageAtLeast": "__TODO__",
+      "ageBetween": "__TODO__",
+      "ratingBetween": "__TODO__",
+      "ratingAtMost": "__TODO__",
+      "ratingAtLeast": "__TODO__",
+      "ratingAny": "__TODO__",
+      "noRule": "__TODO__",
+      "ball": "__TODO__",
+      "undefinedTitle": "__TODO__",
+      "define": "__TODO__"
     },
     "firstLogin": {
       "title": "Establece tu contraseña",
@@ -2091,7 +2103,12 @@
       "title": "Editar los ajustes de visualización",
       "pathHighlight": "__TODO__",
       "showConnectors": "__TODO__",
-      "showFlags": "__TODO__"
+      "showFlags": "__TODO__",
+      "advanced": "__TODO__",
+      "basic": "__TODO__",
+      "custom": "__TODO__",
+      "matchUpFooter": "__TODO__",
+      "preview": "__TODO__"
     },
     "chooseProvider": {
       "title": "Elija un proveedor",
@@ -2133,7 +2150,10 @@
       "copied_one": "__TODO__",
       "copied_many": "__TODO__",
       "copied_other": "__TODO__",
-      "copyFailed": "__TODO__"
+      "copyFailed": "__TODO__",
+      "integrityUnavailable": "__TODO__",
+      "unknownReason": "__TODO__",
+      "incompleteToast": "__TODO__"
     },
     "deleteFlights": {
       "confirmUngenerated_one": "__TODO__",
@@ -2190,7 +2210,8 @@
     "practiceClosed": "Cerrado",
     "setTimeZone": "Definir zona horaria",
     "setTimeZoneDetected": "(detectada: {{zone}})",
-    "practiceNoneAllocated": "Nada asignado"
+    "practiceNoneAllocated": "Nada asignado",
+    "categoriesUndefined": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -2204,7 +2225,7 @@
       "selectActiveDates": "Seleccionar fechas activas",
       "activeDates": "Fechas Activas",
       "timeZoneLabel": "Zona horaria",
-      "timeZonePlaceholder": "p. ej. America/New_York",
+      "timeZonePlaceholder": "__STALE__p. ej. America/New_York",
       "timeZoneInvalid": "No es una zona horaria IANA reconocida",
       "tierSystemLabel": "Sistema de niveles",
       "tierSystemPlaceholder": "p. ej. ITF_JUNIOR, ATP, PPA",
@@ -2315,7 +2336,18 @@
       "targetCapacity": "La ronda {{round}} aún admite {{open}} de sus {{total}} posiciones.",
       "alreadyFed": "La ronda {{round}} ya recibe clasificados de {{feederNames}}: {{count}} clasificados comprometidos.",
       "noFeeders": "Ninguna estructura de clasificación alimenta todavía la ronda {{round}}.",
-      "qualifying": "Clasificación"
+      "qualifying": "Clasificación",
+      "openInBuilder": "__TODO__",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "insufficientPositions_one": "__TODO__",
+      "insufficientPositions_many": "__TODO__",
+      "insufficientPositions_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2388,7 +2420,8 @@
     "scoreRefused": "Este partido no se puede puntuar ni corregir ahora: el cuadro no ofrece puntuación para él.",
     "durableChangeNeedsReview": "Un cambio anterior necesita revisión. Actualice el torneo antes de continuar.",
     "durableCommandNotStored": "No se pudo almacenar el comando persistente para esta sesión",
-    "durableQueueFailed": "No se pudo poner el cambio en cola de forma persistente; mantenga esta página abierta"
+    "durableQueueFailed": "No se pudo poner el cambio en cola de forma persistente; mantenga esta página abierta",
+    "overwriteNotConfirmed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorización",
@@ -2441,10 +2474,12 @@
     },
     "courts": {
       "courtName": "Nombre de Cancha",
-      "scheduledTime": "Hora Programada",
-      "unscheduledTime": "Hora No Programada",
+      "scheduledTime": "__STALE__Hora Programada",
+      "unscheduledTime": "__STALE__Hora No Programada",
       "inOut": "Interior/Exterior",
-      "surface": "Superficie"
+      "surface": "Superficie",
+      "practiceTime": "__TODO__",
+      "blockedTime": "__TODO__"
     },
     "entries": {
       "name": "Nombre",
@@ -2454,7 +2489,8 @@
       "seed": "Cabeza de Serie",
       "flights": "Vuelos",
       "status": "Estado",
-      "drawPosition": "Pos"
+      "drawPosition": "Pos",
+      "path": "__TODO__"
     },
     "teamRow": {
       "order": "Orden",
@@ -2616,7 +2652,15 @@
       "called": "Llamado",
       "scheduleLocked": "Programación bloqueada",
       "hotkeyScoring": "Ingreso de puntaje con atajos",
-      "hotkeyPlaceholder": "escriba el puntaje"
+      "hotkeyPlaceholder": "escriba el puntaje",
+      "typeLabel": "__TODO__",
+      "profileLabel": "__TODO__",
+      "statusLabel": "__TODO__",
+      "statusDetailLabel": "__TODO__",
+      "anyStatusDetail": "__TODO__",
+      "statusStripLabel": "__TODO__",
+      "eventLabel": "__TODO__",
+      "flightLabel": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Buscar participantes",
@@ -2888,6 +2932,22 @@
         "positionsOpen_one": "__TODO__",
         "positionsOpen_many": "__TODO__",
         "positionsOpen_other": "__TODO__"
+      },
+      "drawBuilder": "__TODO__",
+      "savedTemplates": "__TODO__",
+      "addDrawMenu": "__TODO__",
+      "completeMatchUps": {
+        "tooltip": "__TODO__",
+        "title": "__TODO__",
+        "all": "__TODO__",
+        "throughRound": "__TODO__",
+        "completesRound": "__TODO__",
+        "completesRounds": "__TODO__",
+        "matchUps_one": "__TODO__",
+        "matchUps_many": "__TODO__",
+        "matchUps_other": "__TODO__",
+        "roundDone": "__TODO__",
+        "nothingLeft": "__TODO__"
       }
     },
     "participants": {
@@ -2929,7 +2989,7 @@
         "firstNamePlaceholder": "Nombre de pila",
         "lastName": "Apellido",
         "lastNamePlaceholder": "Apellido",
-        "nameError": "Por favor ingrese un nombre de al menos 3 caracteres",
+        "nameError": "__STALE__Por favor ingrese un nombre de al menos 3 caracteres",
         "sex": "Sexo",
         "dateOfBirth": "Fecha de nacimiento",
         "birthdayPlaceholder": "Cumpleaños",
@@ -2983,7 +3043,28 @@
         "namePlaceholder": "Nombre del participante",
         "nicknamePlaceholder": "Apodo / abreviatura",
         "preferNickname": "Preferir el apodo en los cuadros",
-        "nameTooShort": "Introduzca un nombre de al menos 3 caracteres"
+        "nameTooShort": "Introduzca un nombre de al menos 3 caracteres",
+        "palette": "__TODO__",
+        "addColor": "__TODO__",
+        "clearPalette": "__TODO__",
+        "chooseColor": "__TODO__",
+        "missingColor": "__TODO__",
+        "color": "__TODO__",
+        "colorname": "__TODO__",
+        "colorvalue": "__TODO__",
+        "colorgroup": "__TODO__",
+        "moveColorUp": "__TODO__",
+        "removeColor": "__TODO__",
+        "invalidPalette": "__TODO__",
+        "team": {
+          "surface": "__TODO__",
+          "text": "__TODO__",
+          "accent": "__TODO__"
+        },
+        "score": {
+          "surface": "__TODO__",
+          "text": "__TODO__"
+        }
       },
       "staffRole": "Rol",
       "contactRelationship": {
@@ -3000,7 +3081,23 @@
       "closeTheDayNobody": "Nadie tiene la entrada registrada en este momento",
       "closeTheDayConfirm_one": "¿Registrar la salida de {{count}} persona que sigue con la entrada registrada hoy?",
       "closeTheDayConfirm_other": "¿Registrar la salida de {{count}} personas que siguen con la entrada registrada hoy?",
-      "closeTheDayConfirm_many": "¿Registrar la salida de {{count}} personas que siguen con la entrada registrada hoy?"
+      "closeTheDayConfirm_many": "¿Registrar la salida de {{count}} personas que siguen con la entrada registrada hoy?",
+      "footer": {
+        "label": "__TODO__",
+        "scopeSelected": "__TODO__",
+        "gender": "__TODO__",
+        "signIn": "__TODO__",
+        "signedIn": "__TODO__",
+        "notSignedIn": "__TODO__",
+        "entry": "__TODO__",
+        "entered": "__TODO__",
+        "unentered": "__TODO__",
+        "gaps": "__TODO__",
+        "noRating": "__TODO__",
+        "noDob": "__TODO__",
+        "ages": "__TODO__",
+        "noAgeCategory": "__TODO__"
+      }
     },
     "participation": {
       "title": "Programación",
@@ -3042,7 +3139,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -3097,7 +3211,10 @@
     "informationEvents": "Eventos listados públicamente",
     "informationEmbargoNote": "Publicado, pero no listado públicamente hasta {{when}}.",
     "structure": "Estructura",
-    "embargoUnreadable": "No se pudo leer la hora del embargo en el reloj de la sede, así que no se fijó. Revise la fecha y la hora, y la zona horaria del torneo."
+    "embargoUnreadable": "No se pudo leer la hora del embargo en el reloj de la sede, así que no se fijó. Revise la fecha y la hora, y la zona horaria del torneo.",
+    "dateEmbargoButton": "__TODO__",
+    "dateEmbargoTitle": "__TODO__",
+    "dateEmbargoPending": "__TODO__"
   },
   "cal": "Calendario",
   "tpl": "Plantillas",
@@ -4029,7 +4146,8 @@
       "nominateFirst": "Nomina a un anotador verificado antes de establecer un resultado delegado.",
       "noOutcomeToConfirm": "No hay resultado delegado que confirmar en este partido.",
       "noScorekeeperCandidates": "No hay participantes vinculados a un HiveID para designar como anotador.",
-      "acceptedLive": "Aceptado: sus puntajes en vivo son ahora los válidos para este partido."
+      "acceptedLive": "Aceptado: sus puntajes en vivo son ahora los válidos para este partido.",
+      "promoteFailed": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "Puntuación reportada mediante rastreador en vivo",
@@ -4302,6 +4420,34 @@
       "byRelationship": "Entrada registrada por {{name}} ({{relationship}})",
       "byOperator": "Entrada registrada por {{name}}",
       "at": "a las {{time}}"
+    },
+    "callAnyway": "__TODO__",
+    "callTitle": "__TODO__",
+    "callChanged": "__TODO__",
+    "desk": {
+      "title": "__TODO__",
+      "side": "__TODO__",
+      "search": "__TODO__",
+      "status": "__TODO__",
+      "all": "__TODO__",
+      "awaiting": "__TODO__",
+      "partial": "__TODO__",
+      "complete": "__TODO__",
+      "allEvents": "__TODO__",
+      "allVenues": "__TODO__",
+      "statusChips": "__TODO__",
+      "hint": "__TODO__",
+      "matchCount_one": "__TODO__",
+      "matchCount_many": "__TODO__",
+      "matchCount_other": "__TODO__",
+      "empty": "__TODO__",
+      "checkedIn": "__TODO__",
+      "timeUnassigned": "__TODO__",
+      "courtUnassigned": "__TODO__",
+      "present": "__TODO__",
+      "noParticipants": "__TODO__",
+      "checkOutLocked": "__TODO__",
+      "readOnly": "__TODO__"
     }
   },
   "ofc": "Oficiales",
@@ -4672,7 +4818,19 @@
     "drawGenerated": "Cuadro generado correctamente",
     "templateName": "Nombre de la plantilla",
     "templateSaved": "Plantilla guardada",
-    "structuresNotAttached": "Cuadro generado, pero no se pudieron adjuntar estas estructuras: {{unattached}}"
+    "structuresNotAttached": "Cuadro generado, pero no se pudieron adjuntar estas estructuras: {{unattached}}",
+    "useForOtherFlights": "__TODO__",
+    "useForOtherFlightsTitle": "__TODO__",
+    "flightDraftsMade_one": "__TODO__",
+    "flightDraftsMade_many": "__TODO__",
+    "flightDraftsMade_other": "__TODO__",
+    "replaceFlightDrafts_one": "__TODO__",
+    "replaceFlightDrafts_many": "__TODO__",
+    "replaceFlightDrafts_other": "__TODO__",
+    "draftInBuilder": "__TODO__",
+    "eventNotFound": "__TODO__",
+    "discardDraft": "__TODO__",
+    "discardDraftQuery": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identificadores",
@@ -4757,7 +4915,8 @@
     "noDrawsYet": "Todavía no hay cuadros.",
     "notGenerated": "No generado",
     "clearFilters": "Borrar filtros",
-    "deleteAllFlights": "__TODO__"
+    "deleteAllFlights": "__TODO__",
+    "selectedCount": "__TODO__"
   },
   "addDrawForm": {
     "sizeMin": "El tamaño del cuadro debe ser de al menos 2",
@@ -4834,7 +4993,10 @@
     "substitution": "Sustitución",
     "assignSeedNumber": "Asignar número de cabeza de serie ",
     "seedNumber": "Número de cabeza de serie",
-    "nickname": "Apodo "
+    "nickname": "Apodo ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Todos los participantes seleccionados ya están en este cuadro",
@@ -4888,11 +5050,11 @@
     }
   },
   "ageCategories": {
-    "u10": "10 años y menores",
-    "u12": "12 años y menores",
-    "u14": "14 años y menores",
-    "u16": "16 años y menores",
-    "u18": "18 años y menores"
+    "u10": "__STALE__10 años y menores",
+    "u12": "__STALE__12 años y menores",
+    "u14": "__STALE__14 años y menores",
+    "u16": "__STALE__16 años y menores",
+    "u18": "__STALE__18 años y menores"
   },
   "roundOptions": {
     "roundActions": "Acciones de la ronda",
@@ -5051,10 +5213,14 @@
   },
   "exportFile": {
     "saveJson": "Guardar JSON",
-    "saveFile": "Guardar archivo"
+    "saveFile": "Guardar archivo",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
-    "updateFailed": "Error en la actualización remota: vuelva a cargar"
+    "updateFailed": "Error en la actualización remota: vuelva a cargar",
+    "tournamentReplaced": "__TODO__",
+    "refreshWaiting": "__TODO__",
+    "refreshBlocked": "__TODO__"
   },
   "mutationPrompts": {
     "modify": "¿Modificar?",
@@ -5133,7 +5299,7 @@
     "title": "Reloj de demostración",
     "launch": "Abrir reloj de demostración",
     "cannotStart": "No se pudo iniciar el reloj de demostración: este torneo necesita una fecha de inicio y una zona horaria de sede.",
-    "launchHint": "Carga un Scheduling Lab nuevo con el recorrido Garman, Pro y combinado y su reloj de demostración. El reloj solo funciona en un Scheduling Lab: mientras haya uno abierto, Abrir reloj de demostración recupera el reloj. Disponible solo sin iniciar sesión.",
+    "launchHint": "__STALE__Carga un Scheduling Lab nuevo con el recorrido Garman, Pro y combinado y su reloj de demostración. El reloj solo funciona en un Scheduling Lab: mientras haya uno abierto, Abrir reloj de demostración recupera el reloj. Disponible solo sin iniciar sesión.",
     "collapse": "Ocultar controles",
     "expand": "Controles del reloj",
     "exit": "Salir del reloj",
@@ -5210,7 +5376,20 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5233,5 +5412,136 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
+  },
+  "networkIsolation": {
+    "blocked": "__TODO__",
+    "reservedId": "__TODO__"
+  },
+  "timeWarp": {
+    "publicLinksUnavailable": "__TODO__",
+    "serverDisabled": "__TODO__",
+    "copyOnly": "__TODO__",
+    "enter": "__TODO__",
+    "exit": "__TODO__",
+    "label": "__TODO__",
+    "hint": "__TODO__",
+    "finishFirst": "__TODO__",
+    "exitRecovered": "__TODO__"
+  },
+  "teamPresentation": {
+    "title": "__TODO__",
+    "scope": "__TODO__",
+    "allTeams": "__TODO__",
+    "reset": "__TODO__",
+    "inherit": "__TODO__",
+    "theme": "__TODO__",
+    "color": "__TODO__",
+    "colorValue": "__TODO__",
+    "palette": "__TODO__",
+    "paletteValue": "__TODO__",
+    "choosePalette": "__TODO__",
+    "missingTeam": "__TODO__",
+    "missingColor": "__TODO__",
+    "invalid": "__TODO__",
+    "importTeams": "__TODO__",
+    "providerIds": "__TODO__",
+    "providerError": "__TODO__",
+    "searchTeams": "__TODO__",
+    "search": "__TODO__",
+    "more": "__TODO__",
+    "noTeams": "__TODO__",
+    "tournamentChanged": "__TODO__"
+  },
+  "participantMerge": {
+    "title": "__TODO__",
+    "selectTwo": "__TODO__",
+    "keep": "__TODO__",
+    "remove": "__TODO__",
+    "source": "__TODO__",
+    "target": "__TODO__",
+    "choose": "__TODO__",
+    "confirm": "__TODO__",
+    "success": "__TODO__",
+    "unavailable": "__TODO__",
+    "failed": "__TODO__",
+    "references": "__TODO__",
+    "blocked": "__TODO__",
+    "refresh": "__TODO__",
+    "pending": "__TODO__",
+    "SHARED_DRAW": "__TODO__",
+    "PAIR_COLLAPSE": "__TODO__",
+    "DUPLICATE_PAIR": "__TODO__",
+    "PERSON_ID_CONFLICT": "__TODO__",
+    "ISSUED_ID_CONFLICT": "__TODO__",
+    "INVALID_ISSUED_ID": "__TODO__",
+    "HISTORY_CONFLICT": "__TODO__",
+    "ROLE_CONFLICT": "__TODO__",
+    "ENTRY_CONFLICT": "__TODO__",
+    "UNSUPPORTED_REFERENCE": "__TODO__",
+    "INVALID_RESOLUTION": "__TODO__",
+    "importStatus": {
+      "new": "__TODO__",
+      "unchanged": "__TODO__",
+      "update": "__TODO__",
+      "redirected": "__TODO__",
+      "invalid": "__TODO__"
+    },
+    "OPPOSING_SIDES": "__TODO__",
+    "DUPLICATE_LINEUP": "__TODO__",
+    "FLIGHT_CONFLICT": "__TODO__",
+    "INVALID_CONTACT_MEMBER": "__TODO__",
+    "INTEGRITY_CONFLICT": "__TODO__",
+    "birthDate": "__TODO__",
+    "givenName": "__TODO__",
+    "familyName": "__TODO__",
+    "nationality": "__TODO__",
+    "name": "__TODO__",
+    "sex": "__TODO__",
+    "entryStatus": "__TODO__",
+    "entryStage": "__TODO__",
+    "invalidImport": "__TODO__",
+    "ENTRY_GROUPING_CONFLICT": "__TODO__"
+  },
+  "supportReports": {
+    "help": "__TODO__",
+    "report": "__TODO__",
+    "title": "__TODO__",
+    "description": "__TODO__",
+    "expected": "__TODO__",
+    "steps": "__TODO__",
+    "send": "__TODO__",
+    "close": "__TODO__",
+    "explanation": "__TODO__",
+    "promise": "__TODO__",
+    "settings": "__TODO__",
+    "accepted": "__TODO__",
+    "pending": "__TODO__",
+    "verified": "__TODO__",
+    "failed": "__TODO__",
+    "changed": "__TODO__",
+    "isolated": "__TODO__",
+    "tooLong": "__TODO__",
+    "login": "__TODO__",
+    "receipt": "__TODO__",
+    "status": "__TODO__",
+    "accountTitle": "__TODO__",
+    "accountExplanation": "__TODO__",
+    "accountEmail": "__TODO__",
+    "accountSave": "__TODO__",
+    "accountResend": "__TODO__",
+    "accountMissing": "__TODO__",
+    "accountSaved": "__TODO__",
+    "accountFailed": "__TODO__",
+    "emailNone": "__TODO__",
+    "emailPending": "__TODO__",
+    "emailAwaiting": "__TODO__",
+    "emailAccepted": "__TODO__",
+    "emailFailed": "__TODO__",
+    "deliveryUnknown": "__TODO__",
+    "deliveryNotSent": "__TODO__"
   }
 }
