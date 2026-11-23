@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.13.3](https://github.com/CourtHive/courthive-i18n/compare/v0.13.2...v0.13.3) (2026-11-23)
+
+
+### Bug Fixes
+
+* **i18n:** sync en.json from courthive-console ([#181](https://github.com/CourtHive/courthive-i18n/issues/181)) ([ee079ec](https://github.com/CourtHive/courthive-i18n/commit/ee079ec4ea30977ad24a3f1297abec41096e48fa))
+* **i18n:** sync en.json from courthive-console ([#185](https://github.com/CourtHive/courthive-i18n/issues/185)) ([3cd9a7f](https://github.com/CourtHive/courthive-i18n/commit/3cd9a7f2db2d6df6f4bf293c302bdf10bb8d78d0))
+* **i18n:** sync en.json from TMX ([#173](https://github.com/CourtHive/courthive-i18n/issues/173)) ([323bb2c](https://github.com/CourtHive/courthive-i18n/commit/323bb2cfa942a4c12e8d54e7bdb613f5870abac6))
+
 ## [0.13.2](https://github.com/CourtHive/courthive-i18n/compare/v0.13.1...v0.13.2) (2026-11-11)
 
 
