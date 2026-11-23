@@ -5723,5 +5723,30 @@
     "title": "__TODO__",
     "saved": "__TODO__",
     "error": "__TODO__"
+  },
+  "supportInbox": {
+    "title": "__TODO__",
+    "loading": "__TODO__",
+    "unavailable": "__TODO__",
+    "retry": "__TODO__",
+    "empty": "__TODO__",
+    "older": "__TODO__",
+    "newer": "__TODO__",
+    "back": "__TODO__",
+    "reference": "__TODO__",
+    "received": "__TODO__",
+    "kind": "__TODO__",
+    "scope": "__TODO__",
+    "description": "__TODO__",
+    "diagnostics": "__TODO__",
+    "resolution": "__TODO__",
+    "triage": "__TODO__",
+    "save": "__TODO__",
+    "saveNote": "__TODO__",
+    "saveFailed": "__TODO__",
+    "email": "__TODO__",
+    "adminMail": "__TODO__",
+    "bug": "__TODO__",
+    "suggestion": "__TODO__"
   }
 }

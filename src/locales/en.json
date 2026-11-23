@@ -5597,5 +5597,30 @@
     "title": "Team colors and default display",
     "saved": "Team display defaults saved",
     "error": "Unable to load or save team display defaults"
+  },
+  "supportInbox": {
+    "title": "Support inbox",
+    "loading": "Loading reports…",
+    "unavailable": "Could not load the support inbox.",
+    "retry": "Retry",
+    "empty": "No current reports.",
+    "older": "Older reports",
+    "newer": "Newer reports",
+    "back": "Back to inbox",
+    "reference": "Reference",
+    "received": "Received",
+    "kind": "Type",
+    "scope": "Scope",
+    "description": "Description",
+    "diagnostics": "Diagnostics",
+    "resolution": "Resolution",
+    "triage": "Triage note",
+    "save": "Submit resolution",
+    "saveNote": "Save triage note",
+    "saveFailed": "Could not confirm the save. Your draft is still here.",
+    "email": "Resolution email",
+    "adminMail": "Inbox notification",
+    "bug": "Bug report",
+    "suggestion": "Suggestion"
   }
 }
