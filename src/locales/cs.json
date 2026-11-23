@@ -1351,7 +1351,43 @@
     "collapseAllGroups": "Sbalit všechny skupiny",
     "expandAllGroups": "Rozbalit všechny skupiny",
     "live": "ŽIVĚ",
-    "liveTooltip": "Živé skóre — neoficiální, dokud nebude zadán výsledek"
+    "liveTooltip": "Živé skóre — neoficiální, dokud nebude zadán výsledek",
+    "carryover": {
+      "warning": "__TODO__",
+      "tooltip_one": "__TODO__",
+      "tooltip_few": "__TODO__",
+      "tooltip_many": "__TODO__",
+      "tooltip_other": "__TODO__",
+      "title": "__TODO__",
+      "explanation_one": "__TODO__",
+      "explanation_few": "__TODO__",
+      "explanation_many": "__TODO__",
+      "explanation_other": "__TODO__",
+      "why": "__TODO__",
+      "blockingHeading": "__TODO__",
+      "otherHeading": "__TODO__",
+      "holdsBack_one": "__TODO__",
+      "holdsBack_few": "__TODO__",
+      "holdsBack_many": "__TODO__",
+      "holdsBack_other": "__TODO__",
+      "underWay": "__TODO__",
+      "locked": "__TODO__",
+      "tbd": "__TODO__",
+      "clearNote": "__TODO__",
+      "clearSelected_one": "__TODO__",
+      "clearSelected_few": "__TODO__",
+      "clearSelected_many": "__TODO__",
+      "clearSelected_other": "__TODO__",
+      "cleared_one": "__TODO__",
+      "cleared_few": "__TODO__",
+      "cleared_many": "__TODO__",
+      "cleared_other": "__TODO__"
+    },
+    "dateBounds": {
+      "notAfter": "__TODO__",
+      "notBefore": "__TODO__",
+      "linkedMatchUp": "__TODO__"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Slyšitelná obscenita",
@@ -1464,7 +1500,8 @@
       "linkedTournaments": "Propojené turnaje",
       "themeMode": "Režim",
       "lightPalette": "Motiv světlého režimu",
-      "darkPalette": "Motiv tmavého režimu"
+      "darkPalette": "Motiv tmavého režimu",
+      "smartComplements": "__TODO__"
     },
     "editTournamentName": {
       "title": "Upravit název turnaje",
@@ -1794,7 +1831,8 @@
       "remaining": "__TODO__",
       "noneRemaining": "__TODO__",
       "noneInBand": "__TODO__",
-      "alreadyFlighted": "__TODO__"
+      "alreadyFlighted": "__TODO__",
+      "noRatings": "__TODO__"
     },
     "addConsolation": {
       "title": "Přidat dobrovolnou útěchu",
@@ -1875,7 +1913,22 @@
       "statusUnavailable": "Stav {{status}} není pro tento zápas dostupný",
       "suspended": "Přerušeno",
       "inProgress": "Probíhá",
-      "awaitingResult": "Čeká na výsledek"
+      "awaitingResult": "Čeká na výsledek",
+      "title": "__TODO__",
+      "cancel": "__TODO__",
+      "clear": "__TODO__",
+      "submit": "__TODO__",
+      "format": "__TODO__",
+      "irregularEnding": "__TODO__",
+      "winner": "__TODO__",
+      "validScore": "__TODO__",
+      "scoreIncomplete": "__TODO__",
+      "invalidScore": "__TODO__",
+      "scoreTips": "__TODO__",
+      "setScores": "__TODO__",
+      "tiebreaks": "__TODO__",
+      "matchTiebreaks": "__TODO__",
+      "irregularEndings": "__TODO__"
     },
     "scoreEntry": {
       "title": "Zadání skóre",
@@ -2031,7 +2084,7 @@
     },
     "editCategories": {
       "title": "Kategorie turnaje",
-      "intro": "Přidejte nebo odeberte kategorie definované pro tento turnaj. Používané kategorie nelze upravovat ani odebírat — změňte je nahrazením soutěží, které na ně odkazují.",
+      "intro": "__STALE__Přidejte nebo odeberte kategorie definované pro tento turnaj. Používané kategorie nelze upravovat ani odebírat — změňte je nahrazením soutěží, které na ně odkazují.",
       "add": "+ Přidat kategorii",
       "empty": "Zatím nejsou definovány žádné kategorie.",
       "duplicate": "Kategorie s tímto názvem nebo kódem již existuje.",
@@ -2040,7 +2093,18 @@
       "deleteDisabledHint": "Tato kategorie je používána jednou nebo více soutěžemi. Nejprve tyto soutěže odeberte nebo přiřaďte jinam.",
       "unused": "Nepoužité",
       "usageCount": "{{count}} soutěží",
-      "usageList": "{{name}} používá: {{events}}"
+      "usageList": "{{name}} používá: {{events}}",
+      "ageAtMost": "__TODO__",
+      "ageAtLeast": "__TODO__",
+      "ageBetween": "__TODO__",
+      "ratingBetween": "__TODO__",
+      "ratingAtMost": "__TODO__",
+      "ratingAtLeast": "__TODO__",
+      "ratingAny": "__TODO__",
+      "noRule": "__TODO__",
+      "ball": "__TODO__",
+      "undefinedTitle": "__TODO__",
+      "define": "__TODO__"
     },
     "firstLogin": {
       "title": "Nastavte si heslo",
@@ -2284,7 +2348,12 @@
       "title": "Upravit nastavení zobrazení",
       "pathHighlight": "__TODO__",
       "showConnectors": "__TODO__",
-      "showFlags": "__TODO__"
+      "showFlags": "__TODO__",
+      "advanced": "__TODO__",
+      "basic": "__TODO__",
+      "custom": "__TODO__",
+      "matchUpFooter": "__TODO__",
+      "preview": "__TODO__"
     },
     "chooseProvider": {
       "title": "Vyberte poskytovatele",
@@ -2328,7 +2397,10 @@
       "copied_few": "__TODO__",
       "copied_many": "__TODO__",
       "copied_other": "__TODO__",
-      "copyFailed": "__TODO__"
+      "copyFailed": "__TODO__",
+      "integrityUnavailable": "__TODO__",
+      "unknownReason": "__TODO__",
+      "incompleteToast": "__TODO__"
     },
     "deleteFlights": {
       "confirmUngenerated_one": "__TODO__",
@@ -2386,7 +2458,8 @@
     "practiceClosed": "Zavřeno",
     "setTimeZone": "Nastavit časové pásmo",
     "setTimeZoneDetected": "(zjištěno: {{zone}})",
-    "practiceNoneAllocated": "Nic nepřiděleno"
+    "practiceNoneAllocated": "Nic nepřiděleno",
+    "categoriesUndefined": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -2400,7 +2473,7 @@
       "selectActiveDates": "Vybrat aktivní termíny",
       "activeDates": "Aktivní termíny",
       "timeZoneLabel": "Časové pásmo",
-      "timeZonePlaceholder": "např. Europe/Prague",
+      "timeZonePlaceholder": "__STALE__např. Europe/Prague",
       "timeZoneInvalid": "Neplatné IANA časové pásmo",
       "tierSystemLabel": "Systém úrovní",
       "tierSystemPlaceholder": "např. ITF_JUNIOR, ATP, PPA",
@@ -2512,7 +2585,21 @@
       "targetCapacity": "Kolo {{round}} může ještě přijmout {{open}} ze svých {{total}} pozic.",
       "alreadyFed": "Kolo {{round}} již napojuje {{feederNames}}: přislíbeno kvalifikantů: {{count}}.",
       "noFeeders": "Kolo {{round}} zatím nenapojuje žádná kvalifikační struktura.",
-      "qualifying": "Kvalifikace"
+      "qualifying": "Kvalifikace",
+      "openInBuilder": "__TODO__",
+      "entriesNotPlaced_one": "__TODO__",
+      "entriesNotPlaced_few": "__TODO__",
+      "entriesNotPlaced_many": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_few": "__TODO__",
+      "qualifyingEntriesNotPlaced_many": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "insufficientPositions_one": "__TODO__",
+      "insufficientPositions_few": "__TODO__",
+      "insufficientPositions_many": "__TODO__",
+      "insufficientPositions_other": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2585,7 +2672,8 @@
     "scoreRefused": "Tento zápas nyní nelze skórovat ani opravit: pavouk pro něj skórování nenabízí.",
     "durableChangeNeedsReview": "Dřívější změna vyžaduje kontrolu. Před pokračováním obnovte turnaj.",
     "durableCommandNotStored": "Trvalý příkaz nelze pro tuto relaci uložit",
-    "durableQueueFailed": "Změnu nelze trvale zařadit do fronty; nechte tuto stránku otevřenou"
+    "durableQueueFailed": "Změnu nelze trvale zařadit do fronty; nechte tuto stránku otevřenou",
+    "overwriteNotConfirmed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "Autorizace",
@@ -2602,7 +2690,11 @@
     "actions": "Akce",
     "settings": "Nastavení",
     "admin": "Admin",
-    "system": "Systém"
+    "system": "Systém",
+    "account": "__TODO__",
+    "accountMenu": "__TODO__",
+    "timeWarpSection": "__TODO__",
+    "help": "__TODO__"
   },
   "providerSwitcher": {
     "title": "Poskytovatel",
@@ -2638,10 +2730,12 @@
     },
     "courts": {
       "courtName": "Název kurtu",
-      "scheduledTime": "Naplánovaný čas",
-      "unscheduledTime": "Nenaplánovaný čas",
+      "scheduledTime": "__STALE__Naplánovaný čas",
+      "unscheduledTime": "__STALE__Nenaplánovaný čas",
       "inOut": "Vnitřní/Venkovní",
-      "surface": "Povrch"
+      "surface": "Povrch",
+      "practiceTime": "__TODO__",
+      "blockedTime": "__TODO__"
     },
     "entries": {
       "name": "Jméno",
@@ -2651,7 +2745,8 @@
       "seed": "Nasazení",
       "drawPosition": "Poz",
       "flights": "Pavouci",
-      "status": "Stav"
+      "status": "Stav",
+      "path": "__TODO__"
     },
     "teamRow": {
       "order": "Pořadí",
@@ -2813,7 +2908,15 @@
       "called": "Vyvoláno",
       "scheduleLocked": "Rozpis uzamčen",
       "hotkeyScoring": "Zadávání skóre klávesovými zkratkami",
-      "hotkeyPlaceholder": "zadejte skóre"
+      "hotkeyPlaceholder": "zadejte skóre",
+      "typeLabel": "__TODO__",
+      "profileLabel": "__TODO__",
+      "statusLabel": "__TODO__",
+      "statusDetailLabel": "__TODO__",
+      "anyStatusDetail": "__TODO__",
+      "statusStripLabel": "__TODO__",
+      "eventLabel": "__TODO__",
+      "flightLabel": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "Hledat účastníky",
@@ -3091,6 +3194,23 @@
         "positionsOpen_few": "__TODO__",
         "positionsOpen_many": "__TODO__",
         "positionsOpen_other": "__TODO__"
+      },
+      "drawBuilder": "__TODO__",
+      "savedTemplates": "__TODO__",
+      "addDrawMenu": "__TODO__",
+      "completeMatchUps": {
+        "tooltip": "__TODO__",
+        "title": "__TODO__",
+        "all": "__TODO__",
+        "throughRound": "__TODO__",
+        "completesRound": "__TODO__",
+        "completesRounds": "__TODO__",
+        "matchUps_one": "__TODO__",
+        "matchUps_few": "__TODO__",
+        "matchUps_many": "__TODO__",
+        "matchUps_other": "__TODO__",
+        "roundDone": "__TODO__",
+        "nothingLeft": "__TODO__"
       }
     },
     "participants": {
@@ -3133,7 +3253,7 @@
         "firstNamePlaceholder": "Křestní jméno",
         "lastName": "Příjmení",
         "lastNamePlaceholder": "Příjmení",
-        "nameError": "Zadejte prosím jméno o délce alespoň 3 znaky",
+        "nameError": "__STALE__Zadejte prosím jméno o délce alespoň 3 znaky",
         "sex": "Pohlaví",
         "dateOfBirth": "Datum narození",
         "birthdayPlaceholder": "Narozeniny",
@@ -3186,7 +3306,28 @@
         "namePlaceholder": "Jméno účastníka",
         "nicknamePlaceholder": "Přezdívka / zkratka",
         "preferNickname": "V pavoucích upřednostnit přezdívku",
-        "nameTooShort": "Zadejte prosím jméno o délce alespoň 3 znaků"
+        "nameTooShort": "Zadejte prosím jméno o délce alespoň 3 znaků",
+        "palette": "__TODO__",
+        "addColor": "__TODO__",
+        "clearPalette": "__TODO__",
+        "chooseColor": "__TODO__",
+        "missingColor": "__TODO__",
+        "color": "__TODO__",
+        "colorname": "__TODO__",
+        "colorvalue": "__TODO__",
+        "colorgroup": "__TODO__",
+        "moveColorUp": "__TODO__",
+        "removeColor": "__TODO__",
+        "invalidPalette": "__TODO__",
+        "team": {
+          "surface": "__TODO__",
+          "text": "__TODO__",
+          "accent": "__TODO__"
+        },
+        "score": {
+          "surface": "__TODO__",
+          "text": "__TODO__"
+        }
       },
       "staffRole": "Role",
       "contactRelationship": {
@@ -3204,7 +3345,23 @@
       "closeTheDayConfirm_one": "Zrušit prezenci {{count}} osobě, která je dnes stále prezentována?",
       "closeTheDayConfirm_other": "Zrušit prezenci {{count}} osobám, které jsou dnes stále prezentovány?",
       "closeTheDayConfirm_few": "Zrušit prezenci {{count}} osobám, které jsou dnes stále prezentovány?",
-      "closeTheDayConfirm_many": "Zrušit prezenci {{count}} osobám, které jsou dnes stále prezentovány?"
+      "closeTheDayConfirm_many": "Zrušit prezenci {{count}} osobám, které jsou dnes stále prezentovány?",
+      "footer": {
+        "label": "__TODO__",
+        "scopeSelected": "__TODO__",
+        "gender": "__TODO__",
+        "signIn": "__TODO__",
+        "signedIn": "__TODO__",
+        "notSignedIn": "__TODO__",
+        "entry": "__TODO__",
+        "entered": "__TODO__",
+        "unentered": "__TODO__",
+        "gaps": "__TODO__",
+        "noRating": "__TODO__",
+        "noDob": "__TODO__",
+        "ages": "__TODO__",
+        "noAgeCategory": "__TODO__"
+      }
     },
     "participation": {
       "title": "Rozpis",
@@ -3247,7 +3404,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -3302,7 +3476,10 @@
     "informationEvents": "Veřejně uvedené soutěže",
     "informationEmbargoNote": "Publikováno, ale veřejně uvedeno až od {{when}}.",
     "structure": "Struktura",
-    "embargoUnreadable": "Čas embarga nešlo přečíst podle hodin místa konání, a proto nebyl nastaven. Zkontrolujte datum a čas a časové pásmo turnaje."
+    "embargoUnreadable": "Čas embarga nešlo přečíst podle hodin místa konání, a proto nebyl nastaven. Zkontrolujte datum a čas a časové pásmo turnaje.",
+    "dateEmbargoButton": "__TODO__",
+    "dateEmbargoTitle": "__TODO__",
+    "dateEmbargoPending": "__TODO__"
   },
   "formatWizard": {
     "title": "Průvodce formátem",
@@ -4062,7 +4239,8 @@
       "nominateFirst": "Před nastavením delegovaného výsledku nominujte ověřeného skórujícího.",
       "noOutcomeToConfirm": "V tomto zápase není žádný delegovaný výsledek k potvrzení.",
       "noScorekeeperCandidates": "Žádní účastníci propojení s HiveID, které by bylo možné určit zapisovatelem.",
-      "acceptedLive": "Přijato — jeho živé skóre je nyní pro tento zápas rozhodující."
+      "acceptedLive": "Přijato — jeho živé skóre je nyní pro tento zápas rozhodující.",
+      "promoteFailed": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "Skóre nahlášeno přes živý sledovač",
@@ -4344,6 +4522,35 @@
       "byRelationship": "Prezentoval(a): {{name}} ({{relationship}})",
       "byOperator": "Prezentoval(a): {{name}}",
       "at": "v {{time}}"
+    },
+    "callAnyway": "__TODO__",
+    "callTitle": "__TODO__",
+    "callChanged": "__TODO__",
+    "desk": {
+      "title": "__TODO__",
+      "side": "__TODO__",
+      "search": "__TODO__",
+      "status": "__TODO__",
+      "all": "__TODO__",
+      "awaiting": "__TODO__",
+      "partial": "__TODO__",
+      "complete": "__TODO__",
+      "allEvents": "__TODO__",
+      "allVenues": "__TODO__",
+      "statusChips": "__TODO__",
+      "hint": "__TODO__",
+      "matchCount_one": "__TODO__",
+      "matchCount_few": "__TODO__",
+      "matchCount_many": "__TODO__",
+      "matchCount_other": "__TODO__",
+      "empty": "__TODO__",
+      "checkedIn": "__TODO__",
+      "timeUnassigned": "__TODO__",
+      "courtUnassigned": "__TODO__",
+      "present": "__TODO__",
+      "noParticipants": "__TODO__",
+      "checkOutLocked": "__TODO__",
+      "readOnly": "__TODO__"
     }
   },
   "ofc": "Rozhodčí",
@@ -4452,7 +4659,13 @@
       "tierPlaceholder": "např. W50, Úroveň 3",
       "tierSystem": "Systém úrovní",
       "tier": "Úroveň",
-      "tierNotConfigured": "{{system}} (nenakonfigurováno)"
+      "tierNotConfigured": "{{system}} (nenakonfigurováno)",
+      "governingBodyProvider": "__TODO__",
+      "governingBodyChoose": "__TODO__",
+      "governingBodyUnknown": "__TODO__",
+      "rulebook": "__TODO__",
+      "rulebookOnly": "__TODO__",
+      "rulebookSelect": "__TODO__"
     },
     "events": {
       "heading": "Návrhy soutěží",
@@ -4715,7 +4928,21 @@
     "drawGenerated": "Pavouk úspěšně vygenerován",
     "templateName": "Název šablony",
     "templateSaved": "Šablona uložena",
-    "structuresNotAttached": "Pavouk vygenerován, ale tyto struktury nebylo možné připojit: {{unattached}}"
+    "structuresNotAttached": "Pavouk vygenerován, ale tyto struktury nebylo možné připojit: {{unattached}}",
+    "useForOtherFlights": "__TODO__",
+    "useForOtherFlightsTitle": "__TODO__",
+    "flightDraftsMade_one": "__TODO__",
+    "flightDraftsMade_few": "__TODO__",
+    "flightDraftsMade_many": "__TODO__",
+    "flightDraftsMade_other": "__TODO__",
+    "replaceFlightDrafts_one": "__TODO__",
+    "replaceFlightDrafts_few": "__TODO__",
+    "replaceFlightDrafts_many": "__TODO__",
+    "replaceFlightDrafts_other": "__TODO__",
+    "draftInBuilder": "__TODO__",
+    "eventNotFound": "__TODO__",
+    "discardDraft": "__TODO__",
+    "discardDraftQuery": "__TODO__"
   },
   "participantFields": {
     "identifiers": "Identifikátory",
@@ -4800,7 +5027,8 @@
     "noDrawsYet": "Zatím žádní pavouci.",
     "notGenerated": "Nevygenerováno",
     "clearFilters": "Vymazat filtry",
-    "deleteAllFlights": "__TODO__"
+    "deleteAllFlights": "__TODO__",
+    "selectedCount": "__TODO__"
   },
   "addDrawForm": {
     "sizeMin": "Velikost pavouka musí být alespoň 2",
@@ -4877,7 +5105,10 @@
     "substitution": "Střídání",
     "assignSeedNumber": "Přiřadit číslo nasazení ",
     "seedNumber": "Číslo nasazení",
-    "nickname": "Přezdívka "
+    "nickname": "Přezdívka ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "Všichni vybraní účastníci již v tomto pavouku jsou",
@@ -4932,11 +5163,11 @@
     }
   },
   "ageCategories": {
-    "u10": "10 let a mladší",
-    "u12": "12 let a mladší",
-    "u14": "14 let a mladší",
-    "u16": "16 let a mladší",
-    "u18": "18 let a mladší"
+    "u10": "__STALE__10 let a mladší",
+    "u12": "__STALE__12 let a mladší",
+    "u14": "__STALE__14 let a mladší",
+    "u16": "__STALE__16 let a mladší",
+    "u18": "__STALE__18 let a mladší"
   },
   "roundOptions": {
     "roundActions": "Akce kola",
@@ -5099,10 +5330,14 @@
   },
   "exportFile": {
     "saveJson": "Uložit jako JSON",
-    "saveFile": "Uložit soubor"
+    "saveFile": "Uložit soubor",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
-    "updateFailed": "Vzdálená aktualizace selhala — načtěte prosím stránku znovu"
+    "updateFailed": "Vzdálená aktualizace selhala — načtěte prosím stránku znovu",
+    "tournamentReplaced": "__TODO__",
+    "refreshWaiting": "__TODO__",
+    "refreshBlocked": "__TODO__"
   },
   "mutationPrompts": {
     "modify": "Upravit?",
@@ -5181,7 +5416,7 @@
     "title": "Ukázkové hodiny",
     "launch": "Otevřít ukázkové hodiny",
     "cannotStart": "Ukázkové hodiny nelze spustit: tento turnaj potřebuje datum zahájení a časové pásmo místa konání.",
-    "launchHint": "Načte nový Scheduling Lab s průvodcem Garman, Pro a kombinovaným a jeho ukázkovými hodinami. Hodiny běží jen v Scheduling Lab: dokud je nějaký otevřený, tlačítko Otevřít ukázkové hodiny je vrátí. K dispozici jen po odhlášení.",
+    "launchHint": "__STALE__Načte nový Scheduling Lab s průvodcem Garman, Pro a kombinovaným a jeho ukázkovými hodinami. Hodiny běží jen v Scheduling Lab: dokud je nějaký otevřený, tlačítko Otevřít ukázkové hodiny je vrátí. K dispozici jen po odhlášení.",
     "collapse": "Skrýt ovládání",
     "expand": "Ovládání hodin",
     "exit": "Ukončit hodiny",
@@ -5237,7 +5472,10 @@
     "capturing": "Nahrávání · kroky: {{count}}",
     "captureReady": "Nahrávka připravena · kroky: {{count}}",
     "captureLimit": "Nahrávání se zastavilo na limitu záznamu. Exportujte nahrané kroky.",
-    "captureFailed": "Nahrávání nelze spustit. Zkontrolujte, zda je ovládání ukázkových hodin aktivní."
+    "captureFailed": "Nahrávání nelze spustit. Zkontrolujte, zda je ovládání ukázkových hodin aktivní.",
+    "notPastEnd": "__TODO__",
+    "startNextDay": "__TODO__",
+    "noNextDay": "__TODO__"
   },
   "eventDates": {
     "placementWarning": "__TODO__",
@@ -5258,7 +5496,21 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_one": "__TODO__",
+      "button_few": "__TODO__",
+      "button_many": "__TODO__",
+      "button_other": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5282,5 +5534,219 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
+  },
+  "networkIsolation": {
+    "blocked": "__TODO__",
+    "reservedId": "__TODO__"
+  },
+  "timeWarp": {
+    "publicLinksUnavailable": "__TODO__",
+    "serverDisabled": "__TODO__",
+    "copyOnly": "__TODO__",
+    "enter": "__TODO__",
+    "exit": "__TODO__",
+    "label": "__TODO__",
+    "hint": "__TODO__",
+    "finishFirst": "__TODO__",
+    "exitRecovered": "__TODO__",
+    "startTitle": "__TODO__",
+    "startQuestion": "__TODO__",
+    "startAtLastChange": "__TODO__",
+    "startNow": "__TODO__"
+  },
+  "teamPresentation": {
+    "title": "__TODO__",
+    "scope": "__TODO__",
+    "allTeams": "__TODO__",
+    "reset": "__TODO__",
+    "inherit": "__TODO__",
+    "theme": "__TODO__",
+    "color": "__TODO__",
+    "colorValue": "__TODO__",
+    "palette": "__TODO__",
+    "paletteValue": "__TODO__",
+    "choosePalette": "__TODO__",
+    "missingTeam": "__TODO__",
+    "missingColor": "__TODO__",
+    "invalid": "__TODO__",
+    "importTeams": "__TODO__",
+    "providerIds": "__TODO__",
+    "providerError": "__TODO__",
+    "searchTeams": "__TODO__",
+    "search": "__TODO__",
+    "more": "__TODO__",
+    "noTeams": "__TODO__",
+    "tournamentChanged": "__TODO__"
+  },
+  "participantMerge": {
+    "title": "__TODO__",
+    "selectTwo": "__TODO__",
+    "keep": "__TODO__",
+    "remove": "__TODO__",
+    "source": "__TODO__",
+    "target": "__TODO__",
+    "choose": "__TODO__",
+    "confirm": "__TODO__",
+    "success": "__TODO__",
+    "unavailable": "__TODO__",
+    "failed": "__TODO__",
+    "references": "__TODO__",
+    "blocked": "__TODO__",
+    "refresh": "__TODO__",
+    "pending": "__TODO__",
+    "SHARED_DRAW": "__TODO__",
+    "PAIR_COLLAPSE": "__TODO__",
+    "DUPLICATE_PAIR": "__TODO__",
+    "PERSON_ID_CONFLICT": "__TODO__",
+    "ISSUED_ID_CONFLICT": "__TODO__",
+    "INVALID_ISSUED_ID": "__TODO__",
+    "HISTORY_CONFLICT": "__TODO__",
+    "ROLE_CONFLICT": "__TODO__",
+    "ENTRY_CONFLICT": "__TODO__",
+    "UNSUPPORTED_REFERENCE": "__TODO__",
+    "INVALID_RESOLUTION": "__TODO__",
+    "importStatus": {
+      "new": "__TODO__",
+      "unchanged": "__TODO__",
+      "update": "__TODO__",
+      "redirected": "__TODO__",
+      "invalid": "__TODO__"
+    },
+    "OPPOSING_SIDES": "__TODO__",
+    "DUPLICATE_LINEUP": "__TODO__",
+    "FLIGHT_CONFLICT": "__TODO__",
+    "INVALID_CONTACT_MEMBER": "__TODO__",
+    "INTEGRITY_CONFLICT": "__TODO__",
+    "birthDate": "__TODO__",
+    "givenName": "__TODO__",
+    "familyName": "__TODO__",
+    "nationality": "__TODO__",
+    "name": "__TODO__",
+    "sex": "__TODO__",
+    "entryStatus": "__TODO__",
+    "entryStage": "__TODO__",
+    "invalidImport": "__TODO__",
+    "ENTRY_GROUPING_CONFLICT": "__TODO__"
+  },
+  "supportReports": {
+    "help": "__TODO__",
+    "feedback": "__TODO__",
+    "report": "__TODO__",
+    "kind": "__TODO__",
+    "kindBug": "__TODO__",
+    "kindSuggestion": "__TODO__",
+    "suggestionTitle": "__TODO__",
+    "suggestionDescription": "__TODO__",
+    "suggestionExplanation": "__TODO__",
+    "suggestionPromise": "__TODO__",
+    "sendSuggestion": "__TODO__",
+    "acknowledged": "__TODO__",
+    "checking": "__TODO__",
+    "unavailable": "__TODO__",
+    "unknownProvider": "__TODO__",
+    "title": "__TODO__",
+    "description": "__TODO__",
+    "expected": "__TODO__",
+    "steps": "__TODO__",
+    "send": "__TODO__",
+    "close": "__TODO__",
+    "explanation": "__TODO__",
+    "promise": "__TODO__",
+    "settings": "__TODO__",
+    "closeSettings": "__TODO__",
+    "accepted": "__TODO__",
+    "pending": "__TODO__",
+    "verified": "__TODO__",
+    "failed": "__TODO__",
+    "changed": "__TODO__",
+    "isolated": "__TODO__",
+    "tooLong": "__TODO__",
+    "login": "__TODO__",
+    "noProvider": "__TODO__",
+    "notPermitted": "__TODO__",
+    "disabled": "__TODO__",
+    "receipt": "__TODO__",
+    "status": "__TODO__",
+    "accountTitle": "__TODO__",
+    "accountExplanation": "__TODO__",
+    "accountEmail": "__TODO__",
+    "accountSave": "__TODO__",
+    "accountResend": "__TODO__",
+    "accountMissing": "__TODO__",
+    "accountSaved": "__TODO__",
+    "accountFailed": "__TODO__",
+    "emailNone": "__TODO__",
+    "emailPending": "__TODO__",
+    "emailAwaiting": "__TODO__",
+    "emailAccepted": "__TODO__",
+    "emailFailed": "__TODO__",
+    "deliveryUnknown": "__TODO__",
+    "deliveryNotSent": "__TODO__"
+  },
+  "moveTournament": {
+    "button": "__TODO__",
+    "title": "__TODO__",
+    "tournament": "__TODO__",
+    "currentProvider": "__TODO__",
+    "destination": "__TODO__",
+    "chooseDestination": "__TODO__",
+    "providersLoadError": "__TODO__",
+    "preview": "__TODO__",
+    "previewButton": "__TODO__",
+    "previewError": "__TODO__",
+    "from": "__TODO__",
+    "to": "__TODO__",
+    "calendarMoves": "__TODO__",
+    "calendarUnlisted": "__TODO__",
+    "revokeAccess": {
+      "title": "__TODO__",
+      "confirm_one": "__TODO__",
+      "confirm_few": "__TODO__",
+      "confirm_many": "__TODO__",
+      "confirm_other": "__TODO__"
+    },
+    "crossProvisioner": {
+      "title": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "reason": "__TODO__",
+    "reasonPlaceholder": "__TODO__",
+    "moveButton": "__TODO__",
+    "moved": "__TODO__",
+    "moveError": "__TODO__"
+  },
+  "teamDisplay": {
+    "title": "__TODO__",
+    "saved": "__TODO__",
+    "error": "__TODO__"
+  },
+  "supportInbox": {
+    "title": "__TODO__",
+    "loading": "__TODO__",
+    "unavailable": "__TODO__",
+    "retry": "__TODO__",
+    "empty": "__TODO__",
+    "older": "__TODO__",
+    "newer": "__TODO__",
+    "back": "__TODO__",
+    "reference": "__TODO__",
+    "received": "__TODO__",
+    "kind": "__TODO__",
+    "scope": "__TODO__",
+    "description": "__TODO__",
+    "diagnostics": "__TODO__",
+    "resolution": "__TODO__",
+    "triage": "__TODO__",
+    "save": "__TODO__",
+    "saveNote": "__TODO__",
+    "saveFailed": "__TODO__",
+    "email": "__TODO__",
+    "adminMail": "__TODO__",
+    "bug": "__TODO__",
+    "suggestion": "__TODO__"
   }
 }

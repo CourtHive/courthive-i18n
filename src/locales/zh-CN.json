@@ -1335,7 +1335,33 @@
     "collapseAllGroups": "折叠所有分组",
     "expandAllGroups": "展开所有分组",
     "live": "实时",
-    "liveTooltip": "实时比分 — 在录入结果前为非官方比分"
+    "liveTooltip": "实时比分 — 在录入结果前为非官方比分",
+    "carryover": {
+      "warning": "__TODO__",
+      "tooltip_other": "__TODO__",
+      "tooltip_one": "__TODO__",
+      "title": "__TODO__",
+      "explanation_other": "__TODO__",
+      "explanation_one": "__TODO__",
+      "why": "__TODO__",
+      "blockingHeading": "__TODO__",
+      "otherHeading": "__TODO__",
+      "holdsBack_other": "__TODO__",
+      "holdsBack_one": "__TODO__",
+      "underWay": "__TODO__",
+      "locked": "__TODO__",
+      "tbd": "__TODO__",
+      "clearNote": "__TODO__",
+      "clearSelected_other": "__TODO__",
+      "clearSelected_one": "__TODO__",
+      "cleared_other": "__TODO__",
+      "cleared_one": "__TODO__"
+    },
+    "dateBounds": {
+      "notAfter": "__TODO__",
+      "notBefore": "__TODO__",
+      "linkedMatchUp": "__TODO__"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "言语猥亵",
@@ -1448,7 +1474,8 @@
       "linkedTournaments": "关联的锦标赛",
       "themeMode": "模式",
       "lightPalette": "浅色模式主题",
-      "darkPalette": "深色模式主题"
+      "darkPalette": "深色模式主题",
+      "smartComplements": "__TODO__"
     },
     "editTournamentName": {
       "title": "编辑锦标赛名称",
@@ -1688,7 +1715,8 @@
       "remaining": "__TODO__",
       "noneRemaining": "__TODO__",
       "noneInBand": "__TODO__",
-      "alreadyFlighted": "__TODO__"
+      "alreadyFlighted": "__TODO__",
+      "noRatings": "__TODO__"
     },
     "addConsolation": {
       "title": "添加自愿安慰赛",
@@ -1768,7 +1796,22 @@
       "statusUnavailable": "此比赛不可使用“{{status}}”状态",
       "suspended": "已暂停",
       "inProgress": "进行中",
-      "awaitingResult": "等待结果"
+      "awaitingResult": "等待结果",
+      "title": "__TODO__",
+      "cancel": "__TODO__",
+      "clear": "__TODO__",
+      "submit": "__TODO__",
+      "format": "__TODO__",
+      "irregularEnding": "__TODO__",
+      "winner": "__TODO__",
+      "validScore": "__TODO__",
+      "scoreIncomplete": "__TODO__",
+      "invalidScore": "__TODO__",
+      "scoreTips": "__TODO__",
+      "setScores": "__TODO__",
+      "tiebreaks": "__TODO__",
+      "matchTiebreaks": "__TODO__",
+      "irregularEndings": "__TODO__"
     },
     "scoreEntry": {
       "title": "比分录入",
@@ -2013,7 +2056,7 @@
     },
     "editCategories": {
       "title": "赛事类别",
-      "intro": "添加或移除为此赛事定义的类别。正在使用的类别无法编辑或移除 — 通过替换引用它们的赛事来更改。",
+      "intro": "__STALE__添加或移除为此赛事定义的类别。正在使用的类别无法编辑或移除 — 通过替换引用它们的赛事来更改。",
       "add": "+ 添加类别",
       "empty": "尚未定义类别。",
       "duplicate": "名称或代码相同的类别已存在。",
@@ -2022,7 +2065,18 @@
       "deleteDisabledHint": "此类别正被一项或多项赛事使用。请先移除或重新分配这些赛事。",
       "unused": "未使用",
       "usageCount": "{{count}} 项赛事",
-      "usageList": "{{name}} 被以下赛事使用：{{events}}"
+      "usageList": "{{name}} 被以下赛事使用：{{events}}",
+      "ageAtMost": "__TODO__",
+      "ageAtLeast": "__TODO__",
+      "ageBetween": "__TODO__",
+      "ratingBetween": "__TODO__",
+      "ratingAtMost": "__TODO__",
+      "ratingAtLeast": "__TODO__",
+      "ratingAny": "__TODO__",
+      "noRule": "__TODO__",
+      "ball": "__TODO__",
+      "undefinedTitle": "__TODO__",
+      "define": "__TODO__"
     },
     "firstLogin": {
       "title": "设置您的密码",
@@ -2246,7 +2300,12 @@
       "title": "编辑显示设置",
       "pathHighlight": "__TODO__",
       "showConnectors": "__TODO__",
-      "showFlags": "__TODO__"
+      "showFlags": "__TODO__",
+      "advanced": "__TODO__",
+      "basic": "__TODO__",
+      "custom": "__TODO__",
+      "matchUpFooter": "__TODO__",
+      "preview": "__TODO__"
     },
     "chooseProvider": {
       "title": "选择服务商",
@@ -2286,7 +2345,10 @@
       "copyAll": "__TODO__",
       "copied_other": "__TODO__",
       "copied_one": "__TODO__",
-      "copyFailed": "__TODO__"
+      "copyFailed": "__TODO__",
+      "integrityUnavailable": "__TODO__",
+      "unknownReason": "__TODO__",
+      "incompleteToast": "__TODO__"
     },
     "deleteFlights": {
       "confirmUngenerated_other": "__TODO__",
@@ -2342,7 +2404,8 @@
     "practiceClosed": "已关闭",
     "setTimeZone": "设置时区",
     "setTimeZoneDetected": "（检测到：{{zone}}）",
-    "practiceNoneAllocated": "未分配"
+    "practiceNoneAllocated": "未分配",
+    "categoriesUndefined": "__TODO__"
   },
   "drawers": {
     "editTournament": {
@@ -2356,7 +2419,7 @@
       "selectActiveDates": "选择活动日期",
       "activeDates": "活动日期",
       "timeZoneLabel": "时区",
-      "timeZonePlaceholder": "例如 America/New_York",
+      "timeZonePlaceholder": "__STALE__例如 America/New_York",
       "timeZoneInvalid": "不是可识别的 IANA 时区",
       "tierSystemLabel": "级别体系",
       "tierSystemPlaceholder": "例如 ITF_JUNIOR、ATP、PPA",
@@ -2466,7 +2529,15 @@
       "targetCapacity": "第 {{round}} 轮的 {{total}} 个位置中仍可容纳 {{open}} 个。",
       "alreadyFed": "第 {{round}} 轮已由 {{feederNames}} 补入：已承诺 {{count}} 名资格赛选手。",
       "noFeeders": "尚无资格赛结构补入第 {{round}} 轮。",
-      "qualifying": "资格赛"
+      "qualifying": "资格赛",
+      "openInBuilder": "__TODO__",
+      "entriesNotPlaced_other": "__TODO__",
+      "entriesNotPlaced_one": "__TODO__",
+      "qualifyingEntriesNotPlaced_other": "__TODO__",
+      "qualifyingEntriesNotPlaced_one": "__TODO__",
+      "insufficientPositions_other": "__TODO__",
+      "insufficientPositions_one": "__TODO__",
+      "qualifyingDrawTooSmall": "__TODO__"
     }
   },
   "toasts": {
@@ -2539,7 +2610,8 @@
     "scoreRefused": "此比赛目前无法记分或更正：签表未对其提供记分。",
     "durableChangeNeedsReview": "之前的更改需要审核。请先刷新锦标赛再继续。",
     "durableCommandNotStored": "无法为此会话存储持久命令",
-    "durableQueueFailed": "无法将更改持久地加入队列；请保持此页面打开"
+    "durableQueueFailed": "无法将更改持久地加入队列；请保持此页面打开",
+    "overwriteNotConfirmed": "__TODO__"
   },
   "loginMenu": {
     "authorization": "授权",
@@ -2556,7 +2628,11 @@
     "actions": "操作",
     "settings": "设置",
     "admin": "管理",
-    "system": "系统"
+    "system": "系统",
+    "account": "__TODO__",
+    "accountMenu": "__TODO__",
+    "timeWarpSection": "__TODO__",
+    "help": "__TODO__"
   },
   "providerSwitcher": {
     "title": "提供商",
@@ -2592,10 +2668,12 @@
     },
     "courts": {
       "courtName": "球场名称",
-      "scheduledTime": "已安排时间",
-      "unscheduledTime": "未安排时间",
+      "scheduledTime": "__STALE__已安排时间",
+      "unscheduledTime": "__STALE__未安排时间",
       "inOut": "室内/室外",
-      "surface": "场地类型"
+      "surface": "场地类型",
+      "practiceTime": "__TODO__",
+      "blockedTime": "__TODO__"
     },
     "entries": {
       "name": "姓名",
@@ -2605,7 +2683,8 @@
       "seed": "种子",
       "flights": "分组",
       "status": "状态",
-      "drawPosition": "位置"
+      "drawPosition": "位置",
+      "path": "__TODO__"
     },
     "teamRow": {
       "order": "顺序",
@@ -2767,7 +2846,15 @@
       "called": "已叫场",
       "scheduleLocked": "赛程已锁定",
       "hotkeyScoring": "快捷键比分录入",
-      "hotkeyPlaceholder": "输入比分"
+      "hotkeyPlaceholder": "输入比分",
+      "typeLabel": "__TODO__",
+      "profileLabel": "__TODO__",
+      "statusLabel": "__TODO__",
+      "statusDetailLabel": "__TODO__",
+      "anyStatusDetail": "__TODO__",
+      "statusStripLabel": "__TODO__",
+      "eventLabel": "__TODO__",
+      "flightLabel": "__TODO__"
     },
     "schedule": {
       "searchParticipants": "搜索参赛者",
@@ -3033,6 +3120,21 @@
         "notPlaced_one": "__TODO__",
         "positionsOpen_other": "__TODO__",
         "positionsOpen_one": "__TODO__"
+      },
+      "drawBuilder": "__TODO__",
+      "savedTemplates": "__TODO__",
+      "addDrawMenu": "__TODO__",
+      "completeMatchUps": {
+        "tooltip": "__TODO__",
+        "title": "__TODO__",
+        "all": "__TODO__",
+        "throughRound": "__TODO__",
+        "completesRound": "__TODO__",
+        "completesRounds": "__TODO__",
+        "matchUps_other": "__TODO__",
+        "matchUps_one": "__TODO__",
+        "roundDone": "__TODO__",
+        "nothingLeft": "__TODO__"
       }
     },
     "participants": {
@@ -3074,7 +3176,7 @@
         "firstNamePlaceholder": "名",
         "lastName": "姓",
         "lastNamePlaceholder": "姓",
-        "nameError": "请输入至少3个字符的名称",
+        "nameError": "__STALE__请输入至少3个字符的名称",
         "sex": "性别",
         "dateOfBirth": "出生日期",
         "birthdayPlaceholder": "生日",
@@ -3128,7 +3230,28 @@
         "namePlaceholder": "参赛者姓名",
         "nicknamePlaceholder": "昵称 / 缩写",
         "preferNickname": "在签表中优先使用昵称",
-        "nameTooShort": "请输入至少 3 个字符的姓名"
+        "nameTooShort": "请输入至少 3 个字符的姓名",
+        "palette": "__TODO__",
+        "addColor": "__TODO__",
+        "clearPalette": "__TODO__",
+        "chooseColor": "__TODO__",
+        "missingColor": "__TODO__",
+        "color": "__TODO__",
+        "colorname": "__TODO__",
+        "colorvalue": "__TODO__",
+        "colorgroup": "__TODO__",
+        "moveColorUp": "__TODO__",
+        "removeColor": "__TODO__",
+        "invalidPalette": "__TODO__",
+        "team": {
+          "surface": "__TODO__",
+          "text": "__TODO__",
+          "accent": "__TODO__"
+        },
+        "score": {
+          "surface": "__TODO__",
+          "text": "__TODO__"
+        }
       },
       "staffRole": "角色",
       "contactRelationship": {
@@ -3144,7 +3267,23 @@
       "closeTheDay": "结束当日",
       "closeTheDayNobody": "目前无人处于签到状态",
       "closeTheDayConfirm_one": "为今日仍处于签到状态的 {{count}} 人办理签退吗？",
-      "closeTheDayConfirm_other": "为今日仍处于签到状态的 {{count}} 人办理签退吗？"
+      "closeTheDayConfirm_other": "为今日仍处于签到状态的 {{count}} 人办理签退吗？",
+      "footer": {
+        "label": "__TODO__",
+        "scopeSelected": "__TODO__",
+        "gender": "__TODO__",
+        "signIn": "__TODO__",
+        "signedIn": "__TODO__",
+        "notSignedIn": "__TODO__",
+        "entry": "__TODO__",
+        "entered": "__TODO__",
+        "unentered": "__TODO__",
+        "gaps": "__TODO__",
+        "noRating": "__TODO__",
+        "noDob": "__TODO__",
+        "ages": "__TODO__",
+        "noAgeCategory": "__TODO__"
+      }
     },
     "participation": {
       "title": "赛程",
@@ -3185,7 +3324,24 @@
       "overrideScore": "__TODO__",
       "restoreAutoScore": "__TODO__",
       "manualScore": "__TODO__",
-      "winner": "__TODO__"
+      "winner": "__TODO__",
+      "home": "__TODO__",
+      "homeVenue": "__TODO__",
+      "homeHostOrganisation": "__TODO__",
+      "editHome": "__TODO__",
+      "saveHome": "__TODO__",
+      "homeTeam": "__TODO__",
+      "homeEditHint": "__TODO__",
+      "homeEditHintNoClear": "__TODO__",
+      "homeInferredVenueHint": "__TODO__",
+      "homeInferredHostHint": "__TODO__",
+      "homeDraft": "__TODO__",
+      "homeDraftNone": "__TODO__",
+      "homeSaveFailed": "__TODO__",
+      "exportStatCrew": "__TODO__",
+      "statCrewNotComplete": "__TODO__",
+      "statCrewAmbiguous": "__TODO__",
+      "statCrewFailed": "__TODO__"
     }
   },
   "publishing": {
@@ -3240,7 +3396,10 @@
     "informationEvents": "公开列出的赛事",
     "informationEmbargoNote": "已发布，但在 {{when}} 之前不会公开列出。",
     "structure": "结构",
-    "embargoUnreadable": "无法按场馆时钟读取禁令时间，因此未设置。请检查日期和时间，以及锦标赛的时区。"
+    "embargoUnreadable": "无法按场馆时钟读取禁令时间，因此未设置。请检查日期和时间，以及锦标赛的时区。",
+    "dateEmbargoButton": "__TODO__",
+    "dateEmbargoTitle": "__TODO__",
+    "dateEmbargoPending": "__TODO__"
   },
   "cal": "日历",
   "tpl": "模板",
@@ -3996,7 +4155,8 @@
       "nominateFirst": "在设置委托结果前，请先提名一位已验证的计分员。",
       "noOutcomeToConfirm": "此比赛没有可确认的委托结果。",
       "noScorekeeperCandidates": "没有可提名为记分员的已关联 HiveID 的参赛者。",
-      "acceptedLive": "已接受——其实时比分现在对本场比赛具有权威性。"
+      "acceptedLive": "已接受——其实时比分现在对本场比赛具有权威性。",
+      "promoteFailed": "__TODO__"
     },
     "tooltip": {
       "liveTracker": "通过实时跟踪器上报比分",
@@ -4260,6 +4420,33 @@
       "byRelationship": "由 {{name}}（{{relationship}}）签到",
       "byOperator": "由 {{name}} 签到",
       "at": "于 {{time}}"
+    },
+    "callAnyway": "__TODO__",
+    "callTitle": "__TODO__",
+    "callChanged": "__TODO__",
+    "desk": {
+      "title": "__TODO__",
+      "side": "__TODO__",
+      "search": "__TODO__",
+      "status": "__TODO__",
+      "all": "__TODO__",
+      "awaiting": "__TODO__",
+      "partial": "__TODO__",
+      "complete": "__TODO__",
+      "allEvents": "__TODO__",
+      "allVenues": "__TODO__",
+      "statusChips": "__TODO__",
+      "hint": "__TODO__",
+      "matchCount_other": "__TODO__",
+      "matchCount_one": "__TODO__",
+      "empty": "__TODO__",
+      "checkedIn": "__TODO__",
+      "timeUnassigned": "__TODO__",
+      "courtUnassigned": "__TODO__",
+      "present": "__TODO__",
+      "noParticipants": "__TODO__",
+      "checkOutLocked": "__TODO__",
+      "readOnly": "__TODO__"
     }
   },
   "ofc": "官员",
@@ -4366,7 +4553,13 @@
       "tierPlaceholder": "例如 W50、Level 3",
       "tierSystem": "级别体系",
       "tier": "级别",
-      "tierNotConfigured": "{{system}}（未配置）"
+      "tierNotConfigured": "{{system}}（未配置）",
+      "governingBodyProvider": "__TODO__",
+      "governingBodyChoose": "__TODO__",
+      "governingBodyUnknown": "__TODO__",
+      "rulebook": "__TODO__",
+      "rulebookOnly": "__TODO__",
+      "rulebookSelect": "__TODO__"
     },
     "events": {
       "heading": "赛事提案",
@@ -4629,7 +4822,17 @@
     "drawGenerated": "签表生成成功",
     "templateName": "模板名称",
     "templateSaved": "模板已保存",
-    "structuresNotAttached": "签表已生成，但以下结构无法附加：{{unattached}}"
+    "structuresNotAttached": "签表已生成，但以下结构无法附加：{{unattached}}",
+    "useForOtherFlights": "__TODO__",
+    "useForOtherFlightsTitle": "__TODO__",
+    "flightDraftsMade_other": "__TODO__",
+    "flightDraftsMade_one": "__TODO__",
+    "replaceFlightDrafts_other": "__TODO__",
+    "replaceFlightDrafts_one": "__TODO__",
+    "draftInBuilder": "__TODO__",
+    "eventNotFound": "__TODO__",
+    "discardDraft": "__TODO__",
+    "discardDraftQuery": "__TODO__"
   },
   "participantFields": {
     "identifiers": "标识符",
@@ -4714,7 +4917,8 @@
     "noDrawsYet": "尚无签表。",
     "notGenerated": "未生成",
     "clearFilters": "清除筛选",
-    "deleteAllFlights": "__TODO__"
+    "deleteAllFlights": "__TODO__",
+    "selectedCount": "__TODO__"
   },
   "addDrawForm": {
     "sizeMin": "签表规模至少为 2",
@@ -4791,7 +4995,10 @@
     "substitution": "替补",
     "assignSeedNumber": "分配种子序号 ",
     "seedNumber": "种子序号",
-    "nickname": "昵称 "
+    "nickname": "昵称 ",
+    "setHomeTeam": "__TODO__",
+    "clearHomeTeam": "__TODO__",
+    "exportStatCrew": "__TODO__"
   },
   "entries": {
     "alreadyInDraw": "所选参赛者均已在该签表中",
@@ -4844,11 +5051,11 @@
     }
   },
   "ageCategories": {
-    "u10": "10 岁及以下",
-    "u12": "12 岁及以下",
-    "u14": "14 岁及以下",
-    "u16": "16 岁及以下",
-    "u18": "18 岁及以下"
+    "u10": "__STALE__10 岁及以下",
+    "u12": "__STALE__12 岁及以下",
+    "u14": "__STALE__14 岁及以下",
+    "u16": "__STALE__16 岁及以下",
+    "u18": "__STALE__18 岁及以下"
   },
   "roundOptions": {
     "roundActions": "本轮操作",
@@ -5003,10 +5210,14 @@
   },
   "exportFile": {
     "saveJson": "保存为 JSON",
-    "saveFile": "保存文件"
+    "saveFile": "保存文件",
+    "saveXml": "__TODO__"
   },
   "remoteMutations": {
-    "updateFailed": "远程更新失败——请重新加载"
+    "updateFailed": "远程更新失败——请重新加载",
+    "tournamentReplaced": "__TODO__",
+    "refreshWaiting": "__TODO__",
+    "refreshBlocked": "__TODO__"
   },
   "mutationPrompts": {
     "modify": "要修改吗？",
@@ -5085,7 +5296,7 @@
     "title": "演示时钟",
     "launch": "打开演示时钟",
     "cannotStart": "演示时钟无法启动：此锦标赛需要开始日期和场馆时区。",
-    "launchHint": "加载一个全新的 Scheduling Lab，包含 Garman、Pro 及组合演练和演示时钟。时钟仅在 Scheduling Lab 中运行：只要有一个处于打开状态，“打开演示时钟”即可将时钟调回。仅在未登录时可用。",
+    "launchHint": "__STALE__加载一个全新的 Scheduling Lab，包含 Garman、Pro 及组合演练和演示时钟。时钟仅在 Scheduling Lab 中运行：只要有一个处于打开状态，“打开演示时钟”即可将时钟调回。仅在未登录时可用。",
     "collapse": "隐藏控件",
     "expand": "时钟控件",
     "exit": "退出时钟",
@@ -5141,7 +5352,10 @@
     "capturing": "录制中 · {{count}} 个步骤",
     "captureReady": "录制就绪 · {{count}} 个步骤",
     "captureLimit": "录制已在捕获上限处停止。请导出已录制的步骤。",
-    "captureFailed": "无法开始录制。请检查演示时钟控制是否处于活动状态。"
+    "captureFailed": "无法开始录制。请检查演示时钟控制是否处于活动状态。",
+    "notPastEnd": "__TODO__",
+    "startNextDay": "__TODO__",
+    "noNextDay": "__TODO__"
   },
   "eventDates": {
     "placementWarning": "__TODO__",
@@ -5162,7 +5376,19 @@
     "scheduleAnyway": "__TODO__",
     "extendEventDates": "__TODO__",
     "extended": "__TODO__",
-    "extendFailed": "__TODO__"
+    "extendFailed": "__TODO__",
+    "outsideTournament": {
+      "button_other": "__TODO__",
+      "button_one": "__TODO__",
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "disjoint": "__TODO__",
+      "edge": "__TODO__",
+      "setToTournament": "__TODO__",
+      "trim": "__TODO__",
+      "fixed": "__TODO__",
+      "failed": "__TODO__"
+    }
   },
   "courtUse": {
     "disable": "__TODO__",
@@ -5184,5 +5410,217 @@
     "venueDisabled": "__TODO__",
     "dropRefused": "__TODO__",
     "failed": "__TODO__"
+  },
+  "tournamentClock": {
+    "ariaLabel": "__TODO__",
+    "title": "__TODO__"
+  },
+  "networkIsolation": {
+    "blocked": "__TODO__",
+    "reservedId": "__TODO__"
+  },
+  "timeWarp": {
+    "publicLinksUnavailable": "__TODO__",
+    "serverDisabled": "__TODO__",
+    "copyOnly": "__TODO__",
+    "enter": "__TODO__",
+    "exit": "__TODO__",
+    "label": "__TODO__",
+    "hint": "__TODO__",
+    "finishFirst": "__TODO__",
+    "exitRecovered": "__TODO__",
+    "startTitle": "__TODO__",
+    "startQuestion": "__TODO__",
+    "startAtLastChange": "__TODO__",
+    "startNow": "__TODO__"
+  },
+  "teamPresentation": {
+    "title": "__TODO__",
+    "scope": "__TODO__",
+    "allTeams": "__TODO__",
+    "reset": "__TODO__",
+    "inherit": "__TODO__",
+    "theme": "__TODO__",
+    "color": "__TODO__",
+    "colorValue": "__TODO__",
+    "palette": "__TODO__",
+    "paletteValue": "__TODO__",
+    "choosePalette": "__TODO__",
+    "missingTeam": "__TODO__",
+    "missingColor": "__TODO__",
+    "invalid": "__TODO__",
+    "importTeams": "__TODO__",
+    "providerIds": "__TODO__",
+    "providerError": "__TODO__",
+    "searchTeams": "__TODO__",
+    "search": "__TODO__",
+    "more": "__TODO__",
+    "noTeams": "__TODO__",
+    "tournamentChanged": "__TODO__"
+  },
+  "participantMerge": {
+    "title": "__TODO__",
+    "selectTwo": "__TODO__",
+    "keep": "__TODO__",
+    "remove": "__TODO__",
+    "source": "__TODO__",
+    "target": "__TODO__",
+    "choose": "__TODO__",
+    "confirm": "__TODO__",
+    "success": "__TODO__",
+    "unavailable": "__TODO__",
+    "failed": "__TODO__",
+    "references": "__TODO__",
+    "blocked": "__TODO__",
+    "refresh": "__TODO__",
+    "pending": "__TODO__",
+    "SHARED_DRAW": "__TODO__",
+    "PAIR_COLLAPSE": "__TODO__",
+    "DUPLICATE_PAIR": "__TODO__",
+    "PERSON_ID_CONFLICT": "__TODO__",
+    "ISSUED_ID_CONFLICT": "__TODO__",
+    "INVALID_ISSUED_ID": "__TODO__",
+    "HISTORY_CONFLICT": "__TODO__",
+    "ROLE_CONFLICT": "__TODO__",
+    "ENTRY_CONFLICT": "__TODO__",
+    "UNSUPPORTED_REFERENCE": "__TODO__",
+    "INVALID_RESOLUTION": "__TODO__",
+    "importStatus": {
+      "new": "__TODO__",
+      "unchanged": "__TODO__",
+      "update": "__TODO__",
+      "redirected": "__TODO__",
+      "invalid": "__TODO__"
+    },
+    "OPPOSING_SIDES": "__TODO__",
+    "DUPLICATE_LINEUP": "__TODO__",
+    "FLIGHT_CONFLICT": "__TODO__",
+    "INVALID_CONTACT_MEMBER": "__TODO__",
+    "INTEGRITY_CONFLICT": "__TODO__",
+    "birthDate": "__TODO__",
+    "givenName": "__TODO__",
+    "familyName": "__TODO__",
+    "nationality": "__TODO__",
+    "name": "__TODO__",
+    "sex": "__TODO__",
+    "entryStatus": "__TODO__",
+    "entryStage": "__TODO__",
+    "invalidImport": "__TODO__",
+    "ENTRY_GROUPING_CONFLICT": "__TODO__"
+  },
+  "supportReports": {
+    "help": "__TODO__",
+    "feedback": "__TODO__",
+    "report": "__TODO__",
+    "kind": "__TODO__",
+    "kindBug": "__TODO__",
+    "kindSuggestion": "__TODO__",
+    "suggestionTitle": "__TODO__",
+    "suggestionDescription": "__TODO__",
+    "suggestionExplanation": "__TODO__",
+    "suggestionPromise": "__TODO__",
+    "sendSuggestion": "__TODO__",
+    "acknowledged": "__TODO__",
+    "checking": "__TODO__",
+    "unavailable": "__TODO__",
+    "unknownProvider": "__TODO__",
+    "title": "__TODO__",
+    "description": "__TODO__",
+    "expected": "__TODO__",
+    "steps": "__TODO__",
+    "send": "__TODO__",
+    "close": "__TODO__",
+    "explanation": "__TODO__",
+    "promise": "__TODO__",
+    "settings": "__TODO__",
+    "closeSettings": "__TODO__",
+    "accepted": "__TODO__",
+    "pending": "__TODO__",
+    "verified": "__TODO__",
+    "failed": "__TODO__",
+    "changed": "__TODO__",
+    "isolated": "__TODO__",
+    "tooLong": "__TODO__",
+    "login": "__TODO__",
+    "noProvider": "__TODO__",
+    "notPermitted": "__TODO__",
+    "disabled": "__TODO__",
+    "receipt": "__TODO__",
+    "status": "__TODO__",
+    "accountTitle": "__TODO__",
+    "accountExplanation": "__TODO__",
+    "accountEmail": "__TODO__",
+    "accountSave": "__TODO__",
+    "accountResend": "__TODO__",
+    "accountMissing": "__TODO__",
+    "accountSaved": "__TODO__",
+    "accountFailed": "__TODO__",
+    "emailNone": "__TODO__",
+    "emailPending": "__TODO__",
+    "emailAwaiting": "__TODO__",
+    "emailAccepted": "__TODO__",
+    "emailFailed": "__TODO__",
+    "deliveryUnknown": "__TODO__",
+    "deliveryNotSent": "__TODO__"
+  },
+  "moveTournament": {
+    "button": "__TODO__",
+    "title": "__TODO__",
+    "tournament": "__TODO__",
+    "currentProvider": "__TODO__",
+    "destination": "__TODO__",
+    "chooseDestination": "__TODO__",
+    "providersLoadError": "__TODO__",
+    "preview": "__TODO__",
+    "previewButton": "__TODO__",
+    "previewError": "__TODO__",
+    "from": "__TODO__",
+    "to": "__TODO__",
+    "calendarMoves": "__TODO__",
+    "calendarUnlisted": "__TODO__",
+    "revokeAccess": {
+      "title": "__TODO__",
+      "confirm_other": "__TODO__",
+      "confirm_one": "__TODO__"
+    },
+    "crossProvisioner": {
+      "title": "__TODO__",
+      "confirm": "__TODO__"
+    },
+    "reason": "__TODO__",
+    "reasonPlaceholder": "__TODO__",
+    "moveButton": "__TODO__",
+    "moved": "__TODO__",
+    "moveError": "__TODO__"
+  },
+  "teamDisplay": {
+    "title": "__TODO__",
+    "saved": "__TODO__",
+    "error": "__TODO__"
+  },
+  "supportInbox": {
+    "title": "__TODO__",
+    "loading": "__TODO__",
+    "unavailable": "__TODO__",
+    "retry": "__TODO__",
+    "empty": "__TODO__",
+    "older": "__TODO__",
+    "newer": "__TODO__",
+    "back": "__TODO__",
+    "reference": "__TODO__",
+    "received": "__TODO__",
+    "kind": "__TODO__",
+    "scope": "__TODO__",
+    "description": "__TODO__",
+    "diagnostics": "__TODO__",
+    "resolution": "__TODO__",
+    "triage": "__TODO__",
+    "save": "__TODO__",
+    "saveNote": "__TODO__",
+    "saveFailed": "__TODO__",
+    "email": "__TODO__",
+    "adminMail": "__TODO__",
+    "bug": "__TODO__",
+    "suggestion": "__TODO__"
   }
 }

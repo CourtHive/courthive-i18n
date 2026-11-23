@@ -1339,7 +1339,33 @@
     "collapseAllGroups": "Collapse all groups",
     "expandAllGroups": "Expand all groups",
     "live": "LIVE",
-    "liveTooltip": "Live score — unofficial until the result is entered"
+    "liveTooltip": "Live score — unofficial until the result is entered",
+    "carryover": {
+      "warning": "Warning",
+      "tooltip_one": "{{count}} match from an earlier day has no result and holds back {{blocked}} matches that cannot be scheduled after it",
+      "tooltip_other": "{{count}} matches from earlier days have no result and hold back {{blocked}} matches that cannot be scheduled after them",
+      "title": "Unfinished matches from earlier days",
+      "explanation_one": "{{count}} match is still scheduled on an earlier day without a result. It holds back {{blocked}} matches that feed into it.",
+      "explanation_other": "{{count}} matches are still scheduled on earlier days without a result. They hold back {{blocked}} matches that feed into them.",
+      "why": "A match may not be scheduled after a match it feeds into. Until these matches move off their earlier day, the matches feeding them cannot be given today's date, and the date picker will not offer it.",
+      "blockingHeading": "Holding matches back",
+      "otherHeading": "Also unfinished, holding nothing back",
+      "holdsBack_one": "holds back {{count}} match",
+      "holdsBack_other": "holds back {{count}} matches",
+      "underWay": "already started",
+      "locked": "schedule locked",
+      "tbd": "TBD",
+      "clearNote": "Clearing removes the day, time and court from the selected matches. They return to the Unscheduled catalog to be placed again.",
+      "clearSelected_one": "Clear {{count}} match",
+      "clearSelected_other": "Clear {{count}} matches",
+      "cleared_one": "Cleared the schedule of {{count}} match",
+      "cleared_other": "Cleared the schedule of {{count}} matches"
+    },
+    "dateBounds": {
+      "notAfter": "Days after {{date}} are not offered: {{matchUp}}, which this match feeds into, is scheduled {{when}}. Move or clear that match to schedule this one later.",
+      "notBefore": "Days before {{date}} are not offered: {{matchUp}}, which feeds into this match, is scheduled {{when}}.",
+      "linkedMatchUp": "a linked match"
+    }
   },
   "penalties": {
     "AUDIBLE_OBSCENITY": "Audible Obscenity",
@@ -1452,7 +1478,8 @@
       "linkedTournaments": "Linked Tournaments",
       "themeMode": "Mode",
       "lightPalette": "Light mode theme",
-      "darkPalette": "Dark mode theme"
+      "darkPalette": "Dark mode theme",
+      "smartComplements": "Smart complements (Dynamic Sets only)"
     },
     "editTournamentName": {
       "title": "Edit Tournament Name",
@@ -1780,7 +1807,8 @@
       "remaining": "Generate flights for the remaining participants ({{count}})",
       "noneRemaining": "Every participant is already in a flight",
       "noneInBand": "No remaining participant is rated within that band",
-      "alreadyFlighted": "Already in a flight: {{names}}. Add them to these flights anyway?"
+      "alreadyFlighted": "Already in a flight: {{names}}. Add them to these flights anyway?",
+      "noRatings": "Rating (no ratings in this event)"
     },
     "addConsolation": {
       "title": "Add voluntary consolation",
@@ -1861,7 +1889,22 @@
       "statusUnavailable": "{{status}} is unavailable for this match",
       "suspended": "Suspended",
       "inProgress": "In Progress",
-      "awaitingResult": "Awaiting Result"
+      "awaitingResult": "Awaiting Result",
+      "title": "Score Entry",
+      "cancel": "Cancel",
+      "clear": "Clear",
+      "submit": "Submit Score",
+      "format": "Format",
+      "irregularEnding": "Irregular Ending",
+      "winner": "Winner",
+      "validScore": "Valid score",
+      "scoreIncomplete": "Score incomplete",
+      "invalidScore": "Invalid score",
+      "scoreTips": "Score Entry Tips:",
+      "setScores": "Set Scores:",
+      "tiebreaks": "Tiebreaks:",
+      "matchTiebreaks": "Match Tiebreaks:",
+      "irregularEndings": "Irregular Endings:"
     },
     "scoreEntry": {
       "title": "Score Entry",
@@ -2017,7 +2060,7 @@
     },
     "editCategories": {
       "title": "Tournament Categories",
-      "intro": "Add or remove categories defined for this tournament. Categories in use cannot be edited or removed — change them by replacing the events that reference them.",
+      "intro": "Add, edit or remove categories defined for this tournament. Categories in use cannot be edited or removed — change them by replacing the events that reference them.",
       "add": "+ Add category",
       "empty": "No categories defined yet.",
       "duplicate": "A category with that name or code already exists.",
@@ -2026,7 +2069,18 @@
       "deleteDisabledHint": "This category is used by one or more events. Remove or reassign those events first.",
       "unused": "Unused",
       "usageCount": "{{count}} event(s)",
-      "usageList": "{{name}} is used by: {{events}}"
+      "usageList": "{{name}} is used by: {{events}}",
+      "ageAtMost": "{{max}} or younger on {{date}} (born on or after {{born}})",
+      "ageAtLeast": "{{min}} or older on {{date}} (born on or before {{born}})",
+      "ageBetween": "Ages {{min}}–{{max}} on {{date}}",
+      "ratingBetween": "{{ratingType}} {{min}}–{{max}}",
+      "ratingAtMost": "{{ratingType}} {{max}} or lower",
+      "ratingAtLeast": "{{ratingType}} {{min}} or higher",
+      "ratingAny": "{{ratingType}}, any rating",
+      "noRule": "No age or rating rule: restricts nobody",
+      "ball": "Ball: {{ballType}}",
+      "undefinedTitle": "Used by events, not defined for this tournament",
+      "define": "Define"
     },
     "firstLogin": {
       "title": "Set your password",
@@ -2250,7 +2304,12 @@
       "title": "Edit display settings",
       "pathHighlight": "Highlight participant path",
       "showConnectors": "Show connectors",
-      "showFlags": "Show flags"
+      "showFlags": "Show flags",
+      "advanced": "Advanced settings",
+      "basic": "Basic settings",
+      "custom": "custom",
+      "matchUpFooter": "MatchUp footer",
+      "preview": "Preview"
     },
     "chooseProvider": {
       "title": "Choose a provider",
@@ -2290,7 +2349,10 @@
       "copyAll": "Copy all",
       "copied_one": "Copied {{count}} issue",
       "copied_other": "Copied {{count}} issues",
-      "copyFailed": "Could not copy to the clipboard"
+      "copyFailed": "Could not copy to the clipboard",
+      "integrityUnavailable": "The integrity check (factory {{version}}) could not run: {{reason}}. Integrity findings were not checked.",
+      "unknownReason": "unknown error",
+      "incompleteToast": "Imported record could not be fully validated"
     },
     "deleteFlights": {
       "confirmUngenerated_one": "Delete this flight? It has no draw yet; its participants stay entered in the event.",
@@ -2346,7 +2408,8 @@
     "practiceClosed": "Closed",
     "setTimeZone": "Set time zone",
     "setTimeZoneDetected": "(detected: {{zone}})",
-    "practiceNoneAllocated": "None allocated"
+    "practiceNoneAllocated": "None allocated",
+    "categoriesUndefined": "Undefined, used by events: {{names}}"
   },
   "drawers": {
     "editTournament": {
@@ -2360,7 +2423,7 @@
       "selectActiveDates": "Select active dates",
       "activeDates": "Active Dates",
       "timeZoneLabel": "Time zone",
-      "timeZonePlaceholder": "e.g. America/New_York",
+      "timeZonePlaceholder": "Search a city, country or offset",
       "timeZoneInvalid": "Not a recognised IANA time zone",
       "tierSystemLabel": "Tier system",
       "tierSystemPlaceholder": "e.g. ITF_JUNIOR, ATP, PPA",
@@ -2470,7 +2533,15 @@
       "targetCapacity": "Round {{round}} can still take {{open}} of its {{total}} positions.",
       "alreadyFed": "Round {{round}} is already fed by {{feederNames}}: {{count}} qualifiers promised.",
       "noFeeders": "No qualifying structure feeds round {{round}} yet.",
-      "qualifying": "Qualifying"
+      "qualifying": "Qualifying",
+      "openInBuilder": "Open in draw builder",
+      "entriesNotPlaced_one": "{{count}} accepted entry was not placed in the draw (draw size {{drawSize}}): {{names}}",
+      "entriesNotPlaced_other": "{{count}} accepted entries were not placed in the draw (draw size {{drawSize}}): {{names}}",
+      "qualifyingEntriesNotPlaced_one": "{{count}} qualifying entry was not placed in qualifying (draw size {{drawSize}}): {{names}}",
+      "qualifyingEntriesNotPlaced_other": "{{count}} qualifying entries were not placed in qualifying (draw size {{drawSize}}): {{names}}",
+      "insufficientPositions_one": "{{entries}} entries for {{places}} places: 1 more than the draw can hold. Enlarge the draw, or move an entry to the alternates.",
+      "insufficientPositions_other": "{{entries}} entries for {{places}} places: {{count}} more than the draw can hold. Enlarge the draw, or move entries to the alternates.",
+      "qualifyingDrawTooSmall": "A qualifying draw of {{drawSize}} cannot hold {{entriesCount}} qualifying entries. Choose a larger draw size or withdraw entries first."
     }
   },
   "toasts": {
@@ -2543,7 +2614,8 @@
     "scoreRefused": "This match can't be scored or corrected now: the draw does not offer scoring for it.",
     "durableChangeNeedsReview": "An earlier change needs review. Refresh the tournament before continuing.",
     "durableCommandNotStored": "Durable command could not be stored for this session",
-    "durableQueueFailed": "The change could not be queued durably; keep this page open"
+    "durableQueueFailed": "The change could not be queued durably; keep this page open",
+    "overwriteNotConfirmed": "Not saved — the other score stands. Submit again to overwrite it."
   },
   "loginMenu": {
     "authorization": "Authorization",
@@ -2560,7 +2632,11 @@
     "actions": "Actions",
     "settings": "Settings",
     "admin": "Admin",
-    "system": "System"
+    "system": "System",
+    "account": "Account",
+    "accountMenu": "Account menu",
+    "timeWarpSection": "Time Warp & demo",
+    "help": "Help"
   },
   "providerSwitcher": {
     "title": "Provider",
@@ -2596,10 +2672,12 @@
     },
     "courts": {
       "courtName": "Court Name",
-      "scheduledTime": "Scheduled Time",
-      "unscheduledTime": "Unscheduled Time",
+      "scheduledTime": "Scheduled",
+      "unscheduledTime": "Unscheduled",
       "inOut": "In/Out",
-      "surface": "Surface"
+      "surface": "Surface",
+      "practiceTime": "Practice",
+      "blockedTime": "Blocked"
     },
     "entries": {
       "name": "Name",
@@ -2609,7 +2687,8 @@
       "seed": "Seed",
       "drawPosition": "Pos",
       "flights": "Draws",
-      "status": "Status"
+      "status": "Status",
+      "path": "Path"
     },
     "teamRow": {
       "order": "Order",
@@ -2771,7 +2850,15 @@
       "called": "Called",
       "scheduleLocked": "Schedule locked",
       "hotkeyScoring": "Hotkey score entry",
-      "hotkeyPlaceholder": "type score"
+      "hotkeyPlaceholder": "type score",
+      "typeLabel": "Type",
+      "profileLabel": "Profile",
+      "statusLabel": "Status",
+      "statusDetailLabel": "Status detail",
+      "anyStatusDetail": "Any detail",
+      "statusStripLabel": "Quick status filter",
+      "eventLabel": "Event",
+      "flightLabel": "Flight"
     },
     "schedule": {
       "searchParticipants": "Search participants",
@@ -3037,6 +3124,21 @@
         "notPlaced_other": "{{count}} qualified participants could not be placed: {{names}}.",
         "positionsOpen_one": "{{count}} qualifier position is still open.",
         "positionsOpen_other": "{{count}} qualifier positions are still open."
+      },
+      "drawBuilder": "Draw builder",
+      "savedTemplates": "Saved templates",
+      "addDrawMenu": "Draw builder and templates",
+      "completeMatchUps": {
+        "tooltip": "Complete matchUps",
+        "title": "Complete matchUps",
+        "all": "All remaining",
+        "throughRound": "Through round",
+        "completesRound": "Completes {{round}}",
+        "completesRounds": "Completes {{from}} through {{to}}",
+        "matchUps_one": "{{count}} matchUp",
+        "matchUps_other": "{{count}} matchUps",
+        "roundDone": "{{round}} is complete",
+        "nothingLeft": "Every matchUp in this structure is complete"
       }
     },
     "participants": {
@@ -3079,7 +3181,7 @@
         "firstNamePlaceholder": "Given name",
         "lastName": "Last name",
         "lastNamePlaceholder": "Family name",
-        "nameError": "Please enter a name of at least 3 characters",
+        "nameError": "Please enter a name of at least 2 characters",
         "sex": "Sex",
         "dateOfBirth": "Date of birth",
         "birthdayPlaceholder": "Birthday",
@@ -3132,7 +3234,28 @@
         "namePlaceholder": "Participant name",
         "nicknamePlaceholder": "Nickname / abbreviation",
         "preferNickname": "Prefer nickname in draws",
-        "nameTooShort": "Please enter a name of at least 3 characters"
+        "nameTooShort": "Please enter a name of at least 3 characters",
+        "palette": "Team colors and default display",
+        "addColor": "Add color",
+        "clearPalette": "Clear palette",
+        "chooseColor": "Use theme default",
+        "missingColor": "Selected color removed — choose another",
+        "color": "Color",
+        "colorname": "Color name (optional)",
+        "colorvalue": "Color value",
+        "colorgroup": "Brand group (optional)",
+        "moveColorUp": "Move color up",
+        "removeColor": "Remove color",
+        "invalidPalette": "Check colors and role assignments. Every assigned role must reference an existing palette color.",
+        "team": {
+          "surface": "Team background",
+          "text": "Team text",
+          "accent": "Team accent"
+        },
+        "score": {
+          "surface": "Score background",
+          "text": "Score text"
+        }
       },
       "staffRole": "Role",
       "contactRelationship": {
@@ -3148,7 +3271,23 @@
       "closeTheDay": "Close the day",
       "closeTheDayNobody": "Nobody is currently signed in",
       "closeTheDayConfirm_one": "Sign out {{count}} person who is still signed in today?",
-      "closeTheDayConfirm_other": "Sign out {{count}} people who are still signed in today?"
+      "closeTheDayConfirm_other": "Sign out {{count}} people who are still signed in today?",
+      "footer": {
+        "label": "Participant counts",
+        "scopeSelected": "{{count}} selected",
+        "gender": "Gender",
+        "signIn": "Sign-in",
+        "signedIn": "Signed in",
+        "notSignedIn": "Not signed in",
+        "entry": "Entry",
+        "entered": "Entered",
+        "unentered": "Unentered",
+        "gaps": "Missing data",
+        "noRating": "No rating",
+        "noDob": "No DOB",
+        "ages": "Age",
+        "noAgeCategory": "No age category"
+      }
     },
     "participation": {
       "title": "Schedule",
@@ -3189,7 +3328,24 @@
       "overrideScore": "Override",
       "restoreAutoScore": "Restore automatic scoring",
       "manualScore": "Set by hand",
-      "winner": "Winner"
+      "winner": "Winner",
+      "home": "Home",
+      "homeVenue": "Home (venue)",
+      "homeHostOrganisation": "Home (host organisation)",
+      "editHome": "Edit home team",
+      "saveHome": "Save home team",
+      "homeTeam": "Home team",
+      "homeEditHint": "Select the home team · select it again for no home team",
+      "homeEditHintNoClear": "Select the home team",
+      "homeInferredVenueHint": "Home comes from the venue — select a team to set it",
+      "homeInferredHostHint": "Home comes from the host organisation — select a team to set it",
+      "homeDraft": "Home: {{name}} (unsaved)",
+      "homeDraftNone": "No home team set (unsaved)",
+      "homeSaveFailed": "Not saved — save again or cancel",
+      "exportStatCrew": "Export StatCrew",
+      "statCrewNotComplete": "StatCrew can be exported once the dual is complete",
+      "statCrewAmbiguous": "These teams met more than once, so the StatCrew game cannot be told apart",
+      "statCrewFailed": "The StatCrew file could not be produced"
     }
   },
   "publishing": {
@@ -3244,7 +3400,10 @@
     "informationEvents": "Events listed publicly",
     "informationEmbargoNote": "Published, but not listed publicly until {{when}}.",
     "structure": "Structure",
-    "embargoUnreadable": "The embargo time could not be read on the venue’s clock, so it was not set. Check the date and time, and the tournament’s time zone."
+    "embargoUnreadable": "The embargo time could not be read on the venue’s clock, so it was not set. Check the date and time, and the tournament’s time zone.",
+    "dateEmbargoButton": "Set a release time for {{date}}",
+    "dateEmbargoTitle": "Release time for {{date}}",
+    "dateEmbargoPending": "Withheld until {{when}}"
   },
   "formatWizard": {
     "title": "Format Wizard",
@@ -3996,7 +4155,8 @@
       "nominateFirst": "Nominate a verified scorer before setting a delegated outcome.",
       "noOutcomeToConfirm": "No delegated outcome to confirm on this match.",
       "noScorekeeperCandidates": "No HiveID-linked participants to nominate as scorekeeper.",
-      "acceptedLive": "Accepted — their live scores are now authoritative for this match."
+      "acceptedLive": "Accepted — their live scores are now authoritative for this match.",
+      "promoteFailed": "Their live scores could not be made authoritative (relay unavailable or refused). Nothing was promoted."
     },
     "tooltip": {
       "liveTracker": "Score reported via live tracker",
@@ -4260,6 +4420,33 @@
       "byRelationship": "Checked in by {{name}} ({{relationship}})",
       "byOperator": "Checked in by {{name}}",
       "at": "at {{time}}"
+    },
+    "callAnyway": "Call to court anyway",
+    "callTitle": "Call before check-in?",
+    "callChanged": "The match or court changed while this dialog was open. Review it and try again.",
+    "desk": {
+      "title": "Check-In",
+      "side": "Side {{number}}:",
+      "search": "Search participant names",
+      "status": "Check-in status",
+      "all": "All check-in states",
+      "awaiting": "Awaiting check-in",
+      "partial": "Partially checked in",
+      "complete": "Everyone checked in",
+      "allEvents": "All events",
+      "allVenues": "All venues",
+      "statusChips": "Match status",
+      "hint": "Check in each player for this match. Changes save immediately.",
+      "matchCount_one": "{{count}} match",
+      "matchCount_other": "{{count}} matches",
+      "empty": "No matches match these filters on this date.",
+      "checkedIn": "{{summary}} checked in",
+      "timeUnassigned": "Time unassigned",
+      "courtUnassigned": "Court unassigned",
+      "present": "Checked in",
+      "noParticipants": "There are no participants available for check-in.",
+      "checkOutLocked": "Check-out is unavailable once play has started or a score has been recorded.",
+      "readOnly": "Check-in changes are unavailable for this match."
     }
   },
   "ofc": "Officials",
@@ -4366,7 +4553,13 @@
       "tierPlaceholder": "e.g. W50, Level 3",
       "tierSystem": "Tier System",
       "tier": "Tier",
-      "tierNotConfigured": "{{system}} (not configured)"
+      "tierNotConfigured": "{{system}} (not configured)",
+      "governingBodyProvider": "The provider applying, which owns the sanctioned tournament.",
+      "governingBodyChoose": "The provider filing this application; it owns the sanctioned tournament.",
+      "governingBodyUnknown": "No provider selected",
+      "rulebook": "Rulebook",
+      "rulebookOnly": "The only sanctioning rulebook configured for this provider.",
+      "rulebookSelect": "Selects the sanctioning rulebook applied to this application."
     },
     "events": {
       "heading": "Event Proposals",
@@ -4629,7 +4822,17 @@
     "drawGenerated": "Draw generated successfully",
     "templateName": "Template Name",
     "templateSaved": "Template saved",
-    "structuresNotAttached": "Draw generated, but these structures could not be attached: {{unattached}}"
+    "structuresNotAttached": "Draw generated, but these structures could not be attached: {{unattached}}",
+    "useForOtherFlights": "Use for other flights",
+    "useForOtherFlightsTitle": "Give the other flights without a draw this design, sized to their own entries, as drafts to review",
+    "flightDraftsMade_one": "{{count}} flight has this design as its draft",
+    "flightDraftsMade_other": "{{count}} flights have this design as their draft",
+    "replaceFlightDrafts_one": "{{count}} flight already has a draft. Replace it with this design?",
+    "replaceFlightDrafts_other": "{{count}} flights already have a draft. Replace them with this design?",
+    "draftInBuilder": "Draft in the builder",
+    "eventNotFound": "Event not found",
+    "discardDraft": "Discard draft",
+    "discardDraftQuery": "Discard the draw being built for this event?"
   },
   "participantFields": {
     "identifiers": "Identifiers",
@@ -4714,7 +4917,8 @@
     "noDrawsYet": "No draws yet.",
     "notGenerated": "Not generated",
     "clearFilters": "Clear Filters",
-    "deleteAllFlights": "Delete all flights"
+    "deleteAllFlights": "Delete all flights",
+    "selectedCount": "Selected: {{count}}"
   },
   "addDrawForm": {
     "sizeMin": "Draw size must be at least 2",
@@ -4791,7 +4995,10 @@
     "substitution": "Substitution",
     "assignSeedNumber": "Assign seed number ",
     "seedNumber": "Seed number",
-    "nickname": "Nickname "
+    "nickname": "Nickname ",
+    "setHomeTeam": "Set home team",
+    "clearHomeTeam": "Clear home team",
+    "exportStatCrew": "Export StatCrew"
   },
   "entries": {
     "alreadyInDraw": "All selected participants are already in this draw",
@@ -4844,11 +5051,11 @@
     }
   },
   "ageCategories": {
-    "u10": "10 and Under",
-    "u12": "12 and Under",
-    "u14": "14 and Under",
-    "u16": "16 and Under",
-    "u18": "18 and Under"
+    "u10": "Under 10",
+    "u12": "Under 12",
+    "u14": "Under 14",
+    "u16": "Under 16",
+    "u18": "Under 18"
   },
   "roundOptions": {
     "roundActions": "Round actions",
@@ -5003,10 +5210,14 @@
   },
   "exportFile": {
     "saveJson": "Save JSON",
-    "saveFile": "Save File"
+    "saveFile": "Save File",
+    "saveXml": "Save XML"
   },
   "remoteMutations": {
-    "updateFailed": "Remote update failed — please reload"
+    "updateFailed": "Remote update failed — please reload",
+    "tournamentReplaced": "An administrator changed this tournament on the server — reloading",
+    "refreshWaiting": "Newer changes are on the server. They load once your unsaved entry or pending change finishes",
+    "refreshBlocked": "Newer changes can load once your unsaved entry or pending change finishes. Loading them now could discard it"
   },
   "mutationPrompts": {
     "modify": "Modify?",
@@ -5085,7 +5296,7 @@
     "title": "Demo Clock",
     "launch": "Open Demo Clock",
     "cannotStart": "The demo clock could not start: this tournament needs a start date and a venue time zone.",
-    "launchHint": "Load a fresh Scheduling Lab with the Garman, Pro and combined walkthrough and its demo clock. The clock runs only in a Scheduling Lab: while one is open, Open Demo Clock brings the clock back. Available only while signed out.",
+    "launchHint": "Enter Time Warp to experiment on a temporary copy of this tournament, or load a guided Scheduling Lab. Server communication is disabled in Warp. Exit Warp discards the copy; recordings remain available for export.",
     "collapse": "Hide controls",
     "expand": "Clock controls",
     "exit": "Exit clock",
@@ -5141,7 +5352,10 @@
     "capturing": "Recording · {{count}} steps",
     "captureReady": "Recording ready · {{count}} steps",
     "captureLimit": "Recording stopped at the capture limit. Export the recorded steps.",
-    "captureFailed": "Could not start recording. Check that demo clock control is active."
+    "captureFailed": "Could not start recording. Check that demo clock control is active.",
+    "notPastEnd": "The clock goes no further than {{date}}, the day after the tournament ends.",
+    "startNextDay": "Start {{date}} · {{time}}",
+    "noNextDay": "Last day reached"
   },
   "eventDates": {
     "placementWarning": "{{event}} does not play on {{date}} (plays {{playing}}). Placed anyway.",
@@ -5162,7 +5376,19 @@
     "scheduleAnyway": "Schedule anyway",
     "extendEventDates": "Extend event dates",
     "extended": "Event dates extended. Apply the schedule again to place the skipped matchUps.",
-    "extendFailed": "Could not extend the event dates"
+    "extendFailed": "Could not extend the event dates",
+    "outsideTournament": {
+      "button_one": "{{count}} event outside tournament dates",
+      "button_other": "{{count}} events outside tournament dates",
+      "title": "Event dates outside the tournament",
+      "intro": "These events have dates outside the tournament's. Scheduling already uses only the tournament's days; fixing the dates makes the event say so.",
+      "disjoint": "Event dates {{event}} lie entirely outside the tournament ({{tournament}}). Scheduling uses the tournament's dates instead.",
+      "edge": "Event dates {{event}} extend outside the tournament ({{tournament}}). Scheduling uses only the days inside it.",
+      "setToTournament": "Set event dates to tournament dates ({{range}})",
+      "trim": "Trim event dates to {{range}}",
+      "fixed": "Event dates updated",
+      "failed": "Could not update the event dates"
+    }
   },
   "courtUse": {
     "disable": "Don't use",
@@ -5184,5 +5410,217 @@
     "venueDisabled": "Venue not in use",
     "dropRefused": "{{courtName}} is not in use on this date. Use it again first.",
     "failed": "The change was not applied"
+  },
+  "tournamentClock": {
+    "ariaLabel": "Time where the tournament is played",
+    "title": "Tournament time: {{when}} ({{zone}}). Your time: {{local}}"
+  },
+  "networkIsolation": {
+    "blocked": "Server access is disabled in Time Warp",
+    "reservedId": "This tournament ID is reserved for disposable Time Warp copies. Import a copy with a new tournament ID to save it."
+  },
+  "timeWarp": {
+    "publicLinksUnavailable": "Public links are unavailable in Time Warp",
+    "serverDisabled": "Server access is disabled in Time Warp",
+    "copyOnly": "Time Warp can only modify its sandbox copy",
+    "enter": "Enter Time Warp",
+    "exit": "Exit Warp",
+    "label": "Time Warp",
+    "hint": "Temporary local sandbox. Server communication is disabled. Exit Warp discards all sandbox changes.",
+    "finishFirst": "Save or discard drafts and finish pending actions before entering Time Warp.",
+    "exitRecovered": "Time Warp ended after a restore error. The sandbox was discarded; reopen the original tournament if needed.",
+    "startTitle": "Start Time Warp",
+    "startQuestion": "The tournament is under way. Start the warp clock where the record last changed, or now?",
+    "startAtLastChange": "Last change · {{when}}",
+    "startNow": "Now · {{when}}"
+  },
+  "teamPresentation": {
+    "title": "Tournament team presentation",
+    "scope": "Apply to",
+    "allTeams": "All teams",
+    "reset": "Reset this scope to inherited defaults",
+    "inherit": "Inherit",
+    "theme": "Use theme default",
+    "color": "Use color",
+    "colorValue": "custom color",
+    "palette": "Team palette color",
+    "paletteValue": "team palette color",
+    "choosePalette": "Choose team color",
+    "missingTeam": "missing team",
+    "missingColor": "Missing palette color",
+    "invalid": "Check colors and palette references",
+    "importTeams": "Import or refresh team provider defaults",
+    "providerIds": "Team provider IDs (one per line or separated by commas)",
+    "providerError": "Unable to load valid team defaults from the provider",
+    "searchTeams": "Find team providers",
+    "search": "Search",
+    "more": "More teams",
+    "noTeams": "No team providers with display defaults found",
+    "tournamentChanged": "The active tournament changed. No teams were imported."
+  },
+  "participantMerge": {
+    "title": "Merge participants",
+    "selectTwo": "Select exactly two individuals to merge.",
+    "keep": "Participant to keep",
+    "remove": "Their details and tournament participation will move to the participant you keep. The duplicate record will be removed.",
+    "source": "Use duplicate value",
+    "target": "Keep retained value",
+    "choose": "Choose a value",
+    "confirm": "Merge participants",
+    "success": "Merged duplicate into {{name}}.",
+    "unavailable": "Participant merging is not available on this server yet.",
+    "failed": "The merge could not be saved. Review the latest state and try again.",
+    "references": "{{count}} references will be transferred.",
+    "blocked": "Resolve these conflicts before merging:",
+    "refresh": "Refresh review",
+    "pending": "Saving merge…",
+    "SHARED_DRAW": "Both individuals occur in this draw. Remove the duplicate participation before merging.",
+    "PAIR_COLLAPSE": "These individuals form the same pair. Merging would leave only one member.",
+    "DUPLICATE_PAIR": "Merging would create duplicate pairs. Resolve the pair records first.",
+    "PERSON_ID_CONFLICT": "These records have different person identities. Resolve their identity first.",
+    "ISSUED_ID_CONFLICT": "An issuing organisation identifies these records differently.",
+    "INVALID_ISSUED_ID": "An external identifier has no issuing organisation or value.",
+    "HISTORY_CONFLICT": "These records have different histories. This version cannot reconcile them safely.",
+    "ROLE_CONFLICT": "These records have different participant roles.",
+    "ENTRY_CONFLICT": "These records have conflicting entries in the same event and stage.",
+    "UNSUPPORTED_REFERENCE": "A reference in this data cannot be transferred safely by this version.",
+    "INVALID_RESOLUTION": "A field choice is no longer valid. Refresh the review.",
+    "importStatus": {
+      "new": "New participant",
+      "unchanged": "Existing participant — unchanged",
+      "update": "Existing participant — update",
+      "redirected": "Previously merged — uses retained participant",
+      "invalid": "Invalid identity mapping — review required"
+    },
+    "OPPOSING_SIDES": "Merging would put the same individual on both sides of a match.",
+    "DUPLICATE_LINEUP": "Merging would put the same individual into this lineup twice.",
+    "FLIGHT_CONFLICT": "Merging would enter the same individual into multiple flights.",
+    "INVALID_CONTACT_MEMBER": "A grouping contact is not a member of that grouping.",
+    "INTEGRITY_CONFLICT": "Merging would introduce a tournament inconsistency.",
+    "birthDate": "Birth date",
+    "givenName": "Given name",
+    "familyName": "Family name",
+    "nationality": "Nationality",
+    "name": "Name",
+    "sex": "Sex",
+    "entryStatus": "Entry status",
+    "entryStage": "Entry stage",
+    "invalidImport": "Import could not resolve a previously merged participant. Refresh the tournament and review its identity mappings.",
+    "ENTRY_GROUPING_CONFLICT": "Merging would register the same individual through two entrants in this event and stage."
+  },
+  "supportReports": {
+    "help": "Help",
+    "feedback": "Feedback",
+    "report": "Report a problem",
+    "kind": "Feedback type",
+    "kindBug": "Problem",
+    "kindSuggestion": "Suggestion",
+    "suggestionTitle": "Make a suggestion",
+    "suggestionDescription": "What would you like to suggest?",
+    "suggestionExplanation": "Your suggestion and the screen you were on are sent to the CourtHive team. Leave out participant names, dates of birth and contact details. Suggestions are kept for 30 days.",
+    "suggestionPromise": "Suggestions are acknowledged but not answered by email.",
+    "sendSuggestion": "Send suggestion",
+    "acknowledged": "Suggestion received. Reference: {{reference}}. Retained until {{expiry}}. Thank you.",
+    "checking": "Checking whether feedback can be sent…",
+    "unavailable": "Feedback could not be checked. Your text is preserved; try again.",
+    "unknownProvider": "The provider you selected no longer exists. Choose another provider, then send again. Your text is preserved.",
+    "title": "Report a problem",
+    "description": "What went wrong?",
+    "expected": "What did you expect? (optional)",
+    "steps": "Steps to reproduce (optional)",
+    "send": "Send report",
+    "close": "Close",
+    "explanation": "Your description and limited technical error information will be sent to support. No tournament snapshot is attached. Leave out participant names, dates of birth and contact details. Reports are kept for 30 days.",
+    "promise": "We will email you the outcome and any fix or workaround when the investigation is complete. A verified account contact address is required.",
+    "settings": "Open account settings",
+    "closeSettings": "Close account settings",
+    "accepted": "Report received. Reference: {{reference}}. No tournament snapshot attached. Retained until {{expiry}}.",
+    "pending": "Verify your contact address in account settings to receive the resolution email.",
+    "verified": "Your account contact address is verified.",
+    "failed": "The report was not confirmed. Your text is preserved; try again.",
+    "changed": "Your account or provider changed. Close this form and open a new report.",
+    "isolated": "Time Warp started. Close this form and reopen it after returning to your tournament.",
+    "tooLong": "Keep the complete report within 8 KiB.",
+    "login": "Sign in before sending feedback.",
+    "noProvider": "No provider is selected for this session. Choose a provider, then send the report again. Your text is preserved.",
+    "notPermitted": "This account cannot send reports for the selected provider. Your text is preserved.",
+    "disabled": "Problem reports are temporarily unavailable. Your text is preserved; try again later.",
+    "receipt": "Check receipt",
+    "status": "Resolution email: {{state}}. Delivery: {{delivery}}.",
+    "accountTitle": "Account contact email",
+    "accountExplanation": "This changes your account contact address. It is separate from the report. The existing account verification link confirms this address.",
+    "accountEmail": "Account email address",
+    "accountSave": "Save account email",
+    "accountResend": "Resend verification",
+    "accountMissing": "Set an account contact address first.",
+    "accountSaved": "Verification requested. Follow the link in your email to confirm your account contact address.",
+    "accountFailed": "Account contact settings could not be updated. Your report draft is unchanged.",
+    "emailNone": "not sent yet",
+    "emailPending": "queued",
+    "emailAwaiting": "waiting for a verified contact address",
+    "emailAccepted": "accepted by the email service",
+    "emailFailed": "needs support review",
+    "deliveryUnknown": "unconfirmed",
+    "deliveryNotSent": "not sent"
+  },
+  "moveTournament": {
+    "button": "Move to another provider",
+    "title": "Move Tournament to Another Provider",
+    "tournament": "Tournament",
+    "currentProvider": "Current provider",
+    "destination": "Destination provider",
+    "chooseDestination": "Choose a provider…",
+    "providersLoadError": "Failed to load providers.",
+    "preview": "Preview",
+    "previewButton": "Preview",
+    "previewError": "Preview failed.",
+    "from": "From",
+    "to": "To",
+    "calendarMoves": "Its calendar listing moves to the new provider.",
+    "calendarUnlisted": "Not calendar-listed; it is removed from the old provider's calendar.",
+    "revokeAccess": {
+      "title": "Access granted by the old provider",
+      "confirm_one": "Revoke this access row as part of the move",
+      "confirm_other": "Revoke these {{count}} access rows as part of the move"
+    },
+    "crossProvisioner": {
+      "title": "Different provisioner",
+      "confirm": "The destination is under another provisioner; move it there"
+    },
+    "reason": "Reason (recorded in the audit log)",
+    "reasonPlaceholder": "e.g. created under the wrong provider",
+    "moveButton": "Move",
+    "moved": "Moved to {{provider}}",
+    "moveError": "Move failed."
+  },
+  "teamDisplay": {
+    "title": "Team colors and default display",
+    "saved": "Team display defaults saved",
+    "error": "Unable to load or save team display defaults"
+  },
+  "supportInbox": {
+    "title": "Support inbox",
+    "loading": "Loading reports…",
+    "unavailable": "Could not load the support inbox.",
+    "retry": "Retry",
+    "empty": "No current reports.",
+    "older": "Older reports",
+    "newer": "Newer reports",
+    "back": "Back to inbox",
+    "reference": "Reference",
+    "received": "Received",
+    "kind": "Type",
+    "scope": "Scope",
+    "description": "Description",
+    "diagnostics": "Diagnostics",
+    "resolution": "Resolution",
+    "triage": "Triage note",
+    "save": "Submit resolution",
+    "saveNote": "Save triage note",
+    "saveFailed": "Could not confirm the save. Your draft is still here.",
+    "email": "Resolution email",
+    "adminMail": "Inbox notification",
+    "bug": "Bug report",
+    "suggestion": "Suggestion"
   }
 }
