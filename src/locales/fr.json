@@ -933,7 +933,13 @@
       "createFailed": "Impossible de créer le plan",
       "applyFailed": "Impossible d’appliquer le plan",
       "updateFailed": "La mise à jour du plan a échoué",
-      "defaultName": "Plan {{n}}"
+      "defaultName": "Plan {{n}}",
+      "timesOnly": "__TODO__",
+      "timesOnlyTip": "__TODO__",
+      "timesOnlyTitle": "__TODO__",
+      "timesOnlyQuery": "__TODO__",
+      "timesOnlySaved": "__TODO__",
+      "recovery": "__TODO__"
     },
     "drying": "Séchage",
     "lockSchedule": "Verrouiller sur ce créneau",
@@ -1200,6 +1206,45 @@
       "notAfter": "__TODO__",
       "notBefore": "__TODO__",
       "linkedMatchUp": "__TODO__"
+    },
+    "recovery": {
+      "title": "__TODO__",
+      "intro": "__TODO__",
+      "none": "__TODO__",
+      "scheduler": "__TODO__",
+      "profileScheduler": "__TODO__",
+      "gridScheduler": "__TODO__",
+      "gridTiming": "__TODO__",
+      "singlesLimit": "__TODO__",
+      "tournamentLimits": "__TODO__",
+      "ready": "__TODO__",
+      "finish": "__TODO__",
+      "carryoverFinish": "__TODO__",
+      "carryoverNotPlaced": "__TODO__",
+      "startsHold": "__TODO__",
+      "beyond_one": "__TODO__",
+      "beyond_many": "__TODO__",
+      "beyond_other": "__TODO__",
+      "carryoverGroup": "__TODO__",
+      "noStartGroup": "__TODO__",
+      "anotherDay": "__TODO__",
+      "holds": "__TODO__",
+      "assumptions": "__TODO__",
+      "assumption": "__TODO__",
+      "defaultFormat": "__TODO__",
+      "unknownMinutes_one": "__TODO__",
+      "unknownMinutes_many": "__TODO__",
+      "unknownMinutes_other": "__TODO__",
+      "locked_one": "__TODO__",
+      "locked_many": "__TODO__",
+      "locked_other": "__TODO__",
+      "pacing": "__TODO__",
+      "saveAsPlan": "__TODO__",
+      "planName": "__TODO__",
+      "gridPlanName": "__TODO__",
+      "saved": "__TODO__",
+      "saveFailed": "__TODO__",
+      "failed": "__TODO__"
     }
   },
   "penalties": {
@@ -3207,7 +3252,14 @@
       "exportStatCrew": "__TODO__",
       "statCrewNotComplete": "__TODO__",
       "statCrewAmbiguous": "__TODO__",
-      "statCrewFailed": "__TODO__"
+      "statCrewFailed": "__TODO__",
+      "decidedBy": "__TODO__",
+      "decisionMethods": {
+        "SHOOTOUT": "__TODO__",
+        "COMPETITION_RULE": "__TODO__",
+        "LOTS": "__TODO__",
+        "OFFICIAL_DECISION": "__TODO__"
+      }
     }
   },
   "publishing": {
